@@ -54,7 +54,7 @@ export const byDifficulty = (a: Problem, b: Problem) =>
 
 export const getProblem = (id: string) => PROBLEMS.find((p) => p.id === id);
 
-export const isAime = (p: Problem) => p.choices.length === 0;
+export const isAime = (p: Problem) => p.contest === "AIME";
 
 export const label = (p: Problem) =>
   `${p.year} ${p.contest}${p.version ? (p.contest === "AIME" ? " " : "") + p.version : ""} #${p.number}`;

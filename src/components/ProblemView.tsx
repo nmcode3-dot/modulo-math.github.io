@@ -76,8 +76,8 @@ export function ProblemView({ problem }: { problem: Problem }) {
         </form>
       ) : (
         <div className="grid gap-2 sm:grid-cols-5">
-          {problem.choices.map((c, i) => {
-            const L = LETTERS[i]!;
+          {LETTERS.map((L, i) => {
+            const c = problem.choices[i] ?? "";
             const tried = entry?.attempts.includes(L);
             const isAns = done && L === problem.answer;
             return (
@@ -87,7 +87,7 @@ export function ProblemView({ problem }: { problem: Problem }) {
                 onClick={() => submit(L)}
                 className={`choice-btn ${isAns ? "choice-correct" : tried ? "choice-wrong" : ""}`}
               >
-                <span className="font-semibold">({L})</span> <Latex>{c}</Latex>
+                <span className="font-semibold">({L})</span> {c && <Latex>{c}</Latex>}
               </button>
             );
           })}
