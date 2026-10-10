@@ -38,23 +38,32 @@ async function get(path: string): Promise<string | null> {
   const wait = 1000 - (Date.now() - last);
   if (wait > 0) await new Promise((r) => setTimeout(r, wait));
   last = Date.now();
+  const HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+  };
   for (let tries = 0; tries < 3; tries++) {
     try {
-      const res = await fetch(url, {
-        headers: {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-          "Accept-Language": "en-US,en;q=0.9",
-        },
-      });
+      const res = await fetch(url, { headers: HEADERS });
       if (res.status === 404) return null;
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const html = await res.text();
       writeFileSync(file, html);
       return html;
     } catch (e) {
-      if (tries === 2) { logErr(url, String(e)); return null; }
-      await new Promise((r) => setTimeout(r, 3000));
+      if (tries < 2) { await new Promise((r) => setTimeout(r, 3000)); continue; }
+      // Direct fetch failed (AoPS often 403s bots) — fall back to the Wayback Machine.
+      try {
+        const wb = await fetch(`https://web.archive.org/web/2024id_/${url}`, { headers: HEADERS, redirect: "follow" });
+        if (!wb.ok) { logErr(url, `direct failed (${e}); wayback HTTP ${wb.status}`); return null; }
+        const html = await wb.text();
+        writeFileSync(file, html);
+        return html;
+      } catch (e2) {
+        logErr(url, `direct failed (${e}); wayback failed (${e2})`);
+        return null;
+      }
     }
   }
   return null;
