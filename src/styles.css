@@ -168,3 +168,13 @@
   .status-failed { @apply bg-danger-soft text-destructive; }
   .status-progress { @apply bg-accent text-accent-foreground; }
 }
+
+.problem-figure {
+  display: block;
+  max-width: min(100%, 420px);
+  max-height: 360px;
+  margin: 1rem auto;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}

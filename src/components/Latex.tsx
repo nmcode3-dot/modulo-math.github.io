@@ -1,12 +1,18 @@
 import katex from "katex";
 import { useMemo } from "react";
 
-const RE = /(\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)|\$[^$]+?\$)/g;
+// Image tokens look like [[img:https://...]] (diagrams/figures from AoPS).
+const RE = /(\[\[img:[^\]]+\]\]|\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)|\$[^$]+?\$)/g;
 
 function render(src: string) {
   return src
     .split(RE)
     .map((part) => {
+      if (part.startsWith("[[img:")) {
+        const url = part.slice(6, -2);
+        if (!/^https:\/\//.test(url)) return "";
+        return `<img src="${url.replace(/"/g, "%22")}" alt="Problem figure" loading="lazy" class="problem-figure" />`;
+      }
       let display = false;
       let tex: string | null = null;
       if (part.startsWith("$$") || part.startsWith("\\[")) {
