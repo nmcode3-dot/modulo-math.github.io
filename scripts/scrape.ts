@@ -213,3 +213,4 @@ const tf = coverage.reduce((a, r) => a + r.found, 0), te = coverage.reduce((a, r
 lines.push("", `**Total: ${tf} / ${te}** — see scrape-errors.log for failures.`);
 writeFileSync("scripts/coverage-report.md", lines.join("\n"));
 console.log(lines.join("\n"));
+if (anyFailure) process.exit(1);
