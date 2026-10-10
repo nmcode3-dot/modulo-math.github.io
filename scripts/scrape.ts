@@ -191,6 +191,7 @@ for (const idx of INDEXES) {
       process.stdout.write(`\r${name} #${n}   `);
     }
     coverage.push({ contest: idx.contest, year, version: version.trim(), found, expected: idx.expected, answers: key.length });
+    if (problems.length) writeFileSync(`src/data/${idx.key}.json`, JSON.stringify(problems, null, 2));
   }
   if (problems.length) writeFileSync(`src/data/${idx.key}.json`, JSON.stringify(problems, null, 2));
   console.log(`\n${idx.contest}: ${problems.length} problems written`);
