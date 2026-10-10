@@ -1,0 +1,26 @@
+[
+  {
+    "id": "amc10a-2019-1",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 1,
+    "statementLatex": "What is the value of $$2^{\\left(0^{\\left(1^9\\right)}\\right)}+\\left(\\left(2^0\\right)^1\\right)^9?$$",
+    "choices": ["$0$", "$1$", "$2$", "$3$", "$4$"],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_1",
+    "topics": ["Exponent Rules"]
+  },
+  {
+    "id": "amc10a-2021-1",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 1,
+    "statementLatex": "What is the value of $$(2^2-2)-(3^2-3)+(4^2-4)?$$",
+    "choices": ["$1$", "$2$", "$5$", "$8$", "$12$"],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_1",
+    "topics": ["Exponent Rules"]
+  }
+]

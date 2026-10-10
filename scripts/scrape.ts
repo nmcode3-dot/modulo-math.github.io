@@ -1,0 +1,177 @@
+/**
+ * Modulo AoPS scraper.
+ *
+ * Run locally:   bun install && bun run scripts/scrape.ts
+ * Options:       --only "2019 AMC 10A"   (scrape a single contest, for testing)
+ *                --contest amc10         (amc8 | amc10 | amc12 | aime)
+ *
+ * - Throttles to ~1 request/second, caches raw HTML in .scrape-cache/
+ * - Logs unparsed problems to scrape-errors.log
+ * - Writes src/data/{amc8,amc10,amc12,aime}.json and scripts/coverage-report.md
+ */
+import * as cheerio from "cheerio";
+import { createHash } from "node:crypto";
+import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
+import { join } from "node:path";
+
+const BASE = "https://artofproblemsolving.com";
+const CACHE = ".scrape-cache";
+const ERR = "scrape-errors.log";
+const args = process.argv.slice(2);
+const only = args.includes("--only") ? args[args.indexOf("--only") + 1] : null;
+const onlyContest = args.includes("--contest") ? args[args.indexOf("--contest") + 1] : null;
+mkdirSync(CACHE, { recursive: true });
+writeFileSync(ERR, "");
+
+const INDEXES = [
+  { key: "amc8", contest: "AMC 8", url: "/wiki/index.php?title=AMC_8_Problems_and_Solutions", expected: 25, re: /^(\d{4}) AMC 8$/ },
+  { key: "amc10", contest: "AMC 10", url: "/wiki/index.php?title=AMC_10_Problems_and_Solutions", expected: 25, re: /^(\d{4})(?: Fall)? AMC 10([AB])?$/ },
+  { key: "amc12", contest: "AMC 12", url: "/wiki/index.php?title=AMC_12_Problems_and_Solutions", expected: 25, re: /^(\d{4})(?: Fall)? AMC 12([AB])?$/ },
+  { key: "aime", contest: "AIME", url: "/wiki/index.php?title=AIME_Problems_and_Solutions", expected: 15, re: /^(\d{4}) AIME( I{1,2})?$/ },
+] as const;
+
+let last = 0;
+async function get(path: string): Promise<string | null> {
+  const url = path.startsWith("http") ? path : BASE + path;
+  const file = join(CACHE, createHash("sha1").update(url).digest("hex") + ".html");
+  if (existsSync(file)) return readFileSync(file, "utf8");
+  const wait = 1000 - (Date.now() - last);
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  last = Date.now();
+  for (let tries = 0; tries < 3; tries++) {
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": "ModuloScraper/1.0 (personal study tool)" } });
+      if (res.status === 404) return null;
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const html = await res.text();
+      writeFileSync(file, html);
+      return html;
+    } catch (e) {
+      if (tries === 2) { logErr(url, String(e)); return null; }
+      await new Promise((r) => setTimeout(r, 3000));
+    }
+  }
+  return null;
+}
+const logErr = (where: string, msg: string) => appendFileSync(ERR, `${where}\t${msg}\n`);
+
+/** Convert a content node to text, replacing AoPS LaTeX images with their alt-text LaTeX. */
+function toLatex($: cheerio.CheerioAPI, el: cheerio.Cheerio<any>): string {
+  const clone = el.clone();
+  clone.find("img").each((_, img) => {
+    const alt = $(img).attr("alt") ?? "";
+    $(img).replaceWith(alt.startsWith("$") || alt.startsWith("\\[") ? ` ${alt} ` : alt ? `$${alt}$` : "");
+  });
+  clone.find("br").replaceWith("\n");
+  return clone.text().replace(/[ \t]+/g, " ").replace(/\s+\n/g, "\n").trim();
+}
+
+/** Split "$\textbf{(A) }6\qquad\textbf{(B) }7 ..." into an array of 5 choice LaTeX strings. */
+function splitChoices(tex: string): string[] | null {
+  const body = tex.replace(/^\$+|\$+$/g, "").replace(/\\\[|\\\]/g, "");
+  const parts = body.split(/\\(?:textbf|mathrm|text)\s*\{\s*\(([A-E])\)\s*\}|\(([A-E])\)/);
+  const out: Record<string, string> = {};
+  for (let i = 1; i < parts.length; i += 3) {
+    const L = parts[i] ?? parts[i + 1];
+    const v = (parts[i + 2] ?? "").replace(/\\q?quad|\\hspace\{[^}]*\}|\\\\|~/g, " ").replace(/\s+/g, " ").trim();
+    if (L) out[L] = v;
+  }
+  const letters = ["A", "B", "C", "D", "E"];
+  if (!letters.every((l) => out[l] !== undefined)) return null;
+  return letters.map((l) => `$${out[l]}$`);
+}
+
+function parseProblem(html: string) {
+  const $ = cheerio.load(html);
+  const content = $(".mw-parser-output").first();
+  const heading = content.find("h2").filter((_, h) => /^Problem/i.test($(h).text().trim())).first();
+  if (!heading.length) return null;
+  const blocks: string[] = [];
+  let node = heading.next();
+  while (node.length && !node.is("h2")) {
+    if (node.is("p, dl, ul, ol, center, div:not(.toc)")) blocks.push(toLatex($, node));
+    node = node.next();
+  }
+  let statement = blocks.filter(Boolean).join("\n\n");
+  let choices: string[] = [];
+  const m = statement.match(/(\$[^$]*\\textbf\{\s*\(A\)[\s\S]*?\$|\$[^$]*\(A\)[\s\S]*\(E\)[\s\S]*?\$)\s*$/);
+  if (m) {
+    const c = splitChoices(m[1]);
+    if (c) { choices = c; statement = statement.slice(0, m.index).trim(); }
+  }
+  return { statement, choices, solutionText: content.text() };
+}
+
+function parseAnswerKey(html: string): string[] {
+  const $ = cheerio.load(html);
+  const items = $(".mw-parser-output ol li").map((_, li) => $(li).text().trim()).get();
+  return items.map((s) => s.replace(/\s+/g, ""));
+}
+
+const topicTags: Record<string, string[]> = JSON.parse(readFileSync("src/data/topic-tags.json", "utf8"));
+function tag(text: string) {
+  const t = text.toLowerCase();
+  return Object.entries(topicTags).filter(([, kws]) => kws.some((k) => t.includes(k.toLowerCase()))).map(([n]) => n);
+}
+
+type Row = { contest: string; year: number; version: string; found: number; expected: number; answers: number };
+const coverage: Row[] = [];
+
+for (const idx of INDEXES) {
+  if (onlyContest && idx.key !== onlyContest) continue;
+  const html = await get(idx.url);
+  if (!html) { logErr(idx.url, "index fetch failed"); continue; }
+  const $ = cheerio.load(html);
+  const contests = new Map<string, string>();
+  $(".mw-parser-output a").each((_, a) => {
+    const text = $(a).text().trim();
+    const href = $(a).attr("href");
+    if (href && idx.re.test(text)) contests.set(text, href);
+  });
+
+  const problems: any[] = [];
+  for (const [name, href] of contests) {
+    if (only && name !== only) continue;
+    const m = name.match(idx.re)!;
+    const year = Number(m[1]);
+    const version = (m[2] ?? "").trim() + (name.includes("Fall") ? " Fall" : "");
+    const slug = href.replace(/^.*\/wiki\/index\.php\/?(\?title=)?/, "").replace(/_Problems$/, "");
+    const keyHtml = await get(`/wiki/index.php/${slug}_Answer_Key`);
+    const key = keyHtml ? parseAnswerKey(keyHtml) : [];
+    if (!key.length) logErr(name, "answer key missing");
+    let found = 0;
+    for (let n = 1; n <= idx.expected; n++) {
+      const url = `${BASE}/wiki/index.php/${slug}_Problems/Problem_${n}`;
+      const page = await get(url);
+      const parsed = page ? parseProblem(page) : null;
+      if (!parsed || !parsed.statement) { logErr(url, "could not parse problem"); continue; }
+      if (idx.key !== "aime" && parsed.choices.length !== 5) logErr(url, "could not parse answer choices");
+      const answer = key[n - 1] ?? "";
+      if (!answer) logErr(url, "no answer in key");
+      found++;
+      problems.push({
+        id: `${idx.key}${version.replace(/\s+/g, "").toLowerCase()}-${year}-${n}`.replace(/^(amc8|amc10|amc12|aime)/, (k) => (idx.key === "amc8" ? k : k)),
+        contest: idx.contest,
+        year,
+        version: version.trim(),
+        number: n,
+        statementLatex: parsed.statement,
+        choices: idx.key === "aime" ? [] : parsed.choices,
+        answer: idx.key === "aime" ? String(parseInt(answer, 10)).padStart(3, "0") : answer.toUpperCase(),
+        solutionUrl: url,
+        topics: tag(parsed.statement + " " + parsed.solutionText),
+      });
+      process.stdout.write(`\r${name} #${n}   `);
+    }
+    coverage.push({ contest: idx.contest, year, version: version.trim(), found, expected: idx.expected, answers: key.length });
+  }
+  if (problems.length) writeFileSync(`src/data/${idx.key}.json`, JSON.stringify(problems, null, 2));
+  console.log(`\n${idx.contest}: ${problems.length} problems written`);
+}
+
+const lines = ["# Coverage report", "", "| Contest | Year | Version | Found | Expected | Answer key |", "|---|---|---|---|---|---|"];
+for (const r of coverage) lines.push(`| ${r.contest} | ${r.year} | ${r.version || "—"} | ${r.found} | ${r.expected} | ${r.answers} |${r.found < r.expected ? " ⚠️" : ""}`);
+const tf = coverage.reduce((a, r) => a + r.found, 0), te = coverage.reduce((a, r) => a + r.expected, 0);
+lines.push("", `**Total: ${tf} / ${te}** — see scrape-errors.log for failures.`);
+writeFileSync("scripts/coverage-report.md", lines.join("\n"));
+console.log(lines.join("\n"));

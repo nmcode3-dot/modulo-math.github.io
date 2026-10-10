@@ -1,0 +1,4 @@
+{
+  "description": "Topic list is generated from topic-tags.json by scripts/scrape.ts. Edit topic-tags.json to change keyword matching; the app shows every topic named there.",
+  "generatedFrom": "topic-tags.json"
+}
