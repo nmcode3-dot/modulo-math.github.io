@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useRouterState } from "@tanstack/react-router";
 import { BarChart3, BookOpen, Moon, Sun, Tags } from "lucide-react";
 import { useEffect, useState, type ReactNode } from "react";
 import {
@@ -48,6 +48,7 @@ function ThemeToggle() {
 }
 
 export function AppShell({ children }: { children: ReactNode }) {
+  const topicWorkspace = useRouterState({ select: state => state.location.pathname.startsWith("/topics/") && state.location.pathname !== "/topics/" });
   return (
     <SidebarProvider>
       <Sidebar>
@@ -84,7 +85,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <SidebarTrigger />
           <span className="ml-2 font-display text-xl">Modulo</span>
         </header>
-        <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-8 md:px-8">{children}</main>
+        <main className={`mx-auto w-full min-w-0 flex-1 px-4 py-8 md:px-8 ${topicWorkspace ? "max-w-7xl" : "max-w-3xl"}`}>{children}</main>
         <footer className="border-t px-4 py-6 text-center text-xs text-muted-foreground">
           Problems from the{" "}
           <a className="underline" href="https://artofproblemsolving.com/wiki/" target="_blank" rel="noopener noreferrer">

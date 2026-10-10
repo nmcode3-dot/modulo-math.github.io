@@ -18,6 +18,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Practice random AMC 8, AMC 10, AMC 12 and AIME problems." },
       { property: "og:title", content: "Contest Practice — Modulo" },
       { property: "og:description", content: "Practice random AMC and AIME problems." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: ContestPractice,

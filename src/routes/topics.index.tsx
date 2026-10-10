@@ -10,6 +10,8 @@ export const Route = createFileRoute("/topics/")({
       { name: "description", content: "Drill specific competition math topics like Stars and Bars, Power of a Point and Vieta's Formulas." },
       { property: "og:title", content: "Topic Drills — Modulo" },
       { property: "og:description", content: "Targeted competition math drills by specific topic." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Topics,
