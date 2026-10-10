@@ -16,8 +16,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_1",
     "topics": [
-      "Exponent Rules",
-      "Arithmetic Word Problems"
+      "Algebra"
     ]
   },
   {
@@ -38,8 +37,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_2",
     "topics": [
       "Conditional Probability",
-      "Area by Coordinates",
-      "Exponent Rules"
+      "Area by Coordinates"
     ]
   },
   {
@@ -59,7 +57,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_3",
     "topics": [
-      "Exponent Rules"
+      "Algebra"
     ]
   },
   {
@@ -79,8 +77,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_4",
     "topics": [
-      "Pythagorean Triples",
-      "Exponent Rules"
+      "Geometry"
     ]
   },
   {
@@ -94,8 +91,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_5",
     "topics": [
-      "Exponent Rules",
-      "Ratios and Rates"
+      "Algebra"
     ]
   },
   {
@@ -115,10 +111,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_6",
     "topics": [
-      "Paths on a Grid",
-      "Conditional Probability",
-      "Area by Coordinates",
-      "Exponent Rules"
+      "Area by Coordinates"
     ]
   },
   {
@@ -138,8 +131,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_7",
     "topics": [
-      "Digit Problems",
-      "Exponent Rules"
+      "Expected Value"
     ]
   },
   {
@@ -159,7 +151,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_8",
     "topics": [
-      "Exponent Rules",
       "Fractions and Percents"
     ]
   },
@@ -180,9 +171,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_9",
     "topics": [
-      "Exponent Rules",
-      "Ratios and Rates",
-      "3D Geometry"
+      "Ratios and Rates"
     ]
   },
   {
@@ -196,7 +185,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_10",
     "topics": [
-      "Exponent Rules"
+      "Algebra"
     ]
   },
   {
@@ -216,8 +205,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_11",
     "topics": [
-      "Complementary Counting",
-      "Exponent Rules"
+      "Counting"
     ]
   },
   {
@@ -237,7 +225,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_12",
     "topics": [
-      "Exponent Rules",
       "3D Geometry"
     ]
   },
@@ -258,8 +245,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_13",
     "topics": [
-      "Digit Problems",
-      "Exponent Rules"
+      "Digit Problems"
     ]
   },
   {
@@ -279,8 +265,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_14",
     "topics": [
-      "Exponent Rules",
-      "3D Geometry"
+      "Geometry"
     ]
   },
   {
@@ -300,7 +285,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_15",
     "topics": [
-      "Conditional Probability"
+      "Probability"
     ]
   },
   {
@@ -320,7 +305,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_16",
     "topics": [
-      "Exponent Rules",
+      "Expected Value",
       "Ratios and Rates"
     ]
   },
@@ -341,9 +326,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_17",
     "topics": [
-      "Telescoping Sums",
-      "Arithmetic/Geometric Sequences",
-      "Exponent Rules"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -363,8 +346,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_18",
     "topics": [
-      "Complementary Counting",
-      "Exponent Rules"
+      "Probability"
     ]
   },
   {
@@ -384,8 +366,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_19",
     "topics": [
-      "Casework Counting",
-      "Exponent Rules"
+      "Algebra"
     ]
   },
   {
@@ -405,7 +386,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_20",
     "topics": [
-      "Exponent Rules"
+      "Counting"
     ]
   },
   {
@@ -425,9 +406,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_21",
     "topics": [
-      "Area by Coordinates",
-      "Base Conversion",
-      "Exponent Rules"
+      "Geometry"
     ]
   },
   {
@@ -447,10 +426,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_22",
     "topics": [
-      "Conditional Probability",
-      "Exponent Rules",
       "Fractions and Percents",
-      "Arithmetic Word Problems"
+      "Conditional Probability"
     ]
   },
   {
@@ -470,11 +447,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_23",
     "topics": [
-      "Complementary Counting",
-      "Arithmetic/Geometric Sequences",
-      "Exponent Rules",
-      "Ratios and Rates",
-      "Fractions and Percents"
+      "Algebra"
     ]
   },
   {
@@ -494,14 +467,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_24",
     "topics": [
-      "Paths on a Grid",
-      "Inclusion-Exclusion",
-      "Conditional Probability",
-      "Similar Triangles",
-      "Area by Coordinates",
-      "Base Conversion",
-      "Exponent Rules",
-      "Ratios and Rates"
+      "Conditional Probability"
     ]
   },
   {
@@ -521,11 +487,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_25",
     "topics": [
-      "Modular Arithmetic",
-      "Stars and Bars",
-      "Casework Counting",
-      "Exponent Rules",
-      "Ratios and Rates"
+      "Casework Counting"
     ]
   }
 ]
