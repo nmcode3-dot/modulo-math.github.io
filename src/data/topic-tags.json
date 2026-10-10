@@ -4,7 +4,13 @@
     "modulo",
     "\\pmod",
     "\\equiv",
-    "mod "
+    "mod ",
+    "fermat's little",
+    "euler's theorem",
+    "order modulo",
+    "totient",
+    "remainder",
+    "congruent"
   ],
   "Stars and Bars": [
     "stars and bars",
@@ -131,7 +137,12 @@
     "argument of",
     "complex",
     "cis",
-    "polar form"
+    "polar form",
+    "roots of unity",
+    "z^n=1",
+    "z^n = 1",
+    "complex roots",
+    "nth roots"
   ],
   "Divisor Counting": [
     "number of divisors",
@@ -201,7 +212,10 @@
   "Inequalities (AM-GM)": [
     "am-gm",
     "minimum value",
-    "maximum value"
+    "maximum value",
+    "arithmetic mean",
+    "geometric mean",
+    "inequality of means"
   ],
   "3D Geometry": [
     "cube",
@@ -551,7 +565,10 @@
     "degree",
     "coefficient",
     "p(x)",
-    "q(x)"
+    "q(x)",
+    "roots",
+    "irreducible",
+    "rational root"
   ],
   "Floor": [
     "\\lfloor",
@@ -601,12 +618,6 @@
     "digit",
     "sum of the digits",
     "product of the digits"
-  ],
-  "Intermediate Modular Arithmetic": [
-    "modulo",
-    "remainder",
-    "congruent",
-    "\\pmod"
   ],
   "Bases": [
     "base",
@@ -676,7 +687,9 @@
     "mass points",
     "assign masses",
     "balance point",
-    "lever"
+    "lever",
+    "masses",
+    "split masses"
   ],
   "Divisibility Reasoning": [
     "divisibility rule",
@@ -733,13 +746,6 @@
     "half angle",
     "sum-to-product"
   ],
-  "Roots of Unity Basic": [
-    "roots of unity",
-    "z^n=1",
-    "z^n = 1",
-    "complex roots",
-    "nth roots"
-  ],
   "Create New Polynomial": [
     "polynomial with roots",
     "new polynomial",
@@ -755,12 +761,6 @@
     "floor",
     "\\lfloor",
     "greatest integer function"
-  ],
-  "AM-GM Basics": [
-    "am-gm",
-    "arithmetic mean",
-    "geometric mean",
-    "inequality of means"
   ],
   "Trigonometric Sums": [
     "sum of sines",
@@ -819,12 +819,6 @@
     "recursively defined",
     "initial term"
   ],
-  "Advanced Polynomials": [
-    "polynomial",
-    "roots",
-    "irreducible",
-    "rational root"
-  ],
   "Symmetry": [
     "symmetry",
     "symmetric",
@@ -838,12 +832,6 @@
     "colorings",
     "necklace",
     "up to rotation"
-  ],
-  "Advanced Modular Arithmetic": [
-    "fermat's little",
-    "euler's theorem",
-    "order modulo",
-    "totient"
   ],
   "Incenter": [
     "incenter",
@@ -878,11 +866,6 @@
     "find the length",
     "chasing lengths",
     "segment"
-  ],
-  "Mass Points (Advanced)": [
-    "mass points",
-    "masses",
-    "split masses"
   ],
   "Problem-Solving: Trigonometric Substitutions in Algebra": [
     "trig substitution",
