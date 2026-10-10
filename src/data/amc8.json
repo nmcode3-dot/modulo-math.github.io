@@ -10924,5 +10924,999 @@
     "topics": [
       "Arithmetic Word Problems"
     ]
+  },
+  {
+    "id": "amc8-2001-1",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 1,
+    "statementLatex": "Casey's shop class is making a golf trophy. He has to paint 300 dimples on a golf ball. If it takes him 2 seconds to paint one dimple, how many minutes will it take for him to finish",
+    "choices": [
+      "$\\ 4 } \\mathrm{$",
+      "$\\ 6 } \\mathrm{$",
+      "$\\ 8 } \\mathrm{$",
+      "$\\ 10 } \\mathrm{$",
+      "$\\ 12 }$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_1",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2001-2",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 2,
+    "statementLatex": "I'm thinking of two whole numbers. Their product is 24 and their sum is 11. What is the larger number?",
+    "choices": [
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 8$",
+      "$\\ 12$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc8-2001-3",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 3,
+    "statementLatex": "Granny Smith has $63. Elberta has $2 more than Anjou and Anjou has one-third as much as Granny Smith. How many dollars does Elberta have?",
+    "choices": [
+      "$\\ 17$",
+      "$\\ 18$",
+      "$\\ 19$",
+      "$\\ 21$",
+      "$\\ 23$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2001-4",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 4,
+    "statementLatex": "The digits 1, 2, 3, 4 and 9 are each used once to form the smallest possible even five-digit number. The digit in the tens place is",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 9$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2001-5",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 5,
+    "statementLatex": "On a dark and stormy night Snoopy suddenly saw a flash of lightning. Ten seconds later he heard the sound of thunder. The speed of sound is 1088 feet per second and one mile is 5280 feet. Estimate, to the nearest half-mile, how far Snoopy was from the flash of lightning.",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 1\\frac{1}{2}$",
+      "$\\ 2$",
+      "$\\ 2\\frac{1}{2}$",
+      "$\\ 3$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2001-6",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 6,
+    "statementLatex": "Six trees are equally spaced along one side of a straight road. The distance from the first tree to the fourth is 60 feet. What is the distance in feet between the first and last trees?",
+    "choices": [
+      "$\\ 90$",
+      "$\\ 100$",
+      "$\\ 105$",
+      "$\\ 120$",
+      "$\\ 140$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2001-7",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 7,
+    "statementLatex": "To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid.\n[[img:https://latex.artofproblemsolving.com/f/1/f/f1f9469db4540c2a66686ef837e33ea3746e6e8a.png]]\n\nWhat is the number of square inches in the area of the small kite?",
+    "choices": [
+      "$\\ 21$",
+      "$\\ 22$",
+      "$\\ 23$",
+      "$\\ 24$",
+      "$\\ 25$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2001-8",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 8,
+    "statementLatex": "To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid.\n\n[[img:https://latex.artofproblemsolving.com/2/a/8/2a8dc1e865933bce5ace2fa416aaac621779ff0a.png]]\n\nGenevieve puts bracing on her large kite in the form of a cross connecting opposite corners of the kite. How many inches of bracing material does she need?",
+    "choices": [
+      "$\\ 30$",
+      "$\\ 32$",
+      "$\\ 35$",
+      "$\\ 38$",
+      "$\\ 39$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2001-9",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 9,
+    "statementLatex": "To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid.\n\n[[img:https://latex.artofproblemsolving.com/f/1/f/f1f9469db4540c2a66686ef837e33ea3746e6e8a.png]]\n\nThe large kite is covered with gold foil. The foil is cut from a rectangular piece that just covers the entire grid. How many square inches of waste material are cut off from the four corners?",
+    "choices": [
+      "$\\ 63$",
+      "$\\ 72$",
+      "$\\ 180$",
+      "$\\ 189$",
+      "$\\ 264$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2001-10",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 10,
+    "statementLatex": "A collector offers to buy state quarters for 2000% of their face value. At that rate how much will Bryden get for his four state quarters?",
+    "choices": [
+      "$\\ 20\\text{ dollars}$",
+      "$\\ 50\\text{ dollars}$",
+      "$\\ 200\\text{ dollars}$",
+      "$\\ 500\\text{ dollars}$",
+      "$\\ 2000\\text{ dollars}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Arithmetic Word Problems",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2001-11",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 11,
+    "statementLatex": "Points $A$ , $B$ , $C$ and $D$ have these coordinates: $A(3,2)$ , $B(3,-2)$ , $C(-3,-2)$ and $D(-3, 0)$ . The area of quadrilateral $ABCD$ is\n\n[[img:https://latex.artofproblemsolving.com/4/a/5/4a5d673b417777371c05a721a7afc4dce870e712.png]]",
+    "choices": [
+      "$\\ 12$",
+      "$\\ 15$",
+      "$\\ 18$",
+      "$\\ 21$",
+      "$\\ 24$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2001-12",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 12,
+    "statementLatex": "If $a\\otimes b = \\dfrac{a + b}{a - b}$ , then $(6\\otimes 4)\\otimes 3 =$",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 13$",
+      "$\\ 15$",
+      "$\\ 30$",
+      "$\\ 72$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2001-13",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 13,
+    "statementLatex": "Of the 36 students in Richelle's class, 12 prefer chocolate pie, 8 prefer apple, and 6 prefer blueberry. Half of the remaining students prefer cherry pie and half prefer lemon. For Richelle's pie graph showing this data, how many degrees should she use for cherry pie?",
+    "choices": [
+      "$\\ 10$",
+      "$\\ 20$",
+      "$\\ 30$",
+      "$\\ 50$",
+      "$\\ 72$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc8-2001-14",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 14,
+    "statementLatex": "Tyler has entered a buffet line in which he chooses one kind of meat, two different vegetables and one dessert. If the order of food items is not important, how many different meals might he choose?\n\nMeat: beef, chicken, pork\nVegetables: baked beans, corn, potatoes, tomatoes\nDessert: brownies, chocolate cake, chocolate pudding, ice cream",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 24$",
+      "$\\ 72$",
+      "$\\ 80$",
+      "$\\ 144$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2001-15",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Homer began peeling a pile of 44 potatoes at the rate of 3 potatoes per minute. Four minutes later Christen joined him and peeled at the rate of 5 potatoes per minute. When they finished, how many potatoes had Christen peeled?",
+    "choices": [
+      "$\\ 20$",
+      "$\\ 24$",
+      "$\\ 32$",
+      "$\\ 33$",
+      "$\\ 40$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2001-16",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 16,
+    "statementLatex": "A square piece of paper, 4 inches on a side, is folded in half vertically. Both layers are then cut in half parallel to the fold. Three new rectangles are formed, a large one and two small ones. What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle?\n\n[[img:https://latex.artofproblemsolving.com/7/e/9/7e91c72c703f0e511d42bca49f65aa22acae754b.png]]",
+    "choices": [
+      "$\\ \\dfrac{1}{3}$",
+      "$\\ \\dfrac{1}{2}$",
+      "$\\ \\dfrac{3}{4}$",
+      "$\\ \\dfrac{4}{5}$",
+      "$\\ \\dfrac{5}{6}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2001-17",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 17,
+    "statementLatex": "For the game show Who Wants To Be A Millionaire?, the dollar values of each question are shown in the following table (where K = 1000).\n\n\\[\\begin{tabular}{rccccccccccccccc} \\text{Question} & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\\\ \\text{Value} & 100 & 200 & 300 & 500 & 1\\text{K} & 2\\text{K} & 4\\text{K} & 8\\text{K} & 16\\text{K} & 32\\text{K} & 64\\text{K} & 125\\text{K} & 250\\text{K} & 500\\text{K} & 1000\\text{K} \\end{tabular}\\]\n\nBetween which two questions is the percent increase of the value the smallest?",
+    "choices": [
+      "$\\ \\text{From 1 to 2}$",
+      "$\\ \\text{From 2 to 3}$",
+      "$\\ \\text{From 3 to 4}$",
+      "$\\ \\text{From 11 to 12}$",
+      "$\\ \\text{From 14 to 15}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2001-18",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 18,
+    "statementLatex": "Two dice are thrown. What is the probability that the product of the two numbers is a multiple of 5?",
+    "choices": [
+      "$\\ \\dfrac{1}{36}$",
+      "$\\ \\dfrac{1}{18}$",
+      "$\\ \\dfrac{1}{6}$",
+      "$\\ \\dfrac{11}{36}$",
+      "$\\ \\dfrac{1}{3}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_18",
+    "topics": [
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc8-2001-19",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 19,
+    "statementLatex": "Car M traveled at a constant speed for a given time. This is shown by the dashed line. Car N traveled at twice the speed for the same distance. If Car M and Car N's speed and time are shown as solid line, which graph illustrates this?\n\n[[img:https://latex.artofproblemsolving.com/c/f/5/cf5f4932472c29c9b113be5cbee4ee9eea008993.png]]",
+    "choices": [],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2001-20",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 20,
+    "statementLatex": "Kaleana shows her test score to Quay, Marty and Shana, but the others keep theirs hidden. Quay thinks, \"At least two of us have the same score.\" Marty thinks, \"I didn't get the lowest score.\" Shana thinks, \"I didn't get the highest score.\" List the scores from lowest to highest for Marty (M), Quay (Q) and Shana (S).",
+    "choices": [
+      "$\\ \\text{S,Q,M}$",
+      "$\\ \\text{Q,M,S}$",
+      "$\\ \\text{Q,S,M}$",
+      "$\\ \\text{M,S,Q}$",
+      "$\\ \\text{S,M,Q}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2001-21",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 21,
+    "statementLatex": "The mean of a set of five different positive integers is 15. The median is 18. The maximum possible value of the largest of these five integers is",
+    "choices": [
+      "$\\ 19$",
+      "$\\ 24$",
+      "$\\ 32$",
+      "$\\ 35$",
+      "$\\ 40$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc8-2001-22",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 22,
+    "statementLatex": "On a twenty-question test, each correct answer is worth 5 points, each unanswered question is worth 1 point and each incorrect answer is worth 0 points. Which of the following scores is NOT possible?",
+    "choices": [
+      "$\\ 90$",
+      "$\\ 91$",
+      "$\\ 92$",
+      "$\\ 95$",
+      "$\\ 97$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_22",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2001-23",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 23,
+    "statementLatex": "Points $R$ , $S$ and $T$ are vertices of an equilateral triangle, and points $X$ , $Y$ and $Z$ are midpoints of its sides. How many noncongruent triangles can be\ndrawn using any three of these six points as vertices?\n\n[[img:https://latex.artofproblemsolving.com/8/5/a/85a81732e12f5eaa1d40ce7d0ba5d9185110000f.png]]",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 20$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Casework Counting",
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc8-2001-24",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 24,
+    "statementLatex": "Each half of this figure is composed of 3 red triangles, 5 blue triangles and 8 white triangles. When the upper half is folded down over the centerline, 2 pairs of red triangles coincide, as do 3 pairs of blue triangles. There are 2 red-white pairs. How many white pairs coincide?\n\n[[img:https://latex.artofproblemsolving.com/a/6/e/a6ea4df0291b906ab438eabfdd597f614bf8c42b.png]]",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 7$",
+      "$\\ 9$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2001-25",
+    "contest": "AMC 8",
+    "year": 2001,
+    "version": "",
+    "number": 25,
+    "statementLatex": "There are 24 four-digit whole numbers that use each of the four digits 2, 4, 5 and 7 exactly once. Only one of these four-digit numbers is a multiple of another one. Which of the following is it?",
+    "choices": [
+      "$\\ 5724$",
+      "$\\ 7245$",
+      "$\\ 7254$",
+      "$\\ 7425$",
+      "$\\ 7542$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2000-1",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 1,
+    "statementLatex": "Aunt Anna is $42$ years old. Caitlin is $5$ years younger than Brianna, and Brianna is half as old as Aunt Anna. How old is Caitlin?",
+    "choices": [
+      "$\\ 15$",
+      "$\\ 16$",
+      "$\\ 17$",
+      "$\\ 21$",
+      "$\\ 37$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_1",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-2",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 2,
+    "statementLatex": "Which of these numbers is less than its reciprocal?",
+    "choices": [
+      "$\\ -2$",
+      "$\\ -1$",
+      "$\\ 0$",
+      "$\\ 1$",
+      "$\\ 2$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-3",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 3,
+    "statementLatex": "How many whole numbers lie in the interval between $\\frac{5}{3}$ and $2\\pi$ ?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ \\text{infinitely many}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2000-4",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 4,
+    "statementLatex": "In 1960 only 5% of the working adults in Carlin City worked\nat home. By 1970 the \"at-home\" work force had increased to\n8%. In 1980 there were approximately 15% working at home,\nand in 1990 there were 30%. The graph that best illustrates\nthis is:\n\n[[img:https://latex.artofproblemsolving.com/6/5/6/656eabcc57c768cb1f63e28160766b9874093f65.png]]",
+    "choices": [],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-5",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 5,
+    "statementLatex": "Each principal of Lincoln High School serves exactly one $3$ -year term. What is the maximum number of principals this school could have during an $8$ -year period?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 8$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-6",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 6,
+    "statementLatex": "Figure $ABCD$ is a square. Inside this square three smaller squares are drawn with the side lengths as labeled. The area of the shaded $L$ -shaped region is\n\n[[img:https://latex.artofproblemsolving.com/7/c/6/7c6ea431a00e38c9ba0b8513fa0b9a39252cfcef.png]]",
+    "choices": [
+      "$\\ 7$",
+      "$\\ 10$",
+      "$\\ 12.5$",
+      "$\\ 14$",
+      "$\\ 15$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2000-7",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 7,
+    "statementLatex": "What is the minimum possible product of three different numbers of the set $\\{-8,-6,-4,0,3,5,7\\}$ ?",
+    "choices": [
+      "$\\ -336$",
+      "$\\ -280$",
+      "$\\ -210$",
+      "$\\ -192$",
+      "$\\ 0$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-8",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 8,
+    "statementLatex": "Three dice with faces numbered $1$ through $6$ are stacked as shown. Seven of the eighteen faces are visible, leaving eleven faces hidden (back, bottom, between). The total number of dots NOT visible in this view is\n\n[[img:https://latex.artofproblemsolving.com/e/6/e/e6edba55d99924ea2b25e28f44f68200e0b47bed.png]]",
+    "choices": [
+      "$\\ 21$",
+      "$\\ 22$",
+      "$\\ 31$",
+      "$\\ 41$",
+      "$\\ 53$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2000-9",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 9,
+    "statementLatex": "Three-digit powers of $2$ and $5$ are used in this \"cross-number\" puzzle. What is the only possible digit for the outlined square?\n \\[\\begin{array}{lcl} \\textbf{ACROSS} & & \\textbf{DOWN} \\\\ \\textbf{2}.~ 2^m & & \\textbf{1}.~ 5^n \\end{array}\\]\n\n[[img:https://latex.artofproblemsolving.com/2/7/3/273126e87eac499d2e6ba1b00aed3bd4b97258d7.png]]",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 2$",
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 8$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Digit Problems",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2000-10",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Ara and Shea were once the same height. Since then Shea has grown 20% while Ara has grown half as many inches as Shea. Shea is now 60 inches tall. How tall, in inches, is Ara now?",
+    "choices": [
+      "$\\ 48$",
+      "$\\ 51$",
+      "$\\ 52$",
+      "$\\ 54$",
+      "$\\ 55$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-11",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 11,
+    "statementLatex": "The number $64$ has the property that it is divisible by its unit digit. How many whole numbers between 10 and 50 have this property?",
+    "choices": [
+      "$\\ 15$",
+      "$\\ 16$",
+      "$\\ 17$",
+      "$\\ 18$",
+      "$\\ 20$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2000-12",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 12,
+    "statementLatex": "A block wall 100 feet long and 7 feet high will be constructed using blocks that are 1 foot high and either 2 feet long or 1 foot long (no blocks may be cut). The vertical joins in the blocks must be staggered as shown, and the wall must be even on the ends. What is the smallest number of blocks needed to build this wall?\n\n[[img:https://latex.artofproblemsolving.com/0/4/e/04ee50ee4b283b079f7a9cd1f2084ff60439b123.png]]",
+    "choices": [
+      "$\\ 344$",
+      "$\\ 347$",
+      "$\\ 350$",
+      "$\\ 353$",
+      "$\\ 356$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-13",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 13,
+    "statementLatex": "In triangle $CAT$ , we have $\\angle ACT =\\angle ATC$ and $\\angle CAT = 36^\\circ$ . If $\\overline{TR}$ bisects $\\angle ATC$ , then $\\angle CRT =$\n\n[[img:https://latex.artofproblemsolving.com/1/c/d/1cd5fcdd096a6909d3a0d285a1104ddd1d681c74.png]]",
+    "choices": [
+      "$\\ 36^\\circ$",
+      "$\\ 54^\\circ$",
+      "$\\ 72^\\circ$",
+      "$\\ 90^\\circ$",
+      "$\\ 108^\\circ$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc8-2000-14",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 14,
+    "statementLatex": "What is the units digit of $19^{19} + 99^{99}$ ?",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 8$",
+      "$\\ 9$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Digit Problems",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2000-15",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Triangles $ABC$ , $ADE$ , and $EFG$ are all equilateral. Points $D$ and $G$ are midpoints of $\\overline{AC}$ and $\\overline{AE}$ , respectively. If $AB = 4$ , what is the perimeter of figure $ABCDEFG$ ?\n\n[[img:https://latex.artofproblemsolving.com/3/e/e/3ee31377617710d02efbfe48eb576a433c3499ec.png]]",
+    "choices": [
+      "$\\ 12$",
+      "$\\ 13$",
+      "$\\ 15$",
+      "$\\ 18$",
+      "$\\ 21$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2000-16",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 16,
+    "statementLatex": "In order for Mateen to walk a kilometer (1000m) in his rectangular backyard, he must walk the length 25 times or walk its perimeter 10 times. What is the area of Mateen's backyard in square meters?",
+    "choices": [
+      "$\\ 40$",
+      "$\\ 200$",
+      "$\\ 400$",
+      "$\\ 500$",
+      "$\\ 1000$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2000-17",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 17,
+    "statementLatex": "The operation $\\otimes$ is defined for all nonzero numbers by $a\\otimes b =\\frac{a^{2}}{b}$ . Determine $[(1\\otimes 2)\\otimes 3]-[1\\otimes (2\\otimes 3)]$ .",
+    "choices": [
+      "$\\ -\\frac{2}{3}$",
+      "$\\ -\\frac{1}{4}$",
+      "$\\ 0$",
+      "$\\ \\frac{1}{4}$",
+      "$\\ \\frac{2}{3}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2000-18",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 18,
+    "statementLatex": "Consider these two geoboard quadrilaterals. Which of the following statements is true?\n\n[[img:https://latex.artofproblemsolving.com/c/2/4/c24fa3e068172b2a2b206fc20b3e9e0abf107d5f.png]]",
+    "choices": [
+      "$\\ \\text{The area of quadrilateral I is more than the area of quadrilateral II.}$ $$",
+      "$\\ \\text{The area of quadrilateral I is less than the area of quadrilateral II.}$ $$",
+      "$\\ \\text{The quadrilaterals have the same area and the same perimeter.}$ $$",
+      "$\\ \\text{The quadrilaterals have the same area, but the perimeter of I is more than the perimeter of II.}$ $$",
+      "$\\ \\text{The quadrilaterals have the same area, but the perimeter of I is less than the perimeter of II.}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_18",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2000-19",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 19,
+    "statementLatex": "Three circular arcs of radius $5$ units bound the region shown. Arcs $AB$ and $AD$ are quarter-circles, and arc $BCD$ is a semicircle. What is the area, in square units, of the region?\n\n[[img:https://latex.artofproblemsolving.com/1/6/7/167b9ff21c536661f151a22f707aa834b9ea8900.png]]",
+    "choices": [
+      "$\\ 25$",
+      "$\\ 10+5\\pi$",
+      "$\\ 50$",
+      "$\\ 50+5\\pi$",
+      "$\\ 25\\pi$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2000-20",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 20,
+    "statementLatex": "You have nine coins: a collection of pennies, nickels, dimes, and quarters having a total value of $ $1.02$ , with at least one coin of each type. How many dimes must you have?",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Complementary Counting",
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2000-21",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 21,
+    "statementLatex": "Keiko tosses one penny and Ephraim tosses two pennies. The probability that Ephraim gets the same number of heads that Keiko gets is",
+    "choices": [
+      "$\\ \\frac{1}{4}$",
+      "$\\ \\frac{3}{8}$",
+      "$\\ \\frac{1}{2}$",
+      "$\\ \\frac{2}{3}$",
+      "$\\ \\frac{3}{4}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2000-22",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 22,
+    "statementLatex": "A cube has edge length $2$ . Suppose that we glue a cube of edge length $1$ on top of the big cube so that one of its faces rests entirely on the top face of the larger cube. The percent increase in the surface area (sides, top, and bottom) from the original cube to the new solid formed is closest to\n\n[[img:https://latex.artofproblemsolving.com/4/c/1/4c1daa4799268f363fcefd996e79452fd6346cfc.png]]",
+    "choices": [
+      "$\\ 10$",
+      "$\\ 15$",
+      "$\\ 17$",
+      "$\\ 21$",
+      "$\\ 25$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_22",
+    "topics": [
+      "Fractions and Percents",
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2000-23",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 23,
+    "statementLatex": "There is a list of seven numbers. The average of the first four numbers is $5$ , and the average of the last four numbers is $8$ . If the average of all seven numbers is $6\\frac{4}{7}$ , then the number common to both sets of four numbers is",
+    "choices": [
+      "$\\ 5\\frac{3}{7}$",
+      "$\\ 6$",
+      "$\\ 6\\frac{4}{7}$",
+      "$\\ 7$",
+      "$\\ 7\\frac{3}{7}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2000-24",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 24,
+    "statementLatex": "If $\\angle A = 20^\\circ$ and $\\angle AFG =\\angle AGF$ , then $\\angle B+\\angle D =$\n\n[[img:https://latex.artofproblemsolving.com/8/2/8/8289a149effe74716d870e23680293e2397d8132.png]]",
+    "choices": [
+      "$\\ 48^\\circ$",
+      "$\\ 60^\\circ$",
+      "$\\ 72^\\circ$",
+      "$\\ 80^\\circ$",
+      "$\\ 90^\\circ$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc8-2000-25",
+    "contest": "AMC 8",
+    "year": 2000,
+    "version": "",
+    "number": 25,
+    "statementLatex": "The area of rectangle $ABCD$ is $72$ units squared. If point $A$ and the midpoints of $\\overline{BC}$ and $\\overline{CD}$ are joined to form a triangle, the area of that triangle is\n\n[[img:https://latex.artofproblemsolving.com/a/e/2/ae2ad9d6b6a31a8972be6fd88ebf1263dcdbf75f.png]]",
+    "choices": [
+      "$\\ 21$",
+      "$\\ 27$",
+      "$\\ 30$",
+      "$\\ 36$",
+      "$\\ 40$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Geometry"
+    ]
   }
 ]
