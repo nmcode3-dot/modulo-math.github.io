@@ -17,8 +17,8 @@ import {
 import { Button } from "@/components/ui/button";
 
 const NAV = [
-  { to: "/", label: "Contest Practice", icon: BookOpen },
-  { to: "/topics", label: "Topic Drills", icon: Tags },
+  { to: "/", label: "Topic Drills", icon: Tags },
+  { to: "/contests", label: "Contest Practice", icon: BookOpen },
   { to: "/progress", label: "My Progress", icon: BarChart3 },
 ] as const;
 

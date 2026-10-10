@@ -35,7 +35,7 @@ function ProblemPage() {
   const next = set[i + 1];
   return (
     <div className="space-y-6">
-      <Link to="/" search={{ contest: p.contest }} className="text-sm text-muted-foreground hover:text-foreground">
+      <Link to="/contests" search={{ contest: p.contest }} className="text-sm text-muted-foreground hover:text-foreground">
         ← {p.year} {p.contest} {p.version}
       </Link>
       <ProblemView key={id} problem={p} />
