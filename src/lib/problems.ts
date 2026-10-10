@@ -1,4 +1,5 @@
 import topicTags from "@/data/topic-tags.json";
+import { tagProblem, FALLBACK_TOPICS, type TagMap } from "@/lib/tagger";
 
 export type Problem = {
   id: string;
@@ -25,13 +26,14 @@ const contestRank = (c: string) => {
   return i < 0 ? 99 : i;
 };
 
-export const TOPICS: string[] = Object.keys(topicTags as Record<string, string[]>).sort();
+export const TOPICS: string[] = [...Object.keys(topicTags as Record<string, string[]>), ...FALLBACK_TOPICS].sort();
 
 function withTags(p: Problem): Problem {
-  const text = p.statementLatex.toLowerCase();
-  const set = new Set(p.topics ?? []);
-  for (const [topic, kws] of Object.entries(topicTags as Record<string, string[]>)) {
-    if (kws.some((k) => text.includes(k.toLowerCase()))) set.add(topic);
+  const map = topicTags as TagMap;
+  // Scraped tags (which also used solution text) + fresh statement tags, so manual keyword edits apply.
+  const set = new Set((p.topics ?? []).filter((t) => t in map || FALLBACK_TOPICS.includes(t)));
+  for (const t of tagProblem(map, p.statementLatex)) {
+    if (set.size === 0 || !FALLBACK_TOPICS.includes(t)) set.add(t);
   }
   return { ...p, topics: [...set] };
 }

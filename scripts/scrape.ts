@@ -13,6 +13,7 @@ import * as cheerio from "cheerio";
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
 import { join } from "node:path";
+import { tagProblem, type TagMap } from "../src/lib/tagger";
 
 const BASE = "https://artofproblemsolving.com";
 const CACHE = ".scrape-cache";
@@ -131,11 +132,7 @@ function parseAnswerKey(html: string): string[] {
   return items.map((s) => s.replace(/\s+/g, ""));
 }
 
-const topicTags: Record<string, string[]> = JSON.parse(readFileSync("src/data/topic-tags.json", "utf8"));
-function tag(text: string) {
-  const t = text.toLowerCase();
-  return Object.entries(topicTags).filter(([, kws]) => kws.some((k) => t.includes(k.toLowerCase()))).map(([n]) => n);
-}
+const topicTags: TagMap = JSON.parse(readFileSync("src/data/topic-tags.json", "utf8"));
 
 type Row = { contest: string; year: number; version: string; found: number; expected: number; answers: number };
 const coverage: Row[] = [];
@@ -182,7 +179,7 @@ for (const idx of INDEXES) {
         choices: idx.key === "aime" ? [] : parsed.choices,
         answer: idx.key === "aime" ? String(parseInt(answer, 10)).padStart(3, "0") : answer.toUpperCase(),
         solutionUrl: url,
-        topics: tag(parsed.statement + " " + parsed.solutionText),
+        topics: tagProblem(topicTags, parsed.statement, parsed.solutionText),
       });
       process.stdout.write(`\r${name} #${n}   `);
     }
