@@ -38,23 +38,40 @@ async function get(path: string): Promise<string | null> {
   const wait = 1000 - (Date.now() - last);
   if (wait > 0) await new Promise((r) => setTimeout(r, wait));
   last = Date.now();
+  // Fetch via curl: both AoPS and the Wayback Machine fingerprint/bot-block bun's fetch.
+  const curl = (u: string): { status: number; body: string } => {
+    const r = Bun.spawnSync([
+      "curl", "-sL", "--compressed", "-m", "60",
+      "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "-H", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "-H", "Accept-Language: en-US,en;q=0.9",
+      "-w", "\n%{http_code}", u,
+    ]);
+    const out = r.stdout.toString();
+    const status = Number(out.trimEnd().split("\n").pop());
+    return { status, body: out.slice(0, out.lastIndexOf("\n")) };
+  };
   for (let tries = 0; tries < 3; tries++) {
     try {
-      const res = await fetch(url, {
-        headers: {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-          "Accept-Language": "en-US,en;q=0.9",
-        },
-      });
-      if (res.status === 404) return null;
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const html = await res.text();
-      writeFileSync(file, html);
-      return html;
+      const { status, body } = curl(url);
+      if (status === 404) return null;
+      if (status === 403) throw Object.assign(new Error(`HTTP 403`), { fatal: true }); // bot-block: don't retry, go to wayback
+      if (status !== 200) throw new Error(`HTTP ${status}`);
+      writeFileSync(file, body);
+      return body;
     } catch (e) {
-      if (tries === 2) { logErr(url, String(e)); return null; }
-      await new Promise((r) => setTimeout(r, 3000));
+      if (tries < 2 && !(e as any).fatal) { await new Promise((r) => setTimeout(r, 3000)); continue; }
+      // Direct fetch failed (AoPS often 403s bots) — fall back to the Wayback Machine.
+      for (let w = 0; w < 4; w++) {
+        await new Promise((r) => setTimeout(r, 3000)); // wayback rate-limits aggressively
+        const { status, body } = curl(`https://web.archive.org/web/2024id_/${url}`);
+        if (status === 429) { await new Promise((r) => setTimeout(r, 20000)); continue; }
+        if (status !== 200) { logErr(url, `direct failed (${e}); wayback HTTP ${status}`); return null; }
+        writeFileSync(file, body);
+        return body;
+      }
+      logErr(url, `direct failed (${e}); wayback rate-limited after retries`);
+      return null;
     }
   }
   return null;
