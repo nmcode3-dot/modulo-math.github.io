@@ -48,7 +48,9 @@ function ThemeToggle() {
 }
 
 export function AppShell({ children }: { children: ReactNode }) {
-  const topicWorkspace = useRouterState({ select: state => state.location.pathname.startsWith("/topics/") && state.location.pathname !== "/topics/" });
+  const pathname = useRouterState({ select: state => state.location.pathname });
+  const topicWorkspace = pathname === "/" || (pathname.startsWith("/topics") && pathname !== "/topics/");
+  const isActive = (to: string) => (to === "/" ? pathname === "/" || pathname.startsWith("/topics") : pathname === to || pathname.startsWith(`${to}/`));
   return (
     <SidebarProvider>
       <Sidebar>
