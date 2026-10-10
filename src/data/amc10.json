@@ -25,7 +25,7 @@
     "year": 2021,
     "version": "A",
     "number": 1,
-    "statementLatex": "What is the value of $$(2^2-2)-(3^2-3)+(4^2-4)?$$",
+    "statementLatex": "What is the value of \\[(2^2-2)-(3^2-3)+(4^2-4)\\]",
     "choices": [
       "$1$",
       "$2$",
@@ -3487,6 +3487,494 @@
       "Casework Counting",
       "Similar Triangles",
       "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10a-2021-2",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 2,
+    "statementLatex": "Portia's high school has $3$ times as many students as Lara's high school. The two high schools have a total of $2600$ students. How many students does Portia's high school have?",
+    "choices": [
+      "$600$",
+      "$650$",
+      "$1950$",
+      "$2000$",
+      "$2050$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_2",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2021-3",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 3,
+    "statementLatex": "The sum of two natural numbers is $17{,}402$ . One of the two numbers is divisible by $10$ . If the units digit of that number is erased, the other number is obtained. What is the difference of these two numbers?",
+    "choices": [
+      "$10{,}272$",
+      "$11{,}700$",
+      "$13{,}362$",
+      "$14{,}238$",
+      "$15{,}426$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_3",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10a-2021-4",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 4,
+    "statementLatex": "A cart rolls down a hill, travelling $5$ inches the first second and accelerating so that during each successive $1$ -second time interval, it travels $7$ inches more than during the previous $1$ -second interval. The cart takes $30$ seconds to reach the bottom of the hill. How far, in inches, does it travel?",
+    "choices": [
+      "$215$",
+      "$360$",
+      "$2992$",
+      "$3195$",
+      "$3242$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_4",
+    "topics": [
+      "Modular Arithmetic",
+      "Expected Value",
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc10a-2021-5",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 5,
+    "statementLatex": "The quiz scores of a class with $k > 12$ students have a mean of $8$ . The mean of a collection of $12$ of these quiz scores is $14$ . What is the mean of the remaining quiz scores in terms of $k$ ?",
+    "choices": [
+      "$\\frac{14-8}{k-12}$",
+      "$\\frac{8k-168}{k-12}$",
+      "$\\frac{14}{12} - \\frac{8}{k}$",
+      "$\\frac{14(k-12)}{k^2}$",
+      "$\\frac{14(k-12)}{8k}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_5",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc10a-2021-6",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 6,
+    "statementLatex": "Chantal and Jean start hiking from a trailhead toward a fire tower. Jean is wearing a heavy backpack and walks slower. Chantal starts walking at $4$ miles per hour. Halfway to the tower, the trail becomes really steep, and Chantal slows down to $2$ miles per hour. After reaching the tower, she immediately turns around and descends the steep part of the trail at $3$ miles per hour. She meets Jean at the halfway point. What was Jean's average speed, in miles per hour, until they meet?",
+    "choices": [
+      "$\\frac{12}{13}$",
+      "$1$",
+      "$\\frac{13}{12}$",
+      "$\\frac{24}{13}$",
+      "$2$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_6",
+    "topics": [
+      "Expected Value",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10a-2021-7",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 7,
+    "statementLatex": "Tom has a collection of $13$ snakes, $4$ of which are purple and $5$ of which are happy. He observes that\n\nall of his happy snakes can add,\n\nnone of his purple snakes can subtract, and\n\nall of his snakes that can't subtract also can't add.\n\nWhich of these conclusions can be drawn about Tom's snakes?\n\n$\\textbf{(A) }$ Purple snakes can add.\n\n$\\textbf{(B) }$ Purple snakes are happy.\n\n$\\textbf{(C) }$ Snakes that can add are purple.\n\n$\\textbf{(D) }$ Happy snakes are not purple.\n\n$\\textbf{(E) }$ Happy snakes can't subtract.",
+    "choices": [],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_7",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10a-2021-8",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 8,
+    "statementLatex": "When a student multiplied the number $66$ by the repeating decimal,\n \\[\\underline{1}.\\underline{a} \\ \\underline{b} \\ \\underline{a} \\ \\underline{b}\\ldots=\\underline{1}.\\overline{\\underline{a} \\ \\underline{b}},\\]\nwhere $a$ and $b$ are digits, he did not notice the notation and just multiplied $66$ times $\\underline{1}.\\underline{a} \\ \\underline{b}.$ Later he found that his answer is $0.5$ less than the correct answer. What is the $2$ -digit number $\\underline{a} \\ \\underline{b}?$",
+    "choices": [
+      "$15$",
+      "$30$",
+      "$45$",
+      "$60$",
+      "$75$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_8",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10a-2021-9",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 9,
+    "statementLatex": "What is the least possible value of $(xy-1)^2+(x+y)^2$ for real numbers $x$ and $y$ ?",
+    "choices": [
+      "$0$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_9",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10a-2021-10",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 10,
+    "statementLatex": "Which of the following is equivalent to\n \\[(2+3)(2^2+3^2)(2^4+3^4)(2^8+3^8)(2^{16}+3^{16})(2^{32}+3^{32})(2^{64}+3^{64})?\\]",
+    "choices": [
+      "$3^{127} + 2^{127}$",
+      "$3^{127} + 2^{127} + 2 \\cdot 3^{63} + 3 \\cdot 2^{63}$",
+      "$3^{128}-2^{128}$",
+      "$3^{128} + 2^{128}$",
+      "$5^{127}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_10",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10a-2021-11",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 11,
+    "statementLatex": "For which of the following integers $b$ is the base- $b$ number $2021_b - 221_b$ not divisible by $3$ ?",
+    "choices": [
+      "$3$",
+      "$4$",
+      "$6$",
+      "$7$",
+      "$8$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_11",
+    "topics": [
+      "Base Conversion",
+      "Modular Arithmetic"
+    ]
+  },
+  {
+    "id": "amc10a-2021-12",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 12,
+    "statementLatex": "Two right circular cones with vertices facing down as shown in the figure below contain the same amount of liquid. The radii of the tops of the liquid surfaces are $3$ cm and $6$ cm. Into each cone is dropped a spherical marble of radius $1$ cm, which sinks to the bottom and is completely submerged without spilling any liquid. What is the ratio of the rise of the liquid level in the narrow cone to the rise of the liquid level in the wide cone?\n\n[[img:https://latex.artofproblemsolving.com/8/1/d/81d626eb47050e0f212495e407860357b3a98a6c.png]]",
+    "choices": [
+      "$1:1$",
+      "$47:43$",
+      "$2:1$",
+      "$40:13$",
+      "$4:1$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_12",
+    "topics": [
+      "3D Geometry",
+      "Ratios and Rates",
+      "Similar Triangles"
+    ]
+  },
+  {
+    "id": "amc10a-2021-13",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 13,
+    "statementLatex": "What is the volume of tetrahedron $ABCD$ with edge lengths $AB = 2$ , $AC = 3$ , $AD = 4$ , $BC = \\sqrt{13}$ , $BD = 2\\sqrt{5}$ , and $CD = 5$  ?",
+    "choices": [
+      "$3$",
+      "$2\\sqrt{3}$",
+      "$4$",
+      "$3\\sqrt{3}$",
+      "$6$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_13",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10a-2021-14",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 14,
+    "statementLatex": "All the roots of the polynomial $z^6-10z^5+Az^4+Bz^3+Cz^2+Dz+16$ are positive integers, possibly repeated. What is the value of $B$ ?",
+    "choices": [
+      "${-}88$",
+      "${-}80$",
+      "${-}64$",
+      "${-}41$",
+      "${-}40$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_14",
+    "topics": [
+      "Vieta's Formulas"
+    ]
+  },
+  {
+    "id": "amc10a-2021-15",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 15,
+    "statementLatex": "Values for $A,B,C,$ and $D$ are to be selected from $\\{1, 2, 3, 4, 5, 6\\}$ without replacement (i.e. no two letters have the same value). How many ways are there to make such choices so that the two curves $y=Ax^2+B$ and $y=Cx^2+D$ intersect? (The order in which the curves are listed does not matter; for example, the choices $A=3, B=2, C=4, D=1$ is considered the same as the choices $A=4, B=1, C=3, D=2.$ )",
+    "choices": [
+      "$30$",
+      "$60$",
+      "$90$",
+      "$180$",
+      "$360$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_15",
+    "topics": [
+      "Casework Counting",
+      "Vieta's Formulas"
+    ]
+  },
+  {
+    "id": "amc10a-2021-16",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 16,
+    "statementLatex": "In the following list of numbers, the integer $n$ appears $n$ times in the list for $1 \\leq n \\leq 200$ . \\[1, 2, 2, 3, 3, 3, 4, 4, 4, 4, \\ldots, 200, 200, \\ldots , 200\\] What is the median of the numbers in this list?",
+    "choices": [
+      "$100.5$",
+      "$134$",
+      "$142$",
+      "$150.5$",
+      "$167$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_16",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10a-2021-17",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 17,
+    "statementLatex": "Trapezoid $ABCD$ has $\\overline{AB}\\parallel\\overline{CD},BC=CD=43$ , and $\\overline{AD}\\perp\\overline{BD}$ . Let $O$ be the intersection of the diagonals $\\overline{AC}$ and $\\overline{BD}$ , and let $P$ be the midpoint of $\\overline{BD}$ . Given that $OP=11$ , the length of $AD$ can be written in the form $m\\sqrt{n}$ , where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. What is $m+n$ ?",
+    "choices": [
+      "$65$",
+      "$132$",
+      "$157$",
+      "$194$",
+      "$215$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_17",
+    "topics": [
+      "Angle Chasing",
+      "Similar Triangles",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10a-2021-18",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 18,
+    "statementLatex": "Let $f$ be a function defined on the set of positive rational numbers with the property that $f(a\\cdot b)=f(a)+f(b)$ for all positive rational numbers $a$ and $b$ . Suppose that $f$ also has the property that $f(p)=p$ for every prime number $p$ . For which of the following numbers $x$ is $f(x)<0$ ?",
+    "choices": [
+      "$\\frac{17}{32}$",
+      "$\\frac{11}{16}$",
+      "$\\frac79$",
+      "$\\frac76$",
+      "$\\frac{25}{11}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_18",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc10a-2021-19",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 19,
+    "statementLatex": "The area of the region bounded by the graph of \\[x^2+y^2 = 3|x-y| + 3|x+y|\\] is $m+n\\pi$ , where $m$ and $n$ are integers. What is $m + n$ ?",
+    "choices": [
+      "$18$",
+      "$27$",
+      "$36$",
+      "$45$",
+      "$54$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_19",
+    "topics": [
+      "Casework Counting",
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc10a-2021-20",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 20,
+    "statementLatex": "In how many ways can the sequence $1,2,3,4,5$ be rearranged so that no three consecutive terms are increasing and no three consecutive terms are decreasing?",
+    "choices": [
+      "$10$",
+      "$18$",
+      "$24$",
+      "$32$",
+      "$44$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_20",
+    "topics": [
+      "Casework Counting",
+      "Complementary Counting",
+      "Digit Problems",
+      "Inclusion-Exclusion"
+    ]
+  },
+  {
+    "id": "amc10a-2021-21",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 21,
+    "statementLatex": "Let $ABCDEF$ be an equiangular hexagon. The lines $AB, CD,$ and $EF$ determine a triangle with area $192\\sqrt{3}$ , and the lines $BC, DE,$ and $FA$ determine a triangle with area $324\\sqrt{3}$ . The perimeter of hexagon $ABCDEF$ can be expressed as $m +n\\sqrt{p}$ , where $m, n,$ and $p$ are positive integers and $p$ is not divisible by the square of any prime. What is $m + n + p$ ?",
+    "choices": [
+      "$47$",
+      "$52$",
+      "$55$",
+      "$58$",
+      "$63$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_21",
+    "topics": [
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc10a-2021-22",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 22,
+    "statementLatex": "Hiram's algebra notes are $50$ pages long and are printed on $25$ sheets of paper; the first sheet contains pages $1$ and $2$ , the second sheet contains pages $3$ and $4$ , and so on. One day he leaves his notes on the table before leaving for lunch, and his roommate decides to borrow some pages from the middle of the notes. When Hiram comes back, he discovers that his roommate has taken a consecutive set of sheets from the notes and that the average (mean) of the page numbers on all remaining sheets is exactly $19$ . How many sheets were borrowed?",
+    "choices": [
+      "$10$",
+      "$13$",
+      "$15$",
+      "$17$",
+      "$20$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_22",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc10a-2021-23",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 23,
+    "statementLatex": "Frieda the frog begins a sequence of hops on a $3 \\times 3$ grid of squares, moving one square on each hop and choosing at random the direction of each hop-up, down, left, or right. She does not hop diagonally. When the direction of a hop would take Frieda off the grid, she \"wraps around\" and jumps to the opposite edge. For example if Frieda begins in the center square and makes two hops \"up\", the first hop would place her in the top row middle square, and the second hop would cause Frieda to jump to the opposite edge, landing in the bottom row middle square. Suppose Frieda starts from the center square, makes at most four hops at random, and stops hopping if she lands on a corner square. What is the probability that she reaches a corner square on one of the four hops?",
+    "choices": [
+      "$\\frac{9}{16}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{25}{32}$",
+      "$\\frac{13}{16}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_23",
+    "topics": [
+      "Casework Counting",
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2021-24",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 24,
+    "statementLatex": "The interior of a quadrilateral is bounded by the graphs of $(x+ay)^2 = 4a^2$ and $(ax-y)^2 = a^2$ , where $a$ is a positive real number. What is the area of this region in terms of $a$ , valid for all $a > 0$ ?",
+    "choices": [
+      "$\\frac{8a^2}{(a+1)^2}$",
+      "$\\frac{4a}{a+1}$",
+      "$\\frac{8a}{a+1}$",
+      "$\\frac{8a^2}{a^2+1}$",
+      "$\\frac{8a}{a^2+1}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_24",
+    "topics": [
+      "Area by Coordinates"
+    ]
+  },
+  {
+    "id": "amc10a-2021-25",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "A",
+    "number": 25,
+    "statementLatex": "How many ways are there to place $3$ indistinguishable red chips, $3$ indistinguishable blue chips, and $3$ indistinguishable green chips in the squares of a $3 \\times 3$ grid so that no two chips of the same color are directly adjacent to each other, either vertically or horizontally?",
+    "choices": [
+      "$12$",
+      "$18$",
+      "$24$",
+      "$30$",
+      "$36$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_25",
+    "topics": [
+      "Casework Counting"
     ]
   }
 ]
