@@ -67,8 +67,7 @@ export function AppShell({ children }: { children: ReactNode }) {
                   <SidebarMenuButton asChild>
                     <Link
                       to={n.to}
-                      activeOptions={{ exact: n.to === "/" }}
-                      activeProps={{ "data-active": true } as never}
+                      data-active={isActive(n.to) || undefined}
                     >
                       <n.icon /> {n.label}
                     </Link>
