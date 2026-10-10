@@ -21,6 +21,7 @@ const ERR = "scrape-errors.log";
 const args = process.argv.slice(2);
 const only = args.includes("--only") ? args[args.indexOf("--only") + 1] : null;
 const onlyContest = args.includes("--contest") ? args[args.indexOf("--contest") + 1] : null;
+const resume = args.includes("--resume");
 mkdirSync(CACHE, { recursive: true });
 writeFileSync(ERR, "");
 
@@ -161,11 +162,25 @@ for (const idx of INDEXES) {
   if (contests.size === 0) { logErr(idx.url, "no contests found on index page"); anyFailure = true; continue; }
 
   const problems: any[] = [];
+  // --resume: skip contests already (nearly) fully saved, so restarts don't re-download them.
+  const saved = new Map<string, number>();
+  if (resume) {
+    try {
+      for (const p of JSON.parse(readFileSync(`src/data/${idx.key}.json`, "utf8"))) {
+        const k = `${p.year}|${p.version}`;
+        saved.set(k, (saved.get(k) ?? 0) + 1);
+      }
+    } catch { /* no file yet */ }
+  }
   for (const [name, href] of contests) {
     if (only && name !== only) continue;
     const m = name.match(idx.re)!;
     const year = Number(m[1]);
     const version = (m[2] ?? "").trim() + (name.includes("Fall") ? " Fall" : "");
+    if (resume && (saved.get(`${year}|${version.trim()}`) ?? 0) >= idx.expected - 8) {
+      console.log(`skip ${name} (already saved)`);
+      continue;
+    }
     const slug = href.replace(/^.*\/wiki\/index\.php\/?(\?title=)?/, "").replace(/_Problems$/, "");
     const keyHtml = await get(`/wiki/index.php/${slug}_Answer_Key`);
     const key = keyHtml ? parseAnswerKey(keyHtml) : [];
