@@ -17,6 +17,8 @@ export const Route = createFileRoute("/problem/$id")({
         { name: "description", content: `Solve ${loaderData?.title ?? "this problem"} with 3 attempts.` },
         { property: "og:title", content: t },
         { property: "og:description", content: "Competition math practice on Modulo." },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
     };
   },

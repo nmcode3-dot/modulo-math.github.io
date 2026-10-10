@@ -14,6 +14,8 @@ export const Route = createFileRoute("/progress")({
       { name: "description", content: "Your solved count, accuracy and first-try rate, plus export and import." },
       { property: "og:title", content: "My Progress — Modulo" },
       { property: "og:description", content: "Track your competition math progress." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: ProgressPage,
