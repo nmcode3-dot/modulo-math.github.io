@@ -1,4 +1,5 @@
 import topicTags from "@/data/topic-tags.json";
+import { tagProblem, FALLBACK_TOPICS, type TagMap } from "@/lib/tagger";
 
 export type Problem = {
   id: string;
@@ -25,7 +26,7 @@ const contestRank = (c: string) => {
   return i < 0 ? 99 : i;
 };
 
-export const TOPICS: string[] = Object.keys(topicTags as Record<string, string[]>).sort();
+export const TOPICS: string[] = [...Object.keys(topicTags as Record<string, string[]>), ...FALLBACK_TOPICS].sort();
 
 function withTags(p: Problem): Problem {
   const map = topicTags as TagMap;
