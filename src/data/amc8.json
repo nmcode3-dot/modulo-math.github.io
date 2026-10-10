@@ -5,22 +5,527 @@
     "year": 2019,
     "version": "",
     "number": 1,
-    "statementLatex": "Ike and Mike go into a sandwich shop with a total of $\\$30.00$ to spend. Sandwiches cost $\\$4.50$ each and soft drinks cost $\\$1.00$ each. Ike and Mike plan to buy as many sandwiches as they can, and use any remaining money to buy soft drinks. Counting both sandwiches and soft drinks, how many items will they buy?",
-    "choices": ["$6$", "$7$", "$8$", "$9$", "$10$"],
+    "statementLatex": "Ike and Mike go into a sandwich shop with a total of $$30.00$ to spend. Sandwiches cost $$4.50$ each and soft drinks cost $$1.00$ each. Ike and Mike plan to buy as many sandwiches as they can,\nand use any remaining money to buy soft drinks. Counting both sandwiches and soft drinks, how\nmany items will they buy?",
+    "choices": [
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$",
+      "$10$"
+    ],
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_1",
-    "topics": ["Arithmetic Word Problems"]
+    "topics": [
+      "Exponent Rules",
+      "Arithmetic Word Problems"
+    ]
   },
   {
-    "id": "amc8-2020-1",
+    "id": "amc8-2019-2",
     "contest": "AMC 8",
-    "year": 2020,
+    "year": 2019,
     "version": "",
-    "number": 1,
-    "statementLatex": "Luka is making lemonade to sell at a school fundraiser. His recipe requires $4$ times as much water as sugar and twice as much sugar as lemon juice. He uses $3$ cups of lemon juice. How many cups of water does he need?",
-    "choices": ["$6$", "$8$", "$12$", "$18$", "$24$"],
+    "number": 2,
+    "statementLatex": "Three identical rectangles are put together to form rectangle $ABCD$ , as shown in the figure below. Given that the length of the shorter side of each of the smaller rectangles is 5 feet, what is the area in square feet of rectangle $ABCD$ ?\n\n$[asy] draw((0,0)--(3,0)); draw((0,0)--(0,2)); draw((0,2)--(3,2)); draw((3,2)--(3,0)); dot((0,0)); dot((0,2)); dot((3,0)); dot((3,2)); draw((2,0)--(2,2)); draw((0,1)--(2,1)); label(\"A\",(0,0),S); label(\"B\",(3,0),S); label(\"C\",(3,2),N); label(\"D\",(0,2),N); [/asy]$",
+    "choices": [
+      "$45$",
+      "$75$",
+      "$100$",
+      "$125$",
+      "$150$"
+    ],
     "answer": "E",
-    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_1",
-    "topics": ["Ratios and Rates"]
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Conditional Probability",
+      "Area by Coordinates",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-3",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 3,
+    "statementLatex": "Which of the following is the correct order of the fractions $\\frac{15}{11},\\frac{19}{15},$ and $\\frac{17}{13},$ from least to greatest?",
+    "choices": [
+      "$\\frac{15}{11}< \\frac{17}{13}< \\frac{19}{15}$",
+      "$\\frac{15}{11}< \\frac{19}{15}<\\frac{17}{13}$",
+      "$\\frac{17}{13}<\\frac{19}{15}<\\frac{15}{11}$",
+      "$\\frac{19}{15}<\\frac{15}{11}<\\frac{17}{13}$",
+      "$\\frac{19}{15}<\\frac{17}{13}<\\frac{15}{11}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-4",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Quadrilateral $ABCD$ is a rhombus with perimeter $52$ meters. The length of diagonal $\\overline{AC}$ is $24$ meters. What is the area in square meters of rhombus $ABCD$ ?\n\n$[asy] draw((-13,0)--(0,5)); draw((0,5)--(13,0)); draw((13,0)--(0,-5)); draw((0,-5)--(-13,0)); dot((-13,0)); dot((0,5)); dot((13,0)); dot((0,-5)); label(\"A\",(-13,0),W); label(\"B\",(0,5),N); label(\"C\",(13,0),E); label(\"D\",(0,-5),S); [/asy]$",
+    "choices": [
+      "$60$",
+      "$90$",
+      "$105$",
+      "$120$",
+      "$144$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Pythagorean Triples",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-5",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 5,
+    "statementLatex": "A tortoise challenges a hare to a race. The hare eagerly agrees and quickly runs ahead, leaving the slow-moving tortoise behind. Confident that he will win, the hare stops to take a nap. Meanwhile, the tortoise walks at a slow steady pace for the entire race. The hare awakes and runs to the finish line, only to find the tortoise already there. Which of the following graphs matches the description of the race, showing the distance $d$ traveled by the two animals over time $t$ from start to finish?\n\n$2019 AMC 8 -4 Image 1.png$\n\n$2019 AMC 8 -4 Image 2.png$",
+    "choices": [],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Exponent Rules",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2019-6",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 6,
+    "statementLatex": "There are $81$ grid points (uniformly spaced) in the square shown in the diagram below, including the points on the edges. Point $P$ is in the center of the square. Given that point $Q$ is randomly chosen among the other $80$ points, what is the probability that the line $PQ$ is a line of symmetry for the square?\n\n$[asy] draw((0,0)--(0,8)); draw((0,8)--(8,8)); draw((8,8)--(8,0)); draw((8,0)--(0,0)); dot((0,0)); dot((0,1)); dot((0,2)); dot((0,3)); dot((0,4)); dot((0,5)); dot((0,6)); dot((0,7)); dot((0,8)); dot((1,0)); dot((1,1)); dot((1,2)); dot((1,3)); dot((1,4)); dot((1,5)); dot((1,6)); dot((1,7)); dot((1,8)); dot((2,0)); dot((2,1)); dot((2,2)); dot((2,3)); dot((2,4)); dot((2,5)); dot((2,6)); dot((2,7)); dot((2,8)); dot((3,0)); dot((3,1)); dot((3,2)); dot((3,3)); dot((3,4)); dot((3,5)); dot((3,6)); dot((3,7)); dot((3,8)); dot((4,0)); dot((4,1)); dot((4,2)); dot((4,3)); dot((4,4)); dot((4,5)); dot((4,6)); dot((4,7)); dot((4,8)); dot((5,0)); dot((5,1)); dot((5,2)); dot((5,3)); dot((5,4)); dot((5,5)); dot((5,6)); dot((5,7)); dot((5,8)); dot((6,0)); dot((6,1)); dot((6,2)); dot((6,3)); dot((6,4)); dot((6,5)); dot((6,6)); dot((6,7)); dot((6,8)); dot((7,0)); dot((7,1)); dot((7,2)); dot((7,3)); dot((7,4)); dot((7,5)); dot((7,6)); dot((7,7)); dot((7,8)); dot((8,0)); dot((8,1)); dot((8,2)); dot((8,3)); dot((8,4)); dot((8,5)); dot((8,6)); dot((8,7)); dot((8,8)); label(\"P\",(4,4),NE); [/asy]$",
+    "choices": [
+      "$\\frac{1}{5}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{9}{20}$",
+      "$\\frac{1}{2}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Paths on a Grid",
+      "Conditional Probability",
+      "Area by Coordinates",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-7",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 7,
+    "statementLatex": "Shauna takes five tests, each worth a maximum of $100$ points. Her scores on the first three tests are $76$ , $94$ , and $87$ . In order to average $81$ for all five tests, what is the lowest score she could earn on one of the other two tests?",
+    "choices": [
+      "$48$",
+      "$52$",
+      "$66$",
+      "$70$",
+      "$74$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Digit Problems",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-8",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 8,
+    "statementLatex": "Gilda has a bag of marbles. She gives $20\\%$ of them to her friend Pedro. Then Gilda gives $10\\%$ of what is left to another friend, Ebony. Finally, Gilda gives $25\\%$ of what is now left in the bag to her brother Jimmy. What percentage of her original bag of marbles does Gilda have left for herself?",
+    "choices": [
+      "$20$",
+      "$33\\frac{1}{3}$",
+      "$38$",
+      "$45$",
+      "$54$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Exponent Rules",
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2019-9",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 9,
+    "statementLatex": "Alex and Felicia each have cats as pets. Alex buys cat food in cylindrical cans that are $6$ cm in diameter and $12$ cm high. Felicia buys cat food in cylindrical cans that are $12$ cm in diameter and $6$ cm high. What is the ratio of the volume of one of Alex's cans to the volume of one of Felicia's cans?",
+    "choices": [
+      "$1:4$",
+      "$1:2$",
+      "$1:1$",
+      "$2:1$",
+      "$4:1$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Exponent Rules",
+      "Ratios and Rates",
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2019-10",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 10,
+    "statementLatex": "The diagram shows the number of students at soccer practice each weekday during last week. After computing the mean and median values, Coach discovers that there were actually $21$ participants on Wednesday. Which of the following statements describes the change in the mean and median after the correction is made?\n\n$[asy] unitsize(2mm); defaultpen(fontsize(8bp)); real d = 5; real t = 0.7; real r; int[] num = {20,26,16,22,16}; string[] days = {\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\"}; for (int i=0; i<30; i=i+2) { draw((i,0)--(i,-5*d),gray); }for (int i=0; i<5; ++i) { r = -1*(i+0.5)*d; fill((0,r-t)--(0,r+t)--(num[i],r+t)--(num[i],r-t)--cycle,gray); label(days[i],(-1,r),W); }for(int i=0; i<32; i=i+4) { label(string(i),(i,1)); }label(\"Number of students at soccer practice\",(14,3.5)); [/asy]$\n\n$\\textbf{(A) }$ The mean increases by $1$ and the median does not change.\n\n$\\textbf{(B) }$ The mean increases by $1$ and the median increases by $1$ .\n\n$\\textbf{(C) }$ The mean increases by $1$ and the median increases by $5$ .\n\n$\\textbf{(D) }$ The mean increases by $5$ and the median increases by $1$ .\n\n$\\textbf{(E) }$ The mean increases by $5$ and the median increases by $5$ .",
+    "choices": [],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-11",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 11,
+    "statementLatex": "The eighth grade class at Lincoln Middle School has $93$ students. Each student takes a math class or a foreign language class or both. There are $70$ eighth graders taking a math class, and there are $54$ eighth graders taking a foreign language class. How many eighth graders take only a math class and not a foreign language class?",
+    "choices": [
+      "$16$",
+      "$53$",
+      "$31$",
+      "$39$",
+      "$70$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Complementary Counting",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-12",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 12,
+    "statementLatex": "The faces of a cube are painted in six different colors: red $(R)$ , white $(W)$ , green $(G)$ , brown $(B)$ , aqua",
+    "choices": [
+      "$\\text{ red}$",
+      "$\\text{ white}$",
+      "$\\text{ green}$",
+      "$\\text{ brown}$",
+      "$\\text{ purple}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Exponent Rules",
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2019-13",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 13,
+    "statementLatex": "A palindrome is a number that has the same value when read from left to right or from right to left. (For example, 12321 is a palindrome.) Let $N$ be the least three-digit integer which is not a palindrome but which is the sum of three distinct two-digit palindromes. What is the sum of the digits of $N$ ?",
+    "choices": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$",
+      "$6$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Digit Problems",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-14",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 14,
+    "statementLatex": "Isabella has $6$ coupons that can be redeemed for free ice cream cones at Pete's Sweet Treats. In order to make the coupons last, she decides that she will redeem one every $10$ days until she has used them all. She knows that Pete's is closed on Sundays, but as she circles the $6$ dates on her calendar, she realizes that no circled date falls on a Sunday. On what day of the week does Isabella redeem her first coupon?",
+    "choices": [
+      "$\\text{Monday}$",
+      "$\\text{Tuesday}$",
+      "$\\text{Wednesday}$",
+      "$\\text{Thursday}$",
+      "$\\text{Friday}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Exponent Rules",
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2019-15",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 15,
+    "statementLatex": "On a beach $500$ people are wearing sunglasses and $35$ people are wearing caps. Some people are wearing both sunglasses and caps. If one of the people wearing a cap is selected at random, the probability that this person is also wearing sunglasses is $\\frac{2}{5}$ . If instead, someone wearing sunglasses is selected at random, what is the probability that this person is also wearing a cap?",
+    "choices": [
+      "$\\frac{14}{85}$",
+      "$\\frac{7}{25}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{4}{7}$",
+      "$\\frac{7}{10}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Conditional Probability"
+    ]
+  },
+  {
+    "id": "amc8-2019-16",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 16,
+    "statementLatex": "Qiang drives $15$ miles at an average speed of $30$ miles per hour. How many additional miles will he have to drive at $55$ miles per hour to average $50$ miles per hour for the entire trip?",
+    "choices": [
+      "$45$",
+      "$62$",
+      "$90$",
+      "$110$",
+      "$135$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Exponent Rules",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2019-17",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 17,
+    "statementLatex": "What is the value of the product\n\n\\[\\left(\\frac{1\\cdot3}{2\\cdot2}\\right)\\left(\\frac{2\\cdot4}{3\\cdot3}\\right)\\left(\\frac{3\\cdot5}{4\\cdot4}\\right)\\cdots\\left(\\frac{97\\cdot99}{98\\cdot98}\\right)\\left(\\frac{98\\cdot100}{99\\cdot99}\\right)?\\]",
+    "choices": [
+      "$\\frac{1}{2}$",
+      "$\\frac{50}{99}$",
+      "$\\frac{9800}{9801}$",
+      "$\\frac{100}{99}$",
+      "$50$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Telescoping Sums",
+      "Arithmetic/Geometric Sequences",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-18",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 18,
+    "statementLatex": "The faces of each of two fair dice are numbered $1$ , $2$ , $3$ , $5$ , $7$ , and $8$ . When the two dice are tossed, what is the probability that their sum will be an even number?",
+    "choices": [
+      "$\\frac{4}{9}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{9}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{2}{3}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_18",
+    "topics": [
+      "Complementary Counting",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-19",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 19,
+    "statementLatex": "In a tournament there are six teams that play each other twice. A team earns $3$ points for a win, $1$ point for a draw, and $0$ points for a loss. After all the games have been played it turns out that the top three teams earned the same number of total points. What is the greatest possible number of total points for each of the top three teams?",
+    "choices": [
+      "$22$",
+      "$23$",
+      "$24$",
+      "$26$",
+      "$30$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Casework Counting",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-20",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 20,
+    "statementLatex": "How many different real numbers $x$ satisfy the equation \\[(x^{2}-5)^{2}=16?\\]",
+    "choices": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$4$",
+      "$8$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-21",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 21,
+    "statementLatex": "What is the area of the triangle formed by the lines $y=5$ , $y=1+x$ , and $y=1-x$ ?",
+    "choices": [
+      "$4$",
+      "$8$",
+      "$10$",
+      "$12$",
+      "$16$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Area by Coordinates",
+      "Base Conversion",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc8-2019-22",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 22,
+    "statementLatex": "A store increased the original price of a shirt by a certain percent and then lowered the new price by the same amount. Given that the resulting price was $84\\%$ of the original price, by what percent was the price increased and decreased $?$",
+    "choices": [
+      "$16$",
+      "$20$",
+      "$28$",
+      "$36$",
+      "$40$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_22",
+    "topics": [
+      "Conditional Probability",
+      "Exponent Rules",
+      "Fractions and Percents",
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2019-23",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 23,
+    "statementLatex": "After Euclid High School's last basketball game, it was determined that $\\frac{1}{4}$ of the team's points were scored by Alexa and $\\frac{2}{7}$ were scored by Brittany. Chelsea scored $15$ points. None of the other $7$ team members scored more than $2$ points. What was the total number of points scored by the other $7$ team members?",
+    "choices": [
+      "$10$",
+      "$11$",
+      "$12$",
+      "$13$",
+      "$14$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Complementary Counting",
+      "Arithmetic/Geometric Sequences",
+      "Exponent Rules",
+      "Ratios and Rates",
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2019-24",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 24,
+    "statementLatex": "In triangle $\\triangle ABC$ , point $D$ divides side $\\overline{AC}$ so that $AD:DC=1:2$ . Let $E$ be the midpoint of $\\overline{BD}$ and let $F$ be the point of intersection of line $\\overline{BC}$ and line $\\overline{AE}$ . Given that the area of $\\triangle ABC$ is $360$ , what is the area of $\\triangle EBF$ ?",
+    "choices": [
+      "$24$",
+      "$30$",
+      "$32$",
+      "$36$",
+      "$40$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Paths on a Grid",
+      "Inclusion-Exclusion",
+      "Conditional Probability",
+      "Similar Triangles",
+      "Area by Coordinates",
+      "Base Conversion",
+      "Exponent Rules",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2019-25",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 25,
+    "statementLatex": "Alice has $24$ apples. In how many ways can she share them with Becky and Chris so that each of the three people has at least two apples?",
+    "choices": [
+      "$105$",
+      "$114$",
+      "$190$",
+      "$210$",
+      "$380$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Modular Arithmetic",
+      "Stars and Bars",
+      "Casework Counting",
+      "Exponent Rules",
+      "Ratios and Rates"
+    ]
   }
 ]
