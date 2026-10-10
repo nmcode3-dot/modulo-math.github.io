@@ -5,6 +5,7 @@
 
 export type TagMap = Record<string, string[]>;
 
+export const FALLBACK_TOPICS = ["Probability", "Counting", "Geometry", "Number Theory", "Algebra"];
 const FALLBACKS: [string, RegExp][] = [
   ["Probability", /\bprobab|\bat random\b|\bdice\b|\bdie\b|\bcoin/i],
   ["Counting", /\bhow many\b|\bnumber of (ways|ordered|arrangements|subsets)/i],
