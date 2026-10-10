@@ -44,7 +44,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
 
   useEffect(() => {
     const element = questions.current.get(conversation.activeId ?? "");
-    if (element && transcript.current) transcript.current.scrollTo({ top: element.offsetTop - transcript.current.offsetTop, behavior: "instant" });
+    if (element && transcript.current) transcript.current.scrollTo({ top: element.offsetTop, behavior: "instant" });
   }, [conversation.activeId]);
 
   function scrollQuestion(id: string, bottom = false) {
