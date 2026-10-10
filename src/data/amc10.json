@@ -76,7 +76,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_2",
     "topics": [
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -319,7 +319,7 @@
     "topics": [
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Simplifying Radicals"
     ]
   },
@@ -364,8 +364,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_16",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -452,7 +452,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_21",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -512,7 +512,7 @@
       "3D Geometry",
       "Introduction to Probability",
       "Fundamental Counting Principle",
-      "Problem-Solving: 3D Geometry I"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -642,8 +642,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10B_Problems/Problem_6",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -687,7 +687,7 @@
       "Problem-Solving: Quadrilaterals",
       "Ratios and Rates",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1062,7 +1062,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_4",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -1229,7 +1229,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Circle Basics",
       "Linear Inequalities",
       "Problem-Solving: Shaded Regions - Circles"
@@ -1293,10 +1293,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_18",
     "topics": [
+      "3D Geometry",
       "Problem-Solving: Quadrilaterals",
       "Intermediate Modular Arithmetic",
-      "Problem-Solving: 3D Geometry I",
-      "3D Geometry III"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -1316,7 +1316,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_19",
     "topics": [
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -1402,8 +1402,8 @@
     "topics": [
       "Divisor Counting",
       "Digit Problems",
-      "Digit Deduction",
-      "Counting Divisors 2"
+      "Counting Divisors",
+      "Digit Deduction"
     ]
   },
   {
@@ -1423,9 +1423,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Absolute Value Tricks",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -1723,7 +1723,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Area by Coordinates",
       "Graphing Functions"
     ]
@@ -1806,7 +1806,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_17",
     "topics": [
       "3D Volumes and Surface Areas",
-      "Length Chasing I",
+      "Length Chasing",
       "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ]
   },
@@ -1959,7 +1959,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1981,7 +1981,7 @@
     "topics": [
       "Simplifying Radicals",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2083,7 +2083,7 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -2168,10 +2168,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_9",
     "topics": [
+      "3D Geometry",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: 3D Geometry I",
-      "Burnsides",
-      "3D Geometry III"
+      "Problem-Solving: 3D Geometry",
+      "Burnsides"
     ]
   },
   {
@@ -2192,7 +2192,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_10",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2435,7 +2435,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_21",
     "topics": [
       "Problem-Solving: Polygons",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2563,8 +2563,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_2",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2750,7 +2750,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_15",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Sequences and Series II",
+      "Sequences and Series",
       "Telescoping - Forcing It"
     ]
   },
@@ -2771,9 +2771,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10B_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -3004,8 +3004,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_2",
     "topics": [
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3239,10 +3239,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_19",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "2nd Degree Symmetric Sums",
       "Problem-Solving: Circle Basics",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -3476,7 +3476,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_11",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Simplifying Radicals",
       "Problem-Solving: Polygons"
     ]
@@ -3624,8 +3624,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10B_Problems/Problem_25",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3710,7 +3710,7 @@
     "topics": [
       "Variables",
       "Mean Median Mode",
-      "Algebraic Manipulation II"
+      "Algebraic Manipulation"
     ]
   },
   {
@@ -3875,8 +3875,7 @@
     "topics": [
       "3D Geometry",
       "Simplifying Radicals",
-      "3D Volumes and Surface Areas",
-      "3D Geometry III"
+      "3D Volumes and Surface Areas"
     ]
   },
   {
@@ -3963,7 +3962,7 @@
       "Simplifying Radicals",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Divisibility and Digits",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -4003,7 +4002,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_19",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Graphing Functions",
       "Problem-Solving: Shaded Regions - Circles"
     ]
@@ -4111,10 +4110,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Variables",
-      "Problem-Solving: Quadrilaterals",
-      "Algebraic Manipulation II"
+      "Algebraic Manipulation",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -4279,7 +4278,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Circle Tangents"
     ]
   },
@@ -4384,7 +4383,7 @@
     "topics": [
       "Divisor Counting",
       "Ratios and Rates",
-      "Counting Divisors 2"
+      "Counting Divisors"
     ]
   },
   {
@@ -4555,8 +4554,8 @@
     "topics": [
       "Simplifying Radicals",
       "Problem-Solving: Polygons",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4572,7 +4571,7 @@
     "topics": [
       "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -4660,7 +4659,7 @@
       "Area by Coordinates",
       "Graphing Functions",
       "Problem-Solving: Coordinate Bashing",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -4828,7 +4827,7 @@
     "topics": [
       "3D Volumes and Surface Areas",
       "3D Geometry",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4850,7 +4849,7 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Centroid"
     ]
   },
@@ -4873,7 +4872,7 @@
     "topics": [
       "Introduction to Probability",
       "Area by Coordinates",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -4980,7 +4979,7 @@
       "Angle Chasing",
       "Problem-Solving: Quadrilaterals",
       "3rd Degree Symmetric Sums",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5131,7 +5130,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_2",
     "topics": [
       "3D Volumes and Surface Areas",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -5259,7 +5258,7 @@
       "Pythagorean theorem",
       "Problem-Solving: Triangle Angles",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5302,7 +5301,7 @@
       "Problem-Solving: Circle Basics",
       "3D Volumes and Surface Areas",
       "3D Geometry",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5379,7 +5378,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_14",
     "topics": [
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Polygons",
       "Problem-Solving: Shaded Regions - Circles"
     ]
@@ -5533,7 +5532,7 @@
       "Problem-Solving: Polygons",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5686,8 +5685,7 @@
     "topics": [
       "Pigeonhole Principle",
       "Linear Inequalities",
-      "Pigeonhole",
-      "Pigeonhole II"
+      "Pigeonhole"
     ]
   },
   {
@@ -5749,7 +5747,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_7",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5792,7 +5790,7 @@
     "topics": [
       "Digit Problems",
       "Digit Deduction",
-      "Sequences and Series II",
+      "Sequences and Series",
       "Problem-Solving: Divisibility and Digits"
     ]
   },
@@ -5835,7 +5833,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_11",
     "topics": [
       "Divisor Counting",
-      "Counting Divisors 2"
+      "Counting Divisors"
     ]
   },
   {
@@ -5939,7 +5937,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_16",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Shaded Regions - Circles",
       "Problem-Solving: Slice and Add the Shaded Region"
     ]
@@ -6230,7 +6228,7 @@
       "Linear Equations",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6293,7 +6291,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_8",
     "topics": [
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles"
     ]
@@ -6341,7 +6339,7 @@
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6530,7 +6528,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_19",
     "topics": [
       "Divisor Counting",
-      "Counting Divisors 2"
+      "Counting Divisors"
     ]
   },
   {
@@ -6551,7 +6549,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_20",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Circle Tangents",
       "2nd Degree Symmetric Sums"
     ]
@@ -6617,7 +6615,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_23",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6657,7 +6655,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_25",
     "topics": [
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -6917,7 +6915,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_13",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -6982,7 +6980,7 @@
       "Pythagorean theorem",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -7263,7 +7261,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_4",
     "topics": [
       "3D Volumes and Surface Areas",
-      "Problem-Solving: 3D Geometry I",
+      "Problem-Solving: 3D Geometry",
       "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ]
   },
@@ -7325,7 +7323,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Ratios and Rates",
       "Venn Diagrams",
       "Problem-Solving: Circle Basics"
@@ -7431,7 +7429,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_12",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Centroid",
       "Problem-Solving: Triangle Angles"
     ]
@@ -7494,8 +7492,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_15",
     "topics": [
       "Bases",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -7624,8 +7622,8 @@
     "topics": [
       "Divisor Counting",
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Counting Divisors",
+      "Digit Deduction"
     ]
   },
   {
@@ -7689,8 +7687,8 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Triangle Angles",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -7773,7 +7771,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -7916,8 +7914,8 @@
     "topics": [
       "Combinations",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -7937,10 +7935,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_11",
     "topics": [
-      "Length Chasing I",
+      "Length Chasing",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: 3D Geometry I",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: 3D Geometry",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -8156,7 +8154,7 @@
       "Pythagorean theorem",
       "Problem-Solving: Triangle Angles",
       "Problem-Solving: Inscribed Circles",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -8201,7 +8199,7 @@
     "topics": [
       "Area by Coordinates",
       "Graphing Functions",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -8369,8 +8367,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: 3D Geometry I",
-      "3D Geometry III"
+      "3D Geometry",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -8562,7 +8560,7 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -8672,7 +8670,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_20",
     "topics": [
       "Introduction to Probability",
-      "Counting Divisors 2"
+      "Counting Divisors"
     ]
   },
   {
@@ -8717,7 +8715,7 @@
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -8762,7 +8760,7 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Centroid"
     ]
   },
@@ -8994,7 +8992,7 @@
       "Arithmetic/Geometric Sequences",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Shaded Regions - Circles",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -9015,7 +9013,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_11",
     "topics": [
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Shaded Regions - Circles",
       "Problem-Solving: Slice and Add the Shaded Region"
     ]
@@ -9237,8 +9235,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_22",
     "topics": [
-      "Counting Divisors 1",
-      "Counting Divisors 2"
+      "Counting Divisors"
     ]
   },
   {
@@ -9493,7 +9490,7 @@
       "Graphing Functions",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -9515,7 +9512,7 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -9535,7 +9532,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -9597,7 +9594,7 @@
     "topics": [
       "Problem-Solving: Coordinate Bashing",
       "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -9637,7 +9634,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_16",
     "topics": [
-      "Sequences and Series II"
+      "Sequences and Series"
     ]
   },
   {
@@ -9739,7 +9736,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Absolute Value Tricks",
       "Graphing Functions"
     ]
@@ -9783,7 +9780,7 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -10048,8 +10045,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -10242,7 +10239,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_20",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -10500,7 +10497,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_9",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Area by Coordinates",
       "Problem-Solving: Weird Areas"
     ]
@@ -10665,8 +10662,7 @@
     "topics": [
       "3D Geometry",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Connecting the Centers",
-      "3D Geometry III"
+      "Problem-Solving: Connecting the Centers"
     ]
   },
   {
@@ -10835,7 +10831,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_25",
     "topics": [
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11080,7 +11076,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_12",
     "topics": [
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Polygons",
       "Problem-Solving: Circle Basics"
     ]
@@ -11126,7 +11122,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_14",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11168,7 +11164,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_16",
     "topics": [
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Shaded Regions - Circles"
     ]
@@ -11213,7 +11209,7 @@
       "Area by Coordinates",
       "Graphing Functions",
       "Problem-Solving: Coordinate Bashing",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11234,7 +11230,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_19",
     "topics": [
       "3D Geometry",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -11316,8 +11312,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_23",
     "topics": [
       "Ratios and Rates",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11458,7 +11454,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10B_Problems/Problem_5",
     "topics": [
       "Ratios and Rates",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -11621,7 +11617,7 @@
       "Problem-Solving: Polygons",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -11790,7 +11786,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10B_Problems/Problem_21",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -11806,7 +11802,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Circle Tangents",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -11920,8 +11916,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_3",
     "topics": [
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -12149,9 +12145,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_14",
     "topics": [
       "3D Geometry",
-      "Problem-Solving: 3D Geometry I",
-      "Length Chasing I",
-      "3D Geometry III"
+      "Problem-Solving: 3D Geometry",
+      "Length Chasing"
     ]
   },
   {
@@ -12195,7 +12190,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_16",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -12236,7 +12231,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -12279,7 +12274,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_20",
     "topics": [
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -12631,7 +12626,7 @@
     "topics": [
       "Introduction to Probability",
       "Problem-Solving: Polygons",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -12694,7 +12689,7 @@
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -12716,7 +12711,7 @@
     "topics": [
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Centroid"
     ]
   },
@@ -12857,7 +12852,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_23",
     "topics": [
-      "Length Chasing I",
+      "Length Chasing",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums"
     ]
@@ -12880,7 +12875,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_24",
     "topics": [
       "Divisor Counting",
-      "Counting Divisors 2"
+      "Counting Divisors"
     ]
   },
   {
@@ -12944,7 +12939,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_2",
     "topics": [
       "Intermediate Modular Arithmetic",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -13215,7 +13210,7 @@
     "topics": [
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -13278,7 +13273,7 @@
       "Problem-Solving: Polygons",
       "Intermediate Modular Arithmetic",
       "Problem-Solving: Connecting the Centers",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -13338,7 +13333,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -13358,7 +13353,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_22",
     "topics": [
-      "Sequences and Series II"
+      "Sequences and Series"
     ]
   },
   {
@@ -13705,7 +13700,7 @@
       "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -13745,7 +13740,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10B_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Areas II",
+      "Problem-Solving: Areas",
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Shaded Regions - Circles"
     ]
@@ -13813,8 +13808,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10B_Problems/Problem_19",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing I",
-      "Problem-Solving: Areas II"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -13896,8 +13891,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10B_Problems/Problem_23",
     "topics": [
       "3D Geometry",
-      "3D Geometry III",
-      "Problem-Solving: 3D Geometry I"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -13939,7 +13933,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10B_Problems/Problem_25",
     "topics": [
       "Distance, Rate, Time",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -14122,7 +14116,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10A_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -14163,7 +14157,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10A_Problems/Problem_11",
     "topics": [
       "Ratios and Rates",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -14225,7 +14219,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Introduction to Probability",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -14306,7 +14300,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10A_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -14348,7 +14342,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Introduction to Probability",
-      "Length Chasing I"
+      "Length Chasing"
     ]
   },
   {
@@ -14433,7 +14427,7 @@
     "topics": [
       "3D Geometry",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -14453,7 +14447,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10A_Problems/Problem_25",
     "topics": [
-      "Problem-Solving: Areas II"
+      "Problem-Solving: Areas"
     ]
   }
 ]
