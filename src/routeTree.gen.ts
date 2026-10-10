@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContestsRouteImport } from './routes/contests'
 import { Route as ProgressRouteImport } from './routes/progress'
 import { Route as ProblemIdRouteImport } from './routes/problem.$id'
 import { Route as TopicsIndexRouteImport } from './routes/topics.index'
@@ -18,6 +19,11 @@ import { Route as TopicsSlugRouteImport } from './routes/topics.$slug'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContestsRoute = ContestsRouteImport.update({
+  id: '/contests',
+  path: '/contests',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProgressRoute = ProgressRouteImport.update({
@@ -43,6 +49,7 @@ const TopicsSlugRoute = TopicsSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/contests': typeof ContestsRoute
   '/progress': typeof ProgressRoute
   '/problem/$id': typeof ProblemIdRoute
   '/topics/$slug': typeof TopicsSlugRoute
@@ -50,6 +57,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/contests': typeof ContestsRoute
   '/progress': typeof ProgressRoute
   '/problem/$id': typeof ProblemIdRoute
   '/topics/$slug': typeof TopicsSlugRoute
@@ -58,6 +66,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/contests': typeof ContestsRoute
   '/progress': typeof ProgressRoute
   '/problem/$id': typeof ProblemIdRoute
   '/topics/$slug': typeof TopicsSlugRoute
@@ -65,12 +74,25 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/progress' | '/problem/$id' | '/topics/$slug' | '/topics/'
+  fullPaths:
+    | '/'
+    | '/contests'
+    | '/progress'
+    | '/problem/$id'
+    | '/topics/$slug'
+    | '/topics/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/progress' | '/problem/$id' | '/topics/$slug' | '/topics'
+  to:
+    | '/'
+    | '/contests'
+    | '/progress'
+    | '/problem/$id'
+    | '/topics/$slug'
+    | '/topics'
   id:
     | '__root__'
     | '/'
+    | '/contests'
     | '/progress'
     | '/problem/$id'
     | '/topics/$slug'
@@ -79,6 +101,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContestsRoute: typeof ContestsRoute
   ProgressRoute: typeof ProgressRoute
   ProblemIdRoute: typeof ProblemIdRoute
   TopicsSlugRoute: typeof TopicsSlugRoute
@@ -92,6 +115,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contests': {
+      id: '/contests'
+      path: '/contests'
+      fullPath: '/contests'
+      preLoaderRoute: typeof ContestsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/progress': {
@@ -127,6 +157,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContestsRoute: ContestsRoute,
   ProgressRoute: ProgressRoute,
   ProblemIdRoute: ProblemIdRoute,
   TopicsSlugRoute: TopicsSlugRoute,

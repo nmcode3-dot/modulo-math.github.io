@@ -17,8 +17,8 @@ import {
 import { Button } from "@/components/ui/button";
 
 const NAV = [
-  { to: "/", label: "Contest Practice", icon: BookOpen },
-  { to: "/topics", label: "Topic Drills", icon: Tags },
+  { to: "/", label: "Topic Drills", icon: Tags },
+  { to: "/contests", label: "Contest Practice", icon: BookOpen },
   { to: "/progress", label: "My Progress", icon: BarChart3 },
 ] as const;
 
@@ -48,7 +48,14 @@ function ThemeToggle() {
 }
 
 export function AppShell({ children }: { children: ReactNode }) {
-  const topicWorkspace = useRouterState({ select: state => state.location.pathname.startsWith("/topics/") && state.location.pathname !== "/topics/" });
+  const pathname = useRouterState({ select: state => state.location.pathname });
+  const topicWorkspace = pathname === "/" || (pathname.startsWith("/topics") && pathname !== "/topics/");
+  const isActive = (to: string) =>
+    to === "/"
+      ? pathname === "/" || pathname.startsWith("/topics")
+      : to === "/contests"
+        ? pathname.startsWith("/contests") || pathname.startsWith("/problem")
+        : pathname === to || pathname.startsWith(`${to}/`);
   return (
     <SidebarProvider>
       <Sidebar>
@@ -65,8 +72,7 @@ export function AppShell({ children }: { children: ReactNode }) {
                   <SidebarMenuButton asChild>
                     <Link
                       to={n.to}
-                      activeOptions={{ exact: n.to === "/" }}
-                      activeProps={{ "data-active": true } as never}
+                      data-active={isActive(n.to) || undefined}
                     >
                       <n.icon /> {n.label}
                     </Link>

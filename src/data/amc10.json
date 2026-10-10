@@ -5,7 +5,7 @@
     "year": 2019,
     "version": "A",
     "number": 1,
-    "statementLatex": "What is the value of $$2^{\\left(0^{\\left(1^9\\right)}\\right)}+\\left(\\left(2^0\\right)^1\\right)^9?$$",
+    "statementLatex": "What is the value of \\[2^{\\left(0^{\\left(1^9\\right)}\\right)}+\\left(\\left(2^0\\right)^1\\right)^9?\\]",
     "choices": [
       "$0$",
       "$1$",
@@ -4895,6 +4895,1500 @@
     "topics": [
       "Stars and Bars",
       "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2020-1",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 1,
+    "statementLatex": "What is the value of\n \\[1-(-2)-3-(-4)-5-(-6)?\\]",
+    "choices": [
+      "$\\ -20$",
+      "$\\ -3$",
+      "$\\ 3$",
+      "$\\ 5$",
+      "$\\ 21$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_1",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10b-2020-2",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 2,
+    "statementLatex": "Carl has $5$ cubes each having side length $1$ , and Kate has $5$ cubes each having side length $2$ . What is the total volume of these $10$ cubes?",
+    "choices": [
+      "$\\ 24$",
+      "$\\ 25$",
+      "$\\ 28$",
+      "$\\ 40$",
+      "$\\ 45$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_2",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2020-3",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 3,
+    "statementLatex": "The ratio of $w$ to $x$ is $4:3$ , the ratio of $y$ to $z$ is $3:2$ , and the ratio of $z$ to $x$ is $1:6$ . What is the ratio of $w$ to $y?$",
+    "choices": [
+      "$\\ 4:3$",
+      "$\\ 3:2$",
+      "$\\ 8:3$",
+      "$\\ 4:1$",
+      "$\\ 16:3$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_3",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2020-4",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 4,
+    "statementLatex": "The acute angles of a right triangle are $a^{\\circ}$ and $b^{\\circ}$ , where $a>b$ and both $a$ and $b$ are prime numbers. What is the least possible value of $b$ ?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 5$",
+      "$\\ 7$",
+      "$\\ 11$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_4",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2020-5",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 5,
+    "statementLatex": "How many distinguishable arrangements are there of $1$ brown tile, $1$ purple tile, $2$ green tiles, and $3$ yellow tiles in a row from left to right? (Tiles of the same color are indistinguishable.)",
+    "choices": [
+      "$\\ 210$",
+      "$\\ 420$",
+      "$\\ 630$",
+      "$\\ 840$",
+      "$\\ 1050$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_5",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2020-6",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 6,
+    "statementLatex": "Driving along a highway, Megan noticed that her odometer showed $15951$ (miles). This number is a palindrome-it reads the same forward and backward. Then $2$ hours later, the odometer displayed the next higher palindrome. What was her average speed, in miles per hour, during this $2$ -hour period?",
+    "choices": [
+      "$\\ 50$",
+      "$\\ 55$",
+      "$\\ 60$",
+      "$\\ 65$",
+      "$\\ 70$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_6",
+    "topics": [
+      "Expected Value",
+      "Digit Problems",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2020-7",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 7,
+    "statementLatex": "How many positive even multiples of $3$ less than $2020$ are perfect squares?",
+    "choices": [
+      "$\\ 7$",
+      "$\\ 8$",
+      "$\\ 9$",
+      "$\\ 10$",
+      "$\\ 12$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_7",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2020-8",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 8,
+    "statementLatex": "Points $P$ and $Q$ lie in a plane with $PQ=8$ . How many locations for point $R$ in this plane are there such that the triangle with vertices $P$ , $Q$ , and $R$ is a right triangle with area $12$ square units?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 8$",
+      "$\\ 12$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_8",
+    "topics": [
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2020-9",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 9,
+    "statementLatex": "How many ordered pairs of integers $(x, y)$ satisfy the equation \\[x^{2020}+y^2=2y?\\]",
+    "choices": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$\\text{infinitely many}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_9",
+    "topics": [
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2020-10",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 10,
+    "statementLatex": "A three-quarter sector of a circle of radius $4$ inches together with its interior can be rolled up to form the lateral surface area of a right circular cone by taping together along the two radii shown. What is the volume of the cone in cubic inches?\n\n[[img:https://latex.artofproblemsolving.com/0/f/d/0fd309aa42ba1222ee60252a6c9cb5860f74c4c4.png]]",
+    "choices": [
+      "$\\ 3\\pi \\sqrt5$",
+      "$\\ 4\\pi \\sqrt3$",
+      "$\\ 3 \\pi \\sqrt7$",
+      "$\\ 6\\pi \\sqrt3$",
+      "$\\ 6\\pi \\sqrt7$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_10",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2020-11",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 11,
+    "statementLatex": "Ms. Carr asks her students to read any $5$ of the $10$ books on a reading list. Harold randomly selects $5$ books from this list, and Betty does the same. What is the probability that there are exactly $2$ books that they both select?",
+    "choices": [
+      "$\\ \\frac{1}{8}$",
+      "$\\ \\frac{5}{36}$",
+      "$\\ \\frac{14}{45}$",
+      "$\\ \\frac{25}{63}$",
+      "$\\ \\frac{1}{2}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_11",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc10b-2020-12",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 12,
+    "statementLatex": "The decimal representation of \\[\\dfrac{1}{20^{20}}\\] consists of a string of zeros after the decimal point, followed by a $9$ and then several more digits. How many zeros are in that initial string of zeros after the decimal point?",
+    "choices": [
+      "$\\text{ 23}$",
+      "$\\text{ 24}$",
+      "$\\text{ 25}$",
+      "$\\text{ 26}$",
+      "$\\text{ 27}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_12",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10b-2020-13",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 13,
+    "statementLatex": "Andy the Ant lives on a coordinate plane and is currently at $(-20, 20)$ facing east (that is, in the positive $x$ -direction). Andy moves $1$ unit and then turns $90^{\\circ}$ left. From there, Andy moves $2$ units (north) and then turns $90^{\\circ}$ left. He then moves $3$ units (west) and again turns $90^{\\circ}$ left. Andy continues his progress, increasing his distance each time by $1$ unit and always turning left. What is the location of the point at which Andy makes the $2020$ th left turn?",
+    "choices": [
+      "$\\ (-1030, -994)$",
+      "$\\ (-1030, -990)$",
+      "$\\ (-1026, -994)$",
+      "$\\ (-1026, -990)$",
+      "$\\ (-1022, -994)$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_13",
+    "topics": [
+      "Area by Coordinates"
+    ]
+  },
+  {
+    "id": "amc10b-2020-14",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 14,
+    "statementLatex": "As shown in the figure below, six semicircles lie in the interior of a regular hexagon with side length 2 so that the diameters of the semicircles coincide with the sides of the hexagon. What is the area of the shaded region ---- inside the hexagon but outside all of the semicircles?\n\n$\\textbf{(A) } 6\\sqrt3 - 3\\pi \\qquad \\textbf{(B) } \\frac{9\\sqrt3}{2} - 2\\pi \\qquad \\textbf{(C) } \\frac{3\\sqrt3}{2} - \\frac{\\pi}{3} \\qquad \\textbf{(D) } 3\\sqrt3 - \\pi \\qquad \\textbf{(E) } \\frac{9\\sqrt3}{2} - \\pi$\n[[img:https://latex.artofproblemsolving.com/4/1/d/41d2ef082ac9be6c166ace09f122eaf7d1ccb5e2.png]]",
+    "choices": [],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_14",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc10b-2020-15",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 15,
+    "statementLatex": "Steve wrote the digits $1$ , $2$ , $3$ , $4$ , and $5$ in order repeatedly from left to right, forming a list of $10,000$ digits, beginning $123451234512\\ldots.$ He then erased every third digit from his list (that is, the $3$ rd, $6$ th, $9$ th, $\\ldots$ digits from the left), then erased every fourth digit from the resulting list (that is, the $4$ th, $8$ th, $12$ th, $\\ldots$ digits from the left in what remained), and then erased every fifth digit from what remained at that point. What is the sum of the three digits that were then in the positions $2019, 2020, 2021$ ?",
+    "choices": [
+      "$\\ 7$",
+      "$\\ 9$",
+      "$\\ 10$",
+      "$\\ 11$",
+      "$\\ 12$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_15",
+    "topics": [
+      "Digit Problems",
+      "Modular Arithmetic"
+    ]
+  },
+  {
+    "id": "amc10b-2020-16",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 16,
+    "statementLatex": "Bela and Jenn play the following game on the closed interval $[0, n]$ of the real number line, where $n$ is a fixed integer greater than $4$ . They take turns playing, with Bela going first. At his first turn, Bela chooses any real number in the interval $[0, n]$ . Thereafter, the player whose turn it is chooses a real number that is more than one unit away from all numbers previously chosen by either player. A player unable to choose such a number loses. Using optimal strategy, which player will win the game?",
+    "choices": [
+      "$\\text{ Bela will always win.}$",
+      "$\\text{ Jenn will always win.}$",
+      "$\\text{ Bela will win if and only if }n \\text{ is odd.}$",
+      "$\\text{ Jenn will win if and only if }n \\text{ is odd.}$",
+      "$\\text { Jenn will win if and only if } n>8.$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_16",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc10b-2020-17",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 17,
+    "statementLatex": "There are $10$ people standing equally spaced around a circle. Each person knows exactly $3$ of the other $9$ people: the $2$ people standing next to her or him, as well as the person directly across the circle. How many ways are there for the $10$ people to split up into $5$ pairs so that the members of each pair know each other?",
+    "choices": [
+      "$\\ 11$",
+      "$\\ 12$",
+      "$\\ 13$",
+      "$\\ 14$",
+      "$\\ 15$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_17",
+    "topics": [
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2020-18",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 18,
+    "statementLatex": "An urn contains one red ball and one blue ball. A box of extra red and blue balls lies nearby. George performs the following operation four times: he draws a ball from the urn at random and then takes a ball of the same color from the box and returns those two matching balls to the urn. After the four iterations the urn contains six balls. What is the probability that the urn contains three balls of each color?",
+    "choices": [
+      "$\\frac16$",
+      "$\\frac15$",
+      "$\\frac14$",
+      "$\\frac13$",
+      "$\\frac12$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_18",
+    "topics": [
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2020-19",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 19,
+    "statementLatex": "In a certain card game, a player is dealt a hand of $10$ cards from a deck of $52$ distinct cards. The number of distinct (unordered) hands that can be dealt to the player can be written as $158A00A4AA0$ . What is the digit $A$ ?",
+    "choices": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$6$",
+      "$7$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_19",
+    "topics": [
+      "Digit Problems",
+      "Modular Arithmetic"
+    ]
+  },
+  {
+    "id": "amc10b-2020-20",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 20,
+    "statementLatex": "Let $B$ be a right rectangular prism (box) with edges lengths $1,$ $3,$ and $4$ , together with its interior. For real $r\\geq0$ , let $S(r)$ be the set of points in $3$ -dimensional space that lie within a distance $r$ of some point in $B$ . The volume of $S(r)$ can be expressed as $ar^{3} + br^{2} + cr +d$ , where $a,$ $b,$ $c,$ and $d$ are positive real numbers. What is $\\frac{bc}{ad}?$",
+    "choices": [
+      "$6$",
+      "$19$",
+      "$24$",
+      "$26$",
+      "$38$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_20",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2020-21",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 21,
+    "statementLatex": "In square $ABCD$ , points $E$ and $H$ lie on $\\overline{AB}$ and $\\overline{DA}$ , respectively, so that $AE=AH.$ Points $F$ and $G$ lie on $\\overline{BC}$ and $\\overline{CD}$ , respectively, and points $I$ and $J$ lie on $\\overline{EH}$ so that $\\overline{FI} \\perp \\overline{EH}$ and $\\overline{GJ} \\perp \\overline{EH}$ . See the figure below. Triangle $AEH$ , quadrilateral $BFIE$ , quadrilateral $DHJG$ , and pentagon $FCGJI$ each has area $1.$ What is $FI^2$ ?\n\n[[img:https://latex.artofproblemsolving.com/4/8/9/4892da26cb6334b359f58d4007f89460883779ab.png]]",
+    "choices": [
+      "$\\frac{7}{3}$",
+      "$8-4\\sqrt2$",
+      "$1+\\sqrt2$",
+      "$\\frac{7}{4}\\sqrt2$",
+      "$2\\sqrt2$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_21",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2020-22",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 22,
+    "statementLatex": "What is the remainder when $2^{202} +202$ is divided by $2^{101}+2^{51}+1$ ?",
+    "choices": [
+      "$100$",
+      "$101$",
+      "$200$",
+      "$201$",
+      "$202$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_22",
+    "topics": [
+      "Modular Arithmetic"
+    ]
+  },
+  {
+    "id": "amc10b-2020-23",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 23,
+    "statementLatex": "Square $ABCD$ in the coordinate plane has vertices at the points $A(1,1), B(-1,1), C(-1,-1),$ and $D(1,-1).$ Consider the following four transformations:\n\n$\\quad\\bullet\\qquad$ $L,$ a rotation of $90^{\\circ}$ counterclockwise around the origin;\n\n$\\quad\\bullet\\qquad$ $R,$ a rotation of $90^{\\circ}$ clockwise around the origin;\n\n$\\quad\\bullet\\qquad$ $H,$ a reflection across the $x$ -axis; and\n\n$\\quad\\bullet\\qquad$ $V,$ a reflection across the $y$ -axis.\n\nEach of these transformations maps the squares onto itself, but the positions of the labeled vertices will change. For example, applying $R$ and then $V$ would send the vertex $A$ at $(1,1)$ to $(-1,-1)$ and would send the vertex $B$ at $(-1,1)$ to itself. How many sequences of $20$ transformations chosen from $\\{L, R, H, V\\}$ will send all of the labeled vertices back to their original positions? (For example, $R, R, V, H$ is one sequence of $4$ transformations that will send the vertices back to their original positions.)",
+    "choices": [
+      "$\\ 2^{37}$",
+      "$\\ 3\\cdot 2^{36}$",
+      "$\\ 2^{38}$",
+      "$\\ 3\\cdot 2^{37}$",
+      "$\\ 2^{39}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_23",
+    "topics": [
+      "Area by Coordinates"
+    ]
+  },
+  {
+    "id": "amc10b-2020-24",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 24,
+    "statementLatex": "How many positive integers $n$ satisfy \\[\\dfrac{n+1000}{70} = \\lfloor \\sqrt{n} \\rfloor?\\] (Recall that $\\lfloor x\\rfloor$ is the greatest integer not exceeding $x$ .)",
+    "choices": [
+      "$2$",
+      "$4$",
+      "$6$",
+      "$30$",
+      "$32$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_24",
+    "topics": [
+      "Floor Functions"
+    ]
+  },
+  {
+    "id": "amc10b-2020-25",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "B",
+    "number": 25,
+    "statementLatex": "Let $D(n)$ denote the number of ways of writing the positive integer $n$ as a product \\[n = f_1\\cdot f_2\\cdots f_k,\\] where $k\\ge1$ , the $f_i$ are integers strictly greater than $1$ , and the order in which the factors are listed matters (that is, two representations that differ only in the order of the factors are counted as distinct). For example, the number $6$ can be written as $6$ , $2\\cdot 3$ , and $3\\cdot2$ , so $D(6) = 3$ . What is $D(96)$ ?",
+    "choices": [
+      "$112$",
+      "$128$",
+      "$144$",
+      "$172$",
+      "$184$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_25",
+    "topics": [
+      "Stars and Bars",
+      "Casework Counting",
+      "Complementary Counting",
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc10a-2019-2",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 2,
+    "statementLatex": "What is the hundreds digit of $(20!-15!)?$",
+    "choices": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$4$",
+      "$5$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_2",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10a-2019-3",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 3,
+    "statementLatex": "Ana and Bonita were born on the same date in different years, $n$ years apart. Last year Ana was $5$ times as old as Bonita. This year Ana's age is the square of Bonita's age. What is $n?$",
+    "choices": [
+      "$3$",
+      "$5$",
+      "$9$",
+      "$12$",
+      "$15$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_3",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc10a-2019-4",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 4,
+    "statementLatex": "A box contains $28$ red balls, $20$ green balls, $19$ yellow balls, $13$ blue balls, $11$ white balls, and $9$ black balls. What is the minimum number of balls that must be drawn from the box without replacement to guarantee that at least $15$ balls of a single color will be drawn?",
+    "choices": [
+      "$75$",
+      "$76$",
+      "$79$",
+      "$84$",
+      "$91$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_4",
+    "topics": [
+      "Pigeonhole Principle"
+    ]
+  },
+  {
+    "id": "amc10a-2019-5",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 5,
+    "statementLatex": "What is the greatest number of consecutive integers whose sum is $45?$",
+    "choices": [
+      "$9$",
+      "$25$",
+      "$45$",
+      "$90$",
+      "$120$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_5",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc10a-2019-6",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 6,
+    "statementLatex": "For how many of the following types of quadrilaterals does there exist a point in the plane of the quadrilateral that is equidistant from all four vertices of the quadrilateral?\n\na square\na rectangle that is not a square\na rhombus that is not a square\na parallelogram that is not a rectangle or a rhombus\nan isosceles trapezoid that is not a parallelogram",
+    "choices": [
+      "$0$",
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_6",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2019-7",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 7,
+    "statementLatex": "Two lines with slopes $\\dfrac{1}{2}$ and $2$ intersect at $(2,2)$ . What is the area of the triangle enclosed by these two lines and the line $x+y=10  ?$",
+    "choices": [
+      "$4$",
+      "$4\\sqrt{2}$",
+      "$6$",
+      "$8$",
+      "$6\\sqrt{2}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_7",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10a-2019-8",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 8,
+    "statementLatex": "The figure below shows line $\\ell$ with a regular, infinite, recurring pattern of squares and line segments.\n\n[[img:https://latex.artofproblemsolving.com/c/6/6/c66986a019a481aa0dad6c2a690111ffd5a52014.png]]\n\nHow many of the following four kinds of rigid motion transformations of the plane in which this figure is drawn, other than the identity transformation, will transform this figure into itself?\n\nsome rotation around a point of line $\\ell$\nsome translation in the direction parallel to line $\\ell$\nthe reflection across line $\\ell$\nsome reflection across a line perpendicular to line $\\ell$",
+    "choices": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$",
+      "$4$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_8",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2019-9",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 9,
+    "statementLatex": "What is the greatest three-digit positive integer $n$ for which the sum of the first $n$ positive integers is $\\underline{not}$ a divisor of the product of the first $n$ positive integers?",
+    "choices": [
+      "$995$",
+      "$996$",
+      "$997$",
+      "$998$",
+      "$999$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_9",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10a-2019-10",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 10,
+    "statementLatex": "A rectangular floor that is $10$ feet wide and $17$ feet long is tiled with $170$ one-foot square tiles. A bug walks from one corner to the opposite corner in a straight line. Including the first and the last tile, how many tiles does the bug visit?",
+    "choices": [
+      "$17$",
+      "$25$",
+      "$26$",
+      "$27$",
+      "$28$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_10",
+    "topics": [
+      "Floor Functions"
+    ]
+  },
+  {
+    "id": "amc10a-2019-11",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 11,
+    "statementLatex": "How many positive integer divisors of $201^9$ are perfect squares or perfect cubes (or both)?",
+    "choices": [
+      "$32$",
+      "$36$",
+      "$37$",
+      "$39$",
+      "$41$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_11",
+    "topics": [
+      "Casework Counting",
+      "Divisor Counting",
+      "Exponent Rules",
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10a-2019-12",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 12,
+    "statementLatex": "Melanie computes the mean $\\mu$ , the median $M$ , and the modes of the $365$ values that are the dates in the months of $2019$ . Thus her data consist of $12$ $1\\text{s}$ , $12$ $2\\text{s}$ , . . . , $12$ $28\\text{s}$ , $11$ $29\\text{s}$ , $11$ $30\\text{s}$ , and $7$ $31\\text{s}$ . Let $d$ be the median of the modes. Which of the following statements is true?",
+    "choices": [
+      "$\\mu < d < M$",
+      "$M < d < \\mu$",
+      "$d = M =\\mu$",
+      "$d < M < \\mu$",
+      "$d < \\mu < M$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_12",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10a-2019-13",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 13,
+    "statementLatex": "Let $\\triangle ABC$ be an isosceles triangle with $BC = AC$ and $\\angle ACB = 40^{\\circ}$ . Construct the circle with diameter $\\overline{BC}$ , and let $D$ and $E$ be the other intersection points of the circle with the sides $\\overline{AC}$ and $\\overline{AB}$ , respectively. Let $F$ be the intersection of the diagonals of the quadrilateral $BCDE$ . What is the degree measure of $\\angle BFC ?$",
+    "choices": [
+      "$90$",
+      "$100$",
+      "$105$",
+      "$110$",
+      "$120$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_13",
+    "topics": [
+      "Similar Triangles",
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc10a-2019-14",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 14,
+    "statementLatex": "For a set of four distinct lines in a plane, there are exactly $N$ distinct points that lie on two or more of the lines. What is the sum of all possible values of $N$ ?",
+    "choices": [
+      "$14$",
+      "$16$",
+      "$18$",
+      "$19$",
+      "$21$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_14",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10a-2019-15",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 15,
+    "statementLatex": "A sequence of numbers is defined recursively by $a_1 = 1$ , $a_2 = \\frac{3}{7}$ , and\n \\[a_n=\\frac{a_{n-2} \\cdot a_{n-1}}{2a_{n-2} - a_{n-1}}\\] for all $n \\geq 3$ Then $a_{2019}$ can be written as $\\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. What is $p+q ?$",
+    "choices": [
+      "$2020$",
+      "$4039$",
+      "$6057$",
+      "$6061$",
+      "$8078$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_15",
+    "topics": [
+      "Recursion",
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc10a-2019-16",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 16,
+    "statementLatex": "The figure below shows $13$ circles of radius $1$ within a larger circle. All the intersections occur at points of tangency. What is the area of the region, shaded in the figure, inside the larger circle but outside all the circles of radius $1 ?$\n\n[[img:https://latex.artofproblemsolving.com/f/c/4/fc485e1337895925d85375cce1a9d3908ca8b7e3.png]]",
+    "choices": [
+      "$4 \\pi \\sqrt{3}$",
+      "$7 \\pi$",
+      "$\\pi\\left(3\\sqrt{3} +2\\right)$",
+      "$10 \\pi \\left(\\sqrt{3} - 1\\right)$",
+      "$\\pi\\left(\\sqrt{3} + 6\\right)$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_16",
+    "topics": [
+      "Circle Tangents"
+    ]
+  },
+  {
+    "id": "amc10a-2019-17",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 17,
+    "statementLatex": "A child builds towers using identically shaped cubes of different colors. How many different towers with a height $8$ cubes can the child build with $2$ red cubes, $3$ blue cubes, and $4$ green cubes? (One cube will be left out.)",
+    "choices": [
+      "$24$",
+      "$288$",
+      "$312$",
+      "$1,260$",
+      "$40,320$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_17",
+    "topics": [
+      "Casework Counting",
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10a-2019-18",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 18,
+    "statementLatex": "For some positive integer $k$ , the repeating base- $k$ representation of the (base-ten) fraction $\\frac{7}{51}$ is $0.\\overline{23}_k = 0.232323..._k$ . What is $k$ ?",
+    "choices": [
+      "$13$",
+      "$14$",
+      "$15$",
+      "$16$",
+      "$17$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_18",
+    "topics": [
+      "Base Conversion"
+    ]
+  },
+  {
+    "id": "amc10a-2019-19",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 19,
+    "statementLatex": "What is the least possible value of\n \\[(x+1)(x+2)(x+3)(x+4)+2019\\] where $x$ is a real number?",
+    "choices": [
+      "$2017$",
+      "$2018$",
+      "$2019$",
+      "$2020$",
+      "$2021$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_19",
+    "topics": [
+      "Inequalities (AM-GM)"
+    ]
+  },
+  {
+    "id": "amc10a-2019-20",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 20,
+    "statementLatex": "The numbers $1,2,\\dots,9$ are randomly placed into the $9$ squares of a $3 \\times 3$ grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?",
+    "choices": [
+      "$\\frac{1}{21}$",
+      "$\\frac{1}{14}$",
+      "$\\frac{5}{63}$",
+      "$\\frac{2}{21}$",
+      "$\\frac{1}{7}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_20",
+    "topics": [
+      "Pigeonhole Principle"
+    ]
+  },
+  {
+    "id": "amc10a-2019-21",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 21,
+    "statementLatex": "A sphere with center $O$ has radius $6$ . A triangle with sides of length $15, 15,$ and $24$ is situated in space so that each of its sides is tangent to the sphere. What is the distance between $O$ and the plane determined by the triangle?",
+    "choices": [
+      "$2\\sqrt{3}$",
+      "$4$",
+      "$3\\sqrt{2}$",
+      "$2\\sqrt{5}$",
+      "$5$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_21",
+    "topics": [
+      "Circle Tangents",
+      "3D Geometry",
+      "Similar Triangles",
+      "Pythagorean Triples"
+    ]
+  },
+  {
+    "id": "amc10a-2019-22",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 22,
+    "statementLatex": "Real numbers between 0 and 1, inclusive, are chosen in the following manner. A fair coin is flipped. If it lands heads, then it is flipped again and the chosen number is 0 if the second flip is heads, and 1 if the second flip is tails. On the other hand, if the first coin flip is tails, then the number is chosen uniformly at random from the closed interval $[0,1]$ . Two random numbers $x$ and $y$ are chosen independently in this manner. What is the probability that $|x-y| > \\tfrac{1}{2}$ ?",
+    "choices": [
+      "$\\frac{1}{3}$",
+      "$\\frac{7}{16}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{9}{16}$",
+      "$\\frac{2}{3}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_22",
+    "topics": [
+      "Casework Counting",
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc10a-2019-23",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 23,
+    "statementLatex": "Travis has to babysit the terrible Thompson triplets. Knowing that they love big numbers, Travis devises a counting game for them. First Tadd will say the number $1$ , then Todd must say the next two numbers ( $2$ and $3$ ), then Tucker must say the next three numbers ( $4$ , $5$ , $6$ ), then Tadd must say the next four numbers ( $7$ , $8$ , $9$ , $10$ ), and the process continues to rotate through the three children in order, each saying one more number than the previous child did, until the number $10,000$ is reached. What is the $2019$ th number said by Tadd?",
+    "choices": [
+      "$\\ 5743$",
+      "$\\ 5885$",
+      "$\\ 5979$",
+      "$\\ 6001$",
+      "$\\ 6011$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_23",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2019-24",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 24,
+    "statementLatex": "Let $p$ , $q$ , and $r$ be the distinct roots of the polynomial $x^3 - 22x^2 + 80x - 67$ . It is given that there exist real numbers $A$ , $B$ , and $C$ such that \\[\\dfrac{1}{s^3 - 22s^2 + 80s - 67} = \\dfrac{A}{s-p} + \\dfrac{B}{s-q} + \\frac{C}{s-r}\\] for all $s\\not\\in\\{p,q,r\\}$ . What is $\\tfrac1A+\\tfrac1B+\\tfrac1C$ ?",
+    "choices": [
+      "$243$",
+      "$244$",
+      "$245$",
+      "$246$",
+      "$247$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_24",
+    "topics": [
+      "Vieta's Formulas"
+    ]
+  },
+  {
+    "id": "amc10a-2019-25",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "A",
+    "number": 25,
+    "statementLatex": "For how many integers $n$ between $1$ and $50$ , inclusive, is \\[\\frac{(n^2-1)!}{(n!)^n}\\] an integer? (Recall that $0! = 1$ .)",
+    "choices": [
+      "$31$",
+      "$32$",
+      "$33$",
+      "$34$",
+      "$35$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_25",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2019-1",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 1,
+    "statementLatex": "Alicia had two containers. The first was $\\tfrac{5}{6}$ full of water and the second was empty. She poured all the water from the first container into the second container, at which point the second container was $\\tfrac{3}{4}$ full of water. What is the ratio of the volume of the first container to the volume of the second container?",
+    "choices": [
+      "$\\frac{5}{8}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{7}{8}$",
+      "$\\frac{9}{10}$",
+      "$\\frac{11}{12}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_1",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2019-2",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 2,
+    "statementLatex": "Consider the statement, \"If $n$ is not prime, then $n-2$ is prime.\" Which of the following values of $n$ is a counterexample to this statement?",
+    "choices": [
+      "$11$",
+      "$15$",
+      "$19$",
+      "$21$",
+      "$27$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_2",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc10b-2019-3",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 3,
+    "statementLatex": "In a high school with $500$ students, $40\\%$ of the seniors play a musical instrument, while $30\\%$ of the non-seniors do not play a musical instrument. In all, $46.8\\%$ of the students do not play a musical instrument. How many non-seniors play a musical instrument?",
+    "choices": [
+      "$66$",
+      "$154$",
+      "$186$",
+      "$220$",
+      "$266$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_3",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc10b-2019-4",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 4,
+    "statementLatex": "All lines with equation $ax+by=c$ such that $a,b,c$ form an arithmetic progression pass through a common point. What are the coordinates of that point?",
+    "choices": [
+      "$(-1,2)$",
+      "$(0,1)$",
+      "$(1,-2)$",
+      "$(1,0)$",
+      "$(1,2)$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_4",
+    "topics": [
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc10b-2019-5",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 5,
+    "statementLatex": "Triangle $ABC$ lies in the first quadrant. Points $A$ , $B$ , and $C$ are reflected across the line $y=x$ to points $A'$ , $B'$ , and $C'$ , respectively. Assume that none of the vertices of the triangle lie on the line $y=x$ . Which of the following statements is not always true?\n\n$\\textbf{(A) }$ Triangle $A'B'C'$ lies in the first quadrant.\n\n$\\textbf{(B) }$ Triangles $ABC$ and $A'B'C'$ have the same area.\n\n$\\textbf{(C) }$ The slope of line $AA'$ is $-1$ .\n\n$\\textbf{(D) }$ The slopes of lines $AA'$ and $CC'$ are the same.\n\n$\\textbf{(E) }$ Lines $AB$ and $A'B'$ are perpendicular to each other.",
+    "choices": [],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_5",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2019-6",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 6,
+    "statementLatex": "There is a positive integer $n$ such that $(n+1)! + (n+2)! = n! \\cdot 440$ . What is the sum of the digits of $n$ ?",
+    "choices": [
+      "$3$",
+      "$8$",
+      "$10$",
+      "$11$",
+      "$12$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_6",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10b-2019-7",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 7,
+    "statementLatex": "Each piece of candy in a store costs a whole number of cents. Casper has exactly enough money to buy either $12$ pieces of red candy, $14$ pieces of green candy, $15$ pieces of blue candy, or $n$ pieces of purple candy. A piece of purple candy costs $20$ cents. What is the smallest possible value of $n$ ?",
+    "choices": [
+      "$18$",
+      "$21$",
+      "$24$",
+      "$25$",
+      "$28$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_7",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc10b-2019-8",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 8,
+    "statementLatex": "The figure below shows a square and four equilateral triangles, with each triangle having a side lying on a side of the square, such that each triangle has side length $2$ and the third vertices of the triangles meet at the center of the square. The region inside the square but outside the triangles is shaded. What is the area of the shaded region?\n\n[[img:https://latex.artofproblemsolving.com/c/d/d/cdd3a7f0a4a7e0d25eb30b89d96ca4cd2e86dcb9.png]]",
+    "choices": [
+      "$4$",
+      "$12 - 4\\sqrt{3}$",
+      "$3\\sqrt{3}$",
+      "$4\\sqrt{3}$",
+      "$16 - 4\\sqrt{3}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_8",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2019-9",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 9,
+    "statementLatex": "The function $f$ is defined by \\[f(x) = \\lfloor|x|\\rfloor - |\\lfloor x \\rfloor|\\] for all real numbers $x$ , where $\\lfloor r \\rfloor$ denotes the greatest integer less than or equal to the real number $r$ . What is the range of $f$ ?",
+    "choices": [
+      "$\\{-1, 0\\}$",
+      "$\\text{The set of nonpositive integers}$",
+      "$\\{-1, 0, 1\\}$",
+      "$\\{0\\}$",
+      "$\\text{The set of nonnegative integers}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_9",
+    "topics": [
+      "Casework Counting",
+      "Floor Functions"
+    ]
+  },
+  {
+    "id": "amc10b-2019-10",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 10,
+    "statementLatex": "In a given plane, points $A$ and $B$ are $10$ units apart. How many points $C$ are there in the plane such that the perimeter of $\\triangle ABC$ is $50$ units and the area of $\\triangle ABC$ is $100$ square units?",
+    "choices": [
+      "$0$",
+      "$2$",
+      "$4$",
+      "$8$",
+      "$\\text{infinitely many}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_10",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2019-11",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 11,
+    "statementLatex": "Two jars each contain the same number of marbles, and every marble is either blue or green. In Jar $1$ the ratio of blue to green marbles is $9:1$ , and the ratio of blue to green marbles in Jar $2$ is $8:1$ . There are $95$ green marbles in all. How many more blue marbles are in Jar $1$ than in Jar $2$ ?",
+    "choices": [
+      "$5$",
+      "$10$",
+      "$25$",
+      "$45$",
+      "$50$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_11",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2019-12",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 12,
+    "statementLatex": "What is the greatest possible sum of the digits in the base-seven representation of a positive integer less than $2019$ ?",
+    "choices": [
+      "$11$",
+      "$14$",
+      "$22$",
+      "$23$",
+      "$27$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_12",
+    "topics": [
+      "Digit Problems",
+      "Base Conversion"
+    ]
+  },
+  {
+    "id": "amc10b-2019-13",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 13,
+    "statementLatex": "What is the sum of all real numbers $x$ for which the median of the numbers $4,6,8,17,$ and $x$ is equal to the mean of those five numbers?",
+    "choices": [
+      "$-5$",
+      "$0$",
+      "$5$",
+      "$\\frac{15}{4}$",
+      "$\\frac{35}{4}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_13",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10b-2019-14",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 14,
+    "statementLatex": "The base-ten representation for $19!$ is $121,6T5,100,40M,832,H00$ , where $T$ , $M$ , and $H$ denote digits that are not given. What is $T+M+H$ ?",
+    "choices": [
+      "$3$",
+      "$8$",
+      "$12$",
+      "$14$",
+      "$17$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_14",
+    "topics": [
+      "Digit Problems",
+      "Base Conversion"
+    ]
+  },
+  {
+    "id": "amc10b-2019-15",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 15,
+    "statementLatex": "Right triangles $T_1$ and $T_2$ , have areas of 1 and 2, respectively. A side of $T_1$ is congruent to a side of $T_2$ , and a different side of $T_1$ is congruent to a different side of $T_2$ . What is the square of the product of the lengths of the other (third) sides of $T_1$ and $T_2$ ?",
+    "choices": [
+      "$\\frac{28}{3}$",
+      "$10$",
+      "$\\frac{32}{3}$",
+      "$\\frac{34}{3}$",
+      "$12$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_15",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2019-16",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 16,
+    "statementLatex": "In $\\triangle ABC$ with a right angle at $C$ , point $D$ lies in the interior of $\\overline{AB}$ and point $E$ lies in the interior of $\\overline{BC}$ so that $AC=CD,$ $DE=EB,$ and the ratio $AC:DE=4:3$ . What is the ratio $AD:DB?$",
+    "choices": [
+      "$2:3$",
+      "$2:\\sqrt{5}$",
+      "$1:1$",
+      "$3:\\sqrt{5}$",
+      "$3:2$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_16",
+    "topics": [
+      "Ratios and Rates",
+      "Pythagorean Triples"
+    ]
+  },
+  {
+    "id": "amc10b-2019-17",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 17,
+    "statementLatex": "A red ball and a green ball are randomly and independently tossed into bins numbered with the positive integers so that for each ball, the probability that it is tossed into bin $k$ is $2^{-k}$ for $k = 1,2,3....$ What is the probability that the red ball is tossed into a higher-numbered bin than the green ball?",
+    "choices": [
+      "$\\frac{1}{4}$",
+      "$\\frac{2}{7}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{3}{7}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_17",
+    "topics": [
+      "Arithmetic/Geometric Sequences",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2019-18",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 18,
+    "statementLatex": "Henry decides one morning to do a workout, and he walks $\\tfrac{3}{4}$ of the way from his home to his gym. The gym is $2$ kilometers away from Henry's home. At that point, he changes his mind and walks $\\tfrac{3}{4}$ of the way from where he is back toward home. When he reaches that point, he changes his mind again and walks $\\tfrac{3}{4}$ of the distance from there back toward the gym. If Henry keeps changing his mind when he has walked $\\tfrac{3}{4}$ of the distance toward either the gym or home from the point where he last changed his mind, he will get very close to walking back and forth between a point $A$ kilometers from home and a point $B$ kilometers from home. What is $|A-B|$ ?",
+    "choices": [
+      "$\\frac{2}{3}$",
+      "$1$",
+      "$1 \\frac{1}{5}$",
+      "$1 \\frac{1}{4}$",
+      "$1 \\frac{1}{2}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_18",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10b-2019-19",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 19,
+    "statementLatex": "Let $S$ be the set of all positive integer divisors of $100,000.$ How many numbers are the product of two distinct elements of $S?$",
+    "choices": [
+      "$98$",
+      "$100$",
+      "$117$",
+      "$119$",
+      "$121$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_19",
+    "topics": [
+      "Divisor Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2019-20",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 20,
+    "statementLatex": "As shown in the figure, line segment $\\overline{AD}$ is trisected by points $B$ and $C$ so that $AB=BC=CD=2.$ Three semicircles of radius $1,$ $\\overarc{AEB},\\overarc{BFC},$ and $\\overarc{CGD},$ have their diameters on $\\overline{AD},$ lie in the same halfplane determined by line $AD$ , and are tangent to line $EG$ at $E,F,$ and $G,$ respectively. A circle of radius $2$ has its center on $F.$ The area of the region inside the circle but outside the three semicircles, shaded in the figure, can be expressed in the form\n \\[\\frac{a}{b}\\cdot\\pi-\\sqrt{c}+d,\\]\nwhere $a,b,c,$ and $d$ are positive integers and $a$ and $b$ are relatively prime. What is $a+b+c+d$ ?\n\n[[img:https://latex.artofproblemsolving.com/a/c/9/ac9c68e87cdfb2dde115a063764bd2d48bf835e2.png]]",
+    "choices": [
+      "$13$",
+      "$14$",
+      "$15$",
+      "$16$",
+      "$17$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_20",
+    "topics": [
+      "Circle Tangents"
+    ]
+  },
+  {
+    "id": "amc10b-2019-21",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 21,
+    "statementLatex": "Debra flips a fair coin repeatedly, keeping track of how many heads and how many tails she has seen in total, until she gets either two heads in a row or two tails in a row, at which point she stops flipping. What is the probability that she gets two heads in a row but she sees a second tail before she sees a second head？",
+    "choices": [
+      "$\\frac{1}{36}$",
+      "$\\frac{1}{24}$",
+      "$\\frac{1}{18}$",
+      "$\\frac{1}{12}$",
+      "$\\frac{1}{6}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_21",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2019-22",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 22,
+    "statementLatex": "Raashan, Sylvia, and Ted play the following game. Each starts with $$1$ . A bell rings every $15$ seconds, at which time each of the players who currently have money simultaneously chooses one of the other two players independently and at random and gives $$1$ to that player. What is the probability that after the bell has rung $2019$ times, each player will have $$1$ ? (For example, Raashan and Ted may each decide to give $$1$ to Sylvia, and Sylvia may decide to give her dollar to Ted, at which point Raashan will have $$0$ , Sylvia will have $$2$ , and Ted will have $$1$ , and that is the end of the first round of play. In the second round Rashaan has no money to give, but Sylvia and Ted might choose each other to give their $$1$ to, and the holdings will be the same at the end of the second round.)",
+    "choices": [
+      "$\\frac{1}{7}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{3}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_22",
+    "topics": [
+      "Casework Counting",
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc10b-2019-23",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 23,
+    "statementLatex": "Points $A=(6,13)$ and $B=(12,11)$ lie on circle $\\omega$ in the plane. Suppose that the tangent lines to $\\omega$ at $A$ and $B$ intersect at a point on the $x$ -axis. What is the area of $\\omega$ ?",
+    "choices": [
+      "$\\frac{83\\pi}{8}$",
+      "$\\frac{21\\pi}{2}$",
+      "$\\frac{85\\pi}{8}$",
+      "$\\frac{43\\pi}{4}$",
+      "$\\frac{87\\pi}{8}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_23",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10b-2019-24",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 24,
+    "statementLatex": "Define a sequence recursively by $x_0=5$ and \\[x_{n+1}=\\frac{x_n^2+5x_n+4}{x_n+6}\\] for all nonnegative integers $n.$ Let $m$ be the least positive integer such that\n\n\\[x_m\\leq 4+\\frac{1}{2^{20}}.\\]\n\nIn which of the following intervals does $m$ lie?",
+    "choices": [
+      "$[9,26]$",
+      "$[27,80]$",
+      "$[81,242]$",
+      "$[243,728]$",
+      "$[729,\\infty)$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_24",
+    "topics": [
+      "Recursion",
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc10b-2019-25",
+    "contest": "AMC 10",
+    "year": 2019,
+    "version": "B",
+    "number": 25,
+    "statementLatex": "How many sequences of $0$ s and $1$ s of length $19$ are there that begin with a $0$ , end with a $0$ , contain no two consecutive $0$ s, and contain no three consecutive $1$ s?",
+    "choices": [
+      "$55$",
+      "$60$",
+      "$65$",
+      "$70$",
+      "$75$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_25",
+    "topics": [
+      "Casework Counting",
+      "Recursion",
+      "Digit Problems"
     ]
   }
 ]
