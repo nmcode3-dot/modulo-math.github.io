@@ -153,8 +153,10 @@ for (const idx of INDEXES) {
   const contests = new Map<string, string>();
   $(".mw-parser-output a").each((_, a) => {
     const text = $(a).text().trim();
+    const title = ($(a).attr("title") ?? "").trim();
     const href = $(a).attr("href");
-    if (href && idx.re.test(text)) contests.set(text, href);
+    const name = idx.re.test(text) ? text : idx.re.test(title) ? title : null;
+    if (href && name) contests.set(name, href);
   });
 
   const problems: any[] = [];
