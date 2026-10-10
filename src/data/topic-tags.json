@@ -27,12 +27,6 @@
     "unit step",
     "shortest path"
   ],
-  "Casework Counting": [
-    "casework",
-    "case 1",
-    "case 2",
-    "how many ways"
-  ],
   "Complementary Counting": [
     "complementary counting",
     "at least one",
@@ -364,7 +358,10 @@
     "cases",
     "systematic",
     "exhaustive",
-    "all cases"
+    "all cases",
+    "case 1",
+    "case 2",
+    "how many ways"
   ],
   "Permutations": [
     "permutation",
