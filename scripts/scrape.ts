@@ -53,7 +53,7 @@ async function get(path: string): Promise<string | null> {
       writeFileSync(file, html);
       return html;
     } catch (e) {
-      if (tries < 2) { await new Promise((r) => setTimeout(r, 3000)); continue; }
+      if (tries < 2 && !(e as any).fatal) { await new Promise((r) => setTimeout(r, 3000)); continue; }
       // Direct fetch failed (AoPS often 403s bots) — fall back to the Wayback Machine.
       for (let w = 0; w < 4; w++) {
         try {
