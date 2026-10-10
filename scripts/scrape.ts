@@ -158,6 +158,7 @@ for (const idx of INDEXES) {
     const name = idx.re.test(text) ? text : idx.re.test(title) ? title : null;
     if (href && name) contests.set(name, href);
   });
+  if (contests.size === 0) { logErr(idx.url, "no contests found on index page"); anyFailure = true; continue; }
 
   const problems: any[] = [];
   for (const [name, href] of contests) {
