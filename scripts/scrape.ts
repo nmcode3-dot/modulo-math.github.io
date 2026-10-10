@@ -47,6 +47,7 @@ async function get(path: string): Promise<string | null> {
     try {
       const res = await fetch(url, { headers: HEADERS });
       if (res.status === 404) return null;
+      if (res.status === 403) throw Object.assign(new Error(`HTTP 403`), { fatal: true }); // bot-block: don't retry, go to wayback
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const html = await res.text();
       writeFileSync(file, html);
