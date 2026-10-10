@@ -65,7 +65,7 @@ async function get(path: string): Promise<string | null> {
       // Direct fetch failed (AoPS often 403s bots) — fall back to the Wayback Machine.
       for (let w = 0; w < 4; w++) {
         await new Promise((r) => setTimeout(r, 3000)); // wayback rate-limits aggressively
-        const { status, body } = curl(`https://web.archive.org/web/2024id_/${url}`);
+        const { status, body } = curl(`https://web.archive.org/web/2026id_/${url}`);
         if (status === 429) { await new Promise((r) => setTimeout(r, 20000)); continue; }
         if (status !== 200) { logErr(url, `direct failed (${e}); wayback HTTP ${status}`); return null; }
         writeFileSync(file, body);
@@ -147,7 +147,7 @@ const coverage: Row[] = [];
 for (const idx of INDEXES) {
   if (onlyContest && idx.key !== onlyContest) continue;
   const html = await get(idx.url);
-  if (!html) { logErr(idx.url, "index fetch failed"); continue; }
+  if (!html) { logErr(idx.url, "index fetch failed"); anyFailure = true; continue; }
   const $ = cheerio.load(html);
   const contests = new Map<string, string>();
   $(".mw-parser-output a").each((_, a) => {
