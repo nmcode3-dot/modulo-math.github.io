@@ -65,7 +65,7 @@ async function get(path: string): Promise<string | null> {
       // Direct fetch failed (AoPS often 403s bots) — fall back to the Wayback Machine.
       for (let w = 0; w < 4; w++) {
         await new Promise((r) => setTimeout(r, 3000)); // wayback rate-limits aggressively
-        const { status, body } = curl(`https://web.archive.org/web/2024id_/${url}`);
+        const { status, body } = curl(`https://web.archive.org/web/2026id_/${url}`);
         if (status === 429) { await new Promise((r) => setTimeout(r, 20000)); continue; }
         if (status !== 200) { logErr(url, `direct failed (${e}); wayback HTTP ${status}`); return null; }
         writeFileSync(file, body);
@@ -143,11 +143,12 @@ const topicTags: TagMap = JSON.parse(readFileSync("src/data/topic-tags.json", "u
 
 type Row = { contest: string; year: number; version: string; found: number; expected: number; answers: number };
 const coverage: Row[] = [];
+let anyFailure = false;
 
 for (const idx of INDEXES) {
   if (onlyContest && idx.key !== onlyContest) continue;
   const html = await get(idx.url);
-  if (!html) { logErr(idx.url, "index fetch failed"); continue; }
+  if (!html) { logErr(idx.url, "index fetch failed"); anyFailure = true; continue; }
   const $ = cheerio.load(html);
   const contests = new Map<string, string>();
   $(".mw-parser-output a").each((_, a) => {
@@ -191,10 +192,19 @@ for (const idx of INDEXES) {
       process.stdout.write(`\r${name} #${n}   `);
     }
     coverage.push({ contest: idx.contest, year, version: version.trim(), found, expected: idx.expected, answers: key.length });
-    if (problems.length) writeFileSync(`src/data/${idx.key}.json`, JSON.stringify(problems, null, 2));
+    // Merge into the existing file so partial runs never lose already-saved problems.
+    if (problems.length) {
+      const path = `src/data/${idx.key}.json`;
+      let existing: any[] = [];
+      try { existing = JSON.parse(readFileSync(path, "utf8")); } catch { /* first run */ }
+      const byId = new Map<string, any>(existing.map((p) => [p.id, p]));
+      for (const p of problems) byId.set(p.id, p);
+      writeFileSync(path, JSON.stringify([...byId.values()], null, 2));
+    } else {
+      anyFailure = true;
+    }
   }
-  if (problems.length) writeFileSync(`src/data/${idx.key}.json`, JSON.stringify(problems, null, 2));
-  console.log(`\n${idx.contest}: ${problems.length} problems written`);
+  if (problems.length) console.log(`\n${idx.contest}: ${problems.length} problems scraped this run`);
 }
 
 const lines = ["# Coverage report", "", "| Contest | Year | Version | Found | Expected | Answer key |", "|---|---|---|---|---|---|"];
@@ -203,3 +213,4 @@ const tf = coverage.reduce((a, r) => a + r.found, 0), te = coverage.reduce((a, r
 lines.push("", `**Total: ${tf} / ${te}** — see scrape-errors.log for failures.`);
 writeFileSync("scripts/coverage-report.md", lines.join("\n"));
 console.log(lines.join("\n"));
+if (anyFailure) process.exit(1);
