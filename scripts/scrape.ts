@@ -54,16 +54,21 @@ async function get(path: string): Promise<string | null> {
     } catch (e) {
       if (tries < 2) { await new Promise((r) => setTimeout(r, 3000)); continue; }
       // Direct fetch failed (AoPS often 403s bots) — fall back to the Wayback Machine.
-      try {
-        const wb = await fetch(`https://web.archive.org/web/2024id_/${url}`, { headers: HEADERS, redirect: "follow" });
-        if (!wb.ok) { logErr(url, `direct failed (${e}); wayback HTTP ${wb.status}`); return null; }
-        const html = await wb.text();
-        writeFileSync(file, html);
-        return html;
-      } catch (e2) {
-        logErr(url, `direct failed (${e}); wayback failed (${e2})`);
-        return null;
+      for (let w = 0; w < 4; w++) {
+        try {
+          await new Promise((r) => setTimeout(r, 5000)); // wayback rate-limits aggressively
+          const wb = await fetch(`https://web.archive.org/web/2024id_/${url}`, { headers: HEADERS, redirect: "follow" });
+          if (wb.status === 429) { await new Promise((r) => setTimeout(r, 20000)); continue; }
+          if (!wb.ok) { logErr(url, `direct failed (${e}); wayback HTTP ${wb.status}`); return null; }
+          const html = await wb.text();
+          writeFileSync(file, html);
+          return html;
+        } catch (e2) {
+          if (w === 3) { logErr(url, `direct failed (${e}); wayback failed (${e2})`); return null; }
+          await new Promise((r) => setTimeout(r, 10000));
+        }
       }
+      return null;
     }
   }
   return null;
