@@ -8446,5 +8446,2483 @@
     "topics": [
       "Casework Counting"
     ]
+  },
+  {
+    "id": "amc8-2006-1",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 1,
+    "statementLatex": "Mindy made three purchases for $\\textdollar 1.98$ dollars, $\\textdollar 5.04$ dollars, and $\\textdollar 9.89$ dollars. What was her total, to the nearest dollar?",
+    "choices": [
+      "$\\ 10$",
+      "$\\ 15$",
+      "$\\ 16$",
+      "$\\ 17$",
+      "$\\ 18$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_1",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2006-2",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 2,
+    "statementLatex": "On the AMC 8 contest Billy answers 13 questions correctly, answers 7 questions incorrectly and doesn't answer the last 5. What is his score?",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 6$",
+      "$\\ 13$",
+      "$\\ 19$",
+      "$\\ 26$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2006-3",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 3,
+    "statementLatex": "Elisa swims laps in the pool. When she first started, she completed 10 laps in 25 minutes. Now, she can finish 12 laps in 24 minutes. By how many minutes has she improved her lap time?",
+    "choices": [
+      "$\\ \\frac{1}{2}$",
+      "$\\ \\frac{3}{4}$",
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2006-4",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Initially, a spinner points west. Chenille moves it clockwise $2 \\dfrac{1}{4}$ revolutions and then counterclockwise $3 \\dfrac{3}{4}$ revolutions. In what direction does the spinner point after the two moves?\n\n[[img:https://latex.artofproblemsolving.com/3/9/f/39f6c3905c23037677847312e6fe6254d0dd9923.png]]",
+    "choices": [
+      "$\\ \\text{north}$",
+      "$\\ \\text{east}$",
+      "$\\ \\text{south}$",
+      "$\\ \\text{west}$",
+      "$\\ \\text{northwest}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2006-5",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 5,
+    "statementLatex": "Points $A, B, C$ and $D$ are midpoints of the sides of the larger square. If the larger square has area 60, what is the area of the smaller square?\n\n[[img:https://latex.artofproblemsolving.com/e/7/8/e7899c538a174faf9963a60d09886b7fb12ae942.png]]",
+    "choices": [
+      "$\\ 15$",
+      "$\\ 20$",
+      "$\\ 24$",
+      "$\\ 30$",
+      "$\\ 40$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2006-6",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 6,
+    "statementLatex": "The letter T is formed by placing two $2 \\times 4$ inch rectangles next to each other, as shown. What is the perimeter of the T, in inches?\n\n[[img:https://latex.artofproblemsolving.com/4/e/5/4e5ee969b5b05027d7b34dc893efcf56dfd272be.png]]",
+    "choices": [
+      "$\\ 12$",
+      "$\\ 16$",
+      "$\\ 20$",
+      "$\\ 22$",
+      "$\\ 24$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2006-7",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 7,
+    "statementLatex": "Circle $X$ has a radius of $\\pi$ . Circle $Y$ has a circumference of $8 \\pi$ . Circle $Z$ has an area of $9 \\pi$ . List the circles in order from smallest to the largest radius.",
+    "choices": [
+      "$\\ X, Y, Z$",
+      "$\\ Z, X, Y$",
+      "$\\ Y, X, Z$",
+      "$\\ Z, Y, X$",
+      "$\\ X, Z, Y$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2006-8",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 8,
+    "statementLatex": "The table shows some of the results of a survey by radiostation KACL. What percentage of the males surveyed listen to the station?\n\n$\\begin{tabular}{|c|c|c|c|}\\hline & Listen & Don't Listen & Total\\\\ \\hline Males & ? & 26 & ?\\\\ \\hline Females & 58 & ? & 96\\\\ \\hline Total & 136 & 64 & 200\\\\ \\hline\\end{tabular}$",
+    "choices": [
+      "$\\ 39$",
+      "$\\ 48$",
+      "$\\ 52$",
+      "$\\ 55$",
+      "$\\ 75$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2006-9",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 9,
+    "statementLatex": "What is the product of $\\frac{3}{2}\\times\\frac{4}{3}\\times\\frac{5}{4}\\times\\cdots\\times\\frac{2006}{2005}$  ?",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 1002$",
+      "$\\ 1003$",
+      "$\\ 2005$",
+      "$\\ 2006$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc8-2006-10",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Jorge's teacher asks him to plot all the ordered pairs $(w. l)$ of positive integers for which $w$ is the width and $l$ is the length of a rectangle with area 12. What should his graph look like?\n\n$\\textbf{(A)}$\n[[img:https://latex.artofproblemsolving.com/3/a/0/3a01c402526b29bd19717ac27a964c97c7c90256.png]]\n\n$\\textbf{(B)}$\n[[img:https://latex.artofproblemsolving.com/5/b/a/5bac0fbc6b424579dd878f2c9b6fd25e5fdc57bc.png]]\n\n$\\textbf{(C)}$\n[[img:https://latex.artofproblemsolving.com/d/1/6/d16c6eb0a4feae2b575a49deae60ef5f2dc24924.png]]\n\n$\\textbf{(D)}$\n[[img:https://latex.artofproblemsolving.com/7/8/2/7822b4158ccde67dd21fb1750f181c9088a739f2.png]]\n\n$\\textbf{(E)}$\n[[img:https://latex.artofproblemsolving.com/2/8/6/286b49157b5fb1c448956dfccefe8e5ad2ff0cce.png]]",
+    "choices": [],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2006-11",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 11,
+    "statementLatex": "How many two-digit numbers have digits whose sum is a perfect square?",
+    "choices": [
+      "$\\ 13$",
+      "$\\ 16$",
+      "$\\ 17$",
+      "$\\ 18$",
+      "$\\ 19$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2006-12",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 12,
+    "statementLatex": "Antonette gets $70 \\%$ on a 10-problem test, $80 \\%$ on a 20-problem test and $90 \\%$ on a 30-problem test. If the three tests are combined into one 60-problem test, which percent is closest to her overall score?",
+    "choices": [
+      "$\\ 40$",
+      "$\\ 77$",
+      "$\\ 80$",
+      "$\\ 83$",
+      "$\\ 87$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2006-13",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 13,
+    "statementLatex": "Cassie leaves Escanaba at 8:30 AM heading for Marquette on her bike. She bikes at a uniform rate of 12 miles per hour. Brian leaves Marquette at 9:00 AM heading for Escanaba on his bike. He bikes at a uniform rate of 16 miles per hour. They both bike on the same 62-mile route between Escanaba and Marquette. At what time in the morning do they meet?",
+    "choices": [
+      "$\\ 10: 00$",
+      "$\\ 10: 15$",
+      "$\\ 10: 30$",
+      "$\\ 11: 00$",
+      "$\\ 11: 30$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2006-14",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 14,
+    "statementLatex": "Problems 14, 15 and 16 involve Mrs. Reed's English assignment.\n\nA Novel Assignment\n\nThe students in Mrs. Reed's English class are reading the same $760$ -page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in $45$ seconds and Chandra reads a page in $30$ seconds.\n\nIf Bob and Chandra both read the whole book, Bob will spend how many more seconds reading than Chandra?",
+    "choices": [
+      "$\\ 7,600$",
+      "$\\ 11,400$",
+      "$\\ 12,500$",
+      "$\\ 15,200$",
+      "$\\ 22,800$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2006-15",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Problems 14, 15 and 16 involve Mrs. Reed's English assignment.\n\nA Novel Assignment\n\nThe students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds.\n\nChandra and Bob, who each have a copy of the book, decide that they can save time by \"team reading\" the novel. In this scheme, Chandra will read from page 1 to a certain page and Bob will read from the next page through page 760, finishing the book. When they are through they will tell each other about the part they read. What is the last page that Chandra should read so that she and Bob spend the same amount of time reading the novel?",
+    "choices": [
+      "$\\ 425$",
+      "$\\ 444$",
+      "$\\ 456$",
+      "$\\ 484$",
+      "$\\ 506$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2006-16",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 16,
+    "statementLatex": "Problems 14, 15 and 16 involve Mrs. Reed's English assignment.\n\nA Novel Assignment\n\nThe students in Mrs. Reed's English class are reading the same 760-page novel. Three friends, Alice, Bob and Chandra, are in the class. Alice reads a page in 20 seconds, Bob reads a page in 45 seconds and Chandra reads a page in 30 seconds.\n\nBefore Chandra and Bob start reading, Alice says she would like to team read with them. If they divide the book into three sections so that each reads for the same length of time, how many seconds will each have to read?",
+    "choices": [
+      "$\\ 6400$",
+      "$\\ 6600$",
+      "$\\ 6800$",
+      "$\\ 7000$",
+      "$\\ 7200$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2006-17",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 17,
+    "statementLatex": "Jeff rotates spinners $P$ , $Q$ and $R$ and adds the resulting numbers. What is the probability that his sum is an odd number?\n\n[[img:https://latex.artofproblemsolving.com/2/4/0/2402672f0bbb2b057f89b1a2623c46ea6f2d380c.png]]",
+    "choices": [
+      "$\\ \\frac{1}{4}$",
+      "$\\ \\frac{1}{3}$",
+      "$\\ \\frac{1}{2}$",
+      "$\\ \\frac{2}{3}$",
+      "$\\ \\frac{3}{4}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2006-18",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 18,
+    "statementLatex": "A cube with 3-inch edges is made using 27 cubes with 1-inch edges. Nineteen of the smaller cubes are white and eight are black. If the eight black cubes are placed at the corners of the larger cube, what fraction of the surface area of the larger cube is white?",
+    "choices": [
+      "$\\ \\frac{1}{9}$",
+      "$\\ \\frac{1}{4}$",
+      "$\\ \\frac{4}{9}$",
+      "$\\ \\frac{5}{9}$",
+      "$\\ \\frac{19}{27}$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_18",
+    "topics": [
+      "3D Geometry",
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2006-19",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 19,
+    "statementLatex": "Triangle $ABC$ is an isosceles triangle with $\\overline{AB}=\\overline{BC}$ . Point $D$ is the midpoint of both $\\overline{BC}$ and $\\overline{AE}$ , and $\\overline{CE}$ is 11 units long. Triangle $ABD$ is congruent to triangle $ECD$ . What is the length of $\\overline{BD}$ ?\n\n[[img:https://latex.artofproblemsolving.com/4/b/4/4b49c3097ed0eacc7cdb3ab3850b7fdf1f67d407.png]]",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 4.5$",
+      "$\\ 5$",
+      "$\\ 5.5$",
+      "$\\ 6$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2006-20",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 20,
+    "statementLatex": "A singles tournament had six players. Each player played every other player only once, with no ties. If Helen won 4 games, Ines won 3 games, Janet won 2 games, Kendra won 2 games and Lara won 2 games, how many games did Monica win?",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2006-21",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 21,
+    "statementLatex": "An aquarium has a rectangular base that measures $100$ cm by $40$ cm and has a height of $50$ cm. The aquarium is filled with water to a depth of $37$ cm. A rock with volume $1000\\text{cm}^3$ is then placed in the aquarium and completely submerged. By how many centimeters does the water level rise?",
+    "choices": [
+      "$\\ 0.25$",
+      "$\\ 0.5$",
+      "$\\ 1$",
+      "$\\ 1.25$",
+      "$\\ 2.5$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2006-22",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 22,
+    "statementLatex": "Three different one-digit positive integers are placed in the bottom row of cells. Numbers in adjacent cells are added and the sum is placed in the cell above them. In the second row, continue the same process to obtain a number in the top cell. What is the difference between the largest and smallest numbers possible in the top cell?\n\n[[img:https://latex.artofproblemsolving.com/5/7/0/570b0c91c3fb3ed033703f1831719e94604f7ae9.png]]",
+    "choices": [
+      "$\\ 16$",
+      "$\\ 24$",
+      "$\\ 25$",
+      "$\\ 26$",
+      "$\\ 35$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_22",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2006-23",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 23,
+    "statementLatex": "A box contains gold coins. If the coins are equally divided among six people, four coins are left over. If the coins are equally divided among five people, three coins are left over. If the box holds the smallest number of coins that meets these two conditions, how many coins are left when equally divided among seven people?",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 5$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2006-24",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 24,
+    "statementLatex": "In the multiplication problem below $A$ , $B$ , $C$ , $D$ are different digits. What is $A+B$ ?\n\n\\[\\begin{array}{cccc}& A & B & A\\\\ \\times & & C & D\\\\ \\hline C & D & C & D\\\\ \\end{array}\\]",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 9$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2006-25",
+    "contest": "AMC 8",
+    "year": 2006,
+    "version": "",
+    "number": 25,
+    "statementLatex": "Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers?\n\n[[img:https://latex.artofproblemsolving.com/9/9/d/99d5a887c5efe5e48596399d86a16a3f95fe9b35.png]]",
+    "choices": [
+      "$\\ 13$",
+      "$\\ 14$",
+      "$\\ 15$",
+      "$\\ 16$",
+      "$\\ 17$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2005-1",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 1,
+    "statementLatex": "Connie multiplies a number by $2$ and gets $60$ as her answer. However, she should have divided the number by $2$ to get the correct answer. What is the correct answer?",
+    "choices": [
+      "$\\ 7.5$",
+      "$\\ 15$",
+      "$\\ 30$",
+      "$\\ 120$",
+      "$\\ 240$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_1",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2005-2",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 2,
+    "statementLatex": "Karl bought five folders from Pay-A-Lot at a cost of $\\textdollar 2.50$ each.\nPay-A-Lot had a 20%-off sale the following day. How much could\nKarl have saved on the purchase by waiting a day?",
+    "choices": [
+      "$\\ \\textdollar 1.00$",
+      "$\\ \\textdollar 2.00$",
+      "$\\ \\textdollar 2.50$",
+      "$\\ \\textdollar 2.75$",
+      "$\\ \\textdollar 5.00$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2005-3",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 3,
+    "statementLatex": "What is the minimum number of small squares that must be colored black so that a line of symmetry lies on the diagonal $\\overline{BD}$ of square $ABCD$ ?\n\n[[img:https://latex.artofproblemsolving.com/7/5/f/75f8ad6c87a6d20912c9a932a8e8dbc6b6364d2d.png]]",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2005-4",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 4,
+    "statementLatex": "A square and a triangle have equal perimeters. The lengths of the three sides of the triangle are 6.1 cm, 8.2 cm and 9.7 cm. What is the area of the square in square centimeters?",
+    "choices": [
+      "$\\ 24$",
+      "$\\ 25$",
+      "$\\ 36$",
+      "$\\ 48$",
+      "$\\ 64$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2005-5",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 5,
+    "statementLatex": "Soda is sold in packs of 6, 12 and 24 cans. What is the minimum number of packs needed to buy exactly 90 cans of soda?",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 8$",
+      "$\\ 15$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2005-6",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 6,
+    "statementLatex": "Suppose $d$ is a digit. For how many values of $d$ is $2.00d5 > 2.005$ ?",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 10$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2005-7",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 7,
+    "statementLatex": "Bill walks $\\tfrac12$ mile south, then $\\tfrac34$ mile east, and finally $\\tfrac12$ mile south. How many miles is he, in a direct line, from his starting point?",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 1\\tfrac14$",
+      "$\\ 1\\tfrac12$",
+      "$\\ 1\\tfrac34$",
+      "$\\ 2$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2005-8",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 8,
+    "statementLatex": "Suppose m and n are positive odd integers. Which of the following must also be an odd integer?",
+    "choices": [
+      "$\\ m+3n$",
+      "$\\ 3m-n$",
+      "$\\ 3m^2 + 3n^2$",
+      "$\\ (nm + 3)^2$",
+      "$\\ 3mn$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc8-2005-9",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 9,
+    "statementLatex": "In quadrilateral $ABCD$ , sides $\\overline{AB}$ and $\\overline{BC}$ both have length 10, sides $\\overline{CD}$ and $\\overline{DA}$ both have length 17, and the measure of angle $ADC$ is $60^\\circ$ . What is the length of diagonal $\\overline{AC}$ ?\n\n[[img:https://latex.artofproblemsolving.com/7/9/c/79c8d6aaa1d59d7dfca5a5044d41a1565c2ed306.png]]",
+    "choices": [
+      "$\\ 13.5$",
+      "$\\ 14$",
+      "$\\ 15.5$",
+      "$\\ 17$",
+      "$\\ 18.5$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2005-10",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Joe had walked half way from home to school when he realized he was late. He ran the rest of the way to school. He ran 3 times as fast as he walked. Joe took 6 minutes to walk half way to school. How many minutes did it take Joe to get from home to school?",
+    "choices": [
+      "$\\ 7$",
+      "$\\ 7.3$",
+      "$\\ 7.7$",
+      "$\\ 8$",
+      "$\\ 8.3$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2005-11",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 11,
+    "statementLatex": "The sales tax rate in Rubenenkoville is 6%. During a sale at the Bergville Coat Closet, the price of a coat is discounted 20% from its $90.00 price. Two clerks, Jack and Jill, calculate the bill independently. Jack rings up $90.00 and adds 6% sales tax, then subtracts 20% from this total. Jill rings up $90.00, subtracts 20% of the price, then adds 6% of the discounted price for sales tax. What is Jack's total minus Jill's total?",
+    "choices": [
+      "$\\ -\\textdollar 1.06$",
+      "$\\ -\\textdollar 0.53$",
+      "$\\ \\textdollar 0$",
+      "$\\ \\textdollar 0.53$",
+      "$\\ \\textdollar 1.06$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2005-12",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 12,
+    "statementLatex": "Big Al, the ape, ate 100 bananas from May 1 through May 5. Each day he ate six more bananas than on the previous day. How many bananas did Big Al eat on May 5?",
+    "choices": [
+      "$\\ 20$",
+      "$\\ 22$",
+      "$\\ 30$",
+      "$\\ 32$",
+      "$\\ 34$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc8-2005-13",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 13,
+    "statementLatex": "The area of polygon $ABCDEF$ is 52 with $AB=8$ , $BC=9$ and $FA=5$ . What is $DE+EF$ ?\n\n[[img:https://latex.artofproblemsolving.com/1/a/9/1a9b3504d94fa699730b91e95cc71d2a3c84db6b.png]]",
+    "choices": [
+      "$\\ 7$",
+      "$\\ 8$",
+      "$\\ 9$",
+      "$\\ 10$",
+      "$\\ 11$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2005-14",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 14,
+    "statementLatex": "The Little Twelve Basketball Conference has two divisions, with six teams in each division. Each team plays each of the other teams in its own division twice and every team in the other division once. How many conference games are scheduled?",
+    "choices": [
+      "$\\ 80$",
+      "$\\ 96$",
+      "$\\ 100$",
+      "$\\ 108$",
+      "$\\ 192$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2005-15",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 15,
+    "statementLatex": "How many different isosceles triangles have integer side lengths and perimeter 23?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 9$",
+      "$\\ 11$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2005-16",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 16,
+    "statementLatex": "A five-legged Martian has a drawer full of socks, each of which is red, white or blue, and there are at least five socks of each color. The Martian pulls out one sock at a time without looking. How many socks must the Martian remove from the drawer to be certain there will be 5 socks of the same color?",
+    "choices": [
+      "$\\ 6$",
+      "$\\ 9$",
+      "$\\ 12$",
+      "$\\ 13$",
+      "$\\ 15$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2005-17",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 17,
+    "statementLatex": "The results of a cross-country team's training run are graphed below. Which student has the greatest average speed?\n\n[[img:https://latex.artofproblemsolving.com/2/b/0/2b04d909f0586cae29f85ef276c64483f0e0c0e2.png]]",
+    "choices": [
+      "$\\ \\text{Angela}$",
+      "$\\ \\text{Briana}$",
+      "$\\ \\text{Carla}$",
+      "$\\ \\text{Debra}$",
+      "$\\ \\text{Evelyn}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2005-18",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 18,
+    "statementLatex": "How many three-digit numbers are divisible by 13?",
+    "choices": [
+      "$\\ 7$",
+      "$\\ 67$",
+      "$\\ 69$",
+      "$\\ 76$",
+      "$\\ 77$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_18",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2005-19",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 19,
+    "statementLatex": "What is the perimeter of trapezoid $ABCD$ ?\n\n[[img:https://latex.artofproblemsolving.com/0/9/6/096a58ba6264c3736c928365300c0d13f53fcf0b.png]]",
+    "choices": [
+      "$\\ 180$",
+      "$\\ 188$",
+      "$\\ 196$",
+      "$\\ 200$",
+      "$\\ 204$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2005-20",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 20,
+    "statementLatex": "Alice and Bob play a game involving a circle whose circumference is divided by 12 equally-spaced points. The points are numbered clockwise, from 1 to 12. Both start on point 12. Alice moves clockwise and Bob, counterclockwise.\nIn a turn of the game, Alice moves 5 points clockwise and Bob moves 9 points counterclockwise. The game ends when they stop on the same point. How many turns will this take?",
+    "choices": [
+      "$\\ 6$",
+      "$\\ 8$",
+      "$\\ 12$",
+      "$\\ 14$",
+      "$\\ 24$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2005-21",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 21,
+    "statementLatex": "How many distinct triangles can be drawn using three of the dots below as vertices?\n\n[[img:https://latex.artofproblemsolving.com/5/a/2/5a2b71fd41fb8101c84f6e83e00a34af1e6c98ef.png]]",
+    "choices": [
+      "$\\ 9$",
+      "$\\ 12$",
+      "$\\ 18$",
+      "$\\ 20$",
+      "$\\ 24$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc8-2005-22",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 22,
+    "statementLatex": "A company sells detergent in three different sized boxes: small (S), medium (M) and large (L). The medium size costs 50% more than the small size and contains 20% less detergent than the large size. The large size contains twice as much detergent as the small size and costs 30% more than the medium size. Rank the three sizes from best to worst buy.",
+    "choices": [
+      "$\\, SML$",
+      "$\\, LMS$",
+      "$\\, MSL$",
+      "$\\, LSM$",
+      "$\\, MLS$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_22",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2005-23",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 23,
+    "statementLatex": "Isosceles right triangle $ABC$ encloses a semicircle of area $2\\pi$ . The circle has its center $O$ on hypotenuse $\\overline{AB}$ and is tangent to sides $\\overline{AC}$ and $\\overline{BC}$ . What is the area of triangle $ABC$ ?\n\n[[img:https://latex.artofproblemsolving.com/8/a/7/8a7fba91b0cdfee41e69cbd89d6b1389d4169877.png]]",
+    "choices": [
+      "$\\ 6$",
+      "$\\ 8$",
+      "$\\ 3\\pi$",
+      "$\\ 10$",
+      "$\\ 4\\pi$ First, we notice half a square so first let's create a square. Once we have a square, we will have a full circle. This circle has a diameter of 4 which will be the side of the square. The area would be $4\\cdot 4 = 16.$ Divide 16 by 2 to get the original shape and you get $\\boxed{8}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Circle Tangents"
+    ]
+  },
+  {
+    "id": "amc8-2005-24",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 24,
+    "statementLatex": "A certain calculator has only two keys [+1] and [x2]. When you press one of the keys, the calculator automatically displays the result. For instance, if the calculator originally displayed \"9\" and you pressed [+1], it would display \"10.\" If you then pressed [x2], it would display \"20.\" Starting with the display \"1,\" what is the fewest number of keystrokes you would need to reach \"200\"?",
+    "choices": [
+      "$\\ 8$",
+      "$\\ 9$",
+      "$\\ 10$",
+      "$\\ 11$",
+      "$\\ 12$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2005-25",
+    "contest": "AMC 8",
+    "year": 2005,
+    "version": "",
+    "number": 25,
+    "statementLatex": "A square with side length 2 and a circle share the same center. The total area of the regions that are inside the circle and outside the square is equal to the total area of the regions that are outside the circle and inside the square. What is the radius of the circle?\n\n[[img:https://latex.artofproblemsolving.com/c/8/c/c8c667941886cc09d8e6a51330698d67e111d5d3.png]]",
+    "choices": [
+      "$\\ \\frac{2}{\\sqrt{\\pi}}$",
+      "$\\ \\frac{1+\\sqrt{2}}{2}$",
+      "$\\ \\frac{3}{2}$",
+      "$\\ \\sqrt{3}$",
+      "$\\ \\sqrt{\\pi}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2004-1",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 1,
+    "statementLatex": "On a map, a $12$ -centimeter length represents $72$ kilometers. How many kilometers does a $17$ -centimeter length represent?",
+    "choices": [
+      "$\\ 6$",
+      "$\\ 102$",
+      "$\\ 204$",
+      "$\\ 864$",
+      "$\\ 1224$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_1",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2004-2",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 2,
+    "statementLatex": "How many different four-digit numbers can be formed by rearranging the four digits in $2004$ ?",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 16$",
+      "$\\ 24$",
+      "$\\ 81$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2004-3",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 3,
+    "statementLatex": "Twelve friends met for dinner at Oscar's Overstuffed Oyster House, and each ordered one meal. The portions were so large, there was enough food for $18$ people. If they shared, how many meals should they have ordered to have just enough food for the $12$ of them?",
+    "choices": [
+      "$\\ 8$",
+      "$\\ 9$",
+      "$\\ 10$",
+      "$\\ 15$",
+      "$\\ 18$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2004-4",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Ms. Hamilton’s eighth-grade class wants to participate in the annual three-person-team basketball tournament.\n\nLance, Sally, Joy, and Fred are chosen for the team. In how many ways can the three starters be chosen?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 8$",
+      "$\\ 10$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc8-2004-5",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 5,
+    "statementLatex": "Ms. Hamilton's eighth-grade class wants to participate in the annual three-person-team basketball tournament. The losing team of each game is eliminated from the tournament. If sixteen teams compete, how many games will be played to determine the winner?",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 7$",
+      "$\\ 8$",
+      "$\\ 15$",
+      "$\\ 16$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2004-6",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 6,
+    "statementLatex": "After Sally takes $20$ shots, she has made $55\\%$ of her shots. After she takes $5$ more shots, she raises her percentage to $56\\%$ . How many of the last $5$ shots did she make?",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2004-7",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 7,
+    "statementLatex": "An athlete's target heart rate, in beats per minute, is $80\\%$ of the theoretical maximum heart rate. The maximum heart rate is found by subtracting the athlete's age, in years, from $220$ . To the nearest whole number, what is the target heart rate of an athlete who is $26$ years old?",
+    "choices": [
+      "$\\ 134$",
+      "$\\ 155$",
+      "$\\ 176$",
+      "$\\ 194$",
+      "$\\ 243$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Ratios and Rates",
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2004-8",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 8,
+    "statementLatex": "Find the number of two-digit positive integers whose digits total $7$ .",
+    "choices": [
+      "$\\ 6$",
+      "$\\ 7$",
+      "$\\ 8$",
+      "$\\ 9$",
+      "$\\ 10$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2004-9",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 9,
+    "statementLatex": "The average of the five numbers in a list is $54$ . The average of the first two\nnumbers is $48$ . What is the average of the last three numbers?",
+    "choices": [
+      "$\\ 55$",
+      "$\\ 56$",
+      "$\\ 57$",
+      "$\\ 58$",
+      "$\\ 59$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2004-10",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Handy Aaron helped a neighbor $1 \\frac14$ hours on Monday, $50$ minutes on Tuesday, from 8:20 to 10:45 on Wednesday morning, and a half-hour on Friday. He is paid $\\textdollar 3$ per hour. How much did he earn for the week?",
+    "choices": [
+      "$\\ \\textdollar 8$",
+      "$\\ \\textdollar 9$",
+      "$\\ \\textdollar 10$",
+      "$\\ \\textdollar 12$",
+      "$\\ \\textdollar 15$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2004-11",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 11,
+    "statementLatex": "The numbers $-2, 4, 6, 9$ and $12$ are rearranged according to these rules:\n\nWhat is the average of the first and last numbers?",
+    "choices": [
+      "$\\ 3.5$",
+      "$\\ 5$",
+      "$\\ 6.5$",
+      "$\\ 7.5$",
+      "$\\ 8$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2004-12",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 12,
+    "statementLatex": "Niki usually leaves her cell phone on. If her cell phone is on but\nshe is not actually using it, the battery will last for $24$ hours. If\nshe is using it constantly, the battery will last for only $3$ hours.\nSince the last recharge, her phone has been on $9$ hours, and during\nthat time she has used it for $60$ minutes. If she doesn’t use it any\nmore but leaves the phone on, how many more hours will the battery last?",
+    "choices": [
+      "$\\ 7$",
+      "$\\ 8$",
+      "$\\ 11$",
+      "$\\ 14$",
+      "$\\ 15$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2004-13",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 13,
+    "statementLatex": "Amy, Bill and Celine are friends with different ages. Exactly one of the following statements is true.\n\nRank the friends from the youngest to oldest.",
+    "choices": [
+      "$\\ \\text{Bill, Amy, Celine}$",
+      "$\\ \\text{Amy, Bill, Celine}$",
+      "$\\ \\text{Celine, Amy, Bill}$",
+      "$\\ \\text{Celine, Bill, Amy}$",
+      "$\\ \\text{Amy, Celine, Bill}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2004-14",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 14,
+    "statementLatex": "What is the area enclosed by the geoboard quadrilateral below?\n\n[[img:https://latex.artofproblemsolving.com/7/6/0/76034624e12f53431e5b0c0d4dd5abb475dc1fbb.png]]",
+    "choices": [
+      "$\\ 15$",
+      "$\\ 18\\frac12$",
+      "$\\ 22\\frac12$",
+      "$\\ 27$",
+      "$\\ 41$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2004-15",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Thirteen black and six white hexagonal tiles were used to create the figure below. If a new figure is created by attaching a border of white tiles with the same size and shape as the others, what will be the difference between the total number of white tiles and the total number of black tiles in the new figure?\n\n[[img:https://latex.artofproblemsolving.com/d/4/7/d47bfb69fb44779010bc8d7ac34f9cbf9d41ecfb.png]]",
+    "choices": [
+      "$\\ 5$",
+      "$\\ 7$",
+      "$\\ 11$",
+      "$\\ 12$",
+      "$\\ 18$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2004-16",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 16,
+    "statementLatex": "Two $600$ mL pitchers contain orange juice. One pitcher is $1/3$ full and the other pitcher is $2/5$ full. Water is added to fill each pitcher completely, then both pitchers are poured into one large container. What fraction of the mixture in the large container is orange juice?",
+    "choices": [
+      "$\\ \\frac18$",
+      "$\\ \\frac{3}{16}$",
+      "$\\ \\frac{11}{30}$",
+      "$\\ \\frac{11}{19}$",
+      "$\\ \\frac{11}{15}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2004-17",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 17,
+    "statementLatex": "Three friends have a total of $6$ identical pencils, and each one has at least one pencil. In how many ways can this happen?",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 3$",
+      "$\\ 6$",
+      "$\\ 10$",
+      "$\\ 12$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Casework Counting",
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc8-2004-18",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 18,
+    "statementLatex": "Five friends compete in a dart-throwing contest. Each one has two darts to throw at the same circular target, and each individual's score is the sum of the scores in the target regions that are hit. The scores for the target regions are the whole numbers $1$ through $10$ . Each throw hits the target in a region with a different value. The scores are: Alice $16$ points, Ben $4$ points, Cindy $7$ points, Dave $11$ points, and Ellen $17$ points. Who hits the region worth $6$ points?",
+    "choices": [
+      "$\\ \\text{Alice}$",
+      "$\\ \\text{Ben}$",
+      "$\\ \\text{Cindy}$",
+      "$\\ \\text{Dave}$",
+      "$\\ \\text{Ellen}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_18",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2004-19",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 19,
+    "statementLatex": "A whole number larger than $2$ leaves a remainder of $2$ when divided by each of the numbers $3, 4, 5,$ and $6$ . The smallest such number lies between which two numbers?",
+    "choices": [
+      "$\\ 40\\ \\text{and}\\ 49$",
+      "$\\ 60 \\text{ and } 79$",
+      "$\\ 100\\ \\text{and}\\ 129$",
+      "$\\ 210\\ \\text{and}\\ 249$",
+      "$\\ 320\\ \\text{and}\\ 369$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc8-2004-20",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 20,
+    "statementLatex": "Two-thirds of the people in a room are seated in three-fourths of the chairs. The rest of the people are standing. If there are $6$ empty chairs, how many people are in the room?",
+    "choices": [
+      "$\\ 12$",
+      "$\\ 18$",
+      "$\\ 24$",
+      "$\\ 27$",
+      "$\\ 36$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2004-21",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 21,
+    "statementLatex": "Spinners $A$ and $B$ are spun. On each spinner, the arrow is equally likely to land on each number. What is the probability that the product of the two spinners' numbers is even?\n\n[[img:https://latex.artofproblemsolving.com/2/b/8/2b8c0e9de9eb3c68e3938fd3467803e6bbb24ef3.png]]",
+    "choices": [
+      "$\\ \\frac14$",
+      "$\\ \\frac13$",
+      "$\\ \\frac12$",
+      "$\\ \\frac23$",
+      "$\\ \\frac34$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2004-22",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 22,
+    "statementLatex": "At a party there are only single women and married men with their wives. The probability that a randomly selected woman is single is $\\frac25$ . What fraction of the people in the room are married men?",
+    "choices": [
+      "$\\ \\frac13$",
+      "$\\ \\frac38$",
+      "$\\ \\frac25$",
+      "$\\ \\frac{5}{12}$",
+      "$\\ \\frac35$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_22",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2004-23",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 23,
+    "statementLatex": "Tess runs counterclockwise around rectangular block $JKLM$ . She lives at corner $J$ . Which graph could represent her straight-line distance from home?\n\n[[img:https://latex.artofproblemsolving.com/c/f/a/cfa3151064b41051d0fd988b63693968a5f5531e.png]]\n\n$\\textbf{(A)}$\n[[img:https://latex.artofproblemsolving.com/e/1/c/e1ce58d3d8b5534cf365cdcf8118b8edc2afaa55.png]]\n\n$\\textbf{(B)}$\n[[img:https://latex.artofproblemsolving.com/6/5/7/657b9a7866d66252b5a03bb0b4c6b257cbf6504a.png]]\n\n$\\textbf{(C)}$\n[[img:https://latex.artofproblemsolving.com/b/f/f/bff98a36d2d506b16dadd585fc7d43750b30b43b.png]]\n\n$\\textbf{(D)}$\n[[img:https://latex.artofproblemsolving.com/c/4/f/c4f99af82414203b386ec3abd62914e6b1f85cff.png]]\n\n$\\textbf{(E)}$\n[[img:https://latex.artofproblemsolving.com/1/8/d/18dee85d26f1e02bceb105cd20a1bd2880aaee49.png]]",
+    "choices": [],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2004-24",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 24,
+    "statementLatex": "In the figure, $ABCD$ is a rectangle and $EFGH$ is a parallelogram. Using the measurements given in the figure, what is the length $d$ of the segment that is perpendicular to $\\overline{HE}$ and $\\overline{FG}$ ?\n\n[[img:https://latex.artofproblemsolving.com/d/2/3/d23e9bb30960feaeb516f8d23d48c117676bfbd0.png]]",
+    "choices": [
+      "$\\ 6.8$",
+      "$\\ 7.1$",
+      "$\\ 7.6$",
+      "$\\ 7.8$",
+      "$\\ 8.1$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2004-25",
+    "contest": "AMC 8",
+    "year": 2004,
+    "version": "",
+    "number": 25,
+    "statementLatex": "Two $4 \\times 4$ squares intersect at right angles, bisecting their intersecting sides, as shown. The circle's diameter is the segment between the two points of intersection. What is the area of the shaded region created by removing the circle from the squares?\n\n[[img:https://latex.artofproblemsolving.com/f/f/3/ff3f7c00e1a1162a19e43dda58d4387172fd8380.png]]",
+    "choices": [
+      "$\\ 16-4\\pi$",
+      "$\\ 16-2\\pi$",
+      "$\\ 28-4\\pi$",
+      "$\\ 28-2\\pi$",
+      "$\\ 32-2\\pi$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-1",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 1,
+    "statementLatex": "Jamie counted the number of edges of a cube, Jimmy counted the numbers of corners, and Judy counted the number of faces. They then added the three numbers. What was the resulting sum?",
+    "choices": [],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_1",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-2",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 2,
+    "statementLatex": "Which of the following numbers has the smallest prime factor?",
+    "choices": [
+      "$\\ 55$",
+      "$\\ 57$",
+      "$\\ 58$",
+      "$\\ 59$",
+      "$\\ 61$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc8-2003-3",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 3,
+    "statementLatex": "A burger at Ricky C's weighs $120$ grams, of which $30$ grams are filler.\nWhat percent of the burger is not filler?",
+    "choices": [
+      "$\\ 60\\%$",
+      "$\\ 65\\%$",
+      "$\\ 70\\%$",
+      "$\\ 75\\%$",
+      "$\\ 90\\%$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2003-4",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 4,
+    "statementLatex": "A group of children riding on bicycles and tricycles rode past Billy Bob's house. Billy Bob counted $7$ children and $19$ wheels. How many tricycles were there?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 7$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2003-5",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 5,
+    "statementLatex": "If $20\\%$ of a number is $12$ , what is $30\\%$ of the same number?",
+    "choices": [
+      "$\\ 15$",
+      "$\\ 18$",
+      "$\\ 20$",
+      "$\\ 24$",
+      "$\\ 30$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2003-6",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 6,
+    "statementLatex": "Given the areas of the three squares in the figure, what is the area of the interior triangle?\n\n[[img:https://latex.artofproblemsolving.com/3/7/2/372ee1f13836b7ad774c0aa23e598d4f8b07cbb6.png]]",
+    "choices": [
+      "$\\ 13$",
+      "$\\ 30$",
+      "$\\ 60$",
+      "$\\ 300$",
+      "$\\ 1800$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-7",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 7,
+    "statementLatex": "Blake and Jenny each took four $100$ -point tests. Blake averaged $78$ on the four tests. Jenny scored $10$ points higher than Blake on the first test, $10$ points lower than him on the second test, and $20$ points higher on both the third and fourth tests. What is the difference between Jenny's average and Blake's average on these four tests?",
+    "choices": [
+      "$\\ 10$",
+      "$\\ 15$",
+      "$\\ 20$",
+      "$\\ 25$",
+      "$\\ 40$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2003-8",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 8,
+    "statementLatex": "Problems 8, 9 and 10 use the data found in the accompanying paragraph and figures\n\nFour friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.\n\n$\\circ$ Art's cookies are trapezoids.\n[[img:https://latex.artofproblemsolving.com/3/d/5/3d531b95a6e97cf02b7ade98fe9eebdcf1a10ad3.png]]\n\n$\\circ$ Roger's cookies are rectangles.\n[[img:https://latex.artofproblemsolving.com/3/b/b/3bb42c95ed47ad88dc8045d2158c24b3b513dc36.png]]\n\n$\\circ$ Paul's cookies are parallelograms.\n[[img:https://latex.artofproblemsolving.com/0/f/f/0ff4ffd66b62485d742d63d1b12a9a321024937a.png]]\n\n$\\circ$ Trisha's cookies are triangles.\n[[img:https://latex.artofproblemsolving.com/5/b/7/5b7f1b1605342590d1d41eae41b1be7f1ebbf9a5.png]]\n\nEach friend uses the same amount of dough, and Art makes exactly 12 cookies. Who gets the fewest cookies from one batch of cookie dough?",
+    "choices": [
+      "$\\ \\text{Art}$",
+      "$\\ \\text{Roger}$",
+      "$\\ \\text{Paul}$",
+      "$\\ \\text{Trisha}$",
+      "$\\ \\text{There is a tie for fewest.}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-9",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 9,
+    "statementLatex": "Problems 8, 9 and 10 use the data found in the accompanying paragraph and figures\n\nFour friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.\n\n$\\circ$ Art's cookies are trapezoids:\n[[img:https://latex.artofproblemsolving.com/a/3/0/a30c19e251320f614c89dd05c7666eb4b5b8eb84.png]]\n\n$\\circ$ Roger's cookies are rectangles:\n[[img:https://latex.artofproblemsolving.com/b/f/f/bffcf7138f4fa79b3d3030ad4a0e82a3a03322bc.png]]\n\n$\\circ$ Paul's cookies are parallelograms:\n[[img:https://latex.artofproblemsolving.com/e/b/7/eb7278165b0333733d86c18cdd642361a580edc4.png]]\n\n$\\circ$ Trisha's cookies are triangles:\n[[img:https://latex.artofproblemsolving.com/d/a/4/da492eba3c75cd91135085acf373c1215d7f5b48.png]]\n\nEach friend uses the same amount of dough, and Art makes exactly $12$ cookies. Art's cookies sell for $60$ cents each. To earn the same amount from a single batch, how much should one of Roger's cookies cost in cents?",
+    "choices": [
+      "$\\ 18$",
+      "$\\ 25$",
+      "$\\ 40$",
+      "$\\ 75$",
+      "$\\ 90$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2003-10",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Problems 8, 9 and 10 use the data found in the accompanying paragraph and figures\n\nFour friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.\n\n$\\circ$ Art's cookies are trapezoids:\n[[img:https://latex.artofproblemsolving.com/a/3/0/a30c19e251320f614c89dd05c7666eb4b5b8eb84.png]]\n\n$\\circ$ Roger's cookies are rectangles:\n[[img:https://latex.artofproblemsolving.com/b/f/f/bffcf7138f4fa79b3d3030ad4a0e82a3a03322bc.png]]\n\n$\\circ$ Paul's cookies are parallelograms:\n[[img:https://latex.artofproblemsolving.com/e/b/7/eb7278165b0333733d86c18cdd642361a580edc4.png]]\n\n$\\circ$ Trisha's cookies are triangles:\n[[img:https://latex.artofproblemsolving.com/d/a/4/da492eba3c75cd91135085acf373c1215d7f5b48.png]]\n\nHow many cookies will be in one batch of Trisha's cookies?",
+    "choices": [
+      "$\\ 10$",
+      "$\\ 12$",
+      "$\\ 16$",
+      "$\\ 18$",
+      "$\\ 24$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2003-11",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 11,
+    "statementLatex": "Business is a little slow at Lou's Fine Shoes, so Lou decides to have a\nsale. On Friday, Lou increases all of Thursday's prices by $10$ percent. Over the\nweekend, Lou advertises the sale: \"Ten percent off the listed price. Sale\nstarts Monday.\" How much does a pair of shoes cost on Monday that\ncost $40$ dollars on Thursday?",
+    "choices": [
+      "$\\ 36$",
+      "$\\ 39.60$",
+      "$\\ 40$",
+      "$\\ 40.40$",
+      "$\\ 44$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Fractions and Percents",
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2003-12",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 12,
+    "statementLatex": "When a fair six-sided dice is tossed on a table top, the bottom face cannot be seen. What is the probability that the product of the faces that can be seen is divisible by $6$ ?",
+    "choices": [
+      "$\\ 1/3$",
+      "$\\ 1/2$",
+      "$\\ 2/3$",
+      "$\\ 5/6$",
+      "$\\ 1$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2003-13",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 13,
+    "statementLatex": "Fourteen white cubes are put together to form the figure on the right. The complete surface of the figure, including the bottom, is painted red. The figure is then separated into individual cubes. How many of the individual cubes have exactly four red faces\n\n[[img:https://latex.artofproblemsolving.com/a/d/8/ad8d99504ec6b48d8afd6b366c02c827e11c198e.png]]",
+    "choices": [
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 8$",
+      "$\\ 10$",
+      "$\\ 12$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2003-14",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 14,
+    "statementLatex": "In this addition problem, each letter stands for a different digit.\n\n$\\setlength{\\tabcolsep}{0.5mm}\\begin{array}{cccc}&T & W & O\\\\ +&T & W & O\\\\ \\hline F& O & U & R\\end{array}$\n\nIf T = 7 and the letter O represents an even number, what is the only possible value for W?",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2003-15",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 15,
+    "statementLatex": "A figure is constructed from unit cubes. Each cube shares at least one face with another cube. What is the minimum number of cubes needed to build a figure with the front and side views shown?\n\n[[img:https://latex.artofproblemsolving.com/e/6/d/e6d30f2f3ae60f8b661b55b5a6167693d0ecc30b.png]]",
+    "choices": [
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 7$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Complementary Counting",
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-16",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 16,
+    "statementLatex": "Ali, Bonnie, Carlo, and Dianna are going to drive together to a nearby theme park. The car they are using has $4$ seats: $1$ Driver seat, $1$ front passenger seat, and $2$ back passenger seats. Bonnie and Carlo are the only ones who know how to drive the car. How many possible seating arrangements are there?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 4$",
+      "$\\ 6$",
+      "$\\ 12$",
+      "$\\ 24$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2003-17",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 17,
+    "statementLatex": "The six children listed below are from two families of three siblings each. Each child has blue or brown eyes and black or blond hair. Children from the same family have at least one of these characteristics in common. Which two children are Jim's siblings?\n\n\\[\\begin{array}{c|c|c}\\text{Child}&\\text{Eye Color}&\\text{Hair Color}\\\\ \\hline\\text{Benjamin}&\\text{Blue}&\\text{Black}\\\\ \\hline\\text{Jim}&\\text{Brown}&\\text{Blonde}\\\\ \\hline\\text{Nadeen}&\\text{Brown}&\\text{Black}\\\\ \\hline\\text{Austin}&\\text{Blue}&\\text{Blonde}\\\\ \\hline\\text{Tevyn}&\\text{Blue}&\\text{Black}\\\\ \\hline\\text{Sue}&\\text{Blue}&\\text{Blonde}\\\\ \\hline\\end{array}\\]",
+    "choices": [
+      "$\\ \\text{Nadeen and Austin}$",
+      "$\\ \\text{Benjamin and Sue}$",
+      "$\\ \\text{Benjamin and Austin}$",
+      "$\\ \\text{Nadeen and Tevyn}$ $$",
+      "$\\ \\text{Austin and Sue}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc8-2003-18",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 18,
+    "statementLatex": "Each of the twenty dots on the graph below represents one of Sarah's classmates. Classmates who are friends are connected with a line segment. For her birthday party, Sarah is inviting only the following: all of her friends and all of those classmates who are friends with at least one of her friends. How many classmates will not be invited to Sarah's party?\n[[img:https://latex.artofproblemsolving.com/8/5/7/8574a9ed5e1d1bbfa8860c587504b3d9136789cd.png]]",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 7$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_18",
+    "topics": [
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc8-2003-19",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 19,
+    "statementLatex": "How many integers between 1000 and 2000 have all three of the numbers 15, 20, and 25 as factors?",
+    "choices": [
+      "$\\ 1$",
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2003-20",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 20,
+    "statementLatex": "What is the measure of the acute angle formed by the hands of the clock at 4:20 PM?",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 5$",
+      "$\\ 8$",
+      "$\\ 10$",
+      "$\\ 12$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc8-2003-21",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 21,
+    "statementLatex": "The area of trapezoid $ABCD$ is $164\\text{ cm}^2$ . The altitude is 8 cm, $AB$ is 10 cm, and $CD$ is 17 cm. What is $BC$ , in centimeters?\n\n[[img:https://latex.artofproblemsolving.com/c/6/6/c66899b4bcfdeca2247f2e6ca1ab430486b95306.png]]",
+    "choices": [
+      "$\\ 9$",
+      "$\\ 10$",
+      "$\\ 12$",
+      "$\\ 15$",
+      "$\\ 20$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-22",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 22,
+    "statementLatex": "The following figures are composed of squares and circles. Which figure has a shaded region with largest area?\n\n[[img:https://latex.artofproblemsolving.com/6/6/6/666ac41befa9511afaf3ff9277993a8e313ccc43.png]]",
+    "choices": [
+      "$\\ \\text{A only}$",
+      "$\\ \\text{B only}$",
+      "$\\ \\text{C only}$",
+      "$\\ \\text{both A and B}$",
+      "$\\ \\text{all are equal}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_22",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-23",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 23,
+    "statementLatex": "In the pattern below, the cat moves clockwise through the four squares, and the mouse moves counterclockwise through the eight exterior segments of the four squares.\n\n$2003amc8prob23a.png$\n\nIf the pattern is continued, where would the cat and mouse be after the 247th move?\n\n$2003amc8prob23b.png$",
+    "choices": [],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2003-24",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 24,
+    "statementLatex": "A ship travels from point $A$ to point $B$ along a semicircular path, centered at Island $X$ . Then it travels along a straight path from $B$ to $C$ . Which of these graphs best shows the ship's distance from Island $X$ as it moves along its course?\n\n[[img:https://latex.artofproblemsolving.com/9/1/9/91933f8be27c24174af480d964c31782da9f3bb4.png]]\n\n$2003amc8prob24ans.png$",
+    "choices": [],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2003-25",
+    "contest": "AMC 8",
+    "year": 2003,
+    "version": "",
+    "number": 25,
+    "statementLatex": "In the figure, the area of square $WXYZ$ is $25 \\text{ cm}^2$ . The four smaller squares have sides 1 cm long, either parallel to or coinciding with the sides of the large square. In $\\triangle ABC$ , $AB = AC$ , and when $\\triangle ABC$ is folded over side $\\overline{BC}$ , point $A$ coincides with $O$ , the center of square $WXYZ$ . What is the area of $\\triangle ABC$ , in square centimeters?\n\n[[img:https://latex.artofproblemsolving.com/f/b/5/fb5de36e57bfb81488edf36e2717cf7b93f0444b.png]]",
+    "choices": [
+      "$\\ \\frac{15}4$",
+      "$\\ \\frac{21}4$",
+      "$\\ \\frac{27}4$",
+      "$\\ \\frac{21}2$",
+      "$\\ \\frac{27}2$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2002-1",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 1,
+    "statementLatex": "A circle and two distinct lines are drawn on a sheet of paper. What is the largest possible number of points of intersection of these figures?",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 3 {$",
+      "$}\\ 4 {$",
+      "$}\\ 5 {$",
+      "$}\\ 6$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_1",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2002-2",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 2,
+    "statementLatex": "How many different combinations of $5 bills and $2 bills can be used to make a total of $17? Order does not matter in this problem.",
+    "choices": [
+      "$\\ 2$",
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_2",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2002-3",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 3,
+    "statementLatex": "What is the smallest possible average of four distinct positive even integers?",
+    "choices": [
+      "$\\ 3$",
+      "$\\ 4$",
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 7$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_3",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2002-4",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 4,
+    "statementLatex": "The year 2002 is a palindrome (a number that reads the same from left to right as it does from right to left). What is the product of the digits of the next year after 2002 that is a palindrome?",
+    "choices": [
+      "$\\ 0$",
+      "$\\ 4$",
+      "$\\ 9$",
+      "$\\ 16$",
+      "$\\ 25$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_4",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc8-2002-5",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 5,
+    "statementLatex": "Carlos Montado was born on Saturday, November 9, 2002. On what day of the week will Carlos be 706 days old?",
+    "choices": [
+      "$\\ \\text{Monday}$",
+      "$\\ \\text{Wednesday}$",
+      "$\\ \\text{Friday}$",
+      "$\\ \\text{Saturday}$",
+      "$\\ \\text{Sunday}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_5",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc8-2002-6",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 6,
+    "statementLatex": "A birdbath is designed to overflow so that it will be self-cleaning. Water flows in at the rate of 20 milliliters per minute and drains at the rate of 18 milliliters per minute. Which one of these graphs shows the volume of water in the birdbath during the filling time and continuing into the overflow time?\n[[img:https://latex.artofproblemsolving.com/c/9/0/c90f5a436d6ce351c15b3ce838df936ff3ea4a35.png]]",
+    "choices": [
+      "$\\ \\text{A}$",
+      "$\\ \\text{B}$",
+      "$\\ \\text{C}$",
+      "$\\ \\text{D}$",
+      "$\\ \\text{E}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_6",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2002-7",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 7,
+    "statementLatex": "The students in Mrs. Sawyer's class were asked to do a taste test of five kinds of candy. Each student chose one kind of candy. A bar graph of their preferences is shown. What percent of her class chose candy E?\n\n[[img:https://latex.artofproblemsolving.com/b/8/c/b8c9bfef9339a2c3cb17bb5eacdfa7d91c09cf4e.png]]",
+    "choices": [
+      "$\\ 5$",
+      "$\\ 12$",
+      "$\\ 15$",
+      "$\\ 16$",
+      "$\\ 20$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_7",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2002-8",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 8,
+    "statementLatex": "Problems 8,9 and 10 use the data found in the accompanying paragraph and table:\n\nJuan organizes the stamps in his collection by country and by the decade in which they were issued. The prices he paid for them at a stamp shop were: Brazil and\nFrance, 6 cents each, Peru 4 cents each, and Spain 5 cents each. (Brazil and Peru are South American countries and France and Spain are in Europe.)\n\n[[img:https://latex.artofproblemsolving.com/f/6/7/f679bb00d960506089f9cd632a80bd218347de4e.png]]\n\nHow many of his European stamps were issued in the '80s?",
+    "choices": [
+      "$\\ 9$",
+      "$\\ 15$",
+      "$\\ 18$",
+      "$\\ 24$",
+      "$\\ 42$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_8",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2002-9",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 9,
+    "statementLatex": "Problems 8,9 and 10 use the data found in the accompanying paragraph and table:\n\nJuan organizes the stamps in his collection by country and by the decade in which they were issued. The prices he paid for them at a stamp shop were: Brazil and\nFrance, 6 cents each, Peru 4 cents each, and Spain 5 cents each. (Brazil and Peru are South American countries and France and Spain are in Europe.)\n\n[[img:https://latex.artofproblemsolving.com/f/6/7/f679bb00d960506089f9cd632a80bd218347de4e.png]]\n\nIn dollars and cents, how much did his South American stamps issued before the ’70s cost him?",
+    "choices": [
+      "$\\ $0.40$",
+      "$\\ $1.06$",
+      "$\\ $1.80$",
+      "$\\ $2.38$",
+      "$\\ $2.64$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_9",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2002-10",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Problems 8,9 and 10 use the data found in the accompanying paragraph and table:\n\nJuan organizes the stamps in his collection by country and by the decade in which they were issued. The prices he paid for them at a stamp shop were: Brazil and\nFrance, 6 cents each, Peru 4 cents each, and Spain 5 cents each. (Brazil and Peru are South American countries and France and Spain are in Europe.)\n\n[[img:https://latex.artofproblemsolving.com/f/6/7/f679bb00d960506089f9cd632a80bd218347de4e.png]]\n\nThe average price of his '70s stamps is closest to",
+    "choices": [
+      "$\\ 3.5 \\text{ cents}$",
+      "$\\ 4 \\text{ cents}$",
+      "$\\ 4.5 \\text{ cents}$",
+      "$\\ 5 \\text{ cents}$",
+      "$\\ 5.5 \\text{ cents}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_10",
+    "topics": [
+      "Expected Value",
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2002-11",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 11,
+    "statementLatex": "A sequence of squares is made of identical square tiles. The edge of each square is one tile length longer than the edge of the previous square. The first three squares are shown. How many more tiles does the seventh square require than the sixth?\n\n[[img:https://latex.artofproblemsolving.com/9/2/6/926b33e5dbe2d7e971f0ce8112e62c7a77b109a3.png]]",
+    "choices": [
+      "$\\ 11$",
+      "$\\ 12$",
+      "$\\ 13$",
+      "$\\ 14$",
+      "$\\ 15$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_11",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2002-12",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 12,
+    "statementLatex": "A board game spinner is divided into three regions labeled $A$ , $B$ and $C$ . The probability of the arrow stopping on region $A$ is $\\frac{1}{3}$ and on region $B$ is $\\frac{1}{2}$ . The probability of the arrow stopping on region $C$ is:",
+    "choices": [
+      "$\\ \\frac{1}{12}$",
+      "$\\ \\frac{1}{6}$",
+      "$\\ \\frac{1}{5}$",
+      "$\\ \\frac{1}{3}$",
+      "$\\ \\frac{2}{5}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_12",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc8-2002-13",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 13,
+    "statementLatex": "For his birthday, Bert gets a box that holds 125 jellybeans when filled to capacity. A few weeks later, Carrie gets a larger box full of jellybeans. Her box is twice as high, twice as wide and twice as long as Bert's. Approximately, how many jellybeans did Carrie get?",
+    "choices": [
+      "$\\ 250$",
+      "$\\ 500$",
+      "$\\ 625$",
+      "$\\ 750$",
+      "$\\ 1000$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_13",
+    "topics": [
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc8-2002-14",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 14,
+    "statementLatex": "A merchant offers a large group of items at $30\\%$ off. Later, the merchant takes $20\\%$ off these sale prices. The total discount is",
+    "choices": [
+      "$\\ 35\\%$",
+      "$\\ 44\\%$",
+      "$\\ 50\\%$",
+      "$\\ 56\\%$",
+      "$\\ 60\\%$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_14",
+    "topics": [
+      "Fractions and Percents",
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc8-2002-15",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Which of the following polygons has the largest area?\n\n[[img:https://latex.artofproblemsolving.com/6/b/8/6b83ac33b3e3e61ab2ca2c1c80dcbd8766f52066.png]]",
+    "choices": [
+      "$\\text{A}$",
+      "$\\ \\text{B}$",
+      "$\\ \\text{C}$",
+      "$\\ \\text{D}$",
+      "$\\ \\text{E}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_15",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2002-16",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 16,
+    "statementLatex": "Right isosceles triangles are constructed on the sides of a 3-4-5 right triangle, as shown. A capital letter represents the area of each triangle. Which one of the following is true?\n\n[[img:https://latex.artofproblemsolving.com/a/f/b/afbe72ee3e1ba66d7e02b6fd47981276584473cd.png]]",
+    "choices": [
+      "$\\ X+Z=W+Y$",
+      "$\\ W+X=Z$",
+      "$\\ 3X+4Y=5Z $ $$",
+      "$\\ X+W=\\frac{1}{2}(Y+Z)$",
+      "$\\ X+Y=Z$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_16",
+    "topics": [
+      "Pythagorean Triples"
+    ]
+  },
+  {
+    "id": "amc8-2002-17",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 17,
+    "statementLatex": "In a mathematics contest with ten problems, a student gains 5 points for a correct answer and loses 2 points for an incorrect answer. If Olivia answered every problem and her score was 29, how many correct answers did she have?",
+    "choices": [
+      "$\\ 5$",
+      "$\\ 6$",
+      "$\\ 7$",
+      "$\\ 8$",
+      "$\\ 9$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_17",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2002-18",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 18,
+    "statementLatex": "Gage skated $1$ hr $15$ min each day for $5$ days and $1$ hr $30$ min each day for $3$ days. How long would he have to skate the ninth day in order to average $85$ minutes of skating each day for the entire time?",
+    "choices": [
+      "$\\ \\text{1 hr}$",
+      "$\\ \\text{1 hr 10 min}$",
+      "$\\ \\text{1 hr 20 min}$",
+      "$\\ \\text{1 hr 40 min}$",
+      "$\\ \\text{2 hr}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_18",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc8-2002-19",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 19,
+    "statementLatex": "How many whole numbers between 99 and 999 contain exactly one 0?",
+    "choices": [
+      "$\\ 72$",
+      "$\\ 90$",
+      "$\\ 144$",
+      "$\\ 162$",
+      "$\\ 180$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_19",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc8-2002-20",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 20,
+    "statementLatex": "The area of triangle $XYZ$ is 8 square inches. Points $A$ and $B$ are midpoints of congruent segments $\\overline{XY}$ and $\\overline{XZ}$ . Altitude $\\overline{XC}$ bisects $\\overline{YZ}$ . The area (in square inches) of the shaded region is\n\n[[img:https://latex.artofproblemsolving.com/3/a/8/3a879a53da609c8f6948eef78732e18f14a90fe4.png]]",
+    "choices": [
+      "$\\ 1\\frac{1}2$",
+      "$\\ 2$",
+      "$\\ 2\\frac{1}2$",
+      "$\\ 3$",
+      "$\\ 3\\frac{1}2$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_20",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2002-21",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 21,
+    "statementLatex": "Harold tosses a coin four times. The probability that he gets at least as many heads as tails is",
+    "choices": [
+      "$\\ \\frac{5}{16}$",
+      "$\\ \\frac{3}{8}$",
+      "$\\ \\frac{1}{2}$",
+      "$\\ \\frac{5}{8}$",
+      "$\\ \\frac{11}{16}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_21",
+    "topics": [
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc8-2002-22",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 22,
+    "statementLatex": "Six cubes, each an inch on an edge, are fastened together, as shown. Find the total surface area in square inches. Include the top, bottom, and sides.\n\n[[img:https://latex.artofproblemsolving.com/6/5/2/6529094e601d11c16feb8a8834704d6fc4d4cfc0.png]]",
+    "choices": [
+      "$\\ 18$",
+      "$\\ 24$",
+      "$\\ 26$",
+      "$\\ 30$",
+      "$\\ 36$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_22",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc8-2002-23",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 23,
+    "statementLatex": "A corner of a tiled floor is shown. If the entire floor is tiled in this way and each of the four corners looks like this one, then what fraction of the tiled floor is made of darker tiles?\n\n[[img:https://latex.artofproblemsolving.com/9/1/0/91026905d520b2d9e85b96a8902123543951d953.png]]",
+    "choices": [
+      "$\\ \\frac{1}3$",
+      "$\\ \\frac{4}9$",
+      "$\\ \\frac{1}2$",
+      "$\\ \\frac{5}9$",
+      "$\\ \\frac{5}8$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_23",
+    "topics": [
+      "Fractions and Percents",
+      "Floor Functions"
+    ]
+  },
+  {
+    "id": "amc8-2002-24",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 24,
+    "statementLatex": "Miki has a dozen oranges of the same size and a dozen pears of the same size. Miki uses her juicer to extract 8 ounces of pear juice from 3 pears and 8 ounces of orange juice from 2 oranges. She makes a pear-orange juice blend from an equal number of pears and oranges. What percent of the blend is pear juice?",
+    "choices": [
+      "$\\ 30$",
+      "$\\ 40$",
+      "$\\ 50$",
+      "$\\ 60$",
+      "$\\ 70$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_24",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc8-2002-25",
+    "contest": "AMC 8",
+    "year": 2002,
+    "version": "",
+    "number": 25,
+    "statementLatex": "Loki, Moe, Nick and Ott are good friends. Ott had no money, but the others did. Moe gave Ott one-fifth of his money, Loki gave Ott one-fourth of his money and Nick gave Ott one-third of his money. Each gave Ott the same amount of money. What fractional part of the group's money does Ott now have?",
+    "choices": [
+      "$\\ \\frac{1}{10}$",
+      "$\\ \\frac{1}{4}$",
+      "$\\ \\frac{1}{3}$",
+      "$\\ \\frac{2}{5}$",
+      "$\\ \\frac{1}{2}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_25",
+    "topics": [
+      "Arithmetic Word Problems"
+    ]
   }
 ]
