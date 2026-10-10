@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Problems are static JSON in src/data loaded via import.meta.glob, and progress lives in localStorage — the user asked for no database or server.
+- Topic keywords live in src/data/topic-tags.json and are applied both by scripts/scrape.ts and at app load, so manual edits take effect without re-scraping.

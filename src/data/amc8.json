@@ -1,0 +1,26 @@
+[
+  {
+    "id": "amc8-2019-1",
+    "contest": "AMC 8",
+    "year": 2019,
+    "version": "",
+    "number": 1,
+    "statementLatex": "Ike and Mike go into a sandwich shop with a total of $\\$30.00$ to spend. Sandwiches cost $\\$4.50$ each and soft drinks cost $\\$1.00$ each. Ike and Mike plan to buy as many sandwiches as they can, and use any remaining money to buy soft drinks. Counting both sandwiches and soft drinks, how many items will they buy?",
+    "choices": ["$6$", "$7$", "$8$", "$9$", "$10$"],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_1",
+    "topics": ["Arithmetic Word Problems"]
+  },
+  {
+    "id": "amc8-2020-1",
+    "contest": "AMC 8",
+    "year": 2020,
+    "version": "",
+    "number": 1,
+    "statementLatex": "Luka is making lemonade to sell at a school fundraiser. His recipe requires $4$ times as much water as sugar and twice as much sugar as lemon juice. He uses $3$ cups of lemon juice. How many cups of water does he need?",
+    "choices": ["$6$", "$8$", "$12$", "$18$", "$24$"],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_1",
+    "topics": ["Ratios and Rates"]
+  }
+]
