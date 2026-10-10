@@ -83,7 +83,14 @@ const logErr = (where: string, msg: string) => appendFileSync(ERR, `${where}\t${
 function toLatex($: cheerio.CheerioAPI, el: cheerio.Cheerio<any>): string {
   const clone = el.clone();
   clone.find("img").each((_, img) => {
-    const alt = $(img).attr("alt") ?? "";
+    const alt = ($(img).attr("alt") ?? "").trim();
+    const src = $(img).attr("src") ?? "";
+    const isFigure = !alt || /\[asy\]/i.test(alt) || !/latex/.test($(img).attr("class") ?? "latex");
+    if (isFigure && src) {
+      const url = src.startsWith("//") ? "https:" + src : src.startsWith("/") ? "https://web.archive.org" + src : src;
+      $(img).replaceWith(`\n[[img:${url.replace(/^http:/, "https:")}]]\n`);
+      return;
+    }
     $(img).replaceWith(alt.startsWith("$") || alt.startsWith("\\[") ? ` ${alt} ` : alt ? `$${alt}$` : "");
   });
   clone.find("br").replaceWith("\n");
