@@ -23,7 +23,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
   const rail = useRef<HTMLDivElement>(null);
   const transcript = useRef<HTMLDivElement>(null);
   const questions = useRef(new Map<string, HTMLDivElement>());
-  const all = PROBLEMS.filter(p => p.topics.includes(topic)).sort(byDifficulty);
+  const all = PROBLEMS.filter(p => p.topics.includes(topic) && (isAime(p) ? /^\d{1,3}$/.test(p.answer) : LETTERS.includes(p.answer))).sort(byDifficulty);
   const list = all.filter(p => contest === "all" || p.contest === contest);
   const solved = all.filter(p => progress[p.id]?.status === "solved").length;
   const percent = all.length ? Math.round(solved / all.length * 100) : 0;
@@ -47,6 +47,13 @@ export function TopicWorkspace({ topic }: { topic: string }) {
     if (element && transcript.current) transcript.current.scrollTo({ top: element.offsetTop - transcript.current.offsetTop, behavior: "instant" });
   }, [conversation.activeId]);
 
+  function scrollQuestion(id: string, bottom = false) {
+    const element = questions.current.get(id);
+    const container = transcript.current;
+    if (!element || !container) return;
+    container.scrollTo({ top: bottom ? element.offsetTop + element.offsetHeight - container.clientHeight : element.offsetTop, behavior: "instant" });
+  }
+
   function select(problem: Problem, retry = false) {
     setError("");
     setAnswer("");
@@ -54,7 +61,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
     const previous = [...conversation.questions].reverse().find(q => q.problem.id === problem.id);
     if (previous && !retry) {
       commit({ ...conversation, activeId: previous.id });
-      questions.current.get(previous.id)?.scrollIntoView({ block: "nearest" });
+      scrollQuestion(previous.id);
     } else commit(addQuestion(conversation, problem));
     input.current?.focus();
   }
@@ -78,7 +85,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
     commit({ ...conversation, questions: conversation.questions.map(q => q.id === active.id ? { ...q, replies: [...q.replies, { answer: given, feedback, status: result.status }] } : q) });
     setAnswer("");
     setError("");
-    requestAnimationFrame(() => { questions.current.get(active.id)?.scrollIntoView({ block: "end" }); input.current?.focus(); });
+    requestAnimationFrame(() => { scrollQuestion(active.id, true); input.current?.focus(); });
   }
 
   const next = list.find(p => !progress[p.id] || progress[p.id]?.status === "in-progress");
@@ -171,7 +178,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
 }
 
 function BotHeading({ time }: { time?: string }) {
-  return <div className="flex items-center gap-2 text-sm"><span className="practice-bot-mark"><Bot className="size-4" /></span><span className="font-semibold text-primary">Modulo Practice</span>{time && <time className="text-xs text-muted-foreground" dateTime={time}>{new Date(time).toLocaleString()}</time>}</div>;
+  return <div className="flex flex-wrap items-center gap-2 text-sm"><span className="practice-bot-mark"><Bot className="size-4" /></span><span className="font-semibold text-primary">Modulo Practice</span>{time && <time className="text-xs text-muted-foreground" dateTime={time}>{new Date(time).toLocaleString()}</time>}</div>;
 }
 
 function Solution({ problem }: { problem: Problem }) {

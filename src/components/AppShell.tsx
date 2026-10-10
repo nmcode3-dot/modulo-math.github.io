@@ -80,7 +80,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <ThemeToggle />
         </SidebarFooter>
       </Sidebar>
-      <SidebarInset>
+      <SidebarInset className="min-w-0">
         <header className="flex h-12 items-center border-b px-3 md:hidden">
           <SidebarTrigger />
           <span className="ml-2 font-display text-xl">Modulo</span>
