@@ -9,7 +9,9 @@
     "choices": [],
     "answer": "722",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_1",
-    "topics": ["Telescoping Sums", "Arithmetic/Geometric Sequences"]
+    "topics": [
+      "Arithmetic/Geometric Sequences"
+    ]
   },
   {
     "id": "aimei-2019-1",
@@ -21,6 +23,9 @@
     "choices": [],
     "answer": "342",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_1",
-    "topics": ["Digit Problems", "Arithmetic/Geometric Sequences"]
+    "topics": [
+      "Arithmetic/Geometric Sequences",
+      "Digit Problems"
+    ]
   }
 ]
