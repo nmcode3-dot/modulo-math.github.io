@@ -219,7 +219,7 @@
   "answer": "B",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_9",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle"
   ]
  },
@@ -532,7 +532,7 @@
   "answer": "C",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_25",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle"
   ]
  },
@@ -875,7 +875,7 @@
   "answer": "A",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10B_Problems/Problem_20",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Permutations",
    "Fundamental Counting Principle"
   ]
@@ -2274,7 +2274,7 @@
   "answer": "E",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_14",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Linear Inequalities",
    "Handshakes",
    "Fundamental Counting Principle"
@@ -3210,7 +3210,7 @@
   "answer": "C",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_18",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle",
    "Combinations"
   ]
@@ -3910,7 +3910,7 @@
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_15",
   "topics": [
    "Fundamental Counting Principle",
-   "Casework Counting"
+   "Casework"
   ]
  },
  {
@@ -4015,7 +4015,7 @@
   "answer": "D",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_20",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle"
   ]
  },
@@ -4124,7 +4124,7 @@
   "answer": "E",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_25",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle",
    "Permutations with Repeated Elements"
   ]
@@ -5434,7 +5434,7 @@
   "answer": "C",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_17",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Handshakes",
    "Fundamental Counting Principle",
    "Problem-Solving: Circle Basics"
@@ -6718,7 +6718,7 @@
   "answer": "E",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_4",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle"
   ]
  },
@@ -8095,7 +8095,7 @@
   "answer": "C",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_19",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Permutations",
    "Fundamental Counting Principle"
   ]
@@ -9054,7 +9054,7 @@
   "answer": "C",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_14",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle"
   ]
  },
@@ -9659,7 +9659,7 @@
   "answer": "E",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_18",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle"
   ]
  },
@@ -11982,7 +11982,7 @@
   "answer": "C",
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_7",
   "topics": [
-   "Casework Counting",
+   "Casework",
    "Complementary Counting",
    "Linear Inequalities",
    "Fundamental Counting Principle"
@@ -12815,7 +12815,7 @@
   "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_22",
   "topics": [
    "Digit Problems",
-   "Casework Counting",
+   "Casework",
    "Fundamental Counting Principle",
    "Problem-Solving: Polygons"
   ]
