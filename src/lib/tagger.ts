@@ -27,8 +27,7 @@ export function tagProblem(map: TagMap, statement: string, solution = ""): strin
   for (const [topic, kws] of Object.entries(map)) {
     let score = 0;
     for (const k of kws) {
-      const r = rx(k);
-      score += 2 * (s.match(r)?.length ?? 0) > 0 ? 2 : 0;
+      if (rx(k).test(s)) score += 2;
       score += Math.min(sol.match(rx(k))?.length ?? 0, 2);
     }
     if (score >= 2) scores.push([topic, score]);
