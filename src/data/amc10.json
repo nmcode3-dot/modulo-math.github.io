@@ -3976,5 +3976,925 @@
     "topics": [
       "Casework Counting"
     ]
+  },
+  {
+    "id": "amc10b-2021-1",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 1,
+    "statementLatex": "How many integer values of $x$ satisfy $|x|<3\\pi$ ?",
+    "choices": [
+      "$9$",
+      "$10$",
+      "$18$",
+      "$19$",
+      "$20$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_1",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2021-2",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 2,
+    "statementLatex": "What is the value of $\\sqrt{\\left(3-2\\sqrt{3}\\right)^2}+\\sqrt{\\left(3+2\\sqrt{3}\\right)^2}$ ?",
+    "choices": [
+      "$0$",
+      "$4\\sqrt{3}-6$",
+      "$6$",
+      "$4\\sqrt{3}$",
+      "$4\\sqrt{3}+6$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_2",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2021-3",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 3,
+    "statementLatex": "In an after-school program for juniors and seniors, there is a debate team with an equal number of students from each class on the team. Among the $28$ students in the program, $25\\%$ of the juniors as a class and $10\\%$ of the seniors as a class are on the debate team. How many juniors are in the program?",
+    "choices": [
+      "$5$",
+      "$6$",
+      "$8$",
+      "$11$",
+      "$20$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_3",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "amc10b-2021-4",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 4,
+    "statementLatex": "At a math contest, $57$ students are wearing blue shirts, and another $75$ students are wearing yellow shirts. The $132$ students are assigned into $66$ pairs. In exactly $23$ of these pairs, both students are wearing blue shirts. In how many pairs are both students wearing yellow shirts?",
+    "choices": [
+      "$23$",
+      "$32$",
+      "$37$",
+      "$41$",
+      "$64$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_4",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2021-5",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 5,
+    "statementLatex": "The ages of Jonie's four cousins are distinct single-digit positive integers. Two of the cousins' ages multiplied together give $24$ , while the other two multiply to $30$ . What is the sum of the ages of Jonie's four cousins?",
+    "choices": [
+      "$21$",
+      "$22$",
+      "$23$",
+      "$24$",
+      "$25$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_5",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10b-2021-6",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 6,
+    "statementLatex": "Ms. Blackwell gives an exam to two classes. The mean of the scores of the students in the morning class is $84$ , and the afternoon class's mean score is $70$ . The ratio of the number of students in the morning class to the number of students in the afternoon class is $\\frac{3}{4}$ . What is the mean of the scores of all the students?",
+    "choices": [
+      "$74$",
+      "$75$",
+      "$76$",
+      "$77$",
+      "$78$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_6",
+    "topics": [
+      "Ratios and Rates",
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc10b-2021-7",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 7,
+    "statementLatex": "In a plane, four circles with radii $1,3,5,$ and $7$ are tangent to line $\\ell$ at the same point $A,$ but they may be on either side of $\\ell$ . Region $S$ consists of all the points that lie inside exactly one of the four circles. What is the maximum possible area of region $S$ ?",
+    "choices": [
+      "$24\\pi$",
+      "$32\\pi$",
+      "$64\\pi$",
+      "$65\\pi$",
+      "$84\\pi$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_7",
+    "topics": [
+      "Circle Tangents"
+    ]
+  },
+  {
+    "id": "amc10b-2021-8",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 8,
+    "statementLatex": "Mr. Zhou places all the integers from $1$ to $225$ into a $15$ by $15$ grid. He places $1$ in the middle square (eighth row and eighth column) and places other numbers one by one clockwise, as shown in part in the diagram below. What is the sum of the greatest number and the least number that appear in the second row from the top?\n[[img:https://latex.artofproblemsolving.com/2/d/2/2d2408a8772066f5c86886246eef174525a5b6a1.png]]",
+    "choices": [
+      "$367$",
+      "$368$",
+      "$369$",
+      "$379$",
+      "$380$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_8",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2021-9",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 9,
+    "statementLatex": "The point $P(a,b)$ in the $xy$ -plane is first rotated counterclockwise by $90^\\circ$ around the point $(1,5)$ and then reflected about the line $y = -x$ . The image of $P$ after these two transformations is at $(-6,3)$ . What is $b - a ?$",
+    "choices": [
+      "$1$",
+      "$3$",
+      "$5$",
+      "$7$",
+      "$9$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_9",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2021-10",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 10,
+    "statementLatex": "An inverted cone with base radius $12 \\mathrm{cm}$ and height $18 \\mathrm{cm}$ is full of water. The water is poured into a tall cylinder whose horizontal base has radius of $24 \\mathrm{cm}$ . What is the height in centimeters of the water in the cylinder?",
+    "choices": [
+      "$1.5$",
+      "$3$",
+      "$4$",
+      "$4.5$",
+      "$6$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_10",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2021-11",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 11,
+    "statementLatex": "Grandma has just finished baking a large rectangular pan of brownies. She is planning to make rectangular pieces of equal size and shape, with straight cuts parallel to the sides of the pan. Each cut must be made entirely across the pan. Grandma wants to make the same number of interior pieces as pieces along the perimeter of the pan. What is the greatest possible number of brownies she can produce?",
+    "choices": [
+      "$24$",
+      "$30$",
+      "$48$",
+      "$60$",
+      "$64$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_11",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2021-12",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 12,
+    "statementLatex": "Let $N = 34 \\cdot 34 \\cdot 63 \\cdot 270$ . What is the ratio of the sum of the odd divisors of $N$ to the sum of the even divisors of $N$ ?",
+    "choices": [
+      "$1 : 16$",
+      "$1 : 15$",
+      "$1 : 14$",
+      "$1 : 8$",
+      "$1 : 3$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_12",
+    "topics": [
+      "Divisor Counting",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2021-13",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 13,
+    "statementLatex": "Let $n$ be a positive integer and $d$ be a digit such that the value of the numeral $\\underline{32d}$ in base $n$ equals $263$ , and the value of the numeral $\\underline{324}$ in base $n$ equals the value of the numeral $\\underline{11d1}$ in base six. What is $n + d ?$",
+    "choices": [
+      "$10$",
+      "$11$",
+      "$13$",
+      "$15$",
+      "$16$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_13",
+    "topics": [
+      "Base Conversion",
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10b-2021-14",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 14,
+    "statementLatex": "Three equally spaced parallel lines intersect a circle, creating three chords of lengths $38,38,$ and $34$ . What is the distance between two adjacent parallel lines?",
+    "choices": [
+      "$5\\frac12$",
+      "$6$",
+      "$6\\frac12$",
+      "$7$",
+      "$7\\frac12$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_14",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2021-15",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 15,
+    "statementLatex": "The real number $x$ satisfies the equation $x+\\frac{1}{x} = \\sqrt{5}$ . What is the value of $x^{11}-7x^{7}+x^3?$",
+    "choices": [
+      "$-1$",
+      "$0$",
+      "$1$",
+      "$2$",
+      "$\\sqrt{5}$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_15",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "amc10b-2021-16",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 16,
+    "statementLatex": "Call a positive integer an uphill integer if every digit is strictly greater than the previous digit. For example, $1357, 89,$ and $5$ are all uphill integers, but $32, 1240,$ and $466$ are not. How many uphill integers are divisible by $15$ ?",
+    "choices": [
+      "$4$",
+      "$5$",
+      "$6$",
+      "$7$",
+      "$8$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_16",
+    "topics": [
+      "Casework Counting",
+      "Digit Problems",
+      "Modular Arithmetic"
+    ]
+  },
+  {
+    "id": "amc10b-2021-17",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 17,
+    "statementLatex": "Ravon, Oscar, Aditi, Tyrone, and Kim play a card game. Each person is given $2$ cards out of a set of $10$ cards numbered $1,2,3, \\dots,10.$ The score of a player is the sum of the numbers of their cards. The scores of the players are as follows: Ravon-- $11,$ Oscar-- $4,$ Aditi-- $7,$ Tyrone-- $16,$ Kim-- $17.$ Which of the following statements is true?",
+    "choices": [
+      "$\\text{Ravon was given card 3.}$ $$",
+      "$\\text{Aditi was given card 3.}$ $$",
+      "$\\text{Ravon was given card 4.}$ $$",
+      "$\\text{Aditi was given card 4.}$ $$",
+      "$\\text{Tyrone was given card 7.}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_17",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10b-2021-18",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 18,
+    "statementLatex": "A fair $6$ -sided die is repeatedly rolled until an odd number appears. What is the probability that every even number appears at least once before the first occurrence of an odd number?",
+    "choices": [
+      "$\\frac{1}{120}$",
+      "$\\frac{1}{32}$",
+      "$\\frac{1}{20}$",
+      "$\\frac{3}{20}$",
+      "$\\frac{1}{6}$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_18",
+    "topics": [
+      "Digit Problems",
+      "Arithmetic/Geometric Sequences",
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc10b-2021-19",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 19,
+    "statementLatex": "Suppose that $S$ is a finite set of positive integers. If the greatest integer in $S$ is removed from $S$ , then the average value (arithmetic mean) of the integers remaining is $32$ . If the least integer in $S$ is also removed, then the average value of the integers remaining is $35$ . If the greatest integer is then returned to the set, the average value of the integers rises to $40$ . The greatest integer in the original set $S$ is $72$ greater than the least integer in $S$ . What is the average value of all the integers in the set $S$ ?",
+    "choices": [
+      "$36.2$",
+      "$36.4$",
+      "$36.6$",
+      "$36.8$",
+      "$37$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_19",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc10b-2021-20",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 20,
+    "statementLatex": "The figure is constructed from $11$ line segments, each of which has length $2$ . The area of pentagon $ABCDE$ can be written as $\\sqrt{m} + \\sqrt{n}$ , where $m$ and $n$ are positive integers. What is $m + n ?$\n[[img:https://latex.artofproblemsolving.com/8/d/3/8d30b5bdb8799955b16c29f895eab1b33ec5d028.png]]",
+    "choices": [
+      "$20$",
+      "$21$",
+      "$22$",
+      "$23$",
+      "$24$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_20",
+    "topics": [
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "amc10b-2021-21",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 21,
+    "statementLatex": "A square piece of paper has side length $1$ and vertices $A,B,C,$ and $D$ in that order. As shown in the figure, the paper is folded so that vertex $C$ meets edge $\\overline{AD}$ at point $C'$ , and edge $\\overline{BC}$ intersects edge $\\overline{AB}$ at point $E$ . Suppose that $C'D = \\frac{1}{3}$ . What is the perimeter of triangle $\\bigtriangleup AEC' ?$\n\n$\\textbf{(A)} ~2 \\qquad\\textbf{(B)} ~1+\\frac{2}{3}\\sqrt{3} \\qquad\\textbf{(C)} ~\\frac{13}{6} \\qquad\\textbf{(D)} ~1 + \\frac{3}{4}\\sqrt{3} \\qquad\\textbf{(E)} ~\\frac{7}{3}$\n[[img:https://latex.artofproblemsolving.com/c/8/c/c8ca19bfc150cdcd06fd377a4f9215d7e2930fc6.png]]",
+    "choices": [],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_21",
+    "topics": [
+      "Similar Triangles",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10b-2021-22",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 22,
+    "statementLatex": "Ang, Ben, and Jasmin each have $5$ blocks, colored red, blue, yellow, white, and green; and there are $5$ empty boxes. Each of the people randomly and independently of the other two people places one of their blocks into each box. The probability that at least one box receives $3$ blocks all of the same color is $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. What is $m + n ?$",
+    "choices": [
+      "$47$",
+      "$94$",
+      "$227$",
+      "$471$",
+      "$542$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_22",
+    "topics": [
+      "Complementary Counting",
+      "Inclusion-Exclusion",
+      "Recursion"
+    ]
+  },
+  {
+    "id": "amc10b-2021-23",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 23,
+    "statementLatex": "A square with side length $8$ is colored white except for $4$ black isosceles right triangular regions with legs of length $2$ in each corner of the square and a black diamond with side length $2\\sqrt{2}$ in the center of the square, as shown in the diagram. A circular coin with diameter $1$ is dropped onto the square and lands in a random location where the coin is completely contained within the square. The probability that the coin will cover part of the black region of the square can be written as $\\frac{1}{196}\\left(a+b\\sqrt{2}+\\pi\\right)$ , where $a$ and $b$ are positive integers. What is $a+b$ ?\n[[img:https://latex.artofproblemsolving.com/f/7/f/f7f338e16788e51acc32f82a10daf271c5a104aa.png]]",
+    "choices": [
+      "$64$",
+      "$66$",
+      "$68$",
+      "$70$",
+      "$72$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_23",
+    "topics": [
+      "Casework Counting",
+      "Similar Triangles"
+    ]
+  },
+  {
+    "id": "amc10b-2021-24",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 24,
+    "statementLatex": "Arjun and Beth play a game in which they take turns removing one brick or two adjacent bricks from one \"wall\" among a set of several walls of bricks, with gaps possibly creating new walls. The walls are one brick tall. For example, a set of walls of sizes $4$ and $2$ can be changed into any of the following by one move: $(3,2),(2,1,2),(4),(4,1),(2,2),$ or $(1,1,2).$\n\n[[img:https://latex.artofproblemsolving.com/1/a/5/1a5938c90db67cc867d798bb9693e149b9438071.png]]\n\nArjun plays first, and the player who removes the last brick wins. For which starting configuration is there a strategy that guarantees a win for Beth?",
+    "choices": [
+      "$(6,1,1)$",
+      "$(6,2,1)$",
+      "$(6,2,2)$",
+      "$(6,3,1)$",
+      "$(6,3,2)$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_24",
+    "topics": [
+      "Number Theory"
+    ]
+  },
+  {
+    "id": "amc10b-2021-25",
+    "contest": "AMC 10",
+    "year": 2021,
+    "version": "B",
+    "number": 25,
+    "statementLatex": "Let $S$ be the set of lattice points in the coordinate plane, both of whose coordinates are integers between $1$ and $30,$ inclusive. Exactly $300$ points in $S$ lie on or below a line with equation $y=mx.$ The possible values of $m$ lie in an interval of length $\\frac ab,$ where $a$ and $b$ are relatively prime positive integers. What is $a+b?$",
+    "choices": [
+      "$31$",
+      "$47$",
+      "$62$",
+      "$72$",
+      "$85$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_25",
+    "topics": [
+      "Area by Coordinates"
+    ]
+  },
+  {
+    "id": "amc10a-2020-1",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 1,
+    "statementLatex": "What value of $x$ satisfies\n \\[x- \\frac{3}{4} = \\frac{5}{12} - \\frac{1}{3}?\\]",
+    "choices": [
+      "$\\ {-}\\frac{2}{3}$",
+      "$\\ \\frac{7}{36}$",
+      "$\\ \\frac{7}{12}$",
+      "$\\ \\frac{2}{3}$",
+      "$\\ \\frac{5}{6}$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_1",
+    "topics": [
+      "Algebra"
+    ]
+  },
+  {
+    "id": "amc10a-2020-2",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 2,
+    "statementLatex": "The numbers $3, 5, 7, a,$ and $b$ have an average (arithmetic mean) of $15$ . What is the average of $a$ and $b$ ?",
+    "choices": [
+      "$0$",
+      "$15$",
+      "$30$",
+      "$45$",
+      "$60$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_2",
+    "topics": [
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc10a-2020-4",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 4,
+    "statementLatex": "A driver travels for $2$ hours at $60$ miles per hour, during which her car gets $30$ miles per gallon of gasoline. She is paid $$0.50$ per mile, and her only expense is gasoline at $$2.00$ per gallon. What is her net rate of pay, in dollars per hour, after this expense?",
+    "choices": [
+      "$\\ 20$",
+      "$\\ 22$",
+      "$\\ 24$",
+      "$\\ 25$",
+      "$\\ 26$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_4",
+    "topics": [
+      "Ratios and Rates",
+      "Arithmetic Word Problems"
+    ]
+  },
+  {
+    "id": "amc10a-2020-5",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 5,
+    "statementLatex": "What is the sum of all real numbers $x$ for which $|x^2-12x+34|=2?$",
+    "choices": [
+      "$12$",
+      "$15$",
+      "$18$",
+      "$21$",
+      "$25$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_5",
+    "topics": [
+      "Casework Counting",
+      "Vieta's Formulas"
+    ]
+  },
+  {
+    "id": "amc10a-2020-6",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 6,
+    "statementLatex": "How many $4$ -digit positive integers (that is, integers between $1000$ and $9999$ , inclusive) having only even digits are divisible by $5?$",
+    "choices": [
+      "$80$",
+      "$100$",
+      "$125$",
+      "$200$",
+      "$500$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_6",
+    "topics": [
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "amc10a-2020-8",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 8,
+    "statementLatex": "What is the value of \\[1+2+3-4+5+6+7-8+\\cdots+197+198+199-200?\\]",
+    "choices": [
+      "$9,800$",
+      "$9,900$",
+      "$10,000$",
+      "$10,100$",
+      "$10,200$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_8",
+    "topics": [
+      "Arithmetic/Geometric Sequences",
+      "Expected Value"
+    ]
+  },
+  {
+    "id": "amc10a-2020-9",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 9,
+    "statementLatex": "A single bench section at a school event can hold either $7$ adults or $11$ children. When $N$ bench sections are connected end to end, an equal number of adults and children seated together will occupy all the bench space. What is the least possible positive integer value of $N?$",
+    "choices": [
+      "$9$",
+      "$18$",
+      "$27$",
+      "$36$",
+      "$77$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_9",
+    "topics": [
+      "Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2020-10",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 10,
+    "statementLatex": "Seven cubes, whose volumes are $1$ , $8$ , $27$ , $64$ , $125$ , $216$ , and $343$ cubic units, are stacked vertically to form a tower in which the volumes of the cubes decrease from bottom to top. Except for the bottom cube, the bottom face of each cube lies completely on top of the cube below it. What is the total surface area of the tower (including the bottom) in square units?",
+    "choices": [
+      "$\\ 644$",
+      "$\\ 658$",
+      "$\\ 664$",
+      "$\\ 720$",
+      "$\\ 749$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_10",
+    "topics": [
+      "3D Geometry"
+    ]
+  },
+  {
+    "id": "amc10a-2020-12",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 12,
+    "statementLatex": "Triangle $AMC$ is isosceles with $AM = AC$ . Medians $\\overline{MV}$ and $\\overline{CU}$ are perpendicular to each other, and $MV=CU=12$ . What is the area of $\\triangle AMC?$\n\n[[img:https://latex.artofproblemsolving.com/c/7/4/c74da39fede5de746d437b1bdc9a45bc4288efd0.png]]",
+    "choices": [
+      "$48$",
+      "$72$",
+      "$96$",
+      "$144$",
+      "$192$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_12",
+    "topics": [
+      "Similar Triangles",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "amc10a-2020-13",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 13,
+    "statementLatex": "A frog sitting at the point $(1, 2)$ begins a sequence of jumps, where each jump is parallel to one of the coordinate axes and has length $1$ , and the direction of each jump (up, down, right, or left) is chosen independently at random. The sequence ends when the frog reaches a side of the square with vertices $(0,0), (0,4), (4,4),$ and $(4,0)$ . What is the probability that the sequence of jumps ends on a vertical side of the square?",
+    "choices": [
+      "$\\ \\frac12$",
+      "$\\ \\frac 58$",
+      "$\\ \\frac 23$",
+      "$\\ \\frac34$",
+      "$\\ \\frac 78$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_13",
+    "topics": [
+      "Area by Coordinates"
+    ]
+  },
+  {
+    "id": "amc10a-2020-15",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 15,
+    "statementLatex": "A positive integer divisor of $12!$ is chosen at random. The probability that the divisor chosen is a perfect square can be expressed as $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. What is $m+n$ ?",
+    "choices": [
+      "$\\ 3$",
+      "$\\ 5$",
+      "$\\ 12$",
+      "$\\ 18$",
+      "$\\ 23$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_15",
+    "topics": [
+      "Probability"
+    ]
+  },
+  {
+    "id": "amc10a-2020-16",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 16,
+    "statementLatex": "A point is chosen at random within the square in the coordinate plane whose vertices are $(0, 0), (2020, 0), (2020, 2020),$ and $(0, 2020)$ . The probability that the point is within $d$ units of a lattice point is $\\tfrac{1}{2}$ . (A point $(x, y)$ is a lattice point if $x$ and $y$ are both integers.) What is $d$ to the nearest tenth $?$",
+    "choices": [
+      "$0.3$",
+      "$0.4$",
+      "$0.5$",
+      "$0.6$",
+      "$0.7$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_16",
+    "topics": [
+      "Area by Coordinates"
+    ]
+  },
+  {
+    "id": "amc10a-2020-17",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 17,
+    "statementLatex": "Define \\[P(x) =(x-1^2)(x-2^2)\\cdots(x-100^2).\\] How many integers $n$ are there such that $P(n)\\leq 0$ ?",
+    "choices": [
+      "$4900$",
+      "$4950$",
+      "$5000$",
+      "$5050$",
+      "$5100$"
+    ],
+    "answer": "E",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_17",
+    "topics": [
+      "Casework Counting",
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "amc10a-2020-18",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 18,
+    "statementLatex": "Let $(a,b,c,d)$ be an ordered quadruple of not necessarily distinct integers, each one of them in the set $\\{0,1,2,3\\}.$ For how many such quadruples is it true that $a\\cdot d-b\\cdot c$ is odd? (For example, $(0,3,1,1)$ is one such quadruple, because $0\\cdot 1-3\\cdot 1 = -3$ is odd.)",
+    "choices": [
+      "$48$",
+      "$64$",
+      "$96$",
+      "$128$",
+      "$192$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_18",
+    "topics": [
+      "Casework Counting",
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2020-20",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 20,
+    "statementLatex": "Quadrilateral $ABCD$ satisfies $\\angle ABC = \\angle ACD = 90^{\\circ}, AC=20,$ and $CD=30.$ Diagonals $\\overline{AC}$ and $\\overline{BD}$ intersect at point $E,$ and $AE=5.$ What is the area of quadrilateral $ABCD?$",
+    "choices": [
+      "$330$",
+      "$340$",
+      "$350$",
+      "$360$",
+      "$370$"
+    ],
+    "answer": "D",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_20",
+    "topics": [
+      "Angle Chasing",
+      "Power of a Point",
+      "Similar Triangles"
+    ]
+  },
+  {
+    "id": "amc10a-2020-21",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 21,
+    "statementLatex": "There exists a unique strictly increasing sequence of nonnegative integers $a_1 < a_2 < … < a_k$ such that \\[\\frac{2^{289}+1}{2^{17}+1} = 2^{a_1} + 2^{a_2} + … + 2^{a_k}.\\] What is $k?$",
+    "choices": [
+      "$117$",
+      "$136$",
+      "$137$",
+      "$273$",
+      "$306$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_21",
+    "topics": [
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "amc10a-2020-22",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 22,
+    "statementLatex": "For how many positive integers $n \\le 1000$ is \\[\\left\\lfloor \\dfrac{998}{n} \\right\\rfloor+\\left\\lfloor \\dfrac{999}{n} \\right\\rfloor+\\left\\lfloor \\dfrac{1000}{n}\\right \\rfloor\\] not divisible by $3$ ? (Recall that $\\lfloor x \\rfloor$ is the greatest integer less than or equal to $x$ .)",
+    "choices": [
+      "$22$",
+      "$23$",
+      "$24$",
+      "$25$",
+      "$26$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_22",
+    "topics": [
+      "Floor Functions",
+      "Casework Counting",
+      "Divisor Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2020-23",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 23,
+    "statementLatex": "Let $T$ be the triangle in the coordinate plane with vertices $(0,0), (4,0),$ and $(0,3).$ Consider the following five isometries (rigid transformations) of the plane: rotations of $90^{\\circ}, 180^{\\circ},$ and $270^{\\circ}$ counterclockwise around the origin, reflection across the $x$ -axis, and reflection across the $y$ -axis. How many of the $125$ sequences of three of these transformations (not necessarily distinct) will return $T$ to its original position? (For example, a $180^{\\circ}$ rotation, followed by a reflection across the $x$ -axis, followed by a reflection across the $y$ -axis will return $T$ to its original position, but a $90^{\\circ}$ rotation, followed by a reflection across the $x$ -axis, followed by another reflection across the $x$ -axis will not return $T$ to its original position.)",
+    "choices": [
+      "$12$",
+      "$15$",
+      "$17$",
+      "$20$",
+      "$25$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_23",
+    "topics": [
+      "Area by Coordinates",
+      "Casework Counting"
+    ]
+  },
+  {
+    "id": "amc10a-2020-24",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 24,
+    "statementLatex": "Let $n$ be the least positive integer greater than $1000$ for which\n\n\\[\\gcd(63, n+120) =21\\quad \\text{and} \\quad \\gcd(n+63, 120)=60.\\]\n\nWhat is the sum of the digits of $n$ ?",
+    "choices": [
+      "$12$",
+      "$15$",
+      "$18$",
+      "$21$",
+      "$24$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_24",
+    "topics": [
+      "Digit Problems",
+      "GCD/LCM",
+      "Modular Arithmetic",
+      "Polynomial Remainder"
+    ]
+  },
+  {
+    "id": "amc10a-2020-25",
+    "contest": "AMC 10",
+    "year": 2020,
+    "version": "A",
+    "number": 25,
+    "statementLatex": "Jason rolls three fair standard six-sided dice. Then he looks at the rolls and chooses a subset of the dice (possibly empty, possibly all three dice) to reroll. After rerolling, he wins if and only if the sum of the numbers face up on the three dice is exactly $7.$ Jason always plays to optimize his chances of winning. What is the probability that he chooses to reroll exactly two of the dice?",
+    "choices": [
+      "$\\frac{7}{36}$",
+      "$\\frac{5}{24}$",
+      "$\\frac{2}{9}$",
+      "$\\frac{17}{72}$",
+      "$\\frac{1}{4}$"
+    ],
+    "answer": "A",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_25",
+    "topics": [
+      "Stars and Bars",
+      "Complementary Counting"
+    ]
   }
 ]
