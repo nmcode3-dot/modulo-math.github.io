@@ -143,6 +143,7 @@ const topicTags: TagMap = JSON.parse(readFileSync("src/data/topic-tags.json", "u
 
 type Row = { contest: string; year: number; version: string; found: number; expected: number; answers: number };
 const coverage: Row[] = [];
+let anyFailure = false;
 
 for (const idx of INDEXES) {
   if (onlyContest && idx.key !== onlyContest) continue;
@@ -191,10 +192,19 @@ for (const idx of INDEXES) {
       process.stdout.write(`\r${name} #${n}   `);
     }
     coverage.push({ contest: idx.contest, year, version: version.trim(), found, expected: idx.expected, answers: key.length });
-    if (problems.length) writeFileSync(`src/data/${idx.key}.json`, JSON.stringify(problems, null, 2));
+    // Merge into the existing file so partial runs never lose already-saved problems.
+    if (problems.length) {
+      const path = `src/data/${idx.key}.json`;
+      let existing: any[] = [];
+      try { existing = JSON.parse(readFileSync(path, "utf8")); } catch { /* first run */ }
+      const byId = new Map<string, any>(existing.map((p) => [p.id, p]));
+      for (const p of problems) byId.set(p.id, p);
+      writeFileSync(path, JSON.stringify([...byId.values()], null, 2));
+    } else {
+      anyFailure = true;
+    }
   }
-  if (problems.length) writeFileSync(`src/data/${idx.key}.json`, JSON.stringify(problems, null, 2));
-  console.log(`\n${idx.contest}: ${problems.length} problems written`);
+  if (problems.length) console.log(`\n${idx.contest}: ${problems.length} problems scraped this run`);
 }
 
 const lines = ["# Coverage report", "", "| Contest | Year | Version | Found | Expected | Answer key |", "|---|---|---|---|---|---|"];
