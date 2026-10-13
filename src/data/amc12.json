@@ -1,44 +1,44 @@
 [
- {
-  "id": "amc12a-2020-1",
-  "contest": "AMC 12",
-  "year": 2020,
-  "version": "A",
-  "number": 1,
-  "statementLatex": "Carlos took $70\\%$ of a whole pie. Maria took one third of the remainder. What portion of the whole pie was left?",
-  "choices": [
-   "$10\\%$",
-   "$15\\%$",
-   "$20\\%$",
-   "$30\\%$",
-   "$35\\%$"
-  ],
-  "answer": "C",
-  "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_12A_Problems/Problem_1",
-  "topics": [
-   "Fractions and Percents",
-   "Modular Arithmetic",
-   "Problem-Solving: Divisibility and Digits"
-  ]
- },
- {
-  "id": "amc12a-2021-1",
-  "contest": "AMC 12",
-  "year": 2021,
-  "version": "A",
-  "number": 1,
-  "statementLatex": "What is the value of $$2^{1+2+3}-(2^1+2^2+2^3)?$$",
-  "choices": [
-   "$0$",
-   "$50$",
-   "$52$",
-   "$54$",
-   "$57$"
-  ],
-  "answer": "B",
-  "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_12A_Problems/Problem_1",
-  "topics": [
-   "Algebra"
-  ]
- }
+  {
+    "id": "amc12a-2020-1",
+    "contest": "AMC 12",
+    "year": 2020,
+    "version": "A",
+    "number": 1,
+    "statementLatex": "Carlos took $70\\%$ of a whole pie. Maria took one third of the remainder. What portion of the whole pie was left?",
+    "choices": [
+      "$10\\%$",
+      "$15\\%$",
+      "$20\\%$",
+      "$30\\%$",
+      "$35\\%$"
+    ],
+    "answer": "C",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_12A_Problems/Problem_1",
+    "topics": [
+      "Modular Arithmetic",
+      "Fractions and Percents",
+      "Problem-Solving: Divisibility and Digits"
+    ]
+  },
+  {
+    "id": "amc12a-2021-1",
+    "contest": "AMC 12",
+    "year": 2021,
+    "version": "A",
+    "number": 1,
+    "statementLatex": "What is the value of $$2^{1+2+3}-(2^1+2^2+2^3)?$$",
+    "choices": [
+      "$0$",
+      "$50$",
+      "$52$",
+      "$54$",
+      "$57$"
+    ],
+    "answer": "B",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_12A_Problems/Problem_1",
+    "topics": [
+      "Algebra"
+    ]
+  }
 ]

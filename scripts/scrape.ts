@@ -22,6 +22,7 @@ const args = process.argv.slice(2);
 const only = args.includes("--only") ? args[args.indexOf("--only") + 1] : null;
 const onlyContest = args.includes("--contest") ? args[args.indexOf("--contest") + 1] : null;
 const resume = args.includes("--resume");
+const skips = args.includes("--skip") ? args[args.indexOf("--skip") + 1].split(",") : [];
 mkdirSync(CACHE, { recursive: true });
 writeFileSync(ERR, "");
 
@@ -177,6 +178,7 @@ for (const idx of INDEXES) {
     const m = name.match(idx.re)!;
     const year = Number(m[1]);
     const version = (m[2] ?? "").trim() + (name.includes("Fall") ? " Fall" : "");
+    if (skips.includes(String(year))) { console.log(`skip ${name} (unavailable year)`); continue; }
     if (resume && (saved.get(`${year}|${version.trim()}`) ?? 0) >= idx.expected - 8) {
       console.log(`skip ${name} (already saved)`);
       continue;
