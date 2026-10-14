@@ -4,5 +4,5 @@ import { createServerFn } from "@tanstack/react-start";
 // safe to return to the client — but it lives as a secret so it can be rotated
 // without a code change.
 export const getGaMeasurementId = createServerFn({ method: "GET" }).handler(
-  () => process.env.GOOGLE_ANALYTICS_MEASUREMENT_ID ?? null,
+  () => process.env["GOOGLE_ANALYTICS_MEASUREMENT_ID"] ?? null,
 );
