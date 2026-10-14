@@ -8,6 +8,7 @@ export type Problem = {
   version: string;
   number: number;
   statementLatex: string;
+  solutionLatex?: string;
   choices: string[];
   answer: string;
   solutionUrl: string;
