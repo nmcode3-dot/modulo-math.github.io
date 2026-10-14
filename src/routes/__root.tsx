@@ -15,6 +15,7 @@ import katexCss from "katex/dist/katex.min.css?url";
 import { AppShell } from "@/components/AppShell";
 import { Toaster } from "@/components/ui/sonner";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { initAnalytics, trackPageView } from "@/lib/analytics";
 
 function NotFoundComponent() {
   return (
@@ -120,6 +121,14 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const router = useRouter();
+
+  useEffect(() => {
+    void initAnalytics();
+    return router.subscribe("onResolved", () =>
+      trackPageView(window.location.pathname),
+    );
+  }, [router]);
 
   return (
     <QueryClientProvider client={queryClient}>
