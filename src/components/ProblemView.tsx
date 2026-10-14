@@ -120,6 +120,13 @@ export function ProblemView({ problem }: { problem: Problem }) {
         </div>
       )}
 
+      {done && problem.solutionLatex && (
+        <div className="problem-card">
+          <h2 className="section-label mb-3">Solution</h2>
+          <Latex className="leading-relaxed">{problem.solutionLatex}</Latex>
+        </div>
+      )}
+
       {problem.topics.length > 0 && (
         <p className="text-sm text-muted-foreground">Topics: {problem.topics.join(" · ")}</p>
       )}

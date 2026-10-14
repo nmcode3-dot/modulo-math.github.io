@@ -132,7 +132,19 @@ function parseProblem(html: string) {
     const c = splitChoices(m[1]);
     if (c) { choices = c; statement = statement.slice(0, m.index).trim(); }
   }
-  return { statement, choices, solutionText: content.text() };
+  // First "Solution" section, converted the same way as the statement.
+  const solHeading = content.find("h2").filter((_, h) => /^Solution/i.test($(h).text().trim())).first();
+  let solution = "";
+  if (solHeading.length) {
+    const solBlocks: string[] = [];
+    let snode = solHeading.next();
+    while (snode.length && !snode.is("h2")) {
+      if (snode.is("p, dl, ul, ol, center, div:not(.toc)")) solBlocks.push(toLatex($, snode));
+      snode = snode.next();
+    }
+    solution = solBlocks.filter(Boolean).join("\n\n");
+  }
+  return { statement, choices, solution, solutionText: content.text() };
 }
 
 function parseAnswerKey(html: string): string[] {
@@ -204,6 +216,7 @@ for (const idx of INDEXES) {
         version: version.trim(),
         number: n,
         statementLatex: parsed.statement,
+        solutionLatex: parsed.solution,
         choices: idx.key === "aime" ? [] : parsed.choices,
         answer: idx.key === "aime" ? String(parseInt(answer, 10)).padStart(3, "0") : answer.toUpperCase(),
         solutionUrl: url,
