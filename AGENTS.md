@@ -13,3 +13,4 @@
 - Topic keywords live in src/data/topic-tags.json and are applied both by scripts/scrape.ts and at app load, so manual edits take effect without re-scraping.
 - Topic practice uses a client-only deterministic transcript per topic, storing problem snapshots and replies separately from shared progress so history stays reviewable without AI or server dependencies.
 - Scraper answer keys are validated through scripts/answer-keys.ts and merged without overwriting a valid saved answer with a missing key; solution backfills must preserve grading data.
+- Scraper writes only validated, gradable rows to app data atomically; incomplete rows stay in per-contest pending files for repair, and parallel tracks use separate error and coverage reports.

@@ -11,3 +11,7 @@
 # Missing answers
 - [x] Repair answer keys erased during solution backfill and prevent blank overwrites.
 - [x] Verify restored answers with on-page solutions and resume both download tracks.
+
+# Safe scraping
+- [ ] Resume both tracks with validation that keeps unverified answers out of practice and preserves them for repair.
+- [ ] Verify answer protection and confirm both processes are running.

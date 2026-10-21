@@ -1,11 +1,27 @@
 import { describe, expect, it } from "vitest";
-import { normalizeKeyAnswer, parseAnswerKey, preservedAnswer } from "../../scripts/answer-keys";
+import { normalizeKeyAnswer, parseAnswerKey, preservedAnswer, partitionGradedProblems } from "../../scripts/answer-keys";
 import amc8 from "../data/amc8.json";
 import amc10 from "../data/amc10.json";
 import amc12 from "../data/amc12.json";
 import aime from "../data/aime.json";
 
 describe("Answer key integrity during solution backfill", () => {
+  it("withholds new blank answers from practice without losing their solutions", () => {
+    const blank = { id: "new", answer: "", solutionLatex: "Saved solution" };
+    const result = partitionGradedProblems([], [blank], true);
+    expect(result.ready).toEqual([]);
+    expect(result.pending).toEqual([blank]);
+  });
+  it("preserves valid answers and solutions when incoming fields are blank", () => {
+    const result = partitionGradedProblems([{ id: "saved", answer: "007", solutionLatex: "Saved solution" }], [{ id: "saved", answer: "", solutionLatex: "" }], true);
+    expect(result.ready).toEqual([{ id: "saved", answer: "007", solutionLatex: "Saved solution" }]);
+    expect(result.pending).toEqual([]);
+  });
+  it("restores a pending problem when its verified answer arrives", () => {
+    const result = partitionGradedProblems([{ id: "pending", answer: "", solutionLatex: "Saved solution" }], [{ id: "pending", answer: "42" }], true);
+    expect(result.ready).toEqual([{ id: "pending", answer: "042", solutionLatex: "Saved solution" }]);
+    expect(result.pending).toEqual([]);
+  });
   it("restores the screenshot problem's official D answer and keeps its solution", () => {
     const problem = amc8.find(p => p.id === "amc8-2017-8");
     expect(problem?.answer).toBe("D");
