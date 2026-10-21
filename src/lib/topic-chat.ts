@@ -15,7 +15,7 @@ export function loadConversation(topic: string): TopicConversation {
       typeof q.problem.statementLatex === "string" && Array.isArray(q.replies),
     ).map(q => {
       const current = getProblem(q.problem.id);
-      return current ? { ...q, problem: { ...q.problem, answer: current.answer, solutionLatex: current.solutionLatex ?? q.problem.solutionLatex } } : q;
+      return current ? { ...q, problem: { ...q.problem, answer: current.answer } } : q;
     });
     const activeId = "activeId" in data && typeof data.activeId === "string" && questions.some(q => q.id === data.activeId) ? data.activeId : null;
     return { questions, activeId };
