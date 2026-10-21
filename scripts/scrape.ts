@@ -14,6 +14,7 @@ import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
 import { join } from "node:path";
 import { tagProblem, type TagMap } from "../src/lib/tagger";
+import { parseAnswerKey, preservedAnswer } from "./answer-keys";
 
 const BASE = "https://artofproblemsolving.com";
 const CACHE = ".scrape-cache";
@@ -147,12 +148,6 @@ function parseProblem(html: string) {
   return { statement, choices, solution, solutionText: content.text() };
 }
 
-function parseAnswerKey(html: string): string[] {
-  const $ = cheerio.load(html);
-  const items = $(".mw-parser-output ol li").map((_, li) => $(li).text().trim()).get();
-  return items.map((s) => s.replace(/\s+/g, ""));
-}
-
 const topicTags: TagMap = JSON.parse(readFileSync("src/data/topic-tags.json", "utf8"));
 
 type Row = { contest: string; year: number; version: string; found: number; expected: number; answers: number };
@@ -188,7 +183,8 @@ for (const idx of INDEXES) {
   } catch { /* no file yet */ }
   for (const [name, href] of contests) {
     if (only && name !== only) continue;
-    const m = name.match(idx.re)!;
+    const m = name.match(idx.re);
+    if (!m) continue;
     const year = Number(m[1]);
     const version = (m[2] ?? "").trim() + (name.includes("Fall") ? " Fall" : "");
     if (skips.includes(String(year))) { console.log(`skip ${name} (unavailable year)`); continue; }
@@ -196,9 +192,9 @@ for (const idx of INDEXES) {
       console.log(`skip ${name} (already saved)`);
       continue;
     }
-    const slug = href.replace(/^.*\/wiki\/index\.php\/?(\?title=)?/, "").replace(/_Problems$/, "");
+    const slug = name.replace(/ /g, "_");
     const keyHtml = await get(`/wiki/index.php/${slug}_Answer_Key`);
-    const key = keyHtml ? parseAnswerKey(keyHtml) : [];
+    const key = keyHtml ? parseAnswerKey(keyHtml, idx.key === "aime") : [];
     if (!key.length) logErr(name, "answer key missing");
     let found = 0;
     for (let n = 1; n <= idx.expected; n++) {
@@ -216,7 +212,7 @@ for (const idx of INDEXES) {
       const parsed = page ? parseProblem(page) : null;
       if (!parsed || !parsed.statement) { logErr(url, "could not parse problem"); continue; }
       if (idx.key !== "aime" && parsed.choices.length !== 5) logErr(url, "could not parse answer choices");
-      const answer = key[n - 1] ?? "";
+       const answer = preservedAnswer(key[n - 1] ?? "", prev?.answer ?? "", idx.key === "aime");
       if (!answer) logErr(url, "no answer in key");
       found++;
       problems.push({
@@ -228,7 +224,7 @@ for (const idx of INDEXES) {
         statementLatex: parsed.statement,
         solutionLatex: parsed.solution,
         choices: idx.key === "aime" ? [] : parsed.choices,
-        answer: idx.key === "aime" ? String(parseInt(answer, 10)).padStart(3, "0") : answer.toUpperCase(),
+        answer,
         solutionUrl: url,
         topics: tagProblem(topicTags, parsed.statement, parsed.solutionText),
       });
@@ -241,7 +237,10 @@ for (const idx of INDEXES) {
       let existing: any[] = [];
       try { existing = JSON.parse(readFileSync(path, "utf8")); } catch { /* first run */ }
       const byId = new Map<string, any>(existing.map((p) => [p.id, p]));
-      for (const p of problems) byId.set(p.id, p);
+      for (const p of problems) {
+        const previous = byId.get(p.id);
+        byId.set(p.id, { ...p, answer: preservedAnswer(p.answer, previous?.answer ?? "", idx.key === "aime") });
+      }
       writeFileSync(path, JSON.stringify([...byId.values()], null, 2));
     } else {
       anyFailure = true;
