@@ -13,5 +13,5 @@
 - [x] Verify restored answers with on-page solutions and resume both download tracks.
 
 # Safe scraping
-- [ ] Resume both tracks with validation that keeps unverified answers out of practice and preserves them for repair.
-- [ ] Verify answer protection and confirm both processes are running.
+- [x] Resume both tracks with validation that keeps unverified answers out of practice and preserves them for repair.
+- [x] Verify answer protection and confirm both processes are running (16 tests passed; both fetch processes confirmed).
