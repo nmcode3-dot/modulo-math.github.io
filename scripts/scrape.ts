@@ -194,7 +194,11 @@ for (const idx of INDEXES) {
     }
     const slug = name.replace(/ /g, "_");
     const keyHtml = await get(`/wiki/index.php/${slug}_Answer_Key`);
-    const key = keyHtml ? parseAnswerKey(keyHtml, idx.key === "aime") : [];
+    let key = keyHtml ? parseAnswerKey(keyHtml, idx.key === "aime") : [];
+    if (!key.some(Boolean)) {
+      const alternate = await get(`/wiki/index.php?title=${slug}_Answer_Key`);
+      key = alternate ? parseAnswerKey(alternate, idx.key === "aime") : [];
+    }
     if (!key.length) logErr(name, "answer key missing");
     let found = 0;
     for (let n = 1; n <= idx.expected; n++) {

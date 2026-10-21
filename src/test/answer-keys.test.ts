@@ -1,7 +1,22 @@
 import { describe, expect, it } from "vitest";
 import { normalizeKeyAnswer, parseAnswerKey, preservedAnswer } from "../../scripts/answer-keys";
+import amc8 from "../data/amc8.json";
+import amc10 from "../data/amc10.json";
+import amc12 from "../data/amc12.json";
+import aime from "../data/aime.json";
 
 describe("Answer key integrity during solution backfill", () => {
+  it("restores the screenshot problem's official D answer and keeps its solution", () => {
+    const problem = amc8.find(p => p.id === "amc8-2017-8");
+    expect(problem?.answer).toBe("D");
+    expect(problem?.solutionLatex).toContain("98");
+  });
+  it("keeps every saved AMC answer A–E", () => {
+    for (const problem of [...amc8, ...amc10, ...amc12]) expect(problem.answer, problem.id).toMatch(/^[A-E]$/);
+  });
+  it("keeps every saved AIME answer a three-digit integer", () => {
+    for (const problem of aime) expect(problem.answer, problem.id).toMatch(/^\d{3}$/);
+  });
   it("preserves the AMC letter when the answer key is missing", () => {
     expect(preservedAnswer("", "D", false)).toBe("D");
   });

@@ -34,4 +34,11 @@ describe("Saved topic practice", () => {
     localStorage.setItem("modulo-topic-chat-v1:Algebra", "bad json");
     expect(loadConversation("Algebra")).toEqual(emptyConversation());
   });
+  it("refreshes erased answers in saved questions without losing replies", () => {
+    const conversation = addQuestion(emptyConversation(), { ...problem, id: "amc8-2017-8", answer: "" });
+    saveConversation("Algebra", conversation);
+    const restored = loadConversation("Algebra");
+    expect(restored.questions[0]?.problem.answer).toBe("D");
+    expect(restored.questions[0]?.replies).toEqual([]);
+  });
 });
