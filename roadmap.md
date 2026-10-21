@@ -7,3 +7,7 @@
 - [x] Make Topic Drills the default home page (random topic on every visit).
 - [x] Move Contest Practice to its own sidebar page at /contests.
 - [x] Verify sidebar highlighting, home redirect, and contest-chip random draw.
+
+# Missing answers
+- [x] Repair answer keys erased during solution backfill and prevent blank overwrites.
+- [x] Verify restored answers with on-page solutions and resume both download tracks.

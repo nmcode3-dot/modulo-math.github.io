@@ -1,4 +1,4 @@
-import type { Problem } from "@/lib/problems";
+import { getProblem, type Problem } from "@/lib/problems";
 
 export type PracticeReply = { answer: string; feedback: string; status: "in-progress" | "solved" | "failed" };
 export type PracticeQuestion = { id: string; problem: Problem; replies: PracticeReply[]; startedAt: string };
@@ -13,7 +13,10 @@ export function loadConversation(topic: string): TopicConversation {
     const questions = data.questions.filter((q): q is PracticeQuestion =>
       q && typeof q.id === "string" && typeof q.problem?.id === "string" &&
       typeof q.problem.statementLatex === "string" && Array.isArray(q.replies),
-    );
+    ).map(q => {
+      const current = getProblem(q.problem.id);
+      return current ? { ...q, problem: { ...q.problem, answer: current.answer } } : q;
+    });
     const activeId = "activeId" in data && typeof data.activeId === "string" && questions.some(q => q.id === data.activeId) ? data.activeId : null;
     return { questions, activeId };
   } catch { return emptyConversation(); }
