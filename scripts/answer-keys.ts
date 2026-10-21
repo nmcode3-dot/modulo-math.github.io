@@ -17,3 +17,24 @@ export function parseAnswerKey(html: string, aime: boolean): string[] {
 export function preservedAnswer(incoming: string, previous: string, aime: boolean): string {
   return normalizeKeyAnswer(incoming, aime) || normalizeKeyAnswer(previous, aime);
 }
+
+/** Keep incomplete downloads for repair, but never publish an ungradable problem. */
+export function partitionGradedProblems<T extends { id: string; answer: string; solutionLatex?: string }>(
+  existing: T[], incoming: T[], aime: boolean,
+): { ready: T[]; pending: T[] } {
+  const byId = new Map(existing.map(p => [p.id, p]));
+  for (const p of incoming) {
+    const previous = byId.get(p.id);
+    byId.set(p.id, {
+      ...previous, ...p,
+      solutionLatex: p.solutionLatex || previous?.solutionLatex,
+      answer: preservedAnswer(p.answer, previous?.answer ?? "", aime),
+    });
+  }
+  const ready: T[] = [], pending: T[] = [];
+  for (const p of byId.values()) {
+    const answer = normalizeKeyAnswer(p.answer, aime);
+    (answer ? ready : pending).push({ ...p, answer });
+  }
+  return { ready, pending };
+}

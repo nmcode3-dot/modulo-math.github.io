@@ -11,17 +11,17 @@
  */
 import * as cheerio from "cheerio";
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync, renameSync } from "node:fs";
 import { join } from "node:path";
 import { tagProblem, type TagMap } from "../src/lib/tagger";
-import { parseAnswerKey, preservedAnswer } from "./answer-keys";
+import { parseAnswerKey, preservedAnswer, partitionGradedProblems } from "./answer-keys";
 
 const BASE = "https://artofproblemsolving.com";
 const CACHE = ".scrape-cache";
-const ERR = "scrape-errors.log";
 const args = process.argv.slice(2);
 const only = args.includes("--only") ? args[args.indexOf("--only") + 1] : null;
 const onlyContest = args.includes("--contest") ? args[args.indexOf("--contest") + 1] : null;
+const ERR = onlyContest ? `scrape-errors-${onlyContest}.log` : "scrape-errors.log";
 const resume = args.includes("--resume");
 const skips = args.includes("--skip") ? args[args.indexOf("--skip") + 1].split(",") : [];
 mkdirSync(CACHE, { recursive: true });
@@ -174,8 +174,12 @@ for (const idx of INDEXES) {
   // the backfill pass uses it to skip problems that already have a solution.
   const savedProblems = new Map<string, any>();
   const savedYearCount = new Map<string, number>();
+  const pendingPath = `scripts/pending-${idx.key}.json`;
+  const readRows = (path: string): any[] => {
+    try { return JSON.parse(readFileSync(path, "utf8")); } catch { return []; }
+  };
   try {
-    for (const p of JSON.parse(readFileSync(`src/data/${idx.key}.json`, "utf8"))) {
+    for (const p of [...readRows(pendingPath), ...readRows(`src/data/${idx.key}.json`)]) {
       savedProblems.set(`${p.year}|${p.version}|${p.number}`, p);
       const k = `${p.year}|${p.version}`;
       savedYearCount.set(k, (savedYearCount.get(k) ?? 0) + 1);
@@ -195,9 +199,10 @@ for (const idx of INDEXES) {
     const slug = name.replace(/ /g, "_");
     const keyHtml = await get(`/wiki/index.php/${slug}_Answer_Key`);
     let key = keyHtml ? parseAnswerKey(keyHtml, idx.key === "aime") : [];
-    if (!key.some(Boolean)) {
+    if (key.filter(Boolean).length < idx.expected) {
       const alternate = await get(`/wiki/index.php?title=${slug}_Answer_Key`);
-      key = alternate ? parseAnswerKey(alternate, idx.key === "aime") : [];
+      const alternateKey = alternate ? parseAnswerKey(alternate, idx.key === "aime") : [];
+      key = Array.from({ length: idx.expected }, (_, n) => key[n] || alternateKey[n] || "");
     }
     if (!key.length) logErr(name, "answer key missing");
     let found = 0;
@@ -205,9 +210,14 @@ for (const idx of INDEXES) {
       const id = `${idx.key}${version.replace(/\s+/g, "").toLowerCase()}-${year}-${n}`;
       // Backfill short-circuit: problem already saved with an on-page solution — reuse it as-is.
       const prev = savedProblems.get(`${year}|${version.trim()}|${n}`);
+      const answer = preservedAnswer(key[n - 1] ?? "", prev?.answer ?? "", idx.key === "aime");
+      if (!answer) {
+        logErr(`${name} #${n}`, "no verified answer; withheld from practice");
+        continue;
+      }
       if (prev && prev.solutionLatex) {
         found++;
-        problems.push(prev);
+        problems.push({ ...prev, answer });
         process.stdout.write(`\r${name} #${n} (saved)   `);
         continue;
       }
@@ -216,8 +226,6 @@ for (const idx of INDEXES) {
       const parsed = page ? parseProblem(page) : null;
       if (!parsed || !parsed.statement) { logErr(url, "could not parse problem"); continue; }
       if (idx.key !== "aime" && parsed.choices.length !== 5) logErr(url, "could not parse answer choices");
-       const answer = preservedAnswer(key[n - 1] ?? "", prev?.answer ?? "", idx.key === "aime");
-      if (!answer) logErr(url, "no answer in key");
       found++;
       problems.push({
         id,
@@ -238,14 +246,14 @@ for (const idx of INDEXES) {
     // Merge into the existing file so partial runs never lose already-saved problems.
     if (problems.length) {
       const path = `src/data/${idx.key}.json`;
-      let existing: any[] = [];
-      try { existing = JSON.parse(readFileSync(path, "utf8")); } catch { /* first run */ }
-      const byId = new Map<string, any>(existing.map((p) => [p.id, p]));
-      for (const p of problems) {
-        const previous = byId.get(p.id);
-        byId.set(p.id, { ...p, answer: preservedAnswer(p.answer, previous?.answer ?? "", idx.key === "aime") });
-      }
-      writeFileSync(path, JSON.stringify([...byId.values()], null, 2));
+      const { ready, pending } = partitionGradedProblems(
+        [...readRows(pendingPath), ...readRows(path)], problems, idx.key === "aime",
+      );
+      // Save repair candidates first; replacing a data file is atomic.
+      writeFileSync(pendingPath + ".tmp", JSON.stringify(pending, null, 2));
+      renameSync(pendingPath + ".tmp", pendingPath);
+      writeFileSync(path + ".tmp", JSON.stringify(ready, null, 2));
+      renameSync(path + ".tmp", path);
     } else {
       anyFailure = true;
     }
@@ -257,6 +265,6 @@ const lines = ["# Coverage report", "", "| Contest | Year | Version | Found | Ex
 for (const r of coverage) lines.push(`| ${r.contest} | ${r.year} | ${r.version || "—"} | ${r.found} | ${r.expected} | ${r.answers} |${r.found < r.expected ? " ⚠️" : ""}`);
 const tf = coverage.reduce((a, r) => a + r.found, 0), te = coverage.reduce((a, r) => a + r.expected, 0);
 lines.push("", `**Total: ${tf} / ${te}** — see scrape-errors.log for failures.`);
-writeFileSync("scripts/coverage-report.md", lines.join("\n"));
+writeFileSync(onlyContest ? `scripts/coverage-report-${onlyContest}.md` : "scripts/coverage-report.md", lines.join("\n"));
 console.log(lines.join("\n"));
 if (anyFailure) process.exit(1);
