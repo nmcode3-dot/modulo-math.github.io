@@ -220,7 +220,7 @@ for (const idx of INDEXES) {
       if (!answer) logErr(url, "no answer in key");
       found++;
       problems.push({
-        id: `${idx.key}${version.replace(/\s+/g, "").toLowerCase()}-${year}-${n}`.replace(/^(amc8|amc10|amc12|aime)/, (k) => (idx.key === "amc8" ? k : k)),
+        id,
         contest: idx.contest,
         year,
         version: version.trim(),
