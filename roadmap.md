@@ -9,5 +9,5 @@
 - [x] Verify sidebar highlighting, home redirect, and contest-chip random draw.
 
 # Missing answers
-- [ ] Repair answer keys erased during solution backfill and prevent blank overwrites.
-- [ ] Verify restored answers with on-page solutions and resume both download tracks.
+- [x] Repair answer keys erased during solution backfill and prevent blank overwrites.
+- [x] Verify restored answers with on-page solutions and resume both download tracks.
