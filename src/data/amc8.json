@@ -122,8 +122,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_5",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Probability"
     ]
   },
   {
@@ -144,10 +143,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_6",
     "topics": [
-      "Pythagorean theorem",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -168,10 +164,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Venn Diagrams",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -192,9 +186,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_8",
     "topics": [
-      "Arithmetic Word Problems",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Counting"
     ]
   },
   {
@@ -215,8 +207,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -238,9 +229,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_10",
     "topics": [
       "Expected Value",
-      "Linearity of Expectation",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Linearity of Expectation"
     ]
   },
   {
@@ -261,10 +250,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Pythagorean theorem"
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Coordinate Bashing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -285,7 +274,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Circle Basics"
+      "Counting"
     ]
   },
   {
@@ -307,9 +296,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_13",
     "topics": [
       "Casework",
-      "Fundamental Counting Principle",
-      "Complementary Counting",
-      "Linear Inequalities"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -330,10 +317,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_14",
     "topics": [
-      "Absolute Value Tricks",
-      "Paths on a Grid",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Absolute Value Tricks"
     ]
   },
   {
@@ -454,8 +438,7 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "3D Geometry",
-      "Problem-Solving: Triangle Angles",
-      "Combinations"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -476,9 +459,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_21",
     "topics": [
-      "Ratios and Rates",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Ratios and Rates"
     ]
   },
   {
@@ -500,9 +481,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "3D Geometry",
-      "Problem-Solving: Weird Areas",
-      "Problem-Solving: Areas"
+      "Cross Sections"
     ]
   },
   {
@@ -523,10 +502,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_23",
     "topics": [
-      "Length Chasing",
-      "Linear Equations",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Circle Basics"
+      "Length Chasing"
     ]
   },
   {
@@ -547,10 +523,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Areas",
-      "Venn Diagrams",
-      "Pythagorean theorem",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -571,10 +544,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_25",
     "topics": [
-      "Casework",
-      "Introduction to Probability",
-      "Permutations",
-      "Combinations"
+      "Introduction to Probability"
     ]
   },
   {
@@ -609,8 +579,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_2",
     "topics": [
-      "Clever Substitutions",
-      "Problem-Solving: Reflection Trick"
+      "Geometry"
     ]
   },
   {
@@ -633,8 +602,7 @@
     "topics": [
       "Distance, Rate, Time",
       "Angle Chasing",
-      "Ratios and Rates",
-      "Clever Substitutions"
+      "Ratios and Rates"
     ]
   },
   {
@@ -656,8 +624,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_4",
     "topics": [
       "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Slice and Add the Shaded Region",
-      "Clever Substitutions"
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -783,7 +750,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_10",
     "topics": [
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -805,9 +772,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_11",
     "topics": [
       "Distance, Rate, Time",
-      "Ratios and Rates",
       "Expected Value",
-      "Clever Substitutions"
+      "Ratios and Rates"
     ]
   },
   {
@@ -828,10 +794,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_12",
     "topics": [
+      "Fractions and Percents",
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Slice and Add the Shaded Region",
-      "Fractions and Percents"
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -852,7 +818,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_13",
     "topics": [
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -873,8 +839,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_14",
     "topics": [
-      "Arithmetic Word Problems",
-      "Clever Substitutions"
+      "Arithmetic Word Problems"
     ]
   },
   {
@@ -896,7 +861,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_15",
     "topics": [
       "Distance, Rate, Time",
-      "Ratios and Rates",
       "Length Chasing"
     ]
   },
@@ -918,10 +882,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_16",
     "topics": [
-      "Modular Arithmetic",
-      "Linear Inequalities",
-      "Fundamental Counting Principle",
-      "Permutations with Repeated Elements"
+      "Counting"
     ]
   },
   {
@@ -943,9 +904,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_17",
     "topics": [
       "3D Geometry",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Clever Substitutions"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -966,7 +926,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_18",
     "topics": [
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -989,8 +949,8 @@
     "topics": [
       "Problem-Solving: Areas",
       "Modular Arithmetic",
-      "Similar Triangles",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -1011,8 +971,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_20",
     "topics": [
-      "Mean Median Mode",
-      "Clever Substitutions"
+      "Mean Median Mode"
     ]
   },
   {
@@ -1117,10 +1076,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_25",
     "topics": [
-      "Linear Inequalities",
-      "Arithmetic/Geometric Sequences",
       "Digit Problems",
-      "Clever Substitutions"
+      "Linear Inequalities"
     ]
   },
   {
@@ -1141,9 +1098,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_1",
     "topics": [
-      "Problem-Solving: Areas",
-      "Area by Coordinates",
-      "Clever Substitutions"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1164,7 +1119,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_2",
     "topics": [
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -1186,9 +1141,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_3",
     "topics": [
       "Casework",
-      "Divisor Counting",
-      "Fundamental Counting Principle",
-      "Clever Substitutions"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -1203,7 +1156,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_4",
     "topics": [
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -1224,7 +1177,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_5",
     "topics": [
-      "Clever Substitutions"
+      "Counting"
     ]
   },
   {
@@ -1245,9 +1198,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_6",
     "topics": [
-      "Linear Inequalities",
-      "Arithmetic/Geometric Sequences",
-      "Clever Substitutions"
+      "Linear Inequalities"
     ]
   },
   {
@@ -1268,8 +1219,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_7",
     "topics": [
-      "Distance, Rate, Time",
-      "Clever Substitutions"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -1290,8 +1240,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_8",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Clever Substitutions"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -1408,8 +1357,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_14",
     "topics": [
       "Casework",
-      "Fundamental Counting Principle",
-      "Clever Substitutions"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -1430,10 +1378,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_15",
     "topics": [
-      "Graphing Functions",
-      "Linear Equations",
-      "Fundamental Counting Principle",
-      "Clever Substitutions"
+      "Graphing Functions"
     ]
   },
   {
@@ -1456,8 +1401,7 @@
     "topics": [
       "Expected Value",
       "Mean Median Mode",
-      "Permutations",
-      "Clever Substitutions"
+      "Permutations"
     ]
   },
   {
@@ -1478,10 +1422,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_17",
     "topics": [
-      "Digit Problems",
       "Factorial",
-      "Finding the Last Digit",
-      "Digit Deduction"
+      "Arithmetic/Geometric Sequences",
+      "Digit Problems",
+      "Finding the Last Digit"
     ]
   },
   {
@@ -1503,8 +1447,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas",
-      "Clever Substitutions"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1527,8 +1470,7 @@
     "topics": [
       "Mean Median Mode",
       "Expected Value",
-      "Graphing Functions",
-      "Clever Substitutions"
+      "Graphing Functions"
     ]
   },
   {
@@ -1549,10 +1491,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_20",
     "topics": [
-      "Linear Inequalities",
-      "Clever Substitutions",
-      "Variables",
-      "Fundamental Counting Principle"
+      "Number Theory"
     ]
   },
   {
@@ -1573,7 +1512,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_21",
     "topics": [
-      "Fundamental Counting Principle"
+      "Counting"
     ]
   },
   {
@@ -1594,8 +1533,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_22",
     "topics": [
-      "Distance, Rate, Time",
-      "Clever Substitutions"
+      "Counting"
     ]
   },
   {
@@ -1616,9 +1554,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_23",
     "topics": [
-      "Casework",
-      "Permutations",
-      "Combinations",
       "Problem-Solving: Triangle Angles"
     ]
   },
@@ -1743,9 +1678,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Polygons",
-      "Recursion",
-      "Algebraic Manipulation"
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -1808,10 +1741,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_7",
     "topics": [
-      "Digit Problems",
-      "Fundamental Counting Principle",
-      "Combinations",
-      "Finding the Last Digit"
+      "Digit Problems"
     ]
   },
   {
@@ -1876,10 +1806,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_10",
     "topics": [
-      "Permutations",
       "Casework",
-      "Fundamental Counting Principle",
-      "Complementary Counting"
+      "Permutations",
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -1900,10 +1829,9 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_11",
     "topics": [
-      "Distance, Rate, Time",
-      "Ratios and Rates",
       "Expected Value",
-      "Clever Substitutions"
+      "Ratios and Rates",
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -1924,8 +1852,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_12",
     "topics": [
-      "Factorial",
-      "Fundamental Counting Principle"
+      "Factorial"
     ]
   },
   {
@@ -2097,9 +2024,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_20",
     "topics": [
       "Expected Value",
-      "Permutations",
-      "Modular Arithmetic",
-      "Casework"
+      "Permutations"
     ]
   },
   {
@@ -2161,9 +2086,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_23",
     "topics": [
       "Complementary Counting",
-      "Linear Inequalities",
-      "Casework",
-      "Fundamental Counting Principle"
+      "Linear Inequalities"
     ]
   },
   {
@@ -2186,8 +2109,7 @@
     "topics": [
       "Problem-Solving: Areas",
       "Ratios and Rates",
-      "Fractions and Percents",
-      "Fundamental Counting Principle"
+      "Fractions and Percents"
     ]
   },
   {
@@ -2230,8 +2152,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_1",
     "topics": [
-      "Arithmetic Word Problems",
-      "Logic"
+      "Algebra"
     ]
   },
   {
@@ -2252,10 +2173,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_2",
     "topics": [
+      "Conditional Probability",
       "Permutations with Repeated Elements",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing",
-      "Problem-Solving: Areas"
+      "Length Chasing"
     ]
   },
   {
@@ -2276,8 +2197,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_3",
     "topics": [
-      "Linear Inequalities",
-      "Logic"
+      "Algebra"
     ]
   },
   {
@@ -2411,8 +2331,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_10",
     "topics": [
-      "Mean Median Mode",
-      "Logic"
+      "Mean Median Mode"
     ]
   },
   {
@@ -2497,7 +2416,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_14",
     "topics": [
-      "Logic"
+      "Geometry"
     ]
   },
   {
@@ -2540,9 +2459,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_16",
     "topics": [
       "Distance, Rate, Time",
-      "Ratios and Rates",
       "Expected Value",
-      "Logic"
+      "Ratios and Rates"
     ]
   },
   {
@@ -2563,9 +2481,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_17",
     "topics": [
-      "Algebraic Manipulation",
-      "Arithmetic/Geometric Sequences",
-      "Logic"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -2586,9 +2502,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_18",
     "topics": [
-      "Introduction to Probability",
-      "Complementary Counting",
-      "Logic"
+      "Introduction to Probability"
     ]
   },
   {
@@ -2629,7 +2543,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_20",
     "topics": [
-      "Telescoping - Forcing It"
+      "Counting"
     ]
   },
   {
@@ -2801,8 +2715,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Digit Problems",
+      "Problem-Solving: Circle Basics",
       "Digit Deduction",
       "Problem-Solving: Divisibility and Digits"
     ]
@@ -2846,8 +2760,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_5",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Telescoping - Forcing It"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -2868,7 +2781,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_6",
     "topics": [
-      "Distance, Rate, Time"
+      "Counting"
     ]
   },
   {
@@ -2913,8 +2826,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_8",
     "topics": [
-      "Mean Median Mode",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Mean Median Mode"
     ]
   },
   {
@@ -3085,8 +2998,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_16",
     "topics": [
-      "Permutations",
       "Casework",
+      "Permutations",
       "Fundamental Counting Principle"
     ]
   },
@@ -3108,8 +3021,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_17",
     "topics": [
-      "Distance, Rate, Time",
-      "Fundamental Counting Principle"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -3130,8 +3042,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_18",
     "topics": [
-      "Divisor Counting",
-      "Counting Divisors"
+      "Divisor Counting"
     ]
   },
   {
@@ -3152,10 +3063,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_19",
     "topics": [
-      "3D Geometry",
-      "Introduction to Probability",
-      "Casework",
-      "Permutations"
+      "3D Geometry"
     ]
   },
   {
@@ -3176,10 +3084,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_20",
     "topics": [
+      "Ratios and Rates",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Problem-Solving: Areas",
-      "Ratios and Rates"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3225,9 +3133,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas",
-      "Similar Triangles",
-      "Ratios and Rates"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3248,9 +3154,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_23",
     "topics": [
-      "Casework",
-      "Introduction to Probability",
       "Complementary Counting",
+      "Linear Inequalities",
+      "Introduction to Probability",
       "Problem-Solving: Polygons"
     ]
   },
@@ -3272,9 +3178,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: 3D Geometry",
+      "Ratios and Rates",
       "3D Geometry",
-      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: 3D Geometry",
       "Cross Sections"
     ]
   },
@@ -3296,7 +3202,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_25",
     "topics": [
-      "3D Geometry"
+      "Counting"
     ]
   },
   {
@@ -3442,9 +3348,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_7",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
       "Digit Deduction",
-      "Divisibility Reasoning"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3489,7 +3394,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_9",
     "topics": [
-      "Number Theory"
+      "Algebra"
     ]
   },
   {
@@ -3510,8 +3415,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_10",
     "topics": [
-      "Introduction to Probability",
-      "Fractions and Percents"
+      "Introduction to Probability"
     ]
   },
   {
@@ -3532,10 +3436,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_11",
     "topics": [
-      "Floor Functions",
-      "Floor Function Strategies",
       "Modular Arithmetic",
-      "Length Chasing"
+      "Floor Functions",
+      "Floor Function Strategies"
     ]
   },
   {
@@ -3556,8 +3459,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
-      "Modular Arithmetic"
+      "Modular Arithmetic",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3599,8 +3502,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_14",
     "topics": [
-      "Fractions and Percents",
-      "Expected Value"
+      "Fractions and Percents"
     ]
   },
   {
@@ -3664,9 +3566,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_17",
     "topics": [
-      "Logic",
-      "Fundamental Counting Principle",
-      "Polynomials"
+      "Probability"
     ]
   },
   {
@@ -3771,10 +3671,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_22",
     "topics": [
-      "Problem-Solving: Inscribed Circles",
       "Pythagorean theorem",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -3795,8 +3695,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_23",
     "topics": [
-      "Distance, Rate, Time",
-      "Arithmetic/Geometric Sequences"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -3817,10 +3716,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_24",
     "topics": [
-      "Inclusion-Exclusion",
-      "GCD/LCM",
-      "Linear Inequalities",
-      "Introduction to Probability"
+      "Counting"
     ]
   },
   {
@@ -3843,8 +3739,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
-      "Length Chasing",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -3887,8 +3783,7 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3952,8 +3847,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_5",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
       "Modular Arithmetic",
+      "Problem-Solving: Divisibility and Digits",
       "Digit Problems",
       "100x + 10y + z"
     ]
@@ -4074,9 +3969,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_11",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
       "Digit Deduction",
-      "Modular Arithmetic"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -4117,10 +4011,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_13",
     "topics": [
-      "Introduction to Probability",
-      "Combinations",
-      "Complementary Counting",
-      "Fundamental Counting Principle"
+      "Introduction to Probability"
     ]
   },
   {
@@ -4162,8 +4053,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_15",
     "topics": [
-      "Counting Divisors",
-      "Telescoping - Forcing It"
+      "Number Theory"
     ]
   },
   {
@@ -4205,10 +4095,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_17",
     "topics": [
-      "Digit Problems",
-      "Finding the Last Digit",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -4250,7 +4137,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_19",
     "topics": [
-      "Algebraic Manipulation"
+      "Number Theory"
     ]
   },
   {
@@ -4293,8 +4180,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_21",
     "topics": [
-      "Introduction to Probability",
-      "Permutations"
+      "Introduction to Probability"
     ]
   },
   {
@@ -4512,10 +4398,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_6",
     "topics": [
-      "Pythagorean theorem",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums"
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4536,10 +4420,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_7",
     "topics": [
-      "Introduction to Probability",
-      "Combinations",
-      "Complementary Counting",
-      "Fundamental Counting Principle"
+      "Introduction to Probability"
     ]
   },
   {
@@ -4581,7 +4462,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_9",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Counting"
     ]
   },
   {
@@ -4602,10 +4483,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_10",
     "topics": [
-      "Digit Problems",
-      "Fundamental Counting Principle",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -4650,9 +4528,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_12",
     "topics": [
-      "3D Geometry",
-      "Casework",
-      "Overcounting"
+      "3D Geometry"
     ]
   },
   {
@@ -4770,8 +4646,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_18",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Expected Value"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -4787,9 +4662,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_19",
     "topics": [
       "Fractions and Percents",
-      "Problem-Solving: Triangle Angles",
-      "Expected Value",
-      "Pythagorean theorem"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -4810,10 +4683,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_20",
     "topics": [
-      "Linear Inequalities",
       "Complementary Counting",
-      "Arithmetic Word Problems",
-      "Expected Value"
+      "Linear Inequalities"
     ]
   },
   {
@@ -4828,10 +4699,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Triangle Angles",
+      "Simplifying Radicals",
+      "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Polygons"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -4893,7 +4764,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Divisibility and Digits"
+      "Counting"
     ]
   },
   {
@@ -5018,8 +4889,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
-      "Bases"
+      "Bases",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ]
   },
   {
@@ -5062,8 +4933,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_8",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
-      "Digit Deduction"
+      "Digit Deduction",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -5085,8 +4956,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_9",
     "topics": [
       "Angle Chasing",
-      "Polynomials",
-      "3rd Degree Symmetric Sums"
+      "3rd Degree Symmetric Sums",
+      "Polynomials"
     ]
   },
   {
@@ -5185,8 +5056,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_14",
     "topics": [
-      "Pythagorean theorem",
       "Problem-Solving: Quadrilaterals",
+      "Pythagorean theorem",
       "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
@@ -5210,9 +5081,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_15",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Angle Chasing",
-      "Circle Angles",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Angle Chasing"
     ]
   },
   {
@@ -5336,9 +5205,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_21",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
       "Digit Deduction",
-      "Divisibility Reasoning"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -5406,10 +5274,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_24",
     "topics": [
-      "Mean Median Mode",
       "Complementary Counting",
       "Linear Inequalities",
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -5431,8 +5298,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_25",
     "topics": [
       "Ratios and Rates",
-      "Distance, Rate, Time",
-      "Problem-Solving: Circle Basics"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -5474,8 +5340,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_2",
     "topics": [
-      "Arithmetic Word Problems",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Arithmetic Word Problems"
     ]
   },
   {
@@ -5706,9 +5572,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_13",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits",
-      "Finding the Last Digit"
+      "Finding the Last Digit",
+      "100x + 10y + z",
+      "Digit Deduction"
     ]
   },
   {
@@ -5750,7 +5616,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_15",
     "topics": [
-      "Variables"
+      "Algebra"
     ]
   },
   {
@@ -5792,7 +5658,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_17",
     "topics": [
-      "Mean Median Mode"
+      "Number Theory"
     ]
   },
   {
@@ -5814,9 +5680,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_18",
     "topics": [
       "Floor Functions",
-      "Floor Function Strategies",
       "Constructive Counting",
-      "Complementary Counting"
+      "Floor Function Strategies"
     ]
   },
   {
@@ -5860,8 +5725,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Inscribed Circles"
+      "Problem-Solving: Inscribed Circles",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6044,9 +5909,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_4",
     "topics": [
+      "Fractions and Percents",
       "Cross Sections",
-      "Problem-Solving: Slice and Add the Shaded Region",
-      "Fractions and Percents"
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -6129,7 +5994,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_8",
     "topics": [
-      "Arithmetic Word Problems"
+      "Algebra"
     ]
   },
   {
@@ -6172,8 +6037,7 @@
     "topics": [
       "Digit Problems",
       "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits",
-      "Complementary Counting"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6194,10 +6058,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_11",
     "topics": [
-      "Mean Median Mode",
-      "Casework",
-      "Fundamental Counting Principle",
-      "Telescoping - Forcing It"
+      "Mean Median Mode"
     ]
   },
   {
@@ -6218,10 +6079,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
       "Digit Problems",
       "Finding the Last Digit",
-      "Digit Deduction"
+      "Digit Deduction",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6305,8 +6166,7 @@
     "topics": [
       "Digit Problems",
       "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits",
-      "Fundamental Counting Principle"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6432,8 +6292,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_22",
     "topics": [
-      "Mean Median Mode",
-      "Problem-Solving: Centroid"
+      "Mean Median Mode"
     ]
   },
   {
@@ -6479,9 +6338,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Circle Basics",
+      "Modular Arithmetic",
       "Ratios and Rates",
-      "Problem-Solving: Areas",
-      "Modular Arithmetic"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6566,8 +6425,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_3",
     "topics": [
-      "Ratios and Rates",
-      "Length Chasing"
+      "Ratios and Rates"
     ]
   },
   {
@@ -6648,9 +6506,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Areas",
       "Modular Arithmetic",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6776,10 +6634,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_13",
     "topics": [
+      "Modular Arithmetic",
+      "Fractions and Percents",
       "Venn Diagrams",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Shaded Regions - Circles",
-      "Length Chasing"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -6844,8 +6702,7 @@
     "topics": [
       "Problem-Solving: Triangle Angles",
       "Length Chasing",
-      "Problem-Solving: Areas",
-      "Pythagorean theorem"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6866,8 +6723,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_17",
     "topics": [
-      "Exponents with Algebra",
-      "Counting Divisors"
+      "Exponents with Algebra"
     ]
   },
   {
@@ -6996,7 +6852,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_23",
     "topics": [
       "Digit Problems",
-      "Casework",
       "Digit Deduction",
       "Problem-Solving: Divisibility and Digits"
     ]
@@ -12746,8 +12601,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AMC_8_Problems/Problem_15",
     "topics": [
-      "Permutations with Repeated Elements",
-      "3D Geometry"
+      "Permutations with Repeated Elements"
     ]
   }
 ]

@@ -26,10 +26,9 @@
     "answer": "342",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_1",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
       "Arithmetic/Geometric Sequences",
-      "Variables"
+      "Digit Problems",
+      "Digit Deduction"
     ]
   },
   {
@@ -44,8 +43,8 @@
     "answer": "190",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_5",
     "topics": [
-      "Introduction to Probability",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Introduction to Probability"
     ]
   },
   {
@@ -61,9 +60,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_6",
     "topics": [
       "Problem-Solving: Circle Basics",
+      "Complementary Counting",
       "Circle Tangents",
-      "Graphing Functions",
-      "Complementary Counting"
+      "Linear Inequalities"
     ]
   },
   {
@@ -78,9 +77,8 @@
     "answer": "754",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_7",
     "topics": [
-      "Introduction to Probability",
       "Linear Inequalities",
-      "Casework",
+      "Introduction to Probability",
       "Pigeonhole"
     ]
   },
@@ -115,9 +113,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_9",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Digit Problems",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Floor",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -132,10 +130,10 @@
     "answer": "340",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_10",
     "topics": [
+      "Angle Chasing",
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Angle Bisector Theorem"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -152,8 +150,8 @@
     "topics": [
       "Polynomials",
       "Complex Numbers",
-      "Problem-Solving: Polynomial Root Tricks",
-      "Floor"
+      "Floor",
+      "Problem-Solving: Polynomial Root Tricks"
     ]
   },
   {
@@ -168,8 +166,7 @@
     "answer": "107",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_13",
     "topics": [
-      "Handshakes",
-      "Arithmetic/Geometric Sequences"
+      "Handshakes"
     ]
   },
   {
@@ -184,10 +181,7 @@
     "answer": "157",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_14",
     "topics": [
-      "Casework",
-      "Stars and Bars",
-      "Recursion",
-      "Algebraic Manipulation"
+      "Recursion"
     ]
   },
   {
@@ -202,10 +196,7 @@
     "answer": "393",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_15",
     "topics": [
-      "Modular Arithmetic",
-      "Casework",
-      "Complementary Counting",
-      "Fundamental Counting Principle"
+      "Number Theory"
     ]
   },
   {
@@ -236,7 +227,7 @@
     "answer": "025",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_2",
     "topics": [
-      "Algebraic Manipulation"
+      "Algebra"
     ]
   },
   {
@@ -251,9 +242,7 @@
     "answer": "809",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_3",
     "topics": [
-      "Modular Arithmetic",
-      "Linear Inequalities",
-      "Casework"
+      "Linear Inequalities"
     ]
   },
   {
@@ -268,9 +257,9 @@
     "answer": "116",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_4",
     "topics": [
+      "Arithmetic/Geometric Sequences",
       "Linear Inequalities",
       "Introduction to Probability",
-      "Casework",
       "Pigeonhole"
     ]
   },
@@ -287,9 +276,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_5",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Using Cyclic Quadrilaterals",
-      "Variables",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Using Cyclic Quadrilaterals"
     ]
   },
   {
@@ -304,10 +292,7 @@
     "answer": "294",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_6",
     "topics": [
-      "Casework",
-      "Length Chasing",
-      "Symmetry",
-      "Stars and Bars"
+      "Length Chasing"
     ]
   },
   {
@@ -323,9 +308,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_7",
     "topics": [
       "Complex Numbers",
-      "Algebraic Manipulation",
-      "Trigonometry",
-      "Inequalities (AM-GM)"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -342,8 +325,8 @@
     "topics": [
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Inscribed Circles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -358,8 +341,7 @@
     "answer": "480",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Symmetry"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -374,10 +356,9 @@
     "answer": "113",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_10",
     "topics": [
-      "Length Chasing",
-      "Power of a Point",
-      "Angle Chasing",
-      "Simplifying Radicals"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
+      "Length Chasing"
     ]
   },
   {
@@ -393,9 +374,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_11",
     "topics": [
       "Introduction to Probability",
-      "Casework",
-      "Problem-Solving: Polygons",
-      "Symmetry"
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -411,9 +390,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_12",
     "topics": [
       "Trigonometry",
-      "Functions - f(x) Notation",
-      "Graphing Functions",
-      "AIME-level Inequalities"
+      "Functions - f(x) Notation"
     ]
   },
   {
@@ -428,10 +405,7 @@
     "answer": "110",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_13",
     "topics": [
-      "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Pigeonhole Principle",
-      "GCD/LCM"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -447,8 +421,7 @@
     "topics": [
       "3D Geometry",
       "Simplifying Radicals",
-      "Problem-Solving: Inscribed Circles",
-      "3D Volumes and Surface Areas"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -463,9 +436,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_15",
     "topics": [
       "3D Volumes and Surface Areas",
+      "3D Geometry",
       "Problem-Solving: Circle Basics",
-      "Algebraic Manipulation",
-      "Polynomials"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -495,9 +468,7 @@
     "answer": "236",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_2",
     "topics": [
-      "Mean Median Mode",
-      "Casework",
-      "Linear Inequalities"
+      "Mean Median Mode"
     ]
   },
   {
@@ -529,9 +500,7 @@
     "answer": "033",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_4",
     "topics": [
-      "System of Equations",
-      "Absolute Value Tricks",
-      "Combinations"
+      "System of Equations"
     ]
   },
   {
@@ -564,8 +533,7 @@
     "answer": "055",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_6",
     "topics": [
-      "Bases",
-      "Base Conversion"
+      "Number Theory"
     ]
   },
   {
@@ -616,8 +584,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_9",
     "topics": [
       "Linear Inequalities",
-      "Casework",
-      "Combinations",
       "Permutations with Repeated Elements"
     ]
   },
@@ -633,10 +599,10 @@
     "answer": "468",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
       "Problem-Solving: Inscribed Circles",
-      "Trigonometric Identities",
-      "Modular Arithmetic"
+      "Incenter"
     ]
   },
   {
@@ -650,10 +616,7 @@
     "answer": "601",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_11",
     "topics": [
-      "Casework",
-      "Polynomials",
-      "Algebraic Manipulation",
-      "Combinations"
+      "Number Theory"
     ]
   },
   {
@@ -667,10 +630,10 @@
     "answer": "023",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_12",
     "topics": [
-      "Length Chasing",
       "Area by Coordinates",
-      "Algebraic Manipulation",
-      "Polynomials"
+      "Length Chasing",
+      "Simplifying Radicals",
+      "Graphing Functions"
     ]
   },
   {
@@ -686,9 +649,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_13",
     "topics": [
       "Modular Arithmetic",
-      "Polynomials",
-      "Problem-Solving: Divisibility and Digits",
-      "Simplifying Radicals"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -721,10 +682,7 @@
     "answer": "315",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_15",
     "topics": [
-      "Casework",
-      "Problem-Solving: Quadrilaterals",
-      "Length Chasing",
-      "Linear Equations"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -740,9 +698,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_1",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Circle Basics",
-      "Fundamental Counting Principle",
-      "Permutations"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -787,7 +743,6 @@
     "answer": "012",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_4",
     "topics": [
-      "Counting Divisors",
       "2nd Degree Symmetric Sums"
     ]
   },
@@ -804,9 +759,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_5",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Algebraic Manipulation",
-      "Pythagorean theorem",
-      "Angle Chasing"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -821,10 +774,8 @@
     "answer": "051",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_6",
     "topics": [
-      "Linearity of Expectation",
       "Expected Value",
-      "Recursion",
-      "Introduction to Probability"
+      "Linearity of Expectation"
     ]
   },
   {
@@ -839,10 +790,7 @@
     "answer": "049",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_7",
     "topics": [
-      "Casework",
-      "Modular Arithmetic",
-      "Permutations",
-      "Logic"
+      "Number Theory"
     ]
   },
   {
@@ -857,9 +805,9 @@
     "answer": "125",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Circle Basics",
+      "Angle Chasing",
       "Circle Tangents",
+      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Inscribed Circles"
     ]
   },
@@ -875,9 +823,7 @@
     "answer": "738",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_9",
     "topics": [
-      "Polynomials",
-      "Casework",
-      "Problem-Solving: Polynomial Root Tricks"
+      "Polynomials"
     ]
   },
   {
@@ -892,10 +838,10 @@
     "answer": "944",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_10",
     "topics": [
-      "Modular Arithmetic",
       "Floor",
+      "Floor Functions",
       "Linear Inequalities",
-      "Floor Functions"
+      "Floor Function Strategies"
     ]
   },
   {
@@ -910,10 +856,10 @@
     "answer": "075",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_12",
     "topics": [
+      "Angle Chasing",
+      "Trigonometry",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -928,9 +874,9 @@
     "answer": "125",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_13",
     "topics": [
-      "3D Geometry",
       "Problem-Solving: Quadrilaterals",
       "Ratios and Rates",
+      "3D Geometry",
       "Simplifying Radicals"
     ]
   },
@@ -948,8 +894,7 @@
     "topics": [
       "Modular Arithmetic",
       "Problem-Solving: Angles on a Clock",
-      "Problem-Solving: Divisibility and Digits",
-      "Paths on a Grid"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -965,9 +910,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_15",
     "topics": [
       "Complex Numbers",
-      "Problem-Solving: Triangle Angles",
       "Simplifying Radicals",
-      "Logic"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -981,8 +925,7 @@
     "answer": "220",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_1",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Logic"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -1015,10 +958,10 @@
     "answer": "250",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_3",
     "topics": [
-      "Pythagorean theorem",
+      "Angle Chasing",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -1033,9 +976,6 @@
     "answer": "273",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_4",
     "topics": [
-      "Casework",
-      "Algebraic Manipulation",
-      "Variables",
       "System of Equations"
     ]
   },
@@ -1051,8 +991,7 @@
     "answer": "719",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_5",
     "topics": [
-      "Casework",
-      "Logic"
+      "Number Theory"
     ]
   },
   {
@@ -1068,9 +1007,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_6",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Areas",
-      "Geometric Probability",
-      "Complementary Counting"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1085,8 +1022,6 @@
     "answer": "928",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_7",
     "topics": [
-      "Casework",
-      "Logic",
       "Problem-Solving: Quadrilaterals",
       "Burnsides"
     ]
@@ -1103,10 +1038,8 @@
     "answer": "024",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_8",
     "topics": [
-      "Polynomials",
       "Trigonometry",
-      "Complex Numbers",
-      "Algebraic Manipulation"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -1121,10 +1054,10 @@
     "answer": "033",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_9",
     "topics": [
+      "Circle Tangents",
+      "Simplifying Radicals",
       "Problem-Solving: Quadrilaterals",
-      "Power of a Point",
-      "Problem-Solving: Circle Basics",
-      "Circle Tangents"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -1141,8 +1074,7 @@
     "topics": [
       "Divisor Counting",
       "Counting Divisors",
-      "Problem-Solving: Divisibility and Digits",
-      "Permutations"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -1156,10 +1088,7 @@
     "answer": "081",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_11",
     "topics": [
-      "Casework",
-      "Linear Inequalities",
-      "Combinations",
-      "Complementary Counting"
+      "Algebra"
     ]
   },
   {
@@ -1173,10 +1102,10 @@
     "answer": "247",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_12",
     "topics": [
-      "Algebraic Manipulation",
+      "Angle Chasing",
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Length Chasing",
-      "Similar Triangles"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -1190,10 +1119,10 @@
     "answer": "167",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_13",
     "topics": [
-      "Digit Problems",
       "Trigonometry",
-      "Finding the Last Digit",
-      "Digit Deduction"
+      "Digit Problems",
+      "Linear Inequalities",
+      "Finding the Last Digit"
     ]
   },
   {
@@ -1208,9 +1137,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_14",
     "topics": [
       "3D Geometry",
-      "3D Volumes and Surface Areas",
       "Problem-Solving: Quadrilaterals",
-      "Bases"
+      "3D Volumes and Surface Areas"
     ]
   },
   {
@@ -1227,8 +1155,7 @@
     "topics": [
       "Modular Arithmetic",
       "Recursion",
-      "Linear Inequalities",
-      "Digit Problems"
+      "Linear Inequalities"
     ]
   },
   {
@@ -1260,8 +1187,8 @@
     "topics": [
       "Digit Problems",
       "Bases",
-      "Problem-Solving: Divisibility and Digits",
-      "Modular Arithmetic"
+      "Base Conversion",
+      "Digit Deduction"
     ]
   },
   {
@@ -1276,10 +1203,9 @@
     "answer": "242",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Similar Triangles",
+      "Angle Chasing",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Modular Arithmetic"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -1294,10 +1220,7 @@
     "answer": "834",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_4",
     "topics": [
-      "Complex Numbers",
-      "Simplifying Radicals",
-      "Algebraic Manipulation",
-      "Bijections"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -1312,10 +1235,8 @@
     "answer": "550",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_5",
     "topics": [
-      "System of Equations",
       "Ratios and Rates",
-      "Distance, Rate, Time",
-      "Pythagorean theorem"
+      "System of Equations"
     ]
   },
   {
@@ -1330,10 +1251,7 @@
     "answer": "228",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_6",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Casework",
-      "Problem-Solving: Divisibility and Digits",
-      "Digit Problems"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -1363,10 +1281,10 @@
     "answer": "378",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
-      "Problem-Solving: Inscribed Circles",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Circle Basics",
+      "Simplifying Radicals",
+      "Handshakes"
     ]
   },
   {
@@ -1381,10 +1299,9 @@
     "answer": "247",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_9",
     "topics": [
-      "Permutations",
-      "Handshakes",
       "Introduction to Probability",
-      "Logic"
+      "Permutations",
+      "Handshakes"
     ]
   },
   {
@@ -1399,10 +1316,10 @@
     "answer": "756",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_10",
     "topics": [
-      "Cross Sections",
       "Modular Arithmetic",
       "Circle Tangents",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Connecting the Centers",
+      "Cross Sections"
     ]
   },
   {
@@ -1417,10 +1334,10 @@
     "answer": "150",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Circle Basics",
+      "Angle Chasing",
       "Circle Tangents",
-      "Problem-Solving: Areas"
+      "Simplifying Radicals",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -1436,9 +1353,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_12",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Linearity of Expectation",
-      "Arithmetic/Geometric Sequences"
+      "Arithmetic/Geometric Sequences",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -1471,10 +1387,8 @@
     "answer": "459",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_14",
     "topics": [
-      "Modular Arithmetic",
       "Problem-Solving: Triangle Angles",
-      "Linear Equations",
-      "Logic"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -1489,10 +1403,8 @@
     "answer": "033",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_15",
     "topics": [
-      "System of Equations",
-      "Algebraic Manipulation",
       "Simplifying Radicals",
-      "Casework"
+      "System of Equations"
     ]
   },
   {
@@ -1507,8 +1419,7 @@
     "answer": "154",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_1",
     "topics": [
-      "Logic",
-      "Problem-Solving: Divisibility and Digits"
+      "Algebra"
     ]
   },
   {
@@ -1523,10 +1434,8 @@
     "answer": "125",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_2",
     "topics": [
-      "Casework",
       "Introduction to Probability",
-      "Fundamental Counting Principle",
-      "Logic"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -1543,8 +1452,8 @@
     "topics": [
       "3D Geometry",
       "Problem-Solving: Circle Basics",
-      "Length Chasing",
-      "Bases"
+      "Bases",
+      "3D Volumes and Surface Areas"
     ]
   },
   {
@@ -1559,8 +1468,7 @@
     "answer": "112",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_4",
     "topics": [
-      "Logic",
-      "Bases"
+      "Number Theory"
     ]
   },
   {
@@ -1575,9 +1483,8 @@
     "answer": "072",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_5",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Casework",
       "Handshakes",
+      "Problem-Solving: Circle Basics",
       "Length Chasing"
     ]
   },
@@ -1593,9 +1500,7 @@
     "answer": "841",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_6",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Linear Inequalities",
-      "Logic"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -1610,10 +1515,10 @@
     "answer": "192",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_7",
     "topics": [
+      "Circle Tangents",
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
-      "Circle Tangents",
-      "Similar Triangles"
+      "Problem-Solving: Shaded Regions - Circles"
     ]
   },
   {
@@ -1628,10 +1533,10 @@
     "answer": "080",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_8",
     "topics": [
-      "Casework",
       "Floor",
+      "Floor Functions",
       "Linear Inequalities",
-      "Modular Arithmetic"
+      "Floor Function Strategies"
     ]
   },
   {
@@ -1646,10 +1551,7 @@
     "answer": "244",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_9",
     "topics": [
-      "Complementary Counting",
-      "Recursion",
-      "Casework",
-      "Symmetry"
+      "Number Theory"
     ]
   },
   {
@@ -1683,8 +1585,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1699,7 +1600,7 @@
     "answer": "023",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_12",
     "topics": [
-      "Absolute Value Tricks"
+      "Algebra"
     ]
   },
   {
@@ -1715,9 +1616,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_13",
     "topics": [
       "Polynomials",
-      "Binomial Theorem",
-      "Variables",
-      "Algebraic Manipulation"
+      "Binomial Theorem"
     ]
   },
   {
@@ -1732,10 +1631,9 @@
     "answer": "188",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_14",
     "topics": [
-      "Linear Inequalities",
-      "Arithmetic Word Problems",
       "Complementary Counting",
-      "Modular Arithmetic"
+      "Arithmetic Word Problems",
+      "Linear Inequalities"
     ]
   },
   {
@@ -1750,10 +1648,10 @@
     "answer": "140",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Connecting the Centers"
     ]
   },
   {
@@ -1768,9 +1666,7 @@
     "answer": "097",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_1",
     "topics": [
-      "Casework",
-      "Introduction to Probability",
-      "Logic"
+      "Introduction to Probability"
     ]
   },
   {
@@ -1788,7 +1684,7 @@
       "Problem-Solving: Weird Areas",
       "Problem-Solving: Areas",
       "Problem-Solving: Quadrilaterals",
-      "Similar Triangles"
+      "Problem-Solving: Shaded Regions - Circles"
     ]
   },
   {
@@ -1803,10 +1699,8 @@
     "answer": "050",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_3",
     "topics": [
-      "Casework",
       "Exponent Rules",
-      "Telescoping - Forcing It",
-      "Logic"
+      "Telescoping - Forcing It"
     ]
   },
   {
@@ -1821,10 +1715,7 @@
     "answer": "331",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_4",
     "topics": [
-      "Polynomials",
-      "Permutations with Repeated Elements",
-      "Casework",
-      "Clever Substitutions"
+      "Permutations with Repeated Elements"
     ]
   },
   {
@@ -1839,10 +1730,7 @@
     "answer": "031",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_5",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Parity Reasoning",
-      "Modular Arithmetic",
-      "Variables"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -1858,9 +1746,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_6",
     "topics": [
       "3D Geometry",
-      "Simplifying Radicals",
-      "Problem-Solving: Coordinate Bashing",
-      "Length Chasing"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -1875,9 +1761,6 @@
     "answer": "063",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_7",
     "topics": [
-      "Casework",
-      "Modular Arithmetic",
-      "Ratios and Rates",
       "Trigonometry"
     ]
   },
@@ -1892,10 +1775,7 @@
     "answer": "057",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_8",
     "topics": [
-      "Absolute Value Tricks",
-      "Casework",
-      "Graphing Functions",
-      "Linear Inequalities"
+      "Absolute Value Tricks"
     ]
   },
   {
@@ -1910,10 +1790,9 @@
     "answer": "567",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Areas",
-      "Pythagorean theorem"
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1927,7 +1806,7 @@
     "answer": "059",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_10",
     "topics": [
-      "Simons Favorite Factoring Trick"
+      "Number Theory"
     ]
   },
   {
@@ -1941,10 +1820,9 @@
     "answer": "301",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_11",
     "topics": [
+      "Problem-Solving: Quadrilaterals",
       "Ptolemy's Theorem",
-      "Problem-Solving: Using Cyclic Quadrilaterals",
-      "Similar Triangles",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Using Cyclic Quadrilaterals"
     ]
   },
   {
@@ -1959,9 +1837,9 @@
     "answer": "019",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_12",
     "topics": [
+      "Expected Value",
       "System of Equations",
       "Fundamental Counting Principle",
-      "Expected Value",
       "Linearity of Expectation"
     ]
   },
@@ -1977,10 +1855,9 @@
     "answer": "672",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
-      "Problem-Solving: Connecting the Centers",
-      "Similar Triangles"
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Connecting the Centers"
     ]
   },
   {
@@ -1996,7 +1873,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_14",
     "topics": [
       "Counting Divisors",
-      "Modular Arithmetic",
       "Divisor Counting",
       "Problem-Solving: Divisibility and Digits"
     ]
@@ -2015,7 +1891,6 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Linear Inequalities",
-      "Polynomials",
       "Problem-Solving: Using Cyclic Quadrilaterals"
     ]
   },
@@ -2033,8 +1908,8 @@
     "topics": [
       "Mean Median Mode",
       "Palindromes",
-      "Casework",
-      "Digit Problems"
+      "Digit Problems",
+      "Inequalities (AM-GM)"
     ]
   },
   {
@@ -2050,9 +1925,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_2",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Length Chasing",
       "Ratios and Rates",
-      "Variables"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -2067,10 +1942,7 @@
     "answer": "080",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
-      "Casework",
-      "Modular Arithmetic",
-      "Symmetry"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -2086,9 +1958,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_4",
     "topics": [
       "Complex Numbers",
-      "Vieta's Formulas",
-      "Polynomials",
-      "Problem-Solving: Divisibility and Digits"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -2103,10 +1973,9 @@
     "answer": "736",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_5",
     "topics": [
-      "Casework",
+      "Modular Arithmetic",
       "Pythagorean theorem",
-      "Problem-Solving: Areas",
-      "Linear Inequalities"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2121,10 +1990,7 @@
     "answer": "454",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_6",
     "topics": [
-      "Casework",
-      "Inclusion-Exclusion",
-      "Complementary Counting",
-      "Overcounting"
+      "Counting"
     ]
   },
   {
@@ -2138,10 +2004,8 @@
     "answer": "145",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_7",
     "topics": [
-      "Algebraic Manipulation",
-      "Casework",
       "System of Equations",
-      "Variables"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -2157,9 +2021,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_8",
     "topics": [
       "Introduction to Probability",
-      "Casework",
       "3D Geometry",
-      "States"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -2174,9 +2037,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_9",
     "topics": [
       "GCD/LCM",
-      "GCD and LCM",
-      "Logic",
-      "Counting Divisors"
+      "GCD and LCM"
     ]
   },
   {
@@ -2192,8 +2053,8 @@
     "topics": [
       "Circle Tangents",
       "3D Geometry",
-      "Problem-Solving: Circle Basics",
-      "Absolute Value Tricks"
+      "Absolute Value Tricks",
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -2210,7 +2071,6 @@
     "topics": [
       "Problem-Solving: Divisibility and Digits",
       "Digit Problems",
-      "Casework",
       "Digit Deduction"
     ]
   },
@@ -2226,10 +2086,9 @@
     "answer": "047",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_12",
     "topics": [
+      "Trigonometry",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas",
-      "Symmetry",
-      "Trigonometry"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2244,10 +2103,7 @@
     "answer": "797",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_13",
     "topics": [
-      "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Algebraic Manipulation",
-      "Chinese Remainder Theorem"
+      "Number Theory"
     ]
   },
   {
@@ -2262,10 +2118,10 @@
     "answer": "592",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_14",
     "topics": [
-      "Circle Angles",
+      "Conditional Probability",
+      "Angle Chasing",
       "Circle Tangents",
-      "Problem-Solving: Triangle Angles",
-      "Conditional Probability"
+      "Ratios and Rates"
     ]
   },
   {
@@ -2280,10 +2136,8 @@
     "answer": "258",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_15",
     "topics": [
-      "Modular Arithmetic",
-      "Casework",
-      "Parity Reasoning",
-      "Recursion"
+      "Simplifying Radicals",
+      "Casework"
     ]
   },
   {
@@ -2298,10 +2152,10 @@
     "answer": "547",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_1",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
-      "Polynomials",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
+      "Polynomials"
     ]
   },
   {
@@ -2317,9 +2171,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_2",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Ratios and Rates",
-      "Algebraic Manipulation",
-      "Sequences and Series"
+      "Ratios and Rates"
     ]
   },
   {
@@ -2334,8 +2186,8 @@
     "answer": "621",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_3",
     "topics": [
-      "Bases",
       "Base Conversion",
+      "Bases",
       "Digit Problems"
     ]
   },
@@ -2351,9 +2203,7 @@
     "answer": "093",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_4",
     "topics": [
-      "Digit Problems",
-      "Counting Divisors",
-      "Digit Deduction"
+      "Digit Problems"
     ]
   },
   {
@@ -2368,10 +2218,7 @@
     "answer": "052",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_5",
     "topics": [
-      "Casework",
-      "Permutations",
-      "Combinations",
-      "Overcounting"
+      "Permutations"
     ]
   },
   {
@@ -2386,10 +2233,9 @@
     "answer": "173",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_6",
     "topics": [
+      "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Pythagorean theorem",
-      "Problem-Solving: Connecting the Centers",
-      "Circle Tangents"
+      "Problem-Solving: Connecting the Centers"
     ]
   },
   {
@@ -2404,9 +2250,7 @@
     "answer": "081",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_7",
     "topics": [
-      "Combinations",
-      "Casework",
-      "Recursion"
+      "Combinations"
     ]
   },
   {
@@ -2421,10 +2265,7 @@
     "answer": "103",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_8",
     "topics": [
-      "Complex Numbers",
-      "Sequences and Series",
-      "Distance, Rate, Time",
-      "Pythagorean theorem"
+      "Number Theory"
     ]
   },
   {
@@ -2440,9 +2281,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_9",
     "topics": [
       "Introduction to Probability",
-      "Counting Divisors",
       "Divisor Counting",
-      "Exponent Rules"
+      "Counting Divisors"
     ]
   },
   {
@@ -2457,10 +2297,8 @@
     "answer": "407",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_10",
     "topics": [
-      "Linear Inequalities",
-      "Problem-Solving: Divisibility and Digits",
       "GCD/LCM",
-      "Digit Problems"
+      "GCD and LCM"
     ]
   },
   {
@@ -2475,10 +2313,7 @@
     "answer": "510",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_11",
     "topics": [
-      "Functions - f(x) Notation",
-      "Casework",
-      "Vieta's Formulas",
-      "Linear Inequalities"
+      "Functions - f(x) Notation"
     ]
   },
   {
@@ -2493,10 +2328,9 @@
     "answer": "270",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_12",
     "topics": [
-      "Modular Arithmetic",
       "Divisor Counting",
       "Counting Divisors",
-      "Algebraic Manipulation"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -2511,10 +2345,10 @@
     "answer": "036",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_13",
     "topics": [
+      "Angle Chasing",
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Coordinate Bashing",
-      "Angle Bisector Theorem",
-      "Length Chasing"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -2530,8 +2364,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_14",
     "topics": [
       "Polynomials",
-      "Casework",
-      "Vieta's Formulas",
       "Complex Numbers"
     ]
   },
@@ -2547,10 +2379,10 @@
     "answer": "058",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles"
+      "Simplifying Radicals",
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -2580,10 +2412,10 @@
     "answer": "171",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_2",
     "topics": [
-      "Introduction to Probability",
       "Area by Coordinates",
-      "Linear Equations",
-      "Linear Inequalities"
+      "Introduction to Probability",
+      "Linear Inequalities",
+      "Linear Equations"
     ]
   },
   {
@@ -2598,9 +2430,7 @@
     "answer": "103",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_3",
     "topics": [
-      "Logarithms",
-      "Exponents with Algebra",
-      "Bases"
+      "Exponents with Algebra"
     ]
   },
   {
@@ -2617,8 +2447,8 @@
     "topics": [
       "Area by Coordinates",
       "Angle Chasing",
-      "Pythagorean theorem",
-      "Graphing Functions"
+      "Graphing Functions",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -2635,8 +2465,8 @@
     "topics": [
       "Modular Arithmetic",
       "Digit Problems",
-      "Base Conversion",
-      "Digit Deduction"
+      "Digit Deduction",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -2666,9 +2496,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_7",
     "topics": [
       "3D Geometry",
+      "Modular Arithmetic",
       "Problem-Solving: Circle Basics",
-      "Bases",
-      "Problem-Solving: Coordinate Bashing"
+      "Bases"
     ]
   },
   {
@@ -2682,8 +2512,7 @@
     "answer": "101",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_8",
     "topics": [
-      "Recursion",
-      "Arithmetic/Geometric Sequences"
+      "Recursion"
     ]
   },
   {
@@ -2697,10 +2526,7 @@
     "answer": "090",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_9",
     "topics": [
-      "Casework",
-      "Permutations",
-      "Recursion",
-      "Linear Inequalities"
+      "Permutations"
     ]
   },
   {
@@ -2715,9 +2541,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_10",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Casework",
-      "Arithmetic/Geometric Sequences"
+      "Arithmetic/Geometric Sequences",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -2733,9 +2558,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_11",
     "topics": [
       "Polynomials",
-      "Problem-Solving: Polynomial Root Tricks",
       "Handshakes",
-      "Binomial Theorem"
+      "Binomial Theorem",
+      "Create New Polynomial"
     ]
   },
   {
@@ -2751,9 +2576,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_12",
     "topics": [
       "Linear Equations",
-      "Problem-Solving: Connecting the Centers",
       "Problem-Solving: Quadrilaterals",
-      "Casework"
+      "Problem-Solving: Connecting the Centers"
     ]
   },
   {
@@ -2768,10 +2592,10 @@
     "answer": "060",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Inscribed Circles",
       "Circle Tangents",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -2788,7 +2612,7 @@
     "topics": [
       "Modular Arithmetic",
       "Floor",
-      "Problem-Solving: Divisibility and Digits",
+      "Floor Functions",
       "Linear Inequalities"
     ]
   },
@@ -2804,10 +2628,8 @@
     "answer": "717",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums",
-      "Similar Triangles"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -2823,9 +2645,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_2",
     "topics": [
       "Linear Inequalities",
-      "Introduction to Probability",
-      "Fundamental Counting Principle",
-      "Casework"
+      "Introduction to Probability"
     ]
   },
   {
@@ -2842,8 +2662,7 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Area by Coordinates"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2858,9 +2677,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_4",
     "topics": [
       "Modular Arithmetic",
-      "Recursion",
       "Algebraic Manipulation",
-      "Problem-Solving: Divisibility and Digits"
+      "Problem-Solving: Divisibility and Digits",
+      "Problem-Solving: Trigonometric Substitutions in Algebra"
     ]
   },
   {
@@ -2877,8 +2696,7 @@
     "topics": [
       "Introduction to Probability",
       "Area by Coordinates",
-      "Problem-Solving: Divisibility and Digits",
-      "Recursion"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -2893,10 +2711,8 @@
     "answer": "090",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_6",
     "topics": [
-      "Similar Triangles",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Circle Basics",
-      "Linear Equations"
+      "Linear Equations",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -2913,8 +2729,8 @@
     "topics": [
       "Counting Divisors",
       "GCD/LCM",
-      "GCD and LCM",
-      "System of Equations"
+      "System of Equations",
+      "GCD and LCM"
     ]
   },
   {
@@ -2929,10 +2745,7 @@
     "answer": "067",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_8",
     "topics": [
-      "Trigonometry",
-      "Polynomials",
-      "Vieta's Formulas",
-      "Recursion"
+      "Trigonometry"
     ]
   },
   {
@@ -2948,9 +2761,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_9",
     "topics": [
       "Divisor Counting",
-      "Casework",
-      "Counting Divisors",
-      "Inclusion-Exclusion"
+      "Counting Divisors"
     ]
   },
   {
@@ -2966,7 +2777,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_10",
     "topics": [
       "Polynomials",
-      "Vieta's Formulas",
+      "Arithmetic/Geometric Sequences",
       "Complex Numbers",
       "Linear Inequalities"
     ]
@@ -2984,9 +2795,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_11",
     "topics": [
       "Circle Tangents",
-      "Problem-Solving: Excenter",
       "Problem-Solving: Circle Basics",
-      "Pythagorean theorem"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -3002,9 +2813,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_12",
     "topics": [
       "Complex Numbers",
+      "Simplifying Radicals",
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Angle Chasing"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -3019,10 +2830,10 @@
     "answer": "032",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_13",
     "topics": [
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Divisibility and Digits",
-      "Similar Triangles",
-      "Power of a Point"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -3037,8 +2848,7 @@
     "answer": "097",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_14",
     "topics": [
-      "Modular Arithmetic",
-      "Logic"
+      "Number Theory"
     ]
   },
   {
@@ -3053,10 +2863,8 @@
     "answer": "065",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
-      "Power of a Point",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -3071,10 +2879,10 @@
     "answer": "059",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_1",
     "topics": [
-      "Pythagorean theorem",
-      "Problem-Solving: Quadrilaterals",
       "Modular Arithmetic",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3090,9 +2898,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_2",
     "topics": [
       "Introduction to Probability",
-      "Casework",
-      "Permutations",
-      "States"
+      "Permutations"
     ]
   },
   {
@@ -3107,8 +2913,6 @@
     "answer": "096",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_3",
     "topics": [
-      "Counting Divisors",
-      "Divisor Counting",
       "3rd Degree Symmetric Sums"
     ]
   },
@@ -3124,10 +2928,7 @@
     "answer": "187",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_4",
     "topics": [
-      "Casework",
-      "Introduction to Probability",
-      "Counting Divisors",
-      "Fundamental Counting Principle"
+      "Introduction to Probability"
     ]
   },
   {
@@ -3143,9 +2944,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_5",
     "topics": [
       "Modular Arithmetic",
-      "Permutations",
-      "Problem-Solving: Divisibility and Digits",
-      "Factorial"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3160,8 +2959,8 @@
     "answer": "216",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_6",
     "topics": [
-      "Algebraic Manipulation",
       "Logarithms",
+      "Simplifying Radicals",
       "System of Equations",
       "Bases"
     ]
@@ -3179,8 +2978,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_7",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Similar Triangles",
-      "Problem-Solving: Isosceles Equilateral Triangles",
       "3rd Degree Symmetric Sums"
     ]
   },
@@ -3197,9 +2994,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_8",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
+      "Simplifying Radicals",
       "Polynomials",
-      "Simplifying Radicals"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3214,10 +3011,9 @@
     "answer": "472",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_9",
     "topics": [
-      "Counting Divisors",
       "Divisor Counting",
-      "Problem-Solving: Divisibility and Digits",
-      "Casework"
+      "Counting Divisors",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3232,10 +3028,8 @@
     "answer": "547",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_10",
     "topics": [
-      "Sequences and Series",
-      "Polynomials",
-      "Exponent Rules",
-      "Trigonometry"
+      "Trigonometry",
+      "Polynomials"
     ]
   },
   {
@@ -3250,10 +3044,10 @@
     "answer": "011",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
+      "Problem-Solving: Circle Basics",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Connecting the Centers"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -3286,7 +3080,7 @@
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -3300,10 +3094,7 @@
     "answer": "071",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_14",
     "topics": [
-      "Casework",
-      "Modular Arithmetic",
-      "Arithmetic Word Problems",
-      "Chicken McNugget"
+      "Arithmetic Word Problems"
     ]
   },
   {
@@ -3318,10 +3109,10 @@
     "answer": "574",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_15",
     "topics": [
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Divisibility and Digits",
-      "Power of a Point",
-      "Simplifying Radicals"
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3338,8 +3129,7 @@
     "topics": [
       "Modular Arithmetic",
       "Polynomials",
-      "Stars and Bars",
-      "Casework"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3370,7 +3160,6 @@
     "answer": "157",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_3",
     "topics": [
-      "Casework",
       "Introduction to Probability",
       "Permutations",
       "Logic"
@@ -3388,9 +3177,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_4",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Variables",
-      "Pythagorean theorem",
-      "Law of Sines"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -3420,7 +3207,7 @@
     "topics": [
       "Modular Arithmetic",
       "Complex Numbers",
-      "Polynomials",
+      "Factorial",
       "Problem-Solving: Divisibility and Digits"
     ]
   },
@@ -3436,9 +3223,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_7",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Casework",
       "3D Geometry",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Triangle Angles",
+      "Length Chasing"
     ]
   },
   {
@@ -3453,9 +3240,7 @@
     "answer": "210",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_9",
     "topics": [
-      "Casework",
-      "Venn Diagrams",
-      "Fundamental Counting Principle"
+      "Algebra"
     ]
   },
   {
@@ -3471,9 +3256,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_10",
     "topics": [
       "Modular Arithmetic",
-      "Casework",
       "Problem-Solving: Circle Basics",
-      "Bijections"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3489,7 +3273,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_11",
     "topics": [
       "Bases",
-      "Modular Arithmetic",
       "Digit Problems",
       "Base Conversion"
     ]
@@ -3506,8 +3289,6 @@
     "answer": "683",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_12",
     "topics": [
-      "Casework",
-      "Modular Arithmetic",
       "Introduction to Probability",
       "Problem-Solving: Divisibility and Digits"
     ]
@@ -3524,10 +3305,9 @@
     "answer": "126",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Areas",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Angle Bisector Theorem"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3542,8 +3322,7 @@
     "answer": "351",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_14",
     "topics": [
-      "Recursion",
-      "Length Chasing"
+      "Algebra"
     ]
   },
   {
@@ -3559,9 +3338,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_15",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas",
-      "Modular Arithmetic"
+      "Modular Arithmetic",
+      "Trigonometry",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -3576,7 +3355,6 @@
     "answer": "800",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_1",
     "topics": [
-      "Distance, Rate, Time",
       "Absolute Value Tricks"
     ]
   },
@@ -3593,7 +3371,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_2",
     "topics": [
       "Modular Arithmetic",
-      "Polynomials",
       "Recursion",
       "Problem-Solving: Divisibility and Digits"
     ]
@@ -3612,8 +3389,7 @@
     "topics": [
       "Base Conversion",
       "3D Geometry",
-      "Bases",
-      "Divisibility Reasoning"
+      "Bases"
     ]
   },
   {
@@ -3628,10 +3404,9 @@
     "answer": "023",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_4",
     "topics": [
+      "Simplifying Radicals",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Coordinate Bashing",
-      "Simplifying Radicals"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3647,9 +3422,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_5",
     "topics": [
       "Complex Numbers",
-      "Algebraic Manipulation",
-      "Casework",
-      "Variables"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -3665,9 +3438,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_6",
     "topics": [
       "Polynomials",
-      "Problem-Solving: Polynomial Root Tricks",
       "Vieta's Formulas",
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Problem-Solving: Polynomial Root Tricks"
     ]
   },
   {
@@ -3683,9 +3456,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_7",
     "topics": [
       "Length Chasing",
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Ratios and Rates"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -3700,7 +3473,6 @@
     "answer": "556",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_8",
     "topics": [
-      "Casework",
       "Area by Coordinates",
       "Graphing Functions"
     ]
@@ -3719,8 +3491,7 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas",
-      "Area by Coordinates"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3735,10 +3506,8 @@
     "answer": "756",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_10",
     "topics": [
-      "Casework",
-      "Combinations",
-      "Complementary Counting",
-      "Linear Inequalities"
+      "Functions - f(x) Notation",
+      "Functional Equations"
     ]
   },
   {
@@ -3753,10 +3522,9 @@
     "answer": "461",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_11",
     "topics": [
-      "Casework",
-      "Permutations",
       "Complementary Counting",
-      "Digit Problems"
+      "Linear Inequalities",
+      "Permutations"
     ]
   },
   {
@@ -3771,8 +3539,8 @@
     "answer": "112",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_12",
     "topics": [
+      "Simplifying Radicals",
       "Problem-Solving: Quadrilaterals",
-      "Law of Cosines",
       "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Problem-Solving: Areas"
     ]
@@ -3789,10 +3557,7 @@
     "answer": "647",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_13",
     "topics": [
-      "Introduction to Probability",
-      "States",
-      "Digit Problems",
-      "Ratios and Rates"
+      "Introduction to Probability"
     ]
   },
   {
@@ -3808,9 +3573,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_14",
     "topics": [
       "Circle Tangents",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Inscribed Circles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -3825,10 +3590,7 @@
     "answer": "185",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_15",
     "topics": [
-      "Casework",
-      "Linear Inequalities",
-      "Permutations",
-      "Stars and Bars"
+      "Functions - f(x) Notation"
     ]
   },
   {
@@ -3844,9 +3606,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_1",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Casework",
-      "Combinations"
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3861,8 +3622,8 @@
     "answer": "062",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_2",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
-      "Modular Arithmetic"
+      "Modular Arithmetic",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3896,9 +3657,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_10",
     "topics": [
       "Complex Numbers",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Using Cyclic Quadrilaterals",
-      "Algebraic Manipulation"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -3915,8 +3674,8 @@
     "topics": [
       "Modular Arithmetic",
       "Mean Median Mode",
-      "Introduction to Probability",
-      "Combinations"
+      "Problem-Solving: Divisibility and Digits",
+      "Problem-Solving: Centroid"
     ]
   },
   {
@@ -3931,8 +3690,7 @@
     "answer": "252",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_12",
     "topics": [
-      "Casework",
-      "Introduction to Probability"
+      "Algebra"
     ]
   },
   {
@@ -3949,7 +3707,6 @@
     "topics": [
       "Modular Arithmetic",
       "3D Geometry",
-      "Linear Inequalities",
       "Problem-Solving: Divisibility and Digits"
     ]
   },
@@ -3966,9 +3723,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_14",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Polynomial Remainder",
-      "Chinese Remainder Theorem"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -3983,10 +3738,10 @@
     "answer": "145",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_15",
     "topics": [
-      "Complex Numbers",
+      "Simplifying Radicals",
       "Pythagorean theorem",
-      "Variables",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -4001,10 +3756,7 @@
     "answer": "196",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_1",
     "topics": [
-      "Inclusion-Exclusion",
-      "Complementary Counting",
-      "Linear Inequalities",
-      "Combinations"
+      "Inclusion-Exclusion"
     ]
   },
   {
@@ -4020,7 +3772,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_2",
     "topics": [
       "Introduction to Probability",
-      "Casework",
       "Fundamental Counting Principle"
     ]
   },
@@ -4038,8 +3789,7 @@
     "topics": [
       "Area by Coordinates",
       "Introduction to Probability",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -4056,8 +3806,8 @@
     "topics": [
       "Digit Problems",
       "Base Conversion",
-      "Bases",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Digit Deduction"
     ]
   },
   {
@@ -4072,9 +3822,7 @@
     "answer": "195",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_6",
     "topics": [
-      "Simplifying Radicals",
-      "Casework",
-      "Telescoping - Forcing It"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -4089,8 +3837,7 @@
     "answer": "501",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_7",
     "topics": [
-      "Logarithms",
-      "Logic"
+      "Logarithms"
     ]
   },
   {
@@ -4105,10 +3852,7 @@
     "answer": "134",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_8",
     "topics": [
-      "Modular Arithmetic",
-      "Algebraic Manipulation",
-      "Polynomials",
-      "Problem-Solving: Divisibility and Digits"
+      "Factorial"
     ]
   },
   {
@@ -4123,10 +3867,10 @@
     "answer": "013",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_9",
     "topics": [
-      "Combinations",
       "Introduction to Probability",
-      "Casework",
-      "Fundamental Counting Principle"
+      "Combinations",
+      "Complementary Counting",
+      "Linear Inequalities"
     ]
   },
   {
@@ -4143,8 +3887,7 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Area by Coordinates"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4159,10 +3902,7 @@
     "answer": "544",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_11",
     "topics": [
-      "Complementary Counting",
-      "Handshakes",
-      "Linear Inequalities",
-      "Casework"
+      "Handshakes"
     ]
   },
   {
@@ -4179,8 +3919,7 @@
     "topics": [
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Absolute Value Tricks",
-      "Sequences and Series"
+      "Absolute Value Tricks"
     ]
   },
   {
@@ -4196,9 +3935,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_13",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Casework",
-      "Problem-Solving: Triangle Angles",
-      "Modular Arithmetic"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -4213,10 +3950,7 @@
     "answer": "168",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_14",
     "topics": [
-      "Casework",
-      "Pigeonhole",
-      "Complementary Counting",
-      "3D Geometry"
+      "Number Theory"
     ]
   },
   {
@@ -4232,9 +3966,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_15",
     "topics": [
       "3D Geometry",
-      "Symmetry",
-      "Problem-Solving: Divisibility and Digits",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Functions - f(x) Notation",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -4280,10 +4014,10 @@
     "answer": "810",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Polygons",
       "3D Geometry",
-      "Casework",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Polygons",
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -4299,8 +4033,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_4",
     "topics": [
       "3D Geometry",
-      "Bases",
       "Angle Chasing",
+      "Bases",
       "Length Chasing"
     ]
   },
@@ -4331,10 +4065,10 @@
     "answer": "013",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Inscribed Circles",
+      "Angle Chasing",
+      "Linear Equations",
       "Problem-Solving: Circle Basics",
-      "Algebraic Manipulation",
-      "Linear Equations"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -4350,7 +4084,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_7",
     "topics": [
       "Complex Numbers",
-      "Casework",
       "Simplifying Radicals"
     ]
   },
@@ -4367,9 +4100,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_8",
     "topics": [
       "Digit Problems",
-      "Finding the Last Digit",
       "Inequalities (AM-GM)",
-      "Digit Deduction"
+      "Permutations",
+      "Finding the Last Digit"
     ]
   },
   {
@@ -4384,10 +4117,10 @@
     "answer": "744",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_9",
     "topics": [
-      "Complex Numbers",
-      "Problem-Solving: Triangle Angles",
+      "Trigonometry",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Inscribed Circles"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -4402,8 +4135,7 @@
     "answer": "504",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_10",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Counting Divisors"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -4418,9 +4150,7 @@
     "answer": "109",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_11",
     "topics": [
-      "Polynomials",
-      "Telescoping - Forcing It",
-      "Problem-Solving: Polynomial Root Tricks"
+      "Polynomials"
     ]
   },
   {
@@ -4435,10 +4165,7 @@
     "answer": "132",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_12",
     "topics": [
-      "Linear Inequalities",
-      "Modular Arithmetic",
-      "Casework",
-      "Problem-Solving: Divisibility and Digits"
+      "Linear Inequalities"
     ]
   },
   {
@@ -4453,9 +4180,9 @@
     "answer": "574",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_14",
     "topics": [
-      "Length Chasing",
-      "Problem-Solving: Circle Basics",
       "Area by Coordinates",
+      "Problem-Solving: Circle Basics",
+      "Length Chasing",
       "Graphing Functions"
     ]
   },
@@ -4471,8 +4198,7 @@
     "answer": "108",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_1",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Ratios and Rates"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -4489,8 +4215,8 @@
     "topics": [
       "Introduction to Probability",
       "Complementary Counting",
-      "Linear Inequalities",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Linear Inequalities"
     ]
   },
   {
@@ -4535,9 +4261,7 @@
     "answer": "840",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Areas",
-      "Arithmetic/Geometric Sequences",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4552,10 +4276,7 @@
     "answer": "728",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_8",
     "topics": [
-      "Casework",
-      "Overcounting",
-      "Combinations",
-      "Counting Divisors"
+      "Number Theory"
     ]
   },
   {
@@ -4570,10 +4291,7 @@
     "answer": "262",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_9",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Casework",
-      "Ratios and Rates",
-      "Algebraic Manipulation"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -4588,10 +4306,10 @@
     "answer": "043",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Inscribed Circles",
-      "Power of a Point"
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -4606,9 +4324,9 @@
     "answer": "749",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_11",
     "topics": [
-      "Counting Divisors",
+      "Inclusion-Exclusion",
       "Divisor Counting",
-      "Inclusion-Exclusion"
+      "Counting Divisors"
     ]
   },
   {
@@ -4623,10 +4341,9 @@
     "answer": "732",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_12",
     "topics": [
-      "Casework",
-      "Complementary Counting",
+      "3D Geometry",
       "Combinations",
-      "Linearity of Expectation"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -4641,10 +4358,7 @@
     "answer": "371",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_13",
     "topics": [
-      "Expected Value",
-      "Casework",
-      "Linearity of Expectation",
-      "Linear Inequalities"
+      "Expected Value"
     ]
   },
   {
@@ -4659,10 +4373,10 @@
     "answer": "450",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_14",
     "topics": [
-      "Pythagorean theorem",
+      "Absolute Value Tricks",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Coordinate Bashing"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -4692,10 +4406,8 @@
     "answer": "139",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_2",
     "topics": [
-      "Inclusion-Exclusion",
       "Introduction to Probability",
-      "States",
-      "Combinations"
+      "States"
     ]
   },
   {
@@ -4710,9 +4422,9 @@
     "answer": "507",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_4",
     "topics": [
-      "Mean Median Mode",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
+      "Length Chasing",
       "Problem-Solving: Areas"
     ]
   },
@@ -4729,9 +4441,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_5",
     "topics": [
       "Introduction to Probability",
-      "Handshakes",
-      "Casework",
-      "Combinations"
+      "Handshakes"
     ]
   },
   {
@@ -4747,8 +4457,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_6",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Polynomials",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Polynomials"
     ]
   },
   {
@@ -4763,10 +4473,7 @@
     "answer": "539",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Areas",
-      "Variables",
-      "Algebraic Manipulation",
-      "Length Chasing"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4781,8 +4488,7 @@
     "answer": "494",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_9",
     "topics": [
-      "Casework",
-      "Absolute Value Tricks"
+      "Number Theory"
     ]
   },
   {
@@ -4797,10 +4503,8 @@
     "answer": "072",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_10",
     "topics": [
-      "Polynomials",
-      "Algebraic Manipulation",
       "Functions - f(x) Notation",
-      "Vieta's Formulas"
+      "Polynomials"
     ]
   },
   {
@@ -4815,10 +4519,9 @@
     "answer": "108",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_11",
     "topics": [
+      "Angle Chasing",
       "Problem-Solving: Triangle Angles",
-      "Pythagorean theorem",
-      "3rd Degree Symmetric Sums",
-      "Problem-Solving: Inscribed Circles"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -4834,9 +4537,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_12",
     "topics": [
       "Mean Median Mode",
-      "Combinations",
-      "Expected Value",
-      "Inequalities (AM-GM)"
+      "Inequalities (AM-GM)",
+      "Combinations"
     ]
   },
   {
@@ -4851,9 +4553,7 @@
     "answer": "091",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_13",
     "topics": [
-      "Angle Chasing",
-      "Polynomials",
-      "Problem-Solving: Polynomial Root Tricks"
+      "Angle Chasing"
     ]
   },
   {
@@ -4868,10 +4568,10 @@
     "answer": "483",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Areas",
-      "Graphing Functions",
       "Floor",
-      "Area by Coordinates"
+      "Problem-Solving: Areas",
+      "Area by Coordinates",
+      "Floor Functions"
     ]
   },
   {
@@ -4886,10 +4586,10 @@
     "answer": "053",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "3D Geometry",
-      "Problem-Solving: Areas",
-      "Pythagorean theorem"
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -4905,8 +4605,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_1",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -4937,10 +4637,8 @@
     "answer": "476",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
       "Digit Problems",
-      "Casework",
-      "Digit Deduction"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -4955,7 +4653,7 @@
     "answer": "018",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_4",
     "topics": [
-      "Pythagorean theorem",
+      "Logarithms",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Quadrilaterals",
       "Length Chasing"
@@ -4973,10 +4671,7 @@
     "answer": "090",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_5",
     "topics": [
-      "Introduction to Probability",
-      "Algebraic Manipulation",
-      "Casework",
-      "Fundamental Counting Principle"
+      "Introduction to Probability"
     ]
   },
   {
@@ -4992,8 +4687,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_6",
     "topics": [
       "Polynomials",
-      "Problem-Solving: Polynomial Root Tricks",
-      "Create New Polynomial"
+      "Create New Polynomial",
+      "Problem-Solving: Polynomial Root Tricks"
     ]
   },
   {
@@ -5008,10 +4703,10 @@
     "answer": "161",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_7",
     "topics": [
-      "Variables",
       "Polynomials",
-      "Problem-Solving: Quadrilaterals",
-      "Algebraic Manipulation"
+      "Variables",
+      "Algebraic Manipulation",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -5026,10 +4721,7 @@
     "answer": "036",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_8",
     "topics": [
-      "AIME-level Inequalities",
-      "Simons Favorite Factoring Trick",
-      "Inclusion-Exclusion",
-      "Inequalities (AM-GM)"
+      "AIME-level Inequalities"
     ]
   },
   {
@@ -5046,8 +4738,8 @@
     "topics": [
       "3D Geometry",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: 3D Geometry",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "3D Volumes and Surface Areas",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -5077,9 +4769,7 @@
     "answer": "023",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Problem-Solving: Triangle Angles",
-      "Power of a Point",
       "3rd Degree Symmetric Sums"
     ]
   },
@@ -5095,10 +4785,7 @@
     "answer": "548",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_12",
     "topics": [
-      "Recursion",
-      "Permutations with Repeated Elements",
-      "Casework",
-      "Fundamental Counting Principle"
+      "Permutations with Repeated Elements"
     ]
   },
   {
@@ -5113,10 +4800,8 @@
     "answer": "628",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_13",
     "topics": [
-      "Complex Numbers",
-      "Trigonometry",
-      "Problem-Solving: Circle Basics",
-      "Recursion"
+      "Recursion",
+      "Trigonometry"
     ]
   },
   {
@@ -5131,10 +4816,7 @@
     "answer": "089",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_14",
     "topics": [
-      "Algebraic Manipulation",
-      "Polynomials",
-      "3D Geometry",
-      "Variables"
+      "Algebra"
     ]
   },
   {
@@ -5149,10 +4831,10 @@
     "answer": "129",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_15",
     "topics": [
-      "Pythagorean theorem",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Circle Tangents",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Triangle Angles",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5169,8 +4851,7 @@
     "topics": [
       "Linear Inequalities",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing",
-      "Pythagorean Triples"
+      "Length Chasing"
     ]
   },
   {
@@ -5185,8 +4866,7 @@
     "answer": "134",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_5",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -5202,9 +4882,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_7",
     "topics": [
       "Complex Numbers",
-      "Problem-Solving: Circle Basics",
-      "AIME-level Inequalities",
-      "Inequalities (AM-GM)"
+      "Trigonometry",
+      "AIME-level Inequalities"
     ]
   },
   {
@@ -5219,9 +4898,8 @@
     "answer": "002",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_9",
     "topics": [
+      "Simplifying Radicals",
       "Polynomials",
-      "Algebraic Manipulation",
-      "Variables",
       "Problem-Solving: Polynomial Root Tricks"
     ]
   },
@@ -5237,10 +4915,10 @@
     "answer": "058",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
       "Angle Chasing",
-      "Trigonometry"
+      "Trigonometry",
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -5255,10 +4933,7 @@
     "answer": "453",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_12",
     "topics": [
-      "Casework",
-      "Introduction to Probability",
-      "Combinations",
-      "Permutations"
+      "Introduction to Probability"
     ]
   },
   {
@@ -5274,7 +4949,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_13",
     "topics": [
       "Ratios and Rates",
-      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Problem-Solving: Areas"
     ]
@@ -5292,9 +4966,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_14",
     "topics": [
       "2nd Degree Symmetric Sums",
-      "Simplifying Radicals",
-      "Algebraic Manipulation",
-      "Clever Substitutions"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -5309,9 +4981,9 @@
     "answer": "041",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_15",
     "topics": [
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
       "Problem-Solving: Circle Basics",
-      "Pythagorean theorem",
-      "Length Chasing",
       "Problem-Solving: Triangle Angles"
     ]
   },
@@ -5377,8 +5049,8 @@
     "topics": [
       "Complex Numbers",
       "Modular Arithmetic",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Circle Basics"
+      "Simplifying Radicals",
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -5393,10 +5065,10 @@
     "answer": "056",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing",
       "2nd Degree Symmetric Sums",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Triangle Angles",
+      "Length Chasing"
     ]
   },
   {
@@ -5411,8 +5083,7 @@
     "answer": "028",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_13",
     "topics": [
-      "Introduction to Probability",
-      "Length Chasing"
+      "Introduction to Probability"
     ]
   },
   {
@@ -5427,10 +5098,10 @@
     "answer": "077",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_14",
     "topics": [
-      "Special triangles",
+      "Angle Chasing",
       "Problem-Solving: Triangle Angles",
-      "Length Chasing",
-      "Angle Chasing"
+      "3rd Degree Symmetric Sums",
+      "Length Chasing"
     ]
   },
   {
@@ -5445,9 +5116,7 @@
     "answer": "149",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_15",
     "topics": [
-      "Counting Divisors",
-      "Bases",
-      "Recursion"
+      "Number Theory"
     ]
   },
   {
@@ -5478,9 +5147,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_2",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
       "Digit Deduction",
-      "Casework"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -5495,10 +5163,9 @@
     "answer": "018",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_3",
     "topics": [
-      "Vieta's Formulas",
       "Linear Equations",
-      "Polynomials",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5515,8 +5182,7 @@
     "topics": [
       "Introduction to Probability",
       "Angle Chasing",
-      "Burnsides",
-      "Polynomials"
+      "Burnsides"
     ]
   },
   {
@@ -5533,8 +5199,7 @@
     "topics": [
       "Complex Numbers",
       "Polynomials",
-      "Combinations",
-      "Casework"
+      "Combinations"
     ]
   },
   {
@@ -5549,10 +5214,8 @@
     "answer": "148",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_11",
     "topics": [
-      "Modular Arithmetic",
-      "Counting Divisors",
       "Divisor Counting",
-      "Problem-Solving: Divisibility and Digits"
+      "Counting Divisors"
     ]
   },
   {
@@ -5568,9 +5231,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_12",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
-      "Special triangles"
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -5587,7 +5250,6 @@
     "topics": [
       "Similar Triangles",
       "Problem-Solving: Triangle Angles",
-      "Sequences and Series",
       "Problem-Solving: Areas"
     ]
   },
@@ -5603,10 +5265,8 @@
     "answer": "036",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_14",
     "topics": [
-      "Complex Numbers",
       "Trigonometry",
-      "Sequences and Series",
-      "Algebraic Manipulation"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -5621,7 +5281,7 @@
     "answer": "272",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_15",
     "topics": [
-      "Logic"
+      "Counting"
     ]
   },
   {
@@ -5652,8 +5312,7 @@
     "answer": "881",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_2",
     "topics": [
-      "Algebraic Manipulation",
-      "Bases"
+      "Number Theory"
     ]
   },
   {
@@ -5683,10 +5342,10 @@
     "answer": "040",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_4",
     "topics": [
-      "Complex Numbers",
+      "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Divisibility and Digits"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -5703,8 +5362,8 @@
     "topics": [
       "Modular Arithmetic",
       "Linear Inequalities",
-      "Casework",
-      "Inclusion-Exclusion"
+      "Venn Diagrams",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -5720,9 +5379,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_10",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Divisibility and Digits"
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -5738,9 +5397,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_12",
     "topics": [
       "Complex Numbers",
-      "Casework",
       "Polynomials",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Polynomial Root Tricks"
     ]
   },
   {
@@ -5755,10 +5413,10 @@
     "answer": "010",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_13",
     "topics": [
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Stewarts Theorem",
-      "Problem-Solving: Areas",
-      "System of Equations"
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -5792,7 +5450,7 @@
       "Algebraic Manipulation",
       "Problem-Solving: Triangle Angles",
       "Trigonometric Identities",
-      "Pythagorean theorem"
+      "Trigonometry"
     ]
   },
   {
@@ -5808,8 +5466,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_1",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
-      "Combinations",
       "3rd Degree Symmetric Sums"
     ]
   },
@@ -5826,9 +5482,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_2",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Sequences and Series",
-      "Mean Median Mode",
-      "Expected Value"
+      "Sequences and Series"
     ]
   },
   {
@@ -5843,10 +5497,7 @@
     "answer": "216",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_3",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle",
-      "Combinations",
-      "Permutations with Repeated Elements"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -5878,9 +5529,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_10",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
+      "Bases",
       "Digit Problems",
-      "Bases"
+      "Base Conversion"
     ]
   },
   {
@@ -5896,8 +5547,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_11",
     "topics": [
       "Modular Arithmetic",
-      "Parity Reasoning",
-      "Logic",
+      "Area by Coordinates",
+      "Absolute Value Tricks",
       "Problem-Solving: Divisibility and Digits"
     ]
   },
@@ -5913,10 +5564,10 @@
     "answer": "018",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_12",
     "topics": [
-      "Trigonometry",
-      "Pythagorean theorem",
       "Angle Chasing",
-      "Simplifying Radicals"
+      "Trigonometry",
+      "Simplifying Radicals",
+      "Pythagorean theorem"
     ]
   },
   {
@@ -5931,10 +5582,10 @@
     "answer": "041",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Circle Basics",
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -5951,8 +5602,8 @@
     "topics": [
       "Complex Numbers",
       "Pythagorean theorem",
-      "Polynomials",
-      "Vieta's Formulas"
+      "Problem-Solving: Triangle Angles",
+      "Polynomials"
     ]
   },
   {
@@ -5967,10 +5618,7 @@
     "answer": "332",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_15",
     "topics": [
-      "Modular Arithmetic",
-      "Handshakes",
-      "Divisor Counting",
-      "Logic"
+      "Handshakes"
     ]
   },
   {
@@ -5985,10 +5633,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_1",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
-      "Linear Equations",
-      "Problem-Solving: Linear Diophantine Equations",
-      "Digit Problems"
+      "Problem-Solving: Linear Diophantine Equations"
     ]
   },
   {
@@ -6019,9 +5664,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_3",
     "topics": [
-      "Casework",
-      "Combinations",
-      "Polynomials"
+      "Combinations"
     ]
   },
   {
@@ -6036,10 +5679,9 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_7",
     "topics": [
-      "Bases",
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Digit Problems"
+      "Bases",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6069,9 +5711,9 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_10",
     "topics": [
-      "Linear Inequalities",
       "Floor",
       "Floor Functions",
+      "Linear Inequalities",
       "Floor Function Strategies"
     ]
   },
@@ -6087,7 +5729,6 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_12",
     "topics": [
-      "Modular Arithmetic",
       "System of Equations",
       "Linear Inequalities",
       "Absolute Value Tricks"
@@ -6106,9 +5747,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_13",
     "topics": [
       "Modular Arithmetic",
-      "Complex Numbers",
-      "Trigonometry",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -6123,10 +5764,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_14",
     "topics": [
-      "Casework",
       "Modular Arithmetic",
       "Linear Inequalities",
-      "Handshakes"
+      "Handshakes",
+      "Logic"
     ]
   },
   {
@@ -6144,7 +5785,7 @@
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Triangle Angles",
       "3rd Degree Symmetric Sums",
-      "Angle Bisector Theorem"
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -6160,8 +5801,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_1",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6177,9 +5818,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_2",
     "topics": [
       "Length Chasing",
+      "Simplifying Radicals",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Divisibility and Digits",
-      "Similar Triangles"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6195,9 +5836,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_3",
     "topics": [
       "Linear Equations",
-      "Problem-Solving: Coordinate Bashing",
-      "System of Equations",
-      "Absolute Value Tricks"
+      "Problem-Solving: Coordinate Bashing"
     ]
   },
   {
@@ -6213,8 +5852,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_8",
     "topics": [
       "Floor Functions",
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Floor Function Strategies",
       "3rd Degree Symmetric Sums"
     ]
   },
@@ -6230,8 +5869,7 @@
     "answer": "192",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_9",
     "topics": [
-      "Trigonometry",
-      "Algebraic Manipulation"
+      "Trigonometry"
     ]
   },
   {
@@ -6246,9 +5884,9 @@
     "answer": "594",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_12",
     "topics": [
-      "Linear Inequalities",
       "Complementary Counting",
       "Fractions and Percents",
+      "Linear Inequalities",
       "Introduction to Probability"
     ]
   },
@@ -6265,9 +5903,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_13",
     "topics": [
       "3D Geometry",
+      "Simplifying Radicals",
       "Absolute Value Tricks",
-      "Length Chasing",
-      "Mean Median Mode"
+      "Length Chasing"
     ]
   },
   {
@@ -6282,10 +5920,10 @@
     "answer": "037",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Polygons",
       "Angle Chasing",
       "Trigonometry",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -6301,9 +5939,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_15",
     "topics": [
       "Polynomials",
-      "Casework",
-      "Problem-Solving: Polynomial Root Tricks",
-      "Modular Arithmetic"
+      "Problem-Solving: Polynomial Root Tricks"
     ]
   },
   {
@@ -6350,8 +5986,7 @@
     "topics": [
       "Arithmetic/Geometric Sequences",
       "Problem-Solving: Polygons",
-      "Polynomials",
-      "Mean Median Mode"
+      "Polynomials"
     ]
   },
   {
@@ -6366,10 +6001,9 @@
     "answer": "784",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_8",
     "topics": [
+      "Simplifying Radicals",
       "Polynomials",
-      "Complex Numbers",
-      "AIME-level Inequalities",
-      "Simplifying Radicals"
+      "AIME-level Inequalities"
     ]
   },
   {
@@ -6384,7 +6018,6 @@
     "answer": "559",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_9",
     "topics": [
-      "Linear Inequalities",
       "AIME-level Inequalities"
     ]
   },
@@ -6400,10 +6033,7 @@
     "answer": "073",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_11",
     "topics": [
-      "Sequences and Series",
-      "Recursion",
-      "Ratios and Rates",
-      "Polynomials"
+      "Number Theory"
     ]
   },
   {
@@ -6419,9 +6049,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_12",
     "topics": [
       "Complementary Counting",
-      "Combinations",
-      "Inclusion-Exclusion",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Introduction to Probability",
+      "Combinations"
     ]
   },
   {
@@ -6437,9 +6067,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_13",
     "topics": [
       "Angle Chasing",
-      "Special triangles",
-      "Problem-Solving: Triangle Angles",
-      "Law of Sines"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -6455,9 +6083,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_14",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Polynomial Remainder",
-      "Variables"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6473,9 +6099,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_15",
     "topics": [
       "Introduction to Probability",
-      "Casework",
-      "Length Chasing",
-      "Floor Functions"
+      "Floor Functions",
+      "Simplifying Radicals",
+      "Polynomials"
     ]
   },
   {
@@ -6491,8 +6117,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_1",
     "topics": [
       "Divisor Counting",
-      "Counting Divisors",
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Counting Divisors"
     ]
   },
   {
@@ -6508,8 +6134,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_2",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Arithmetic/Geometric Sequences"
+      "Arithmetic/Geometric Sequences",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6527,7 +6153,7 @@
       "Problem-Solving: Circle Basics",
       "Floor",
       "Area by Coordinates",
-      "Graphing Functions"
+      "Floor Functions"
     ]
   },
   {
@@ -6542,10 +6168,10 @@
     "answer": "365",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_11",
     "topics": [
+      "Area by Coordinates",
       "3D Geometry",
-      "3D Volumes and Surface Areas",
-      "Problem-Solving: 3D Geometry",
-      "Problem-Solving: Areas"
+      "Simplifying Radicals",
+      "Graphing Functions"
     ]
   },
   {
@@ -6560,8 +6186,8 @@
     "answer": "243",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_12",
     "topics": [
-      "Linear Inequalities",
-      "Complementary Counting"
+      "Complementary Counting",
+      "Linear Inequalities"
     ]
   },
   {
@@ -6576,9 +6202,9 @@
     "answer": "069",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_13",
     "topics": [
-      "Length Chasing",
+      "Ratios and Rates",
+      "Simplifying Radicals",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas",
       "Problem-Solving: Circle Basics"
     ]
   },
@@ -6595,9 +6221,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_14",
     "topics": [
       "Floor",
-      "Linear Inequalities",
       "Floor Functions",
-      "Bases"
+      "Linear Inequalities",
+      "Floor Function Strategies"
     ]
   },
   {
@@ -6613,8 +6239,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_15",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Inscribed Circles",
-      "Circle Tangents",
       "3rd Degree Symmetric Sums"
     ]
   },
@@ -6630,8 +6254,7 @@
     "answer": "150",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_3",
     "topics": [
-      "Linear Inequalities",
-      "Problem-Solving: Divisibility and Digits"
+      "Number Theory"
     ]
   },
   {
@@ -6646,9 +6269,7 @@
     "answer": "772",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_8",
     "topics": [
-      "Casework",
-      "Complementary Counting",
-      "Combinations"
+      "Counting"
     ]
   },
   {
@@ -6663,10 +6284,9 @@
     "answer": "011",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Areas",
       "Ratios and Rates",
-      "Problem-Solving: Coordinate Bashing"
+      "Problem-Solving: Polygons",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6699,10 +6319,9 @@
     "answer": "263",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_13",
     "topics": [
-      "Inequalities (AM-GM)",
-      "Introduction to Probability",
       "Arithmetic/Geometric Sequences",
-      "Linear Inequalities"
+      "Inequalities (AM-GM)",
+      "Introduction to Probability"
     ]
   },
   {
@@ -6719,8 +6338,8 @@
     "topics": [
       "Angle Chasing",
       "Ratios and Rates",
-      "Problem-Solving: Triangle Angles",
-      "Pythagorean theorem"
+      "Simplifying Radicals",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -6735,9 +6354,9 @@
     "answer": "218",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_15",
     "topics": [
+      "Angle Chasing",
       "Ratios and Rates",
       "Problem-Solving: Triangle Angles",
-      "Angle Bisector Theorem",
       "3rd Degree Symmetric Sums"
     ]
   },
@@ -6771,10 +6390,7 @@
     "answer": "697",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_2",
     "topics": [
-      "Complex Numbers",
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing"
+      "Complex Numbers"
     ]
   },
   {
@@ -6822,8 +6438,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_8",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Arithmetic/Geometric Sequences"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6839,9 +6454,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_9",
     "topics": [
       "Digit Problems",
-      "Arithmetic Word Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Arithmetic Word Problems"
     ]
   },
   {
@@ -6857,9 +6470,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_12",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Pythagorean theorem",
+      "Circle Tangents",
       "Ratios and Rates",
-      "Length Chasing"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -6874,7 +6487,6 @@
     "answer": "090",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_13",
     "topics": [
-      "Algebraic Manipulation",
       "AIME-level Inequalities"
     ]
   },
@@ -6905,9 +6517,9 @@
     "answer": "150",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas",
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
       "Problem-Solving: Divisibility and Digits"
     ]
   },
@@ -6924,9 +6536,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_3",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Graphing Functions",
-      "Floor",
-      "Linear Equations"
+      "Floor"
     ]
   },
   {
@@ -6943,8 +6553,8 @@
     "topics": [
       "Modular Arithmetic",
       "Linear Inequalities",
-      "Complementary Counting",
-      "Pigeonhole"
+      "Pigeonhole",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6959,10 +6569,7 @@
     "answer": "041",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_8",
     "topics": [
-      "Introduction to Probability",
-      "Sequences and Series",
-      "Linear Inequalities",
-      "Pigeonhole"
+      "Introduction to Probability"
     ]
   },
   {
@@ -6978,9 +6585,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_9",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Bijections",
-      "Linear Inequalities"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -6995,10 +6600,8 @@
     "answer": "096",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_10",
     "topics": [
-      "Angle Bisector Theorem",
-      "Problem-Solving: Divisibility and Digits",
       "Simplifying Radicals",
-      "Pythagorean theorem"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -7013,10 +6616,7 @@
     "answer": "125",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_11",
     "topics": [
-      "Logarithms",
-      "Linear Inequalities",
-      "Algebraic Manipulation",
-      "AIME-level Inequalities"
+      "Logarithms"
     ]
   },
   {
@@ -7048,10 +6648,9 @@
     "answer": "672",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Modular Arithmetic",
-      "Complex Numbers",
-      "Polynomials"
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -7066,10 +6665,9 @@
     "answer": "983",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_14",
     "topics": [
-      "Linear Inequalities",
-      "Floor",
       "Simplifying Radicals",
-      "Clever Substitutions"
+      "Linear Inequalities",
+      "Floor"
     ]
   },
   {
@@ -7086,8 +6684,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Length Chasing",
-      "Problem-Solving: Divisibility and Digits",
-      "Inequalities (AM-GM)"
+      "Simplifying Radicals",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -7118,9 +6716,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_2",
     "topics": [
       "Length Chasing",
+      "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Bases"
     ]
   },
   {
@@ -7135,7 +6733,7 @@
     "answer": "080",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_4",
     "topics": [
-      "Geometry"
+      "Number Theory"
     ]
   },
   {
@@ -7165,7 +6763,7 @@
     "answer": "047",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_8",
     "topics": [
-      "Complex Numbers"
+      "Number Theory"
     ]
   },
   {
@@ -7180,10 +6778,10 @@
     "answer": "032",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_10",
     "topics": [
+      "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Bases",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Divisibility and Digits"
+      "Bases"
     ]
   },
   {
@@ -7198,10 +6796,7 @@
     "answer": "172",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_11",
     "topics": [
-      "Length Chasing",
-      "Recursion",
-      "Algebraic Manipulation",
-      "Casework"
+      "Length Chasing"
     ]
   },
   {
@@ -7234,10 +6829,7 @@
     "answer": "040",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_13",
     "topics": [
-      "Area by Coordinates",
-      "Logic",
-      "Polynomials",
-      "Cross Sections"
+      "Area by Coordinates"
     ]
   },
   {
@@ -7254,8 +6846,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Length Chasing",
-      "Circle Tangents",
-      "Similar Triangles"
+      "Circle Tangents"
     ]
   },
   {
@@ -7270,10 +6861,10 @@
     "answer": "871",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_15",
     "topics": [
+      "Simplifying Radicals",
       "Bases",
-      "Length Chasing",
       "Problem-Solving: Divisibility and Digits",
-      "Simplifying Radicals"
+      "Length Chasing"
     ]
   },
   {
@@ -7307,9 +6898,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_5",
     "topics": [
       "Length Chasing",
-      "Pythagorean theorem",
-      "Problem-Solving: Quadrilaterals",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -7325,7 +6915,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_7",
     "topics": [
       "Polynomials",
-      "Vieta's Formulas",
       "Problem-Solving: Polynomial Root Tricks"
     ]
   },
@@ -7342,9 +6931,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_8",
     "topics": [
       "Trigonometry",
-      "Complex Numbers",
-      "Arithmetic/Geometric Sequences",
-      "Problem-Solving: Divisibility and Digits"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -7359,8 +6946,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_10",
     "topics": [
-      "Symmetry",
-      "Length Chasing"
+      "Algebra"
     ]
   },
   {
@@ -7375,10 +6961,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
-      "Problem-Solving: Triangle Angles",
-      "Pythagorean theorem"
+      "Problem-Solving: Circle Basics",
+      "Simplifying Radicals",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -7393,10 +6979,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_12",
     "topics": [
-      "Casework",
       "Modular Arithmetic",
-      "Permutations with Repeated Elements",
-      "Complementary Counting"
+      "Complementary Counting",
+      "Linear Inequalities",
+      "Permutations with Repeated Elements"
     ]
   },
   {
@@ -7413,7 +6999,7 @@
     "topics": [
       "Complex Numbers",
       "Problem-Solving: Areas",
-      "Problem-Solving: Circle Basics",
+      "Simplifying Radicals",
       "Problem-Solving: Polygons"
     ]
   },
@@ -7429,10 +7015,8 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_14",
     "topics": [
-      "AIME-level Inequalities",
-      "Linear Inequalities",
       "System of Equations",
-      "Logic"
+      "AIME-level Inequalities"
     ]
   },
   {
@@ -7447,9 +7031,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_15",
     "topics": [
-      "Parity Reasoning",
-      "Telescoping - Forcing It",
-      "Modular Arithmetic"
+      "Telescoping - Forcing It"
     ]
   },
   {
@@ -7464,7 +7046,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_5",
     "topics": [
-      "Polynomials"
+      "Counting"
     ]
   },
   {
@@ -7480,9 +7062,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_6",
     "topics": [
       "Linear Inequalities",
-      "Casework",
-      "Problem-Solving: Coordinate Bashing",
-      "Fundamental Counting Principle"
+      "Problem-Solving: Coordinate Bashing"
     ]
   },
   {
@@ -7497,9 +7077,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_8",
     "topics": [
-      "Polynomials",
-      "Casework",
-      "Problem-Solving: Polynomial Root Tricks"
+      "Polynomials"
     ]
   },
   {
@@ -7514,10 +7092,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Circle Tangents",
       "Pythagorean theorem",
-      "Problem-Solving: Connecting the Centers"
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -7533,9 +7111,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_10",
     "topics": [
       "Modular Arithmetic",
-      "Binomial Theorem",
-      "Casework",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Divisibility and Digits",
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -7551,8 +7129,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_11",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -7568,9 +7146,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_12",
     "topics": [
       "Problem-Solving: Areas",
+      "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Modular Arithmetic"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -7586,8 +7164,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_13",
     "topics": [
       "3D Geometry",
+      "Simplifying Radicals",
       "Bases",
-      "Problem-Solving: Areas",
       "Length Chasing"
     ]
   },
@@ -7603,10 +7181,7 @@
     "answer": "710",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_10",
     "topics": [
-      "Introduction to Probability",
-      "Casework",
-      "Complementary Counting",
-      "Combinations"
+      "Introduction to Probability"
     ]
   },
   {
@@ -7622,8 +7197,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_11",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Length Chasing",
-      "Pythagorean theorem",
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
       "Problem-Solving: Divisibility and Digits"
     ]
   },
@@ -7640,9 +7215,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_12",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Exponent Rules",
-      "Algebraic Manipulation",
-      "Ratios and Rates"
+      "Exponent Rules"
     ]
   },
   {
@@ -7657,10 +7230,7 @@
     "answer": "640",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_II_Problems/Problem_13",
     "topics": [
-      "Modular Arithmetic",
-      "Binomial Theorem",
-      "Polynomials",
-      "AIME-level Inequalities"
+      "Counting"
     ]
   },
   {
@@ -7692,7 +7262,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_6",
     "topics": [
       "Digit Problems",
-      "Casework",
       "Repeating Decimal",
       "3rd Degree Symmetric Sums"
     ]
@@ -7728,9 +7297,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_9",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Exponent Rules",
-      "Ratios and Rates",
-      "Problem-Solving: Divisibility and Digits"
+      "Ratios and Rates"
     ]
   },
   {
@@ -7746,9 +7313,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_10",
     "topics": [
       "Problem-Solving: Areas",
-      "Problem-Solving: Circle Basics",
-      "Linear Equations",
-      "Graphing Functions"
+      "Area by Coordinates",
+      "GCD/LCM",
+      "Linear Equations"
     ]
   },
   {
@@ -7766,7 +7333,7 @@
       "Modular Arithmetic",
       "3D Geometry",
       "Linear Inequalities",
-      "Length Chasing"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -7798,8 +7365,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_13",
     "topics": [
       "Exponent Rules",
-      "Logic",
-      "Algebraic Manipulation",
+      "Functions - f(x) Notation",
       "Floor"
     ]
   },
@@ -7816,9 +7382,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_14",
     "topics": [
       "Floor",
-      "Length Chasing",
-      "Linear Inequalities",
-      "Pythagorean theorem"
+      "Floor Functions",
+      "Simplifying Radicals",
+      "Linear Inequalities"
     ]
   },
   {
@@ -7833,9 +7399,7 @@
     "answer": "462",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_4",
     "topics": [
-      "Permutations",
-      "Casework",
-      "Combinations"
+      "Permutations"
     ]
   },
   {
@@ -7850,8 +7414,8 @@
     "answer": "029",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_5",
     "topics": [
-      "Introduction to Probability",
-      "Conditional Probability"
+      "Conditional Probability",
+      "Introduction to Probability"
     ]
   },
   {
@@ -7866,10 +7430,10 @@
     "answer": "012",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_6",
     "topics": [
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing",
-      "Problem-Solving: Divisibility and Digits"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -7884,10 +7448,10 @@
     "answer": "336",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_8",
     "topics": [
-      "Casework",
+      "Modular Arithmetic",
+      "3D Geometry",
       "Combinations",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -7903,9 +7467,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_9",
     "topics": [
       "Circle Tangents",
-      "Linear Equations",
-      "Problem-Solving: Connecting the Centers",
-      "Area by Coordinates"
+      "Area by Coordinates",
+      "Simplifying Radicals",
+      "Linear Equations"
     ]
   },
   {
@@ -7921,9 +7485,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_10",
     "topics": [
       "Introduction to Probability",
-      "Casework",
-      "Fundamental Counting Principle",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -7939,8 +7502,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_11",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Recursion"
+      "Recursion",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -7956,9 +7519,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_12",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Conditional Probability",
+      "Simplifying Radicals",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -7973,8 +7536,7 @@
     "answer": "015",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_13",
     "topics": [
-      "Casework",
-      "Parity Reasoning"
+      "Counting"
     ]
   },
   {
@@ -7990,9 +7552,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_15",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Divisibility and Digits",
-      "Algebraic Manipulation",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -8007,10 +7567,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_2",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Modular Arithmetic",
-      "Divisor Counting",
-      "Counting Divisors"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -8025,8 +7582,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_3",
     "topics": [
-      "Counting Divisors",
-      "Divisor Counting"
+      "Counting Divisors"
     ]
   },
   {
@@ -8041,7 +7597,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Quadrilaterals"
+      "Geometry"
     ]
   },
   {
@@ -8056,10 +7612,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_6",
     "topics": [
-      "Complex Numbers",
+      "Floor Functions",
       "Polynomials",
-      "Problem-Solving: Polynomial Root Tricks",
-      "Floor Functions"
+      "Floor",
+      "Floor Function Strategies"
     ]
   },
   {
@@ -8074,10 +7630,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Length Chasing",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Simplifying Radicals",
+      "Problem-Solving: Angles",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -8109,9 +7665,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_9",
     "topics": [
       "3D Geometry",
+      "2nd Degree Symmetric Sums",
       "Introduction to Probability",
-      "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas"
+      "3D Volumes and Surface Areas"
     ]
   },
   {
@@ -8126,10 +7682,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_10",
     "topics": [
-      "Linear Equations",
       "Mean Median Mode",
+      "Linear Equations",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Coordinate Bashing"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -8144,10 +7700,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Length Chasing",
       "Inequalities (AM-GM)",
-      "Pythagorean theorem"
+      "Simplifying Radicals",
+      "Problem-Solving: Circle Basics",
+      "Length Chasing"
     ]
   },
   {
@@ -8162,10 +7718,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_12",
     "topics": [
-      "Counting Divisors",
+      "Arithmetic/Geometric Sequences",
       "Divisor Counting",
-      "Parity Reasoning",
-      "Arithmetic/Geometric Sequences"
+      "Absolute Value Tricks",
+      "Counting Divisors"
     ]
   },
   {
@@ -8180,9 +7736,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_13",
     "topics": [
-      "Area by Coordinates",
-      "Casework",
-      "Permutations"
+      "Area by Coordinates"
     ]
   },
   {
@@ -8197,7 +7751,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_1",
     "topics": [
-      "Counting"
+      "Number Theory"
     ]
   },
   {
@@ -8212,9 +7766,8 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_2",
     "topics": [
-      "Introduction to Probability",
       "Conditional Probability",
-      "Combinations",
+      "Introduction to Probability",
       "Permutations with Repeated Elements"
     ]
   },
@@ -8232,8 +7785,7 @@
     "topics": [
       "Sequences and Series",
       "Arithmetic/Geometric Sequences",
-      "Ratios and Rates",
-      "System of Equations"
+      "Ratios and Rates"
     ]
   },
   {
@@ -8248,10 +7800,10 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_4",
     "topics": [
-      "Divisor Counting",
-      "Counting Divisors",
       "Complementary Counting",
-      "Linear Inequalities"
+      "Divisor Counting",
+      "Linear Inequalities",
+      "Counting Divisors"
     ]
   },
   {
@@ -8266,7 +7818,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_5",
     "topics": [
-      "Bases"
+      "Counting"
     ]
   },
   {
@@ -8314,8 +7866,8 @@
     "topics": [
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Connecting the Centers",
-      "Length Chasing"
+      "Conditional Probability",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -8330,10 +7882,9 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_9",
     "topics": [
-      "Complex Numbers",
       "Trigonometry",
-      "Functional Equations",
-      "Modular Arithmetic"
+      "Linear Inequalities",
+      "Functional Equations"
     ]
   },
   {
@@ -8366,7 +7917,7 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_11",
     "topics": [
-      "Recursion"
+      "Number Theory"
     ]
   },
   {
@@ -8382,9 +7933,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_12",
     "topics": [
       "Angle Chasing",
-      "Similar Triangles",
-      "Complex Numbers",
-      "Pythagorean theorem"
+      "Simplifying Radicals",
+      "Problem-Solving: Angles",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -8400,9 +7951,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_13",
     "topics": [
       "Polynomials",
-      "Vieta's Formulas",
-      "Problem-Solving: Linear Diophantine Equations",
-      "Counting Divisors"
+      "Problem-Solving: Linear Diophantine Equations"
     ]
   },
   {
@@ -8417,10 +7966,9 @@
     "answer": "",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_14",
     "topics": [
-      "Similar Triangles",
-      "Pythagorean theorem",
+      "Angle Chasing",
       "Problem-Solving: Triangle Angles",
-      "Stewarts Theorem"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -8436,9 +7984,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_15",
     "topics": [
       "Circle Tangents",
-      "Problem-Solving: Circle Basics",
-      "Complex Numbers",
-      "Algebraic Manipulation"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -8472,9 +8018,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_9",
     "topics": [
       "Problem-Solving: Quadrilaterals",
+      "Inequalities (AM-GM)",
       "Problem-Solving: Triangle Angles",
-      "Length Chasing",
-      "Problem-Solving: Areas"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -8490,8 +8036,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_10",
     "topics": [
       "Problem-Solving: Circle Basics",
+      "Conditional Probability",
       "Introduction to Probability",
-      "Pythagorean theorem",
       "Problem-Solving: Quadrilaterals"
     ]
   },
@@ -8546,7 +8092,7 @@
       "Polynomials",
       "Complex Numbers",
       "Trigonometry",
-      "Problem-Solving: Polynomial Root Tricks"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -8561,9 +8107,9 @@
     "answer": "813",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_14",
     "topics": [
+      "2nd Degree Symmetric Sums",
+      "Simplifying Radicals",
       "Problem-Solving: Circle Basics",
-      "Length Chasing",
-      "Pythagorean theorem",
       "Bases"
     ]
   },
@@ -8579,10 +8125,9 @@
     "answer": "511",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_15",
     "topics": [
-      "Complementary Counting",
-      "Problem-Solving: Divisibility and Digits",
-      "Linear Inequalities",
-      "Functions - f(x) Notation"
+      "Functions - f(x) Notation",
+      "Casework",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -8598,9 +8143,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_12",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Quadrilaterals",
       "Circle Tangents",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -8615,10 +8160,10 @@
     "answer": "484",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_13",
     "topics": [
+      "Conditional Probability",
+      "Angle Chasing",
       "Ratios and Rates",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Conditional Probability"
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -8633,10 +8178,7 @@
     "answer": "108",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_14",
     "topics": [
-      "Linear Inequalities",
-      "Casework",
-      "Variables",
-      "Algebraic Manipulation"
+      "Counting"
     ]
   },
   {
@@ -8714,10 +8256,7 @@
     "answer": "012",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_4",
     "topics": [
-      "Trigonometry",
-      "Algebraic Manipulation",
-      "Logarithms",
-      "Pythagorean theorem"
+      "Trigonometry"
     ]
   },
   {
@@ -8732,8 +8271,7 @@
     "answer": "129",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_8",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Logic"
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -8748,10 +8286,7 @@
     "answer": "615",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_9",
     "topics": [
-      "Digit Problems",
-      "Casework",
-      "Fundamental Counting Principle",
-      "Digit Deduction"
+      "Digit Problems"
     ]
   },
   {
@@ -8766,10 +8301,10 @@
     "answer": "092",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_11",
     "topics": [
+      "Trigonometry",
       "Introduction to Probability",
       "Trigonometric Identities",
-      "Trigonometry",
-      "Problem-Solving: Triangle Angles"
+      "Angle Chasing"
     ]
   },
   {
@@ -8785,9 +8320,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_12",
     "topics": [
       "Floor",
-      "Problem-Solving: Quadrilaterals",
-      "Linear Inequalities",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Floor Functions",
+      "Trigonometry"
     ]
   },
   {
@@ -8820,9 +8355,7 @@
     "answer": "127",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_14",
     "topics": [
-      "Digit Problems",
-      "Modular Arithmetic",
-      "Algebraic Manipulation"
+      "Digit Problems"
     ]
   },
   {
@@ -8839,8 +8372,7 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Triangle Angles",
-      "Angle Bisector Theorem",
-      "Mass Points"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -8889,8 +8421,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_5",
     "topics": [
       "3D Geometry",
-      "Problem-Solving: Circle Basics",
-      "3D Volumes and Surface Areas"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -8920,10 +8451,10 @@
     "answer": "578",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_11",
     "topics": [
+      "Conditional Probability",
+      "Simplifying Radicals",
       "Pythagorean theorem",
-      "Linear Equations",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -8939,8 +8470,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_12",
     "topics": [
       "Linear Inequalities",
-      "Combinations",
-      "AIME-level Inequalities"
+      "Combinations"
     ]
   },
   {
@@ -8955,10 +8485,10 @@
     "answer": "683",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_13",
     "topics": [
+      "Conditional Probability",
       "Introduction to Probability",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "States"
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -8974,9 +8504,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_14",
     "topics": [
       "Area by Coordinates",
-      "Graphing Functions",
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Angle Chasing",
+      "Simplifying Radicals",
+      "Graphing Functions"
     ]
   },
   {
@@ -8991,10 +8521,9 @@
     "answer": "015",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_15",
     "topics": [
-      "Complex Numbers",
+      "Simplifying Radicals",
       "Polynomials",
-      "Problem-Solving: Divisibility and Digits",
-      "Simplifying Radicals"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -9010,9 +8539,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_1",
     "topics": [
       "Digit Problems",
-      "Casework",
       "Palindromes",
-      "Complementary Counting"
+      "Complementary Counting",
+      "Linear Inequalities"
     ]
   },
   {
@@ -9044,9 +8573,9 @@
     "answer": "183",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_5",
     "topics": [
+      "Arithmetic/Geometric Sequences",
       "Linear Inequalities",
-      "Pigeonhole",
-      "Arithmetic/Geometric Sequences"
+      "Pigeonhole"
     ]
   },
   {
@@ -9077,9 +8606,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_11",
     "topics": [
       "3D Geometry",
+      "Simplifying Radicals",
       "Problem-Solving: Divisibility and Digits",
-      "Length Chasing",
-      "Simplifying Radicals"
+      "Length Chasing"
     ]
   },
   {
@@ -9109,10 +8638,10 @@
     "answer": "063",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Centroid",
+      "Simplifying Radicals",
       "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Stewarts Theorem"
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -9128,7 +8657,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_14",
     "topics": [
       "Mean Median Mode",
-      "Modular Arithmetic",
       "Inequalities (AM-GM)"
     ]
   },
@@ -9144,10 +8672,10 @@
     "answer": "163",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
+      "Simplifying Radicals",
       "Absolute Value Tricks",
-      "Problem-Solving: Divisibility and Digits",
-      "Symmetry"
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -9193,8 +8721,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_9",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
-      "Combinations"
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -9210,9 +8737,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_11",
     "topics": [
       "Sequences and Series",
-      "Problem-Solving: Divisibility and Digits",
-      "Arithmetic/Geometric Sequences",
-      "Ratios and Rates"
+      "Simplifying Radicals",
+      "Problem-Solving: Divisibility and Digits"
     ]
   },
   {
@@ -9227,10 +8753,9 @@
     "answer": "660",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_12",
     "topics": [
-      "Introduction to Probability",
-      "Casework",
       "Ratios and Rates",
-      "2nd Degree Symmetric Sums"
+      "2nd Degree Symmetric Sums",
+      "Introduction to Probability"
     ]
   },
   {
@@ -9245,10 +8770,10 @@
     "answer": "901",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_13",
     "topics": [
+      "Conditional Probability",
       "Ratios and Rates",
       "Problem-Solving: Triangle Angles",
-      "Ceva Menelaus",
-      "Problem-Solving: Areas"
+      "3rd Degree Symmetric Sums"
     ]
   },
   {
@@ -9264,9 +8789,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_14",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Similar Triangles",
-      "Circle Tangents"
+      "Circle Tangents",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -9281,10 +8805,10 @@
     "answer": "282",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_15",
     "topics": [
-      "Graphing Functions",
       "Circle Tangents",
-      "Vieta's Formulas",
-      "Problem-Solving: Connecting the Centers"
+      "Base Conversion",
+      "Simplifying Radicals",
+      "Graphing Functions"
     ]
   },
   {
@@ -9301,7 +8825,6 @@
     "topics": [
       "Digit Problems",
       "Problem-Solving: Divisibility and Digits",
-      "Casework",
       "Digit Deduction"
     ]
   },
@@ -9332,10 +8855,10 @@
     "answer": "937",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_5",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Simplifying Radicals",
       "Graphing Functions",
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -9350,10 +8873,9 @@
     "answer": "315",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_8",
     "topics": [
-      "Base Conversion",
-      "Bases",
       "Digit Problems",
-      "Linear Inequalities"
+      "Base Conversion",
+      "Bases"
     ]
   },
   {
@@ -9368,9 +8890,7 @@
     "answer": "149",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_11",
     "topics": [
-      "Variables",
-      "Algebraic Manipulation",
-      "Clever Substitutions"
+      "Algebra"
     ]
   },
   {
@@ -9387,8 +8907,7 @@
     "topics": [
       "3D Geometry",
       "Problem-Solving: Circle Basics",
-      "3D Volumes and Surface Areas",
-      "Absolute Value Tricks"
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -9404,9 +8923,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_13",
     "topics": [
       "Problem-Solving: Circle Basics",
+      "Simplifying Radicals",
       "Polynomials",
-      "Length Chasing",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -9421,10 +8940,7 @@
     "answer": "351",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_14",
     "topics": [
-      "Casework",
-      "Permutations",
-      "Digit Problems",
-      "Recursion"
+      "Permutations"
     ]
   },
   {
@@ -9440,9 +8956,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_15",
     "topics": [
       "3D Geometry",
-      "Introduction to Probability",
-      "Casework",
-      "Permutations"
+      "Introduction to Probability"
     ]
   }
 ]
