@@ -175,23 +175,24 @@ for (const idx of INDEXES) {
   if (contests.size === 0) { logErr(idx.url, "no contests found on index page"); anyFailure = true; continue; }
 
   const problems: any[] = [];
-  // --resume: skip contests already (nearly) fully saved, so restarts don't re-download them.
-  const saved = new Map<string, number>();
-  if (resume) {
-    try {
-      for (const p of JSON.parse(readFileSync(`src/data/${idx.key}.json`, "utf8"))) {
-        const k = `${p.year}|${p.version}`;
-        saved.set(k, (saved.get(k) ?? 0) + 1);
-      }
-    } catch { /* no file yet */ }
-  }
+  // Always read the saved file: --resume uses it to skip complete years, and
+  // the backfill pass uses it to skip problems that already have a solution.
+  const savedProblems = new Map<string, any>();
+  const savedYearCount = new Map<string, number>();
+  try {
+    for (const p of JSON.parse(readFileSync(`src/data/${idx.key}.json`, "utf8"))) {
+      savedProblems.set(`${p.year}|${p.version}|${p.number}`, p);
+      const k = `${p.year}|${p.version}`;
+      savedYearCount.set(k, (savedYearCount.get(k) ?? 0) + 1);
+    }
+  } catch { /* no file yet */ }
   for (const [name, href] of contests) {
     if (only && name !== only) continue;
     const m = name.match(idx.re)!;
     const year = Number(m[1]);
     const version = (m[2] ?? "").trim() + (name.includes("Fall") ? " Fall" : "");
     if (skips.includes(String(year))) { console.log(`skip ${name} (unavailable year)`); continue; }
-    if (resume && (saved.get(`${year}|${version.trim()}`) ?? 0) >= idx.expected - 8) {
+    if (resume && (savedYearCount.get(`${year}|${version.trim()}`) ?? 0) >= idx.expected - 8) {
       console.log(`skip ${name} (already saved)`);
       continue;
     }
@@ -201,6 +202,15 @@ for (const idx of INDEXES) {
     if (!key.length) logErr(name, "answer key missing");
     let found = 0;
     for (let n = 1; n <= idx.expected; n++) {
+      const id = `${idx.key}${version.replace(/\s+/g, "").toLowerCase()}-${year}-${n}`;
+      // Backfill short-circuit: problem already saved with an on-page solution — reuse it as-is.
+      const prev = savedProblems.get(`${year}|${version.trim()}|${n}`);
+      if (prev && prev.solutionLatex) {
+        found++;
+        problems.push(prev);
+        process.stdout.write(`\r${name} #${n} (saved)   `);
+        continue;
+      }
       const url = `${BASE}/wiki/index.php/${slug}_Problems/Problem_${n}`;
       const page = await get(url);
       const parsed = page ? parseProblem(page) : null;
@@ -210,7 +220,7 @@ for (const idx of INDEXES) {
       if (!answer) logErr(url, "no answer in key");
       found++;
       problems.push({
-        id: `${idx.key}${version.replace(/\s+/g, "").toLowerCase()}-${year}-${n}`.replace(/^(amc8|amc10|amc12|aime)/, (k) => (idx.key === "amc8" ? k : k)),
+        id,
         contest: idx.contest,
         year,
         version: version.trim(),
