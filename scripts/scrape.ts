@@ -175,16 +175,17 @@ for (const idx of INDEXES) {
   if (contests.size === 0) { logErr(idx.url, "no contests found on index page"); anyFailure = true; continue; }
 
   const problems: any[] = [];
-  // --resume: skip contests already (nearly) fully saved, so restarts don't re-download them.
-  const saved = new Map<string, number>();
-  if (resume) {
-    try {
-      for (const p of JSON.parse(readFileSync(`src/data/${idx.key}.json`, "utf8"))) {
-        const k = `${p.year}|${p.version}`;
-        saved.set(k, (saved.get(k) ?? 0) + 1);
-      }
-    } catch { /* no file yet */ }
-  }
+  // Always read the saved file: --resume uses it to skip complete years, and
+  // the backfill pass uses it to skip problems that already have a solution.
+  const savedProblems = new Map<string, any>();
+  const savedYearCount = new Map<string, number>();
+  try {
+    for (const p of JSON.parse(readFileSync(`src/data/${idx.key}.json`, "utf8"))) {
+      savedProblems.set(`${p.year}|${p.version}|${p.number}`, p);
+      const k = `${p.year}|${p.version}`;
+      savedYearCount.set(k, (savedYearCount.get(k) ?? 0) + 1);
+    }
+  } catch { /* no file yet */ }
   for (const [name, href] of contests) {
     if (only && name !== only) continue;
     const m = name.match(idx.re)!;
