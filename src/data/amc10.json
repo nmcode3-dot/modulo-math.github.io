@@ -5782,7 +5782,8 @@
       "Problem-Solving: Polygons",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Since the total area is $4$ , the side length of square $ABCD$ is $2$ . We see that since triangle $HAE$ is a right isosceles triangle with area 1, we can determine sides $HA$ and $AE$ both to be $\\sqrt{2}$ . Now, consider extending $FB$ and $IE$ until they intersect. Let the point of intersection be $K$ . We note that $EBK$ is also a right isosceles triangle with side $2-\\sqrt{2}$ and find its area to be $3-2\\sqrt{2}$ . Now, we notice that $FIK$ is also a right isosceles triangle (because $\\angle EKB=45^\\circ$ ) and find it's area to be $\\frac{1}{2}$ $FI^2$ . This is also equal to $1+3-2\\sqrt{2}$ or $4-2\\sqrt{2}$ . Since we are looking for $FI^2$ , we want two times this. That gives $\\boxed{\\textbf{(B)}\\ 8-4\\sqrt{2}}$ .~TLiu"
   },
   {
     "id": "amc10b-2020-22",
