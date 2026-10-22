@@ -5212,7 +5212,8 @@
       "Problem-Solving: Angles",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/d/c/4/dc44f4527af79ab70006a16ebcce62156a3aff31.png]]\n\nIt's crucial to draw a good diagram for this one. Since $AC=20$ and $CD=30$ , we get $[ACD]=300$ . Now we need to find $[ABC]$ to get the area of the whole quadrilateral. Drop an altitude from $B$ to $AC$ and call the point of intersection $F$ . Let $FE=x$ . Since $AE=5$ , then $AF=5-x$ .\n\nBy dropping this altitude, we can also see two similar triangles, $\\triangle BFE \\sim \\triangle DCE$ . Since $EC$ is $20-5=15$ , and $DC=30$ , we get that $BF=2x$ .\n\nNow, if we redraw another diagram just of $ABC$ , we get that $(2x)^2=(5-x)(15+x)$ because of the altitude geometric mean theorem which states that in any right triangle, the altitude squared is equal to the product of the two lengths that it divides the base into.\n\nExpanding, simplifying, and dividing by the GCF, we get $x^2+2x-15=0$ . This factors to $(x+5)(x-3)$ , which has roots of $x=-5, 3$ . Since lengths cannot be negative, $x=3$ . Since $x=3$ , that means the altitude $BF=2\\cdot3=6$ , or $[ABC]=60$ . Thus $[ABCD]=[ACD]+[ABC]=300+60=\\boxed {\\textbf{(D) }360}$\n\n~ Solution by Ultraman\n~ Diagram by ciceronii"
   },
   {
     "id": "amc10a-2020-21",
@@ -5234,7 +5235,8 @@
       "Exponent Rules",
       "Sequences and Series",
       "Problem-Solving: Linear Diophantine Equations"
-    ]
+    ],
+    "solutionLatex": "First, substitute $2^{17}$ with $x$ .\nThen, the given equation becomes $\\frac{x^{17}+1}{x+1}=x^{16}-x^{15}+x^{14}...-x^1+x^0$ by sum of powers factorization.\nNow consider only $x^{16}-x^{15}$ . This equals $x^{15}(x-1)=x^{15} \\cdot (2^{17}-1)$ .\nNote that $2^{17}-1$ equals $2^{16}+2^{15}+...+1$ , by difference of powers factorization (or by considering the expansion of $2^{17}=2^{16}+2^{15}+...+2^{2}+2 + 2$ ).\nThus, we can see that $x^{16}-x^{15}$ forms the sum of 17 different powers of 2.\nApplying the same method to each of $x^{14}-x^{13}$ , $x^{12}-x^{11}$ , ... , $x^{2}-x^{1}$ , we can see that each of the pairs forms the sum of 17 different powers of 2. This gives us $17 \\cdot 8=136$ .\nBut we must count also the $x^0$ term.\nThus, Our answer is $136+1=\\boxed{\\textbf{(C) } 137}$ .\n\n~seanyoon777"
   },
   {
     "id": "amc10a-2020-22",
@@ -5257,7 +5259,8 @@
       "Floor Functions",
       "Linear Inequalities",
       "Divisibility Reasoning"
-    ]
+    ],
+    "solutionLatex": "If $n$ is a factor of $999$ (and $n \\neq 1$ ), then let $999 = an$ for some positive integer $a.$ Then we get $\\lfloor 998/n \\rfloor = a - 1$ , $\\lfloor 999/n \\rfloor =a$ , $\\lfloor 1000/n \\rfloor = a$ . The sum is $3a - 1,$ which isn't a multiple of 3. If $n$ is a factor of $1000$ (and $n \\neq 1$ ), then let $1000 = an.$ Then we get $\\lfloor 998/n \\rfloor = a - 1$ , $\\lfloor 999/n \\rfloor = a - 1$ , and $\\lfloor 1000/n \\rfloor = a.$ The sum is $3a - 2,$ which also isn't a multiple of 3.\n\nWe find that the only way for the problem's condition to hold true is if $n$ is a factor of $999$ or $1000$ and $n \\neq 1$ .\n\n$1000 = 5^3 \\cdot 2^3 \\implies (3+1)(3+1) = 16$ factors.\n\n$999 = 3^3 \\cdot 37 \\implies (3+1)(1+1) = 8$ factors.\n\nWe counted $1$ twice. So the answer is $16 + 8 - 2 = \\boxed{22}.$\n\n~grogg007"
   },
   {
     "id": "amc10a-2020-23",
