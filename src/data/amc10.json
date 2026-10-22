@@ -5609,7 +5609,8 @@
     "topics": [
       "Area by Coordinates",
       "Shortest Path - Unfolding the Object"
-    ]
+    ],
+    "solutionLatex": "Andy makes a total of $2020$ moves: $1010$ horizontal ( $505$ left and $505$ right) and $1010$ vertical ( $505$ up and $505$ down).\n\nThe $x$ -coordinate of Andy's final position is \\[-20+\\overbrace{\\underbrace{1-3}_{-2}+\\underbrace{5-7}_{-2}+\\underbrace{9-11}_{-2}+\\cdots+\\underbrace{2017-2019}_{-2}}^{\\text{1010 terms, 505 pairs}}=-20-2\\cdot505=-1030.\\]\nThe $y$ -coordinate of Andy's final position is \\[20+\\overbrace{\\underbrace{2-4}_{-2}+\\underbrace{6-8}_{-2}+\\underbrace{10-12}_{-2}+\\cdots+\\underbrace{2018-2020}_{-2}}^{\\text{1010 terms, 505 pairs}}=20-2\\cdot505=-990.\\]\nTogether, we have $(x,y)=\\boxed{\\textbf{(B)}\\ (-1030, -990)}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10b-2020-14",
@@ -5626,7 +5627,8 @@
       "Problem-Solving: Polygons",
       "Problem-Solving: Shaded Regions - Circles",
       "Problem-Solving: Slice and Add the Shaded Region"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/4/b/c/4bc9e3044dd5c24294c381718e7639c702cd56cc.png]]\n\nLet point $A$ be a vertex of the regular hexagon, let point $B$ be the midpoint of the line connecting point $A$ and a neighboring vertex, and let point $C$ be the second intersection of the two semicircles that pass through point $A$ . Then, $BC = 1$ , since $B$ is the center of the semicircle with radius $1$ that $C$ lies on, $AB = 1$ , since $B$ is the center of the semicircle with radius $1$ that $A$ lies on, and $\\angle BAC = 60^\\circ$ , as a regular hexagon has angles of 120 $^\\circ$ , and $\\angle BAC$ is half of any angle in this hexagon. Now, since $AB = BC$ , $\\angle ACB = \\angle BAC = 60^\\circ$ . Since the angles in a triangle sum to 180 $^\\circ$ , $\\angle ABC$ is also 60 $^\\circ$ . Therefore, $\\triangle ABC$ is an equilateral triangle with side lengths of $1$ .\n\n[[img:https://latex.artofproblemsolving.com/9/9/b/99b2d497593cc49f9e73fb55353d3bd941785708.png]]\n\nSince the area of a regular hexagon can be found with the formula $\\frac{3\\sqrt{3}s^2}{2}$ , where $s$ is the side length of the hexagon, the area of this hexagon is $\\frac{3\\sqrt{3}(2^2)}{2} = 6\\sqrt{3}$ . Since the area of an equilateral triangle can be found with the formula $\\frac{\\sqrt{3}}{4}s^2$ , where $s$ is the side length of the equilateral triangle, the area of an equilateral triangle with side lengths of $1$ is $\\frac{\\sqrt{3}}{4}\\left(1^2\\right) = \\frac{\\sqrt{3}}{4}$ . Since the area of a circle can be found with the formula $\\pi r^2$ , the area of a sixth of a circle with radius $1$ is $\\frac{\\pi(1^2)}{6} = \\frac{\\pi}{6}$ . In each sixth of the hexagon, there are two equilateral triangles colored white, each with an area of $\\frac{\\sqrt{3}}{4}$ , and one-sixth of a circle with radius $1$ colored white, with an area of $\\frac{\\pi}{6}$ . The rest of the sixth is colored gray. Therefore, the total area that is colored white in each sixth of the hexagon is $2\\left(\\frac{\\sqrt{3}}{4}\\right) + \\frac{\\pi}{6}$ , which equals $\\frac{\\sqrt{3}}{2} + \\frac{\\pi}{6}$ , and the total area colored white is $6\\left(\\frac{\\sqrt{3}}{2} + \\frac{\\pi}{6}\\right)$ , which equals $3\\sqrt{3} + \\pi$ . Since the area colored gray equals the total area of the hexagon minus the area colored white, the area colored gray is $6\\sqrt{3} - (3\\sqrt{3} + \\pi)$ , which equals $\\boxed{\\textbf{(D) }3\\sqrt{3} - \\pi}$ ."
   },
   {
     "id": "amc10b-2020-15",
@@ -5646,7 +5648,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_15",
     "topics": [
       "Digit Problems"
-    ]
+    ],
+    "solutionLatex": "Note that cycles exist initially and after each round of erasing.\n\nLet the parentheses denote cycles. It follows that:\n\nInitially, the list has cycles of length $5:$ \\[(12345)=12345123451234512345\\cdots.\\]\n To find one cycle after the first round of erasing, we need one cycle of length $\\operatorname{lcm}(3,5)=15$ before erasing. So, we first group $\\frac{15}{5}=3$ copies of the current cycle into one, then erase:\n$\\begin{align*} (12345)&\\longrightarrow(123451234512345) \\\\ &\\longrightarrow(12\\cancel{3}45\\cancel{1}23\\cancel{4}51\\cancel{2}34\\cancel{5}) \\\\ &\\longrightarrow(1245235134). \\end{align*}$\nAs a quick confirmation, one cycle should have length $15\\cdot\\left(1-\\frac{1}{3}\\right)=10$ at this point.\n To find one cycle after the second round of erasing, we need one cycle of length $\\operatorname{lcm}(4,10)=20$ before erasing. So, we first group $\\frac{20}{10}=2$ copies of the current cycle into one, then erase:\n$\\begin{align*} (1245235134)&\\longrightarrow(12452351341245235134) \\\\ &\\longrightarrow(124\\cancel{5}235\\cancel{1}341\\cancel{2}452\\cancel{3}513\\cancel{4}) \\\\ &\\longrightarrow(124235341452513). \\end{align*}$\nAs a quick confirmation, one cycle should have length $20\\cdot\\left(1-\\frac{1}{4}\\right)=15$ at this point.\n To find one cycle after the third round of erasing, we need one cycle of length $\\operatorname{lcm}(5,15)=15$ before erasing. We already have it here, so we erase:\n$\\begin{align*} (124235341452513)&\\longrightarrow(1242\\cancel{3}5341\\cancel{4}5251\\cancel{3}) \\\\ &\\longrightarrow(124253415251). \\end{align*}$\nAs a quick confirmation, one cycle should have length $15\\cdot\\left(1-\\frac{1}{5}\\right)=12$ at this point.\n\nSince $2019,2020,2021$ are congruent to $3,4,5$ modulo $12,$ respectively, the three digits in the final positions $2019,2020,2021$ are $4,2,5,$ respectively: \\[(12\\underline{425}3415251).\\] Therefore, the answer is $4+2+5=\\boxed{\\textbf{(D)}\\ 11}.$\n\n~MRENTHUSIASM (inspired by TheBeautyofMath)"
   },
   {
     "id": "amc10b-2020-16",
@@ -5667,7 +5670,8 @@
     "topics": [
       "Linear Inequalities",
       "Combinations"
-    ]
+    ],
+    "solutionLatex": "If Bela selects the middle number in the range $[0, n]$ and then mirror whatever number Jenn selects, then if Jenn can select a number within the range, so can Bela. Jenn will always be the first person to run out of a number to choose, so the answer is $\\boxed{\\textbf{(A)} \\text{ Bela will always win.}}$"
   },
   {
     "id": "amc10b-2020-17",
@@ -5689,7 +5693,8 @@
       "Fundamental Counting Principle",
       "Problem-Solving: Circle Basics",
       "Constructive Counting"
-    ]
+    ],
+    "solutionLatex": "Consider the $10$ people to be standing in a circle, where two people opposite each other form a diameter of the circle.\n\nLet us use casework on the number of pairs that form a diameter of the circle.\n\nCase 1: $0$ diameters\n\nThere are $2$ ways: either $1$ pairs with $2$ , $3$ pairs with $4$ , and so on or $10$ pairs with $1$ , $2$ pairs with $3$ , etc.\n\nCase 2: $1$ diameter\n\nThere are $5$ possible diameters to draw (everyone else pairs with the person next to them).\n\nNote that there cannot be $2$ diameters since there would be one person on either side that will not have a pair adjacent to them. The only scenario forced is when the two people on either side would be paired up across a diameter. Thus, a contradiction will arise.\n\nCase 3: $3$ diameters\n\nThere are $5$ possible sets of $3$ diameters to draw.\nNotice we are technically choosing the number of ways to choose a pair of two diameters that are neighbors to each other. This means we can choose the first diameter in the pair, and have only two diameters to choose from for the second in the pair. This means we have $5*2=10$ possibilities for choosing 5 neighboring diameters. However, notice that there are duplicates, so we divide the $10$ possibilities by $2$ to get $5$ .\n\nNote that there cannot be a case with $4$ diameters because then there would have to be $5$ diameters for the two remaining people as they have to be connected with a diameter. A contradiction arises.\n\nCase 4: $5$ diameters\n\nThere is only $1$ way to do this.\n\nThus, in total there are $2+5+5+1=\\boxed{\\textbf{(C) }13}$ possible ways.\n~Pearl2008 (Minor Edits)"
   },
   {
     "id": "amc10b-2020-18",
@@ -5710,7 +5715,8 @@
     "topics": [
       "Introduction to Probability",
       "Logic"
-    ]
+    ],
+    "solutionLatex": "Suppose that we have a deck, currently containing just one black card. We then insert $n$ red cards one-by-one into the deck at random positions. It is easy to see using induction, that the black card is randomly situated in the deck.\n\nNow, suppose that we have this deck again, with only one black card. Each time we pick a red ball, we place a card above the black card, and each time we pick a blue ball, we place a card below the black card. It is easy to see that the probability that the card is inserted into the top part of the deck is simply equal to the number of red balls divided by the total number of balls, and the probability that the card is inserted into the bottom part of the deck is equal to the number of blue balls divided by the total number of balls. Therefore, this is equivalent to inserting the card randomly into the deck.\n\nFinally, four more red cards will be inserted into the deck, and so the black card can be in five possible positions. Only one corresponds to having three balls of each type. Our probability is thus $\\frac{1}{5}$ , and so the answer is $\\boxed{\\textbf{B}}$ .\n\n~mathboy100"
   },
   {
     "id": "amc10b-2020-19",
@@ -5730,7 +5736,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_19",
     "topics": [
       "Digit Problems"
-    ]
+    ],
+    "solutionLatex": "$158A00A4AA0 \\equiv 1+5+8+A+0+0+A+4+A+A+0 \\equiv 4A \\pmod{9}$\n\nWe're looking for the amount of ways we can get $10$ cards from a deck of $52$ , which is represented by $\\binom{52}{10}$ .\n\n$\\binom{52}{10}=\\frac{52\\cdot51\\cdot50\\cdot49\\cdot48\\cdot47\\cdot46\\cdot45\\cdot44\\cdot43}{10\\cdot9\\cdot8\\cdot7\\cdot6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1}$\n\nWe need to get rid of the multiples of $3$ , which will subsequently get rid of the multiples of $9$ (if we didn't, the zeroes would mess with the equation since you can't divide by 0)\n\n$9\\cdot5=45$ , $8\\cdot6=48$ , $\\frac{51}{3}$ leaves us with 17.\n\n$\\frac{52\\cdot\\cancel{51}^{17}\\cdot50\\cdot49\\cdot\\cancel{48}\\cdot47\\cdot46\\cdot\\cancel{45}\\cdot44\\cdot43}{10\\cdot\\cancel{9}\\cdot\\cancel{8}\\cdot7\\cdot\\cancel{6}\\cdot\\cancel{5}\\cdot4\\cdot\\cancel{3}\\cdot2\\cdot1}$\n\nConverting these into $\\pmod{9}$ , we have\n\n$\\binom{52}{10}\\equiv \\frac{(-2)\\cdot(-1)\\cdot(-4)\\cdot4\\cdot2\\cdot1\\cdot(-1)\\cdot(-2)}{1\\cdot(-2)\\cdot4\\cdot2\\cdot1} \\equiv (-1)\\cdot(-4)\\cdot(-1)\\cdot(-2) \\equiv 8 \\pmod{9}$\n\n$4A\\equiv8\\pmod{9} \\implies A=\\boxed{\\textbf{(A) }2}$ ~quacker88"
   },
   {
     "id": "amc10b-2020-20",
@@ -5752,7 +5759,8 @@
       "3D Geometry",
       "3D Volumes and Surface Areas",
       "Problem-Solving: 3D Geometry"
-    ]
+    ],
+    "solutionLatex": "Split $S(r)$ into 4 regions:\n\n1. The rectangular prism itself\n\n2. The extensions of the faces of $B$\n\n3. The quarter cylinders at each edge of $B$\n\n4. The one-eighth spheres at each corner of $B$\n\nRegion 1: The volume of $B$ is $1 \\cdot 3 \\cdot 4 = 12$ , so $d=12$ .\n\nRegion 2: This volume is equal to the surface area of $B$ times $r$ (these \"extensions\" are just more boxes). The volume is then $\\text{SA} \\cdot r=2(1 \\cdot 3 + 1 \\cdot 4 + 3 \\cdot 4)r=38r$ to get $c=38$ .\n\nRegion 3: We see that there are 12 quarter-cylinders, 4 of each type. We have 4 quarter-cylinders of height 1, 4 quarter-cylinders of height 3, 4 quarter-cylinders of height 4. Since 4 quarter-cylinders make a full cylinder, the total volume is $4 \\cdot \\dfrac{1\\pi r^2}{4} + 4 \\cdot \\dfrac{3\\pi r^2}{4} + 4 \\cdot \\dfrac{4 \\pi r^2}{4}=8 \\pi r^2$ . Therefore, $b=8\\pi$ .\n\nRegion 4: There is an eighth-sphere of radius $r$ at each corner of $B$ . Since there are 8 corners, these eighth-spheres add up to 1 full sphere of radius $r$ . The volume of this sphere is then $\\frac{4}{3}\\pi \\cdot r^3$ , so $a=\\frac{4\\pi}{3}$ .\n\nUsing these values, $\\dfrac{bc}{ad}=\\frac{(8\\pi)(38)}{(4\\pi/3)(12)} = \\boxed{\\textbf{(B) }19}$ .\n\nTo see a diagram of $S(r)$ , view TheBeautyofMath's explanation video (Video Solution 1).\n\n~DrJoyo\n\n~Edits by BakedPotato66"
   },
   {
     "id": "amc10b-2020-21",
