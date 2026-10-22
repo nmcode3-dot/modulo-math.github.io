@@ -37,9 +37,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_1",
     "topics": [
       "Digit Problems",
-      "Finding the Last Digit",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Finding the Last Digit"
     ]
   },
   {
@@ -79,9 +77,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Areas",
-      "3D Volumes and Surface Areas",
-      "Length Chasing"
+      "Problem-Solving: 3D Geometry",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -122,7 +119,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_5",
     "topics": [
-      "Probability"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -143,7 +140,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_6",
     "topics": [
-      "Algebra"
+      "Paths on a Grid"
     ]
   },
   {
@@ -164,7 +161,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_7",
     "topics": [
-      "Venn Diagrams",
       "Problem-Solving: Quadrilaterals"
     ]
   },
@@ -186,7 +182,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_8",
     "topics": [
-      "Counting"
+      "Arithmetic Word Problems",
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -207,7 +205,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_9",
     "topics": [
-      "Algebra"
+      "Number Theory"
     ]
   },
   {
@@ -229,7 +227,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_10",
     "topics": [
       "Expected Value",
-      "Linearity of Expectation"
+      "Mean Median Mode"
     ]
   },
   {
@@ -250,8 +248,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums",
       "Problem-Solving: Coordinate Bashing",
       "Problem-Solving: Areas"
     ]
@@ -295,8 +291,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_13",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Constructive Counting",
+      "Sequences and Series"
     ]
   },
   {
@@ -317,7 +314,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_14",
     "topics": [
-      "Absolute Value Tricks"
+      "Probability"
     ]
   },
   {
@@ -338,9 +335,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_15",
     "topics": [
       "Digit Problems",
-      "Fundamental Counting Principle",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Digit Deduction"
     ],
     "solutionLatex": "The highest that $FLYFLY$ can be would have to be $124124$ , and it cannot be higher than that, because then it would be $125125$ , and $125125$ multiplied by 8 is $1001000$ , and then it would exceed the $6$ - digit limit set on $BUGBUG$ .\n\nSo, if we start at $124124\\cdot8$ , we get $992992$ , which would be wrong because both $B \\& U$ would be $9$ , and the numbers cannot be repeated between different letters.\n\nIf we move on to the next highest, $123123$ , and multiply by $8$ , we get $984984$ . All the digits are different, so $FLY+BUG$ would be $123+984$ , which is $1107$ . So, the answer is $\\boxed{\\textbf{(C)}1107}$ .\n\n- Akhil Ravuri of John Adams Middle School\n\n~ cxsmi (minor formatting edits)\n\n~ Alice of Evergreen Middle School"
   },
@@ -361,9 +356,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Divisibility Reasoning",
+      "Problem-Solving: Puzzles"
     ],
     "solutionLatex": "Note you can swap/rotate any configuration of rows, such that all the rows and columns that have a product of 3 are in the top left. Hence the points are bounded by a $a \\times b$ rectangle. This has $ab$ area and $a+b$ rows and columns divisible by $3$ . We want $ab\\ge 27$ and $a+b$ minimized.\n\nIf $ab=27$ , we achieve minimum with $a+b=9+3=12$ .\n\nIf $ab=28$ ,our best is $a+b=7+4=11$ . Note if $a+b=10$ , $ab=25$ . Because $25<27$ , there is no smaller answer, and we get $\\boxed{\\textbf{(D)} 11}$ .\n\n- SahanWijetunga\n~vockey(minor edits)\n~phy6(minor edits)"
   },
@@ -384,10 +378,9 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_17",
     "topics": [
-      "Casework",
       "Fundamental Counting Principle",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Constructive Counting",
+      "Problem-Solving: 3D Geometry"
     ],
     "solutionLatex": "If you place a king in any of the $4$ corners, the other king will have $5$ spots to go and there are $4$ corners, so $5 \\times 4=20$ .\nIf you place a king in any of the $4$ edges, the other king will have $3$ spots to go and there are $4$ edges so $3 \\times 4=12$ .\nThat gives us $20+12=32$ spots for the other king to go into in total.\nSo $\\boxed{\\textbf{(E)} 32}$ is the answer.\n~andliu766, captaindiamond868 (minor edits)\n~AliceDubbleYou"
   },
@@ -408,10 +401,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_18",
     "topics": [
-      "Problem-Solving: Areas",
       "Angle Chasing",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Angles"
     ],
     "solutionLatex": "Let $x=\\angle{BOC}$ .\n\nWe see that the shaded region is the inner ring plus a sector $x^\\circ$ of the outer ring. Using the formula for the area of a circle ( $A = \\pi r^2$ ), we find that the area of $x$ is $\\left( 4 \\pi - \\pi \\right)+\\frac{x}{360} \\left( 9 \\pi - 4 \\pi \\right)$ . This simplifies to $3 \\pi + \\frac{x}{360}(5 \\pi)$ .\n\nThe unshaded portion is comprised of the smallest circle plus the sector $(360-x)^\\circ$ of the outer ring, which evaluates to $\\pi + \\frac{360-x}{360}(5 \\pi)$ .\n\nWe are told these are equal. Therefore, $3 \\pi + \\frac{x}{360}(5 \\pi) = \\pi + \\frac{360-x}{360}(5 \\pi)$ . Solving for $x$ reveals $x=\\boxed{\\textbf{(A) } 108}$ .\n\n~MrThinker\n\n~Dash11 (Edited coefficient of pi. Credit goes to MrThinker for the solution and explanation.)"
   },
@@ -432,9 +425,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_19",
     "topics": [
-      "Fractions and Percents",
-      "Problem-Solving: Circle Basics",
-      "Clever Substitutions"
+      "Fractions and Percents"
     ],
     "solutionLatex": "Jordan has $10$ high top sneakers, and $6$ white sneakers. We would want as many white high-top sneakers as possible, so we set $6$ high-top sneakers to be white. Then, we have $10-6=4$ red high-top sneakers, so the answer is $\\boxed{\\dfrac{4}{15}}.$"
   },
@@ -458,7 +449,7 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "3D Geometry",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -501,6 +492,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Circle Basics",
+      "Mean Median Mode",
       "Cross Sections"
     ]
   },
@@ -522,7 +514,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_23",
     "topics": [
-      "Length Chasing"
+      "GCD/LCM",
+      "Length Chasing",
+      "Linear Equations",
+      "GCD and LCM"
     ]
   },
   {
@@ -543,7 +538,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Angle Chasing",
+      "Simplifying Radicals",
+      "Pythagorean theorem"
     ]
   },
   {
@@ -564,7 +562,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_25",
     "topics": [
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Permutations",
+      "Combinations",
+      "Problem-Solving: Puzzles"
     ]
   },
   {
@@ -584,7 +585,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_1",
     "topics": [
-      "Clever Substitutions"
+      "Algebra"
     ],
     "solutionLatex": "By the order of operations, we have \\[(8 \\times 4 + 2) - (8 + 4 \\times 2) = (32+2) - (8+8) = 34 - 16 = \\boxed{\\textbf{(D)}\\ 18}.\\]\n~apex304, TaeKim, MRENTHUSIASM"
   },
@@ -622,7 +623,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_3",
     "topics": [
       "Distance, Rate, Time",
-      "Angle Chasing",
       "Ratios and Rates"
     ]
   },
@@ -665,8 +665,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_5",
     "topics": [
-      "Ratios and Rates",
-      "Clever Substitutions"
+      "Ratios and Rates"
     ],
     "solutionLatex": "Note that \\[\\frac{\\text{number of trout}}{\\text{total number of fish}} = \\frac{30}{180} = \\frac16.\\] So, the total number of fish is $6$ times the number of trout. Since the lake contains $250$ trout, there are $250\\cdot6=\\boxed{\\textbf{(B)}\\ 1500}$ fish in the lake.\n\n~apex304, SohumUttamchandani, wuwang2002, TaeKim, Cxrupptedpat, MRENTHUSIASM"
   },
@@ -688,9 +687,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_6",
     "topics": [
       "Digit Problems",
-      "AIME-level Inequalities",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "AIME-level Inequalities"
     ],
     "solutionLatex": "First, let us consider the case where $0$ is a base: This would result in the entire expression being $0.$ Contrastingly, if $0$ is an exponent, we will get a value greater than $0.$ $3^2\\times2^0=9$ is greater than $2^3\\times2^0=8$ and $2^2\\times3^0=4.$ Therefore, the answer is $\\boxed{\\textbf{(C) }9}.$"
   },
@@ -711,10 +708,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Complementary Counting",
-      "Linear Inequalities",
-      "Clever Substitutions"
+      "Problem-Solving: Quadrilaterals"
     ],
     "solutionLatex": "If we extend the lines, we have the following diagram:\n[[img:https://latex.artofproblemsolving.com/b/4/c/b4c294d2f1ac621fb11f4cbb951ab4d3ddc74608.png]]\nTherefore, we see that the answer is $\\boxed{\\textbf{(B)}\\ 1}.$\n\n~MrThinker"
   },
@@ -755,7 +750,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_9",
     "topics": [
-      "Bases"
+      "Counting"
     ]
   },
   {
@@ -776,7 +771,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_10",
     "topics": [
-      "Algebra"
+      "Inclusion-Exclusion"
     ]
   },
   {
@@ -798,8 +793,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_11",
     "topics": [
       "Distance, Rate, Time",
-      "Expected Value",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Mean Median Mode"
     ]
   },
   {
@@ -820,10 +815,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_12",
     "topics": [
-      "Fractions and Percents",
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Slice and Add the Shaded Region"
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -844,7 +839,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_13",
     "topics": [
-      "Algebra"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -865,7 +860,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_14",
     "topics": [
-      "Arithmetic Word Problems"
+      "Arithmetic Word Problems",
+      "Chicken McNugget"
     ]
   },
   {
@@ -887,7 +883,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_15",
     "topics": [
       "Distance, Rate, Time",
-      "Length Chasing"
+      "Ratios and Rates"
     ]
   },
   {
@@ -930,8 +926,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_17",
     "topics": [
       "3D Geometry",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: 3D Geometry",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -952,7 +948,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_18",
     "topics": [
-      "Algebra"
+      "Number Theory"
     ]
   },
   {
@@ -973,10 +969,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_19",
     "topics": [
-      "Problem-Solving: Areas",
-      "Modular Arithmetic",
       "Ratios and Rates",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1017,8 +1013,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_21",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -1038,7 +1034,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_22",
     "topics": [
-      "Number Theory"
+      "Sequences and Series"
     ]
   },
   {
@@ -1079,9 +1075,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1102,8 +1098,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_25",
     "topics": [
-      "Digit Problems",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Digit Problems"
     ]
   },
   {
@@ -1166,8 +1162,9 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_3",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Divisor Counting",
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -1266,7 +1263,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_8",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Algebra"
     ]
   },
   {
@@ -1286,8 +1283,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_9",
     "topics": [
-      "Angle Chasing",
-      "Clever Substitutions"
+      "Algebra"
     ],
     "solutionLatex": "Initially, the difference between the water temperature and the room temperature is $212-68=144$ degrees Fahrenheit.\n\nAfter $5$ minutes, the difference between the temperatures is $144\\div2=72$ degrees Fahrenheit.\n\nAfter $10$ minutes, the difference between the temperatures is $72\\div2=36$ degrees Fahrenheit.\n\nAfter $15$ minutes, the difference between the temperatures is $36\\div2=18$ degrees Fahrenheit. At this point, the water temperature is $68+18=\\boxed{\\textbf{(B) } 86}$ degrees Fahrenheit.\n\nRemark\n\nAlternatively, we can condense the solution above into the following equation: \\[68+(212-68)\\cdot\\left(\\frac12\\right)^{\\tfrac{15}{5}}=86.\\]\n~MRENTHUSIASM ~MathFun1000"
   },
@@ -1303,9 +1299,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_10",
     "topics": [
       "Distance, Rate, Time",
-      "Ratios and Rates",
-      "Linear Equations",
-      "Fundamental Counting Principle"
+      "Ratios and Rates"
     ],
     "solutionLatex": "Note that:\n\nAt $\\boldsymbol{8 \\, \\footnotesize\\textbf{AM},}$ Ling's car was $\\boldsymbol{0}$ miles from her house.\n From $8 \\, \\textsc{am}$ to $10 \\, \\textsc{am},$ Ling drove to the hiking trail at a constant speed of $45$ miles per hour.\nIt follows that at $\\boldsymbol{10 \\, \\footnotesize\\textbf{AM},}$ Ling's car was $\\boldsymbol{45\\cdot2=90}$ miles from her house.\n From $10 \\, \\textsc{am}$ to $1 \\, \\textsc{pm},$ Ling did not move her car.\nIt follows that at $\\boldsymbol{1 \\, \\footnotesize\\textbf{PM},}$ Ling's car was still $\\boldsymbol{90}$ miles from her house.\n From $1 \\, \\textsc{pm},$ Ling drove home at a constant speed of $60$ miles per hour. So, she arrived home $90\\div60=1.5$ hour later.\nIt follows that at $\\boldsymbol{2:30 \\, \\footnotesize\\textbf{PM},}$ Ling's car was $\\boldsymbol{0}$ miles from her house.\n\nTherefore, the answer is $\\boxed{\\textbf{(E)}}.$\n\n~MRENTHUSIASM"
   },
@@ -1326,8 +1320,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_11",
     "topics": [
-      "Length Chasing",
-      "Clever Substitutions"
+      "Algebra"
     ],
     "solutionLatex": "Let's say that the first strand of pasta he had is x. The first time he takes a bite of this strand will make it 2 pieces. This is x - 3. The second time he takes the bites of EACH strand will become (x - 3) * 3(2). The 2 is for the two bites he took, 1 for each strand. This equation is showing that for every bite that he is taking, he is taking off 3 inches. This is being showed in the 3(2). He took 2 bites, each taking off 3 inches. Now, the problem is stating that their are 10 pieces of pasta and the TOTAL length is 17 inches. We have to plug in the total number of bites to the equation (x - 3) * 3( ). To find this out, we can see that for the number of strands there are, he took 1 less bite than that number. For example, if there are 2 pieces, he took 1 bite to get those. Since there are 10 pieces, he took 9 bites. The equation then becomes, (x - 3) * 3(9) = 17. To solve this, x = 44. Therefore, the answer is $\\boxed{\\textbf{(D) } 44}$ .\n\n~~Brainiacs77~~"
   },
@@ -1348,8 +1341,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_12",
     "topics": [
-      "Introduction to Probability",
-      "Clever Substitutions"
+      "Introduction to Probability"
     ],
     "solutionLatex": "First, we calculate that there are a total of $4\\cdot4=16$ possibilities. Now, we list all of two-digit perfect squares. $64$ and $81$ are the only ones that can be made using the spinner. Consequently, there is a $\\frac{2}{16}=\\boxed{\\textbf{(B) }\\dfrac{1}{8}}$ probability that the number formed by the two spinners is a perfect square.\n\n~MathFun1000"
   },
@@ -1391,8 +1383,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_14",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Permutations",
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -1413,7 +1406,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_15",
     "topics": [
-      "Graphing Functions"
+      "Arithmetic Word Problems",
+      "Linear Equations"
     ]
   },
   {
@@ -1434,9 +1428,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_16",
     "topics": [
-      "Expected Value",
       "Mean Median Mode",
-      "Permutations"
+      "Permutations",
+      "Sequences and Series"
     ]
   },
   {
@@ -1457,10 +1451,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_17",
     "topics": [
-      "Factorial",
-      "Arithmetic/Geometric Sequences",
       "Digit Problems",
-      "Finding the Last Digit"
+      "Factorial",
+      "Finding the Last Digit",
+      "100x + 10y + z"
     ]
   },
   {
@@ -1482,7 +1476,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -1503,9 +1498,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_19",
     "topics": [
-      "Mean Median Mode",
-      "Expected Value",
-      "Graphing Functions"
+      "Mean Median Mode"
     ]
   },
   {
@@ -1526,7 +1519,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_20",
     "topics": [
-      "Number Theory"
+      "Problem-Solving: Puzzles",
+      "Problem-Solving: Shaded Regions - Circles",
+      "AIME-level Inequalities",
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -1589,7 +1585,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Triangle Angles"
+      "Casework",
+      "Permutations"
     ]
   },
   {
@@ -1609,10 +1606,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_24",
     "topics": [
-      "3D Geometry",
-      "Problem-Solving: Polygons",
       "3D Volumes and Surface Areas",
-      "Clever Substitutions"
+      "3D Geometry",
+      "Problem-Solving: Polygons"
     ],
     "solutionLatex": "While imagining the folding, $\\overline{AB}$ goes on $\\overline{BC},$ $\\overline{AH}$ goes on $\\overline{CI},$ and $\\overline{EF}$ goes on $\\overline{FG}.$ So, $BJ=CI=8$ and $FG=BC=8.$ Also, $\\overline{HJ}$ becomes an edge parallel to $\\overline{FG},$ so that means $HJ=8.$\n\nSince $GH=14,$ then $JG=14-8=6.$ So, the area of $\\triangle BJG$ is $\\frac{8\\cdot6}{2}=24.$ If we let $\\triangle BJG$ be the base, then the height is $FG=8.$ So, the volume is $24\\cdot8=\\boxed{\\textbf{(C)} ~192}.$\n\n~aops-g5-gethsemanea2"
   },
@@ -1633,10 +1629,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_25",
     "topics": [
-      "Introduction to Probability",
-      "Recursion",
-      "Casework",
-      "Complementary Counting"
+      "Introduction to Probability"
     ],
     "solutionLatex": "Let $A$ denote the leaf where the cricket starts and $B$ denote one of the other $3$ leaves. Note that:\n\nIf the cricket is at $A,$ then the probability that it hops to $B$ next is $1.$\n\nIf the cricket is at $B,$ then the probability that it hops to $A$ next is $\\frac13.$\n\nIf the cricket is at $B,$ then the probability that it hops to $B$ next is $\\frac23.$\n\nWe apply casework to the possible paths of the cricket:\n\n$A \\rightarrow B \\rightarrow A \\rightarrow B \\rightarrow A$\nThe probability for this case is $1\\cdot\\frac13\\cdot1\\cdot\\frac13=\\frac19.$\n $A \\rightarrow B \\rightarrow B \\rightarrow B \\rightarrow A$\nThe probability for this case is $1\\cdot\\frac23\\cdot\\frac23\\cdot\\frac13=\\frac{4}{27}.$\n\nTogether, the probability that the cricket returns to $A$ after $4$ hops is $\\frac19+\\frac{4}{27}=\\boxed{\\textbf{(E) }\\frac{7}{27}}.$\n\n~MRENTHUSIASM"
   },
@@ -1698,7 +1691,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_3",
     "topics": [
-      "Expected Value",
       "Mean Median Mode"
     ]
   },
@@ -1761,8 +1753,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_6",
     "topics": [
-      "Complementary Counting",
-      "Linear Inequalities"
+      "Complementary Counting"
     ]
   },
   {
@@ -1783,7 +1774,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_7",
     "topics": [
-      "Digit Problems"
+      "Digit Problems",
+      "Digit Deduction",
+      "Combinations"
     ]
   },
   {
@@ -1805,8 +1798,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_8",
     "topics": [
       "Complementary Counting",
-      "Arithmetic Word Problems",
-      "Linear Inequalities"
+      "Arithmetic Word Problems"
     ]
   },
   {
@@ -1827,7 +1819,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_9",
     "topics": [
-      "3D Geometry"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -1848,9 +1840,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_10",
     "topics": [
-      "Casework",
       "Permutations",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -1871,9 +1863,9 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_11",
     "topics": [
-      "Expected Value",
+      "Distance, Rate, Time",
       "Ratios and Rates",
-      "Distance, Rate, Time"
+      "Mean Median Mode"
     ]
   },
   {
@@ -1937,7 +1929,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_14",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -1977,9 +1969,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_16",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -2020,8 +2010,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas",
+      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Inscribed Circles"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/5/7/0/5702f644dac21548c80e93c4d527cd0bec4d0ebb.png]]\n\nLet $O$ be the center of the semicircle. The diameter of the semicircle is $9+16+9=34$ , so $OC = 17$ . By symmetry, $O$ is the midpoint of $DA$ , so $OD=OA=\\frac{16}{2}= 8$ . By the Pythagorean theorem in right-angled triangle $ODC$ (or $OBA$ ), we have that $CD$ (or $AB$ ) is $\\sqrt{17^2-8^2}=15$ . Accordingly, the area of $ABCD$ is $16\\cdot 15=\\boxed{\\textbf{(A) }240}$ ."
@@ -2044,9 +2034,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_19",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
-      "Digit Deduction",
-      "Finding the Last Digit"
+      "Modular Arithmetic",
+      "Divisibility Reasoning",
+      "Digit Deduction"
     ],
     "solutionLatex": "A number is divisible by $15$ precisely if it is divisible by $3$ and $5$ . The latter means the last digit must be either $5$ or $0$ , and the former means the sum of the digits must be divisible by $3$ . If the last digit is $0$ , the first digit would be $0$ (because the digits alternate), which is not possible. Hence the last digit must be $5$ , and the number is of the form $5\\square 5\\square 5$ . If the unknown digit is $x$ , we deduce $5+x+5+x+5 \\equiv 0 \\pmod{3} \\Rightarrow 2x \\equiv 0 \\pmod{3}$ . We know $2^{-1}$ exists modulo $3$ because 2 is relatively prime to 3, so we conclude that $x$ (i.e. the second and fourth digit of the number) must be a multiple of $3$ . It can be $0$ , $3$ , $6$ , or $9$ , so there are $\\boxed{\\textbf{(B) }4}$ options: $50505$ , $53535$ , $56565$ , and $59595$ ."
   },
@@ -2068,7 +2058,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_20",
     "topics": [
-      "Expected Value",
+      "Mean Median Mode",
       "Permutations"
     ]
   },
@@ -2089,7 +2079,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_21",
     "topics": [
-      "Combinations"
+      "Counting"
     ],
     "solutionLatex": "Notice that, to step onto any particular white square, the marker must have come from one of the $1$ or $2$ white squares immediately beneath it (since the marker can only move on white squares). This means that the number of ways to move from $P$ to that square is the sum of the number of ways to move from $P$ to each of the white squares immediately beneath it (also called the Waterfall Method). To solve the problem, we can accordingly construct the following diagram, where each number in a square is calculated as the sum of the numbers on the white squares immediately beneath that square (and thus will represent the number of ways to remove from $P$ to that square, as already stated).\n\n[[img:https://latex.artofproblemsolving.com/3/8/d/38df398e31d5f4a69999da41b16ceb51aef50425.png]]\n\nThe answer is therefore $\\boxed{\\textbf{(A) }28}$ .\n\nNote: This is a classic example of a problem involving Pascal's triangle.\n\n~ edited by Dream9, WrenMath and algebraic_algorithmic"
   },
@@ -2110,7 +2100,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_22",
     "topics": [
-      "Number Theory"
+      "Parity Reasoning"
     ],
     "solutionLatex": "We start with final output of $1$ and work backward, taking cares to consider all possible inputs that could have resulted in any particular output. This produces following set of possibilities each stage:\n \\[\\{1\\}\\rightarrow\\{2\\}\\rightarrow\\{4\\}\\rightarrow\\{1,8\\}\\rightarrow\\{2,16\\}\\rightarrow\\{4,5,32\\}\\rightarrow\\{1,8,10,64\\}\\]\nwhere, for example, $2$ must come from $4$ (as there is no integer $n$ satisfying $3n+1=2$ ), but $16$ could come from $32$ or $5$ (as $\\frac{32}{2} = 3 \\cdot 5 + 1 = 16$ , and $32$ is even while $5$ is odd). By construction, last set in this sequence contains all the numbers which will lead to number $1$ to end of the $6$ -step process, and sum is $1+8+10+64=\\boxed{\\textbf{(E) }83}$ ."
   },
@@ -2132,8 +2122,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_23",
     "topics": [
-      "Complementary Counting",
-      "Linear Inequalities"
+      "Fundamental Counting Principle",
+      "Combinations",
+      "Stars and Bars",
+      "Complementary Counting"
     ]
   },
   {
@@ -2155,8 +2147,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Areas",
-      "Ratios and Rates",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Problem-Solving: Weird Areas",
+      "Length Chasing"
     ]
   },
   {
@@ -2199,7 +2192,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_1",
     "topics": [
-      "Algebra"
+      "Arithmetic Word Problems"
     ]
   },
   {
@@ -2220,10 +2213,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_2",
     "topics": [
-      "Conditional Probability",
       "Permutations with Repeated Elements",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2265,9 +2258,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_4",
     "topics": [
       "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Areas",
       "Pythagorean theorem",
-      "Length Chasing",
-      "Problem-Solving: Areas"
+      "Length Chasing"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/2/3/0/230af487f6bb84b2940aef916f01294a89dfc2cf.png]]\n\nA rhombus has sides of equal length. Because the perimeter of the rhombus is $52$ , each side is $\\frac{52}{4}=13$ . In a rhombus, diagonals are perpendicular and bisect each other, which means $\\overline{AE}$ = $12$ = $\\overline{EC}$ .\n\nConsider one of the\n\n[[img:https://latex.artofproblemsolving.com/1/3/c/13cae96c6d58989310e8a27b3c7afe7ba5fc6c53.png]]\n\n$\\overline{AB}$ = $13$ , and $\\overline{AE}$ = $12$ . Using the Pythagorean theorem, we find that $\\overline{BE}$ = $5$ .\nYou know the Pythagorean triple, (5, 12, 13).\n\nThus the values of the two diagonals are $\\overline{AC}$ = $24$ and $\\overline{BD}$ = $10$ .\nThe area of a rhombus is = $\\frac{d_1\\cdot{d_2}}{2}$ = $\\frac{24\\cdot{10}}{2}$ = $120$\n\n$\\boxed{\\textbf{(D)}\\ 120}$"
   },
@@ -2282,7 +2275,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_5",
     "topics": [
-      "Logic"
+      "Algebra"
     ]
   },
   {
@@ -2304,7 +2297,8 @@
     "topics": [
       "Symmetry",
       "Introduction to Probability",
-      "Logic"
+      "Problem-Solving: 3D Geometry",
+      "Geometric Probability"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/6/3/b/63bb33b68c197515f7d5cad4846e01b08f4fe558.png]]\nLines of symmetry go through point $P$ , and there are $8$ directions the lines could go, and there are $4$ dots at each direction. $\\frac{4\\times8}{80}=\\boxed{\\textbf{(C)} \\frac{2}{5}}$ ."
   },
@@ -2325,10 +2319,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_7",
     "topics": [
-      "Expected Value",
-      "Problem-Solving: Divisibility and Digits",
-      "Digit Problems",
-      "Logic"
+      "Mean Median Mode"
     ],
     "solutionLatex": "We should notice that we can turn the information we are given into a linear equation and just solve for our set variables. I'll use the variables $x$ and $y$ for the scores on the last two tests. \\[\\frac{76+94+87+x+y}{5} = 81,\\] \\[\\frac{257+x+y}{5} = 81.\\] We can now cross multiply to get rid of the denominator. \\[257+x+y = 405,\\] \\[x+y = 148.\\] Now that we have this equation, we will assign $y$ as the lowest score of the two other tests, and so: \\[x = 100,\\] \\[y=48.\\] Now we know that the lowest score on the two other tests is $\\boxed{48}$ .\n\n~ aopsav"
   },
@@ -2349,8 +2340,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_8",
     "topics": [
-      "Fractions and Percents",
-      "Logic"
+      "Fractions and Percents"
     ],
     "solutionLatex": "After Gilda gives $20$ % of the marbles to Pedro, she has $80$ % of the marbles left. If she then gives $10$ % of what's left to Ebony, she has $(0.8*0.9)$ = $72$ % of what she had at the beginning. Finally, she gives $25$ % of what's left to her brother, so she has $(0.75*0.72)$ $\\boxed{\\textbf{(E)}\\ 54}$ of what she had in the beginning left."
   },
@@ -2428,7 +2418,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_12",
     "topics": [
-      "3D Geometry"
+      "3D Geometry",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -2450,9 +2441,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_13",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
+      "100x + 10y + z",
       "Palindromes",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Deduction"
     ]
   },
   {
@@ -2516,7 +2507,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_16",
     "topics": [
       "Distance, Rate, Time",
-      "Expected Value",
+      "Mean Median Mode",
       "Ratios and Rates"
     ]
   },
@@ -2538,7 +2529,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_17",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Algebra"
     ]
   },
   {
@@ -2559,7 +2550,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_18",
     "topics": [
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Parity Reasoning",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -2600,7 +2593,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_20",
     "topics": [
-      "Counting"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -2620,7 +2614,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -2642,7 +2635,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_22",
     "topics": [
       "Fractions and Percents",
-      "Conditional Probability"
+      "Conditional Probability",
+      "Arithmetic Word Problems"
     ]
   },
   {
@@ -2662,10 +2656,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_23",
     "topics": [
-      "Ratios and Rates",
-      "Algebraic Manipulation",
-      "Logic",
-      "Fundamental Counting Principle"
+      "Linear Inequalities"
     ],
     "solutionLatex": "Given the information above, we start with the equation $\\frac{t}{4}+\\frac{2t}{7} + 15 + x = t$ , where $t$ is the total number of points scored and $x\\le 14$ is the number of points scored by the remaining 7 team members, we can simplify to obtain the Diophantine equation $x+15 = \\frac{13}{28}t$ , or $28x+28\\cdot 15=13t$ . Since $t$ is necessarily divisible by 28, let $t=28u$ where $u \\ge 0$ and divide by 28 to obtain $x + 15 = 13u$ . Then, it is easy to see $u=2$ ( $t=56$ ) is the only candidate remaining, giving $x=\\boxed{\\textbf{(B)} 11}$ .\n\n-scrabbler94\n\n~Minor Edits by Wrenmath"
   },
@@ -2686,10 +2677,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_24",
     "topics": [
-      "Logic",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Conditional Probability"
     ],
     "solutionLatex": "We use the line-segment ratios to infer area ratios and height ratios.\n\nAreas:\n\n$AD:DC = 1:2 \\implies AD:AC = 1:3 \\implies [ABD] =\\frac{[ABC]}{3} = 120$ .\n\n$BE:BD = 1:2 \\text{ (midpoint)} \\implies [ABE] = \\frac{[ABD]}{2} = \\frac{120}{2} = 60$ .\n\nHeights:\n\nLet $h_A$ = height (of altitude) from $\\overline{BC}$ to $A$ .\n\n$AD:DC = 1:2 \\implies CD:CA = 2:3 \\implies \\text{height } h_D$ from $\\overline{BC}$ to $D$ is $\\frac{2}{3}h_A$ .\n\n$BE:BD = 1:2 \\text{ (midpoint)} \\implies \\text{height } h_E$ from $\\overline{BC}$ to $E$ is $\\frac{1}{2} h_D = \\frac{1}{2}(\\frac{2}{3} h_A) = \\frac{1}{3} h_A$ .\n\nConclusion:\n\n$\\frac{[EBF]} {[ABF]} = \\frac{[EBF]} {[EBF] + [ABE]} = \\frac{[EBF]} {[EBF]+60}$ , and also $\\frac{[EBF]} {[ABF]} = \\frac{h_E}{h_A} = \\frac{1}{3}$ .\n\nSo, $\\frac{[EBF]} {[EBF] + 60} = \\frac{1}{3}$ , and thus, $[EBF] = \\boxed{\\textbf{(B) }30}$"
   },
@@ -2710,10 +2699,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_25",
     "topics": [
-      "Fundamental Counting Principle",
       "Stars and Bars",
-      "Linear Inequalities",
-      "Pigeonhole"
+      "Fundamental Counting Principle",
+      "Combinations",
+      "Constructive Counting"
     ],
     "solutionLatex": "Note: This solution uses the non-negative version for stars and bars. A solution using the positive version of stars is similar (first removing an apple from each person instead of 2).\n\nThis method uses the counting method of stars and bars (non-negative version). Since each person must have at least $2$ apples, we can remove $2*3$ apples from the total that need to be sorted. With the remaining $18$ apples, we can use stars and bars to determine the number of possibilities. Assume there are $18$ stars in a row, and $2$ bars, which will be placed to separate the stars into groups of $3$ . In total, there are $18$ spaces for stars $+ 2$ spaces for bars, for a total of $20$ spaces. We can now do $20 \\choose 2$ . This is because if we choose distinct $2$ spots for the bars to be placed, each combo of $3$ groups will be different, and all apples will add up to $18$ . We can also do this because the apples are indistinguishable. $20 \\choose 2$ is $190$ , therefore the answer is $\\boxed{\\textbf{(C) }190}$ .\n\n~goofytaipan91"
   },
@@ -2778,10 +2767,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_3",
     "topics": [
-      "Digit Problems",
       "Problem-Solving: Circle Basics",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Divisibility Reasoning",
+      "Digit Problems"
     ]
   },
   {
@@ -2823,7 +2811,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_5",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Algebra"
     ]
   },
   {
@@ -2844,7 +2832,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_6",
     "topics": [
-      "Counting"
+      "Distance, Rate, Time",
+      "Ratios and Rates"
     ]
   },
   {
@@ -2865,10 +2854,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
+      "Divisibility Reasoning",
       "Modular Arithmetic",
-      "Digit Problems",
-      "Digit Deduction"
+      "Digit Problems"
     ]
   },
   {
@@ -2889,7 +2877,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_8",
     "topics": [
-      "Linear Inequalities",
       "Mean Median Mode"
     ]
   },
@@ -2911,8 +2898,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_9",
     "topics": [
       "Floor Functions",
-      "Floor Function Strategies",
-      "Problem-Solving: Areas"
+      "Problem-Solving: 3D Geometry"
     ],
     "solutionLatex": "She will place $(12\\cdot2)+(14\\cdot2)=52$ tiles around the border. For the inner part of the room, we have $10\\cdot14=140$ square feet. Each tile takes up $4$ square feet, so he will use $\\frac{140}{4}=35$ tiles for the inner part of the room. Thus, the answer is $52+35= \\boxed{\\textbf{(B) }87}$ ."
   },
@@ -2934,8 +2920,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_10",
     "topics": [
-      "Mean Median Mode",
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -2976,7 +2961,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_12",
     "topics": [
-      "Ratios and Rates",
       "Problem-Solving: Angles on a Clock"
     ]
   },
@@ -2997,7 +2981,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_13",
     "topics": [
-      "Expected Value"
+      "Linear Inequalities",
+      "Mean Median Mode"
     ],
     "solutionLatex": "Say Laila gets a value of $x$ on her first 4 tests, and a value of $y$ on her last test. Thus, $4x+y=82 \\cdot 5=410$ .\n\nBecause $x$ and $y$ are different, $x$ must be less than $82$ and $y$ must be greater than $82$ . When $x$ decreases by $1$ , $y$ must increase by $4$ to keep the total constant.\n\nThe greatest value for $y$ is $98$ (as $y=100$ would make $x$ non-integer). In the range $83\\le y\\le 98$ , only $4$ values for $y$ result in integer values for $x$ : 86, 90, 94 and 98. Thus, the answer is $\\boxed{\\textbf{(A) }4}$ ."
   },
@@ -3019,9 +3004,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_14",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits",
-      "Factorial"
+      "Digit Deduction"
     ],
     "solutionLatex": "If we start off with the first digit, we know that it can't be $9$ since $9$ is not a factor of $120$ . We go down to the digit $8$ , which does work since it is a factor of $120$ . Now, we have to know what digits will take up the remaining four spots. To find this result, just divide $\\frac{120}{8}=15$ . The next place can be $5$ , as it is the largest factor, aside from $15$ . Consequently, our next three values will be $3,1$ and $1$ if we use the same logic. Therefore, our five-digit number is $85311$ , so the sum is $8+5+3+1+1=18\\implies \\boxed{\\textbf{(D) }18}$ ."
   },
@@ -3067,9 +3050,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_16",
     "topics": [
-      "Casework",
       "Permutations",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -3153,10 +3136,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_20",
     "topics": [
+      "Problem-Solving: Areas",
+      "Similar Triangles",
       "Ratios and Rates",
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ]
   },
   {
@@ -3177,10 +3160,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
-      "Modular Arithmetic",
       "Digit Problems",
-      "Digit Deduction"
+      "100x + 10y + z",
+      "Chinese Remainder Theorem",
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -3201,8 +3184,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_22",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -3223,10 +3206,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_23",
     "topics": [
-      "Complementary Counting",
-      "Linear Inequalities",
       "Introduction to Probability",
-      "Problem-Solving: Polygons"
+      "Complementary Counting",
+      "Problem-Solving: Polygons",
+      "Stars and Bars"
     ]
   },
   {
@@ -3247,10 +3230,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_24",
     "topics": [
-      "Ratios and Rates",
+      "Problem-Solving: Areas",
       "3D Geometry",
-      "Problem-Solving: 3D Geometry",
-      "Cross Sections"
+      "Cross Sections",
+      "Ratios and Rates"
     ]
   },
   {
@@ -3271,7 +3254,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_25",
     "topics": [
-      "Counting"
+      "Exponent Rules"
     ]
   },
   {
@@ -3312,7 +3295,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_2",
     "topics": [
-      "Counting"
+      "Inclusion-Exclusion"
     ]
   },
   {
@@ -3393,9 +3376,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Ratios and Rates",
-      "Polynomials"
+      "Angle Chasing",
+      "Problem-Solving: Angles",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -3417,8 +3400,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_7",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -3440,9 +3422,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_8",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
-      "Finding the Last Digit",
-      "Digit Deduction"
+      "Parity Reasoning",
+      "100x + 10y + z",
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -3463,7 +3445,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_9",
     "topics": [
-      "Algebra"
+      "Number Theory"
     ]
   },
   {
@@ -3484,7 +3466,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_10",
     "topics": [
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Combinations"
     ]
   },
   {
@@ -3505,9 +3488,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_11",
     "topics": [
-      "Modular Arithmetic",
-      "Floor Functions",
-      "Floor Function Strategies"
+      "Floor Functions"
     ]
   },
   {
@@ -3528,8 +3509,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_12",
     "topics": [
-      "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits"
+      "Chinese Remainder Theorem",
+      "GCD/LCM",
+      "Logic"
     ]
   },
   {
@@ -3592,7 +3574,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_15",
     "topics": [
-      "Counting"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -3613,7 +3596,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_16",
     "topics": [
       "Combinations",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -3656,8 +3638,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_18",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
+      "Pythagorean theorem",
+      "Problem-Solving: Angles",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -3677,7 +3660,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_19",
     "topics": [
-      "Number Theory"
+      "Floor Functions",
+      "Floor",
+      "Floor Function Strategies"
     ],
     "solutionLatex": "Factoring out $98!+99!+100!$ , we have $98! (1+99+99*100)$ , which is $98! (10000)$ . Next, $98!$ has $\\left\\lfloor\\frac{98}{5}\\right\\rfloor + \\left\\lfloor\\frac{98}{25}\\right\\rfloor = 19 + 3 = 22$ factors of $5$ . The $19$ is because of all the multiples of $5$ .The $3$ is because of all the multiples of $25$ . Now, $10,000$ has $4$ factors of $5$ , so there are a total of $22 + 4 = \\boxed{\\textbf{(D)}\\ 26}$ factors of $5$ .\n\n~CHECKMATE2021\n\nNote: Do you know what formula this uses? Most AMC 8 test takers won't know it.\nIt's Legendre's Formula."
   },
@@ -3700,8 +3685,8 @@
     "topics": [
       "Digit Problems",
       "Introduction to Probability",
-      "Finding the Last Digit",
-      "Digit Deduction"
+      "Parity Reasoning",
+      "Finding the Last Digit"
     ],
     "solutionLatex": "There are $5$ options for the last digit as the integer must be odd. The first digit now has $8$ options left (it can't be $0$ or the same as the last digit). The second digit also has $8$ options left (it can't be the same as the first or last digit). Finally, the third digit has $7$ options (it can't be the same as the three digits that are already chosen).\n\nSince there are $9,000$ total integers, our answer is \\[\\frac{8 \\cdot 8 \\cdot 7 \\cdot 5}{9000} = \\boxed{\\textbf{(B)}\\ \\frac{56}{225}}.\\]"
   },
@@ -3722,9 +3707,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_21",
     "topics": [
-      "2nd Degree Symmetric Sums",
-      "Casework",
-      "3rd Degree Symmetric Sums"
+      "Algebra"
     ],
     "solutionLatex": "There are $2$ cases to consider:\n\nCase $1$ : $2$ of $a$ , $b$ , and $c$ are positive and the other is negative. Without loss of generality (WLOG), we can assume that $a$ and $b$ are positive and $c$ is negative. In this case, we have that \\[\\frac{a}{|a|}+\\frac{b}{|b|}+\\frac{c}{|c|}+\\frac{abc}{|abc|}=1+1-1-1=0.\\]\n\nCase $2$ : $2$ of $a$ , $b$ , and $c$ are negative and the other is positive. WLOG, we can assume that $a$ and $b$ are negative and $c$ is positive. In this case, we have that \\[\\frac{a}{|a|}+\\frac{b}{|b|}+\\frac{c}{|c|}+\\frac{abc}{|abc|}=-1-1+1+1=0.\\]\n\nNote these are the only valid cases, for neither $3$ negatives nor $3$ positives would work as they cannot sum up to $0$ . In both cases, we get that the given expression equals $\\boxed{\\textbf{(A)}\\ 0}$ ."
   },
@@ -3746,10 +3729,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_22",
     "topics": [
-      "Pythagorean theorem",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums"
+      "Pythagorean theorem",
+      "Angle Chasing",
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -3770,7 +3753,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_23",
     "topics": [
-      "Distance, Rate, Time"
+      "Distance, Rate, Time",
+      "Arithmetic/Geometric Sequences"
     ]
   },
   {
@@ -3791,7 +3775,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_24",
     "topics": [
-      "Counting"
+      "Inclusion-Exclusion",
+      "Floor Functions",
+      "Floor",
+      "Floor Function Strategies"
     ]
   },
   {
@@ -3813,9 +3800,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_25",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas",
       "Angle Chasing",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3858,7 +3845,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_2",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -3880,7 +3866,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_3",
     "topics": [
-      "Expected Value",
       "Mean Median Mode"
     ]
   },
@@ -3902,7 +3887,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_4",
     "topics": [
-      "Counting"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -3924,8 +3909,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_5",
     "topics": [
       "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits",
       "Digit Problems",
+      "Divisibility Reasoning",
       "100x + 10y + z"
     ]
   },
@@ -3989,8 +3974,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_8",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Handshakes"
+      "Parity Reasoning"
     ],
     "solutionLatex": "We can group each subtracting pair together:\n \\[(100-98)+(96-94)+(92-90)+ \\ldots +(8-6)+(4-2).\\]\nAfter subtracting, we have:\n \\[2+2+2+\\ldots+2+2=2(1+1+1+\\ldots+1+1).\\]\nThere are $50$ even numbers, therefore there are $\\dfrac{50}{2}=25$ even pairs. Therefore the sum is $2 \\cdot 25=\\boxed{\\textbf{(C) }50}$\n\nSince our list does not end with one, we divide every number by 2 and we end up with\n \\[50-49+48-47+ \\ldots +4-3+2-1\\]\nWe can group each subtracting pair together:\n \\[(50-49)+(48-47)+(46-45)+ \\ldots +(4-3)+(2-1).\\]\nThere are now $25$ pairs of numbers, and the value of each pair is $1$ . This sum is $25$ . However, we divided by $2$ originally so we will multiply $2*25$ to get the final answer of $\\boxed{\\textbf{(C) }50}$\n\nNote: This solution is very similar to Solution 1, but simplified.\n\nThe value of the expression increases by 2 after every pair as shown:\n\nPair 1: [100-98= $2$ ]\n\nPair 1 + 2: [2+96-94= $4$ ]\n\nPair 1 + 2 + 3: [4+92-90= $6$ ]\n\nSince there is 25 pairs in the expression, the value will increase by two 25 times. Thus, the sum of the expression is $2 \\cdot 25=\\boxed{\\textbf{(C) }50}$"
   },
@@ -4011,7 +3995,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_9",
     "topics": [
-      "Counting Divisors",
       "Divisor Counting"
     ],
     "solutionLatex": "The prime factorization is $2016=2^5\\times3^2\\times7$ . Since the problem is only asking us for the distinct prime factors, we have $2,3,7$ . Their desired sum is then $\\boxed{\\textbf{(B) }12}$ ."
@@ -4056,8 +4039,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_11",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "100x + 10y + z"
     ]
   },
   {
@@ -4099,7 +4081,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_13",
     "topics": [
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Combinations"
     ]
   },
   {
@@ -4120,7 +4103,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_14",
     "topics": [
-      "Counting"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -4141,7 +4124,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_15",
     "topics": [
-      "Number Theory"
+      "Algebraic Manipulation"
     ]
   },
   {
@@ -4183,7 +4166,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_17",
     "topics": [
-      "Digit Problems"
+      "Digit Problems",
+      "Finding the Last Digit",
+      "Sequences and Series"
     ]
   },
   {
@@ -4225,7 +4210,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_19",
     "topics": [
-      "Number Theory"
+      "Parity Reasoning"
     ]
   },
   {
@@ -4246,8 +4231,9 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_20",
     "topics": [
+      "GCD and LCM",
       "GCD/LCM",
-      "GCD and LCM"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -4268,7 +4254,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_21",
     "topics": [
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Combinations"
     ]
   },
   {
@@ -4291,8 +4278,8 @@
     "topics": [
       "Problem-Solving: Areas",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Slice and Add the Shaded Region"
+      "Similar Triangles",
+      "Problem-Solving: Weird Areas"
     ]
   },
   {
@@ -4312,10 +4299,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_23",
     "topics": [
-      "Modular Arithmetic",
       "Angle Chasing",
-      "Problem-Solving: Circle Basics",
-      "Polynomials"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -4336,9 +4322,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_24",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
       "100x + 10y + z",
-      "Digit Deduction"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -4360,8 +4345,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Bases"
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -4382,8 +4366,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_1",
     "topics": [
-      "Floor Functions",
-      "Floor Function Strategies"
+      "Floor Functions"
     ]
   },
   {
@@ -4397,10 +4380,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_2",
     "topics": [
-      "Problem-Solving: Areas",
-      "Fractions and Percents",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Fractions and Percents"
     ],
     "solutionLatex": "Since octagon $ABCDEFGH$ is a regular octagon, it is split into $8$ equal parts, such as triangles $\\bigtriangleup ABO, \\bigtriangleup BCO, \\bigtriangleup CDO$ , etc. These parts, since they are all equal, are $\\frac{1}{8}$ of the octagon each. The shaded region consists of $3$ of these equal parts plus half of another, so the fraction of the octagon that is shaded is $\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{16}=\\boxed{\\textbf{(D) }\\dfrac{7}{16}}.$\n\n[[img:https://latex.artofproblemsolving.com/0/6/5/0650daad76500b862bb75dbf6f0a81620b3471c5.png]]\n\nThe octagon has been divided up into $16$ identical triangles (and thus they each have equal area). Since the shaded region occupies $7$ out of the $16$ total triangles, the answer is $\\boxed{\\textbf{(D)}~\\dfrac{7}{16}}$ .\n\n-Flare\n\nFor starters, what I find helpful is to divide the whole octagon up into triangles as shown here:\n[[img:https://latex.artofproblemsolving.com/b/a/8/ba8f1ed7f1c93637ee903d0935139cee9be6f540.png]]\n\nNow, it is just a matter of counting the larger triangles. Remember that $\\triangle BOX$ and $\\triangle XOA$ are not full triangles and are only half for these purposes. We count it up and we get a total of $\\frac{3.5}{8}$ of the shape shaded. We then simplify it to get our answer of $\\boxed{\\textbf{(D)}~\\frac{7}{16}}$ ."
   },
@@ -4487,8 +4470,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_6",
     "topics": [
-      "3rd Degree Symmetric Sums",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Pythagorean theorem",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -4509,7 +4493,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_7",
     "topics": [
-      "Introduction to Probability"
+      "Parity Reasoning",
+      "Introduction to Probability",
+      "Combinations",
+      "Complementary Counting"
     ]
   },
   {
@@ -4529,10 +4516,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing",
-      "Linear Inequalities",
-      "AIME-level Inequalities"
+      "Linear Inequalities"
     ],
     "solutionLatex": "We know from the Triangle Inequality that the last side, $s$ , fulfills $s<5+19=24$ . Adding $5+19$ to both sides of the inequality, we get $s+5+19<48$ , and because $s+5+19$ is the perimeter of our triangle, $\\boxed{\\textbf{(D)}\\ 48}$ is our answer."
   },
@@ -4554,7 +4538,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_9",
     "topics": [
-      "Counting"
+      "Arithmetic/Geometric Sequences",
+      "Sequences and Series",
+      "Parity Reasoning"
     ]
   },
   {
@@ -4575,7 +4561,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_10",
     "topics": [
-      "Digit Problems"
+      "Digit Problems",
+      "Digit Deduction",
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -4598,8 +4586,7 @@
     "topics": [
       "Introduction to Probability",
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -4620,7 +4607,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_12",
     "topics": [
-      "3D Geometry"
+      "3D Geometry",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -4641,7 +4629,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_13",
     "topics": [
       "Mean Median Mode",
-      "Expected Value"
+      "Combinations"
     ],
     "solutionLatex": "Since there will be $9$ elements after removal, and their mean is $6$ , we know their sum is $54$ . We also know that the sum of the set pre-removal is $66$ . Thus, the sum of the $2$ elements removed is $66-54=12$ . There are only $\\boxed{\\textbf{(D)}~5}$ subsets of $2$ elements that sum to $12$ : $\\{1,11\\}, \\{2,10\\}, \\{3, 9\\}, \\{4, 8\\}, \\{5, 7\\}$ .\n\nWe can simply remove $5$ subsets of $2$ numbers while leaving only $6$ behind. The average of this one-number set is still $6$ , so the answer is $\\boxed{\\textbf{(D)}~5}$ .\n\n-tryanotherangle"
   },
@@ -4662,8 +4650,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_14",
     "topics": [
+      "Parity Reasoning",
       "Modular Arithmetic",
-      "Fundamental Counting Principle"
+      "Divisibility Reasoning"
     ],
     "solutionLatex": "Let our $4$ numbers be $n, n+2, n+4, n+6$ , where $n$ is odd. Then, our sum is $4n+12$ . The only answer choice that cannot be written as $4n+12$ , where $n$ is odd, is $\\boxed{\\textbf{(D)}\\text{ 100}}$ .\n\nIf the four consecutive odd integers are $2n-3,~ 2n-1, ~2n+1$ and $2n+3$ ; then, the sum is $8n$ . All the integers are divisible by $8$ except $\\boxed{\\textbf{(D)}~100}$ .\n\nIf the four consecutive odd integers are $a,~ a+2, ~a+4$ and $a+6$ , the sum is $4a+12$ , and $4a+12$ divided by $4$ gives $a+3$ . This means that $a+3$ must be even. The only integer that does not give an even integer when divided by $4$ is $100$ , so the answer is $\\boxed{\\textbf{(D)}~100}$ .\n\nFrom Solution 1, we have the sum of the $4$ numbers to be equal to $4n + 12$ . Taking mod 8 gives us $4n + 4 \\equiv b \\pmod8$ for some residue $b$ and for some odd integer $n$ . Since $n \\equiv 1 \\pmod{2}$ , we can express it as the equation $n = 2a + 1$ for some integer $a$ . Multiplying 4 to each side of the equation yields $4n = 8a + 4$ , and taking mod 8 gets us $4n \\equiv 4 \\pmod{8}$ , so $b = 0$ . All the answer choices except choice D is a multiple of 8, and since 100 satisfies all the conditions the answer is $\\boxed{\\textbf{(D)}~100}$ .\n\nSince they want CONSECUTIVE odd numbers, it won't be hard to just list the sums out:\n \\[16=1+3+5+7\\]\n \\[40=7+9+11+13\\]\n \\[72=15+17+19+21\\]\n \\[200=47+49+51+53\\]\nAll of the answer choices can be a sum of consecutive odd numbers except $100$ , so the answer is $\\boxed{\\textbf{(D)} 100}$ ."
   },
@@ -4684,8 +4673,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_15",
     "topics": [
-      "Inclusion-Exclusion",
-      "Venn Diagrams"
+      "Counting"
     ],
     "solutionLatex": "Let:\n\n$A$ be the number of students who voted in favor of the first issue,\n $B$ be the number of students who voted in favor of the second issue,\n $A \\cap B$ be the number of students who voted in favor of both issues.\n\nWe are given:\n\n$A = 149$\n $B = 119$\n29 students voted against both issues, so the number of students who voted for at least one issue is:\n\n\\[198 - 29 = 169\\]\n\nBy the principle of inclusion and exclusion:\n \\[A \\cup B = A + B - A \\cap B\\]\nSubstitute known values:\n \\[169 = 149 + 119 - A \\cap B\\]\n \\[169 = 268 - A \\cap B\\]\n \\[A \\cap B = 268 - 169 = \\boxed{\\textbf{(D) }99}\\]"
   },
@@ -4727,8 +4715,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_17",
     "topics": [
-      "Ratios and Rates",
-      "Distance, Rate, Time"
+      "Distance, Rate, Time",
+      "Ratios and Rates"
     ],
     "solutionLatex": "For starters, we identify d as distance and v as velocity (speed)\n\nWriting the equation gives us: $\\frac{d}{v}=\\frac{1}{3}$ and $\\frac{d}{v+18}=\\frac{1}{5}$ .\n\nThis gives $d=\\frac{1}{5}v+3.6=\\frac{1}{3}v$ , which gives $v=27$ , which then gives $d=\\boxed{\\textbf{(D)}~9}$ .\n\n$d = rt$ , $d=\\frac{1}{3} \\times r = \\frac{1}{5} \\times (r + 18)$\n\n$\\frac{r}{3} = \\frac{r}{5} + \\frac{18}{5}$\n\n$10r = 270$ so $r = 27$ , plug into the first one and it's $\\boxed{\\textbf{(D)}~9}$ miles to school.\n\nWe set up an equation in terms of $d$ the distance and $x$ the speed In miles per hour. We have $d=\\left (\\dfrac{1}{3}\\right )(x)=\\left (\\dfrac{1}{5}\\right) (x+18)$ , giving\n \\[(5)(x)=(3)(x+18)\\]\n \\[5x=3x+54\\]\n \\[2x=54\\]\n \\[x=27\\]\nHence, $d=\\dfrac{27}{3}=\\boxed{\\textbf{(D)}~9}$ .\n\nSince it takes $\\frac{3}{5}$ of the original time for him to get to school when there is no traffic, the speed must be $\\frac{5}{3}$ of the speed in no traffic or $\\frac{2}{3}$ more. Letting $x$ be the rate and we know that $\\frac{5}{3}x = x + 18$ , so we have $\\frac{2x}{3} = 18$ miles per hour. Solving for $x$ gives us $27$ miles per hour. Because $20$ minutes is a third of an hour, the distance would then be $9$ miles $\\boxed{\\textbf{(D)}~9}$ .\n\nWhen driving in rush hour traffic, he drives $20$ minutes for one distance ( $1d$ ) to the school. It means he drives $60$ minutes for $3$ distances ( $3d$ ) to the school. When driving in no traffic hours, he drives $12$ minutes for one distance ( $1d$ ) to the school. It means he drives $60$ minutes for $5$ distances ( $5d$ ) to the school. Subtracting these two situations, it gives us $5d-3d = 18 = 2d$ , then $d=\\frac{18}{2}=9$ . So the distance to the school would be $\\boxed{\\textbf{(D)}~9}$ miles.\n~LarryFlora\n\n(Ratios)\n $\\textbf{requires edits}$\n\nIn rush hour traffic, we can create this ratio for each distance we are going to try supposing the distance is $d$ :\n\n$d$  : $20$ hours\n\nIn no traffic, we can do the same:\n\n$d$  : $12$ minutes\n\nWe want the ratio to be the distance to $60$ minutes:\n\n$d$  : $20$ minutes = $3$ d : $60$ minutes\n\n$d$  : $12$ minutes = $5$ d : $60$ minutes\n\nThis shows the speed in miles per hour. This means that the speed in the 2nd ratio has to be 18 faster than the first ratio. We get\n\n$3d+18 = 5d \\cdot d=9$ , or $\\boxed{\\textbf{(D)}~9}$ ."
   },
@@ -4744,7 +4732,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_18",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Arithmetic/Geometric Sequences",
+      "Problem-Solving: Puzzles",
+      "Sequences and Series",
+      "Mean Median Mode"
     ]
   },
   {
@@ -4760,7 +4751,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_19",
     "topics": [
       "Fractions and Percents",
-      "Problem-Solving: Triangle Angles"
+      "Simplifying Radicals",
+      "Pythagorean theorem",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -4781,7 +4774,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_20",
     "topics": [
+      "Arithmetic Word Problems",
       "Complementary Counting",
+      "Divisibility Reasoning",
       "Linear Inequalities"
     ]
   },
@@ -4798,9 +4793,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_21",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Polygons",
+      "Problem-Solving: Areas",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Angle Chasing"
     ]
   },
   {
@@ -4820,7 +4815,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_22",
     "topics": [
-      "Counting Divisors"
+      "Problem-Solving: Puzzles"
     ],
     "solutionLatex": "Since we know the number must be a multiple of $15$ , we can eliminate $A$ . We also know that after $12$ days, the students can't find any more arrangements, meaning the number has $12$ factors. Now, we just list the factors of every number, starting with $30$ :\n \\[30=1\\cdot30, 2\\cdot15, 3\\cdot10, 5\\cdot6\\]\n \\[60=1\\cdot60, 2\\cdot30, 3\\cdot20, 4\\cdot15, 5\\cdot12, 6\\cdot10\\]\n $60$ has $12$ factors, so the answer is $\\boxed{\\textbf{(C) } 60}$ .\n\nNote - A faster way to find the factors of a number is really helpful in competitions, as you don't want to waste time listing them all.\nWhat we can do is find the prime factorization of a number. We'll use $60$ as an example here, so we take $60 = 2 \\cdot 2 \\cdot 3 \\cdot 5$ or $60 = 2^2 \\cdot 3^1 \\cdot 5^1$ . Now, we just add one to the power of each factor. So since we have powers of $2$ , $1$ , and $1$ , we turn those into $3$ , $2$ , and $2$ . Finally, we just multiply them together to get $3 \\cdot 2 \\cdot 2 = 12$ as the amount of factors in 60."
   },
@@ -4863,7 +4858,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_24",
     "topics": [
-      "Counting"
+      "Handshakes",
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -4925,7 +4921,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_3",
     "topics": [
-      "Expected Value",
       "Mean Median Mode"
     ],
     "solutionLatex": "Isabella read $3\\cdot 36+3\\cdot 44$ pages in the first 6 days. Although this can be calculated directly, it is simpler to calculate it as $3\\cdot (36+44)=3\\cdot 80$ , which gives that she read $240$ pages. On her last day, she read $10$ more pages for a total of $240+10=\\boxed{\\textbf{(B)}~250}$ pages."
@@ -4968,7 +4963,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_5",
     "topics": [
-      "Counting"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -4989,8 +4984,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_6",
     "topics": [
-      "Bases",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Geometry"
     ]
   },
   {
@@ -5032,9 +5026,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_8",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -5056,8 +5048,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_9",
     "topics": [
       "Angle Chasing",
-      "3rd Degree Symmetric Sums",
-      "Polynomials"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -5099,8 +5090,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_11",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -5135,7 +5126,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_13",
     "topics": [
-      "Number Theory"
+      "Parity Reasoning"
     ]
   },
   {
@@ -5157,9 +5148,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_14",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Pythagorean theorem"
     ]
   },
   {
@@ -5181,7 +5171,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_15",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Angle Chasing"
+      "Circle Angles",
+      "Angle Chasing",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -5202,7 +5194,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_16",
     "topics": [
-      "Algebra"
+      "Handshakes"
     ]
   },
   {
@@ -5237,7 +5229,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_18",
     "topics": [
-      "Fundamental Counting Principle"
+      "Algebra"
     ]
   },
   {
@@ -5260,7 +5252,7 @@
       "Fractions and Percents",
       "3D Geometry",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -5281,9 +5273,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_20",
     "topics": [
+      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5305,8 +5297,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_21",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -5327,10 +5318,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_22",
     "topics": [
-      "Digit Deduction",
       "Digit Problems",
-      "Finding the Last Digit",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Deduction",
+      "100x + 10y + z",
+      "Finding the Last Digit"
     ]
   },
   {
@@ -5351,9 +5342,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_23",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -5374,9 +5363,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_24",
     "topics": [
-      "Complementary Counting",
-      "Linear Inequalities",
-      "Mean Median Mode"
+      "Mean Median Mode",
+      "Complementary Counting"
     ]
   },
   {
@@ -5397,8 +5385,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_25",
     "topics": [
-      "Ratios and Rates",
-      "Distance, Rate, Time"
+      "Distance, Rate, Time",
+      "Problem-Solving: Circle Basics",
+      "Ratios and Rates"
     ]
   },
   {
@@ -5419,7 +5408,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_1",
     "topics": [
-      "Permutations"
+      "Permutations",
+      "Problem-Solving: Puzzles"
     ]
   },
   {
@@ -5440,8 +5430,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_2",
     "topics": [
-      "Fractions and Percents",
-      "Arithmetic Word Problems"
+      "Arithmetic Word Problems",
+      "Fractions and Percents"
     ]
   },
   {
@@ -5462,7 +5452,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_3",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Algebra"
     ]
   },
   {
@@ -5504,8 +5494,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_5",
     "topics": [
-      "Mean Median Mode",
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -5567,9 +5556,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_8",
     "topics": [
-      "Linear Inequalities",
-      "Introduction to Probability",
-      "Pigeonhole"
+      "Introduction to Probability"
     ]
   },
   {
@@ -5612,8 +5599,8 @@
     "topics": [
       "GCD and LCM",
       "GCD/LCM",
-      "Counting Divisors",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Counting Divisors"
     ],
     "solutionLatex": "To find either the LCM or the GCF of two numbers, always prime factorize first.\n\nThe prime factorization of $180 = 3^2 \\times 5 \\times 2^2$ .\n\nThe prime factorization of $594 = 3^3 \\times 11 \\times 2$ .\n\nThen, to find the LCM, we have to find the greatest power of all the numbers there are; if one number is one but not the other, use it (this is $3^3, 5, 11, 2^2$ ). Multiply all of these to get 5940.\n\nFor the GCF of 180 and 594, use the least power of all of the numbers that are in both factorizations and multiply. $3^2 \\times 2$ = 18.\n\nThus the answer = $\\frac{5940}{18}$ = $\\boxed{\\textbf{(C)}\\ 330}$ ."
   },
@@ -5634,8 +5621,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_11",
     "topics": [
-      "Ratios and Rates",
-      "Distance, Rate, Time"
+      "Distance, Rate, Time",
+      "Ratios and Rates"
     ],
     "solutionLatex": "We use that fact that $d=rt$ . Let d= distance, r= rate or speed, and t=time. In this case, let $x$ represent the time.\n\nOn Monday, he was at a rate of $5 \\text{ m.p.h}$ . So, $5x = 2 \\text{ miles}\\implies x = \\frac{2}{5} \\text { hours}$ .\n\nFor Wednesday, he walked at a rate of $3 \\text{ m.p.h}$ . Therefore, $3x = 2 \\text{ miles}\\implies x = \\frac{2}{3} \\text { hours}$ .\n\nOn Friday, he walked at a rate of $4 \\text{ m.p.h}$ . So, $4x = 2 \\text{ miles}\\implies x=\\frac{2}{4}=\\frac{1}{2} \\text {hours}$ .\n\nAdding up the hours yields $\\frac{2}{5} \\text { hours}$ + $\\frac{2}{3} \\text { hours}$ + $\\frac{1}{2} \\text { hours}$ = $\\frac{47}{30} \\text { hours}$ .\n\nWe now find the amount of time Grandfather would have taken if he walked at $4 \\text{ m.p.h}$ per day. Set up the equation, $4x = 2 \\text{ miles} \\times 3 \\text{ days}\\implies x = \\frac{3}{2} \\text { hours}$ .\n\nTo find the amount of time saved, subtract the two amounts: $\\frac{47}{30} \\text { hours}$ - $\\frac{3}{2} \\text { hours}$ = $\\frac{1}{15} \\text { hours}$ . To convert this to minutes, we multiply by $60$ .\n\nThus, the solution to this problem is $\\dfrac{1}{15}\\times 60=\\boxed{\\textbf{(D)}\\ 4}$"
   },
@@ -5656,7 +5643,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_12",
     "topics": [
-      "Algebra"
+      "Fractions and Percents",
+      "Arithmetic Word Problems"
     ],
     "solutionLatex": "First, find the amount of money one will pay for three sandals without the discount. We have $\\textdollar 50\\times 3 \\text{ sandals} = \\textdollar 150$ .\n\nThen, find the amount of money using the discount: $50 + 0.6 \\times 50 + \\frac{1}{2} \\times 50 = \\textdollar 105$ .\n\nFinding the percentage yields $\\frac{105}{150} = 70 \\%$ .\n\nTo find the percent saved, we have $100 \\% -70 \\%= \\boxed{\\textbf{(B)}\\ 30 \\%}$"
   },
@@ -5678,10 +5666,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_13",
     "topics": [
-      "Digit Problems",
-      "Finding the Last Digit",
       "100x + 10y + z",
-      "Digit Deduction"
+      "Divisibility Reasoning",
+      "Digit Problems",
+      "Finding the Last Digit"
     ]
   },
   {
@@ -5723,7 +5711,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_15",
     "topics": [
-      "Algebra"
+      "Variables"
     ]
   },
   {
@@ -5786,9 +5774,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_18",
     "topics": [
-      "Floor Functions",
-      "Constructive Counting",
-      "Floor Function Strategies"
+      "Floor Functions"
     ]
   },
   {
@@ -5830,10 +5816,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_20",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Inscribed Circles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Areas",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -5854,7 +5840,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_21",
     "topics": [
-      "Counting"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -5896,9 +5883,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_23",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Length Chasing",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Triangle Angles"
+      "Pythagorean theorem",
+      "Problem-Solving: Areas"
     ],
     "solutionLatex": "If the semicircle on $\\overline{AB}$ were a full circle, the area would be $16\\pi$ .\n\n$\\pi r^2=16 \\pi \\Rightarrow r^2=16 \\Rightarrow r=+4$ , therefore the diameter of the first circle is $8$ .\n\nThe arc of the largest semicircle is $8.5 \\pi$ , so if it were a full circle, the circumference would be $17 \\pi$ . So the $\\text{diameter}=17$ .\n\nBy the Pythagorean theorem, the other side has length $15$ , so the radius is $\\boxed{\\textbf{(B)}\\ 7.5}$\n\n~Edited by Theraccoon to correct typos."
   },
@@ -5916,7 +5902,7 @@
       "Problem-Solving: Areas",
       "Ratios and Rates",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ],
     "solutionLatex": "We notice that ABCX is a trapezoid with the bases AB and CX. Assuming AB is 1, we find that CX is 0.25 since it is half of CH which is 0.5. Using the area of the trapezoid formula, we calculate the area of ABCX to be 0.625 and XCIJ to be 0.375. The combined areas equal 1. Therefore, the ratio of the area of the hexagon to the three squares is 1:3 because the area of the three squares is 3. The answer is $\\boxed{\\textbf{(C)}\\ \\frac {1}{3}}$ -~TheNerdwhoIsNerdy. (I don't know if this is correct, pls check)."
   },
@@ -5937,7 +5923,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_25",
     "topics": [
-      "Distance, Rate, Time",
       "Problem-Solving: Circle Basics"
     ]
   },
@@ -5998,8 +5983,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_3",
     "topics": [
-      "Length Chasing",
-      "Fundamental Counting Principle"
+      "Length Chasing"
     ],
     "solutionLatex": "The problem wants us to find the time of sunset and gives us the length of daylight and time of sunrise. So all we have to do is add the length of daylight to the time of sunrise to obtain the answer. Convert 10 hours and 24 minutes into $10:24$ in order to add easier.\n\nAdding, we find that the time of sunset is $6:57\\textsc{am} + 10:24 \\implies 17:21 \\implies \\boxed{\\textbf{(B)}\\ 5:21\\textsc{pm}}$ ."
   },
@@ -6021,9 +6005,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_4",
     "topics": [
-      "Fractions and Percents",
-      "Cross Sections",
-      "Problem-Solving: Slice and Add the Shaded Region"
+      "Fractions and Percents"
     ]
   },
   {
@@ -6085,7 +6067,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_7",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ],
     "solutionLatex": "Isabella wants an average grade of $95$ on her 4 tests; this also means that she wants the sum of her test scores to be at least $95 \\times 4 = 380$ (if she goes over this number, she'll be over her goal!). She's already taken two tests, which sum to $97+91 = 188$ , which means she needs $192$ more points to achieve her desired average. In order to minimize the score on the third test, we assume that Isabella will receive all $100$ points on the fourth test. Therefore, the lowest Isabella could have scored on the third test would be $192-100 = \\boxed{\\textbf{(B)}\\ 92}$ ."
   },
@@ -6107,7 +6089,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_8",
     "topics": [
-      "Algebra"
+      "Arithmetic Word Problems",
+      "Fractions and Percents"
     ]
   },
   {
@@ -6149,9 +6132,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_10",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -6172,7 +6153,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_11",
     "topics": [
-      "Mean Median Mode"
+      "Mean Median Mode",
+      "Casework"
     ]
   },
   {
@@ -6193,10 +6175,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_12",
     "topics": [
+      "100x + 10y + z",
       "Digit Problems",
       "Finding the Last Digit",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Exponent Rules"
     ]
   },
   {
@@ -6236,7 +6218,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_14",
     "topics": [
-      "Counting"
+      "Handshakes"
     ],
     "solutionLatex": "This problem is very similar to a handshake problem. We use the formula $\\frac{n(n-1)}{2}$ to usually find the number of games played (or handshakes). Now we have to use the formula in reverse.\n\nSo we have the equation $\\frac{n(n-1)}{2} = 21$ . Solving, we find that the number of teams in the BIG N conference is $\\boxed{\\textbf{(B)}\\ 7}$ ."
   },
@@ -6257,10 +6239,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_15",
     "topics": [
-      "Modular Arithmetic",
-      "Counting Divisors",
-      "Problem-Solving: Divisibility and Digits",
-      "Polynomial Remainder"
+      "Exponent Rules",
+      "Chinese Remainder Theorem",
+      "GCD/LCM",
+      "Logic"
     ],
     "solutionLatex": "To find the answer to this problem, we need to find the least common multiple of $3$ , $4$ , $5$ , $6$ and add $2$ to the result. To calculate the least common multiple, we need to find the prime factorization for each of them. $3 = 3^{1}$ , $4 = 2^{2}$ , $5 = 5^{1}$ , and $6 = 2^{1}*{3^{1}}$ . So the least common multiple of the four numbers is $2^{2}*{3^{1}*{5^{1}}} = 60$ , and by adding $2$ , we find that that such number is $62$ . Now we need to find the only given range that contains $62$ . The only such range is answer $\\textbf{(D)}$ , and so our final answer is $\\boxed{\\textbf{(D)}\\ 61\\text{ and }65}$ .\n\n~NXC"
   },
@@ -6282,9 +6264,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_16",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -6304,9 +6284,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_17",
     "topics": [
-      "Length Chasing",
       "Problem-Solving: Areas",
-      "Linear Inequalities"
+      "AIME-level Inequalities",
+      "Length Chasing"
     ],
     "solutionLatex": "The first answer choice ${\\textbf{(A)}\\ 3}$ , can be eliminated since there must be $10$ squares with integer side lengths. We then test the next smallest sidelength which is $4$ . The square with area $16$ can be partitioned into $8$ squares with area $1$ and two squares with area $4$ , which satisfies all the conditions of the problem. Therefore, the smallest possible value of the length of the side of the original square is $\\boxed{\\textbf{(B)}\\ 4}$ ."
   },
@@ -6327,7 +6307,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_18",
     "topics": [
-      "Inclusion-Exclusion"
+      "Inclusion-Exclusion",
+      "Venn Diagrams"
     ],
     "solutionLatex": "The problem states that the answer cannot be a perfect square or have prime factors less than $50$ . Therefore, the answer will be the product of at least two different primes greater than $50$ . The two smallest primes greater than $50$ are $53$ and $59$ . Multiplying these two primes, we obtain the number $3127$ , which is also the smallest number on the list of answer choices.\n\nSo we are done, and the answer is $\\boxed{\\textbf{(A)}\\ 3127}$ ."
   },
@@ -6348,8 +6329,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_19",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Counting"
     ],
     "solutionLatex": "$6$ are blue and green - $b+g=6$\n\n$8$ are red and blue - $r+b=8$\n\n$4$ are red and green - $r+g=4$\n\nWe can do trial and error. Let's make blue $5$ . That makes green $1$ and red $3$ because $6-5=1$ and $8-5=3$ . To check this, let's plug $1$ and $3$ into $r+g=4$ , which works. Now count the number of marbles - $5+3+1=9$ . So the answer is $\\boxed{\\textbf{(C)}\\ 9}.$"
   },
@@ -6392,8 +6372,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_21",
     "topics": [
-      "3D Geometry",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -6414,7 +6394,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_22",
     "topics": [
-      "Mean Median Mode"
+      "Mean Median Mode",
+      "Sequences and Series"
     ]
   },
   {
@@ -6437,8 +6418,8 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Length Chasing"
     ]
   },
   {
@@ -6460,9 +6441,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Modular Arithmetic",
+      "Problem-Solving: Areas",
       "Ratios and Rates",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ]
   },
   {
@@ -6482,9 +6463,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_8_Problems/Problem_25",
     "topics": [
-      "Length Chasing",
       "Problem-Solving: Areas",
-      "Pythagorean theorem",
       "Problem-Solving: Inscribed Circles"
     ],
     "solutionLatex": "The total area of the four congruent triangles formed by the squares is $5-4 = 1$ . Therefore, the area of one of these triangles is $\\frac{1}{4}$ . The height of one of these triangles is $a$ and the base is $b$ . Using the formula for area of the triangle, we have $\\frac{ab}{2} = \\frac{1}{4}$ . Multiply by $2$ on both sides to find that the value of $ab$ is $\\boxed{\\textbf{(C)}\\ \\frac{1}2}$ ."
@@ -6630,9 +6609,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_7",
     "topics": [
-      "Modular Arithmetic",
-      "Fractions and Percents",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Fractions and Percents"
     ]
   },
   {
@@ -6652,7 +6630,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_8",
     "topics": [
-      "Counting"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ],
     "solutionLatex": "By adding a number from Bag A and a number from Bag B together, the values we can get are $3, 5, 7, 5, 7, 9, 7, 9, 11.$ Therefore the number of different values is $\\boxed{\\textbf{(B)}\\ 5}$ ."
   },
@@ -6674,7 +6653,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_9",
     "topics": [
       "Distance, Rate, Time",
-      "Expected Value",
+      "Mean Median Mode",
       "Ratios and Rates"
     ],
     "solutionLatex": "We observe the graph and see that the shape of the graph does not matter. We only want the total time it took Carmen and the total distance she traveled. Based on the graph, Carmen traveled 35 miles for 7 hours. Therefore, her average speed is $\\boxed{\\textbf{(E)}\\ 5}$"
@@ -6697,7 +6676,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_10",
     "topics": [
-      "Ratios and Rates"
+      "Distance, Rate, Time"
     ]
   },
   {
@@ -6718,7 +6697,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_11",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -6760,10 +6739,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_13",
     "topics": [
-      "Modular Arithmetic",
       "Fractions and Percents",
-      "Venn Diagrams",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -6805,7 +6784,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_15",
     "topics": [
-      "Digit Problems"
+      "Digit Problems",
+      "Exponent Rules"
     ]
   },
   {
@@ -6826,9 +6806,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Pythagorean theorem"
     ]
   },
   {
@@ -6870,7 +6849,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_18",
     "topics": [
-      "Linear Inequalities",
       "Introduction to Probability"
     ]
   },
@@ -6913,7 +6891,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_20",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Simplifying Radicals"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/c/d/e/cde7b3b44e3f5ba857b5151d425928901478ec30.png]]\n\nIf you draw altitudes from $A$ and $B$ to $CD,$ the trapezoid will be divided into two right triangles and a rectangle. You can find the values of $a$ and $b$ with the Pythagorean theorem.\n\n\\[a=\\sqrt{15^2-12^2}=\\sqrt{81}=9\\]\n\n\\[b=\\sqrt{20^2-12^2}=\\sqrt{256}=16\\]\n\n$ABYX$ is a rectangle so $XY=AB=50.$\n\n\\[CD=a+XY+b=9+50+16=75\\]\n\nThe area of the trapezoid is\n\n\\[12\\cdot \\frac{(50+75)}{2} = 6(125) = \\boxed{\\textbf{(D)}\\ 750}\\]"
   },
@@ -6934,7 +6913,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_21",
     "topics": [
-      "Linear Inequalities"
+      "Number Theory"
     ],
     "solutionLatex": "At least half the guesses are too low, so Norb's age must be greater than $36$ .\n\nIf two of the guesses are off by one, then his age is in between two guesses whose difference is $2$ . It could be $31,37,$ or $48,$ but because his age is greater than $36$ it can only be $37$ or $48$ .\n\nLastly, Norb's age is a prime number so the answer must be $\\boxed{\\textbf{(C)}\\ 37}$ ."
   },
@@ -6956,9 +6935,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_22",
     "topics": [
       "Digit Problems",
-      "100x + 10y + z",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "100x + 10y + z"
     ]
   },
   {
@@ -6980,8 +6957,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_23",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Divisibility Reasoning",
+      "Casework",
+      "Combinations"
     ]
   },
   {
@@ -7001,9 +6979,9 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_24",
     "topics": [
-      "Casework",
+      "Parity Reasoning",
       "Fundamental Counting Principle",
-      "Problem-Solving: Divisibility and Digits"
+      "Constructive Counting"
     ],
     "solutionLatex": "For the sum of two numbers to be odd, one must be odd and the other must be even, because all odd numbers are of the form $2n+1$ where n is an integer, and all even numbers are of the form $2m$ where m is an integer.\n \\[2n + 1 + 2m = 2m + 2n + 1 = 2(m+n) + 1\\] and $m+n$ is an integer because $m$ and $n$ are both integers.\nThe only even prime number is $2,$ so our only combination could be $2$ and $9999.$\nBut, $9999$ is clearly divisible by $3$ ,\nso the number of ways $10001$ can be written as the sum of two primes is $\\boxed{\\textbf{(A)}\\ 0}$ ."
   },
@@ -7026,7 +7004,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
-      "Ratios and Rates",
+      "Problem-Solving: Weird Areas",
       "Problem-Solving: Shaded Regions - Circles"
     ],
     "solutionLatex": "The area of the smaller square is one half of the product of its diagonals. Note that the distance from a corner of the smaller square to the center is equivalent to the circle's radius so the diagonal is equal to the diameter: $2 \\cdot 2 \\cdot \\frac{1}{2}=2.$\n\nThe circle's shaded area is the area of the smaller square subtracted from the area of the circle: $\\pi - 2.$\n\nIf you draw the diagonals of the smaller square, you will see that the larger square is split $4$ congruent half-shaded squares. The area between the squares is equal to the area of the smaller square: $2.$\n\nApproximating $\\pi$ to $3.14,$ the ratio of the circle's shaded area to the area between the two squares is about\n\n\\[\\frac{\\pi-2}{2} \\approx \\frac{3.14-2}{2} = \\frac{1.14}{2} \\approx \\boxed{\\textbf{(A)}\\ \\frac12}\\]"
@@ -7089,7 +7067,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_3",
     "topics": [
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Arithmetic Word Problems"
     ],
     "solutionLatex": "The highest price was in Month 1, which was $17. The lowest price was in Month 3, which was $10. 17 is $\\frac{17}{10}\\cdot100=170\\%$ of 10, and is $170-100=70\\%$ more than 10.\nTherefore, the answer is $\\boxed{\\textbf{(C)}\\ 70}$"
   },
@@ -7132,8 +7111,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_5",
     "topics": [
       "Floor Functions",
-      "Floor",
-      "Floor Function Strategies"
+      "Floor"
     ]
   },
   {
@@ -7237,7 +7215,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_10",
     "topics": [
       "Fractions and Percents",
-      "Venn Diagrams",
       "Problem-Solving: Circle Basics"
     ]
   },
@@ -7258,8 +7235,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_11",
     "topics": [
-      "Ratios and Rates",
-      "Telescoping - Forcing It"
+      "Algebra"
     ],
     "solutionLatex": "Let the height of the taller tree be $h$ and let the height of the smaller tree be $h-16$ . Since the ratio of the smaller tree to the larger tree is $\\frac{3}{4}$ , we have $\\frac{h-16}{h}=\\frac{3}{4}$ . Solving for $h$ gives us $h=64 \\Rightarrow \\boxed{\\textbf{(B)}\\ 64}$"
   },
@@ -7301,7 +7277,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Length Chasing",
       "Fractions and Percents"
     ],
@@ -7366,9 +7341,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_16",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Ratios and Rates",
       "Length Chasing",
-      "Problem-Solving: Areas"
+      "Ratios and Rates",
+      "Simplifying Radicals"
     ],
     "solutionLatex": "Let the side length of the square be $s$ , and let the radius of the circle be $r$ . Thus we have $s^2=r^2\\pi$ . Dividing each side by $r^2$ , we get $\\frac{s^2}{r^2}=\\pi$ . Since $\\left(\\frac{s}{r}\\right)^2=\\frac{s^2}{r^2}$ , we have $\\frac{s}{r}=\\sqrt{\\pi}\\Rightarrow \\boxed{\\textbf{(B)}\\ \\sqrt{\\pi}}$"
   },
@@ -7389,10 +7364,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_17",
     "topics": [
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
-      "Ratios and Rates"
+      "Problem-Solving: Polygons"
     ],
     "solutionLatex": "We see that half the area of the octagon is $5$ . We see that the triangle area is $5-1 = 4$ . That means that $\\frac{5h}{2} = 4 \\rightarrow h=\\frac{8}{5}$ .\n \\[\\text{QY}=\\frac{8}{5} - 1 = \\frac{3}{5}\\]\nMeaning, $\\frac{\\frac{2}{5}}{\\frac{3}{5}} = \\boxed{\\textbf{(D) }\\frac{2}{3}}$"
   },
@@ -7415,6 +7388,7 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Problem-Solving: Areas"
     ]
   },
@@ -7436,7 +7410,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_19",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Length Chasing",
       "Problem-Solving: Areas",
       "Circle Tangents"
     ],
@@ -7460,7 +7433,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_20",
     "topics": [
       "Inclusion-Exclusion",
-      "Linear Inequalities"
+      "GCD/LCM",
+      "GCD and LCM"
     ],
     "solutionLatex": "Let $x$ be the number of people wearing both a hat and a glove. Since the number of people wearing a hat or a glove must be whole numbers, the number of people in the room must be a multiple of 4 and 5. Since we are trying to find the minimum $x$ , we must use the least common multiple. $lcm(4,5) = 20$ . Thus, we can say that there are $20$ people in the room, all of which are wearing at least a hat or a glove. (Any people wearing neither item would unnecessarily increase the number of people in the room.)\n\nIt follows that there are $\\frac{2}{5}\\cdot 20 = 8$ people wearing gloves and $\\frac{3}{4}\\cdot 20 = 15$ people wearing hats. Then by applying the Principle of Inclusion and Exclusion (PIE), the total number of people in the room wearing either a hat or a glove or both is $8+15-x = 23-x$ , where $x$ is the number wearing both. Since everyone in the room is wearing at least one item (see above), $23-x = 20$ , and so $x=\\boxed{\\textbf{(A)}\\ 3}$ ."
   },
@@ -7501,10 +7475,9 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_22",
     "topics": [
-      "Digit Problems",
       "100x + 10y + z",
-      "Finding the Last Digit",
-      "Digit Deduction"
+      "Digit Problems",
+      "Finding the Last Digit"
     ]
   },
   {
@@ -7526,7 +7499,6 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Problem-Solving: Areas"
     ]
   },
@@ -7547,7 +7519,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_24",
     "topics": [
-      "Algebraic Manipulation"
+      "Exponent Rules"
     ],
     "solutionLatex": "Since all of the exponents are multiples of four, we can simplify the problem by taking the fourth root of each number. Evaluating we get $10^2=100$ , $5^3=125$ , and $2^6=64$ . Since $64<100<125$ , it follows that $\\boxed{\\textbf{(A)}\\ 2^{24}<10^8<5^{12}}$ is the correct answer."
   },
@@ -7568,9 +7540,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_25",
     "topics": [
-      "Casework",
       "Fundamental Counting Principle",
-      "Recursion"
+      "Constructive Counting"
     ],
     "solutionLatex": "A dynamics programming approach is quick and easy. The number of ways to climb one stair is $1$ . There are $2$ ways to climb two stairs: $1$ , $1$ or $2$ . For 3 stairs, there are $4$ ways:\n( $1$ , $1$ , $1$ )\n( $1$ , $2$ )\n( $2$ , $1$ )\n( $3$ )\n\nFor four stairs, consider what step they came from to land on the fourth stair. They could have hopped straight from the 1st, done a double from #2, or used a single step from #3. The ways to get to each of these steps are $1+2+4=7$ ways to get to step 4. The pattern can then be extended:\n $4$ steps: $1+2+4=7$ ways.\n $5$ steps: $2+4+7=13$ ways.\n $6$ steps: $4+7+13=24$ ways.\n\nThus, there are $\\boxed{\\textbf{(E) } 24}$ ways to get to step $6.$"
   },
@@ -7612,7 +7583,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_2",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -7632,8 +7603,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_3",
     "topics": [
-      "Distance, Rate, Time",
-      "Ratios and Rates"
+      "Distance, Rate, Time"
     ],
     "solutionLatex": "Suzanna's speed is $\\frac{1}{5}$ . This means she runs $\\frac{1}{5} \\cdot 30 = \\boxed{ \\textbf{(C) }6 }$"
   },
@@ -7648,7 +7618,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_4",
     "topics": [
-      "Fundamental Counting Principle"
+      "Algebra"
     ],
     "solutionLatex": "The answer is $\\boxed{\\textbf{(B)}}$ because the longest piece cannot fit into the figure.\n\nNote that the five pieces can be arranged to form the figures in $\\textbf{(A)},\\textbf{(C)},\\textbf{(D)},$ and $\\textbf{(E)},$ as shown below:\n\n[[img:https://latex.artofproblemsolving.com/d/f/a/dfabee572643face37d4613c367129e3fe701fe2.png]]\n\n[[img:https://latex.artofproblemsolving.com/a/b/0/ab0e73d38d6cc59aea4a30826672a08ec434b7d6.png]]\n \\[\\textbf{(A)}\\qquad\\qquad\\qquad\\textbf{(B)}\\quad\\qquad\\qquad\\textbf{(C)}\\qquad\\qquad\\qquad\\textbf{(D)}\\quad\\qquad\\qquad\\textbf{(E)}\\]\n~Basketball8 ~MRENTHUSIASM"
   },
@@ -7669,7 +7639,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_5",
     "topics": [
-      "Algebra"
+      "Sequences and Series"
     ],
     "solutionLatex": "List them out, adding the three previous numbers to get the next number,\n\n\\[1,2,3,6,11,20,37,\\boxed{\\textbf{(D)}\\ 68}\\]"
   },
@@ -7690,7 +7660,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_6",
     "topics": [
-      "Counting"
+      "Ratios and Rates"
     ],
     "solutionLatex": "Each of the four hoses hose fills $24,000/4 = 6,000$ gallons of water. At the rate it goes at it will take $6,000/2.5 = 2400$ minutes, or $\\boxed{\\textbf{(A)}\\ 40}$ hours."
   },
@@ -7711,7 +7681,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_7",
     "topics": [
-      "Graphing Functions"
+      "Distance, Rate, Time",
+      "Logic"
     ]
   },
   {
@@ -7733,8 +7704,8 @@
     "topics": [
       "Fractions and Percents",
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Length Chasing"
     ],
     "solutionLatex": "In a rectangle with dimensions $10 \\times 10$ , the new rectangle would have dimensions $11 \\times 9$ . The ratio of the new area to the old area is $99/100 = \\boxed{\\textbf{(B)}\\ 99}$ .\n\nIf you take the length as $x$ and the width as $y$ then\nA(OLD)= $xy$\nA(NEW)= $1.1x\\times.9y$ = $.99xy$\n $0.99/1=99\\%$"
   },
@@ -7756,8 +7727,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_9",
     "topics": [
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
-      "Constructive Counting",
       "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "Of the six shapes used to create the polygon, the triangle and octagon are adjacent to the others on one side, and the others are adjacent on two sides. In the triangle and octagon $3+8-2(1)=9$ sides are on the outside of the final polygon. In the other shapes $4+5+6+7-4(2) = 14$ sides are on the outside. The resulting polygon has $9+14 = \\boxed{\\textbf{(B)}\\ 23}$ sides."
@@ -7840,9 +7809,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_13",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
       "Introduction to Probability",
-      "Digit Deduction"
+      "100x + 10y + z",
+      "Divisibility Reasoning"
     ],
     "solutionLatex": "The three digit numbers are $135,153,351,315,513,531$ . The numbers that end in $5$ are divisible are $5$ , and the probability of choosing those numbers is $\\boxed{\\textbf{(B)}\\ \\frac13}$ ."
   },
@@ -7864,8 +7833,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_14",
     "topics": [
       "Distance, Rate, Time",
-      "Expected Value",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Mean Median Mode"
     ]
   },
   {
@@ -7906,9 +7875,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_16",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ],
     "solutionLatex": "With the digits listed from least to greatest, the $3$ -digit integers are $138,146,226,234$ . $226$ can be arranged in $\\frac{3!}{2!} = 3$ ways, and the other three can be arranged in $3!=6$ ways. There are $3+6(3) = \\boxed{\\textbf{(D)}\\ 21}$ $3$ -digit positive integers."
   },
@@ -7929,8 +7896,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_17",
     "topics": [
-      "3D Geometry",
-      "Counting Divisors"
+      "3D Geometry"
     ],
     "solutionLatex": "Take the prime factorization of $360$ . $360=2^3*3^2*5$ .\nWe want $x$ to be as small as possible. And you want $x*360$ to be a square.\nSo $x=2*5=10$ .\n $y$ is simmilar. $y=3*5^2=3*25=75$\nSo, $x+y=75+10=85$ , or $\\boxed{\\textbf{(B)}\\ 85}$ .\n\n~ModestFox97"
   },
@@ -7951,8 +7917,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_18",
     "topics": [
-      "Floor Functions",
-      "Floor Function Strategies"
+      "Floor Functions"
     ]
   },
   {
@@ -7972,10 +7937,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_19",
     "topics": [
+      "Angle Chasing",
       "Casework",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Modular Arithmetic"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "There are 3 cases: where $x^\\circ$ is a base angle with the $70^\\circ$ as the other angle, where $x^\\circ$ is a base angle with $70^\\circ$ as the vertex angle, and where $x^\\circ$ is the vertex angle with $70^\\circ$ as a base angle.\n\nCase 1: $x^\\circ$ is a base angle with $70^\\circ$ as the other angle:\nHere, $x=70$ , since base angles are congruent.\n\nCase 2: $x^\\circ$ is a base angle with $70^\\circ$ as the vertex angle:\nHere, the 2 base angles are both $x^\\circ$ , so we can use the equation $2x+70=180$ , which simplifies to $x=55$ .\n\nCase 3: $x^\\circ$ is the vertex angle with $70^\\circ$ as a base angle:\nHere, both base angles are $70^\\circ$ , since base angles are congruent. Thus, we can use the equation $x+140=180$ , which simplifies to $x=40$ .\n\nAdding up all the cases, we get $70+55+40=165$ , so the answer is $\\boxed{\\textbf{(D)}\\ 165}$ ."
   },
@@ -7996,10 +7960,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_20",
     "topics": [
-      "Modular Arithmetic",
-      "Area by Coordinates",
-      "Problem-Solving: Triangle Angles",
-      "Bases"
+      "Area by Coordinates"
     ],
     "solutionLatex": "Assume the base of the triangle is on the bottom four points because a congruent triangle can be made by reflecting the base on the top four points. For a triangle with a base of length $1$ , there are $3$ triangles. For a triangle with a base of length $2$ , there are $3$ triangles. For length $3$ , there are $2$ . In total, the number of non-congruent triangles is $3+3+2=\\boxed{\\textbf{(D)}\\ 8}$ ."
   },
@@ -8020,7 +7981,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_21",
     "topics": [
-      "Expected Value",
+      "Problem-Solving: Puzzles",
       "Mean Median Mode"
     ],
     "solutionLatex": "Note that $40A=75B=\\text{sum of the numbers in the array}$ . This means that $\\frac{A}{B}=\\boxed{\\text{(D) } \\frac{15}{8}}$ using basic algebraic manipulation."
@@ -8042,10 +8003,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_22",
     "topics": [
-      "Casework",
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ],
     "solutionLatex": "Note that this is the same as finding how many numbers with up to three digits do not contain 1.\n\nSince there are 10 total possible digits, and only one of them is not allowed (1), each place value has its choice of 9 digits, for a total of $9*9*9=729$ such numbers. However, we overcounted by one; 0 is not between 1 and 1000, so there are $\\boxed{\\textbf{(D)}\\ 728}$ numbers.\n\nNote: As stated above, 020 is equivalent to 20, but 000 is not between 1 and 1000."
   },
@@ -8066,7 +8024,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_23",
     "topics": [
-      "Fundamental Counting Principle"
+      "Quadratics - Factoring"
     ],
     "solutionLatex": "If there are $x$ girls, then there are $x+2$ boys. She gave each girl $x$ jellybeans and each boy $x+2$ jellybeans, for a total of $x^2 + (x+2)^2$ jellybeans. She gave away $400-6=394$ jellybeans.\n\n$\\begin{align*} x^2+(x+2)^2 &= 394\\\\ x^2+x^2+4x+4 &= 394\\\\ 2x^2 + 4x &= 390\\\\ x^2 + 2x &= 195\\\\ \\end{align*}$\n\nFrom here, we can see that $x = 13$ as $13^2 + 26 = 195$ , so there are $13$ girls, $13+2=15$ boys, and $13+15=\\boxed{\\textbf{(B)}\\ 28}$ students.\n\nNote by FrankensteinQuixoteCabin: The user who made this solution did not mention their name."
   },
@@ -8087,9 +8045,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_24",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ],
     "solutionLatex": "Because $B+A=A$ , $B$ must be $0$ .\nNext, because $B-A=A\\implies0-A=A,$ we get $A=5$ as the \"0\" mentioned above is actually 10 in this case.\n\nNow we can rewrite $\\begin{tabular}{ccc}&A&0\\\\ +&C&A\\\\ \\hline &D&A\\end{tabular}$ as $\\begin{tabular}{ccc}&5&0\\\\ +&C&5\\\\ \\hline &D&5\\end{tabular}$ . Therefore, $D=5+C.$\n\nFinally, $A-1-C=0\\implies{A=C+1}\\implies{C=4}$ , So we have $D=5+C\\implies{D=5+4}=\\boxed{\\textbf{(E)}\\ 9 }$ ."
   },
@@ -8110,10 +8066,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_25",
     "topics": [
-      "3D Geometry",
       "3D Volumes and Surface Areas",
       "Problem-Solving: Areas",
-      "Problem-Solving: 3D Geometry"
+      "3D Geometry",
+      "Polynomials"
     ],
     "solutionLatex": "The areas of the tops of $A$ , $B$ , $C$ , and $D$ in the figure formed has sum $1+1+1+1 = 4$ as do the bottoms. Thus, the total so far is $8$ . Now, one of the sides has an area of one, since it combines all of the heights of $A$ , $B$ , $C$ , and $D$ , which is $1$ . The other side is also the same. Thus the total area now is $10$ . From the front, the surface area is half, because if you looked at it straight from the front it would look exactly like a side of $A$ , with a surface area of half. From the back, it is the same thing. Thus, the total surface area is $10+\\frac{1}{2}+\\frac{1}{2}= 11$ , or $\\boxed{\\textbf{(E)}\\:11 }$ ."
   },
@@ -8155,9 +8111,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_2",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ]
   },
   {
@@ -8198,10 +8152,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
-      "Modular Arithmetic"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "The area outside the small triangle but inside the large triangle is $16-1=15$ . This is equally distributed between the three trapezoids. Each trapezoid has an area of $15/3 = \\boxed{\\textbf{(C)}\\ 5}$ ."
   },
@@ -8224,8 +8176,8 @@
     "topics": [
       "Distance, Rate, Time",
       "Palindromes",
-      "Expected Value",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Mean Median Mode"
     ],
     "solutionLatex": "Barney travels $1661-1441=220$ miles in $4+6=10$ hours for an average of $220/10=\\boxed{\\textbf{(E)}\\ 22}$ miles per hour."
   },
@@ -8247,6 +8199,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_6",
     "topics": [
       "Ratios and Rates",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Problem-Solving: Areas"
     ]
   },
@@ -8288,8 +8241,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_8",
     "topics": [
-      "Expected Value",
-      "Arithmetic Word Problems"
+      "Arithmetic Word Problems",
+      "Mean Median Mode"
     ],
     "solutionLatex": "There are a total of $100+60+40+120=320$ dollars of sales spread through $4$ months, for an average of $320/4 = \\boxed{\\textbf{(D)}\\ 80}$ ."
   },
@@ -8310,8 +8263,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_9",
     "topics": [
-      "Arithmetic Word Problems",
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Arithmetic Word Problems"
     ],
     "solutionLatex": "After the $15 \\%$ loss, Tammy has $100 \\cdot 0.85 = 85$ dollars. After the $20 \\%$ gain, she has $85 \\cdot 1.2 = 102$ dollars. This is an increase in $2$ dollars from her original $100$ dollars, a $\\boxed{\\textbf{(D)}\\ 2 \\%\\ \\text{gain}}$ ."
   },
@@ -8332,7 +8285,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_10",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ],
     "solutionLatex": "The total of all their ages over the number of people is\n\n\\[\\frac{6 \\cdot 40 + 4\\cdot 25}{6+4} = \\frac{340}{10} = \\boxed{\\textbf{(D)}\\ 34}.\\]"
   },
@@ -8353,7 +8306,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_11",
     "topics": [
-      "Venn Diagrams"
+      "Counting"
     ],
     "solutionLatex": "The union of two sets is equal to the sum of each set minus their intersection. The number of students that have both a dog and a cat is $20+26-39 = \\boxed{\\textbf{(A)}\\ 7}$ ."
   },
@@ -8416,7 +8369,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_14",
     "topics": [
-      "Counting"
+      "Permutations",
+      "Problem-Solving: Puzzles"
     ]
   },
   {
@@ -8436,7 +8390,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_15",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -8457,8 +8411,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_16",
     "topics": [
       "3D Volumes and Surface Areas",
+      "Problem-Solving: Areas",
       "Ratios and Rates",
-      "Problem-Solving: Areas"
+      "Polynomials"
     ],
     "solutionLatex": "The volume is of seven unit cubes which is $7$ . The surface area is the same for each of the protruding cubes which is $5\\cdot 6=30$ . The ratio of the volume to the surface area is $\\boxed{\\textbf{(D)}\\: 7 : 30}$ ."
   },
@@ -8480,7 +8435,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_17",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Problem-Solving: Areas"
     ]
   },
@@ -8522,7 +8476,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_19",
     "topics": [
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Combinations"
     ],
     "solutionLatex": "The two points are one unit apart at $8$ places around the edge of the square. There are $8 \\choose 2$ $= 28$ ways to choose two points. The probability is\n\n\\[\\frac{8}{28} = \\boxed{\\textbf{(B)}\\ \\frac27}\\]"
   },
@@ -8565,6 +8520,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_21",
     "topics": [
       "3D Geometry",
+      "Polynomials",
       "3D Volumes and Surface Areas"
     ]
   },
@@ -8586,8 +8542,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_22",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "100x + 10y + z"
     ]
   },
   {
@@ -8607,10 +8562,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_23",
     "topics": [
-      "Ratios and Rates",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
-      "Length Chasing"
+      "Ratios and Rates",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ],
     "solutionLatex": "The area of $\\triangle BFD$ is the area of square $ABCE$ subtracted by the the area of the three triangles around it. Arbitrarily assign the side length of the square to be $6$ .\n\n[[img:https://latex.artofproblemsolving.com/e/7/0/e70951e5f1b40046a0a06bfca96b4332908164d9.png]]\n\nThe ratio of the area of $\\triangle BFD$ to the area of $ABCE$ is\n\n\\[\\frac{36-12-12-2}{36} = \\frac{10}{36} = \\boxed{\\textbf{(C)}\\ \\frac{5}{18}}\\]"
   },
@@ -8675,7 +8629,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_1",
     "topics": [
-      "Expected Value",
       "Mean Median Mode"
     ],
     "solutionLatex": "Let $x$ be the number of hours she must work for the final week. We are looking for the average, so\n \\[\\frac{8 + 11 + 7 + 12 + 10 + x}{6} = 10\\]\nSolving gives:\n \\[\\frac{48 + x}{6} = 10\\]\n\n\\[48 + x = 60\\]\n\n\\[x = 12\\]\n\nSo, the answer is $\\boxed{\\textbf{(D)}\\ 12}$"
@@ -8697,8 +8650,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_2",
     "topics": [
-      "Ratios and Rates",
-      "Fundamental Counting Principle"
+      "Ratios and Rates"
     ],
     "solutionLatex": "The answer is $\\dfrac{\\text{number of students who preferred spaghetti}}{\\text{number of students who preferred manicotti}}$\n\nSo,\n\n$\\frac{250}{100}$\n\nSimplify,\n\n$\\frac{5}{2}$\n\nThe answer is $\\boxed{\\textbf{(E)}\\ \\dfrac{5}{2}}$"
   },
@@ -8739,8 +8691,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_4",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -8780,9 +8732,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_6",
     "topics": [
-      "Expected Value",
       "Fractions and Percents",
-      "Arithmetic Word Problems"
+      "Ratios and Rates",
+      "Arithmetic Word Problems",
+      "Mean Median Mode"
     ],
     "solutionLatex": "The percent decrease is (the amount of decrease)/(original amount)\n\nthe amount of decrease is $41 - 7 = 34$\n\nso the percent decrease is $\\frac{34}{41}$ which is about $\\boxed{\\textbf{(E)}\\ 80\\%}$"
   },
@@ -8803,7 +8756,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_7",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -8824,9 +8777,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_8",
     "topics": [
       "Problem-Solving: Areas",
-      "Problem-Solving: Quadrilaterals",
-      "Length Chasing",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Quadrilaterals"
     ],
     "solutionLatex": "Clearly, $ABED$ is a square with side-length $3.$ By segment subtraction, we have $EC = DC - DE = 6 - 3 = 3.$\n\nThe area of $\\triangle BEC$ is \\[\\frac12\\cdot EC\\cdot BE = \\frac12\\cdot3\\cdot3 = \\boxed{\\textbf{(B)}\\ 4.5}.\\]\n~Aplus95 (Solution)\n\n~MRENTHUSIASM (Revision)"
   },
@@ -8847,6 +8798,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_9",
     "topics": [
+      "Problem-Solving: Puzzles",
       "Digit Problems"
     ],
     "solutionLatex": "The number in the first row, last column must be a $3$ due to the fact if a $3$ was in the first row, second column, there would be two threes in that column. By the same reasoning, the number in the second row, last column has to be a $1$ . Therefore the number in the lower right-hand square is $\\boxed{\\textbf{(B)}\\ 2}$ ."
@@ -8868,7 +8820,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_10",
     "topics": [
-      "Number Theory"
+      "Divisor Counting"
     ],
     "solutionLatex": "We have\n$\\begin{align*} \\boxed{\\boxed{11}}&=\\boxed{1+11} \\\\ &=\\boxed{12} \\\\ &=1+2+3+4+6+12 \\\\ &=28, \\end{align*}$\nfrom which the answer is $\\boxed{\\textbf{(D)}\\ 28}.$\n\n~Aplus95 (Fundamental Logic)\n\n~MRENTHUSIASM (Reconstruction)"
   },
@@ -8906,8 +8858,8 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Areas",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Problem-Solving: Areas"
     ],
     "solutionLatex": "The six equilateral triangular extensions fit perfectly into the hexagon meaning the answer is $\\boxed{\\textbf{(A) }1:1}$"
   },
@@ -8949,10 +8901,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_14",
     "topics": [
+      "Length Chasing",
+      "Problem-Solving: Areas",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Bases",
-      "Problem-Solving: Areas"
+      "Pythagorean theorem"
     ],
     "solutionLatex": "The area of a triangle is shown by $\\frac{1}{2}bh$ . We set the base equal to $24$ , and the area equal to $60$ , and we get the triangle's height, or altitude, to be $5$ . In this isosceles triangle, the height bisects the base, so by using the Pythagorean Theorem, $a^2+b^2=c^2$ , we can solve for one of the legs of the triangle (it will be the hypotenuse, $c$ ).\n $a = 12$ , $b = 5$ ,\n $c = 13$ .\nThe answer is $\\boxed{\\textbf{(C)}\\ 13}$ ."
   },
@@ -9033,8 +8985,7 @@
     "topics": [
       "Digit Problems",
       "Finding the Last Digit",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "100x + 10y + z"
     ]
   },
   {
@@ -9054,7 +9005,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_19",
     "topics": [
-      "Telescoping - Forcing It"
+      "Geometry"
     ]
   },
   {
@@ -9114,9 +9065,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_22",
     "topics": [
-      "Expected Value",
-      "Mean Median Mode",
-      "Length Chasing"
+      "Mean Median Mode"
     ]
   },
   {
@@ -9161,9 +9110,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_24",
     "topics": [
       "Digit Problems",
-      "Problem-Solving: Divisibility and Digits",
+      "Divisibility Reasoning",
       "Introduction to Probability",
-      "100x + 10y + z"
+      "Combinations"
     ],
     "solutionLatex": "The number of ways to form a 3-digit number is $4 \\cdot 3 \\cdot 2 = 24$ . The combination of digits that give us multiples of 3 are (1,2,3) and (2,3,4), as the integers in the subsets have a sum which is divisible by 3. The number of 3-digit numbers that contain these numbers is $3! + 3! = 12$ .\nTherefore, the probability is $\\frac{12}{24} = \\boxed{\\frac{1}{2}}$ .\n\n~abc2142"
   },
@@ -9185,9 +9134,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_25",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas",
-      "Casework",
-      "Introduction to Probability"
+      "Parity Reasoning",
+      "Introduction to Probability",
+      "Casework"
     ],
     "solutionLatex": "To get an odd sum, we must add an even number and an odd number (a 1 and a 2). So we have a little casework to do. Before we do that, we also have to figure out some relative areas. You could either find the absolute areas (as is done below for completeness), or apply some proportional reasoning and symmetry to realize the relative areas (which is really all that matters).\n\nThe area of this entire smaller circle is $9\\pi$ . The area of each smaller section then must be $\\frac{9\\pi}{3}$ or $3\\pi$ . The larger sections trisect a \"ring\" which is the difference of two circles, one with radius $3$ , the other radius $6$ . So, the area of the ring (annulus) is $36\\pi - 9\\pi$ or $27\\pi$ . The area of each larger section must be $\\frac{27\\pi}{3}$ or $9\\pi$ . Note that the area of the whole circle is $36\\pi$ .\n\nOne smaller section and two larger sections contain an odd number (that is, 1). So the probability of throwing an odd number is $3\\pi + (2 \\cdot 9\\pi) = 21\\pi$ . Since the area of the whole circle is $36\\pi$ , the probability of getting an odd is $\\frac{21\\pi}{36\\pi} = \\frac{21}{36} = \\frac{7}{12}$ .\n\nSince the remaining sections contain even numbers (that is, 2), the probability of throwing an even is the complement, or $1 - \\frac{7}{12} = \\frac{5}{12}$ .\n\nNow, the two cases: You could either get an odd then an even, or an even then an odd.\n\nCase 1: Odd, then even.\nMultiply the probabilities to get $\\frac{7}{12} \\cdot \\frac{5}{12} = \\frac{35}{144}$ .\n\nCase 2: Even, then odd.\nMultiply the probabilities to get $\\frac{5}{12} \\cdot \\frac{7}{12} = \\frac{35}{144}$ . Notice that this is the same.\n\nThus, the total probability of an odd sum is $\\frac{35}{144} \\cdot \\frac{2}{1} = \\boxed{\\textbf{(B)} = \\frac{35}{72}}$ ."
   },
@@ -9375,7 +9324,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_9",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Algebra"
     ],
     "solutionLatex": "The numerator in each fraction cancels out with the denominator of the next fraction. There are only two numbers that didn't cancel: $\\frac{2006}{2}=\\boxed{\\textbf{(C)}\\ 1003}$ ."
   },
@@ -9392,7 +9341,6 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Length Chasing",
-      "Graphing Functions",
       "Problem-Solving: Areas"
     ],
     "solutionLatex": "The length of the rectangle will relate invertly to the width, specifically using the theorem $l=\\frac{12}{w}$ . The only graph that could represent a inverted relationship is $\\boxed{\\textbf{(A)}}$ . (The rest are linear graphs that represent direct relationships, therefore they are incorrect.)"
@@ -9415,8 +9363,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_11",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "100x + 10y + z"
     ]
   },
   {
@@ -9436,7 +9383,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_12",
     "topics": [
-      "Fractions and Percents"
+      "Fractions and Percents",
+      "Repeating Decimal"
     ],
     "solutionLatex": "$70 \\% \\cdot 10=7$\n\n$80 \\% \\cdot 20=16$\n\n$90 \\% \\cdot 30=27$\n\nAdding them up gets $7+16+27=50$ . The overall percentage correct would be $\\frac{50}{60}=\\frac{5}{6}=5 \\cdot 16.\\overline{6}=83.\\overline{3} \\approx \\boxed{\\textbf{(D)}\\ 83}$ ."
   },
@@ -9457,8 +9405,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_13",
     "topics": [
-      "Ratios and Rates",
-      "Distance, Rate, Time"
+      "Distance, Rate, Time",
+      "Ratios and Rates"
     ],
     "solutionLatex": "If Cassie leaves $\\frac{1}{2}$ an hour earlier then Brian, when Brian starts, the distance between them will be $62-\\frac{12}{2}=56$ . Every hour, they will get $12+16=28$ miles closer. $\\frac{56}{28}=2$ , so 2 hours from $9:00$ AM is when they meet, which is $\\boxed{\\textbf{(D)}\\ 11: 00}$ ."
   },
@@ -9520,8 +9468,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_16",
     "topics": [
-      "Length Chasing",
-      "Ratios and Rates"
+      "Length Chasing"
     ],
     "solutionLatex": "The amount of pages Bob, Chandra, and Alice will read is in the ratio 4:6:9. Therefore, Bob, Chandra, and Alice read 160, 240, and 360 pages respectively. They would also be reading for the same amount of time because the ratio of the pages read was based on the time it takes each of them to read a page. Therefore, the amount of seconds each person reads is simply $160 \\cdot 45 = \\boxed{\\textbf{(E)}\\ 7200}$ ."
   },
@@ -9542,6 +9489,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_17",
     "topics": [
+      "Parity Reasoning",
       "Introduction to Probability"
     ],
     "solutionLatex": "In order for Jeff to have an odd number sum, the numbers must either be Odd + Odd + Odd or Even + Even + Odd. We easily notice that we cannot obtain Odd + Odd + Odd because spinner $Q$ contains only even numbers. Therefore we must work with Even + Even + Odd and spinner $Q$ will give us one of our even numbers. We also see that spinner $R$ only contains odd, so spinner $R$ must give us our odd number. We still need one even number from spinner $P$ . There is only 1 even number: $2$ . Since spinning the required numbers are automatic on the other spinners, we only have to find the probability of spinning a $2$ in spinner $P$ , which is clearly $\\boxed{\\textbf{(B)}\\ \\frac{1}{3}}$"
@@ -9566,7 +9514,7 @@
       "Fractions and Percents",
       "3D Geometry",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -9586,10 +9534,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_19",
     "topics": [
-      "Modular Arithmetic",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "Since triangle $ABD$ is congruent to triangle $ECD$ and $\\overline{CE} =11$ , $\\overline{AB}=11$ . Since $\\overline{AB}=\\overline{BC}$ , $\\overline{BC}=11$ . Because point $D$ is the midpoint of $\\overline{BC}$ , $\\overline{BD}=\\frac{\\overline{BC}}{2}=\\frac{11}{2}=\\boxed{\\textbf{(D)}\\ 5.5}$ ."
   },
@@ -9630,7 +9576,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_21",
     "topics": [
-      "Bases",
       "3D Volumes and Surface Areas"
     ],
     "solutionLatex": "The water level will rise $1$ cm for every $100 \\cdot 40 = 4000\\text{cm}^2$ . Since $1000$ is $\\frac{1}{4}$ of $4000$ , the water will rise $\\frac{1}{4}\\cdot1 = \\boxed{\\textbf{(A)}\\ 0.25}$"
@@ -9652,9 +9597,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_22",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ],
     "solutionLatex": "If the lower cells contain $A, B$ and $C$ , then the second row will contain\n $A + B$ and $B + C$ , and the top cell will contain $A + 2B + C$ . To obtain the\nsmallest sum, place $1$ in the center cell and $2$ and $3$ in the outer ones. The top\nnumber will be $7$ . For the largest sum, place $9$ in the center cell and $7$ and $8$ in\nthe outer ones. This top number will be $33$ . The difference is $33 - 7 = \\boxed{\\textbf{(D)}\\ 26 }$ ."
   },
@@ -9715,7 +9658,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_25",
     "topics": [
-      "Expected Value",
+      "Parity Reasoning",
       "Mean Median Mode"
     ],
     "solutionLatex": "Notice that 44 and 38 are both even, while 59 is odd. If any odd prime is added to 59, an even number will be obtained. However, the only way to obtain this even number(common sum) would be to add another even number to 44, and a different one to 38. Since there is only one even prime (2), the middle card's hidden number cannot be an odd prime, and so must be even. Therefore, the middle card's hidden number must be 2, so the constant sum is $59+2=61$ . Thus, the first card's hidden number is $61-44=17$ , and the last card's hidden number is $61-38=23$ .\n\nSince the sum of the hidden primes is $2+17+23=42$ , the average of the primes is $\\dfrac{42}{3}=\\boxed{\\textbf{(B)} 14}$ ."
@@ -9758,7 +9701,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_2",
     "topics": [
-      "Arithmetic Word Problems"
+      "Algebra"
     ],
     "solutionLatex": "Karl paid $5 \\cdot 2.50 = \\textdollar 12.50$ . $20 \\%$ of this cost that he saved is $12.50 \\cdot .2 = \\boxed{\\textbf{(C)}\\ \\textdollar 2.50}$ ."
   },
@@ -9779,7 +9722,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_3",
     "topics": [
-      "Symmetry"
+      "Symmetry",
+      "Logic"
     ],
     "solutionLatex": "Rotating square $ABCD$ counterclockwise $45^\\circ$ so that the line of symmetry $BD$ is a vertical line makes it easier to see that $\\boxed{\\textbf{(D)}\\ 4}$ squares need to be colored to match its corresponding square."
   },
@@ -9800,7 +9744,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ],
     "solutionLatex": "The perimeter of the triangle is $6.1+8.2+9.7=24$ cm. A square's perimeter is four times its sidelength, since all its sidelengths are equal. If the square's perimeter is $24$ , the sidelength is $24/4=6$ , and the area is $6^2=\\boxed{\\textbf{(C)}\\ 36}$ ."
@@ -9843,9 +9786,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_6",
     "topics": [
-      "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Digit Problems"
     ],
     "solutionLatex": "We see that $2.0055$ works but $2.0045$ does not. The digit $d$ can be from $5$ through $9$ , which is $\\boxed{\\textbf{(C)}\\ 5}$ values."
   },
@@ -9866,7 +9807,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_7",
     "topics": [
-      "Counting"
+      "Distance, Rate, Time"
     ],
     "solutionLatex": "We have a right-angle triangle with sides 3/4 and 1. We can divide the simple pythagorean theorem identity 3,4,5 by 4 to get 3/4, 1, 5/4. This shows us the answer is B, or 1 1/4."
   },
@@ -9887,7 +9828,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_8",
     "topics": [
-      "Number Theory"
+      "Parity Reasoning"
     ],
     "solutionLatex": "Assume WLOG that $m$ and $n$ are both $1$ . Plugging into each of the choices, we get $4, 2, 6, 16,$ and $3$ . The only odd integer is $\\boxed{\\textbf{(E)}\\ 3mn}$ ."
   },
@@ -9908,9 +9849,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_9",
     "topics": [
+      "Length Chasing",
+      "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals",
-      "Length Chasing"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -9930,7 +9872,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_10",
     "topics": [
-      "Ratios and Rates"
+      "Counting"
     ],
     "solutionLatex": "We can use the equation $d=rt$ where $d$ is the distance, $r$ is the rate, and $t$ is the time. The distances he ran and walked are equal, so $r_rt_r=r_wt_w$ , where $r_r$ is the rate at which he ran, $t_r$ is the time for which he ran, $r_w$ is the rate at which he walked, and $t_w$ is the time for which he walked. Because he runs three times faster than he walks, $r_r=3r_w$ . We want to find the time he ran, $t_r = \\frac{r_wt_w}{t_r} = \\frac{(r_w)(6)}{3r_w} = 2$ minutes. He traveled for a total of $6+2=\\boxed{\\textbf{(D)}\\ 8}$ minutes."
   },
@@ -9951,7 +9893,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_11",
     "topics": [
-      "Ratios and Rates"
+      "Arithmetic Word Problems"
     ],
     "solutionLatex": "The price Jack rings up is $\\textdollar{(90.00)(1.06)(0.80)}$ . The price Jill rings up is $\\textdollar{(90.00)(0.80)(1.06)}$ . By the commutative property of multiplication, these quantities are the same, and the difference is $\\boxed{\\textbf{(C)}\\ \\textdollar 0}$ .\n\nReminder: Commutative states abc = bac= acb =..... and is the same in any order. This only works for addition and multiplication."
   },
@@ -9992,8 +9934,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Polygons"
     ],
     "solutionLatex": "Notice that $AF + DE = BC$ , so $DE=4$ . Let $O$ be the intersection of the extensions of $AF$ and $DC$ , which makes rectangle $ABCO$ . The area of the polygon is the area of $FEDO$ subtracted from the area of $ABCO$ .\n\n\\[\\text{Area} = 52 = 8 \\cdot 9- EF \\cdot 4\\]\n\nSolving for the unknown, $EF=5$ , therefore $DE+EF=4+5=\\boxed{\\textbf{(C)}\\ 9}$ ."
   },
@@ -10014,7 +9956,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_14",
     "topics": [
-      "Counting"
+      "Handshakes"
     ]
   },
   {
@@ -10034,7 +9976,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Fundamental Counting Principle",
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Constructive Counting"
     ]
   },
   {
@@ -10054,7 +9998,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_16",
     "topics": [
-      "Linear Inequalities"
+      "Counting"
     ],
     "solutionLatex": "The Martian can pull out $12$ socks, $4$ of each color, without having $5$ of the same kind yet. However, the next one he pulls out must be the fifth of one of the colors so he must remove $\\boxed{\\textbf{(D)}\\ 13}$ socks."
   },
@@ -10075,10 +10019,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_17",
     "topics": [
-      "Expected Value",
+      "Mean Median Mode",
       "Distance, Rate, Time",
-      "Graphing Functions",
-      "Linear Equations"
+      "Linear Equations",
+      "Graphing Functions"
     ],
     "solutionLatex": "Average speed is distance over time, or the slope of the line through the point and the origin. $\\boxed{\\textbf{(E)}\\ \\text{Evelyn}}$ has the steepest line, and runs the greatest distance for the shortest amount of time."
   },
@@ -10099,10 +10043,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_18",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
       "Digit Problems",
-      "Digit Deduction",
-      "100x + 10y + z"
+      "100x + 10y + z",
+      "Divisibility Reasoning"
     ],
     "solutionLatex": "Let $k$ be any positive integer so that $13k$ is a multiple of $13$ . For the smallest three-digit number, $13k>100$ and $k>\\frac{100}{13} \\approx 7.7$ . For the greatest three-digit number, $13k<999$ and $k<\\frac{999}{13} \\approx 76.8$ . The number $k$ can range from $8$ to $76$ so there are $\\boxed{\\textbf{(C)}\\ 69}$ three-digit numbers."
   },
@@ -10143,7 +10086,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_20",
     "topics": [
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Circle Basics",
+      "Divisibility Reasoning"
     ],
     "solutionLatex": "Alice moves $5k$ steps and Bob moves $9k$ steps, where $k$ is the turn they are on. Alice and Bob coincide when the number of steps they move collectively, $14k$ , is a multiple of $12$ . Since this number must be a multiple of $12$ , as stated in the previous sentence, $14$ has a factor $2$ , $k$ must have a factor of $6$ . The smallest number of turns that is a multiple of $6$ is $\\boxed{\\textbf{(A)}\\ 6}$ ."
   },
@@ -10204,10 +10148,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_23",
     "topics": [
-      "Pythagorean theorem",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Pythagorean theorem",
+      "Problem-Solving: Areas",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "We can figure out the radius of the semicircle from the question states that the area of the semicircle is $2\\pi$ and we can multiply it by 2 to complete the circle to get $4\\pi$ which we can find the radius of 2. Draw line segment OD such that it is the midsegment of triangle ABC, using the midsegment theorem we can see that line segment AC = $2*2=4$ . Since triangle ABC is an isosceles right triangle we can calculate the area to be $\\frac{4^2}{2}$ = $\\boxed{8}$"
   },
@@ -10228,7 +10172,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_24",
     "topics": [
-      "Bases"
+      "Algebra"
     ],
     "solutionLatex": "We can start at $200$ and work our way down to $1$ . We want to press the button that multiplies by $2$ the most, but since we are going down instead of up, we divide by $2$ instead. If we come across an odd number, then we will subtract that number by $1$ . Notice\n\nSince we've reached $1$ , it's clear that the answer should be $\\boxed{\\textbf{(B)}\\ 9}$ - $\\boxed{\\textbf{Javapost}}$ . Because we only subtracted $1$ when we had to, this is optimal. ~Roy2020"
   },
@@ -10251,7 +10195,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
-      "Length Chasing"
+      "Simplifying Radicals"
     ],
     "solutionLatex": "Let the region within the circle and square be $a$ . In other words, it is the area inside the circle $\\textbf{and}$ the square. Let $r$ be the radius. We know that the area of the circle minus $a$ is equal to the area of the square, minus $a$ .\n\nWe get:\n\n$\\pi r^2 -a=4-a$\n\n$r^2=\\frac{4}{\\pi}$\n\n$r=\\frac{2}{\\sqrt{\\pi}}$\n\nSo the answer is $\\boxed{\\textbf{(A)}\\ \\frac{2}{\\sqrt{\\pi}}}$ .\n\nWe realize that since the areas of the regions outside of the circle and the square are equal to each other, the area of the circle must be equal to the area of the square.\n\n$\\pi r^2=4$\n\n$r^2=\\frac{4}{\\pi}$\n\n$r=\\frac{2}{\\sqrt{\\pi}}$\n\nSo the answer is $\\boxed{\\textbf{(A)}\\ \\frac{2}{\\sqrt{\\pi}}}$ ."
   },
@@ -10272,7 +10216,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_1",
     "topics": [
-      "Length Chasing"
+      "Counting"
     ]
   },
   {
@@ -10293,8 +10237,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_2",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Fundamental Counting Principle",
+      "Constructive Counting",
+      "100x + 10y + z"
     ]
   },
   {
@@ -10334,8 +10279,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_4",
     "topics": [
-      "Casework",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -10417,8 +10362,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_8",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "100x + 10y + z"
     ]
   },
   {
@@ -10438,7 +10382,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_9",
     "topics": [
-      "Expected Value",
       "Mean Median Mode"
     ]
   },
@@ -10479,7 +10422,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_11",
     "topics": [
-      "Expected Value",
       "Mean Median Mode"
     ]
   },
@@ -10520,7 +10462,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_13",
     "topics": [
-      "Algebra"
+      "Logic"
     ]
   },
   {
@@ -10602,9 +10544,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_17",
     "topics": [
       "Complementary Counting",
-      "Linear Inequalities",
-      "Casework",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Permutations with Repeated Elements",
+      "Constructive Counting"
     ]
   },
   {
@@ -10624,7 +10566,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_18",
     "topics": [
-      "Problem-Solving: Areas"
+      "Algebra"
     ]
   },
   {
@@ -10644,8 +10586,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_19",
     "topics": [
-      "Modular Arithmetic",
-      "Problem-Solving: Divisibility and Digits"
+      "Chinese Remainder Theorem",
+      "Logic"
     ]
   },
   {
@@ -10685,7 +10627,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_21",
     "topics": [
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Parity Reasoning"
     ]
   },
   {
@@ -10720,7 +10663,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_23",
     "topics": [
-      "Absolute Value Tricks"
+      "Algebra"
     ]
   },
   {
@@ -10763,8 +10706,8 @@
     "topics": [
       "Problem-Solving: Weird Areas",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Length Chasing"
     ]
   },
   {
@@ -10778,6 +10721,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_1",
     "topics": [
+      "Problem-Solving: 3D Geometry",
       "3D Geometry"
     ]
   },
@@ -10878,8 +10822,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
       "Problem-Solving: Areas"
     ]
   },
@@ -10900,7 +10842,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_7",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -10980,8 +10922,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_11",
     "topics": [
-      "Fractions and Percents",
-      "Arithmetic Word Problems"
+      "Arithmetic Word Problems",
+      "Fractions and Percents"
     ]
   },
   {
@@ -11002,7 +10944,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_12",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Divisibility and Digits"
+      "Divisibility Reasoning",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -11022,7 +10965,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_13",
     "topics": [
-      "Counting"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -11043,8 +10986,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_14",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Parity Reasoning"
     ]
   },
   {
@@ -11064,10 +11006,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_15",
     "topics": [
-      "Complementary Counting",
-      "3D Geometry",
-      "Linear Inequalities",
-      "Constructive Counting"
+      "Complementary Counting"
     ]
   },
   {
@@ -11087,7 +11026,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_16",
     "topics": [
-      "Counting"
+      "Permutations"
     ]
   },
   {
@@ -11107,8 +11046,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_17",
     "topics": [
-      "Complementary Counting",
-      "Linear Inequalities"
+      "Complementary Counting"
     ]
   },
   {
@@ -11129,7 +11067,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_18",
     "topics": [
       "Complementary Counting",
-      "Linear Inequalities",
       "Length Chasing"
     ]
   },
@@ -11211,10 +11148,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_22",
     "topics": [
-      "Problem-Solving: Areas",
       "Problem-Solving: Weird Areas",
       "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Slice and Add the Shaded Region"
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11242,8 +11179,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_24",
     "topics": [
-      "Distance, Rate, Time",
-      "Absolute Value Tricks"
+      "Algebra"
     ]
   },
   {
@@ -11263,8 +11199,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_25",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums",
       "Problem-Solving: Areas"
     ]
   },
@@ -11305,7 +11239,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_2",
     "topics": [
-      "Counting"
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -11325,8 +11260,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_3",
     "topics": [
-      "Expected Value",
-      "Mean Median Mode"
+      "Mean Median Mode",
+      "Parity Reasoning"
     ]
   },
   {
@@ -11470,8 +11405,8 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_10",
     "topics": [
-      "Expected Value",
-      "Arithmetic Word Problems"
+      "Arithmetic Word Problems",
+      "Mean Median Mode"
     ]
   },
   {
@@ -11492,7 +11427,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_11",
     "topics": [
       "Permutations with Repeated Elements",
-      "Length Chasing"
+      "Sequences and Series"
     ]
   },
   {
@@ -11512,8 +11447,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_12",
     "topics": [
-      "Introduction to Probability",
-      "Problem-Solving: Areas"
+      "Introduction to Probability"
     ]
   },
   {
@@ -11596,7 +11530,7 @@
       "Pythagorean Triples",
       "Pythagorean theorem",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11636,7 +11570,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_18",
     "topics": [
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -11676,10 +11610,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_20",
     "topics": [
-      "Problem-Solving: Areas",
-      "Modular Arithmetic",
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11699,7 +11633,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_21",
     "topics": [
-      "Linear Inequalities",
       "Introduction to Probability"
     ]
   },
@@ -11742,8 +11675,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_23",
     "topics": [
       "Fractions and Percents",
-      "Floor Functions",
-      "Floor Function Strategies"
+      "Floor Functions"
     ]
   },
   {
@@ -11864,8 +11796,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_4",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Parity Reasoning"
     ]
   },
   {
@@ -11905,7 +11836,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_6",
     "topics": [
-      "Absolute Value Tricks"
+      "Algebra"
     ]
   },
   {
@@ -11925,6 +11856,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_7",
     "topics": [
+      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
     ]
   },
@@ -11945,7 +11877,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_8",
     "topics": [
-      "Counting"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -11965,7 +11897,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_9",
     "topics": [
-      "Counting"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -11985,7 +11917,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_10",
     "topics": [
-      "Ratios and Rates"
+      "Algebra"
     ]
   },
   {
@@ -12047,7 +11979,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_13",
     "topics": [
-      "Angle Chasing"
+      "Inclusion-Exclusion"
     ]
   },
   {
@@ -12067,7 +11999,9 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_14",
     "topics": [
-      "Combinations"
+      "Fundamental Counting Principle",
+      "Combinations",
+      "Constructive Counting"
     ]
   },
   {
@@ -12148,6 +12082,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_18",
     "topics": [
+      "Divisibility Reasoning",
       "Introduction to Probability"
     ]
   },
@@ -12162,7 +12097,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_19",
     "topics": [
-      "3D Geometry",
       "Distance, Rate, Time",
       "Problem-Solving: 3D Geometry"
     ]
@@ -12184,8 +12118,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_20",
     "topics": [
-      "Linear Inequalities",
-      "Pigeonhole"
+      "Algebra"
     ]
   },
   {
@@ -12246,8 +12179,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -12288,8 +12220,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_25",
     "topics": [
       "Digit Problems",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "Divisibility Reasoning",
+      "100x + 10y + z"
     ]
   },
   {
@@ -12403,10 +12335,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Areas",
       "Problem-Solving: Weird Areas",
       "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Slice and Add the Shaded Region"
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -12446,7 +12378,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_8",
     "topics": [
-      "Probability"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -12469,7 +12401,7 @@
       "Digit Problems",
       "Exponent Rules",
       "Problem-Solving: Puzzles",
-      "Digit Deduction"
+      "100x + 10y + z"
     ]
   },
   {
@@ -12489,7 +12421,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Algebra"
     ]
   },
   {
@@ -12509,9 +12441,8 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Divisibility and Digits",
       "Digit Problems",
-      "Digit Deduction"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -12531,7 +12462,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_12",
     "topics": [
-      "Constructive Counting"
+      "Parity Reasoning"
     ]
   },
   {
@@ -12552,7 +12483,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_13",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -12574,8 +12505,7 @@
     "topics": [
       "Digit Problems",
       "Finding the Last Digit",
-      "Digit Deduction",
-      "Problem-Solving: Divisibility and Digits"
+      "100x + 10y + z"
     ]
   },
   {
@@ -12595,8 +12525,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "3rd Degree Symmetric Sums"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -12616,7 +12545,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_16",
     "topics": [
-      "Length Chasing",
       "Problem-Solving: Areas"
     ]
   },
@@ -12678,8 +12606,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_19",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Areas",
-      "3D Volumes and Surface Areas"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -12699,8 +12626,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_20",
     "topics": [
-      "Complementary Counting",
-      "Linear Inequalities"
+      "Complementary Counting"
     ]
   },
   {
@@ -12740,10 +12666,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_22",
     "topics": [
-      "3D Geometry",
+      "Problem-Solving: 3D Geometry",
       "Fractions and Percents",
-      "3D Volumes and Surface Areas",
-      "Problem-Solving: 3D Geometry"
+      "3D Geometry",
+      "3D Volumes and Surface Areas"
     ]
   },
   {
@@ -12763,7 +12689,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_23",
     "topics": [
-      "Expected Value",
       "Mean Median Mode"
     ]
   },
@@ -12784,7 +12709,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_24",
     "topics": [
-      "Angle Chasing"
+      "Angle Chasing",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -12805,7 +12731,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_25",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -12848,7 +12773,9 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AMC_8_Problems/Problem_15",
     "topics": [
-      "Permutations with Repeated Elements"
+      "Pigeonhole Principle",
+      "Permutations with Repeated Elements",
+      "Problem-Solving: 3D Geometry"
     ]
   }
 ]

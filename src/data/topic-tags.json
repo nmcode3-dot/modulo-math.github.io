@@ -1,52 +1,59 @@
 {
   "Modular Arithmetic": [
-    "remainder when",
     "modulo",
     "\\pmod",
     "\\equiv",
-    "mod ",
     "fermat's little",
     "euler's theorem",
-    "order modulo",
     "totient",
-    "remainder",
-    "congruent"
+    "remainder when",
+    "mod 7",
+    "mod 9",
+    "mod 10",
+    "mod 11",
+    "mod 1000"
   ],
   "Stars and Bars": [
     "stars and bars",
     "nonnegative integer solutions",
     "ordered triples of nonnegative",
     "sticks and stones",
-    "balls and urns"
+    "balls and urns",
+    "identical balls",
+    "distribute"
   ],
   "Paths on a Grid": [
     "lattice path",
     "grid path",
-    "moves only right",
+    "only move right",
     "up or right",
-    "unit step",
-    "shortest path"
+    "right or up",
+    "shortest path along",
+    "paths from"
   ],
   "Complementary Counting": [
     "complementary counting",
+    "complementary probability",
     "at least one",
-    "complement"
+    "not all"
   ],
   "Inclusion-Exclusion": [
     "inclusion-exclusion",
     "principle of inclusion",
+    "pie",
+    "divisible by neither",
     "neither"
   ],
   "Pigeonhole Principle": [
     "pigeonhole",
     "must be chosen to guarantee",
-    "guarantee that"
+    "to guarantee that",
+    "ensure that"
   ],
   "Expected Value": [
     "expected value",
     "expected number",
-    "on average",
-    "average"
+    "expected"
   ],
   "Conditional Probability": [
     "conditional probability",
@@ -58,11 +65,12 @@
     "3-4-5",
     "5-12-13",
     "8-15-17",
-    "right triangle with integer"
+    "7-24-25"
   ],
   "Similar Triangles": [
     "similar triangles",
-    "\\sim",
+    "\\sim \\triangle",
+    "similar",
     "similarity"
   ],
   "Power of a Point": [
@@ -74,37 +82,40 @@
   "Angle Chasing": [
     "angle chasing",
     "\\angle",
-    "degrees"
+    "^\\circ",
+    "degree measure"
   ],
   "Circle Tangents": [
     "tangent to",
     "tangent line",
     "externally tangent",
     "internally tangent",
-    "incircle"
+    "tangent at"
   ],
   "Area by Coordinates": [
     "shoelace",
-    "coordinate plane",
-    "xy-plane",
     "vertices at",
-    "(0,0)"
+    "vertices are",
+    "coordinate plane",
+    "xy-plane"
   ],
   "Vieta's Formulas": [
     "vieta",
-    "roots of the polynomial",
     "sum of the roots",
-    "product of the roots"
+    "product of the roots",
+    "roots of the polynomial",
+    "roots of the equation"
   ],
   "Polynomial Remainder": [
     "remainder theorem",
     "is divided by x",
-    "polynomial remainder"
+    "polynomial remainder",
+    "divided by (x"
   ],
   "Telescoping Sums": [
     "telescop",
     "\\frac{1}{n(n+1)}",
-    "partial fractions"
+    "\\frac{1}{k(k+1)}"
   ],
   "Arithmetic/Geometric Sequences": [
     "arithmetic sequence",
@@ -112,44 +123,41 @@
     "arithmetic progression",
     "geometric progression",
     "common difference",
-    "common ratio",
-    "\\cdots"
+    "common ratio"
   ],
   "Logarithms": [
     "\\log",
-    "logarithm"
+    "logarithm",
+    "\\ln"
   ],
   "Complex Numbers": [
     "complex number",
     "imaginary",
-    "i^2",
-    "|z|",
+    "i^2 = -1",
+    "i^2=-1",
     "de moivre",
     "complex plane",
-    "argand",
-    "modulus",
-    "argument of",
-    "complex",
-    "cis",
-    "polar form",
     "roots of unity",
     "z^n=1",
-    "z^n = 1",
     "complex roots",
-    "nth roots"
+    "\\overline{z}",
+    "|z|"
   ],
   "Divisor Counting": [
     "number of divisors",
     "positive divisors",
-    "factors does",
-    "divisors of"
+    "positive factors",
+    "divisors of",
+    "factors does"
   ],
   "GCD/LCM": [
     "greatest common divisor",
     "least common multiple",
     "\\gcd",
     "\\operatorname{lcm}",
-    "lcm"
+    "\\text{lcm}",
+    "lcm",
+    "gcd"
   ],
   "Digit Problems": [
     "digit",
@@ -160,28 +168,35 @@
     "base-",
     "base 2",
     "base 10",
+    "base ten",
     "_{10}",
-    "_{2}"
+    "_{2}",
+    "_{8}"
   ],
   "Recursion": [
     "recursion",
     "recursive",
     "recursively",
     "a_{n+1}",
-    "a_n ="
+    "a_n =",
+    "a_{n-1}"
   ],
   "Exponent Rules": [
     "exponent rules",
     "laws of exponents",
-    "power of 2",
-    "power of 3",
+    "2^{",
+    "3^{",
+    "5^{",
     "powers of"
   ],
   "Ratios and Rates": [
+    "ratio of",
+    "times as many",
     "times as much",
-    "ratio",
     "per hour",
-    "rate"
+    "per minute",
+    "rate of",
+    "proportion"
   ],
   "Fractions and Percents": [
     "\\%",
@@ -191,8 +206,11 @@
   "Arithmetic Word Problems": [
     "dollars",
     "cents",
+    "\\$",
     "total cost",
-    "how much money"
+    "how much money",
+    "each costs",
+    "price"
   ],
   "Floor Functions": [
     "\\lfloor",
@@ -201,18 +219,20 @@
   "Trigonometry": [
     "\\sin",
     "\\cos",
-    "\\tan"
+    "\\tan",
+    "\\cot",
+    "\\sec"
   ],
   "Inequalities (AM-GM)": [
     "am-gm",
-    "minimum value",
-    "maximum value",
-    "arithmetic mean",
-    "geometric mean",
+    "am–gm",
+    "arithmetic mean-geometric mean",
     "inequality of means"
   ],
   "3D Geometry": [
-    "cube",
+    "a cube",
+    "unit cube",
+    "the cube",
     "sphere",
     "cylinder",
     "cone",
@@ -220,307 +240,296 @@
     "tetrahedron",
     "prism",
     "octahedron",
-    "inscribed sphere",
-    "solid"
+    "rectangular box"
   ],
   "Telescoping": [
     "telescop",
-    "partial fractions",
     "\\frac{1}{k(k+1)}"
   ],
   "Variables": [
     "in terms of",
     "solve for",
-    "let x",
     "express"
   ],
   "Exponents with Algebra": [
     "2^x",
     "3^x",
-    "a^b",
-    "x^y",
+    "4^x",
+    "2^{x",
+    "3^{x",
     "exponential equation"
   ],
   "2nd Degree Symmetric Sums": [
     "symmetric sum",
-    "a+b+c",
     "ab+bc+ca",
-    "symmetric polynomial"
+    "ab + bc + ca",
+    "xy+yz+zx",
+    "x^2+y^2",
+    "a^2+b^2+c^2"
   ],
   "Simplifying Radicals": [
     "\\sqrt",
     "radical",
-    "simplest radical form",
-    "simplify the expression \\sqrt"
+    "simplest radical form"
   ],
   "System of Equations": [
     "system of equations",
     "simultaneously",
     "solve the system",
-    "pair of equations"
+    "the equations"
   ],
   "Linear Inequalities": [
     "inequality",
-    "at most",
-    "at least",
-    "greater than or equal",
-    "less than or equal",
+    "\\le",
+    "\\ge",
+    "< x <",
     "number line"
   ],
   "Mean Median Mode": [
     "mean",
     "median",
     "mode",
-    "average of",
-    "arithmetic mean"
+    "average"
   ],
   "Algebraic Manipulation": [
-    "simplify",
-    "expand",
-    "combine like terms",
-    "distributive",
-    "manipulate",
-    "rewrite",
-    "substitute",
-    "in terms of",
     "algebraic manipulation",
-    "clever factoring",
-    "sophie germain"
+    "sophie germain",
+    "difference of squares",
+    "expand"
   ],
   "Quadratics - Factoring": [
     "factor the quadratic",
-    "x^2+bx+c",
-    "factors of the quadratic",
+    "x^2+",
+    "x^2 +",
+    "quadratic",
     "factor completely"
   ],
   "Functions - f(x) Notation": [
     "f(x)",
     "function f",
-    "f(2)",
-    "g(x)"
+    "g(x)",
+    "f(1)",
+    "f(2)"
   ],
   "Distance, Rate, Time": [
     "miles per hour",
     "mph",
     "km/h",
-    "travels",
+    "kilometers per hour",
+    "feet per second",
     "speed",
     "how fast",
-    "round trip"
+    "round trip",
+    "miles"
   ],
   "Factorial": [
     "factorial",
     "n!",
     "5!",
+    "10!",
     "0!"
   ],
   "Quadratics Completing the Square": [
     "completing the square",
-    "vertex form",
-    "(x-h)^2"
+    "complete the square",
+    "vertex form"
   ],
   "Linear Equations": [
     "linear equation",
-    "solve for x",
     "slope",
     "y-intercept",
-    "line through"
+    "line through",
+    "y = mx",
+    "y=mx"
   ],
   "Absolute Value Tricks": [
     "absolute value",
-    "|x|",
+    "|x",
     "|a-b|",
-    "distance from"
+    "\\left|"
   ],
   "Introduction to Probability": [
     "probability",
-    "chance",
     "at random",
-    "randomly selected",
-    "likelihood"
+    "randomly"
   ],
   "Venn Diagrams": [
     "venn diagram",
-    "both groups",
     "in neither",
-    "overlap",
-    "students who take"
+    "students who take",
+    "play both",
+    "take both",
+    "like both",
+    "neither"
   ],
   "Casework": [
     "casework",
+    "case 1",
+    "case 2",
     "consider cases",
     "two cases",
     "three cases",
-    "split into cases",
-    "separate cases",
-    "many cases",
-    "enumerate",
-    "cases",
-    "systematic",
-    "exhaustive",
-    "all cases",
-    "case 1",
-    "case 2",
-    "how many ways"
+    "separate cases"
   ],
   "Permutations": [
     "permutation",
     "arrange",
+    "arrangements",
     "in a row",
-    "order matters",
-    "how many orders"
+    "line up"
   ],
   "Handshakes": [
     "handshake",
-    "each pair",
-    "every pair",
-    "shakes hands"
+    "shakes hands",
+    "every pair of",
+    "each pair of",
+    "round-robin",
+    "each team plays"
   ],
   "Overcounting": [
     "overcount",
     "counted twice",
-    "divide by",
-    "each counted",
-    "counted multiple times",
-    "adjust"
+    "double counted",
+    "double-counted"
   ],
   "Logic": [
-    "logic",
     "true statement",
     "false statement",
-    "if and only if",
-    "implies",
     "liar",
-    "knight"
+    "knight",
+    "truth-teller",
+    "exactly one of",
+    "lies"
   ],
   "Fundamental Counting Principle": [
+    "fundamental counting",
     "how many ways",
-    "choices",
-    "outcomes",
-    "fundamental counting"
+    "how many different",
+    "choices for"
   ],
   "Combinations": [
     "combination",
-    "choose",
     "\\binom",
     "committee",
-    "select"
+    "choose",
+    "subset",
+    "subsets"
   ],
   "Pigeonhole": [
     "pigeonhole",
     "guarantee",
-    "must contain",
-    "at least two",
-    "prove that some"
+    "must contain"
   ],
   "Parity Reasoning": [
     "parity",
     "even or odd",
     "odd or even",
     "same parity",
-    "opposite parity"
+    "odd",
+    "even"
   ],
   "GCD and LCM": [
     "greatest common divisor",
     "least common multiple",
     "\\gcd",
-    "\\operatorname{lcm}",
     "lcm",
-    "gcf"
+    "gcf",
+    "greatest common factor"
   ],
   "Finding the Last Digit": [
     "last digit",
     "units digit",
     "final digit",
-    "ones digit"
+    "ones digit",
+    "last two digits"
   ],
   "Pythagorean theorem": [
     "pythagorean",
-    "a^2+b^2",
     "hypotenuse",
     "right triangle",
-    "leg of a right"
+    "right angle"
   ],
   "Graphing Functions": [
     "graph of",
+    "graphs of",
     "graphed",
-    "coordinate plane",
-    "plot",
     "parabola",
     "x-axis",
     "y-axis"
   ],
   "Permutations with Repeated Elements": [
-    "repeated elements",
     "identical",
     "indistinguishable",
     "arrangements of the letters",
-    "mississippi"
+    "letters of the word",
+    "distinguishable"
   ],
   "Problem-Solving: Puzzles": [
     "puzzle",
     "riddle",
-    "brainteaser"
+    "magic square",
+    "each row",
+    "each column"
   ],
   "Problem-Solving: Weird Areas": [
     "shaded region",
-    "unusual shape",
-    "irregular",
-    "area of the shaded"
+    "area of the shaded",
+    "shaded area",
+    "irregular"
   ],
   "Problem-Solving: Angles": [
     "angle measure",
     "measure of angle",
     "m\\angle",
     "supplementary",
-    "complementary angles"
+    "degree measure",
+    "\\angle"
   ],
   "Problem-Solving: Polygons": [
     "polygon",
     "hexagon",
     "pentagon",
     "octagon",
-    "interior angle",
-    "regular polygon"
+    "interior angle"
   ],
   "Problem-Solving: Angles on a Clock": [
-    "clock",
     "hour hand",
     "minute hand",
-    "o'clock"
+    "o'clock",
+    "clock"
   ],
   "Problem-Solving: Isosceles Equilateral Triangles": [
     "isosceles",
-    "equilateral",
-    "two sides equal",
-    "all sides equal"
+    "equilateral"
   ],
   "Problem-Solving: Quadrilaterals": [
     "quadrilateral",
     "parallelogram",
     "trapezoid",
     "rhombus",
-    "rectangle"
+    "rectangle",
+    "kite"
   ],
   "Problem-Solving: Circle Basics": [
     "circle",
     "radius",
     "diameter",
     "circumference",
-    "chord",
-    "arc"
+    "semicircle"
   ],
   "Problem-Solving: Triangle Angles": [
-    "triangle",
     "angles of a triangle",
     "exterior angle",
-    "angle sum"
+    "angle sum",
+    "angles of triangle",
+    "interior angles of"
   ],
   "Problem-Solving: Triangle Inequality": [
     "triangle inequality",
-    "possible lengths",
+    "nondegenerate triangle",
     "third side",
-    "can be the lengths"
+    "can be the lengths",
+    "side lengths of a triangle"
   ],
   "Inverse Functions": [
     "inverse function",
@@ -530,81 +539,91 @@
   "Rationalizing Radicals": [
     "rationalize",
     "rationalizing the denominator",
-    "conjugate"
+    "conjugate",
+    "\\frac{1}{\\sqrt"
   ],
   "Clever Substitutions": [
     "substitution",
     "let u",
-    "let y =",
-    "clever"
+    "clever substitution"
   ],
   "Repeating Decimal": [
     "repeating decimal",
     "0.\\overline",
-    "repeats indefinitely",
-    "0.333"
+    "repeats",
+    "\\overline{0",
+    "\\overline{1",
+    "\\overline{2",
+    "\\overline{3",
+    "\\overline{4",
+    "\\overline{5",
+    "\\overline{6",
+    "\\overline{7",
+    "\\overline{8",
+    "\\overline{9"
   ],
   "3rd Degree Symmetric Sums": [
-    "symmetric",
     "a^3+b^3+c^3",
-    "abc",
+    "a^3 + b^3 + c^3",
+    "x^3+y^3",
+    "x^3 + y^3",
+    "a^3+b^3",
+    "a^3 + b^3",
     "cubic symmetric"
   ],
   "Binomial Theorem": [
     "binomial theorem",
     "binomial expansion",
     "coefficient of",
-    "(x+y)^n",
-    "expand"
+    "expansion of"
   ],
   "Polynomials": [
     "polynomial",
-    "degree",
-    "coefficient",
     "p(x)",
     "q(x)",
-    "roots",
-    "irreducible",
-    "rational root"
+    "rational root",
+    "monic",
+    "cubic",
+    "degree 3",
+    "degree 4"
   ],
   "Floor": [
     "\\lfloor",
-    "floor function",
-    "greatest integer",
     "\\lceil",
+    "greatest integer",
     "ceiling"
   ],
   "Constructive Counting": [
     "constructive counting",
-    "construct",
-    "build",
-    "step by step"
+    "how many ways",
+    "how many different"
   ],
   "Chinese Remainder Theorem": [
     "chinese remainder",
     "system of congruences",
-    "simultaneous congruences"
+    "leaves a remainder",
+    "remainder of"
   ],
   "Counting Divisors": [
     "how many divisors",
     "number of positive divisors",
     "divisors does",
-    "divisors",
-    "factorization",
     "prime factorization",
-    "number of factors"
+    "number of factors",
+    "positive divisors"
   ],
   "Palindromes": [
     "palindrome",
     "reads the same",
-    "same forwards and backwards"
+    "forwards and backwards"
   ],
   "100x + 10y + z": [
-    "three-digit number",
+    "three-digit",
     "hundreds digit",
     "tens digit",
-    "two-digit number",
-    "four-digit number"
+    "two-digit",
+    "four-digit",
+    "units digit"
   ],
   "Modular Inverses": [
     "modular inverse",
@@ -612,15 +631,17 @@
     "multiplicative inverse"
   ],
   "Digit Deduction": [
-    "digit",
     "sum of the digits",
-    "product of the digits"
+    "product of the digits",
+    "each letter represents",
+    "distinct digits",
+    "nonzero digits"
   ],
   "Bases": [
-    "base",
     "in base",
     "base eight",
     "base sixteen",
+    "base seven",
     "hexadecimal",
     "binary"
   ],
@@ -628,51 +649,58 @@
     "inscribed angle",
     "central angle",
     "arc measure",
-    "intercepted arc"
+    "intercepted arc",
+    "\\widehat",
+    "\\overarc"
   ],
   "Special triangles": [
     "30-60-90",
     "45-45-90",
-    "special right triangle",
-    "special triangle"
+    "30^\\circ",
+    "60^\\circ",
+    "45^\\circ",
+    "special right triangle"
   ],
   "3D Volumes and Surface Areas": [
     "volume",
     "surface area",
     "cubic units",
-    "square units"
+    "cubic inches",
+    "cubic feet"
   ],
   "Sequences and Series": [
     "series",
     "sum of the first",
     "partial sum",
-    "geometric series",
-    "infinite series"
+    "infinite series",
+    "sequence",
+    "\\sum"
   ],
   "Functional Equations": [
     "functional equation",
     "f(f(x))",
     "f(x+y)",
     "for all real",
-    "f(xy)"
+    "f(xy)",
+    "for all positive integers"
   ],
   "Telescoping - Forcing It": [
     "telescop",
-    "partial fraction decomposition",
-    "difference of"
+    "partial fraction decomposition"
   ],
   "Chicken McNugget": [
     "frobenius",
     "chicken mcnugget",
-    "largest integer that cannot",
     "cannot be expressed",
-    "postage stamp"
+    "cannot be made",
+    "postage",
+    "largest amount"
   ],
   "Simons Favorite Factoring Trick": [
-    "simon",
+    "simon's favorite",
     "sfft",
     "xy+x+y",
-    "add and subtract",
+    "xy + x + y",
     "factoring trick"
   ],
   "Stewarts Theorem": [
@@ -683,30 +711,27 @@
   "Mass Points": [
     "mass points",
     "assign masses",
-    "balance point",
-    "lever",
-    "masses",
-    "split masses"
+    "mass point"
   ],
   "Divisibility Reasoning": [
     "divisibility rule",
-    "divisible by 9",
-    "divisible by 11",
-    "divisible by 3"
+    "divisible by",
+    "is a multiple of",
+    "multiple of"
   ],
   "Problem-Solving: 3D Geometry": [
     "three-dimensional",
-    "3d",
-    "solid",
     "space diagonal",
-    "cross-section",
-    "plane cuts",
-    "solid geometry"
+    "solid",
+    "faces",
+    "edges",
+    "vertices of a cube"
   ],
   "Problem-Solving: Coordinate Bashing": [
     "coordinate bash",
-    "place on the coordinate plane",
-    "coordinates"
+    "coordinates",
+    "place the",
+    "cartesian"
   ],
   "Problem-Solving: Inscribed Circles": [
     "inscribed circle",
@@ -715,25 +740,29 @@
     "inscribed in"
   ],
   "Problem-Solving: Connecting the Centers": [
-    "centers",
-    "line connecting",
-    "centers of the circles"
+    "centers of the circles",
+    "line connecting the centers",
+    "connecting the centers",
+    "centers"
   ],
   "Problem-Solving: Shaded Regions - Circles": [
     "shaded",
-    "region bounded",
     "lune",
-    "annulus"
+    "annulus",
+    "quarter-circle",
+    "quarter circle"
   ],
   "Problem-Solving: Linear Diophantine Equations": [
     "diophantine",
     "integer solutions",
-    "ax+by=c"
+    "ordered pairs of positive integers",
+    "nonnegative integers"
   ],
   "Problem-Solving: Divisibility and Digits": [
-    "divisible",
-    "digit",
-    "remainder"
+    "divisible by 9",
+    "divisible by 11",
+    "divisible by 3",
+    "digit sum"
   ],
   "Trigonometric Identities": [
     "trigonometric identity",
@@ -746,7 +775,7 @@
   "Create New Polynomial": [
     "polynomial with roots",
     "new polynomial",
-    "roots are",
+    "whose roots are",
     "construct a polynomial"
   ],
   "Finite Differences": [
@@ -755,149 +784,151 @@
     "constant differences"
   ],
   "Floor Function Strategies": [
-    "floor",
     "\\lfloor",
-    "greatest integer function"
+    "greatest integer function",
+    "floor function"
   ],
   "Trigonometric Sums": [
     "sum of sines",
     "sum of cosines",
-    "\\sin+",
-    "trigonometric sum"
+    "trigonometric sum",
+    "\\sum \\sin",
+    "\\sum \\cos"
   ],
   "AIME-level Inequalities": [
-    "inequality",
-    "prove that",
     "minimum possible value",
-    "maximum possible value"
+    "maximum possible value",
+    "minimum value",
+    "maximum value",
+    "largest possible value",
+    "smallest possible value"
   ],
   "Geometric Probability": [
     "geometric probability",
     "random point",
+    "point is chosen",
     "chosen at random from the region",
-    "probability that the point"
+    "chosen uniformly at random",
+    "uniformly"
   ],
   "Linearity of Expectation": [
     "linearity of expectation",
-    "expected",
     "indicator",
-    "expected value"
+    "expected number"
   ],
   "States": [
-    "states",
     "state diagram",
+    "markov",
     "transition",
-    "markov"
+    "states"
   ],
   "Bijections": [
     "bijection",
-    "one-to-one",
-    "correspondence",
+    "one-to-one correspondence",
     "bijective"
   ],
   "Law of Sines": [
     "law of sines",
-    "\\frac{a}{\\sin",
-    "sine rule"
+    "sine rule",
+    "\\frac{a}{\\sin"
   ],
   "Law of Cosines": [
     "law of cosines",
-    "c^2=a^2+b^2",
     "cosine rule"
   ],
   "Ptolemy's Theorem": [
     "ptolemy",
-    "cyclic quadrilateral",
-    "ac \\cdot bd"
+    "cyclic quadrilateral"
   ],
   "Recurrence Strategies": [
     "recurrence",
-    "a_{n+1}=",
     "recursively defined",
-    "initial term"
+    "a_{n+2}",
+    "a_{n+1}"
   ],
   "Symmetry": [
     "symmetry",
-    "symmetric",
-    "reflection",
+    "line of symmetry",
     "rotational symmetry",
-    "line of symmetry"
+    "symmetric"
   ],
   "Burnsides": [
     "burnside",
-    "orbit",
-    "colorings",
+    "up to rotation",
+    "rotations are considered",
     "necklace",
-    "up to rotation"
+    "colorings"
   ],
   "Incenter": [
     "incenter",
     "angle bisectors meet",
-    "inscribed circle center"
+    "incircle"
   ],
   "Ceva Menelaus": [
     "ceva",
     "menelaus",
-    "concurrent cevians",
-    "cevian"
+    "concurrent"
   ],
   "Angle Bisector Theorem": [
     "angle bisector",
-    "bisects the angle",
+    "bisects \\angle",
+    "bisects angle",
     "bisector theorem"
   ],
   "Shortest Path - Unfolding the Object": [
     "unfold",
     "shortest path on",
     "net of",
-    "spider and fly"
+    "spider",
+    "ant",
+    "crawl"
   ],
   "Cross Sections": [
     "cross section",
     "cross-section",
-    "slice",
-    "plane intersects"
+    "plane intersects",
+    "plane cuts",
+    "plane passing through"
   ],
   "Length Chasing": [
-    "length",
     "find the length",
-    "chasing lengths",
+    "what is the length",
+    "length of",
     "segment"
   ],
   "Problem-Solving: Trigonometric Substitutions in Algebra": [
     "trig substitution",
     "x = \\tan",
     "x = \\sin",
-    "substitute"
+    "x=\\tan"
   ],
   "Problem-Solving: Polynomial Root Tricks": [
-    "roots",
-    "root tricks",
-    "sum of squares of roots",
-    "reciprocal polynomial"
+    "sum of the squares of the roots",
+    "reciprocal polynomial",
+    "roots of",
+    "zeros of"
   ],
   "Problem-Solving: Double Summation": [
     "double sum",
-    "\\sum_{i}",
-    "\\sum\\sum",
-    "double summation"
+    "double summation",
+    "\\sum_{i",
+    "\\sum_{j"
   ],
   "Problem-Solving: Using Area Ratios to Solve Geometry Problems": [
     "area ratio",
+    "ratio of the area",
     "ratio of areas",
-    "areas",
-    "same height"
+    "ratio of the areas"
   ],
   "Problem-Solving: Slice and Add the Shaded Region": [
     "shaded",
-    "slice",
     "add the areas",
     "decompose"
   ],
   "Problem-Solving: Using Cyclic Quadrilaterals": [
     "cyclic quadrilateral",
     "concyclic",
-    "opposite angles",
+    "inscribed in a circle",
     "lie on a circle"
   ],
   "Problem-Solving: Reflection Trick": [
@@ -908,14 +939,13 @@
   ],
   "Problem-Solving: Areas": [
     "area",
-    "region",
     "shaded area"
   ],
   "Problem-Solving: Centroid": [
     "centroid",
     "medians",
-    "center of mass",
-    "median of a triangle"
+    "median of a triangle",
+    "center of mass"
   ],
   "Problem-Solving: Excenter": [
     "excenter",
