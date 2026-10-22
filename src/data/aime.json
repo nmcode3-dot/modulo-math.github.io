@@ -1899,7 +1899,8 @@
     "topics": [
       "Arithmetic/Geometric Sequences",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "In the arithmetic sequence, let $a$ be the first term and $d$ be the common difference, where $d>0.$ The sum of the first six terms is \\[a+(a+d)+(a+2d)+(a+3d)+(a+4d)+(a+5d) = 6a+15d.\\]\nWe are given that\n$\\begin{align*} 6a+15d &= 990, \\\\ 2a &= a+5d. \\end{align*}$\nThe second equation implies that $a=5d.$ Substituting this into the first equation, we get\n$\\begin{align*} 6(5d)+15d &=990, \\\\ 45d &= 990 \\\\ d &= 22. \\end{align*}$\nIt follows that $a=110.$ Therefore, the greatest number of apples growing on any of the six trees is $a+5d=\\boxed{220}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "aimeii-2023-2",
@@ -6606,10 +6607,10 @@
     "answer": "222",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_15",
     "topics": [
-      "Trigonometric Identities",
-      "Trigonometry",
       "Problem-Solving: Triangle Angles",
-      "Angle Chasing"
+      "Trigonometric Identities",
+      "Pythagorean theorem",
+      "Clever Substitutions"
     ]
   },
   {
