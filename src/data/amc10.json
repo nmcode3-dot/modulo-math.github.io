@@ -56,8 +56,12 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_1",
     "topics": [
-      "Algebra"
-    ]
+      "Digit Problems",
+      "Finding the Last Digit",
+      "100x + 10y + z",
+      "Divisibility Reasoning"
+    ],
+    "solutionLatex": "The likely fastest method will be direct computation. $9901\\cdot101$ evaluates to $1000001$ and $99\\cdot10101$ evaluates to $999999$ . The difference is $\\boxed{\\textbf{(A) }2}.$\n\nSolution by juwushu."
   },
   {
     "id": "amc10a-2024-2",
@@ -77,8 +81,11 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_2",
     "topics": [
       "Distance, Rate, Time",
-      "Length Chasing"
-    ]
+      "Length Chasing",
+      "Problem-Solving: Circle Basics",
+      "Variables"
+    ],
+    "solutionLatex": "Plug in the values into the equation to give you the following two equations:\n\\begin{align*}\n69&=1.5a+800b, \\\\\n69&=1.2a+1100b.\n\\end{align*}\nSolving for the values $a$ and $b$ gives you that $a=30$ and $b=\\frac{3}{100}$ . These values can be plugged back in showing that these values are correct.\nNow, using the given length of the trail, $4.2$ , and the given vertical increase, $4000$ , we get a final answer of $\\boxed{\\textbf{(B) }246}.$\n\nSolution by juwushu.\n\nMinor edits by ParticlePhysics and TigerSenju"
   },
   {
     "id": "amc10a-2024-3",
@@ -97,9 +104,12 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_3",
     "topics": [
+      "Parity Reasoning",
       "Digit Problems",
+      "Problem-Solving: Circle Basics",
       "Digit Deduction"
-    ]
+    ],
+    "solutionLatex": "Let the requested sum be $S.$ Recall that $2$ is the only even (and the smallest) prime, so $S$ is odd. It follows that the five distinct primes are all odd. The first few odd primes are $3,5,7,11,13,17,19,\\ldots.$ We conclude that $S>3+5+7+11+13=39,$ as $39$ is a composite. The next possible value of $S$ is $3+5+7+11+17=43,$ which is a prime. Therefore, we have $S=43,$ and the sum of its digits is $4+3=\\boxed{\\textbf{(B) }7}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2024-4",
@@ -119,8 +129,11 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_4",
     "topics": [
       "Digit Problems",
-      "100x + 10y + z"
-    ]
+      "100x + 10y + z",
+      "Problem-Solving: Circle Basics",
+      "Combinations"
+    ],
+    "solutionLatex": "Since we want the least number of two-digit numbers, we maximize the two-digit numbers by choosing as many $99$ s as possible. Since $2024=99\\cdot20+44\\cdot1,$ we choose twenty $99$ s and one $44,$ for a total of $\\boxed{\\textbf{(B) }21}$ two-digit numbers.\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2024-5",
@@ -140,8 +153,10 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_5",
     "topics": [
       "Divisibility Reasoning",
-      "Factorial"
-    ]
+      "Problem-Solving: Circle Basics",
+      "Counting Divisors"
+    ],
+    "solutionLatex": "Note that $2024=2^3\\cdot11\\cdot23$ in the prime factorization. Since $23!$ is a multiple of $2^3, 11,$ and $23,$ we conclude that $23!$ is a multiple of $2024.$ Therefore, we have $n=\\boxed{\\textbf{(D) } 23}.$\n\nRemark\n\nMemorizing the prime factorization of the current year is useful for the AMC 8/10/12 Exams.\n\n~MRENTHUSIASM\n\nRemark\n\nNote that $2024$ is $2025 -1$ , which is $45^2 -1 = (45+1)(45-1) = 46\\cdot44$ .\n\n~WISETIGERJ2"
   },
   {
     "id": "amc10a-2024-6",
@@ -160,8 +175,12 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_6",
     "topics": [
-      "Sequences and Series"
-    ]
+      "Recursion",
+      "Permutations",
+      "Sequences and Series",
+      "Problem-Solving: Circle Basics"
+    ],
+    "solutionLatex": "Procedurally, it takes:\n\n$5$ swaps for $A$ to move to the sixth spot, giving $BCDEFA.$\n\n$4$ swaps for $B$ to move to the fifth spot, giving $CDEFBA.$\n\n$3$ swaps for $C$ to move to the fourth spot, giving $DEFCBA.$\n\n$2$ swaps for $D$ to move to the third spot, giving $EFDCBA.$\n\n$1$ swap for $E$ to move to the second spot (so $F$ becomes the first spot), giving $FEDCBA.$\n\nTogether, the answer is $5+4+3+2+1=\\boxed{\\textbf{(D)}~15}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2024-7",
@@ -180,8 +199,9 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_7",
     "topics": [
-      "Number Theory"
-    ]
+      "Combinations"
+    ],
+    "solutionLatex": "We notice that the optimal solution involves two negative numbers and a positive number. Thus we may split $60$ into three factors and choose negativity. We notice that $10\\cdot6\\cdot1=10\\cdot(-6)\\cdot(-1)=60$ , and trying other combinations does not yield lesser results so the answer is $10-6-1=\\boxed{\\textbf{(B) }3}$ .\n\n~eevee9406"
   },
   {
     "id": "amc10a-2024-8",
@@ -200,8 +220,9 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_8",
     "topics": [
-      "Algebra"
-    ]
+      "Ratios and Rates"
+    ],
+    "solutionLatex": "Note that Amy, Bomani, and Charlie pack a total of $4+3+3=10$ packages every $3$ minutes.\n\nThe total amount of time worked is $1$ hour and $45$ minutes, which when converted to minutes, is $105$ minutes. This means that since Amy, Bomani, and Charlie worked for the entire $105$ minutes, they in total packed $\\dfrac{105}{3}\\cdot10=350$ packages.\n\nSince $450$ packages were packed in total, then Daria must have packed $450-350=100$ packages in total, and since she packs at a rate of $5$ packages per $4$ minutes, then Daria worked for $\\dfrac{100}{5}\\cdot4=80$ minutes, therefore Daria joined $80$ minutes before $2:45$ PM, which was at $\\boxed{\\textbf{(A) }1:25\\text{ PM}}$\n\n~Tacos_are_yummy_1, andliu766"
   },
   {
     "id": "amc10a-2024-9",
@@ -220,9 +241,12 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_9",
     "topics": [
+      "Permutations with Repeated Elements",
+      "Combinations",
       "Fundamental Counting Principle",
       "Constructive Counting"
-    ]
+    ],
+    "solutionLatex": "The number of ways in which we can choose the juniors for the team are ${6\\choose2}{4\\choose2}{2\\choose2}=15\\cdot6\\cdot1=90$ . Similarly, the number of ways to choose the seniors are the same, so the total is $90\\cdot90=8100$ . But we must divide the number of permutations of three teams, since the order in which the teams were chosen doesn't matter, which is $3!$ . Thus, the answer is $\\frac{8100}{3!}=\\frac{8100}{6}=\\boxed{\\textbf{(B) }1350}$\n\n~eevee9406\n~small edits by NSAoPS\n~edits by YING821"
   },
   {
     "id": "amc10a-2024-10",
@@ -235,8 +259,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_10",
     "topics": [
-      "Divisibility Reasoning"
-    ]
+      "Divisibility Reasoning",
+      "Sequences and Series"
+    ],
+    "solutionLatex": "Let $s$ be the number of times the operation is performed. Notice the sequence goes $100 \\to 110 \\to 120 \\to 40 \\to 50 \\to 60 \\to 20 \\to 30 \\to 10 \\to 20 \\to \\cdots$ . Thus, for $s \\equiv 1 \\pmod{3}$ , the value is $30$ . Since $100 \\equiv 1 \\pmod{3}$ , the answer is $\\boxed{\\textbf{(C) }30}$ .\n\n~andliu766 ~minor fix by MID_HAT"
   },
   {
     "id": "amc10a-2024-11",
@@ -255,8 +281,12 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_11",
     "topics": [
-      "Simplifying Radicals"
-    ]
+      "Graphing Functions",
+      "Pythagorean theorem",
+      "Problem-Solving: Linear Diophantine Equations",
+      "Quadratics - Factoring"
+    ],
+    "solutionLatex": "Note that $m$ is a nonnegative integer.\n\nWe square, rearrange, and apply the difference of squares formula to the given equation: \\[(n+m)(n-m)=49.\\]\nIt is clear that $n+m\\geq n-m,$ so $(n+m,n-m)=(49,1),(7,7),(-7,-7),(-1,-49).$ Each ordered pair $(n+m,n-m)$ gives one ordered pair $(m,n),$ so there are $\\boxed{\\textbf{(D)}~4}$ such ordered pairs $(m,n).$\n\nRemark\n\nFrom $(n+m,n-m)=(49,1),(7,7),(-7,-7),(-1,-49),$ we get $(m,n)=(24,25),(0,7),(0,-7),(24,-25),$ respectively.\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2024-12",
@@ -276,7 +306,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_12",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "Going through the table, we see her scores over the six days were: $1700$ , $1700+80=1780$ , $1780-90=1690$ , $1690-10=1680$ , $1680+60=1740$ , and $1740-40=1700$ .\n\nTaking the average, we get $\\frac{(1700+1780+1690+1680+1740+1700)}{6} = \\boxed{\\textbf{(E) } 1715}.$\n\n-i_am_suk_at_math_2"
   },
   {
     "id": "amc10a-2024-13",
@@ -295,9 +326,11 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_13",
     "topics": [
+      "Problem-Solving: Reflection Trick",
       "Area by Coordinates",
-      "Problem-Solving: Reflection Trick"
-    ]
+      "Graphing Functions"
+    ],
+    "solutionLatex": "Label the given transformations $T_1, T_2, T_3,$ and $T_4,$ respectively. The rules of transformations are:\n\n$T_1: \\ (x,y)\\to(x+2,y)$\n\n$T_2: \\ (x,y)\\to(-y,x)$\n\n$T_3: \\ (x,y)\\to(x,-y)$\n\n$T_4: \\ (x,y)\\to(2x,2y)$\n\nNote that:\n\nApplying $T_1$ and then $T_2$ gives $(x,y)\\to(x+2,y)\\to(-y,x+2).$\nApplying $T_2$ and then $T_1$ gives $(x,y)\\to(-y,x)\\to(-y+2,x).$\nTherefore, $T_1$ and $T_2$ do not commute. One counterexample is the preimage $(0,0).$\nApplying $T_1$ and then $T_3$ gives $(x,y)\\to(x+2,y)\\to(x+2,-y).$\nApplying $T_3$ and then $T_1$ gives $(x,y)\\to(x,-y)\\to(x+2,-y).$\nTherefore, $T_1$ and $T_3$ commute. They form a glide reflection.\nApplying $T_1$ and then $T_4$ gives $(x,y)\\to(x+2,y)\\to(2x+4,2y).$\nApplying $T_4$ and then $T_1$ gives $(x,y)\\to(2x,2y)\\to(2x+2,2y).$\nTherefore, $T_1$ and $T_4$ do not commute. One counterexample is the preimage $(0,0).$\nApplying $T_2$ and then $T_3$ gives $(x,y)\\to(-y,x)\\to(-y,-x).$\nApplying $T_3$ and then $T_2$ gives $(x,y)\\to(x,-y)\\to(y,x).$\nTherefore, $T_2$ and $T_3$ do not commute. One counterexample is the preimage $(1,0).$\nApplying $T_2$ and then $T_4$ gives $(x,y)\\to(-y,x)\\to(-2y,2x).$\nApplying $T_4$ and then $T_2$ gives $(x,y)\\to(2x,2y)\\to(-2y,2x).$\nTherefore, $T_2$ and $T_4$ commute.\nApplying $T_3$ and then $T_4$ gives $(x,y)\\to(x,-y)\\to(2x,-2y).$\nApplying $T_4$ and then $T_3$ gives $(x,y)\\to(2x,2y)\\to(2x,-2y).$\nTherefore, $T_3$ and $T_4$ commute.\n\nTogether, $\\boxed{\\textbf{(C)}~3}$ pairs of transformations commute: $T_1$ and $T_3, T_2$ and $T_4,$ and $T_3$ and $T_4.$\n\nRemark\n\nTo show that two transformations do not commute, we only need one counterexample.\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2024-14",
@@ -316,11 +349,12 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_14",
     "topics": [
-      "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Simplifying Radicals",
-      "Logic"
-    ]
+      "Circle Tangents",
+      "Trigonometry",
+      "Problem-Solving: Quadrilaterals"
+    ],
+    "solutionLatex": "Call the bottom vertices of the triangle $B$ and $C$ (the one closer to the circle is $C$ ) and the top vertex $A$ . The tangency point between the circle and the side of the triangle is $D$ , and the tangency point on line $\\ell$ $E$ , and the center of the circle is $O$ .\n\nDraw radii to the tangency points, the arc is $60$ degrees because $\\angle ACB$ is $60$ , and since $\\angle DCE$ is supplementary, it's $120^{\\circ}$ .(Using Angle of Intersecting Secants Theorem) The sum of the angles in a quadrilateral is $360$ , which means $\\angle DOE$ is $60^{\\circ}$\n\nTriangle $ODC$ is $30$ - $60$ - $90$ triangle so CD is $4\\sqrt{3}$ .\nSince we have $2$ congruent triangles ( $\\triangle ODC$ and $\\triangle OEC$ ), the combined area of both is $48\\sqrt{3}$ .\nThe area of the arc is $144 \\cdot \\frac{60}{360} \\cdot \\pi$ which is $24\\pi$ , so the answer is $48\\sqrt{3}-24\\pi$\n\n$a+b+c$ is $48+3+24$ which is $\\boxed{\\textbf{(D)}~75}$\n\n~ASPALAPATI75\n~andy_liu766 (latex)\n\nedits by KR"
   },
   {
     "id": "amc10a-2024-15",
@@ -339,11 +373,12 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_15",
     "topics": [
+      "Parity Reasoning",
       "Digit Problems",
       "Finding the Last Digit",
-      "Floor",
       "100x + 10y + z"
-    ]
+    ],
+    "solutionLatex": "Let $M+1213=P^2$ and $M+3773=Q^2$ for some positive integers $P$ and $Q.$ We subtract the first equation from the second, then apply the difference of squares: \\[(Q+P)(Q-P)=2560.\\] Note that $Q+P$ and $Q-P$ have the same parity, and $Q+P>Q-P.$\n\nWe wish to maximize both $P$ and $Q,$ so we maximize $Q+P$ and minimize $Q-P.$ It follows that\n$\\begin{align*} Q+P&=1280, \\\\ Q-P&=2, \\end{align*}$\nfrom which $(P,Q)=(639,641).$\n\nFinally, we get $M=P^2-1213=Q^2-3773\\equiv1-3\\equiv8\\pmod{10},$ so the units digit of $M$ is $\\boxed{\\textbf{(E) }8}.$\n\n~MRENTHUSIASM ~Tacos_are_yummy_1"
   },
   {
     "id": "amc10a-2024-16",
@@ -364,8 +399,10 @@
     "topics": [
       "Similar Triangles",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
-    ]
+      "Problem-Solving: Areas",
+      "Length Chasing"
+    ],
+    "solutionLatex": "Using the rectangle with area $1$ , let its short side be $x$ and the long side be $y$ . Observe that for every rectangle, since ratios of the side length of the rectangles are directly proportional to the ratios of the square roots of the areas (For example, each side of the rectangle with area $9$ is $\\sqrt{9}=3$ times that of the rectangle with area $1$ ), as they are all similar to each other.\n\nThe side opposite $AB$ on the large rectangle is hence written as $6x + 4x + 2y\\sqrt{2} + 3y\\sqrt{2} = 10x+5y\\sqrt{2}$ . However, $AB$ can be written as $4y\\sqrt{2}+5x+7x = 4y\\sqrt{2}+12x$ . Since the two lengths are equal, we can write $10x+5y\\sqrt{2} = 4y\\sqrt{2}+12x$ , or $y\\sqrt{2} = 2x$ . Therefore, we can write $y=x\\sqrt{2}$ .\n\nSince $xy=1$ , we have $(x\\sqrt{2})(x) = 1$ , which we can evaluate $x$ as $x=\\frac{1}{\\sqrt[4]{2}}$ . From this, we can plug back in to $xy=1$ to find $y=\\sqrt[4]{2}$ . Substituting into $AB$ , we have $AB = 4y\\sqrt{2}+12x = 4(\\sqrt[4]{2})(\\sqrt{2})+\\frac{12}{\\sqrt[4]{2}}$ which can be evaluated to $\\boxed{\\textbf{(D) }10\\sqrt[4]{8}}$ .\n\n~i_am_suk_at_math_2\n\nWe know that the area is an integer, so after finding $y=x\\sqrt{2}$ , AB must contain a fourth root. The only such option is $\\boxed{\\textbf{(D) }10\\sqrt[4]{8}}$ ."
   },
   {
     "id": "amc10a-2024-17",
@@ -384,9 +421,10 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_17",
     "topics": [
-      "Simplifying Radicals",
-      "Introduction to Probability"
-    ]
+      "Introduction to Probability",
+      "Casework"
+    ],
+    "solutionLatex": "We only have three cases where A wins: AA, ABA, and BAA (A denotes a team A win and B denotes a team B win). Knowing this, we can sum up the probability of each case. Thus the total probability is $\\frac{2}{3}p+\\frac{2}{3}(1-p)p+\\frac{1}{3}p^2=\\frac{1}{2}$ . Multiplying both sides by 6 yields $4p+4p(1-p)+2p^2=3$ , so $2p^2-8p+3=0$ and we find that $p=\\frac{4\\pm\\sqrt{10}}{2}$ . Luckily, we know that the answer should contain $\\frac{1}{2}(m - \\sqrt{n})$ , so the solution is $p=\\frac{4-\\sqrt{10}}{2}=\\frac{1}{2}(4-\\sqrt{10})$ and the answer is $4+10=\\boxed{\\textbf{(E) } 14}$ .\n\n~eevee9406\n\nAnother way to see the answer is subtraction and not addition is to realize that $p$ is between $0$ and $1$ since it is a probability.\n~andliu766"
   },
   {
     "id": "amc10a-2024-18",
@@ -405,11 +443,12 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_18",
     "topics": [
+      "Parity Reasoning",
       "Base Conversion",
-      "Digit Problems",
-      "Digit Deduction",
-      "Bases"
-    ]
+      "Modular Arithmetic",
+      "Linear Inequalities"
+    ],
+    "solutionLatex": "$2024_b = 2b^3+2b+4\\equiv 0\\pmod{16}\\implies b^3+b+2\\equiv 0\\pmod 8$ . If $b$ is even, then $b+2\\equiv 0\\pmod 8\\implies b\\equiv 6\\pmod 8$ . If $b$ is odd, then $b^2\\equiv 1\\pmod 8\\implies b^3+b+2\\equiv 2b+2\\pmod 8$ so $2b+2\\equiv 0\\pmod 8\\implies b+1\\equiv 0\\pmod 4\\implies b\\equiv 3,7\\pmod 8$ . Now $8\\mid 2024$ so $\\frac38\\cdot 2024=759$ but one of the answers we got from that, $3$ , is too small, so $759 - 1 = 758\\implies\\boxed{\\textbf{(D) }20}$ .\n\n~OronSH ~mathkiddus ~andliu766 ~megaboy6679 ~trevian1(minor edit for clarity)"
   },
   {
     "id": "amc10a-2024-20",
@@ -428,10 +467,12 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_20",
     "topics": [
-      "Absolute Value Tricks",
       "Combinations",
-      "Parity Reasoning"
-    ]
+      "Parity Reasoning",
+      "Mean Median Mode",
+      "Overcounting"
+    ],
+    "solutionLatex": "All lists are organized in ascending order:\n\nBy listing out the smallest possible elements of subset $S,$ we can find that subset $S$ starts with $\\{1, 4, 8, 11, 14, 18, 21, 24, 28, 31, \\dots\\}.$ It is easily noticed that the elements of the subset \"loop around\" every 3 elements, specifically adding 10 each time. This means that there will be $2024/10$ or $202R4$ whole loops in the subset $S,$ implying that there will be $202*3 = 606$ elements in S. However, we have undercounted, as we did not count the remainder that resulted from $2024/10$ $.$ With a remainder of $4,$ we can fit $2$ more elements into the subset $S,$ namely $2021$ and $2024,$ resulting in a total of $606+2$ or $\\boxed{\\textbf{(C) }608}$ elements in subset $S$ .\n\nNOTE:\n\nTo prove that this is the best we can do, consider adding each element one by one, for the first element, say n. If n is greater than 2, we can choose n - 2 which is always better. Therefore, n = 1 or n = 2.\n\nIf n = 2 was optimal, then choose it, then the set of usable numbers in $S$ becomes 5 through 2024. We can transform the usable set of $S$ to $Q$ where $Q$ contains the numbers 1 through 2020. Because we assumed n = 2 was optimal, we can choose n = 2 for the set $Q$ too. Because every element in $Q$ is 4 below the elements of $S$ , choosing 2 in $Q$ would mean choosing 6 in set $S$ . By induction we see that our list would be {2,6,10,14,18,.....2022} which only gives 506 elements which is sub-optimal. Therefore, we can conclude that n = 1 is optimal, and we proceed as the solution above.\n\n-weihou0"
   },
   {
     "id": "amc10a-2024-21",
@@ -450,9 +491,12 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_21",
     "topics": [
+      "Arithmetic/Geometric Sequences",
       "Problem-Solving: Puzzles",
-      "Arithmetic/Geometric Sequences"
-    ]
+      "Sequences and Series",
+      "System of Equations"
+    ],
+    "solutionLatex": "Start from the $0$ . Going up, let the common difference be $a$ , and going left, let the common difference be $b$ . Therefore, we have \\[\\begin{bmatrix} . & ? &.&.&4a \\\\ .&.&.&48&3a\\\\ 12&.&.&.&2a\\\\ .&.&16&.&a\\\\ 4b&3b&2b&b&0\\end{bmatrix}\\] Looking at the third column, we can see that the common difference going up is $16-2b$ . We fill this in: \\[\\begin{bmatrix} . & ? &64-6b&.&4a \\\\ .&.&48-4b&48&3a\\\\ 12&.&32-2b&.&2a\\\\ .&.&16&.&a\\\\ 4b&3b&2b&b&0\\end{bmatrix}\\] Looking at the second row, $48$ has two values beside it, so we can write \\[48=\\dfrac{48-4b+3a}{2}\\rightarrow96=48-4b+3a\\rightarrow48=-4b+3a,\\] and we can do the same with the third row, which gives \\[32-2b=\\dfrac{12+2a}{2}\\rightarrow32-2b=6+a\\rightarrow26=a+2b.\\] Now we have the system of equations \\[48=-4b+3a\\] \\[26=a+2b,\\] and solving it gives $a=20,b=3$ , therefore we can now fill in the grid with actual numbers. But before doing that, note that we're only looking for a value in the first row, and because we already have two known values in that row, we can find the common difference for that row and not focus on anything else.\n\nFocusing only on the first row yields \\[\\begin{bmatrix} . & ? &46&.&80\\end{bmatrix}\\] This means that the common difference from right to left is $\\dfrac{80-46}{2}=17$ . Therefore, the desired value is $46-17=\\boxed{\\text{(C) }29}$ ~Tacos_are_yummy_1"
   },
   {
     "id": "amc10a-2024-22",
@@ -472,10 +516,11 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_22",
     "topics": [
       "Pythagorean theorem",
-      "Problem-Solving: Polygons",
       "Problem-Solving: Quadrilaterals",
+      "Length Chasing",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "$2024 AMC 10 A Diagram Problem 22.png$\n\nFirst, we should find the length of $AB$ . In order to do this, as we see in the diagram, it can be split into 4 equal sections. Since diagram $K$ shows us that it is made up of two ${30,60,90}$ triangles, then the triangle outlined in red must be a $30,60,90$ triangle, as ${30+30=60}$ , and the two lines are perpendicular (it is proveable, but during competition, it is best to assume this is true, as the diagram is drawn pretty well to scale). Also, since we know the length of the longest side of the red triangle is ${\\sqrt3}$ , then the side we are looking for, which is outlined in blue, must be $\\frac{3}{2}$ by the ${1,\\sqrt3, 2}$ relationship of ${30,60,90}$ triangles. Therefore $AB$ , which is the base of the triangle we are looking, for must be $6.$\n\nNow all we have to do is find the height. We can split the height into 2 sections, the green and the light green. The green section must be ${\\sqrt3}$ , as $K$ shows us. Also, the light green section must be equal to ${\\frac{\\sqrt3}{2}}$ , as in the previous paragraph, the triangle outlined in red is $30,60,90$ . Then, the green section, which is the height, must be ${\\sqrt3}+{\\frac{\\sqrt3}{2}}$ , which is just ${\\frac{3\\sqrt3}{2}}$ .\n\nThen the area of the triangle must be ${\\frac{1}{2}}\\cdot {b} \\cdot {h}$ , which is just $\\boxed{ \\textbf{(B) } \\frac{9}{2} \\sqrt3}.$\n\n~Solution by HappySharks\n~Minor Edits by mathkiddus"
   },
   {
     "id": "amc10a-2024-23",
@@ -494,8 +539,11 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_23",
     "topics": [
-      "2nd Degree Symmetric Sums"
-    ]
+      "2nd Degree Symmetric Sums",
+      "Complementary Counting",
+      "States"
+    ],
+    "solutionLatex": "Subtracting the first two equations yields $(a-c)(b-1)=13$ . Notice that both factors are integers, so $b-1$ could equal one of $13,1,-1,-13$ and $b=14,2,0,-12$ . We consider each case separately:\n\nFor $b=0$ , from the second equation, we see that $a=87$ . Then $87c=60$ , which is not possible as $c$ is an integer, so this case is invalid.\n\nFor $b=2$ , we have $2c+a=87$ and $ca=58$ , which by experimentation on the factors of $58$ has no solution, so this is also invalid.\n\nFor $b=14$ , we have $14c+a=87$ and $ca=46$ , which by experimentation on the factors of $46$ has no solution, so this is also invalid.\n\nThus, we must have $b=-12$ , so $a=12c+87$ and $ca=72$ . Thus $c(12c+87)=72$ , so $c(4c+29)=24$ . We can simply trial and error this to find that $c=-8$ so then $a=-9$ . The answer is then $(-9)(-12)+(-12)(-8)+(-8)(-9)=108+96+72=\\boxed{\\textbf{(D) }276}$ .\n\nBy Antony Huang ~Very Minor Edit by lucassf12"
   },
   {
     "id": "amc10a-2024-24",
@@ -510,8 +558,10 @@
     "topics": [
       "Problem-Solving: 3D Geometry",
       "3D Geometry",
+      "Problem-Solving: Coordinate Bashing",
       "Introduction to Probability"
-    ]
+    ],
+    "solutionLatex": "We start by imagining the three dimensional plane.\n\n$Pic1.png$\n\nNotice how the three dimensional plane is split into 8 different regions. There exists 8 cubes with one vertex on the point $(0,0,0)$ . We need to consider each of these cases.\n\nWe arbitrarily take a cube from one region of the three dimensional plane.\n\nBelow is a sample drawing.\n\n$Q241.png$\n\nRoll 1: From $(0,0,0)$ , there are 3 favorable outcomes that can occur. They are listed below.\n\n$Q242.png$\n\nRoll 2: WLOG, say the bee moved up one, there are then 2 ways the bee can go.\n\n$Q243.png$\n\nRoll 3: WLOG, say the bee moved forward one. From this point, there is again 2 ways the bee can go.\n\n$Q244.png$\n\nRoll 4: Finally, WLOG, say the bee moves to the left one. From that point, there are still 2 ways the bee can go.\n\n$Q245.png$\n\nThe total probability for one cube is $\\frac{3 \\cdot 2 \\cdot 2 \\cdot 2}{6^4} \\Rightarrow \\frac{1}{54}$ . We have 8 of these cubes, which gives us a total probability of $\\frac{8}{54}$ .\n\nHowever, we have overcounted. Notice that if the bee moved down one instead of left one at roll 3, it would only have one way. This is because the bee has a choice between either the origin or a unique point. This will always occur on the third move, and because we have 8 cubes(The 3d graph has one for each quadrant), the probability of this happening is $\\frac{3 \\cdot 8}{6^4} = \\frac{1}{54}$ .\n\nOur probability is $\\frac{8}{54} - \\frac{1}{54} =$ $\\boxed{\\textbf{(B) }\\frac{7}{54}}$ .\n\n~Pinotation ~Minor edit by lucassf12"
   },
   {
     "id": "amc10a-2024-25",
@@ -530,10 +580,12 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_25",
     "topics": [
-      "Fundamental Counting Principle",
-      "Constructive Counting",
-      "Problem-Solving: Coordinate Bashing"
-    ]
+      "Casework",
+      "Digit Problems",
+      "Bases",
+      "Fundamental Counting Principle"
+    ],
+    "solutionLatex": "Observations:\n\n1. You can not have a vertical line in any place other than the first two columns and the last two columns. If we did, we would have at least one of the middle cells with toothpicks along more than one side, which would violate the conditions of the problem.\n\n2. There are two cases that look completely different. We can have a long horizontal box that spans all eight cells either on top of or below the middle cells, or we have to have a shape that looks like a rectangle, except with a few places \"pushed\" in.\n\nThus, using casework, we can split the task of finding those rectangles with squiggly edges into 3 cases.\n\nFor case 1, we assume that the green lines shown below are given (always have toothpicks on them). In effect, we will use all eight columns.\n\n$Scrasdfasd.png$\n\n$Screenshot 2024-11-08 192200.png$\n\nThe only toothpicks we can place that will connect to the red lines are to go horizontally inward:\n\n$Screenshot 2024-11-08 192516.png$\n\nNow, concentrate on the first row of squares. A toothpick can be placed on either the bottom or top and connected to a continuous squiggle by adding vertical toothpicks:\n\n$Screenshot 2024-11-08 193401.png$\n\nHow many squiggles are possible?\n\n$Screenshot 2024-11-08 194804.png$\n\nWe can summarize this by giving a high squiggle position a 1 and a low position a 0, thus we have a 6-digit binary sequence. Thus, we can have $2^6=64$ ways to make this squiggle. (The binary is not absolutely necessary, but it works.)\n\nCase 2: We can also pull in one of the sides, thus we can have a squiggle with 5 binary digits, which only uses the first or last 7 columns:\n\n$Screenshot 2024-11-08 195135.png$\n\n$Screenshot 2024-11-08 195553.png$\n\nHere, we only have 5 binary digits to work with, so there are $2^5=32$ ways to make this squiggle for each individual subcase. There are two subcases, one with the first 7 columns, and the other with the last 7, so we have a total of $32\\cdot 2 = 64$ arrangements in this case.\n\nCase 3: We can use an even smaller section. Using only the middle 6 columns gives us a 4-wide squiggle:\n\n$Screenshot 2024-11-08 195945.png$\n\nThus, there are $2^4=16$ ways to make this squiggle.\n\nThese three cases together cover all loops of this form. If we try to bring the square bracket like shapes on each side any closer, there will be some middle cells that do not touch any toothpicks. Adding up all our cases for these types of shapes: $64+32+32+16=144$ .\n\nHowever, there are two more ways to draw a qualifying shape:\n\n$Screenshot 2024-11-08 200416.png$\n\nWe can draw a rectangle like that in the first row or third row. Thus, we have a total of\n $144+2=\\boxed{\\textbf{(C) }146}$ ways.\n\nA note to (potential) editors:\nThis answer was not made to be concise or especially professional. It was made to explicitly explain this problem in a way so that it is easy to understand and follow.\n\n~hermanboxcar5\n\nNotes:\nRemember these are the ONLY possible cases. It is impossible to cross through the rows of boxes of ones (in a snake like pattern) to connect the loop around the bottom since then the loop would intersect itself.\n\nWe are not undercounting by only counting the binary digits on the top. Consider the top squiggle. Each middle square must and can only come in contact with one toothpick, so if the top squiggle doesn't touch a specific middle cell, the bottom squiggle must to ensure that all squares touch one toothpick.\n~juwushu\n\n~LeonQS (additional clarity and precision)"
   },
   {
     "id": "amc10b-2024-1",
@@ -14375,10 +14427,11 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems/Problem_19",
     "topics": [
       "Arithmetic/Geometric Sequences",
+      "Sequences and Series",
       "Digit Problems",
-      "Digit Deduction",
-      "Sequences and Series"
-    ]
+      "Similar Triangles"
+    ],
+    "solutionLatex": "For a geometric sequence, we have $ab=720^2=2^8 3^4 5^2$ , and we can test values for $b$ . We find that $b=768$ and $a=675$ works, and we can test multiples of $5$ in between the two values. Finding that none of the multiples of 5 divide $720^2$ besides $720$ itself, we know that the answer is $7+6+8=\\boxed{\\textbf{(E) } 21}$ .\n\n(Note: To find the value of $b$ without bashing, we can observe that $2^8=256$ , and that multiplying it by $3$ gives us $768$ , which is really close to $720$ . ~ YTH)\n\nNote: The reason why $ab=720^2$ is because $b/720 = 720/a$ . Rearranging this gives $ab = 720^2$\n\n~eevee9406\n\nNote: Another reason that $ab=720^2$ is because the $\\sqrt{ab}=720$ (as the middle term in a geometric series is always the geometric mean [the geometric mean is the square root of the product of the first and last terms of the series]) and squaring on both sides results in $ab=720^2$ .\n\n~ThatPrimePunnyGuy\n\nNote: Because it is a geometric sequence, it is clear that $a*k = 720$ and $720*k = b$ . Then, $a*k = 720 = b/k$ . Multiply the first and third term together and it is equal to the middle term multiplied by itself.\n\n~RON-WEASLEY"
   },
   {
     "id": "amc10b-2024-7",
