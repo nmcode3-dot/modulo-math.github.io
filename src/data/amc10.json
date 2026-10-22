@@ -5281,7 +5281,8 @@
     "topics": [
       "Area by Coordinates",
       "Problem-Solving: Reflection Trick"
-    ]
+    ],
+    "solutionLatex": "Label each rotation \\( A, B, C, D \\), and \\( E \\) respectively.\n\nOne can notice that any rotation on any figure is formed by the transformation on its vertices. Therefore, instead of thinking about the entire triangle, just think of the point \\( (x, y) \\).\n\nWe proceed with casework on the \\( 180^\\circ \\) rotation (B)\n\nCase A: We don't consider \\( B \\) (\\( 180^\\circ \\) degrees)\n\nWe have \\( A, C, D \\), and \\( E \\).\nNotice that we cannot have two reflections with one another as that will finish the sequence in two moves, not three.\n\nWe also may not have two rotations, as it will cause the sequence to end in two moves as well.\n\nSo we have one rotation and one reflection, but now we have a dilemma. We must choose either another rotation or another reflection.\n\nHowever, we deduced this is impossible, as it will not take the coordinate back to its original position. Therefore, there are 0 cases that work here.\n\nCase B: We consider the \\( 180^\\circ \\) degree\n\nWe first look at reflections. If we have two reflections of one kind D or E, we see that the sequence will finish in 2 rounds. Therefore. we must have one reflection D, one reflection E, and one \\( 180^\\circ \\) rotation. This means we have a transformation set \\( \\{B, D, E\\} \\). The elements of this set can be swapped in \\( 3! = 6 \\) ways.\n\nWe now look at rotations. If we have two rotations of A, that is essentially \\( 90^\\circ + 90^\\circ = 180^\\circ \\) of rotation, and therefore mixed in with a \\( 180^\\circ \\) rotation guarantees the same coordinate \\( (x, y) \\). So, we have a transformation set \\( \\{A, A, B\\} \\), which can be arranged in \\( \\frac{3!}{2!} = 3 \\) ways. What about \\( C \\)? We can just see that \\( C \\) is just a rotation \\( 90^\\circ \\) clockwise, so if we apply 2 of these, we again get \\( 90^\\circ + 90^\\circ = 180^\\circ \\) of rotation, giving us enough room for transformation B. Then, our set is \\( \\{C, C, B\\} \\), which can be again arranged in \\( \\frac{3!}{2!} = 3 \\) ways.\n\nDo any other cases exist? Well, if we have two rotations, then it is impossible, as the rotations negate one another into a \\( 360^\\circ \\) rotation in two moves.\nMore importantly, we also see that if we have a mix between a rotation and a reflection, we can see that one will swap the places of \\( x \\) and \\( y \\) \\( (x, y) \\rightarrow (-y, x) \\) for instance, and the only other way to change that is another rotation that is not \\( B \\), which we already deemed was impossible\nWe already concluded in case A that we cannot have \\( A, C, \\) and then either \\( D \\) or \\( E \\), therefore, we can only have \\( B \\), but either through inspection or seeing that \\( B \\) negates the values of \\( x \\) and \\( y \\) while a rotation of A and C brings them back to normal, therefore, this can also not work.\n\nThus the total number of cases is \\( 3+3 = 6 \\)\n\nWe have examined all the cases, and therefore our answer is \\( 6+6 = \\) $\\boxed{\\textbf{(A)} 12}$\n\n~Pinotation"
   },
   {
     "id": "amc10a-2020-24",
@@ -5304,7 +5305,8 @@
       "Digit Problems",
       "GCD and LCM",
       "Digit Deduction"
-    ]
+    ],
+    "solutionLatex": "We know that $\\gcd(n+57,63)=21$ and $\\gcd(n-57, 120)= 60$ by the Euclidean Algorithm. Hence, let $n+57=21\\alpha$ and $n-57=60 \\gamma$ , where $\\gcd(\\alpha,3)=1$ and $\\gcd(\\gamma,2)=1$ . Subtracting the two equations, $38=7\\alpha-20\\gamma$ . Letting $\\gamma = 2s+1$ , we get $58=7\\alpha-40s$ . Taking modulo $40$ , we have $\\alpha \\equiv{14} \\pmod{40}$ . We are given that $n=21\\alpha -57 >1000$ , so $\\alpha \\geq 51$ . Notice that if $\\alpha =54$ then the condition $\\gcd(\\alpha,3)=1$ is violated. The next possible value of $\\alpha = 94$ satisfies the given condition, giving us $n=1917$ .\n\nAlternatively, we could have said $\\alpha = 40k+14 \\equiv{0} \\pmod{3}$ for $k \\equiv{1} \\pmod{3}$ only, so $k \\equiv{0,2} \\pmod{3}$ , giving us our answer. Since the problem asks for the sum of the digits of $n$ , our answer is $1+9+1+7=\\boxed{\\textbf{(C) } 18}$ .\n\n~Prabh1512"
   },
   {
     "id": "amc10a-2020-25",
@@ -5325,7 +5327,8 @@
     "topics": [
       "Introduction to Probability",
       "Combinations"
-    ]
+    ],
+    "solutionLatex": "Consider the probability that rolling two dice gives a sum of $s$ , where $s \\leq 7$ . There are $s - 1$ pairs that satisfy this, namely $(1, s - 1), (2, s - 2), \\ldots, (s - 1, 1)$ , out of $6^2 = 36$ possible pairs. The probability is $\\frac{s - 1}{36}$ .\n\nTherefore, if one die has a value of $a$ and Jason rerolls the other two dice, then the probability of winning is $\\frac{7 - a - 1}{36} = \\frac{6 - a}{36}$ .\n\nIn order to maximize the probability of winning, $a$ must be minimized. This means that if Jason rerolls two dice, he must choose the two dice with the maximum values.\n\nThus, we can let $a \\leq b \\leq c$ be the values of the three dice. Consider the case when $a + b < 7$ . If $a + b + c = 7$ , then we do not need to reroll any dice. Otherwise,\nif we reroll one die, we can reroll any one dice in the hope that we get the value that makes the sum of the three dice $7$ . This happens with probability $\\frac16$ . If we reroll two dice, we will roll the two maximum dice, and the probability of winning is $\\frac{6 - a}{36}$ , as stated above. However, $\\frac16 > \\frac{6 - a}{36}$ , so rolling one die is always better than rolling two dice if $a + b < 7$ .\n\nNow consider the case where $a + b \\geq 7$ . Rerolling one die will not help us win since the sum of the three dice will always be greater than $7$ . If we reroll two dice, the probability of winning is, once again, $\\frac{6 - a}{36}$ . To find the probability of winning if we reroll all three dice, we can let each dice have $1$ dot and find the number of ways to distribute the remaining $4$ dots. By stars and bars, there are ${6\\choose2} = 15$ ways to do this, making the probability of winning $\\frac{15}{6^3} = \\frac5{72}$ .\n\nIn order for rolling two dice to be more favorable than rolling three dice, $\\frac{6 - a}{36} > \\frac5{72} \\rightarrow a \\leq 3$ .\n\nThus, rerolling two dice is optimal if and only if $a \\leq 3$ and $a + b \\geq 7$ . The possible triplets $(a, b, c)$ that satisfy these conditions, and the number of ways they can be permuted, are\n\n$(3, 4, 4) \\rightarrow 3$ ways.\n\n$(3, 4, 5) \\rightarrow 6$ ways.\n\n$(3, 4, 6) \\rightarrow 6$ ways.\n\n$(3, 5, 5) \\rightarrow 3$ ways.\n\n$(3, 5, 6) \\rightarrow 6$ ways.\n\n$(3, 6, 6) \\rightarrow 3$ ways.\n\n$(2, 5, 5) \\rightarrow 3$ ways.\n\n$(2, 5, 6) \\rightarrow 6$ ways.\n\n$(2, 6, 6) \\rightarrow 3$ ways.\n\n$(1, 6, 6) \\rightarrow 3$ ways.\n\nThere are $3 + 6 + 6 + 3 + 6 + 3 + 3 + 6 + 3 + 3 = 42$ ways in which rerolling two dice is optimal, out of $6^3 = 216$ possibilities, Therefore, the probability that Jason will reroll two dice is $\\frac{42}{216} = \\boxed{\\textbf{(A) } \\frac{7}{36}}$ ."
   },
   {
     "id": "amc10b-2020-1",
@@ -5345,7 +5348,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_1",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "We know that when we subtract negative numbers, $a-(-b)=a+b$ .\n\nThe equation becomes $1+2-3+4-5+6 = \\boxed{\\textbf{(D)}\\ 5}$ .\n\n~quacker88"
   },
   {
     "id": "amc10b-2020-2",
