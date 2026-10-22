@@ -47,6 +47,15 @@ export function submitAnswer(id: string, given: string, correct: string): Entry 
   return entry;
 }
 
+export function giveUp(id: string): Entry {
+  const all = read();
+  const cur = all[id] ?? { attempts: [], status: "in-progress" as const };
+  if (cur.status !== "in-progress") return cur;
+  const entry: Entry = { attempts: cur.attempts, status: "failed" };
+  write({ ...all, [id]: entry });
+  return entry;
+}
+
 export function resetProblem(id: string) {
   const { [id]: _, ...rest } = read();
   write(rest);
