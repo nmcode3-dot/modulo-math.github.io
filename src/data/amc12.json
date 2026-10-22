@@ -1796,6 +1796,7 @@
     "topics": [
       "Problem-Solving: 3D Geometry",
       "Length Chasing",
+      "3D Geometry",
       "3D Volumes and Surface Areas"
     ]
   },
@@ -2360,8 +2361,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_12A_Problems/Problem_15",
     "topics": [
-      "Vieta's Formulas",
       "3D Geometry",
+      "Vieta's Formulas",
       "Polynomials",
       "3D Volumes and Surface Areas"
     ]
@@ -6911,7 +6912,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_12B_Problems/Problem_11",
     "topics": [
-      "3D Geometry",
       "Problem-Solving: 3D Geometry"
     ]
   },
@@ -11384,6 +11384,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_12B_Problems/Problem_23",
     "topics": [
       "3D Volumes and Surface Areas",
+      "3D Geometry",
       "Problem-Solving: Areas"
     ]
   },
@@ -11783,8 +11784,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_17",
     "topics": [
-      "Circle Tangents",
       "3D Geometry",
+      "Circle Tangents",
       "Problem-Solving: Circle Basics"
     ]
   },
@@ -12244,6 +12245,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_14",
     "topics": [
+      "3D Geometry",
       "3D Volumes and Surface Areas",
       "Problem-Solving: 3D Geometry",
       "Problem-Solving: Areas"
@@ -16315,7 +16317,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_9",
     "topics": [
       "Digit Problems",
-      "3D Geometry",
       "Divisibility Reasoning"
     ]
   },
@@ -17514,8 +17515,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_12B_Problems/Problem_17",
     "topics": [
-      "Introduction to Probability",
-      "3D Geometry"
+      "3D Geometry",
+      "Introduction to Probability"
     ]
   },
   {
@@ -20963,7 +20964,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_12A_Problems/Problem_10",
     "topics": [
-      "3D Geometry",
       "Problem-Solving: 3D Geometry"
     ]
   },

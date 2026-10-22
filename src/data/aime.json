@@ -2379,8 +2379,8 @@
     "answer": "192",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_6",
     "topics": [
-      "Simplifying Radicals",
       "3D Geometry",
+      "Simplifying Radicals",
       "2nd Degree Symmetric Sums",
       "Quadratics - Factoring"
     ]
@@ -2678,9 +2678,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_8",
     "topics": [
       "Introduction to Probability",
+      "3D Geometry",
       "Sequences and Series",
-      "Shortest Path - Unfolding the Object",
-      "Recursion"
+      "Shortest Path - Unfolding the Object"
     ]
   },
   {
@@ -4105,9 +4105,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_3",
     "topics": [
       "Base Conversion",
-      "3D Geometry",
       "Problem-Solving: Divisibility and Digits",
-      "Casework"
+      "Casework",
+      "Parity Reasoning"
     ]
   },
   {
@@ -4430,8 +4430,7 @@
     "answer": "059",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_13",
     "topics": [
-      "Modular Arithmetic",
-      "3D Geometry"
+      "Modular Arithmetic"
     ]
   },
   {
@@ -8565,8 +8564,8 @@
     "answer": "230",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_11",
     "topics": [
-      "Simplifying Radicals",
       "3D Geometry",
+      "Simplifying Radicals",
       "Divisibility Reasoning",
       "Problem-Solving: 3D Geometry"
     ]
@@ -10049,9 +10048,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_6",
     "topics": [
       "Problem-Solving: 3D Geometry",
-      "3D Geometry",
       "Simplifying Radicals",
-      "Area by Coordinates"
+      "Area by Coordinates",
+      "3D Geometry"
     ]
   },
   {
@@ -10360,9 +10359,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_15",
     "topics": [
       "Problem-Solving: 3D Geometry",
+      "3D Geometry",
       "Simplifying Radicals",
-      "Problem-Solving: Areas",
-      "3D Volumes and Surface Areas"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11006,8 +11005,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_14",
     "topics": [
       "Problem-Solving: 3D Geometry",
-      "GCD/LCM",
       "3D Geometry",
+      "GCD/LCM",
       "GCD and LCM"
     ]
   },
@@ -11582,7 +11581,6 @@
     "answer": "675",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_4",
     "topics": [
-      "3D Geometry",
       "AIME-level Inequalities"
     ]
   },
@@ -11768,7 +11766,6 @@
     "topics": [
       "100x + 10y + z",
       "Modular Arithmetic",
-      "3D Geometry",
       "Digit Problems"
     ]
   },
@@ -12277,9 +12274,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_7",
     "topics": [
       "Problem-Solving: Areas",
+      "3D Geometry",
       "Simplifying Radicals",
-      "Pythagorean theorem",
-      "Problem-Solving: 3D Geometry"
+      "Pythagorean theorem"
     ]
   }
 ]

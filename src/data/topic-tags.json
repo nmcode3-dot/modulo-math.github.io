@@ -230,14 +230,17 @@
     "inequality of means"
   ],
   "3D Geometry": [
-    "cube",
+    "a cube",
+    "unit cube",
+    "the cube",
     "sphere",
     "cylinder",
     "cone",
     "pyramid",
     "tetrahedron",
     "prism",
-    "octahedron"
+    "octahedron",
+    "rectangular box"
   ],
   "Telescoping": [
     "telescop",
