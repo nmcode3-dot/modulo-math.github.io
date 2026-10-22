@@ -47,6 +47,13 @@ export function TopicWorkspace({ topic }: { topic: string }) {
     if (element && transcript.current) transcript.current.scrollTo({ top: element.offsetTop, behavior: "instant" });
   }, [conversation.activeId]);
 
+  function railStep(): number {
+    const tile = rail.current?.firstElementChild as HTMLElement | null;
+    const style = tile ? getComputedStyle(tile) : null;
+    if (!tile || !style) return 348;
+    return (tile.offsetWidth + parseFloat(style.marginRight) + parseFloat(style.columnGap || style.gap)) * 3;
+  }
+
   function scrollQuestion(id: string, bottom = false) {
     const element = questions.current.get(id);
     const container = transcript.current;
