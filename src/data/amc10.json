@@ -4968,7 +4968,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_5",
     "topics": [
       "Absolute Value Tricks"
-    ]
+    ],
+    "solutionLatex": "Split the equation into two cases, where the value inside the absolute value is positive and nonpositive.\n\nCase 1:\n\nThe equation yields $x^2-12x+34=2$ , which is equal to $(x-4)(x-8)=0$ . Therefore, the two values for the positive case is $4$ and $8$ .\n\nCase 2:\n\nSimilarly, taking the nonpositive case for the value inside the absolute value notation yields $x^2-12x+34=-2$ . Factoring and simplifying gives $(x-6)^2=0$ , so the only value for this case is $6$ .\n\nSumming all the values results in $4+8+6=\\boxed{\\textbf{(C) }18}$ ."
   },
   {
     "id": "amc10a-2020-6",
