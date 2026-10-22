@@ -5804,7 +5804,8 @@
     "topics": [
       "Modular Arithmetic",
       "Exponent Rules"
-    ]
+    ],
+    "solutionLatex": "Completing the square, then difference of squares:\n\n$\\begin{align*} 2^{202} + 202 &= (2^{101})^2 + 2\\cdot 2^{101} + 1 - 2\\cdot 2^{101} + 201\\\\ &= (2^{101} + 1)^2 - 2^{102} + 201\\\\ &= (2^{101} - 2^{51} + 1)(2^{101} + 2^{51} + 1) + 201. \\end{align*}$\n\nThus, we see that the remainder is $\\boxed{\\textbf{(D) } 201}$\n\n(Source: https://artofproblemsolving.com/community/c5h2001950p14000817)"
   },
   {
     "id": "amc10b-2020-23",
@@ -5826,7 +5827,8 @@
       "Area by Coordinates",
       "Sequences and Series",
       "Problem-Solving: Reflection Trick"
-    ]
+    ],
+    "solutionLatex": "For each transformation:\n\nEach labeled vertex will move to an adjacent position.\n The labeled vertices will maintain the consecutive order $ABCD$ in either direction (clockwise or counterclockwise).\n $L$ and $R$ will retain the direction of the labeled vertices, but $H$ and $V$ will alter the direction of the labeled vertices.\n\nAfter the $19$ th transformation, vertex $A$ will be at either $(1,-1)$ or $(-1,1).$ All possible configurations of the labeled vertices are shown below:\n[[img:https://latex.artofproblemsolving.com/7/9/c/79c8ee5879f6f6562eb86286cc2360a88b000f7c.png]]\nEach sequence of $19$ transformations generates one valid sequence of $20$ transformations. Therefore, the answer is $4^{19}=\\boxed{\\textbf{(C)}\\ 2^{38}}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10b-2020-24",
@@ -5849,7 +5851,8 @@
       "Floor Functions",
       "Simplifying Radicals",
       "Floor Function Strategies"
-    ]
+    ],
+    "solutionLatex": "We can first consider the equation without a floor function:\n\n\\[\\dfrac{n+1000}{70} = \\sqrt{n}\\]\n\nMultiplying both sides by 70 and then squaring:\n\n\\[n^2 + 2000n + 1000000 = 4900n\\]\n\nMoving all terms to the left:\n\n\\[n^2 - 2900n + 1000000 = 0\\]\n\nNow we can determine the factors:\n\n\\[(n-400)(n-2500) = 0\\]\n\nThis means that for $n = 400$ and $n = 2500$ , the equation will hold without the floor function.\n\nNow we can simply check the multiples of 70 around 400 and 2500 in the original equation, which we abbreviate as $L=R$ .\n\nFor $n = 330$ , $L=19$ but $18^2 < 330 < 19^2$ so $R=18$\n\nFor $n = 400$ , $L=20$ and $R=20$\n\nFor $n = 470$ , $L=21$ , $R=21$\n\nFor $n = 540$ , $L=22$ but $540 > 23^2$ so $R=23$\n\nNow we move to $n = 2500$\n\nFor $n = 2430$ , $L=49$ and $49^2 < 2430 < 50^2$ so $R=49$\n\nFor $n = 2360$ , $L=48$ and $48^2 < 2360 < 49^2$ so $R=48$\n\nFor $n = 2290$ , $L=47$ and $47^2 < 2360 < 48^2$ so $R=47$\n\nFor $n = 2220$ , $L=46$ but $47^2 < 2220$ so $R=47$\n\nFor $n = 2500$ , $L=50$ and $R=50$\n\nFor $n = 2570$ , $L=51$ but $2570 < 51^2$ so $R=50$\n\nTherefore we have 6 total solutions, $n = 400, 470, 2290, 2360, 2430, 2500 = \\boxed{\\textbf{(C) 6}}$"
   },
   {
     "id": "amc10b-2020-25",
@@ -5869,7 +5872,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_25",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "Note that $96 = 2^5 \\cdot 3$ . Since there are at most six not necessarily distinct factors $>1$ multiplying to $96$ , we have six cases: $k=1, 2, ..., 6.$ Now we look at each of the six cases.\n\n$k=1$ : We see that there is $1$ way, merely $96$ .\n\n$k=2$ : This way, we have the $3$ in one slot and $2$ in another, and symmetry. The four other $2$ 's leave us with $5$ ways and symmetry doubles us so we have $10$ .\n\n$k=3$ : We have $3, 2, 2$ as our baseline. We need to multiply by $2$ in $3$ places, and see that we can split the remaining three powers of $2$ in a manner that is $3-0-0$ , $2-1-0$ or $1-1-1$ . A $3-0-0$ split has $6 + 3 = 9$ ways of happening ( $24-2-2$ and symmetry; $2-3-16$ and symmetry), a $2-1-0$ split has $6 \\cdot 3 = 18$ ways of happening (due to all being distinct) and a $1-1-1$ split has $3$ ways of happening ( $6-4-4$ and symmetry) so in this case we have $9+18+3=30$ ways.\n\n$k=4$ : We have $3, 2, 2, 2$ as our baseline, and for the two other $2$ 's, we have a $2-0-0-0$ or $1-1-0-0$ split. The former grants us $4+12=16$ ways ( $12-2-2-2$ and symmetry and $3-8-2-2$ and symmetry) and the latter grants us also $12+12=24$ ways ( $6-4-2-2$ and symmetry and $3-4-4-2$ and symmetry) for a total of $16+24=40$ ways.\n\n$k=5$ : We have $3, 2, 2, 2, 2$ as our baseline and one place to put the last two: on another two or on the three. On the three gives us $5$ ways due to symmetry and on another two gives us $5 \\cdot 4 = 20$ ways due to symmetry. Thus, we have $5+20=25$ ways.\n\n$k=6$ : We have $3, 2, 2, 2, 2, 2$ and symmetry and no more twos to multiply, so by symmetry, we have $6$ ways.\n\nThus, adding, we have $1+10+30+40+25+6=\\boxed{\\textbf{(A) } 112}$ .\n\n~kevinmathz"
   },
   {
     "id": "amc10a-2019-2",
@@ -5890,7 +5894,8 @@
     "topics": [
       "Digit Problems",
       "100x + 10y + z"
-    ]
+    ],
+    "solutionLatex": "Because we know that $5^3$ is a factor of $15!$ and $20!$ , the last three digits of both numbers is a $0$ , this means that the difference of the hundreds digits is also $\\boxed{\\textbf{(A) }0}$ ."
   },
   {
     "id": "amc10a-2019-3",
@@ -5910,7 +5915,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_3",
     "topics": [
       "Geometry"
-    ]
+    ],
+    "solutionLatex": "Let $A$ be the age of Ana and $B$ be the age of Bonita. Then,\n\n\\[A-1 = 5(B-1)\\]\nand\n \\[A = B^2.\\]\n\nSubstituting the second equation into the first gives us\n\n\\[B^2-1 = 5(B-1).\\]\n\nBy using difference of squares and dividing, $B=4.$ Moreover, $A=B^2=16.$\n\nThe answer is $16-4 = \\boxed{\\textbf{(D) }12}$ .\n\nSimple guess and check works. Start with all the square numbers - $1$ , $4$ , $9$ , $16$ , $25$ , $36$ , etc. (probably stop at around $100$ since at that point it wouldn't make sense). If Ana is $9$ , then Bonita is $3$ , so in the previous year, Ana's age was $4$ times greater than Bonita's. If Ana is $16$ , then Bonita is $4$ , and Ana's age was $5$ times greater than Bonita's in the previous year, as required. The difference in the ages is $16 - 4 = \\boxed{\\textbf{(D) }12}$ .\n\nThe second sentence of the problem says that Ana's age was once $5$ times Bonita's age. Therefore, the difference of the ages $n$ must be divisible by $4.$ The only answer choice which is divisible by $4$ is $\\boxed{\\textbf{(D) }12}$ .\n\n~awesome_weisur"
   },
   {
     "id": "amc10a-2019-4",
@@ -5931,7 +5937,8 @@
     "topics": [
       "Pigeonhole Principle",
       "Pigeonhole"
-    ]
+    ],
+    "solutionLatex": "We try to find the worst case scenario where we can find the maximum number of balls that can be drawn while getting $<15$ of each color by applying the pigeonhole principle and through this we get a perfect guarantee.\nNamely, we can draw up to $14$ red balls, $14$ green balls, $14$ yellow balls, $13$ blue balls, $11$ white balls, and $9$ black balls, for a total of $75$ balls, without drawing $15$ balls of any one color. Drawing one more ball guarantees that we will get $15$ balls of one color — either red, green, or yellow. Thus, the answer is $75 + 1 = \\boxed{\\textbf{(B) } 76}$ ."
   },
   {
     "id": "amc10a-2019-5",
@@ -5951,7 +5958,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_5",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "We might at first think that the answer would be $9$ , because $1+2+3 \\dots +n = 45$ when $n = 9$ . But note that the problem says that they can be integers, not necessarily positive. Observe also that every term in the sequence $-44, -43, \\cdots, 44, 45$ cancels out except $45$ . Thus, the answer is, intuitively, $\\boxed{\\textbf{(D) } 90 }$ integers.\n\nThough impractical, a proof of maximality can proceed as follows: Let the desired sequence of consecutive integers be $a, a+1, \\cdots, a+(N-1)$ , where there are $N$ terms, and we want to maximize $N$ . Then the sum of the terms in this sequence is $aN + \\frac{(N-1)(N)}{2}=45$ . Rearranging and factoring, this reduces to $N(2a+N-1) = 90$ . Since $N$ must divide $90$ , and we know that $90$ is an attainable value of the sum, $90$ must be the maximum."
   },
   {
     "id": "amc10a-2019-6",
@@ -5972,7 +5980,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Isosceles Equilateral Triangles"
-    ]
+    ],
+    "solutionLatex": "This question is simply asking how many of the listed quadrilaterals are cyclic (since the point equidistant from all four vertices would be the center of the circumscribed circle). A square, a rectangle, and an isosceles trapezoid (that isn't a parallelogram) are all cyclic, and the other two are not. Thus, the answer is $\\boxed{\\textbf{(C) } 3}$ .\n\nWe can use a process of elimination. Going down the list, we can see a square obviously works. A rectangle that is not a square works as well. Both rhombi and parallelograms don't have a point that is equidistant, but isosceles trapezoids do have such a point. Say we inscribe trapezoid ABCD in a semicircle. This point would thus be the center, so the answer is $\\boxed{\\textbf{(C) } 3}$ .\n\n~proof for trapezoid added by yvz2900\n\nThe perpendicular bisector of a line segment is the locus of all points that are equidistant from the endpoints. The question then boils down to finding the shapes where the perpendicular bisectors of the sides all intersect at a point. This is true for a square, rectangle, and isosceles trapezoid, so the answer is $\\boxed{\\textbf{(C) } 3}$ ."
   },
   {
     "id": "amc10a-2019-7",
@@ -5992,7 +6001,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_7",
     "topics": [
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let's first work out the slope-intercept form of all three lines:\n $(x,y)=(2,2)$ and $y=\\frac{x}{2} + b$ implies $2=\\frac{2}{2} +b=> 2=1+b$ so $b=1$ , while $y=2x + c$ implies $2= 2 \\cdot 2+c=> 2=4+c$ so $c=-2$ . Also, $x+y=10$ implies $y=-x+10$ . Thus the lines are $y=\\frac{x}{2} +1, y=2x-2,$ and $y=-x+10$ .\nNow we find the intersection points between each of the lines with $y=-x+10$ , which are $(6,4)$ and $(4,6)$ . Using the distance formula and then the Pythagorean Theorem, we see that we have an isosceles triangle with base $2\\sqrt{2}$ and height $3\\sqrt{2}$ , whose area is $\\boxed{\\textbf{(C) }6}$ ."
   },
   {
     "id": "amc10a-2019-8",
@@ -6012,7 +6022,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_8",
     "topics": [
       "Problem-Solving: Reflection Trick"
-    ]
+    ],
+    "solutionLatex": "Statement $1$ is true. A $180^{\\circ}$ rotation about the point half way between an up-facing square and a down-facing square will yield the same figure.\n\nStatement $2$ is also true. A translation to the left or right will place the image onto itself when the figures above and below the line realign (the figure goes on infinitely in both directions).\n\nStatement $3$ is false. A reflection across line $\\ell$ will change the up-facing squares to down-facing squares and vice versa.\n\nFinally, statement $4$ is also false because it will cause the diagonal lines extending from the squares to switch direction.\n\nThus, $\\fbox {\\textbf{(C)} 2}$ statements are true."
   },
   {
     "id": "amc10a-2019-9",
@@ -6034,7 +6045,8 @@
       "Digit Problems",
       "100x + 10y + z",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "The sum of the first $n$ positive integers is $\\frac{(n)(n+1)}{2}$ , and we want this to not be a divisor of $n!$ (the product of the first $n$ positive integers). Notice that if and only if $n+1$ were composite, all of its factors would be less than or equal to $n$ , which means they would be able to cancel with the factors in $n!$ . Thus, the sum of $n$ positive integers would be a divisor of $n!$ when $n+1$ is composite. (Note: This is true for all positive integers except for 1 because 2 is not a divisor/factor of 1.) Hence in this case, $n+1$ must instead be prime. The greatest three-digit integer that is prime is $997$ , so we subtract $1$ to get $n=\\boxed{\\textbf{(B) } 996}$ .\n\nThe sum of the first \\( n \\) positive integers starting from 1 is \\( \\frac{n(n+1)}{2} \\). The product of the first \\( n \\) positive integers starting from \\( n \\), then going to \\( (n-1) \\), all the way down to 1, is \\( n! \\). If there exists a number such that \\( n! / \\frac{n(n-1)}{2} = +\\mathbb{Z} \\), then we call that solution invalid. \\( n! / \\frac{n(n-1)}{2} \\) is just \\( \\frac{2n!}{n(n+1)} \\). We see that the first term of \\( n! \\), which is \\( n \\), will cancel out with the \\( n \\) term on the denominator. In order for \\( n-1 \\) to not cancel out, it needs to be a prime number. The only answer choice that satisfies this $n=\\boxed{\\textbf{(B) } 996}$ .\n\n~Pinotation (not the creator of Solution 1)\n\nAs in Solution 1, we deduce that $n+1$ must be prime.\n\nIt's hard to remember all of your primes up to a thousand, so we eliminate answer choices\nchoices $A$ , $C$ , and $E$ don't work because $n+1$ is even, and all even numbers are divisible by two, which makes choices $A$ , $C$ , and $E$ composite and not prime.\n\nChoice $D$ also does not work since $999$ is divisible by $9$ , which means it's a composite number and not prime. Thus, the correct answer must be $\\boxed{\\textbf{(B) } 996}$ .\n\nThe sum of the first $n$ positive integers is $\\frac{(n)(n+1)}{2}$ and the product of the positive integers upto $n$ is $n!$ . The quotient of the two is -\n\n$\\frac{(2)(n!)}{(n)(n+1)}$\n\nwhich simplifies to $\\frac{(2)((n-1)!)}{n+1}$ . Thus, $n+1$ must be odd for the remainder to not be 0 (as $2$ will multiply with some number in $n!$ , cancelling out $n+1$ if it is even, which leaves us with the answer choices $n = 996$ and $n = 998$ . Notice that $n + 1$ must also be prime as otherwise there will be a factor of $n + 1$ in $2$ x $n!$ somewhere. So either $997$ or $999$ must be prime - $999$ is obviously not prime as it is divisible by 9, so our answer should be $n$ where $n + 1 = 997$ , and so our answer is $n = 996$ or $\\boxed{\\textbf{(B) } 996}$ .\n\n- youtube.com/indianmathguy"
   },
   {
     "id": "amc10a-2019-10",
@@ -6054,7 +6066,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_10",
     "topics": [
       "Floor Functions"
-    ]
+    ],
+    "solutionLatex": "The number of tiles the bug visits is equal to $1$ plus the number of times it crosses a horizontal or vertical line. As it must cross $16$ horizontal lines and $9$ vertical lines, it must be that the bug visits a total of $16+9+1 = \\boxed{\\textbf{(C) }26}$ squares.\n\nNote: The general formula for this is $a+b-\\gcd(a,b)$ , because it is the number of vertical/horizontal lines crossed minus the number of corners crossed (to avoid double counting). In this particular problem, it was $16 + 9 - 1$ (since $\\text{gcd}(16,9) = 1$ ), which is $24$ , but then you add $2$ because the first tile and the last tile are counted, which in the general formula are not counted.\n\nOne can see why it is gcd(a,b) due to slope\n~Williamgolly\n\nComment: The above note defines a, b incorrectly. One counter example is a 17x9 grid, which should result in 25 tiles. However, $\\text{gcd}(16, 8) = 8$ . Here $a+b-\\gcd(a,b)$ is correct when a = 17 and b = 9.\n~aliciawu"
   },
   {
     "id": "amc10a-2019-11",
@@ -6074,7 +6087,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_11",
     "topics": [
       "Divisor Counting"
-    ]
+    ],
+    "solutionLatex": "Prime factorizing $201^9$ , we get $3^9\\cdot67^9$ .\nA perfect square must have even powers of its prime factors, so our possible choices for our exponents to get a perfect square are $0, 2, 4, 6, 8$ for both $3$ and $67$ . This yields $5\\cdot5 = 25$ perfect squares.\n\nPerfect cubes must have multiples of $3$ for each of their prime factors' exponents, so we have either $0, 3, 6$ , or $9$ for both $3$ and $67$ , which yields $4\\cdot4 = 16$ perfect cubes, for a total of $25+16 = 41$ .\n\nSubtracting the overcounted powers of $6$ ( $3^0\\cdot67^0$ , $3^0\\cdot67^6$ , $3^6\\cdot67^0$ , and $3^6\\cdot67^6$ ), we get $41-4 = \\boxed{\\textbf{(C) }37}$ .\n\n~ Continuous_Pi"
   },
   {
     "id": "amc10a-2019-12",
@@ -6094,7 +6108,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_12",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "First of all, $d$ obviously has to be smaller than $M$ , since when calculating $M$ , we must take into account the $29$ s, $30$ s, and $31$ s. So we can eliminate choices $B$ and $C$ . Since there are $365$ total entries, the median, $M$ , must be the $183\\text{rd}$ one, at which point we note that $12 \\cdot 15$ is $180$ , so $16$ has to be the median (because $183$ is between $12 \\cdot 15 + 1 = 181$ and $12 \\cdot 16 = 192$ ). Now, the mean, $\\mu$ , must be smaller than $16$ , since there are many fewer $29$ s, $30$ s, and $31$ s. $d$ is less than $\\mu$ , because when calculating $\\mu$ , we would include $29$ , $30$ , and $31$ . Thus the answer is $\\boxed{\\textbf{(E) } d < \\mu < M}$ ."
   },
   {
     "id": "amc10a-2019-13",
@@ -6117,7 +6132,8 @@
       "Problem-Solving: Angles",
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Isosceles Equilateral Triangles"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/5/e/1/5e1c2532c45ec05a88a74ea36b442cbd49851637.png]]\n\nDrawing it out, we see $\\angle BDC$ and $\\angle BEC$ are right angles, as they are inscribed in a semicircle. Using the fact that it is an isosceles triangle, we find $\\angle ABC=70^{\\circ}$ . We can find $\\angle ECB=20^{\\circ}$ and $\\angle DBC=50^{\\circ}$ by the triangle angle sum on $\\triangle ECB$ and $\\triangle DBC$ .\n\n\\[\\angle BDC+\\angle DCB+\\angle DBC=180^{\\circ}\\implies90^{\\circ}+40^{\\circ}+\\angle DBC=180^{\\circ}\\implies\\angle DBC=50^{\\circ}\\]\n\n\\[\\angle BEC+\\angle EBC+\\angle ECB=180^{\\circ}\\implies90^{\\circ}+70^{\\circ}+\\angle ECB=180^{\\circ}\\implies\\angle ECB=20^{\\circ}\\]\n\nThen, we take triangle $BFC$ , and find $\\angle BFC=180^{\\circ}-50^{\\circ}-20^{\\circ}=\\boxed{\\textbf{(D) } 110^{\\circ}}.$"
   },
   {
     "id": "amc10a-2019-14",
@@ -6137,7 +6153,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_14",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "It is possible to obtain $0$ , $1$ , $3$ , $4$ , $5$ , and $6$ points of intersection, as demonstrated in the following figures:\n\n[[img:https://latex.artofproblemsolving.com/7/8/7/787467e802a4d645adb31721e25647810a24a75f.png]]\n\nIt is clear that the maximum number of possible intersections is ${4 \\choose 2} = 6$ , since each pair of lines can intersect at most once. In addition, by looking at the answer choices, we know that we cannot have 7 points of intersection or else our answer would be greater than the given answer choices. Our answer is given by the sum $0+1+3+4+5+6=\\boxed{\\textbf{(D)} 19}$ ."
   },
   {
     "id": "amc10a-2019-15",
@@ -6158,7 +6175,8 @@
     "topics": [
       "Recursion",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "Using the recursive formula, we find $a_3=\\frac{3}{11}$ , $a_4=\\frac{3}{15}$ , and so on. It appears that $a_n=\\frac{3}{4n-1}$ , for all $n$ . Setting $n=2019$ , we find $a_{2019}=\\frac{3}{8075}$ , so the answer is $\\boxed{\\textbf{(E) }8078}$ .\n\nTo prove this formula, we use induction. We are given that $a_1=1$ and $a_2=\\frac{3}{7}$ , which satisfy our formula. Now assume the formula holds true for all $n\\le m$ for some positive integer $m$ . By our assumption, $a_{m-1}=\\frac{3}{4m-5}$ and $a_m=\\frac{3}{4m-1}$ . Using the recursive formula, \\[a_{m+1}=\\frac{a_{m-1}\\cdot a_m}{2a_{m-1}-a_m}=\\frac{\\frac{3}{4m-5}\\cdot\\frac{3}{4m-1}}{2\\cdot\\frac{3}{4m-5}-\\frac{3}{4m-1}}=\\frac{\\left(\\frac{3}{4m-5}\\cdot\\frac{3}{4m-1}\\right)(4m-5)(4m-1)}{\\left(2\\cdot\\frac{3}{4m-5}-\\frac{3}{4m-1}\\right)(4m-5)(4m-1)}=\\frac{9}{6(4m-1)-3(4m-5)}=\\frac{3}{4(m+1)-1},\\]\nso our induction is complete."
   },
   {
     "id": "amc10a-2019-16",
@@ -6181,7 +6199,8 @@
       "Problem-Solving: Shaded Regions - Circles",
       "Problem-Solving: Slice and Add the Shaded Region",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/5/b/a/5baca695aa7a7ad9aefd4bf299596f761a1c0715.png]]\n\nIn the diagram above, notice that triangle $OAB$ and triangle $ABC$ are congruent and equilateral with side length $2$ . We can see the radius of the larger circle is $2\\overline{OH} + 1$ . Using $30^{\\circ}-60^{\\circ}-90^{\\circ}$ triangles, we know $\\overline{OH} = \\sqrt{3}$ . Therefore, the radius of the larger circle is $2\\sqrt{3}+1$ .\n\nThe area of the larger circle is thus $\\left(2\\sqrt{3}+1\\right)^2 \\pi = \\left(13+4\\sqrt{3}\\right)\\pi$ , and the sum of the areas of the smaller circles is $13\\pi$ , so the area of the dark region is $\\left(13+4\\sqrt{3}\\right)\\pi-13\\pi = \\boxed{\\textbf{(A) } 4 \\pi \\sqrt{3}}$ ."
   },
   {
     "id": "amc10a-2019-17",
@@ -6202,7 +6221,8 @@
     "topics": [
       "Fundamental Counting Principle",
       "Constructive Counting"
-    ]
+    ],
+    "solutionLatex": "Arranging eight cubes is the same as arranging the nine cubes first, and then removing the last cube. In other words, there is a one-to-one correspondence between every arrangement of nine cubes, and every actual valid arrangement. Thus, we initially get $9!$ . However, we have overcounted, because the red cubes can be permuted to have the same overall arrangement, and the same applies with the blue and green cubes. Thus, we have to divide by the $2!$ ways to arrange the red cubes, the $3!$ ways to arrange the blue cubes, and the $4!$ ways to arrange the green cubes. Thus we have $\\frac {9!} {2! \\cdot 3! \\cdot 4!} = \\boxed{\\textbf{(D) } 1,260}$ different possible towers.\n\nNote:\nthis can be written more compactly as\n \\[\\binom{9}{2,3,4}=\\binom{9}{2}\\binom{9-2}{3}\\binom{9-(2+3)}{4} = \\boxed{1,260}\\]"
   },
   {
     "id": "amc10a-2019-18",
@@ -6223,7 +6243,8 @@
     "topics": [
       "Base Conversion",
       "Repeating Decimal"
-    ]
+    ],
+    "solutionLatex": "We can expand the fraction $0.\\overline{23}_k$ as follows: $0.\\overline{23}_k = 2\\cdot k^{-1} + 3 \\cdot k^{-2} + 2 \\cdot k^{-3} + 3 \\cdot k^{-4} + \\cdots$\n\nNotice that this is equivalent to\n \\[2( k^{-1} + k^{-3} + k^{-5} + ... ) + 3 (k^{-2} + k^{-4} + k^{-6} + \\cdots )\\]\n\nBy summing the geometric series and simplifying, we have $\\frac{2k+3}{k^2-1} = \\frac{7}{51}$ . Solving this quadratic equation (or simply testing the answer choices) yields the answer $k = \\boxed{\\textbf{(D) }16}$ ."
   },
   {
     "id": "amc10a-2019-19",
@@ -6243,7 +6264,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_19",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Grouping the first and last terms and two middle terms gives $(x^2+5x+4)(x^2+5x+6)+2019$ , which can be simplified to $(x^2+5x+5)^2-1+2019$ . Noting that squares are nonnegative, and verifying that $x^2+5x+5=0$ for some real $x$ , the answer is $\\boxed{\\textbf{(B) } 2018}$ ."
   },
   {
     "id": "amc10a-2019-20",
@@ -6265,7 +6287,8 @@
       "Introduction to Probability",
       "Problem-Solving: Puzzles",
       "Parity Reasoning"
-    ]
+    ],
+    "solutionLatex": "Note that odd sums can only be formed by $(e,e,o)$ or $(o,o,o),$ so we focus on placing the evens: we need to have each even be with another even in each row/column. Because there are only $5$ odd numbers overall, we can only have $1$ $(o,o,o)$ row and $1$ $(o,o,o)$ column. It can be seen that there are $3 \\cdot 3 = 9$ ways to do this. There are then $5!$ ways to permute the odd numbers, and $4!$ ways to permute the even numbers, thus giving the answer as $\\frac{9 \\cdot 5! \\cdot 4!}{9!}=\\boxed{\\textbf{(B) }\\frac{1}{14}}$ .\n\n~Petallstorm\n(Minor edits by JeffersonJ and monkey_land)\n\nBy the Pigeonhole Principle, there must be at least one row with $2$ or more odd numbers in it. Therefore, that row must contain $3$ odd numbers in order to have an odd sum. The same thing can be done with the columns. Thus we simply have to choose one row and one column to be filled with odd numbers, so the number of valid odd/even configurations (without regard to which particular odd and even numbers are placed where) is $3 \\cdot 3 = 9$ . The denominator will be $\\binom{9}{4}$ , the total number of ways we could choose which $4$ of the $9$ squares will contain an even number. Hence the answer is \\[\\frac{9}{\\binom{9}{4}}=\\boxed{\\textbf{(B) }\\frac{1}{14}}\\]\n\n- The Pigeonhole Principle isn't really necessary here: After noting from the first solution that any row that contains evens must contain two evens, the result follows that the four evens must form the corners of a rectangle.\n\n~Petallstorm\n\nNote that there are 5 odds and 4 evens, and for three numbers to sum an odd number, either 1 or three must be odd. Hence, one column must be all odd and one row must be all odd. First, we choose a row, for which there are three choices and within the row P(5,3). There are 3! ways to order the remaining odds and 4! ways to order the evens. The total possible ways is 9!. $\\frac{3 \\cdot P(5,3) \\cdot 3! \\cdot 4!}{9!}=\\boxed{\\textbf{(B) }\\frac{1}{14}}$\n\n~Petallstorm\n\nNote that the odd sums are only formed by, $(O, O, O)$ or any permutation of $(O, E, E)$ . When looking at a 3x3 box, we realize that there must always be one column that is odd and one row that is odd. Calculating the probability of one permutation of this we get:\n\n$\\frac{5!}{P(9,5)} = \\frac{5 \\cdot 4\\cdot 3 \\cdot 2 \\cdot 1}{9 \\cdot 8\\cdot 7 \\cdot 6 \\cdot 5} = \\frac{1}{126}$\n\nNow, there are 9 ways you can get this particular permutation (3 choices for all odd row, 3 choices for all odd column), so multiplying the result by $9$ , we get:\n\n\\[\\frac{1}{126} \\cdot 9 = \\frac{9}{126} = \\boxed{\\textbf{(B) }\\frac{1}{14}}\\]\n~petallstorm\n\nTo get an odd sum we need $\\text{odd} + \\text{odd} + \\text{odd}$ or we need $\\text{odd} + \\text{even} + \\text{even}$ . Note that there are $9!$ ways to arrange the numbers. Also notice that there are $4$ even numbers and $5$ odd numbers from $1$ through $9$ .\n\nThe number of ways to arrange the even numbers is $4!$ and the number of ways to arrange the odd numbers is $5!$ . Now a common strategy is to deal with the category with fewer numbers so this suggests for us to look at even numbers and try something out.\n\nSince we have $4$ even numbers we need to split two evens to one row and two evens to another row. Note that there are $\\tbinom{3}{2}$ ways to choose the rows, and the $\\tbinom{3}{2}$ to choose where the two even numbers go in that row. The odd numbers go wherever there is a spot left which means we don't need to care about them. So we totally have $9$ ways to place the even numbers.\n\nDon't forget, we still need to arrange these even and odd numbers and like mentioned above there are $4!$ and $5!$ ways respectively.\n\nTherefore our answer is simply \\[\\frac{5! \\cdot 4! \\cdot 9}{9!} = \\frac{1}{7\\cdot 2} = \\boxed{\\frac{1}{14}}.\\]\n\nWe need to know the number of successful outcomes/Total outcomes. We start by the total number of ways to place the odd numbers, which is $\\binom{9}{5}$ , which is because there are $5$ odd number between $1$ and $9$ . Note we need $1$ odd number and $2$ even numbers OR $3$ odd numbers in each row to satisfy our conditions. We have $3$ types of arrangements for the number of successful outcomes, we could have all the even numbers on the corners, which is $1$ case, We could have the odd numbers arranged like a T, which has $4$ cases (you could twist them around), and you have the even numbers in a $2$ by $2$ square, and you have $4$ cases for that. We have $9$ successful cases and $126$ total cases, so the probability is $\\frac{9}{126}$ = $\\frac{1}{14}$ which is $\\boxed{\\textbf{(B) }\\frac{1}{14}}$\n\n~Arcticturn\n\nSince we only care about the parity of the sum of our rows and columns, let's take everything modulo $2$ . We can see that there will be $5$ odd numbers, and $4$ even numbers. Testing a few configurations, we realize that if we have one complete row and column of $1 \\text{s}$ , the sum of all rows and columns will be odd. We find $3$ distinct configurations:\n \\[\\begin{tabular}{ |c|c|c| } \\hline 1 & 1 & 1 \\\\ \\hline 1 & 0 & 0 \\\\ \\hline 1 & 0 & 0 \\\\ \\hline \\end{tabular} \\ \\ \\ \\ \\begin{tabular}{ |c|c|c| } \\hline 1 & 0 & 0 \\\\ \\hline 1 & 1 & 1 \\\\ \\hline 1 & 0 & 0 \\\\ \\hline \\end{tabular} \\ \\ \\ \\ \\begin{tabular}{ |c|c|c| } \\hline 0 & 1 & 0 \\\\ \\hline 1 & 1 & 1 \\\\ \\hline 0 & 1 & 0 \\\\ \\hline \\end{tabular}\\]\nWe can see that rotating the first configuration by $90^{\\circ}, 180^{\\circ}, 270^{\\circ},$ and $360^{\\circ}$ , will give us $4$ cases for this configuration. Similarly, the second configuration has $4$ cases by the same rotations. The third configuration only has $1$ case because its rotational symmetry is $90^{\\circ}$ . There are $5! \\cdot 4!$ ways to choose the odd and even numbers for all of the configurations, so our answer is $\\frac{(4+4+1)(5!\\cdot 4!)}{9!}=\\boxed{\\textbf{(B) }\\frac{1}{14}}$ .\n\n$\\textbf{Note:}$ We can also realize that there are $9$ places for the row and column of $1 \\text{s}$ to overlap, resulting in $9$ cases for all of the possible configurations.\n\n~kn07"
   },
   {
     "id": "amc10a-2019-21",
@@ -6287,7 +6310,8 @@
       "Circle Tangents",
       "3D Geometry",
       "Problem-Solving: Circle Basics"
-    ]
+    ],
+    "solutionLatex": "The triangle is placed on the sphere so that its three sides are tangent to the sphere. The cross-section of the sphere created by the plane of the triangle is also the incircle of the triangle. To find the inradius, use $\\text{area} = \\text{inradius} \\cdot \\text{semiperimeter}$ . The area of the triangle can be found by drawing an altitude from the vertex between sides with length $15$ to the midpoint of the side with length $24$ . The Pythagorean triple $9$ - $12$ - $15$ allows us easily to determine that the base is $24$ and the height is $9$ . The formula $\\frac {\\text{base} \\cdot \\text{height}} {2}$ can also be used to find the area of the triangle as $108$ , while the semiperimeter is simply $\\frac {15 + 15 + 24} {2} = 27$ . After plugging into the equation, we thus get $108 = \\text{inradius} \\cdot 27$ , so the inradius is $4$ . Now, let the distance between $O$ and the triangle be $x$ . Choose a point on the incircle and denote it by $A$ . The distance $OA$ is $6$ , because it is just the radius of the sphere. The distance from point $A$ to the center of the incircle is $4$ , because it is the radius of the incircle. By using the Pythagorean Theorem, we thus find $x = \\sqrt{6^2-4^2}=\\sqrt{20} = \\boxed{\\textbf {(D) } 2 \\sqrt {5}}$ .\n\nDrop an altitude on the isosceles triangle. Let the resulting 3-4-5 right triangle $ABC$ have $AB=15$ and $BC=12$ . By special triangle, $AC=9$ . Let $r$ be the circle's radius. Let the circle's center be $O$ and $D$ be the closest point on $AB$ to $O$ .\n\nThen, $OD=r$ . Obviously, $ODBC$ is a kite. Thus, $BC=DB=12$ , and $AD=15-DB=3$ . $AO=AC-r=9-r$ . By Pythagoras, $AD^2+OD^2=AO^2$ , so $3^2+r^2=(9-r)^2$ . The $r^2$ terms cancel out, and $r=4$ .\n\nAs before, using Pythagoras again, the distance is $\\sqrt{6^2-4^2}=\\boxed{\\textbf{(D)}2\\sqrt{5}}$\n\n(Solution by BJHHar)\n\nAs in Solution 1, we note that by the Pythagorean Theorem, the height of the triangle is $9$ , and that the three sides of the triangle are tangent to the sphere, so the circle in the cross-section of the sphere is the incenter of the triangle.\n\nRecall that the inradius is the intersection of the angle bisectors. To find the inradius of the incircle, we use the Angle Bisector Theorem.\n[[img:https://latex.artofproblemsolving.com/b/d/c/bdcf44c11c7c70c94800daa2f74b4b0a4fd15efc.png]]\n \\[\\begin{split}&\\frac{AB}{BI}=\\frac{AD}{DI} \\\\ \\Rightarrow \\ &\\frac{15}{BI}=\\frac{12}{DI} \\\\ \\Rightarrow \\ &\\frac{BI}{5}=\\frac{DI}{4}\\end{split}\\]\nSince we know that $BI+DI$ (the height) is equal to $9$ , $DI$ (the inradius) is $4$ .\nFrom here, the problem can be solved in the same way as in Solution 1. The answer is $\\boxed{\\textbf {(D) } 2 \\sqrt{5}}$ .\n\nFirst, we label a few points:\n[[img:https://latex.artofproblemsolving.com/0/f/b/0fbb8ad7d86857296965a6892ac8b8355c1260b1.png]]\n\nWe have that $\\triangle{BDC}$ is a $3-4-5$ triangle, so, as in Solution 1, $BD = 9$ .\nFrom this, we know that $\\overline{BI}=9-r$ .\nSince $AB$ is tangent to circle $I$ , we also know $IEB$ is a right triangle. $\\triangle{BIE}$ and $\\triangle{BDA}$ share angle $DBA$ , so $\\triangle{BIE} \\sim \\triangle{BDA}$ since they have two equal angles.\nHence, by this similarity, $\\dfrac{9-r}{5}=\\dfrac{r}{4}$ . Cross-multiplying, we get $36-4r =5r$ , which gives $r=4$ .\nWe now take another cross section of the sphere, perpendicular to the plane of the triangle.\n\n[[img:https://latex.artofproblemsolving.com/e/e/f/eefbdc7890c9f7838161f5a70d29fcd716f8ba00.png]]\n\nUsing the Pythagorean Theorem, we find that the distance from the center to the plane is $\\boxed{\\textbf {(D) } 2 \\sqrt{5}}$ ."
   },
   {
     "id": "amc10a-2019-22",
@@ -6309,7 +6333,8 @@
       "Introduction to Probability",
       "Geometric Probability",
       "Absolute Value Tricks"
-    ]
+    ],
+    "solutionLatex": "There are several cases depending on what the first coin flip is when determining $x$ and what the first coin flip is when determining $y$ .\n\nThe four cases are:\n\nCase 1: $x$ is either $0$ or $1$ , and $y$ is either $0$ or $1$ .\n\nCase 2: $x$ is either $0$ or $1$ , and $y$ is chosen from the interval $[0,1]$ .\n\nCase 3: $x$ is is chosen from the interval $[0,1]$ , and $y$ is either $0$ or $1$ .\n\nCase 4: $x$ is is chosen from the interval $[0,1]$ , and $y$ is also chosen from the interval $[0,1]$ .\n\nEach case has a $\\frac{1}{4}$ chance of occurring (as it requires two coin flips).\n\nFor Case 1, we need $x$ and $y$ to be different. Therefore, the probability for success in Case 1 is $\\frac{1}{2}$ .\n\nFor Case 2, if $x$ is 0, we need $y$ to be in the interval $\\left(\\frac{1}{2}, 1\\right]$ . If $x$ is 1, we need $y$ to be in the interval $\\left[0, \\frac{1}{2}\\right)$ . Regardless of what $x$ is, the probability for success for Case 2 is $\\frac{1}{2}$ .\n\nBy symmetry, Case 3 has the same success rate as Case 2.\n\nFor Case 4, we must use geometric probability because there are an infinite number of pairs $(x, y)$ that can be selected, whether they satisfy the inequality or not. Graphing $|x-y| > \\tfrac{1}{2}$ gives us the following picture where the shaded area is the set of all the points that fulfill the inequality:\n\n[[img:https://latex.artofproblemsolving.com/5/b/7/5b7a7c75aaf506dae312db4d3888891071aaff3d.png]]\n\nThe shaded area is $\\frac{1}{4}$ , which means the probability for success for case 4 is $\\frac{1}{4}$ (since the total area of the bounding square, containing all possible pairs, is $1$ ).\n\nAdding up the success rates from each case, we get:\n\n$\\left(\\frac{1}{4}\\right) \\cdot \\left(\\frac{1}{2} + \\frac{1}{2} + \\frac{1}{2} + \\frac{1}{4}\\right) = \\boxed{\\textbf{(B) }\\frac{7}{16}}$ ."
   },
   {
     "id": "amc10a-2019-23",
@@ -6329,7 +6354,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_23",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Define a round as one complete rotation through each of the three children, and define a turn as the portion when one child says his numbers (similar to how a game is played).\n\nWe create a table to keep track of what numbers each child says for each round.\n\n$\\begin{tabular}{||c c c c||} \\hline Round & Tadd & Todd & Tucker \\\\ [0.5ex] \\hline\\hline 1 & 1 & 2-3 & 4-6 \\\\ \\hline 2 & 7-10 & 11-15 & 16-21 \\\\ \\hline 3 & 22-28 & 29-36 & 37-45 \\\\ \\hline 4 & 46-55 & 56-66 & 67-78 \\\\ [1ex] \\hline \\end{tabular}$\n\nTadd says $1$ number in round 1, $4$ numbers in round 2, $7$ numbers in round 3, and in general $3n - 2$ numbers in round n. At the end of round n, the number of numbers Tadd has said so far is $1 + 4 + 7 + \\dots + (3n - 2) = \\frac{n(3n-1)}{2}$ , by the sum of arithmetic series formula.\n\nWe find that $\\dfrac{37(110)}{2}=2035$ , so Tadd says his 2035th number at the end of his turn in round 37. That also means that Tadd says his 2019th number in round 37. At the end of Tadd's turn in round 37, the children have, in total, completed $36+36+37=109$ turns. In general, at the end of turn $n$ , the nth triangular number is said, or $\\dfrac{n(n+1)}{2}$ . So at the end of turn 109 (or the end of Tadd's turn in round 37), Tadd says the number $\\dfrac{109(110)}{2}=5995$ . Recalling that this was the 2035th number said by Tadd, so the 2019th number he said was $5995-16=5979$ .\n\nThus, the answer is $\\boxed{\\textbf{(C) }5979}$ ."
   },
   {
     "id": "amc10a-2019-24",
@@ -6351,7 +6377,8 @@
       "Vieta's Formulas",
       "Polynomials",
       "Problem-Solving: Polynomial Root Tricks"
-    ]
+    ],
+    "solutionLatex": "Multiplying both sides by $(s-p)(s-q)(s-r)$ yields\n \\[1 = A(s-q)(s-r) + B(s-p)(s-r) + C(s-p)(s-q)\\]\nAs this is a polynomial identity, and it is true for infinitely many $s$ , it must be true for all $s$ (since a polynomial with infinitely many roots must in fact be the constant polynomial $0$ ). This means we can plug in $s = p$ to find that $\\frac1A = (p-q)(p-r)$ . Similarly, we can find $\\frac1B = (q-p)(q-r)$ and $\\frac1C = (r-p)(r-q)$ . Summing them up, we get that \\[\\frac1A + \\frac1B + \\frac1C = p^2 + q^2 + r^2 - pq - qr - pr\\]\nWe can express $p^2 + q^2 + r^2 = (p+q+r)^2 - 2(pq + qr + pr)$ , and by Vieta's Formulas, we know that this expression is equal to $484$ . Vieta's also gives $pq + qr + pr = 80$ (which we also used to find $p^2+q^2+r^2$ ), so the answer is $484 -240 = \\boxed{\\textbf{(B) } 244}$ .\n\nNote: this process of substituting in the 'forbidden' values in the original identity is a standard technique for partial fraction decomposition, as taught in calculus classes.\n\n-very small latex edit from countmath1 :)\n\nMinor rephrasing for correctness and clarity ~ Technodoggo"
   },
   {
     "id": "amc10a-2019-25",
@@ -6371,7 +6398,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_25",
     "topics": [
       "Factorial"
-    ]
+    ],
+    "solutionLatex": "The main insight is that\n\n\\[\\frac{(n^2)!}{(n!)^{n+1}}\\]\n\nis always an integer. This is true because it is precisely the number of ways to split up $n^2$ objects into $n$ unordered groups of size $n$ . Thus,\n\n\\[\\frac{(n^2-1)!}{(n!)^n}=\\frac{(n^2)!}{(n!)^{n+1}}\\cdot\\frac{n!}{n^2}\\]\n\nis an integer if $n^2 \\mid n!$ , or in other words, if $\\frac{(n-1)!}{n}$ , is an integer. This condition is false precisely when $n=4$ or $n$ is prime, by Wilson's Theorem. There are $15$ primes between $1$ and $50$ , inclusive, so there are $15 + 1 = 16$ terms for which\n\n\\[\\frac{(n^2-1)!}{(n!)^{n}}\\]\n\nis potentially not an integer. It can be easily verified that the above expression is not an integer for $n=4$ as there are more factors of $2$ in the denominator than the numerator. Similarly, it can be verified that the above expression is not an integer for any prime $n=p$ , as there are more factors of p in the denominator than the numerator. Thus all $16$ values of n make the expression not an integer and the answer is $50-16=\\boxed{\\textbf{(D)}\\ 34}$ .\n\nSideNote: Another method to prove that \\[\\frac{(n^2)!}{(n!)^{n+1}}\\] is always an integer is instead as follows using Number Theory. Notice that $n$ will divide the numerator $n+1$ times, since $n^2 = n \\times n$ contains not one but two factors of $n.$ Also, for $a < n,$ notice that $a$ divides $(n^2)!$ at least \\[\\lfloor \\frac{n^2}{a} \\rfloor \\ge \\lfloor \\frac{n^2}{n-1} \\rfloor \\ge \\lfloor \\frac{n^2 - 1}{n-1} \\rfloor \\ge n+1\\] times. Thus, each integer from $1$ to $n$ will divide $(n^2)!$ at least $n+1$ times, which proves such a lemma. $\\square{}$"
   },
   {
     "id": "amc10b-2019-1",
@@ -6392,7 +6420,8 @@
     "topics": [
       "Ratios and Rates",
       "3D Volumes and Surface Areas"
-    ]
+    ],
+    "solutionLatex": "Let the first jar's volume be $A$ and the second's be $B$ . It is given that $\\frac{5}{6}A=\\frac{3}{4}B$ . We find that $\\frac{A}{B}=\\frac{\\left(\\frac{3}{4}\\right)}{\\left(\\frac{5}{6}\\right)}=\\boxed{\\textbf{(D) }\\frac{9}{10}}.$\n\nWe already know that this is the ratio of the smaller to the larger volume because it is less than $1.$\n\nAn alternate solution is to substitute an arbitrary maximum volume for the first container - let's say $72$ , so there was a volume of $60$ in the first container, and then the second container also has a volume of $60$ , so you get $60 \\cdot \\frac{4}{3} = 80$ . Thus the answer is $\\frac{72}{80} = \\boxed{\\textbf{(D) }\\frac{9}{10}}$ .\n\n~IronicNinja"
   },
   {
     "id": "amc10b-2019-2",
@@ -6412,7 +6441,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_2",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "Since a counterexample must be a value of $n$ which is not prime, $n$ must be composite, so we eliminate $\\text{A}$ and $\\text{C}$ . Now we subtract $2$ from the remaining answer choices, and we see that the only time $n-2$ is not prime is when $n = \\boxed{\\textbf{(E) }27}$ .\n\n~IronicNinja\n\nminor edit (the inclusion of not) by AlcBoy1729"
   },
   {
     "id": "amc10b-2019-3",
@@ -6432,7 +6462,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_3",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "$60\\%$ of seniors do not play a musical instrument. If we denote $x$ as the number of seniors, then \\[\\frac{3}{5}x + \\frac{3}{10}\\cdot(500-x) = \\frac{468}{1000}\\cdot500\\]\n\n\\[\\frac{3}{5}x + 150 - \\frac{3}{10}x = 234\\]\n \\[\\frac{3}{10}x = 84\\]\n \\[x = 84\\cdot\\frac{10}{3} = 280\\]\n\nThus there are $500-x = 220$ non-seniors. Since $70\\%$ of the non-seniors play a musical instrument, $220 \\cdot \\frac{7}{10} = \\boxed{\\textbf{(B) } 154}$ .\n\n~IronicNinja"
   },
   {
     "id": "amc10b-2019-4",
@@ -6453,7 +6484,8 @@
     "topics": [
       "Arithmetic/Geometric Sequences",
       "Problem-Solving: Coordinate Bashing"
-    ]
+    ],
+    "solutionLatex": "If all lines satisfy the condition, then we can just plug in values for $a$ , $b$ , and $c$ that form an arithmetic progression. Let's use $a=1$ , $b=2$ , $c=3$ , and $a=1$ , $b=3$ , $c=5$ . Then the two lines we get are: \\[x+2y=3\\] \\[x+3y=5\\]\nUse elimination to deduce \\[y = 2\\] and plug this into one of the previous line equations. We get \\[x+4 = 3 \\Rightarrow x=-1\\] Thus the common point is $\\boxed{\\textbf{(A) } (-1,2)}$ .\n\n~IronicNinja"
   },
   {
     "id": "amc10b-2019-5",
@@ -6469,7 +6501,8 @@
       "Linear Equations",
       "Logic",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let's analyze all of the options separately.\n\n$\\textbf{(A)}$ : Clearly $\\textbf{(A)}$ is true, because a point in the first quadrant will have non-negative $x$ - and $y$ -coordinates, and so its reflection, with the coordinates swapped, will also have non-negative $x$ - and $y$ -coordinates.\n\n$\\textbf{(B)}$ : The triangles have the same area, since $\\triangle ABC$ and $\\triangle A'B'C'$ are the same triangle (congruent). More formally, we can say that area is invariant under reflection.\n\n$\\textbf{(C)}$ : If point $A$ has coordinates $(p,q)$ , then $A'$ will have coordinates $(q,p)$ . The gradient is thus $\\frac{p-q}{q-p} = -1$ , so this is true. (We know $p \\neq q$ since the question states that none of the points $A$ , $B$ , or $C$ lies on the line $y=x$ , so there is no risk of division by zero).\n\n$\\textbf{(D)}$ : Repeating the argument for $\\textbf{(C)}$ , we see that both lines have slope $-1$ , so this is also true.\n\n$\\textbf{(E)}$ : This is the only one left, presumably the answer. To prove: if point $A$ has coordinates $(p,q)$ and point $B$ has coordinates $(r,s)$ , then $A'$ and $B'$ will, respectively, have coordinates $(q,p)$ and $(s,r)$ . The product of the gradients of $AB$ and $A'B'$ is $\\frac{s-q}{r-p} \\cdot \\frac{r-p}{s-q} = 1 \\neq -1$ , so in fact these lines are never perpendicular to each other (using the \"negative reciprocal\" condition for perpendicularity).\n\nThus the answer is $\\boxed{\\textbf{(E)}}$ ."
   },
   {
     "id": "amc10b-2019-6",
@@ -6491,7 +6524,8 @@
       "Digit Problems",
       "Factorial",
       "Digit Deduction"
-    ]
+    ],
+    "solutionLatex": "\\[\\begin{split}& (n+1)n! + (n+2)(n+1)n! = 440 \\cdot n! \\\\ \\Rightarrow \\ &n![n+1 + (n+2)(n+1)] = 440 \\cdot n! \\\\ \\Rightarrow \\ &n + 1 + n^2 + 3n + 2 = 440 \\\\ \\Rightarrow \\ &n^2 + 4n - 437 = 0\\end{split}\\]\n\nSolving by the quadratic formula, $n = \\frac{-4\\pm \\sqrt{16+437\\cdot4}}{2} = \\frac{-4\\pm 42}{2} = \\frac{38}{2} = 19$ (since clearly $n \\geq 0$ ). The answer is therefore $1 + 9 = \\boxed{\\textbf{(C) }10}$ .\n\nDividing both sides by $n!$ gives\n \\[(n+1)+(n+2)(n+1)=440 \\Rightarrow n^2+4n-437=0 \\Rightarrow (n-19)(n+23)=0.\\]\nSince $n$ is non-negative, $n=19$ . The answer is $1 + 9 = \\boxed{\\textbf{(C) }10}$ .\n\nDividing both sides by $n!$ as before gives $(n+1)+(n+1)(n+2)=440$ . Now factor out $(n+1)$ , giving $(n+1)(n+3)=440$ . By considering the prime factorization of $440$ , a bit of experimentation gives us $n+1=20$ and $n+3=22$ , so $n=19$ , so the answer is $1 + 9 = \\boxed{\\textbf{(C) }10}$ .\n\nSince $(n+1)! + (n+2)! = (n+1)n! + (n+2)(n+1)n! = 440 \\cdot n!$ , the result can be factored into $(n+1)(n+3)n!=440 \\cdot n!$ and divided by $n!$ on both sides to get $(n+1)(n+3)=440$ . From there, it is easier to complete the square with the quadratic $(n+1)(n+3) = n^2 + 4n + 3$ , so $n^2+4n+4=441 \\Rightarrow (n+2)^2=441$ . Solving for $n$ results in $n=19,-23$ , and since $n>0$ , $n=19$ and the answer is $1 + 9 = \\boxed{\\textbf{(C) }10}$ .\n\n~Randomlygenerated\n\nRewrite $(n+1)! + (n+2)! = 440 \\cdot n!$ as $(n+1)n! + (n+2)(n+1)n! = 440 \\cdot n!.$ Factoring out the $n!$ we get $n!(n + 1 + (n+1)(n+2)) = 440 \\cdot n!.$ Expand this to get $n!(n^2 + 4n + 3) = 440 \\cdot n!.$ Factor this and divide by $n!$ to get $(n + 1)(n + 3) = 440.$ If we take the prime factorization of $440$ we see that it is $2^3 * 5 * 11.$ Intuitively, we can find that $n + 1 = 20$ and $n + 3 = 22.$ Therefore, $n = 19.$ Since the problem asks for the sum of the didgits of $n$ , we finally calculate $1 + 9 = 10$ and get answer choice $\\boxed{\\textbf{(C) }10}$ .\n\n~pnacham"
   },
   {
     "id": "amc10b-2019-7",
@@ -6512,7 +6546,8 @@
     "topics": [
       "Arithmetic Word Problems",
       "AIME-level Inequalities"
-    ]
+    ],
+    "solutionLatex": "If he has enough money to buy $12$ pieces of red candy, $14$ pieces of green candy, and $15$ pieces of blue candy, then the smallest amount of money he could have is $\\text{lcm}{(12,14,15)} = 420$ cents. Since a piece of purple candy costs $20$ cents, the smallest possible value of $n$ is $\\frac{420}{20} = \\boxed{\\textbf{(B) } 21}$ .\n\n~IronicNinja"
   },
   {
     "id": "amc10b-2019-8",
@@ -6535,7 +6570,8 @@
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Shaded Regions - Circles",
       "Problem-Solving: Slice and Add the Shaded Region"
-    ]
+    ],
+    "solutionLatex": "We notice that the square can be split into $4$ congruent smaller squares, with the altitude of the equilateral triangle being the side of this smaller square. Note that area of shaded part in a quarter square is the total area of quarter square minus a white triangle (which has already been split in half).\n\nWhen we split an equilateral triangle in half, we get two $30^{\\circ}-60^{\\circ}-90^{\\circ}$ triangles. Therefore, the altitude, which is also the side length of one of the smaller squares, is $\\sqrt{3}$ . We can then compute the area of the two triangles as $2 \\cdot \\frac{1 \\cdot \\sqrt{3}}{2} = \\sqrt{3}$ .\n\nThe area of the each small squares is the square of the side length, i.e. $\\left(\\sqrt{3}\\right)^2 = 3$ . Therefore, the area of the shaded region in each of the four squares is $3 - \\sqrt{3}$ .\n\nSince there are $4$ of these squares, we multiply this by $4$ to get $4\\left(3 - \\sqrt{3}\\right) = \\boxed{\\textbf{(B) } 12 - 4\\sqrt{3}}$ as our answer."
   },
   {
     "id": "amc10b-2019-9",
@@ -6558,7 +6594,8 @@
       "Floor Functions",
       "Functions - f(x) Notation",
       "Absolute Value Tricks"
-    ]
+    ],
+    "solutionLatex": "There are four cases we need to consider here.\n\nCase 1: $x$ is a positive integer. Without loss of generality, assume $x=1$ . Then $f(1) = 1 - 1 = 0$ .\n\nCase 2: $x$ is a positive fraction. Without loss of generality, assume $x=\\frac{1}{2}$ . Then $f\\left(\\frac{1}{2}\\right) = 0 - 0 = 0$ .\n\nCase 3: $x$ is a negative integer. Without loss of generality, assume $x=-1$ . Then $f(-1) = 1 - 1 = 0$ .\n\nCase 4: $x$ is a negative fraction. Without loss of generality, assume $x=-\\frac{1}{2}$ . Then $f\\left(-\\frac{1}{2}\\right) = 0 - 1 = -1$ .\n\nThus the range of the function $f$ is $\\boxed{\\textbf{(A) } \\{-1, 0\\}}$ .\n\n~IronicNinja"
   },
   {
     "id": "amc10b-2019-10",
@@ -6578,7 +6615,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_10",
     "topics": [
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Notice that whatever point we pick for $C$ , $AB$ will be the base of the triangle. Without loss of generality, let points $A$ and $B$ be $(0,0)$ and $(10,0)$ , since for any other combination of points, we can just rotate the plane to make them $(0,0)$ and $(10,0)$ under a new coordinate system. When we pick point $C$ , we have to make sure that its $y$ -coordinate is $\\pm20$ , because that's the only way the area of the triangle can be $100$ .\n\nNow when the perimeter is minimized, by symmetry, we put $C$ in the middle, at $(5, 20)$ . We can easily see that $AC$ and $BC$ will both be $\\sqrt{20^2+5^2} = \\sqrt{425}$ . The perimeter of this minimal triangle is $2\\sqrt{425} + 10$ , which is larger than $50$ . Since the minimum perimeter is greater than $50$ , there is no triangle that satisfies the condition, giving us $\\boxed{\\textbf{(A) }0}$ .\n\n~IronicNinja"
   },
   {
     "id": "amc10b-2019-11",
@@ -6598,7 +6636,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_11",
     "topics": [
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "Our ratios are $9:1$ in \\( J_1 \\) and $8:1$ in \\( J_2 \\).\n\nWe start with the equation representing the total number of marbles in both jars, where \\( x \\) is the common multiplier:\n\n\\[9x + x + 8x + x = 19x\\]\n\nGiven that the total number of green marbles is 95:\n\n\\[19x = 95\\]\n\nSolving for \\( x \\):\n\n\\[x = \\frac{95}{19} = 5\\]\n\nThe difference between blue marbles in \\( J_1 \\) and \\( J_2 \\) is simply\n\n$9x-8x=9(5)-8(5)=45-40=$ $\\boxed{\\textbf{(A) } 5}$ .\n\n~ GeometryMystery\n\nCall the number of marbles in each jar $x$ (because the problem specifies that they each contain the same number). Thus, $\\frac{x}{10}$ is the number of green marbles in Jar $1$ , and $\\frac{x}{9}$ is the number of green marbles in Jar $2$ . Since $\\frac{x}{9}+\\frac{x}{10}=\\frac{19x}{90}$ , we have $\\frac{19x}{90}=95$ , so there are $x=450$ marbles in each jar.\n\nBecause $\\frac{9x}{10}$ is the number of blue marbles in Jar $1$ , and $\\frac{8x}{9}$ is the number of blue marbles in Jar $2$ , there are $\\frac{9x}{10}-\\frac{8x}{9}=\\frac{x}{90} = 5$ more marbles in Jar $1$ than Jar $2$ . This means the answer is $\\boxed{\\textbf{(A) } 5}$ .\n\nLet $b_1$ , $g_1$ , $b_2$ , $g_2$ , represent the amount of blue marbles in jar 1, the amount of green marbles in jar 1, the\nthe amount of blue marbles in jar 2, and the amount of green marbles in jar 2, respectively. We now have the equations,\n $\\frac{b_1}{g_1} = \\frac{9}{1}$ ,\n $\\frac{b_2}{g_2} = \\frac{8}{1}$ ,\n $g_1 + g_2 =95$ , and\n $b_1 + g_1 = b_2 + g_2$ .\nSince $b_1 = 9g_1$ and $b_2 = 8g_2$ , we substitute that in to obtain $10g_1 = 9g_2$ .\nCoupled with our third equation, we find that $g_1 = 45$ , and that $g_2 = 50$ . We now use this information to find $b_1 = 405$\nand $b_2 = 400$ .\n\nTherefore, $b_1 - b_2 = 5$ so our answer is $\\boxed{\\textbf{(A) } 5}$ .\n~Binderclips1\n\n~LaTeX fixed by Starshooter11\n~Typo fixed by Little\n\nWriting out to ratios, we have $9:1$ in jar $1$ and $8:1$ in jar $2$ . Since the jar must have to same amount of marbles, let's make a variable $a$ and $b$ for each of the ratios to be multiplied by. Now we would have $9a + a = 8b + b \\rightarrow 10a = 9b$ . We can take the most obvious values of $a$ and $b$ and then scale it from there. We should be able to see that $a$ and $b$ could be $9$ and $10$ respectively. Now remember that there are $95$ green marbles or $x(a + b) = 95$ for some integer $x$ to scale it. Substituting and dividing, we find $x = 5$ . Thus to find the difference of the blue marbles we must do\n$\\begin{align*} x(9a - 8b) &= \\\\ 5(81 - 80) &= \\\\ 5(1) &= \\boxed{\\textbf{(A) }5} \\\\ \\end{align*}$\n\n~ Wiselion\n~Typo fixed by Ewiz"
   },
   {
     "id": "amc10b-2019-12",
@@ -6620,7 +6659,8 @@
       "Digit Problems",
       "Base Conversion",
       "Digit Deduction"
-    ]
+    ],
+    "solutionLatex": "Observe that $2019_{10} = 5613_7$ . To maximize the sum of the digits, we want as many $6$ s as possible (since $6$ is the highest value in base $7$ ), and this will occur with either of the numbers $4666_7$ or $5566_7$ . Thus, the answer is $4+6+6+6 = 5+5+6+6 = \\boxed{\\textbf{(C) }22}$ .\n\n~IronicNinja went through this test 100 times"
   },
   {
     "id": "amc10b-2019-13",
@@ -6640,7 +6680,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_13",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "The mean is $\\frac{4+6+8+17+x}{5}=\\frac{35+x}{5}$ .\n\nThere are three possibilities for the median: it is either $6$ , $8$ , or $x$ .\n\nLet's start with $6$ .\n\n$\\frac{35+x}{5}=6$ has solution $x=-5$ , and the sequence is $-5, 4, 6, 8, 17$ , which does have median $6$ , so this is a valid solution.\n\nNow let the median be $8$ .\n\n$\\frac{35+x}{5}=8$ gives $x=5$ , so the sequence is $4, 5, 6, 8, 17$ , which has median $6$ , so this is not valid.\n\nFinally we let the median be $x$ .\n\n$\\frac{35+x}{5}=x \\implies 35+x=5x \\implies x=\\frac{35}{4}=8.75$ , and the sequence is $4, 6, 8, 8.75, 17$ , which has median $8$ . This case is therefore again not valid.\n\nHence the only possible value of $x$ is $\\boxed{\\textbf{(A) }-5}.$"
   },
   {
     "id": "amc10b-2019-14",
@@ -6661,7 +6702,8 @@
     "topics": [
       "Digit Problems",
       "Base Conversion"
-    ]
+    ],
+    "solutionLatex": "We can figure out $H = 0$ by noticing that $19!$ will end with $3$ zeroes, as there are three factors of $5$ in its prime factorization, so there would be 3 powers of 10 meaning it will end in 3 zeros. Next, we use the fact that $19!$ is a multiple of both $11$ and $9$ . Their divisibility rules (see Solution 2) tell us that $T + M \\equiv 3 \\;(\\bmod\\; 9)$ and that $T - M \\equiv 7 \\;(\\bmod\\; 11)$ . By guess and checking, we see that $T = 4, M = 8$ is a valid solution. Therefore the answer is $4 + 8 + 0 = \\boxed{\\textbf{(C) }12}$ ."
   },
   {
     "id": "amc10b-2019-15",
@@ -6681,7 +6723,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_15",
     "topics": [
       "Geometry"
-    ]
+    ],
+    "solutionLatex": "First of all, let the two sides which are congruent be $x$ and $y$ , where $y > x$ . The only way that the conditions of the problem can be satisfied is if $x$ is the shorter leg of $T_{2}$ and the longer leg of $T_{1}$ , and $y$ is the longer leg of $T_{2}$ and the hypotenuse of $T_{1}$ .\n\nNotice that this means the value we are looking for is the square of $\\sqrt{x^{2}+y^{2}} \\cdot \\sqrt{y^{2}-x^{2}} = \\sqrt{y^{4}-x^{4}}$ , which is just $y^{4}-x^{4}$ .\n\nThe area conditions give us two equations: $\\frac{xy}{2} = 2$ and $\\frac{x\\sqrt{y^{2}-x^{2}}}{2} = 1$ .\n\nThis means that $y = \\frac{4}{x}$ and that $\\frac{4}{x^{2}} = y^{2} - x^{2}$ .\n\nTaking the second equation, we get $x^{2}y^{2} - x^{4} = 4$ , so since $xy = 4$ , $x^{4} = 12$ .\n\nSince $y = \\frac{4}{x}$ , we get $y^{4} = \\frac{256}{12} = \\frac{64}{3}$ .\n\nThe value we are looking for is just $y^{4}-x^{4} = \\frac{64-36}{3} = \\frac{28}{3}$ so the answer is $\\boxed{\\textbf{(A) }\\frac{28}{3}}$ ."
   },
   {
     "id": "amc10b-2019-16",
@@ -6702,7 +6745,8 @@
     "topics": [
       "Logic",
       "Pythagorean theorem"
-    ]
+    ],
+    "solutionLatex": "Without loss of generality, let $AC = CD = 4$ and $DE = EB = 3$ . Let $\\angle A = \\alpha$ and $\\angle B = \\beta = 90^{\\circ} - \\alpha$ . As $\\triangle ACD$ and $\\triangle DEB$ are isosceles, $\\angle ADC = \\alpha$ and $\\angle BDE = \\beta$ . Then $\\angle CDE = 180^{\\circ} - \\alpha - \\beta = 90^{\\circ}$ , so $\\triangle CDE$ is a $3-4-5$ triangle with $CE = 5$ .\n\nThen $CB = 5+3 = 8$ , and $\\triangle ABC$ is a $1-2-\\sqrt{5}$ triangle.\n\nIn isosceles triangles $\\triangle ACD$ and $\\triangle DEB$ , drop altitudes from $C$ and $E$ onto $AB$ ; denote the feet of these altitudes by $P_C$ and $P_E$ respectively. Then $\\triangle ACP_C \\sim \\triangle ABC$ by AAA similarity, so we get that $AP_C = P_CD = \\frac{4}{\\sqrt{5}}$ , and $AD = 2 \\times \\frac{4}{\\sqrt{5}}$ . Similarly, we get $BD = 2 \\times \\frac{6}{\\sqrt{5}}$ , and $AD:DB = \\boxed{\\textbf{(A) } 2:3}$ .\n\nLet $AC=CD=4x$ , and $DE=EB=3x$ . (For this solution, $A$ is above $C$ , and $B$ is to the right of $C$ ). Also let $\\angle A = t^{\\circ}$ , so $\\angle ACD = \\left(180-2t\\right)^{\\circ}$ , which implies $\\angle DCB = \\left(2t - 90\\right)^{\\circ}$ . Similarly, $\\angle B = \\left(90-t\\right)^{\\circ}$ , which implies $\\angle BED = 2t^{\\circ}$ . This further implies that $\\angle DEC = \\left(180 - 2t\\right)^{\\circ}$ .\n\nNow we see that $\\angle CDE = 180^{\\circ} - \\angle ECD - \\angle DEC = 180^{\\circ} - 2t^{\\circ} + 90^{\\circ} - 180^{\\circ} + 2t^{\\circ} = 90^{\\circ}$ . Thus $\\triangle CDE$ is a right triangle, with side lengths of $3x$ , $4x$ , and $5x$ (by the Pythagorean Theorem, or simply the Pythagorean triple $3-4-5$ ). Therefore $AC=4x$ (by definition), $BC=5x+3x = 8x$ , and $AB=4\\sqrt{5}x$ . Hence $\\cos{\\left(2t^{\\circ}\\right)} = 2 \\cos^{2}{t^{\\circ}} - 1$ (by the double angle formula), giving $2\\left(\\frac{1}{\\sqrt{5}}\\right)^2 - 1 = -\\frac{3}{5}$ .\n\nBy the Law of Cosines in $\\triangle BED$ , if $BD = d$ , we have \\[\\begin{split}&d^2 = (3x)^2+(3x)^2-2\\cdot\\frac{-3}{5}(3x)(3x) \\\\ \\Rightarrow \\ &d^2 = 18x^2 + \\frac{54x^2}{5} = \\frac{144x^2}{5} \\\\ \\Rightarrow \\ &d = \\frac{12x}{\\sqrt{5}}\\end{split}\\] Now $AD = AB - BD = 4x\\sqrt{5} - \\frac{12x}{\\sqrt{5}} = \\frac{8x}{\\sqrt{5}}$ . Thus the answer is $\\frac{\\left(\\frac{8x}{\\sqrt{5}}\\right)}{\\left(\\frac{12x}{\\sqrt{5}}\\right)} = \\frac{8}{12} = \\boxed{\\textbf{(A) }2:3}$ .\n\nWLOG, let $AC=CD=4$ , and $DE=EB=3$ . $\\angle CDE = 180^{\\circ} - \\angle ADC - \\angle BDE = 180^{\\circ} - \\angle DAC - \\angle DBE = 90^{\\circ}$ . Because of this, $\\triangle DEC$ is a 3-4-5 right triangle. Draw the altitude $DF$ of $\\triangle DEC$ . $DF$ is $\\frac{12}{5}$ by the base-height triangle area formula. $\\triangle ABC$ is similar to $\\triangle DBF$ (AA). So $\\frac{DF}{AC} = \\frac{BD}{AB} = \\frac35$ . $DB$ is $\\frac35$ of $AB$ . Therefore, $AD:DB$ is $\\boxed{\\textbf{(A) } 2:3}$ .\n\n~Thegreatboy90\n\nWLOG, $AC = CD = 4$ and $DE = EB = 3$ . Notice that in $\\triangle ACB$ , we have $m\\angle BAC + m\\angle ABC = 90^{\\circ}$ . Since $AC = CD$ and $DE = EB$ , we find that $m\\angle DAC = m\\angle ADC$ and $m\\angle DBE = m\\angle BDE$ , so $m\\angle ADC + m\\angle BDE = 90^{\\circ}$ and $\\angle EDC$ is right. Therefore, $CE = 5$ by 3-4-5 triangle, $CB = 8$ and $AB = 4\\sqrt{5}$ . Define point F such that $CF$ is an altitude; we know the area of the whole triangle is $16$ and we know the hypotenuse is $4\\sqrt{5}$ , so $CF = \\frac{16}{4\\sqrt{5}}\\cdot2=\\frac{8}{\\sqrt{5}}$ . By the geometric mean theorem, $x\\left(4\\sqrt{5}-x\\right)=4\\sqrt{5}x-x^{2}=\\left(\\frac{8}{\\sqrt{5}}\\right)^{2}=\\frac{64}{5}$ . Solving the quadratic we get $x=\\frac{10\\sqrt{5}\\pm6\\sqrt{5}}{5}$ , so $x=\\frac{4\\sqrt{5}}{5} or \\frac{16\\sqrt{5}}{5}$ . For now, assume $x=\\frac{4\\sqrt{5}}{5}$ . Then $FB=4\\sqrt{5}-\\frac{4\\sqrt{5}}{5}=\\frac{16\\sqrt{5}}{5}$ . $CF$ splits $AD$ into two parts (quick congruence by Leg-Angle) so $FD = AF = \\frac{4\\sqrt{5}}{5}$ and $DB = FB - FD = \\frac{16\\sqrt{5}}{5}-\\frac{4\\sqrt{5}}{5}=\\frac{12\\sqrt{5}}{5}$ . $AD = 2\\cdot\\frac{4\\sqrt{5}}{5}=\\frac{8\\sqrt{5}}{5}$ . Now we know $AD$ and $DB$ , we can find $\\frac{AD}{DB}=\\frac{\\frac{8\\sqrt{5}}{5}}{\\frac{12\\sqrt{5}}{5}}=\\frac{8\\sqrt{5}}{5}\\cdot\\frac{5}{12\\sqrt{5}}=\\frac{8}{12}=\\frac{2}{3}$ or $\\boxed{\\textbf{(A) } 2:3}$ .\n\nLet $\\angle B=\\theta_1$ , then $\\angle A=90-\\theta_1$ . Since $AC=AD$ , $\\angle ADC=90-\\theta_1$ . Similarly, $\\angle BDE=\\theta_1$ . Then, $\\angle EDC=180-\\theta_1-(90-\\theta_1)=90$ . Therefore $\\bigtriangleup CDE$ is right. Let $AC=CD=4$ and $DE=EB=3$ , then $EC=5$ . Let $\\angle DEC=\\angle ACD=\\theta_2$ . We know that $\\cos \\theta_2=\\frac{3}{5}$ so we can apply the Law of Cosines on $\\bigtriangleup ACD$ to find $AD=\\sqrt{32-32\\cdot{\\frac{3}{5}}}=\\sqrt{\\frac{2}{5}\\cdot{32}} \\Longrightarrow \\frac{8}{\\sqrt{5}}$ . Doing Pythagorean for $BA$ , we get $4\\sqrt{5}$ . Then, $BD=4\\sqrt{5}-\\frac{8}{\\sqrt{5}} \\Longrightarrow \\frac{12}{\\sqrt{5}}$ so the requested ratio is $8:12=\\boxed{\\textbf{(A) } 2:3}$ .\n\n~Magnetoninja"
   },
   {
     "id": "amc10b-2019-17",
@@ -6723,7 +6767,8 @@
     "topics": [
       "Introduction to Probability",
       "Exponent Rules"
-    ]
+    ],
+    "solutionLatex": "By symmetry, the probability of the red ball landing in a higher-numbered bin is the same as the probability of the green ball landing in a higher-numbered bin. Clearly, the probability of both landing in the same bin is $\\sum_{k=1}^{\\infty}{2^{-k} \\cdot 2^{-k}} = \\sum_{k=1}^{\\infty}2^{-2k} = \\frac{1}{3}$ (by the geometric series sum formula). Therefore, since the other two probabilities have to be the same, they have to be $\\frac{1-\\frac{1}{3}}{2} = \\boxed{\\textbf{(C) } \\frac{1}{3}}$ .\n\nNote: the formula is $\\frac{a_{1}}{1-r}$ where $a_{1}$ is the first term and $r$ is the common ratio.\nDerivation of the geometric series sum formula:\nLet $S = S=a_{1}+a_{1}r+a_{1}r^{2}+a_{1}r^{3}+...$ and so on to infinity.\nThen $rS=a_{1}r+a_{1}r^{2}+a_{1}r^{3}+...$ and so on to infinity. Notice that the terms in the second expression are the same as all the terms in the first EXCEPT for $a_{1}$ .\nSubtract $S-rS=a_{1}$ , factor $S\\left(1-r\\right)=a_{1}$ , and finally $S=\\frac{a_{1}}{1-r}$ .\n\nNote: The formula only works if $r<1$ ; otherwise, the series will diverge to infinity or negative infinity.\n~JH. L\n\nSuppose the green ball goes in bin $i$ , for some $i \\ge 1$ . The probability of this occurring is $\\frac{1}{2^i}$ . Given that this occurs, the probability that the red ball goes in a higher-numbered bin is $\\frac{1}{2^{i+1}} + \\frac{1}{2^{i+2}} + \\ldots = \\frac{1}{2^i}$ (by the geometric series sum formula). Thus the probability that the green ball goes in bin $i$ , and the red ball goes in a bin greater than $i$ , is $\\left(\\frac{1}{2^i}\\right)^2 = \\frac{1}{4^i}$ . Summing from $i=1$ to infinity, we get\n\n\\[\\sum_{i=1}^{\\infty} \\frac{1}{4^i} = \\boxed{\\textbf{(C) } \\frac{1}{3}}\\]\nwhere we again used the geometric series sum formula. (Alternatively, if this sum equals $n$ , then by writing out the terms and multiplying both sides by $4$ , we see $4n = n+1$ , which gives $n = \\frac{1}{3}$ .)\n\nFor red ball in bin $k$ , $\\Pr(\\text{Green Below Red})=\\sum\\limits_{i=1}^{k-1}2^{-i}$ (GBR) and $\\Pr(\\text{Red in Bin k}=2^{-k}$ (RB).\n \\[\\Pr(\\text{GBR}|\\text{RB})=\\sum\\limits_{k=1}^{\\infty}2^{-k}\\sum\\limits_{i=1}^{k-1}2^{-i}=\\sum\\limits_{k=1}^{\\infty}2^{-k}\\cdot\\frac{1}{2}(\\frac{1-(1/2)^{k-1}}{1-1/2})\\]\n \\[\\sum\\limits_{k=1}^{\\infty}\\frac{1}{2^{-k}}-2\\sum\\limits_{k=1}^\\infty\\frac{1}{(2^2)^{-k}}\\implies 1-2/3=\\boxed{(\\textbf{C}) \\frac{1}{3}}\\]\n\nThe probability that the two balls will go into adjacent bins is $\\frac{1}{2\\times4} + \\frac{1}{4\\times8} + \\frac{1}{8 \\times 16} + ... = \\frac{1}{8} + \\frac{1}{32} + \\frac{1}{128} + \\cdots = \\frac{1}{6}$ by the geometric series sum formula. Similarly, the probability that the two balls will go into bins that have a distance of $2$ from each other is $\\frac{1}{2 \\times 8} + \\frac{1}{4 \\times 16} + \\frac{1}{8 \\times 32} + \\cdots = \\frac{1}{16} + \\frac{1}{64} + \\frac{1}{256} + \\cdots = \\frac{1}{12}$ (again recognizing a geometric series). We can see that each time we add a bin between the two balls, the probability halves. Thus, our answer is $\\frac{1}{6} + \\frac{1}{12} + \\frac{1}{24} + \\cdots$ , which, by the geometric series sum formula, is $\\boxed{\\textbf{(C) } \\frac{1}{3}}$ .\n-fidgetboss_4000\n\nDefine a win as a ball appearing in higher numbered box.\n\nStart from the first box.\n\nThere are $4$ possible results in the box: Red, Green, Red and Green, or none, with an equal probability of $\\frac{1}{4}$ for each. If none of the balls is in the first box, the game restarts at the second box with the same kind of probability distribution, so if $p$ is the probability that Red wins, we can write $p = \\frac{1}{4} + \\frac{1}{4}p$ : there is a $\\frac{1}{4}$ probability that \"Red\" wins immediately, a $0$ probability in the cases \"Green\" or \"Red and Green\", and in the \"None\" case (which occurs with $\\frac{1}{4}$ probability), we then start again, giving the same probability $p$ . Hence, solving the equation, we get $p = \\boxed{\\textbf{(C) } \\frac{1}{3}}$ .\n\nWrite out the infinite geometric series as $\\frac{1}{2}$ , $\\frac{1}{4}, \\frac{1}{8}, \\frac{1}{16}, \\cdots$ . To find the probablilty that red goes in a higher-numbered bin than green, we can simply remove all odd-index terms (i.e term $1$ , term $3$ , etc.), and then sum the remaining terms - this is in fact precisely equivalent to the method of Solution 2. Writing this out as another infinite geometric sequence, we are left with $\\frac{1}{4}, \\frac{1}{16}, \\frac{1}{64}, \\cdots$ . Summing, we get \\[\\sum_{i=1}^{\\infty} \\frac{1}{4^i} = \\boxed{\\textbf{(C) } \\frac{1}{3}}\\]\n\nFixing the green ball to fall into bin $1$ gives a probability of $\\frac{1}{2}\\left(\\frac{1}{2^2}+\\frac{1}{2^3} +...\\right)$ for the red ball to fall into a higher bin. Fixing the green ball to fall into bin $2$ gives a probability of $\\frac{1}{2^2}\\left(\\frac{1}{2^3}+\\frac{1}{2^4} +...\\right)$ . Factoring out the denominator of the first fraction in each probability gives $\\frac{1}{2^3}\\left(1+\\frac{1}{2}+\\frac{1}{2^2}+...\\right)+\\frac{1}{2^5}\\left(1+\\frac{1}{2}+\\frac{1}{2^2}+...\\right)+...$ so factoring out $\\left(1+\\frac{1}{2}+\\frac{1}{2^2}+\\frac{1}{2^3}+...\\right)$ results in the probability simplifying to $\\left(\\frac{1}{2^3}+\\frac{1}{2^5}+\\frac{1}{2^7}+...\\right)\\left(1+\\frac{1}{2}+\\frac{1}{2^2}+\\frac{1}{2^3}+...\\right)$ and using the formula $\\frac{a}{1-r}$ to find both series, we obtain $\\left(\\frac{\\frac{1}{2^3}}{1-\\frac{1}{4}}\\right)\\left(\\frac{1}{1-\\frac{1}{2}}\\right)$ which simplifies to $\\boxed{\\textbf{(C) } \\frac{1}{3}}$ -- OGBooger\n\nWe can think of this problem as \"what is the probability that the green ball's bin is less than the red ball's bin\". We do not consider the case where the red ball goes into bin $1$ because the green ball has no where to go then. The chance that the green one is below the red one if the red one goes to bin $2$ is $\\frac{1}{4}$ chance that the red ball even goes in bin $2$ and $\\frac{1}{2}$ chance that the green ball goes into any bin less than $2$ . Similarly, if the red goes into bin $3$ , there is a $\\frac{1}{8} \\cdot \\left(\\frac{1}{4} + \\frac{1}{2}\\right)$ chance, or $\\frac{3}{32}$ , continuing like this, we get this sequence:\n\n$\\frac{1}{8}, \\frac{3}{32}, \\frac{7}{128}, ...$\n\nLet $S$ equal the sum of our series:\n\n$S = \\frac{1}{8} + \\frac{3}{32} + \\frac{7}{128} + ...$ . That means we can write another equation:\n $\\frac{S}{4} = \\frac{1}{32} + \\frac{3}{128} + ...$\n\nSubtracting $\\frac{S}{4}$ from $S$ , yields:\n\n$S - \\frac{S}{4} = \\frac{1}{8} + \\frac{2}{32} + \\frac{4}{128} + ...$\n\nWe see that the above series is a infinite geometric sequence with common ratio $\\frac{1}{2}$ . Therefore, the sum of that infinite series is $\\frac{\\frac{1}{8}}{\\frac{1}{2}}$ , which equals $\\frac{1}{4}$ . Our equation is now $S - \\frac{S}{4} = \\frac{1}{4}$ . Solving for $S$ shows that $S = \\frac{1}{3}$ .\n\nOur answer is $\\boxed{\\textbf{(C) }\\frac{1}{3}}$\n\n~ericshi1685\n\nDenote $G,R$ the bin numbers of the green and red balls, respectively. The common probability distribution of $G,B$ can be constructed by keep splitting the remaining unassigned probability into two halves: one goes to the smallest number that has not been assigned, and the other goes to the rest. In other words, $\\Pr(G=k) = \\Pr (G>k), \\forall k \\in \\mathbb{N}$ . Then,\n\n\\[\\Pr(G>R)=\\sum_{k=1}^\\infty \\Pr(G>k) \\Pr(R=k) = \\sum_{k=1}^\\infty \\Pr(G=k) \\Pr(R=k) = \\Pr (G=R)\\]\n\nSimilarly $\\Pr(G. Therefore all three probabilities equal $\\boxed{\\textbf{(C) }\\frac{1}{3}}$ .\n\n~asops\n\nThe probability of the red ball falling ahead of the green ball is the same as the probability of the green ball falling ahead of the red ball. Therefore, if we calculate the probability of the red ball and the green ball falling inside the same box, we get the answer by subtracting that probability from 1. $P(same) = \\left(\\frac{1}{2}\\right)^2 + \\left(\\frac{1}{4}\\right)^2 + \\left(\\frac{1}{8}\\right)^2 + \\cdots = \\frac{1}{4} + \\frac{1}{16} + \\frac{1}{64} = \\frac{1}{3}$ . Therefore, our answer is $\\frac{1-\\frac{1}{3}}{2} = \\boxed{\\frac{1}{3}}$\n\n-NL008\n\nThe probability of the bins is $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\ldots$ . Assuming the green ball falls in bin $1$ , which occurs with probability $\\frac{1}{2}$ , the probability of the red ball falling in a bin higher is also $\\frac{1}{2}$ , as it needs to fall anywhere but the first box, which happens with probability $1 - \\frac{1}{2}$ . Assuming that instead the green ball falls in the second bin, which occurs with probability $\\frac{1}{4}$ , we can see that the probability of the red ball being higher is also $\\frac{1}{4}$ , as it needs to fall anywhere but the first two, which happens with probability $1 - \\frac{1}{2} - \\frac{1}{4}$ . This pattern continues, meaning the probability of red being in a box higher than green is $\\frac{1}{2} \\cdot \\frac{1}{2} + \\frac{1}{4} \\cdot \\frac{1}{4} + \\frac{1}{8} \\cdot \\frac{1}{8} + \\ldots = \\frac{1}{4} + \\frac{1}{16} + \\frac{1}{64} + \\ldots = x$ . Factoring out $\\frac{1}{4}$ , we get $\\frac{1}{4}\\left(1 + \\frac{1}{4} + \\frac{1}{16} + \\frac{1}{64} + \\ldots\\right) = x$ . By replacing the sum inside with $x$ as they are equivalent, we get $\\frac{1}{4}\\left(1+x\\right) = x$ , which gets us $x = \\boxed{\\frac{1}{3}}$\n\n~AmyInRetrograde"
   },
   {
     "id": "amc10b-2019-18",
@@ -6743,7 +6788,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_18",
     "topics": [
       "Absolute Value Tricks"
-    ]
+    ],
+    "solutionLatex": "Let the two points that Henry walks in between be $P$ and $Q$ , with $P$ being closer to home. As given in the problem statement, the distances of the points $P$ and $Q$ from his home are $A$ and $B$ respectively. By symmetry, the distance of point $Q$ from the gym is the same as the distance from home to point $P$ .\n\nThus, $A = 2 - B$ .\n\nIn addition, when he walks from point $Q$ to home, he walks $\\frac{3}{4}$ of the distance, ending at point $P$ . Therefore, we know that $B - A = \\frac{3}{4}B$ .\n\nBy substituting, we get $B - (2-B) = \\frac{3}{4}\\cdot B$ and we solve to get $B=\\dfrac{8}{5}$ , so $A=2-\\dfrac{8}{5}=\\dfrac{2}{5}$ .\n\n$|A-B|=\\left|\\dfrac{2}{5}-\\dfrac{8}{5} \\right|=\\frac{6}{5}=\\boxed{\\textbf{(C) } 1 \\frac{1}{5}}$ ."
   },
   {
     "id": "amc10b-2019-19",
@@ -6763,7 +6809,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_19",
     "topics": [
       "Divisor Counting"
-    ]
+    ],
+    "solutionLatex": "The prime factorization of $100,000$ is $2^5 \\cdot 5^5$ . Thus, we choose two numbers $2^a5^b$ and $2^c5^d$ where $0 \\le a,b,c,d \\le 5$ and $(a,b) \\neq (c,d)$ , whose product is $2^{a+c}5^{b+d}$ , where $0 \\le a+c \\le 10$ and $0 \\le b+d \\le 10$ .\n\nNotice that this is similar to choosing a divisor of $100,000^2 = 2^{10}5^{10}$ , which has $(10+1)(10+1) = 121$ divisors. However, some of the divisors of $2^{10}5^{10}$ cannot be written as a product of two distinct divisors of $2^5 \\cdot 5^5$ , namely: $1 = 2^05^0$ , $2^{10}5^{10}$ , $2^{10}$ , and $5^{10}$ . The last two cannot be written because the maximum factor of $100,000$ containing only $2$ s or $5$ s (and not both) is only $2^5$ or $5^5$ . Since the factors chosen must be distinct, the last two numbers cannot be written because they would require $2^5 \\cdot 2^5$ or $5^5 \\cdot 5^5$ . The first two would require $1 \\cdot 1$ and $2^{5}5^{5} \\cdot 2^{5}5^{5}$ , respectively. This gives $121-4 = 117$ candidate numbers. It is not too hard to show that every number of the form $2^p5^q$ , where $0 \\le p, q \\le 10$ , and $p,q$ are not both $0$ or $10$ , can be written as a product of two distinct elements in $S$ . Hence the answer is $\\boxed{\\textbf{(C) } 117}$ .\n\n~hashbrown2009 (revised and fully updated)"
   },
   {
     "id": "amc10b-2019-20",
@@ -6786,7 +6833,8 @@
       "Circle Tangents",
       "Simplifying Radicals",
       "Circle Angles"
-    ]
+    ],
+    "solutionLatex": "This solution is essentially the same, but is much more clear and easier to understand, than Solution 2. I will TeX this at a later time, but if anyone wants to help in the mean time, please do -- thanks!!\n\n$10b20.png$\n\n~mathboy282"
   },
   {
     "id": "amc10b-2019-21",
@@ -6807,7 +6855,8 @@
     "topics": [
       "Introduction to Probability",
       "Permutations"
-    ]
+    ],
+    "solutionLatex": "We first want to find out which sequences of coin flips satisfy the given condition. For Debra to see the second tail before the second head, her first flip can't be heads, as that would mean she would either end with double tails before seeing the second head, or would see two heads before she sees two tails. Therefore, her first flip must be tails. The shortest sequence of flips by which she can get two heads in a row and see the second tail before she sees the second head is $THTHH$ , which has a probability of $\\frac{1}{2^5} = \\frac{1}{32}$ . Furthermore, she can prolong her coin flipping by adding an extra $TH$ , which itself has a probability of $\\frac{1}{2^2} = \\frac{1}{4}$ . Since she can do this indefinitely, this gives an infinite geometric series with a first term of $\\frac{1}{32}$ and a common ratio of $\\frac{1}{4}$ , which means the answer (by the infinite geometric series sum formula) is $\\frac{\\frac{1}{32}}{1-\\frac{1}{4}} = \\boxed{\\textbf{(B) }\\frac{1}{24}}$ .\n\nYou have $THT$ ...(insert any # of pairs of HT)...HH. You could have $0$ pairs, $1$ pair, $2$ pairs, etc. of HT. Thus the probability is $(\\frac{1}{2})^0+(\\frac{1}{2})^2+(\\frac{1}{2})^4+...=\\frac{1}{(1-(\\frac{1}{2})^2)}=4/3$ . number of ways to get $THT...HH$ in that order is $\\frac{1}{8} * \\frac{1}{4}$ . Thus your probability is $\\frac{1}{8} * \\frac{4}{3} * \\frac{1}{4} = \\frac{1}{24}$ as desired\n\n~mathboy282\n\n~minor LaTeX edits by turttheturtlez"
   },
   {
     "id": "amc10b-2019-22",
@@ -6829,7 +6878,8 @@
       "Introduction to Probability",
       "System of Equations",
       "Combinations"
-    ]
+    ],
+    "solutionLatex": "On the first turn, each player starts off with $$1$ . Each turn after that, there are only two possibilities: either everyone stays at $$1$ , which we will write as $(1-1-1)$ , or the distribution of money becomes $$2-$1-$0$ in some order, which we write as $(2-1-0)$ . ( $(3-0-0)$ cannot be achieved since either(1)the person cannot give money to himself or (2)there are a maximum of 2 dollars being distributed and the person has nothing to start with). We will consider these two states separately.\n\nIn the $(1-1-1)$ state, each person has two choices for whom to give their dollar to, meaning there are $2^3=8$ possible ways that the money can be rearranged. Note that there are only two ways that we can reach $(1-1-1)$ again:\n\n1. Raashan gives his money to Sylvia, who gives her money to Ted, who gives his money to Raashan.\n\n2. Raashan gives his money to Ted, who gives his money to Sylvia, who gives her money to Raashan.\n\nThus, the probability of staying in the $(1-1-1)$ state is $\\frac{1}{4}$ , while the probability of going to the $(2-1-0)$ state is $\\frac{3}{4}$ (we can check that the 6 other possibilities lead to $(2-1-0)$ ).\n\nIn the $(2-1-0)$ state, we will label the person with $$2$ as person A, the person with $$1$ as person B, and the person with $$0$ as person C. Person A has two options for whom to give money to, and person B has 2 options for whom to give money to, meaning there are total $2\\cdot 2 = 4$ ways the money can be redistributed. The only way that the distribution can return to $(1-1-1)$ is if A gives $$1$ to B, and B gives $$1$ to C. We check the other possibilities to find that they all lead back to $(2-1-0)$ . Thus, the probability of going to the $(1-1-1)$ state is $\\frac{1}{4}$ , while the probability of staying in the $(2-1-0)$ state is $\\frac{3}{4}$ .\n\nNo matter which state we are in, the probability of going to the $(1-1-1)$ state is always $\\frac{1}{4}$ . This means that, after the bell rings 2018 times, regardless of what state the money distribution is in, there is a $\\frac{1}{4}$ probability of going to the $(1-1-1)$ state after the 2019th bell ring. Thus, our answer is simply $\\boxed{\\textbf{(B) } \\frac{1}{4}}$ ."
   },
   {
     "id": "amc10b-2019-23",
@@ -6850,7 +6900,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "First, observe that the two tangent lines are of identical length. Therefore, supposing that the point of intersection is $(x, 0)$ , the Pythagorean Theorem gives $\\sqrt{(x-6)^2 + 13^2} = \\sqrt{(x-12)^2 + 11^2}$ . This simplifies to $x = 5$ .\n\nFurther, notice (due to the right angles formed by a radius and its tangent line) that the quadrilateral (a kite) $AOBX$ is cyclic.\n\nTherefore, we can apply Ptolemy's Theorem to give:\n\n$2\\sqrt{170}r = d \\sqrt{40}$ , where $r$ is the radius of the circle and $d$ is the distance between the circle's center and $(5, 0)$ . Therefore, $d = \\sqrt{17}r$ .\n\nUsing the Pythagorean Theorem on the right triangle $OAX$ (or $OBX$ ), we find that $170 + r^2 = 17r^2$ , so $r^2 = \\frac{85}{8}$ , and thus the area of the circle is $\\boxed{\\textbf{(C) }\\frac{85}{8}\\pi}$ .\n\n$caption$\n\n~BakedPotato66"
   },
   {
     "id": "amc10b-2019-24",
@@ -6873,7 +6924,8 @@
       "Exponent Rules",
       "Sequences and Series",
       "Problem-Solving: Linear Diophantine Equations"
-    ]
+    ],
+    "solutionLatex": "We first prove that $x_n > 4$ for all $n \\ge 0$ , by induction. Observe that\n \\[x_{n+1} - 4 = \\frac{x_n^2 + 5x_n + 4 - 4(x_n+6)}{x_n+6} = \\frac{(x_n - 4)(x_n+5)}{x_n+6}.\\]\nso (since $x_n$ is clearly positive for all $n$ , from the initial definition), $x_{n+1} > 4$ if and only if $x_{n} > 4$ .\n\nWe similarly prove that $x_n$ is decreasing:\n \\[x_{n+1} - x_n = \\frac{x_n^2 + 5x_n + 4 - x_n(x_n+6)}{x_n+6} = \\frac{4-x_n}{x_n+6} < 0.\\]\n\nNow we need to estimate the value of $x_{n+1}-4$ , which we can do using the rearranged equation:\n \\[x_{n+1} - 4 = (x_n-4)\\cdot\\frac{x_n + 5}{x_n+6}.\\]\nSince $x_n$ is decreasing, $\\frac{x_n + 5}{x_n+6}$ is also decreasing, so we have\n \\[\\frac{9}{10} < \\frac{x_n + 5}{x_n+6} \\le \\frac{10}{11}\\]\nand\n \\[\\frac{9}{10}(x_n-4) < x_{n+1} - 4 \\le \\frac{10}{11}(x_n-4).\\]\n\nThis becomes\n \\[\\left(\\frac{9}{10}\\right)^n = \\left(\\frac{9}{10}\\right)^n \\left(x_0-4\\right) < x_{n} - 4 \\le \\left(\\frac{10}{11}\\right)^n \\left(x_0-4\\right) = \\left(\\frac{10}{11}\\right)^n.\\]\nThe problem thus reduces to finding the least value of $n$ such that\n \\[\\left(\\frac{9}{10}\\right)^n < x_{n} - 4 \\le \\frac{1}{2^{20}} \\text{ and } \\left(\\frac{10}{11}\\right)^{n-1} > x_{n-1} - 4 > \\frac{1}{2^{20}}.\\]\n\nTaking logarithms, we get\n $n \\ln \\frac{9}{10} < -20 \\ln 2$ and $(n-1)\\ln \\frac{10}{11} > -20 \\ln 2$ , i.e.\n\n\\[n > \\frac{20\\ln 2}{\\ln\\frac{10}{9}} \\text{ and } n-1 < \\frac{20\\ln 2}{\\ln\\frac{11}{10}} .\\]\n\nAs approximations, we can use $\\ln\\frac{10}{9} \\approx \\frac{1}{9}$ , $\\ln\\frac{11}{10} \\approx \\frac{1}{10}$ , and $\\ln 2\\approx 0.7$ . These approximations allow us to estimate\n \\[126 < n < 141,\\]\nwhich gives $\\boxed{\\textbf{(C) } [81,242]}$ ."
   },
   {
     "id": "amc10b-2019-25",
@@ -6893,7 +6945,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_25",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "Let $f(n)$ be the number of valid sequences of length $n$ (satisfying the conditions given in the problem).\n\nWe know our valid sequence must end in a $0$ . Then, since we cannot have two consecutive $0$ s, it must end in a $10$ . Now, we only have two cases: it ends with $010$ , or it ends with $110$ which is equivalent to $0110$ . Thus, our sequence must be of the forms $0\\ldots010$ or $0\\ldots0110$ . In the first case, the first $n-2$ digits are equivalent to a valid sequence of length $n-2$ . In the second, the first $n-3$ digits are equivalent to a valid sequence of length $n-3$ . Therefore, it must be the case that $f(n) = f(n-3) + f(n-2)$ , with $n \\ge 3$ (because otherwise, the sequence would contain only 0s and this is not allowed due to the given conditions).\n\nIt is easy to find $f(3) = 1$ since the only possible valid sequence is $010$ . $f(4)=1$ since the only possible valid sequence is $0110$ . $f(5)=1$ since the only possible valid sequence is $01010$ .\n\nThe recursive sequence is then as follows:\n\n\\[f(3)=1\\]\n \\[f(4)=1\\]\n \\[f(5) = 1\\]\n \\[f(6) = 1 + 1 = 2\\]\n \\[f(7) = 1 + 1 = 2\\]\n \\[f(8) = 1 + 2 = 3\\]\n \\[f(9) = 2 + 2 = 4\\]\n \\[f(10) = 2 + 3 = 5\\]\n \\[f(11) = 3 + 4 = 7\\]\n \\[f(12) = 4 + 5 = 9\\]\n \\[f(13) = 5 + 7 = 12\\]\n \\[f(14) = 7 + 9 = 16\\]\n \\[f(15) = 9 + 12 = 21\\]\n \\[f(16) = 12 + 16 = 28\\]\n \\[f(17) = 16 + 21 = 37\\]\n \\[f(18) = 21 + 28 = 49\\]\n \\[f(19) = 28 + 37 = 65\\]\n\nSo, our answer is $\\boxed{\\text{\\bf{(C)} } 65}$ .\n\nContributors:\n\n~Original Author\n\n~solasky\n\n~BakedPotato66\n\n~CrazyVideoGamez"
   },
   {
     "id": "amc10a-2018-1",
@@ -6913,7 +6966,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_1",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "For all nonzero numbers $a,$ recall that $a^{-1}=\\frac1a$ is the reciprocal of $a.$\n\nThe original expression becomes\n$\\begin{align*} \\left(\\left((2+1)^{-1}+1\\right)^{-1}+1\\right)^{-1}+1 &= \\left(\\left(3^{-1}+1\\right)^{-1}+1\\right)^{-1}+1 \\\\ &= \\left(\\left(\\frac13+1\\right)^{-1}+1\\right)^{-1}+1 \\\\ &= \\left(\\left(\\frac43\\right)^{-1}+1\\right)^{-1}+1 \\\\ &= \\left(\\frac34+1\\right)^{-1}+1 \\\\ &= \\left(\\frac74\\right)^{-1}+1 \\\\ &= \\frac47+1 \\\\ &= \\boxed{\\textbf{(B) }\\frac{11}7}. \\end{align*}$\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2018-2",
@@ -6927,7 +6981,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_2",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "Let's assume that Jacqueline has $1$ gallon(s) of soda. Then Alice has $1.25$ gallons and Liliane has $1.5$ gallons. Doing division, we find out that $\\frac{1.5}{1.25}=1.2$ , which means that Liliane has $20\\%$ more soda. Therefore, the answer is $\\boxed{\\textbf{(A)}}$ ."
   },
   {
     "id": "amc10a-2018-3",
@@ -6947,7 +7002,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_3",
     "topics": [
       "Factorial"
-    ]
+    ],
+    "solutionLatex": "The problem says there are $10! = 10\\cdot 9\\cdot 8\\cdot 7\\cdot 6\\cdot 5\\cdot 4\\cdot 3\\cdot 2\\cdot 1$ seconds.\nConvert $10!$ seconds to minutes by dividing by $60$ : $9\\cdot 8\\cdot 7\\cdot 5\\cdot 4\\cdot 3\\cdot 2$ minutes.\nConvert minutes to hours by dividing by $60$ again: $9\\cdot 8\\cdot 7\\cdot 2$ hours.\nConvert hours to days by dividing by $24$ : $3\\cdot 7\\cdot 2 = 42$ days.\n\nNow we need to count $42$ days after January 1. Since we start on Jan. 1, then we can't count that as a day itself. When we reach Jan. 31(The end of the month), we only have counted 30 days. $42 - 30 = 12$ . Count $12$ more days, resulting in $\\fbox{\\textbf{(E) }\\text{February 12}}$ .\n\n~nosysnow ~Max0815"
   },
   {
     "id": "amc10a-2018-4",
@@ -6968,7 +7024,8 @@
     "topics": [
       "Fundamental Counting Principle",
       "Constructive Counting"
-    ]
+    ],
+    "solutionLatex": "We must place the classes into the periods such that no two classes are in the same period or in consecutive periods.\n\nIgnoring distinguishability, we can thus list out the ways that three periods can be chosen for the classes when periods cannot be consecutive:\n\nPeriods $1, 3, 5$\n\nPeriods $1, 3, 6$\n\nPeriods $1, 4, 6$\n\nPeriods $2, 4, 6$\n\nThere are $4$ ways to place $3$ non distinguishable classes into $6$ periods such that no two classes are in consecutive periods. For each of these ways, there are $3! = 6$ orderings of the classes among themselves.\n\nTherefore, there are $4 \\cdot 6 = \\boxed{\\textbf{(E) } 24}$ ways to choose the classes.\n\n-Versailles15625"
   },
   {
     "id": "amc10a-2018-5",
@@ -6988,7 +7045,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_5",
     "topics": [
       "Distance, Rate, Time"
-    ]
+    ],
+    "solutionLatex": "For each of the false statements, we identify its corresponding true statement. Note that:\n\n$\\mathrm{False}\\cap\\mathrm{True}=\\varnothing.$\n $\\mathrm{False}\\cup\\mathrm{True}=[0,\\infty).$\n\nWe construct the following table:\n \\[\\begin{array}{c||c|c} & & \\\\ [-2.5ex] \\textbf{Hiker} & \\textbf{False Statement} & \\textbf{True Statement} \\\\ [0.5ex] \\hline & & \\\\ [-2ex] \\textbf{Alice} & [6,\\infty) & [0,6) \\\\ & & \\\\ [-2.25ex] \\textbf{Bob} & [0,5] & (5,\\infty) \\\\ & & \\\\ [-2.25ex] \\textbf{Charlie} & [0,4] & (4,\\infty) \\end{array}\\]\nTaking the intersection of the true statements, we have \\[[0,6)\\cap(5,\\infty)\\cap(4,\\infty)=(5,6)\\cap(4,\\infty)=\\boxed{\\textbf{(D) } (5,6)}.\\]\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2018-6",
@@ -7008,7 +7066,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_6",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "If $65\\%$ of the votes were likes, then $35\\%$ of the votes were dislikes. $65\\%-35\\%=30\\%$ , so $90$ votes is $30\\%$ of the total number of votes. Doing quick arithmetic shows that the answer is $\\boxed{\\textbf{(B) } 300}$ ."
   },
   {
     "id": "amc10a-2018-7",
@@ -7028,7 +7087,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_7",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "Note that \\[4000\\cdot \\left(\\frac{2}{5}\\right)^n=\\left(2^5\\cdot5^3\\right)\\cdot \\left(2\\cdot5^{-1}\\right)^n=2^{5+n}\\cdot5^{3-n}.\\]\nSince this expression is an integer, we need:\n\n$5+n\\geq0,$ from which $n\\geq-5.$\n $3-n\\geq0,$ from which $n\\leq3.$\n\nTaking the intersection gives $-5\\leq n\\leq3.$ So, there are $3-(-5)+1=\\boxed{\\textbf{(E) }9}$ integer values of $n.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10a-2018-8",
@@ -7048,7 +7108,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_8",
     "topics": [
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "Let $x$ be the number of $5$ -cent coins that Joe has. Therefore, he must have $(x+3) \\ 10$ -cent coins and $(23-(x+3)-x) \\ 25$ -cent coins. Since the total value of his collection is $320$ cents, we can write\n$\\begin{align*} 5x + 10(x+3) + 25(23-(x+3)-x) &= 320 \\\\ 5x + 10x + 30 + 500 - 50x &= 320 \\\\ 35x &= 210 \\\\ x &= 6. \\end{align*}$\nJoe has six $5$ -cent coins, nine $10$ -cent coins, and eight $25$ -cent coins. Thus, our answer is\n $8-6 = \\boxed{\\textbf{(C) } 2}.$\n\n~Nivek"
   },
   {
     "id": "amc10a-2018-9",
@@ -7071,7 +7132,8 @@
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let $x$ be the area of $ADE$ . Note that $x$ is comprised of the $7$ small isosceles triangles and a triangle similar to $ADE$ with side length ratio $3:4$ (so an area ratio of $9:16$ ). Thus, we have \\[x=7+\\dfrac{9}{16}x.\\] This gives $x=16$ , so the area of $DBCE=40-x=\\boxed{(E) 24}$ ."
   },
   {
     "id": "amc10a-2018-10",
@@ -7091,7 +7153,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_10",
     "topics": [
       "Simplifying Radicals"
-    ]
+    ],
+    "solutionLatex": "We let $a=\\sqrt{49-x^2}+\\sqrt{25-x^2}$ ; in other words, we want to find $a$ . We know that $a\\cdot3=\\left(\\sqrt{49-x^2}+\\sqrt{25-x^2}\\right)\\cdot\\left(\\sqrt{49-x^2}-\\sqrt{25-x^2}\\right)=\\left(\\sqrt{49-x^2}\\right)^2-\\left(\\sqrt{25-x^2}\\right)^2=\\left(49-x^2\\right)-\\left(25-x^2\\right)=24.$ Thus, $a=\\boxed{8}$ .\n\n~Technodoggo\n\nAlternative method:\nLet $a=\\sqrt{49-x^2}+\\sqrt{25-x^2}$ , $b=\\sqrt{49-x^2}-\\sqrt{25-x^2}$ . $a*b=49-x^2 - 25 + x^2 = 24$ . The problem states that $b=3$ , so we get $a = 24 / 3 = 8$ . The answer is $\\boxed{\\textbf{(A) }8}$ .\n\n~SwordAxe"
   },
   {
     "id": "amc10a-2018-11",
@@ -7112,7 +7175,8 @@
     "topics": [
       "Introduction to Probability",
       "Problem-Solving: 3D Geometry"
-    ]
+    ],
+    "solutionLatex": "Add possibilities. There are $3$ ways to sum to $10$ , listed below.\n\n\\[4,1,1,1,1,1,1: \\dbinom{7}{6} = 7\\]\n \\[3,2,1,1,1,1,1: \\dbinom{7}{5}\\dbinom{2}{1} = 42\\]\n \\[2,2,2,1,1,1,1: \\dbinom{7}{4} = 35.\\]\n\nAdd up the possibilities: $35+42+7=\\boxed{\\textbf{(E) } 84}$ .\n\nRolling a sum of $10$ with 7 dice can be represented with stars and bars, with 10 stars and 6 bars. Each star represents one of the dots on the dices' faces and the bars represent separation between different dice. However, we must note that each die must have at least one dot on a face, so there must already be 7 stars predetermined. We are left with 3 stars and 6 bars, which we can rearrange in $\\dbinom{9}{3}=\\boxed{\\textbf{(E) } 84}$\n\nWe can use generating functions, where $(x+x^2+...+x^6)$ is the function for each die. We want to find the coefficient of $x^{10}$ in $(x+x^2+...+x^6)^7$ , which is the coefficient of $x^3$ in $\\left(\\frac{1-x^7}{1-x}\\right)^7$ . This evaluates to $\\dbinom{-7}{3} \\cdot (-1)^3=\\boxed{\\textbf{(E) }84}$\n\nIf we let each number take its minimum value of 1, we will get 7 as the minimum sum. So we can do $10$ - $7$ = $3$ to find the number of balls we need to distribute to get three more added to the minimum to get 10, so the problem is asking how many ways can you put $3$ balls into $7$ boxes. From there we get $\\binom{7+3-1}{7-1}=\\binom{9}{6}=\\boxed{\\textbf{(E) }84}$\n\nWe can use number separation for this problem. If we set each of the dice value to $D\\{a, b, c, d, e, f, g, h\\}$ , we can say\n $D = 10$ and each of $D$ 's elements are larger than $0$ . Using the positive number separation formula, which is $\\dbinom{n-1}{r-1}$ , we can make the following equations.\n$\\begin{align*} D &= 10 \\\\ a+b+c+d+e+f+g &= 10 \\\\ \\dbinom{10-1}{7-1} &= \\\\ \\dbinom{9}{6} &= \\\\ \\dbinom{9}{3} &= \\\\ \\dfrac{9 \\cdot 8 \\cdot 7}{3 \\cdot 2 \\cdot 1} &= \\\\ 12 \\cdot 7 &= \\boxed{\\textbf{(E) }84} \\\\ \\end{align*}$\n\nNote: We are unable to use non-negative number separations due to the fact that the dice *must* be larger than $0$ or positive.\n\n~ Wiselion =)"
   },
   {
     "id": "amc10a-2018-12",
@@ -7133,7 +7197,8 @@
     "topics": [
       "System of Equations",
       "Absolute Value Tricks"
-    ]
+    ],
+    "solutionLatex": "We can solve this by graphing the equations. The second equation looks challenging to graph, but start by graphing it in the first quadrant only (which is easy since the inner absolute value signs can be ignored), then simply reflect that graph into the other quadrants.\n\nThe graph looks something like this:\n[[img:https://latex.artofproblemsolving.com/3/0/5/305e6f8f4c7a9e170253eeb9b7d6c41df6dace78.png]]\nNow, it becomes clear that there are $\\boxed{\\textbf{(C) } 3}$ intersection points.\n\n(not the author)(the lines in the first quadrant are y=x+1 and y=x-1 and we reflect them into all quadrants as all instances of variables are in a context where flipping the sign does not affect the overall expression)"
   },
   {
     "id": "amc10a-2018-13",
@@ -7153,7 +7218,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_13",
     "topics": [
       "Length Chasing"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/8/2/a/82a68aa31b9e41e7d870e335dde8ac2ebc415639.png]]\n\nFirst, we need to realize that the crease line is just the perpendicular bisector of side $AB$ , the hypotenuse of right triangle $\\triangle ABC$ . Call the midpoint of $AB$ point $D$ . Draw this line and call the intersection point with $AC$ as $E$ . Now, $\\triangle ACB$ is similar to $\\triangle ADE$ by $AA$ similarity. Setting up the ratios, we find that\n \\[\\frac{BC}{AC}=\\frac{DE}{AD} \\Rightarrow \\frac{3}{4}=\\frac{DE}{\\frac{5}{2}} \\Rightarrow DE=\\frac{15}{8}.\\]\nThus, our answer is $\\boxed{\\textbf{(D) } \\frac{15}{8}}$ .\n\nIn general, whenever we are asked to make a crease, think about that crease as a line of reflection over which the diagram is reflected. This is why the crease must be the perpendicular bisector of $AB$ , because $A$ must be reflected onto $B$ ."
   },
   {
     "id": "amc10a-2018-14",
@@ -7174,7 +7240,8 @@
     "topics": [
       "Exponent Rules",
       "Floor"
-    ]
+    ],
+    "solutionLatex": "We write\n \\[\\frac{3^{100}+2^{100}}{3^{96}+2^{96}}=\\frac{3^{96}}{3^{96}+2^{96}}\\cdot\\frac{3^{100}}{3^{96}}+\\frac{2^{96}}{3^{96}+2^{96}}\\cdot\\frac{2^{100}}{2^{96}}=\\frac{3^{96}}{3^{96}+2^{96}}\\cdot 81+\\frac{2^{96}}{3^{96}+2^{96}}\\cdot 16.\\]\nHence we see that our number is a weighted average of 81 and 16, extremely heavily weighted toward 81. Hence the number is ever so slightly less than 81, so the answer is $\\boxed{\\textbf{(A) }80}$ ."
   },
   {
     "id": "amc10a-2018-15",
@@ -7195,7 +7262,8 @@
     "topics": [
       "Circle Tangents",
       "Problem-Solving: Circle Basics"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/0/f/5/0f5cde9eec57d1be48c64499b92a5ed49bb52b18.png]]\n\nLet the center of the surrounding circle be $X$ . The circle that is tangent at point $A$ will have point $Y$ as the center. Similarly, the circle that is tangent at point $B$ will have point $Z$ as the center. Connect $AB$ , $YZ$ , $XA$ , and $XB$ . Now observe that $\\triangle XYZ$ is similar to $\\triangle XAB$ by SAS.\n\nWriting out the ratios, we get\n \\[\\frac{XY}{XA}=\\frac{YZ}{AB} \\Rightarrow \\frac{13-5}{13}=\\frac{5+5}{AB} \\Rightarrow \\frac{8}{13}=\\frac{10}{AB} \\Rightarrow AB=\\frac{65}{4}.\\]\nTherefore, our answer is $65+4= \\boxed{\\textbf{(D) } 69}$ ."
   },
   {
     "id": "amc10a-2018-16",
@@ -7215,7 +7283,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_16",
     "topics": [
       "Pythagorean theorem"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/0/e/f/0ef5ecee03d86a1f795fcb2c11283dd1a2d4017d.png]]\n\nAs the problem has no diagram, we draw a diagram. The hypotenuse has length $29$ . Let $P$ be the foot of the altitude from $B$ to $AC$ . Note that $BP$ is the shortest possible length of any segment. Writing the area of the triangle in two ways, we can solve for $BP=\\dfrac{20\\cdot 21}{29}$ , which is between $14$ and $15$ .\n\nLet the line segment be $BX$ , with $X$ on $AC$ . As you move $X$ along the hypotenuse from $A$ to $P$ , the length of $BX$ strictly decreases, hitting all the integer values from $20, 19, \\dots 15$ (IVT). Similarly, moving $X$ from $P$ to $C$ hits all the integer values from $15, 16, \\dots, 21$ . This is a total of $\\boxed{(D) 13}$ distinct line segments.\n(asymptote diagram added by elements2015)"
   },
   {
     "id": "amc10a-2018-17",
@@ -7235,7 +7304,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_17",
     "topics": [
       "Divisibility Reasoning"
-    ]
+    ],
+    "solutionLatex": "We start with $2$ because $1$ is not an answer choice. We would have to include every odd number except $1$ to fill out the set, but then $3$ and $9$ would violate the rule, so that won't work.\n\nExperimentation with $3$ shows it's likewise impossible. You can include $7,11,$ and either $5$ or $10$ (which are always safe). But after adding either $4$ or $8$ we have no more valid numbers.\n\nFinally, starting with $4,$ we find that the sequence $4,5,6,7,9,11$ works, giving us $\\boxed{\\textbf{(C)}\\ 4}.$"
   },
   {
     "id": "amc10a-2018-18",
@@ -7256,7 +7326,8 @@
     "topics": [
       "Linear Inequalities",
       "Problem-Solving: Linear Diophantine Equations"
-    ]
+    ],
+    "solutionLatex": "This looks like balanced ternary, in which all the integers with absolute values less than $\\frac{3^n}{2}$ are represented in $n$ digits. There are 8 digits. Plugging in 8 into the formula for the balanced ternary gives a maximum bound of $|x|=3280.5$ , which means there are 3280 positive integers, 0, and 3280 negative integers. Since we want all nonnegative integers, there are $3280+1=\\boxed{3281}$ integers or $\\boxed{\\textbf{D}}$ ."
   },
   {
     "id": "amc10a-2018-19",
@@ -7279,7 +7350,8 @@
       "Digit Problems",
       "Finding the Last Digit",
       "100x + 10y + z"
-    ]
+    ],
+    "solutionLatex": "Since we only care about the units digit, our set $\\{11,13,15,17,19 \\}$ can be turned into $\\{1,3,5,7,9 \\}$ . Call this set $A$ and call $\\{1999, 2000, 2001, \\cdots , 2018 \\}$ set $B$ . Let's do casework on the element of $A$ that we choose. Since $1\\cdot 1=1$ , any number from $B$ can be paired with $1$ to make $1^n$ have a units digit of $1$ . Therefore, the probability of this case happening is $\\frac{1}{5}$ since there is a $\\frac{1}{5}$ chance that the number $1$ is selected from $A$ . Let us consider the case where the number $3$ is selected from $A$ . Let's look at the unit digit when we repeatedly multiply the number $3$ by itself:\n \\[3\\cdot 3=9\\]\n \\[9\\cdot 3=7\\]\n \\[7\\cdot 3=1\\]\n \\[1\\cdot 3=3\\]\nWe see that the unit digit of $3^x$ , for some integer $x$ , will only be $1$ when $x$ is a multiple of $4$ . Now, let's count how many numbers in $B$ are divisible by $4$ . This can be done by simply listing:\n \\[2000,2004,2008,2012,2016.\\]\nThere are $5$ numbers in $B$ divisible by $4$ out of the $2018-1999+1=20$ total numbers. Therefore, the probability that $3$ is picked from $A$ and a number divisible by $4$ is picked from $B$ is $\\frac{1}{5}\\cdot \\frac{5}{20}=\\frac{1}{20}.$\nSimilarly, we can look at the repeating units digit for $7$ :\n \\[7\\cdot 7=9\\]\n \\[9\\cdot 7=3\\]\n \\[3\\cdot 7=1\\]\n \\[1\\cdot 7=7\\]\nWe see that the unit digit of $7^y$ , for some integer $y$ , will only be $1$ when $y$ is a multiple of $4$ . This is exactly the same conditions as our last case with $3$ so the probability of this case is also $\\frac{1}{20}$ .\nSince $5\\cdot 5=25$ and $25$ ends in $5$ , the units digit of $5^w$ , for some integer, $w$ will always be $5$ . Thus, the probability in this case is $0$ .\nThe last case we need to consider is when the number $9$ is chosen from $A$ . This happens with probability $\\frac{1}{5}.$ We list out the repeating units digit for $9$ as we have done for $3$ and $7$ :\n \\[9\\cdot 9=1\\]\n \\[1\\cdot 9=9\\]\nWe see that the units digit of $9^z$ , for some integer $z$ , is $1$ only when $z$ is an even number. From the $20$ numbers in $B$ , we see that exactly half of them are even. The probability in this case is $\\frac{1}{5}\\cdot \\frac{1}{2}=\\frac{1}{10}.$\nFinally, we can add all of our probabilities together to get\n \\[\\frac{1}{5}+\\frac{1}{20}+\\frac{1}{20}+\\frac{1}{10}=\\boxed{\\textbf{(E)} ~\\frac{2}{5}}.\\]\n\n~Nivek\n\n~very minor edits by virjoy2001"
   },
   {
     "id": "amc10a-2018-20",
@@ -7301,7 +7373,8 @@
       "Complementary Counting",
       "Divisibility Reasoning",
       "Symmetry"
-    ]
+    ],
+    "solutionLatex": "Draw a $7 \\times 7$ square.\n\n\\[\\begin{tabular}{|c|c|c|c|c|c|c|} \\hline K & J & H & G & H & J & K \\\\ \\hline J & F & E & D & E & F & J \\\\ \\hline H & E & C & B & C & E & H \\\\ \\hline G & D & B & A & B & D & G \\\\ \\hline H & E & C & B & C & E & H \\\\ \\hline J & F & E & D & E & F & J \\\\ \\hline K & J & H & G & H & J & K \\\\ \\hline \\end{tabular}\\]\n\nStart from the center and label all protruding cells symmetrically. (Note that \"I\" is left out of this labelling, so there are only 10 labels, not 11, as ending in K would suggest!)\n\nMore specifically, since there are $4$ given lines of symmetry ( $2$ diagonals, $1$ vertical, $1$ horizontal) and they split the plot into $8$ equivalent sections, we can take just one-eighth and study it in particular. Each of these sections has $10$ distinct sub-squares, whether partially or in full. So since each can be colored either white or black, we choose $2^{10}=1024$ but then subtract the $2$ cases where all are white or all are black. That leaves us with $\\fbox{\\textbf{(B)} \\text{ 1022}}$ .\n\nThere are only ten squares we get to actually choose, and two independent choices for each, for a total of $2^{10} = 1024$ codes. Two codes must be subtracted (due to the rule that there must be at least one square of each color) for an answer of $\\fbox{\\textbf{(B) }1022}$ .\n\nNote that this problem is very similar to the 1996 AIME Problem 7 https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_7."
   },
   {
     "id": "amc10a-2018-21",
