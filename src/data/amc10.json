@@ -3274,7 +3274,8 @@
     "topics": [
       "Mean Median Mode",
       "Introduction to Probability"
-    ]
+    ],
+    "solutionLatex": "The formula for expected values is \\[\\text{Expected Value}=\\sum(\\text{Outcome}\\cdot\\text{Probability}).\\]\nWe have\n$\\begin{align*} t &= 50\\cdot\\frac15 + 20\\cdot\\frac15 + 20\\cdot\\frac15 + 5\\cdot\\frac15 + 5\\cdot\\frac15 \\\\ &= (50+20+20+5+5)\\cdot\\frac15 \\\\ &= 100\\cdot\\frac15 \\\\ &= 20, \\\\ s &= 50\\cdot\\frac{50}{100} + 20\\cdot\\frac{20}{100} + 20\\cdot\\frac{20}{100} + 5\\cdot\\frac{5}{100} + 5\\cdot\\frac{5}{100} \\\\ &= 25 + 4 + 4 + 0.25 + 0.25 \\\\ &= 33.5. \\end{align*}$\nTherefore, the answer is $t-s=\\boxed{\\textbf{(B)}\\ {-}13.5}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10afall-2021-12",
