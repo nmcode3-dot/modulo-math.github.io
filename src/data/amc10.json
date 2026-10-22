@@ -5390,7 +5390,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_3",
     "topics": [
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "We have \\[\\frac wy = \\frac wx \\cdot \\frac xz \\cdot \\frac zy = \\frac43\\cdot\\frac61\\cdot\\frac23=\\frac{16}{3},\\] from which $w:y=\\boxed{\\textbf{(E)}\\ 16:3}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10b-2020-4",
