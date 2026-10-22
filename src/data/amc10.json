@@ -3098,7 +3098,8 @@
       "Functions - f(x) Notation",
       "Absolute Value Tricks",
       "Functional Equations"
-    ]
+    ],
+    "solutionLatex": "We have\n$\\begin{align*} |f(f(800))-f(f(400))| &\\leq \\frac12|f(800)-f(400)| &&(\\bigstar) \\\\ &\\leq \\frac12\\left|\\frac12|800-400|\\right| \\\\ &= 100, \\end{align*}$\nfrom which we eliminate answer choices $\\textbf{(D)}$ and $\\textbf{(E)}.$\n\nNote that\n$\\begin{alignat*}{8} |f(800)-f(300)| &\\leq \\frac12|800-300| &&= 250, \\\\ |f(800)-f(900)| &\\leq \\frac12|800-900| &&= 50, \\\\ |f(400)-f(300)| &\\leq \\frac12|400-300| &&= 50, \\\\ |f(400)-f(900)| &\\leq \\frac12|400-900| &&= 250. \\\\ \\end{alignat*}$\nLet $a=f(300)=f(900).$ Together, it follows that\n$\\begin{align*} |f(800)-a|&\\leq 50, \\\\ |f(400)-a|&\\leq 50. \\\\ \\end{align*}$\nWe rewrite $(\\bigstar)$ as\n$\\begin{align*} |f(f(800))-f(f(400))| &\\leq \\frac12|f(800)-f(400)| \\\\ &= \\frac12|(f(800)-a)-(f(400)-a)| \\\\ &\\leq \\frac12|50-(-50)| \\\\ &=\\boxed{\\textbf{(B)}\\ 50}. \\end{align*}$\n~MRENTHUSIASM"
   },
   {
     "id": "amc10b-2022-25",
@@ -3119,7 +3120,8 @@
     "topics": [
       "Modular Arithmetic",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "In binary numbers, we have \\[S_n = (x_{n-1} x_{n-2} x_{n-3} x_{n-4} \\ldots x_{2} x_{1} x_{0})_2.\\]\nIt follows that \\[8S_n = (x_{n-1} x_{n-2} x_{n-3} x_{n-4} \\ldots x_{2} x_{1} x_{0}000)_2.\\]\nWe obtain $7S_n$ by subtracting the equations:\n \\[\\begin{array}{clccrccccccr} & (x_{n-1} & x_{n-2} & x_{n-3} & x_{n-4} & \\ldots & x_2 & x_1 & x_0 & 0 & 0 & 0 \\ )_2 \\\\ -\\quad & & & & (x_{n-1} & \\ldots & x_5 & x_4 & x_3 & x_2 & x_1 & x_0)_2 \\\\ \\hline & & & & & & & & & & & \\\\ [-2.5ex] & ( \\ \\ ?& ? & ? & 0 \\ \\ \\ & \\ldots & 0 & 0 & 0 & 0 & 0 & 1 \\ )_2 \\\\ \\end{array}\\]\nWe work from right to left:\n$\\begin{alignat*}{6} x_0=x_1=x_2=1 \\quad &\\implies \\quad &x_3 &= 0& \\\\ \\quad &\\implies \\quad &x_4 &= 1& \\\\ \\quad &\\implies \\quad &x_5 &= 1& \\\\ \\quad &\\implies \\quad &x_6 &= 0& \\\\ \\quad &\\implies \\quad &x_7 &= 1& \\\\ \\quad &\\implies \\quad &x_8 &= 1& \\\\ \\quad &\\quad \\vdots & & & \\end{alignat*}$\nFor all $n\\geq3,$ we conclude that\n\n$x_n=0$ if and only if $n\\equiv 0\\pmod{3}.$\n\n$x_n=1$ if and only if $n\\not\\equiv 0\\pmod{3}.$\n\nFinally, we get $(x_{2019},x_{2020},x_{2021},x_{2022})=(0,1,1,0),$ from which \\[x_{2019} + 2x_{2020} + 4x_{2021} + 8x_{2022} = \\boxed{\\textbf{(A) } 6}.\\]\n~Steven Chen (Professor Chen Education Palace, www.professorchenedu.com)\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10afall-2021-1",
