@@ -3051,7 +3051,8 @@
     "topics": [
       "Circle Tangents",
       "Area by Coordinates"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/1/4/4/1449e0177cbfede22b42db992e651c5ef90b438b.png]]\nThe circles match up as follows: Case $1$ is brown, Case $2$ is blue, Case $3$ is green, and Case 4 is red.\nLet $x^2 + y^2 = 64$ be circle $O$ , $x^2 + y^2 = 4$ be circle $P$ , and $(x-5)^2 + y^2 = 3$ be circle $Q$ .\nAll the circles in S are internally tangent to circle $O$ .\nThere are four cases with two circles belonging to each:\n\n$*$ $P$ and $Q$ are internally tangent to $S$ .\n\n$*$ $P$ and $Q$ are externally tangent to $S$ .\n\n$*$ $P$ is externally and Circle $Q$ is internally tangent to $S$ .\n\n$*$ $P$ is internally and Circle $Q$ is externally tangent to $S$ .\n\nConsider Cases $1$ and $4$ together. Since circles $O$ and $P$ have the same center, the line connecting the center of $S$ and the center of $O$ will pass through the tangency point of both $S$ and $O$ and the tangency point of $S$ and $P$ . This line will be the diameter of $S$ and have length $r_P + r_O = 10$ . Therefore the radius of $S$ in these cases is $5$ .\n\nConsider Cases $2$ and $3$ together. Similarly to Cases $1$ and $4$ , the line connecting the center of $S$ to the center of $O$ will pass through the tangency points. This time, however, the diameter of $S$ will have length $r_P-r_O=6$ . Therefore, the radius of $S$ in these cases is $3$ .\n\nThe set of circles $S$ consists of $8$ circles - $4$ of which have radius $5$ and $4$ of which have radius $3$ .\nThe total area of all circles in $S$ is $4(5^2\\pi + 3^2\\pi) = 136\\pi \\Rightarrow \\boxed{\\textbf{(E)}}$ .\n\n-naman12"
   },
   {
     "id": "amc10b-2022-23",
