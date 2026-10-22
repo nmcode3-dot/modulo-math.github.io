@@ -5433,7 +5433,8 @@
     "topics": [
       "Permutations",
       "Permutations with Repeated Elements"
-    ]
+    ],
+    "solutionLatex": "Let's first find how many possibilities there would be if they were all distinguishable, then divide out the ones we overcounted.\n\nThere are $7!$ ways to order $7$ objects. However, since there's $3!=6$ ways to switch the yellow tiles around without changing anything (since they're indistinguishable) and $2!=2$ ways to order the green tiles, we have to divide out these possibilities: $\\frac{7!}{3! \\cdot2}=\\boxed{\\textbf{(B) }420}$ .\n\n~quacker88"
   },
   {
     "id": "amc10b-2020-6",

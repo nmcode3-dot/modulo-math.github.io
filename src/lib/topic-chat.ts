@@ -22,6 +22,14 @@ export function loadConversation(topic: string): TopicConversation {
   } catch { return emptyConversation(); }
 }
 
+function refreshProblem(saved: Problem, current: Problem): Problem {
+  const problem: Problem = { ...saved, answer: current.answer, solutionUrl: current.solutionUrl };
+  if (current.solutionLatex === undefined) delete problem.solutionLatex;
+  else problem.solutionLatex = current.solutionLatex;
+  return problem;
+}
+}
+
 export function saveConversation(topic: string, conversation: TopicConversation) {
   localStorage.setItem(key(topic), JSON.stringify(conversation));
 }
