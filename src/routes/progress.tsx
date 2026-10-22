@@ -1,11 +1,10 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { useRef } from "react";
-import { Download, Upload } from "lucide-react";
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { useRef, useState } from "react";
+import { Download, Shuffle, Upload } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
-import { ProblemList } from "@/components/ProblemList";
 import { CONTESTS, PROBLEMS, TOPICS, type Problem } from "@/lib/problems";
-import { exportProgress, importProgress, useProgress, type ProgressMap } from "@/lib/progress";
+import { exportProgress, importProgress, resetProblem, useProgress, type ProgressMap } from "@/lib/progress";
 
 export const Route = createFileRoute("/progress")({
   head: () => ({
@@ -69,16 +68,71 @@ function ProgressPage() {
       </div>
 
       <Breakdown title="By contest" rows={CONTESTS.map((c) => [c, stats(PROBLEMS.filter((p) => p.contest === c), pr)])} />
-      <Breakdown
-        title="By topic"
-        rows={TOPICS.map((t) => [t, stats(PROBLEMS.filter((p) => p.topics.includes(t)), pr)] as const).filter(([, x]) => x.total > 0)}
-      />
 
-      <section className="space-y-3">
-        <h2 className="font-display text-2xl">Failed problems to retry</h2>
-        <ProblemList problems={failed} />
-      </section>
+      <RetrySection failed={failed} />
     </div>
+  );
+}
+
+function RetrySection({ failed }: { failed: Problem[] }) {
+  const navigate = useNavigate();
+  const [contest, setContest] = useState("all");
+  const [topic, setTopic] = useState("all");
+  const topics = TOPICS.filter((t) => failed.some((p) => p.topics.includes(t)));
+  const pool = failed.filter(
+    (p) => (contest === "all" || p.contest === contest) && (topic === "all" || p.topics.includes(topic)),
+  );
+  const draw = () => {
+    const p = pool[Math.floor(Math.random() * pool.length)];
+    if (!p) return;
+    resetProblem(p.id);
+    navigate({ to: "/problem/$id", params: { id: p.id } });
+  };
+
+  return (
+    <section className="space-y-4">
+      <div>
+        <h2 className="font-display text-2xl">Problems to retry</h2>
+        <p className="text-sm text-muted-foreground">
+          {failed.length} failed so far. Filter them, then get a random one to try again with 3 fresh attempts.
+        </p>
+      </div>
+      <div className="space-y-2">
+        <p className="section-label">Contest</p>
+        <div className="flex flex-wrap gap-2">
+          {["all", ...CONTESTS].map((c) => (
+            <button key={c} onClick={() => setContest(c)} className={`chip ${contest === c ? "chip-active" : ""}`}>
+              {c === "all" ? "Any" : c}{" "}
+              <span className={contest === c ? "" : "text-muted-foreground"}>
+                · {c === "all" ? failed.length : failed.filter((p) => p.contest === c).length}
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="space-y-2">
+        <p className="section-label">Topic</p>
+        <select
+          aria-label="Filter retry problems by topic"
+          className="topic-contest-select"
+          value={topic}
+          onChange={(e) => setTopic(e.target.value)}
+        >
+          <option value="all">All topics</option>
+          {topics.map((t) => (
+            <option key={t}>{t}</option>
+          ))}
+        </select>
+      </div>
+      <div className="flex flex-wrap items-center gap-3">
+        <Button size="lg" disabled={pool.length === 0} onClick={draw}>
+          <Shuffle className="size-4" /> Random problem to retry
+        </Button>
+        <span className="text-sm text-muted-foreground">
+          {pool.length === 0 ? "No failed problems match these filters." : `${pool.length} match`}
+        </span>
+      </div>
+    </section>
   );
 }
 
