@@ -3075,7 +3075,8 @@
       "Linear Inequalities",
       "Geometric Probability",
       "Shortest Path - Unfolding the Object"
-    ]
+    ],
+    "solutionLatex": "Let $x$ and $y$ be random variables that are independently and uniformly distributed in the interval $(0,1).$ Note that \\[P(x+y\\leq 1)=\\frac{\\frac12\\cdot1^2}{1^2}=\\frac12,\\] as shown below:\n[[img:https://latex.artofproblemsolving.com/b/e/4/be45003d7da2c482f9a10e9afdc74e1394d21dc1.png]]\nLet $x,y,$ and $z$ be random variables that are independently and uniformly distributed in the interval $(0,1).$ Note that \\[P(x+y+z\\leq 1)=\\frac{\\frac13\\cdot\\left(\\frac12\\cdot1^2\\right)\\cdot1}{1^3}=\\frac16,\\] as shown below:\n[[img:https://latex.artofproblemsolving.com/3/7/6/37685aca4b08fa284b19795bf558e1afaef1dae0.png]]\nWe have two cases:\n\nAmelia takes exactly $2$ steps.\nWe need $x_1+x_2>1$ and $t_1+t_2>1.$ So, the probability is \\[P(x_1+x_2>1)\\cdot P(t_1+t_2>1)=\\left(1-\\frac12\\right)\\cdot\\left(1-\\frac12\\right)=\\frac14.\\]\n Amelia takes exactly $3$ steps.\nWe need $x_1+x_2+x_3>1$ and $t_1+t_2\\leq1.$ So, the probability is \\[P(x_1+x_2+x_3>1)\\cdot P(t_1+t_2\\leq1)=\\left(1-\\frac16\\right)\\cdot\\frac12=\\frac{5}{12}.\\]\n\nTogether, the answer is $\\frac14 + \\frac{5}{12} = \\boxed{\\textbf{(C) }\\frac{2}{3}}.$\n\n~Steven Chen (Professor Chen Education Palace, www.professorchenedu.com)\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10b-2022-24",
