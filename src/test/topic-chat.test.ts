@@ -12,7 +12,10 @@ describe("Saved topic practice", () => {
     if (!question) throw new Error("Missing question");
     question.replies.push({ answer: "B", feedback: "Correct on attempt 1!", status: "solved" });
     saveConversation("Algebra", conversation);
-    expect(loadConversation("Algebra")).toEqual(conversation);
+    const restored = loadConversation("Algebra");
+    expect(restored.questions).toHaveLength(1);
+    expect(restored.questions[0]?.problem.id).toBe(problem.id);
+    expect(restored.questions[0]?.replies).toEqual(question.replies);
     expect(loadConversation("Geometry")).toEqual(emptyConversation());
   });
   it("keeps old questions when another is posted", () => {

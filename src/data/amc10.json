@@ -5102,7 +5102,8 @@
     "topics": [
       "Introduction to Probability",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "Drawing out the square, it's easy to see that if the frog goes to the left, it will immediately hit a vertical end of the square. Therefore, the probability of this happening is $\\frac{1}{4} \\cdot 1 = \\frac{1}{4}$ . If the frog goes to the right, it will be in the center of the square at $(2,2)$ , and by symmetry (since the frog is equidistant from all sides of the square), the chance it will hit a vertical side of a square is $\\frac{1}{2}$ . The probability of this happening is $\\frac{1}{4} \\cdot \\frac{1}{2} = \\frac{1}{8}$ .\n\nIf the frog goes either up or down, it will hit a line of symmetry along the corner it is closest to and furthest to, and again, is equidistant relating to the two closer sides and also equidistant relating the two further sides. The probability for it to hit a vertical wall is $\\frac{1}{2}$ . Because there's a $\\frac{1}{2}$ chance of the frog going up or down, the total probability for this case is $\\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$ and summing up all the cases, $\\frac{1}{4} + \\frac{1}{8} + \\frac{1}{4} = \\frac{5}{8} \\implies \\boxed{\\textbf{(B) } \\frac{5}{8}}$ ."
   },
   {
     "id": "amc10a-2020-15",
