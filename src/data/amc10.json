@@ -5369,7 +5369,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_2",
     "topics": [
       "3D Volumes and Surface Areas"
-    ]
+    ],
+    "solutionLatex": "A cube with side length $1$ has volume $1^3=1$ , so $5$ of these will have a total volume of $5\\cdot1=5$ .\n\nA cube with side length $2$ has volume $2^3=8$ , so $5$ of these will have a total volume of $5\\cdot8=40$ .\n\n$5+40=\\boxed{\\textbf{(E) }45}$ .\n\n~quacker88"
   },
   {
     "id": "amc10b-2020-3",
