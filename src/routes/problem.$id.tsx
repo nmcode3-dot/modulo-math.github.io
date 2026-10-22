@@ -1,7 +1,9 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
+import { BookOpen, Shuffle } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { ProblemView } from "@/components/ProblemView";
 import { getProblem, label, PROBLEMS } from "@/lib/problems";
+import { giveUp, useProgress } from "@/lib/progress";
 
 export const Route = createFileRoute("/problem/$id")({
   loader: ({ params }) => {
@@ -29,20 +31,35 @@ export const Route = createFileRoute("/problem/$id")({
 function ProblemPage() {
   const { id } = Route.useParams();
   const p = getProblem(id)!;
-  const set = PROBLEMS.filter((x) => x.contest === p.contest && x.year === p.year && x.version === p.version);
-  const i = set.findIndex((x) => x.id === id);
-  const prev = set[i - 1];
-  const next = set[i + 1];
+  const navigate = useNavigate({ from: "/problem/$id" });
+  const progress = useProgress();
+  const status = progress[id]?.status;
+  const done = status === "solved" || status === "failed";
+
+  const drawRandom = () => {
+    const pool = PROBLEMS.filter((x) => x.contest === p.contest && x.id !== id);
+    const r = pool[Math.floor(Math.random() * pool.length)];
+    if (r) navigate({ to: "/problem/$id", params: { id: r.id } });
+  };
+
   return (
     <div className="space-y-6">
       <Link to="/contests" search={{ contest: p.contest }} className="text-sm text-muted-foreground hover:text-foreground">
         ← {p.year} {p.contest} {p.version}
       </Link>
       <ProblemView key={id} problem={p} />
-      <nav className="flex justify-between border-t pt-4 text-sm">
-        {prev ? <Link to="/problem/$id" params={{ id: prev.id }} className="flex items-center gap-1"><ChevronLeft className="size-4" />Problem {prev.number}</Link> : <span />}
-        {next ? <Link to="/problem/$id" params={{ id: next.id }} className="flex items-center gap-1">Problem {next.number}<ChevronRight className="size-4" /></Link> : <span />}
-      </nav>
+      <div className="flex flex-wrap gap-3 border-t pt-4">
+        {!done && (
+          <Button variant="outline" onClick={() => giveUp(id)}>
+            <BookOpen className="size-4" /> Show solution
+          </Button>
+        )}
+        {done && (
+          <Button onClick={drawRandom}>
+            <Shuffle className="size-4" /> Random problem
+          </Button>
+        )}
+      </div>
     </div>
   );
 }

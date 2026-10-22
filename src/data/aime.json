@@ -3798,9 +3798,12 @@
     "answer": "071",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_14",
     "topics": [
-      "Arithmetic Word Problems",
-      "Chicken McNugget"
-    ]
+      "Casework",
+      "Chicken McNugget",
+      "Divisibility Reasoning",
+      "Arithmetic Word Problems"
+    ],
+    "solutionLatex": "We will do casework on $n \\pmod{5}$ and see which values work.\n\nCase 1: $n \\equiv 1 \\pmod{5}$\n\n$n$ would have to be greater than $91$ because if it wasn't then we could just add denominations of $5$ until we got to $91.$ However, if $n$ is more than $91,$ then all the numbers from $91$ to $n$ which are not multiples of $5$ are also unrepresentable, which violates the problem's condition of $91$ being the largest unrepresentable number. So there are no values for this case.\n\nCase 2: $n \\equiv 2 \\pmod{5}$\n\n$n + 1 \\equiv 3 \\pmod{5}$ is the smallest formable number 3 mod 5, so $n + 1 - 5 = n - 4$ is the largest unformable number 3 mod 5. $2n + 2 \\equiv 1 \\pmod{5}$ is the smallest formable number 1 mod 5, so $2n + 2 - 5 = 2n - 3$ is the largest unformable number 1 mod 5. Finally, $2n \\equiv 4 \\pmod{5}$ is the smallest formable number 4 mod 5, so $2n - 5$ is the largest unformable number 4 mod 5.\n\nTherefore, the largest unformable number overall is $2n - 3 \\equiv 1 \\pmod{5}.$ This satisfies the problem's condition! $2n - 3 = 91 \\implies n = 47.$\n\nCase 3: $n \\equiv 3 \\pmod{5}$\n\n$n + 1 \\equiv 4 \\pmod{5},$ which is the smallest representable number 4 mod 5, so the largest unrepresentable number 4 mod 5 is $n + 1 - 5 = n -4.$\n\nSimilarly, $2n \\equiv 1 \\pmod{5}$ is the smallest formable number 1 mod 5 and $3n + 3 \\equiv 2 \\pmod{5}$ is the smallest formable number 2 mod 5, so the largest number 2 mod 5 that is unrepresentable is $3n + 3 - 5 = 3n - 2,$ but the largest number 1 mod 5 that is unrepresentable is $2n -5.$ $3n - 2 > 2n - 5,$ so there would be a larger unrepresentable number than $91$ if we were to set $2n - 5$ equal to it, which violates the problem's condition. And we can't set $3n - 2$ equal to $91$ because $91 \\not\\equiv 2 \\pmod{5},$ so there are no valid values for this case.\n\nCase 4: $n \\equiv 4 \\pmod{5}$\n\n$n + 1$ would be a multiple of $5,$ so we would be left with denominations of $5$ and $n.$ Then it would just be a straightforward application of the Chicken Mcnugget Theorem: $5n - n - 5 = 91 \\implies n = 24,$ which is indeed $4 \\pmod{5}.$ So this value works.\n\nCase 5: $n$ is a multiple of 5\n\nIn this case we’re left with denominations of $5$ and $n + 1,$ so by the Chicken Mcnugget Theorem we get $5(n + 1) - n - 6 = 91 \\implies n = 23,$ which is not a multiple of $5.$ So there are no valid values here.\n\nThe two valid values we found were $47$ and $24,$ so the answer is $47 + 24 = \\boxed{71}.$\n\n~grogg007"
   },
   {
     "id": "aimeii-2019-15",
@@ -5300,7 +5303,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_12",
     "topics": [
       "Combinations",
-      "Mean Median Mode"
+      "Mean Median Mode",
+      "Expected Value"
     ]
   },
   {
@@ -12327,6 +12331,24 @@
       "Simplifying Radicals",
       "Pythagorean theorem",
       "Problem-Solving: Areas"
+    ]
+  },
+  {
+    "id": "aimeii-2016-4",
+    "contest": "AIME",
+    "year": 2016,
+    "version": "II",
+    "number": 4,
+    "statementLatex": "An $a \\times b \\times c$ rectangular box is built from $a \\cdot b \\cdot c$ unit cubes. Each unit cube is colored red, green, or yellow. Each of the $a$ layers of size $1 \\times b \\times c$ parallel to the $(b \\times c)$ faces of the box contains exactly $9$ red cubes, exactly $12$ green cubes, and some yellow cubes. Each of the $b$ layers of size $a \\times 1 \\times c$ parallel to the $(a \\times c)$ faces of the box contains exactly $20$ green cubes, exactly $25$ yellow cubes, and some red cubes. Find the smallest possible volume of the box.",
+    "solutionLatex": "By counting the number of green cubes $2$ different ways, we have $12a=20b$ , or $a=\\dfrac{5}{3} b$ . Notice that there are only $3$ possible colors for unit cubes, so for each of the $1 \\times b \\times c$ layers, there are $bc-21$ yellow cubes, and similarly there are $ac-45$ red cubes in each of the $1 \\times a \\times c$ layers. Therefore, we have $a(bc-21)=25b$ and $b(ac-45)=9a$ . We check a few small values of $a,b$ and solve for $c$ , checking $(a,b)=(5,3)$ gives $c=12$ with a volume of $180$ , $(a,b)=(10,6)$ gives $c=6$ with a volume of $360$ , and $(a,b)=(15,9)$ gives $c=4$ , with a volume of $540$ . Any higher $(a,b)$ will $ab>180$ , so therefore, the minimum volume is $\\boxed{180}$ .",
+    "choices": [],
+    "answer": "180",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_4",
+    "topics": [
+      "3D Geometry",
+      "3D Volumes and Surface Areas",
+      "Problem-Solving: 3D Geometry",
+      "Variables"
     ]
   }
 ]
