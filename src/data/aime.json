@@ -1,5 +1,359 @@
 [
   {
+    "id": "aimeii-2012-1",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 1,
+    "statementLatex": "Find the number of ordered pairs of positive integer solutions $(m, n)$ to the equation $20m + 12n = 2012$ .",
+    "solutionLatex": "",
+    "choices": [],
+    "answer": "034",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_1",
+    "topics": [
+      "Divisibility Reasoning",
+      "Linear Equations",
+      "Digit Problems",
+      "Parity Reasoning"
+    ]
+  },
+  {
+    "id": "aimeii-2012-2",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 2,
+    "statementLatex": "Two geometric sequences $a_1, a_2, a_3, \\ldots$ and $b_1, b_2, b_3, \\ldots$ have the same common ratio, with $a_1 = 27$ , $b_1=99$ , and $a_{15}=b_{11}$ . Find $a_9$ .",
+    "solutionLatex": "Call the common ratio $r.$ Now since the $n$ th term of a geometric sequence with first term $x$ and common ratio $y$ is $xy^{n-1},$ we see that $a_1 \\cdot r^{14} = b_1 \\cdot r^{10} \\implies r^4 = \\frac{99}{27} = \\frac{11}{3}.$ But $a_9$ equals $a_1 \\cdot r^8 = a_1 \\cdot (r^4)^2=27\\cdot {\\left(\\frac{11}{3}\\right)}^2=27\\cdot \\frac{121} 9=\\boxed{363}$ .",
+    "choices": [],
+    "answer": "363",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_2",
+    "topics": [
+      "Arithmetic/Geometric Sequences",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "aimeii-2012-3",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 3,
+    "statementLatex": "At a certain university, the division of mathematical sciences consists of the departments of mathematics, statistics, and computer science. There are two male and two female professors in each department. A committee of six professors is to contain three men and three women and must also contain two professors from each of the three departments. Find the number of possible committees that can be formed subject to these requirements.",
+    "solutionLatex": "There are two cases:\n\nCase 1: One man and one woman is chosen from each department.\n\nCase 2: Two men are chosen from one department, two women are chosen from another department, and one man and one woman are chosen from the third department.\n\nFor the first case, in each department there are ${{2}\\choose{1}} \\times {{2}\\choose{1}} = 4$ ways to choose one man and one woman. Thus there are $4^3 = 64$ total possibilities conforming to case 1.\n\nFor the second case, there is only ${{2}\\choose{2}} = 1$ way to choose two professors of the same gender from a department, and again there are $4$ ways to choose one man and one woman. Thus there are $1 \\cdot 1 \\cdot 4 = 4$ ways to choose two men from one department, two women from another department, and one man and one woman from the third department. However, there are $3! = 6$ different department orders, so the total number of possibilities conforming to case 2 is $4 \\cdot 6 = 24$ .\n\nSumming these two values yields the final answer: $64 + 24 = \\boxed{088}$ .",
+    "choices": [],
+    "answer": "088",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_3",
+    "topics": [
+      "Combinations"
+    ]
+  },
+  {
+    "id": "aimeii-2012-7",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 7,
+    "statementLatex": "Let $S$ be the increasing sequence of positive integers whose binary representation has exactly $8$ ones. Let $N$ be the 1000th number in $S$ . Find the remainder when $N$ is divided by $1000$ .",
+    "solutionLatex": "Okay, an exercise in counting (lots of binomials to calculate!). In base 2, the first number is $11111111$ , which is the only way to choose 8 1's out of 8 spaces, or $\\binom{8}{8}$ . What about 9 spaces? Well, all told, there are $\\binom{9}{8}=9$ , which includes the first 1. Similarly, for 10 spaces, there are $\\binom{10}{8}=45,$ which includes the first 9. For 11 spaces, there are $\\binom{11}{8}=165$ , which includes the first 45. You're getting the handle. For 12 spaces, there are $\\binom{12}{8}=495$ , which includes the first 165; for 13 spaces, there are $\\binom{13}{8}=13 \\cdot 99 > 1000$ , so we now know that $N$ has exactly 13 spaces, so the $2^{12}$ digit is 1.\n\nNow we just proceed with the other 12 spaces with 7 1's, and we're looking for the $1000-495=505th$ number. Well, $\\binom{11}{7}=330$ , so we know that the $2^{11}$ digit also is 1, and we're left with finding the $505-330=175th$ number with 11 spaces and 6 1's. Now $\\binom{10}{6}=210,$ which is too big, but $\\binom{9}{6}=84.$ Thus, the $2^9$ digit is 1, and we're now looking for the $175-84=91st$ number with 9 spaces and 5 1's. Continuing the same process, $\\binom{8}{5}=56$ , so the $2^8$ digit is 1, and we're left to look for the $91-56=35th$ number with 8 spaces and 4 1's. But here $\\binom{7}{4}=35$ , so N must be the last or largest 7-digit number with 4 1's. Thus the last 8 digits of $N$ must be $01111000$ , and to summarize, $N=1101101111000$ in base $2$ . Therefore, $N = 8+16+32+64+256+512+2048+4096 \\equiv 32 \\pmod{1000}$ , and the answer is $\\boxed{032}$ .",
+    "choices": [],
+    "answer": "032",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_7",
+    "topics": [
+      "Modular Arithmetic",
+      "Bases",
+      "Problem-Solving: Divisibility and Digits"
+    ]
+  },
+  {
+    "id": "aimeii-2012-8",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 8,
+    "statementLatex": "The complex numbers $z$ and $w$ satisfy the system \\[z + \\frac{20i}w = 5+i\\]\n \\[w+\\frac{12i}z = -4+10i\\] Find the smallest possible value of $\\vert zw\\vert^2$ .",
+    "solutionLatex": "Multiplying the two equations together gives us \\[zw + 32i - \\frac{240}{zw} = -30 + 46i\\] and multiplying by $zw$ then gives us a quadratic in $zw$ : \\[(zw)^2 + (30-14i)zw - 240 =0.\\] Using the quadratic formula, we find the two possible values of $zw$ to be $7i-15 \\pm \\sqrt{(15-7i)^2 + 240}$ = $6+2i,$ $12i - 36.$ The smallest possible value of $\\vert zw\\vert^2$ is then obviously $6^2 + 2^2 = \\boxed{040}$ .\n\nA key thing to note here is that $|zw|^2=|z|^2\\cdot|w|^2,$ which can be proved as follows:\n\nProof: Using the values for $z$ and $w$ that we used above, we get:\n\n\\begin{align*}\n|zw|^2&=|(ac-bd)+i(bc+ad)|^2\\\\\n&=(ac-bd)^2+(bc+ad)^2\\\\\n&=a^2c^2+b^2d^2+b^2c^2+a^2d^2-2abcd+2abc\\\\\n&=a^2c^2+b^2d^2+b^2c^2+a^2d^2\n\\end{align*}\nAlso, $|z|^2=a^2+b^2$ and $|w|^2=c^2+d^2$ . Therefore:\n \\[|z|^2\\cdot|w|^2=(a^2+b^2)(c^2+d^2)=a^2c^2+a^2d^2+b^2c^2+b^2d^2\\]\nand our proof is complete.\n\nNow, also note that we found $\\sqrt{416-210i}$ by letting $416-210i=(a-bi)^2$ and solving for $a$ and $b$ by considering real and imaginary parts. Then, we substitute that into $a-bi$ which is the value of $\\sqrt{416-210i}$ and continue from there.\n\nmathboy282",
+    "choices": [],
+    "answer": "040",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_8",
+    "topics": [
+      "Complex Numbers"
+    ]
+  },
+  {
+    "id": "aimeii-2012-10",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 10,
+    "statementLatex": "Find the number of positive integers $n$ less than $1000$ for which there exists a positive real number $x$ such that $n=x\\lfloor x \\rfloor$ .\n\nNote: $\\lfloor x \\rfloor$ is the greatest integer less than or equal to $x$ .",
+    "solutionLatex": "We know that $x$ cannot be irrational because the product of a rational number and an irrational number is irrational (but $n$ is an integer). Therefore $x$ is rational.\n\nLet $x = a + \\frac{b}{c}$ where $a,b,c$ are nonnegative integers and $0 \\le b < c$ (essentially, $x$ is a mixed number). Then,\n \\[n = \\left(a + \\frac{b}{c}\\right) \\left\\lfloor a +\\frac{b}{c} \\right\\rfloor \\Rightarrow n = \\left(a + \\frac{b}{c}\\right)a = a^2 + \\frac{ab}{c}\\]\n\nHere it is sufficient for $\\frac{ab}{c}$ to be an integer. We can use casework to find values of $n$ based on the value of $a$ :\n\n$a = 0 \\implies$ nothing because n is positive\n\n$a = 1 \\implies \\frac{b}{c} = \\frac{0}{1}$\n\n$a = 2 \\implies \\frac{b}{c} = \\frac{0}{2},\\frac{1}{2}$\n\n$a = 3 \\implies\\frac{b}{c} =\\frac{0}{3},\\frac{1}{3},\\frac{2}{3}$\n\nThe pattern continues up to $a = 31$ . Note that if $a = 32$ , then $n > 1000$ . However if $a = 31$ , the largest possible $x$ is $31 + \\frac{30}{31}$ , in which $n$ is still less than $1000$ . Therefore the number of positive integers for $n$ is equal to $1+2+3+...+31 = \\frac{31 \\cdot 32}{2} = \\boxed{496}.$\n\nNotice that $x\\lfloor x\\rfloor$ is continuous over the region $x \\in [k, k+1)$ for any integer $k$ . Therefore, it takes all values in the range $[k\\lfloor k\\rfloor, (k+1)\\lfloor k+1\\rfloor) = [k^2, (k+1)k)$ over that interval. Note that if $k>32$ then $k^2 > 1000$ and if $k=31$ , the maximum value attained is $31*32 < 1000$ . It follows that the answer is $\\sum_{k=1}^{31} (k+1)k-k^2 = \\sum_{k=1}^{31} k = \\frac{31\\cdot 32}{2} = \\boxed{496}.$\n\nBounding gives $x^2\\le n. Thus there are a total of $x$ possible values for $n$ , for each value of $x^2$ . Checking, we see $31^2+31=992<1000$ , so there are \\[1+2+3+...+31= \\boxed{496}\\] such values for $n$ .\n\nHere writer's x and question's x are different.\nHere writer means [x] everywhere he writes x\nso you can let [x] = k and then use the inequality $k^2\\le n.\nthis inequality comes from [x] = k\n $k\\le x\n $k[x]\\le x[x]<(k+1)[x]$\n $k^2\\le n<(k+1)k$\n further you can proceed.\n\nAfter a bit of experimenting, we let $n=l^2+s, s < 2n+1$ . We claim that I (the integer part of $x$ ) = $l$ . (Prove it yourself using contradiction !) so now we get that $x=l+\\frac{s}{l}$ . This implies that solutions exist iff $s, or for all natural numbers of the form $l^2+s$ where $s.\nHence, 1 solution exists for $l=1$ ! 2 for $l=2$ and so on. Therefore our final answer is $31+30+\\dots+1= \\boxed{496}$\n\nNotice we can write $\\lfloor x \\rfloor$ as $x - \\{x\\}$ .\nSince $n$ is a positive integer less than $1000$ ,\n\\[\n1 \\leq x(x - \\{x\\}) \\leq 999.\n\\]\nWe now have\n\\[\n1 \\leq x^{2} - x\\{x\\} \\leq 999.\n\\]\nSince $x\\{x\\}$ ranges from $0$ to $x$ , we can rewrite as\n\\[\n1 \\leq x^{2} \\leq 999 + x.\n\\]\nNotice all $x$ that satisfy this inequality range from $1$ to $32$ .\n\nNow every range from $y$ to $y+1$ for $x$ results in exactly $y$ solutions that give a positive integer solution for $n$ .\nThe first range is $1$ to $2$ and the last range is $31$ to $32$ .\n\nThus, by using our above lemma, we can find the total number of solutions:\n\\[\n1+2+\\cdots+31 = \\frac{31 \\cdot 32}{2} = \\boxed{496}.\n\\]\n\n~ilikemath247365\n\n2012 AIME II #10\n\n~MathProblemSolvingSkills.com",
+    "choices": [],
+    "answer": "496",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_10",
+    "topics": [
+      "Floor",
+      "Floor Functions",
+      "Linear Inequalities",
+      "Floor Function Strategies"
+    ]
+  },
+  {
+    "id": "aimeii-2012-12",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 12,
+    "statementLatex": "For a positive integer $p$ , define the positive integer $n$ to be $p$ -safe if $n$ differs in absolute value by more than $2$ from all multiples of $p$ . For example, the set of $10$ -safe numbers is $\\{ 3, 4, 5, 6, 7, 13, 14, 15, 16, 17, 23, \\ldots\\}$ . Find the number of positive integers less than or equal to $10,000$ which are simultaneously $7$ -safe, $11$ -safe, and $13$ -safe.",
+    "solutionLatex": "We see that a number $n$ is $p$ -safe if and only if the residue of $n \\mod p$ is greater than $2$ and less than $p-2$ ; thus, there are $p-5$ residues $\\mod p$ that a $p$ -safe number can have. Therefore, a number $n$ satisfying the conditions of the problem can have $2$ different residues $\\mod 7$ , $6$ different residues $\\mod 11$ , and $8$ different residues $\\mod 13$ . The Chinese Remainder Theorem states that for a number $x$ that is\n $a$ (mod b)\n $c$ (mod d)\n $e$ (mod f)\nhas one solution if $\\gcd(b,d,f)=1$ . For example, in our case, the number $n$ can be:\n3 (mod 7)\n3 (mod 11)\n7 (mod 13)\nso since $\\gcd(7,11,13)$ =1, there is 1 solution for n for this case of residues of $n$ .\n\nThis means that by the Chinese Remainder Theorem, $n$ can have $2\\cdot 6 \\cdot 8 = 96$ different residues mod $7 \\cdot 11 \\cdot 13 = 1001$ . Thus, there are $960$ values of $n$ satisfying the conditions in the range $0 < n \\le 10010$ . However, we must now remove any values greater than $10000$ that satisfy the conditions. By checking residues, we easily see that the only such values are $10006$ and $10007$ , so there remain $\\fbox{958}$ values satisfying the conditions of the problem.\n\nWe can also say $\\frac{2}{7}$ of all numbers are 7-safe, $\\frac{6}{11}$ of all numbers are 11-safe, and $\\frac{8}{13}$ of all numbers are 13-safe. We can multiply these to get that $\\frac{96}{1001}$ of all numbers are simultaneously 7-safe, 11-safe, and 13-safe.",
+    "choices": [],
+    "answer": "958",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_12",
+    "topics": [
+      "System of Equations",
+      "Linear Inequalities",
+      "Absolute Value Tricks"
+    ]
+  },
+  {
+    "id": "aimeii-2012-13",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 13,
+    "statementLatex": "Equilateral $\\triangle ABC$ has side length $\\sqrt{111}$ . There are four distinct triangles $AD_1E_1$ , $AD_1E_2$ , $AD_2E_3$ , and $AD_2E_4$ , each congruent to $\\triangle ABC$ ,\nwith $BD_1 = BD_2 = \\sqrt{11}$ . Find $\\sum_{k=1}^4(CE_k)^2$ .",
+    "solutionLatex": "Note that there are only two possible locations for points $D_1$ and $D_2$ , as they are both $\\sqrt{111}$ from point $A$ and $\\sqrt{11}$ from point $B$ , so they are the two points where a circle centered at $A$ with radius $\\sqrt{111}$ and a circle centered at $B$ with radius $\\sqrt{11}$ intersect. Let $D_1$ be the point on the opposite side of $\\overline{AB}$ from $C$ , and $D_2$ the point on the same side of $\\overline{AB}$ as $C$ .\n\nLet $\\theta$ be the measure of angle $BAD_1$ (also the measure of angle $BAD_2$ ); by the Law of Cosines,\n$\\begin{align*}\\sqrt{11}^2 &= \\sqrt{111}^2 + \\sqrt{111}^2 - 2 \\cdot \\sqrt{111} \\cdot \\sqrt{111} \\cdot \\cos\\theta\\\\ 11 &= 222(1 - \\cos\\theta)\\end{align*}$\n\nThere are two equilateral triangles with $\\overline{AD_1}$ as a side; let $E_1$ be the third vertex that is farthest from $C$ , and $E_2$ be the third vertex that is nearest to $C$ .\n\nAngle $E_1AC = E_1AD_1 + D_1AB + BAC = 60 + \\theta + 60 = 120 + \\theta$ ; by the Law of Cosines,\n$\\begin{align*}(E_1C)^2 &= (E_1A)^2 + (AC)^2 - 2 (E_1A) (AC)\\cos(120 + \\theta)\\\\ &= 111 + 111 - 222\\cos(120 + \\theta)\\end{align*}$\nAngle $E_2AC = \\theta$ ; by the Law of Cosines,\n$\\begin{align*}(E_2C)^2 &= (E_2A)^2 + (AC)^2 - 2 (E_2A) (AC)\\cos\\theta\\\\ &= 111 + 111 - 222\\,\\cos\\theta\\end{align*}$\n\nThere are two equilateral triangles with $\\overline{AD_2}$ as a side; let $E_3$ be the third vertex that is farthest from $C$ , and $E_4$ be the third vertex that is nearest to $C$ .\n\nAngle $E_3AC = E_3AB + BAC = (60 - \\theta) + 60 = 120 - \\theta$ ; by the Law of Cosines,\n$\\begin{align*}(E_3C)^2 &= (E_3A)^2 + (AC)^2 - 2 (E_3A) (AC)\\cos(120 - \\theta)\\\\ &= 111 + 111 - 222\\cos(120 - \\theta)\\end{align*}$\nAngle $E_4AC = \\theta$ ; by the Law of Cosines,\n$\\begin{align*}(E_4C)^2 &= (E_4A)^2 + (AC)^2 - 2 (E_4A) (AC)\\cos\\theta \\\\ &= 111 + 111 - 222\\cos\\theta\\end{align*}$\n\nThe solution is:\n$\\begin{align*} \\sum_{k=1}^4(CE_k)^2 &= (E_1C)^2 + (E_3C)^2 + (E_2C)^2 + (E_4C)^2\\\\ &= 222(1 - \\cos(120 + \\theta)) + 222(1 - \\cos(120 - \\theta)) + 222(1 - \\cos\\theta) + 222(1 - \\cos\\theta)\\\\ &= 222((1 - (\\cos120\\cos\\theta - \\sin120\\sin\\theta)) + (1 - (\\cos120\\cos\\theta + \\sin120\\sin\\theta)) + 2(1 -\\cos\\theta))\\\\ &= 222(1 - \\cos120\\cos\\theta + \\sin120\\sin\\theta + 1 - \\cos120\\cos\\theta - \\sin120\\sin\\theta + 2 - 2\\cos\\theta)\\\\ &= 222(1 + \\frac{1}{2}\\cos\\theta + 1 + \\frac{1}{2}\\cos\\theta + 2 - 2\\cos\\theta)\\\\ &= 222(4 - \\cos\\theta)\\\\ &= 666 + 222(1 - \\cos\\theta) \\end{align*}$\nSubstituting $11$ for $222(1 - \\cos\\theta)$ gives the solution $666 + 11 = \\framebox{677}.$",
+    "choices": [],
+    "answer": "677",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_13",
+    "topics": [
+      "Modular Arithmetic",
+      "Simplifying Radicals",
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Triangle Angles"
+    ]
+  },
+  {
+    "id": "aimeii-2012-14",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 14,
+    "statementLatex": "In a group of nine people each person shakes hands with exactly two of the other people from the group. Let $N$ be the number of ways this handshaking can occur. Consider two handshaking arrangements different if and only if at least two people who shake hands under one arrangement do not shake hands under the other arrangement. Find the remainder when $N$ is divided by $1000$ .",
+    "solutionLatex": "Given that each person shakes hands with two people, we can view all of these through graph theory as 'rings'. This will split it into four cases: Three rings of three, one ring of three and one ring of six, one ring of four and one ring of five, and one ring of nine. (All other cases that sum to nine won't work, since they have at least one 'ring' of two or fewer points, which doesn't satisfy the handshaking conditions of the problem.)\n\nCase 1: To create our groups of three, there are $\\dfrac{\\dbinom{9}{3}\\dbinom{6}{3}\\dbinom{3}{3}}{3!}$ . In general, the number of ways we can arrange people within the rings to count properly is $\\dfrac{(n-1)!}{2}$ , since there are $(n-1)!$ ways to arrange items in the circle, and then we don't want to want to consider reflections as separate entities. Thus, each of the three cases has $\\dfrac{(3-1)!}{2}=1$ arrangements. Therefore, for this case, there are $\\left(\\dfrac{\\dbinom{9}{3}\\dbinom{6}{3}\\dbinom{3}{3}}{3!}\\right)(1)^3=280$\n\nCase 2: For three and six, there are $\\dbinom{9}{6}=84$ sets for the rings. For organization within the ring, as before, there is only one way (i.e. $(3-1)!/2$ )to arrange the ring of three. For six, there is $\\dfrac{(6-1)!}{2}=60$ . This means there are $(84)(1)(60)=5040$ arrangements.\n\nCase 3: For four and five, there are $\\dbinom{9}{5}=126$ sets for the rings. Within the five, there are $\\dfrac{4!}{2}=12$ , and within the group of four there are $\\dfrac{3!}{2}=3$ arrangements. This means the total is $(126)(12)(3)=4536$ .\n\nCase 4: For the nine case, there is $\\dbinom{9}{9}=1$ arrangement for the ring. Within it, there are $\\dfrac{8!}{2}=20160$ arrangements.\n\nSumming the cases, we have $280+5040+4536+20160=30016 \\to \\boxed{016}$ .\n\nNote: the reason why we divided by $3!$ in Case 1 and not the other three cases is because for case one and case one only, the groups each have 3 people, implying a symmetric configuration.\n\nFor example, for 3 people A, B, C in group 1, they could very well be in group 2 or 3 too, because each group has 3 people.\n\nHowever, for all the other three cases, the configurations are not symmetric and so dividing by $2!$ or like would be incorrect. It is not possible to configure A, B, C such that they can be both a group of 3 and a group of 6, since {A, B, C} only has 3 elements.\n\n~mathboy282",
+    "choices": [],
+    "answer": "016",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_14",
+    "topics": [
+      "Modular Arithmetic",
+      "Linear Inequalities",
+      "Handshakes",
+      "Logic"
+    ]
+  },
+  {
+    "id": "aimeii-2012-15",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 15,
+    "statementLatex": "Triangle $ABC$ is inscribed in circle $\\omega$ with $AB=5$ , $BC=7$ , and $AC=3$ . The bisector of angle $A$ meets side $\\overline{BC}$ at $D$ and circle $\\omega$ at a second point $E$ . Let $\\gamma$ be the circle with diameter $\\overline{DE}$ . Circles $\\omega$ and $\\gamma$ meet at $E$ and a second point $F$ . Then $AF^2 = \\frac mn$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+    "solutionLatex": "Use the angle bisector theorem to find $CD=\\tfrac{21}{8}$ , $BD=\\tfrac{35}{8}$ , and use Stewart's Theorem to find $AD=\\tfrac{15}{8}$ . Use Power of Point $D$ to find $DE=\\tfrac{49}{8}$ , and so $AE=8$ . Use law of cosines to find $\\angle CAD = \\tfrac{\\pi} {3}$ , hence $\\angle BAD = \\tfrac{\\pi}{3}$ as well, and $\\triangle BCE$ is equilateral, so $BC=CE=BE=7$ .\n[[img:https://latex.artofproblemsolving.com/e/f/9/ef948e37e744fe519e4f88abc5dd4a4d8ff9f957.png]]\nIn triangle $AEF$ , let $X$ be the foot of the altitude from $A$ ; then $EF=EX+XF$ , where we use signed lengths. Writing $EX=AE \\cdot \\cos \\angle AEF$ and $XF=AF \\cdot \\cos \\angle AFE$ , we get\n$\\begin{align}\\tag{1} EF = AE \\cdot \\cos \\angle AEF + AF \\cdot \\cos \\angle AFE. \\end{align}$\nNote $\\angle AFE = \\angle ACE$ , and the Law of Cosines in $\\triangle ACE$ gives $\\cos \\angle ACE = -\\tfrac 17$ .\nAlso, $\\angle AEF = \\angle DEF$ , and $\\angle DFE = \\tfrac{\\pi}{2}$ ( $DE$ is a diameter), so $\\cos \\angle AEF = \\tfrac{EF}{DE} = \\tfrac{8}{49}\\cdot EF$ .\n\nPlugging in all our values into equation $(1)$ , we get:\n \\[EF = \\tfrac{64}{49} EF -\\tfrac{1}{7} AF \\quad \\Longrightarrow \\quad EF = \\tfrac{7}{15} AF.\\]\nThe Law of Cosines in $\\triangle AEF$ , with $EF=\\tfrac 7{15}AF$ and $\\cos\\angle AFE = -\\tfrac 17$ gives\n \\[8^2 = AF^2 + \\tfrac{49}{225} AF^2 + \\tfrac 2{15} AF^2 = \\tfrac{225+49+30}{225}\\cdot AF^2\\]\nThus $AF^2 = \\frac{900}{19}$ . The answer is $\\boxed{919}$ .\n~Shen Kislay Kai",
+    "choices": [],
+    "answer": "919",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_15",
+    "topics": [
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums",
+      "Problem-Solving: Inscribed Circles"
+    ]
+  },
+  {
+    "id": "aimei-2005-2",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 2,
+    "statementLatex": "For each positive integer $k$ , let $S_k$ denote the increasing arithmetic sequence of integers whose first term is $1$ and whose common difference is $k$ . For example, $S_3$ is the sequence $1,4,7,10,\\ldots.$ For how many values of $k$ does $S_k$ contain the term $2005$ ?",
+    "solutionLatex": "Suppose that the $n$ th term of the sequence $S_k$ is $2005$ . Then $1+(n-1)k=2005$ so $k(n-1)=2004=2^2\\cdot 3\\cdot 167$ . The ordered pairs $(k,n-1)$ of positive integers that satisfy the last equation are $(1,2004)$ , $(2,1002)$ , $(3,668)$ , $(4,501)$ , $(6,334)$ , $(12,167)$ , $(167,12)$ , $(334,6)$ , $(501,4)$ , $(668,3)$ , $(1002,2)$ and $(2004,1)$ , and each of these gives a possible value of $k$ . Thus the requested number of values is $12$ , and the answer is $\\boxed{012}$ .\n\nAlternatively, notice that the formula for the number of divisors states that there are $(2 + 1)(1 + 1)(1 + 1) = 12$ divisors of $2^2\\cdot 3^1\\cdot 167^1$ .",
+    "choices": [],
+    "answer": "012",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_2",
+    "topics": [
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "aimei-2005-3",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 3,
+    "statementLatex": "How many positive integers have exactly three proper divisors (positive integral divisors excluding itself), each of which is less than 50?",
+    "solutionLatex": "Suppose $n$ is such an integer. Because $n$ has $3$ proper divisors, it must have $4$ divisors,, so $n$ must be in the form $n=p\\cdot q$ or $n=p^3$ for distinct prime numbers $p$ and $q$ .\n\nIn the first case, the three proper divisors of $n$ are $1$ , $p$ and $q$ . Thus, we need to pick two prime numbers less than $50$ . There are fifteen of these ( $2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43$ and $47$ ) so there are ${15 \\choose 2} =105$ ways to choose a pair of primes from the list and thus $105$ numbers of the first type.\n\nIn the second case, the three proper divisors of $n$ are 1, $p$ and $p^2$ . Thus we need to pick a prime number whose square is less than $50$ . There are four of these ( $2, 3, 5,$ and $7$ ) and so four numbers of the second type.\n\nThus there are $105+4=\\boxed{109}$ integers that meet the given conditions.\n\n~lpieleanu (Minor editing)\n~ rollover2020 (extremely minor editing)",
+    "choices": [],
+    "answer": "109",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_3",
+    "topics": [
+      "Counting Divisors"
+    ]
+  },
+  {
+    "id": "aimei-2005-4",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 4,
+    "statementLatex": "The director of a marching band wishes to place the members into a formation that includes all of them and has no unfilled positions. If they are arranged in a square formation, there are 5 members left over. The director realizes that if they are arranged in a rectangular formation with 7 more rows than columns,\nthe desired result can be obtained. Find the maximum number of members this\nband can have.",
+    "solutionLatex": "If $n > 14$ then $n^2 + 6n + 14 < n^2 + 7n < n^2 + 8n + 21$ and so $(n + 3)^2 + 5 < n(n + 7) < (n + 4)^2 + 5$ . If $n$ is an integer there are no numbers which are 5 more than a perfect square strictly between $(n + 3)^2 + 5$ and $(n + 4)^2 + 5$ . Thus, if the number of columns is $n$ , the number of students is $n(n + 7)$ which must be 5 more than a perfect square, so $n \\leq 14$ . In fact, when $n = 14$ we have $n(n + 7) = 14\\cdot 21 = 294 = 17^2 + 5$ , so this number works and no larger number can. Thus, the answer is $\\boxed{294}$ .\n\nDefine the number of rows/columns of the square formation as $s$ , and the number of rows of the rectangular formation $r$ (so there are $r - 7$ columns). Thus, $s^2 + 5 = r(r-7) \\Longrightarrow r^2 - 7r - s^2 - 5 = 0$ . The quadratic formula yields $r = \\frac{7 \\pm \\sqrt{49 - 4(1)(-s^2 - 5)}}{2} = \\frac{7 \\pm \\sqrt{4s^2 + 69}}{2}$ . $\\sqrt{4s^2 + 69}$ must be an integer, say $x$ . Then $4s^2 + 69 = x^2$ and $(x + 2s)(x - 2s) = 69$ . The factors of $69$ are $(1,69), (3,23)$ ; $x$ is maximized for the first case. Thus, $x = \\frac{69 + 1}{2} = 35$ , and $r = \\frac{7 \\pm 35}{2} = 21, -14$ . The latter obviously can be discarded, so there are $21$ rows and $21 - 7 = 14$ columns, making the answer $294$ .\n\nThe number of members is $m^2+5=n(n+7)$ for some $n$ and $m$ . Multiply both sides by $4$ and complete the square to get $4m^2+69=(2n+7)^2$ . Thus, we have $69=((2n+7)+2m)((2n+7)-2m)$ . Since we want to maximize $n$ , set the first factor equal to $69$ and the second equal to $1$ . Now we have the systems of equations\n \\[2n+2m+7 = 69\\]\n \\[2n-2m+7 = 1\\]\nAdding these two equations gives us $4n+14=70$ which means $4n=56$ so $n=14$ .\nThus, the answer is $14\\cdot21=294$ . $\\square$\n\n~lpieleanu\n\nPartially completing the square\n\nGeometrically: Split up the formation of $n + 7$ rows and $n$ columns into a square of $n$ rows and $n$ columns and a separate rectangle of the dimensions $7$ rows by $n$ columns. We want to take the rows from the rectangle and add them to the square to get another square and $5$ left over. If we attach exactly $2$ rows on the top and exactly $2$ rows on the side of the $n$ x $n$ square, then we have an $(n + 2)$ x $(n + 2)$ square that's missing a $2$ x $2$ corner. For the remaining $3n$ to fill this square plus the $5$ extra members, $n$ must be $3$ . If we instead plaster exactly $3$ rows from the $7$ x $n$ formation to two adjacent sides of the $n$ x $n$ square, we have an $(n + 3)$ x $(n + 3)$ formation that's missing a $3$ x $3$ corner. For the remaining row of length $n$ to fill this plus five, $n = 14$ . Plugging these in, we find $n = 14$ has a much higher count of members: $(n + 7)n; n = 14 --> 21(14) = 294$\n\nAlgebraically: We have $n^2 + 7n = m$ , where $m$ is the number of members in the band and $n$ is a positive integer. We partially complete the square for $n$ to get\n $n^2 + 7n = (n + 1)^2 + 5n - 1 = (n + 2)^2 + 3n - 4 = (n + 3)^2 + n - 9$\nOur goal is to get $n^2 + 7n = y^2 + 5$ because we want $m$ to be $5$ more than a perfect square. From the above, $5n - 1 = 5$ means $n$ isn't an integer, $3n - 4 = 5$ means that $n = 3$ , and $n - 9 = 5$ means that $n = 14$ . Out of these, $n = 14$ is associated with the highest number of members in the band, so $m = (14^2) + 7(14) = 294$\n\nLet there be $m$ members and $n$ members for the square and $c$ for the number of columns of the other formation. We have $n^2 +5 = c(c+7) \\implies n^2+5 = \\left(c+\\frac{7}{2}\\right)^2 -\\frac{49}{4} \\implies n^2 - \\left(c+\\frac{7}{2}\\right)^2 = -\\frac{69}{4} \\implies \\left(n-c-\\frac{7}{2}\\right)\\left(n + c +\\frac{7}{2}\\right) \\implies (2n-2c-7)(2n+2n+7) = -69.$\n\nTo maximize this we let $2n+2c+7 = 69$ and $2n-2c-7 = -1.$ Solving we find $n = 17$ so the desired number of members is $17^2 + 5 = \\boxed{294}.$",
+    "choices": [],
+    "answer": "294",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_4",
+    "topics": [
+      "Geometry"
+    ]
+  },
+  {
+    "id": "aimei-2005-6",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 6,
+    "statementLatex": "Let $P$ be the product of the nonreal roots of $x^4-4x^3+6x^2-4x=2005.$ Find $\\lfloor P\\rfloor.$",
+    "solutionLatex": "The left-hand side of that equation is nearly equal to $(x - 1)^4$ . Thus, we add 1 to each side in order to complete the fourth power and get\n $(x - 1)^4 = 2006$ .\n\nLet $r = \\sqrt[4]{2006}$ be the positive real fourth root of 2006. Then the roots of the above equation are $x = 1 + i^n r$ for $n = 0, 1, 2, 3$ . The two non-real members of this set are $1 + ir$ and $1 - ir$ . Their product is $P = 1 + r^2 = 1 + \\sqrt{2006}$ . $44^2 = 1936 < 2006 < 2025 = 45^2$ so $\\lfloor P \\rfloor = 1 + 44 = \\boxed{045}$ .",
+    "choices": [],
+    "answer": "045",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_6",
+    "topics": [
+      "Floor Functions",
+      "Polynomials",
+      "Floor",
+      "Floor Function Strategies"
+    ]
+  },
+  {
+    "id": "aimei-2005-7",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 7,
+    "statementLatex": "In quadrilateral $ABCD,\\ BC=8,\\ CD=12,\\ AD=10,$ and $m\\angle A= m\\angle B = 60^\\circ.$ Given that $AB = p + \\sqrt{q},$ where $p$ and $q$ are positive integers, find $p+q.$",
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/1/b/b/1bbf437694cfea9d7049c523e552fb18592a1f17.png]]\n\nDraw line segment $DE$ such that line $DE$ is concurrent with line $BC$ . Then, $ABED$ is an isosceles trapezoid so $AD=BE=10$ , and $BC=8$ and $EC=2$ . We are given that $DC=12$ . Since $\\angle CED = 120^{\\circ}$ , using Law of Cosines on $\\bigtriangleup CED$ gives \\[12^2=DE^2+4-2(2)(DE)(\\cos 120^{\\circ})\\] which gives \\[144-4=DE^2+2DE\\] . Adding $1$ to both sides gives $141=(DE+1)^2$ , so $DE=\\sqrt{141}-1$ . $\\bigtriangleup DAP$ and $\\bigtriangleup EBQ$ are both $30-60-90$ , so $AP=5$ and $BQ=5$ . $PQ=DE$ , and therefore $AB=AP+PQ+BQ=5+\\sqrt{141}-1+5=9+\\sqrt{141} \\rightarrow (p,q)=(9,141) \\rightarrow \\boxed{150}$ .\n\n$AIME 2005I Solution 7 1.png$\n\nDraw the perpendiculars from $C$ and $D$ to $AB$ , labeling the intersection points as $E$ and $F$ . This forms 2 $30-60-90$ right triangles, so $AE = 5$ and $BF = 4$ . Also, if we draw the horizontal line extending from $C$ to a point $G$ on the line $DE$ , we find another right triangle $\\triangle DGC$ . $DG = DE - CF = 5\\sqrt{3} - 4\\sqrt{3} = \\sqrt{3}$ . The Pythagorean Theorem yields that $GC^2 = 12^2 - \\sqrt{3}^2 = 141$ , so $EF = GC = \\sqrt{141}$ . Therefore, $AB = 5 + 4 + \\sqrt{141} = 9 + \\sqrt{141}$ , and $p + q = \\boxed{150}$ .\n\n$AIME 2005I Solution 7 2.png$\n\nExtend $AD$ and $BC$ to an intersection at point $E$ . We get an equilateral triangle $ABE$ . We denote the length of a side of $\\triangle ABE$ as $s$ and solve for it using the Law of Cosines: \\[12^2 = (s - 10)^2 + (s - 8)^2 - 2(s - 10)(s - 8)\\cos{60}\\]\n \\[144 = 2s^2 - 36s + 164 - (s^2 - 18s + 80)\\] This simplifies to $s^2 - 18s - 60=0$ ; the quadratic formula yields the (discard the negative result) same result of $9 + \\sqrt{141}$ .\n\nExtend $BC$ and $AD$ to meet at point $E$ , forming an equilateral triangle $\\triangle ABE$ . Draw a line from $C$ parallel to $AB$ so that it intersects $AD$ at point $F$ . Then, apply Stewart's Theorem on $\\triangle CFE$ . Let $CE=x$ . \\[2x(x-2) + 12^2x = 2x^2 + x^2(x-2)\\] \\[x^3 - 2x^2 - 140x = 0\\] By the quadratic formula (discarding the negative result), $x = 1 + \\sqrt{141}$ , giving $AB = 9 + \\sqrt{141}$ for a final answer of $p+q=150$ .\n\nDraw a line from point $C$ to a new point $E$ on $AD$ parallel to $AB$ . Draw a line from point $E$ to a new point $F$ on $AB$ parallel to $CD$ . This creates parallelogram $CEFB$ .\n\n$\\angle CEF = 60^{\\circ}$ and triangle $AEF$ is an equilateral triangle with side length 8. Thus, $AF = 8$ .\n\n$ED = 10 - 8 = 2$ . By the Law of Cosines, $CD^2 = ED^2 + EC^2 - 2 \\cdot {ED} \\cdot {EC} \\cdot \\cos{\\angle DEC}$ . Thus, $144 = 4 + c^2 - 2c$ and $c = 1 + \\sqrt{141}$ . $EC = FB$ .\n\n$AB = AF + FB = 8 + 1 + \\sqrt{141} = 9 + \\sqrt{141}$ so the answer is $p+q=150$ .\n\n-unhappyfarmer",
+    "choices": [],
+    "answer": "150",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_7",
+    "topics": [
+      "Angle Chasing",
+      "Simplifying Radicals",
+      "Problem-Solving: Angles",
+      "Problem-Solving: Quadrilaterals"
+    ]
+  },
+  {
+    "id": "aimei-2005-8",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 8,
+    "statementLatex": "The equation $2^{333x-2} + 2^{111x+2} = 2^{222x+1} + 1$ has three real roots. Given that their sum is $m/n$ where $m$ and $n$ are relatively prime positive integers, find $m+n.$",
+    "solutionLatex": "Let $y = 2^{111x}$ . Then our equation reads $\\frac{1}{4}y^3 + 4y = 2y^2 + 1$ or $y^3 - 8y^2 + 16y - 4 = 0$ . Thus, if this equation has roots $r_1, r_2$ and $r_3$ , by Vieta's formulas we have $r_1\\cdot r_2\\cdot r_3 = 4$ . Let the corresponding values of $x$ be $x_1, x_2$ and $x_3$ . Then the previous statement says that $2^{111\\cdot(x_1 + x_2 + x_3)} = 4$ so taking a logarithm of that gives $111(x_1 + x_2 + x_3) = 2$ and $x_1 + x_2 + x_3 = \\frac{2}{111}$ . Thus the answer is $111 + 2 = \\boxed{113}$ .",
+    "choices": [],
+    "answer": "113",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_8",
+    "topics": [
+      "Polynomials",
+      "Problem-Solving: Polynomial Root Tricks"
+    ]
+  },
+  {
+    "id": "aimei-2005-9",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 9,
+    "statementLatex": "Twenty seven unit cubes are painted orange on a set of four faces so that two non-painted faces share an edge. The 27 cubes are randomly arranged to form a $3\\times 3 \\times 3$ cube. Given the probability of the entire surface area of the larger cube is orange is $\\frac{p^a}{q^br^c},$ where $p,q,$ and $r$ are distinct primes and $a,b,$ and $c$ are positive integers, find $a+b+c+p+q+r.$",
+    "solutionLatex": "$2005 I AIME-9.png$\n\nWe can consider the orientation of each of the individual cubes independently.\nThe unit cube at the center of our large cube has no exterior faces, so all of its orientations work.\n\nFor the six unit cubes and the centers of the faces of the large cube, we need that they show an orange face. This happens in $\\frac{4}{6} = \\frac{2}{3}$ of all orientations, so from these cubes we gain a factor of $\\left(\\frac{2}{3}\\right)^6$ .\n\nThe twelve unit cubes along the edges of the large cube have two faces showing, and these two faces are joined along an edge. Thus, we need to know the number of such pairs that are both painted orange. We have a pair for each edge, and 7 edges border one of the unpainted faces while only 5 border two painted faces. Thus, the probability that two orange faces show for one of these cubes is $\\frac{5}{12}$ , so from all of these cubes we gain a factor of $\\left(\\frac{5}{12}\\right)^{12} = \\frac{5^{12}}{2^{24}3^{12}}$ .\n\nFinally, we need to orient the eight corner cubes. Each such cube has 3 faces showing, and these three faces share a common vertex. Thus, we need to know the number of vertices for which all three adjacent faces are painted orange. There are six vertices which are a vertex of one of the unpainted faces and two vertices which have our desired property, so each corner cube contributes a probability of $\\frac{2}{8} = \\frac{1}{4}$ and all the corner cubes together contribute a probability of $\\left(\\frac{1}{4}\\right)^8 = \\frac{1}{2^{16}}$\n\nSince these probabilities are independent, the overall probability is just their product, $\\frac{2^6}{3^6} \\cdot \\frac{5^{12}}{2^{24}3^{12}} \\cdot \\frac{1}{2^{16}} = \\frac{5^{12}}{2^{34}\\cdot 3^{18}}$ and so the answer is $2 + 3 + 5 + 12 + 34 + 18 = \\boxed{074}$ .\n\nRather than worry about the actual painted faces, consider the position of the shared edge of the non-colored faces. The six centers of the faces can be calculated in the same manner as last time, getting $\\left(\\frac{2}{3}\\right)^6$ .\n\nThe twelve edge cubes show two faces. We want the shared edge of the non-colored faces to not be one of the edges that are exposed on the outside. There are 7 such edges that can be seen when viewed from the outside, so the probability they cannot be seen are $\\left(\\frac{5}{12}\\right)^{12}$ .\n\nThe eight corner cubes each have 9 visible edges from the outside, so the probability that the edge of the non-colored faces is not one of those is $\\left(\\frac{3}{12}\\right)^8 = \\left(\\frac{1}{4}\\right)^8$ . Multiplying the probabilities together, we get the same exact solution.\n\nAs a side note, notice that the placement of the two unpainted faces is in fact of vital importance: if they were on opposite faces, the answer would be 0 because any placement of such a cube in the corner of the large cube would show one unpainted face.",
+    "choices": [],
+    "answer": "074",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_9",
+    "topics": [
+      "3D Geometry",
+      "2nd Degree Symmetric Sums",
+      "Introduction to Probability",
+      "3D Volumes and Surface Areas"
+    ]
+  },
+  {
+    "id": "aimei-2005-10",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 10,
+    "statementLatex": "Triangle $ABC$ lies in the cartesian plane and has an area of $70$ . The coordinates of $B$ and $C$ are $(12,19)$ and $(23,20),$ respectively, and the coordinates of $A$ are $(p,q).$ The line containing the median to side $BC$ has slope $-5.$ Find the largest possible value of $p+q.$\n\n[[img:https://latex.artofproblemsolving.com/3/e/0/3e0c65881bed6213e0789bf735b240b830e07554.png]]",
+    "solutionLatex": "The midpoint $M$ of line segment $\\overline{BC}$ is $\\left(\\frac{35}{2}, \\frac{39}{2}\\right)$ . The equation of the median can be found by $-5 = \\frac{q - \\frac{39}{2}}{p - \\frac{35}{2}}$ . Cross multiply and simplify to yield that $-5p + \\frac{35 \\cdot 5}{2} = q - \\frac{39}{2}$ , so $q = -5p + 107$ .\n\nUse determinants to find that the area of $\\triangle ABC$ is $\\frac{1}{2} \\begin{vmatrix}p & 12 & 23 \\\\ q & 19 & 20 \\\\ 1 & 1 & 1\\end{vmatrix} = 70$ (note that there is a missing absolute value; we will assume that the other solution for the triangle will give a smaller value of $p+q$ , which is provable by following these steps over again) (alternatively, we could use the Shoelace Theorem). We can calculate this determinant to become $140 = \\begin{vmatrix} 12 & 23 \\\\ 19 & 20 \\end{vmatrix} - \\begin{vmatrix} p & q \\\\ 23 & 20 \\end{vmatrix} + \\begin{vmatrix} p & q \\\\ 12 & 19 \\end{vmatrix}$ $\\Longrightarrow 140 = 240 - 437 - 20p + 23q + 19p - 12q$ $= -197 - p + 11q$ . Thus, $q = \\frac{1}{11}p + \\frac{337}{11}$ .\n\nSetting this equation equal to the equation of the median, we get that $\\frac{1}{11}p + \\frac{337}{11} = -5p + 107$ , so $\\frac{56}{11}p = \\frac{107 \\cdot 11 - 337}{11}$ . Solving produces that $p = 15$ . Substituting backwards yields that $q = 32$ ; the solution is $p + q = \\boxed{047}$ .",
+    "choices": [],
+    "answer": "047",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_10",
+    "topics": [
+      "Mean Median Mode",
+      "Linear Equations",
+      "Problem-Solving: Triangle Angles",
+      "3rd Degree Symmetric Sums"
+    ]
+  },
+  {
+    "id": "aimei-2005-11",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 11,
+    "statementLatex": "A semicircle with diameter $d$ is contained in a square whose sides have length 8. Given the maximum value of $d$ is $m - \\sqrt{n},$ find $m+n.$",
+    "solutionLatex": "We note that aligning the base of the semicircle with a side of the square is certainly non-optimal. If the semicircle is tangent to only one side of the square, we will have \"wiggle-room\" to increase its size. Once it is tangent to two adjacent sides of the square, we will maximize its size when it touches both other sides of the square. This can happen only when it is arranged so that the center of the semicircle lies on one diagonal of the square.\n\n$2005 AIME I Problem 11.png$\n\nNow, let the square be $ABCD$ , and let $E \\in AB$ and $F \\in DA$ be the points at which the \"corners\" of the semicircle touch the square. Let $O$ be the center of the semicircle.\n\nWe can just look at a quarter circle inscribed in a $45-45-90$ right triangle. We can then extend a radius, $r$ to one of the sides creating an $r,r, r\\sqrt{2}$ right triangle. This means that we have $r + r\\sqrt{2} = 8\\sqrt{2}$ so $r = \\frac{8\\sqrt{2}}{1+\\sqrt{2}} = 16 - 8\\sqrt{2}$ . Then the diameter is $32 - \\sqrt{512}$ giving us $32 + 512 = \\boxed{544}$\n\nDefine the radius of the semicircle as $r$ . Draw the perpendicular from $O$ to $AB$ , which forms a $45-45-90$ triangle. The length of the perpendicular is $\\frac{r}{\\sqrt{2}}$ . Note also that $AD$ is equal to the length of that perpendicular plus the radius to the point of tangency on $CD$ . Thus, $r + \\frac{r}{\\sqrt{2}} = 8$ , and $r = \\frac{8\\sqrt{2}}{\\sqrt{2} + 1} \\cdot (\\frac{\\sqrt{2} - 1}{\\sqrt{2} - 1}) = 16 - 8\\sqrt{2}$ . The diameter is then $2r = 32 - \\sqrt{512}$ , and the solution is $32 + 512 = 544$ .\n\nBy the comments above, $AE = AF = a$ . By the Pythagorean Theorem, $d^2 = 2a^2$ .\n\nNow, if we draw a line through the center, $O$ , of the semicircle and its point of tangency with $BC$ , we see that this line is perpendicular to $BC$ and so parallel to $AB$ . Thus, by triangle similarity it cuts $AF$ in half, and so by symmetry the distance from $O$ to $AD$ is $\\frac{a}{2}$ and so the distance from $O$ to $BC$ is $8 - \\frac a2$ . But this latter quantity is also the radius of the semicircle, so $d = 16 - a$ .\n\nOur two previous paragraphs give $2a^2 = (16 - a)^2$ so $a^2 + 32a - 256 = 0$ and $a = 16\\sqrt{2} - 16$ (where we discard the negative root of that quadratic) and so $d = a\\sqrt{2} = 32 - 16\\sqrt{2} = 32 - \\sqrt{512}$ , so the answer is $32 + 512 = 544$ .\n\nWe proceed by finding the area of the square in 2 different ways. The square is obviously 8*8=64, but we can also find the area in terms of d. From the center of the circle, draw radii that hit the points where the square is tangent to the semicircle. Then the square's area is the area of the small square +2* the area of the trapezoids on the corners+ the area of an isoceles triangle. Adding these all up gives $64=\\frac{d^2}{4}+\\frac{d^2}{4}+(8-\\frac{d\\sqrt{2}}{2}+\\frac{d}{2})(8-\\frac{d}{2})$\nSimplifying gives $d-16\\sqrt{2}+d\\sqrt{2}=0$ . Solving gives $d=32-16\\sqrt{2}=32-\\sqrt{512}$ so the answer is $32+512= \\boxed{544}$ .\n\nIt is easy after getting the image, after drawing labeling the lengths of those segments, assume the radius is $x$ , we can see $x=\\sqrt{2}(8-x)$ and we get $2x=32-\\sqrt{512}$ and we have the answer $\\boxed{544}$ ~bluesoul",
+    "choices": [],
+    "answer": "544",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_11",
+    "topics": [
+      "Inequalities (AM-GM)",
+      "Simplifying Radicals",
+      "Problem-Solving: Circle Basics",
+      "Length Chasing"
+    ]
+  },
+  {
+    "id": "aimei-2005-12",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 12,
+    "statementLatex": "For positive integers $n,$ let $\\tau (n)$ denote the number of positive integer divisors of $n,$ including 1 and $n.$ For example, $\\tau (1)=1$ and $\\tau(6) =4.$ Define $S(n)$ by $S(n)=\\tau(1)+ \\tau(2) + \\cdots + \\tau(n).$ Let $a$ denote the number of positive integers $n \\leq 2005$ with $S(n)$ odd, and let $b$ denote the number of positive integers $n \\leq 2005$ with $S(n)$ even. Find $|a-b|.$",
+    "solutionLatex": "It is well-known that $\\tau(n)$ is odd if and only if $n$ is a perfect square. (Otherwise, we can group divisors into pairs whose product is $n$ .) Thus, $S(n)$ is odd if and only if there are an odd number of perfect squares less than $n$ . So $S(1), S(2)$ and $S(3)$ are odd, while $S(4), S(5), \\ldots, S(8)$ are even, and $S(9), \\ldots, S(15)$ are odd, and so on.\n\nSo, for a given $n$ , if we choose the positive integer $m$ such that $m^2 \\leq n < (m + 1)^2$ we see that $S(n)$ has the same parity as $m$ .\n\nIt follows that the numbers between $1^2$ and $2^2$ , between $3^2$ and $4^2$ , and so on, all the way up to the numbers between $43^2$ and $44^2 = 1936$ have $S(n)$ odd. These are the only such numbers less than $2005$ (because $45^2 = 2025 > 2005$ ).",
+    "choices": [],
+    "answer": "025",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_12",
+    "topics": [
+      "Arithmetic/Geometric Sequences",
+      "Divisor Counting",
+      "Absolute Value Tricks",
+      "Counting Divisors"
+    ]
+  },
+  {
+    "id": "aimei-2005-13",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 13,
+    "statementLatex": "A particle moves in the Cartesian plane according to the following rules:\n\nFrom any lattice point $(a,b),$ the particle may only move to $(a+1,b), (a,b+1),$ or $(a+1,b+1).$\nThere are no right angle turns in the particle's path.\n\nHow many different paths can the particle take from $(0,0)$ to $(5,5)$ ?",
+    "solutionLatex": "The length of the path (the number of times the particle moves) can range from $l = 5$ to $9$ ; notice that $d = 10-l$ gives the number of diagonals. Let $R$ represent a move to the right, $U$ represent a move upwards, and $D$ to be a move that is diagonal. Casework upon the number of diagonal moves:\n\nCase $d = 1$ : It is easy to see only $2$ cases.\nCase $d = 2$ : There are two diagonals. We need to generate a string with $3$ $R$ 's, $3$ $U$ 's, and $2$ $D$ 's such that no two $R$ 's or $U$ 's are adjacent. The $D$ 's split the string into three sections ( $-D-D-$ ): by the Pigeonhole principle all of at least one of the two letters must be all together (i.e., stay in a row).\n\nIf both $R$ and $U$ stay together, then there are $3 \\cdot 2=6$ ways.\nIf either $R$ or $U$ splits, then there are $3$ places to put the letter that splits, which has $2$ possibilities. The remaining letter must divide into $2$ in one section and $1$ in the next, giving $2$ ways. This totals $6 + 3\\cdot 2\\cdot 2 = 18$ ways.\n\nCase $d = 3$ : Now $2$ $R$ 's, $2$ $U$ 's, and $3$ $D$ 's, so the string is divided into $4$ partitions ( $-D-D-D-$ ).\n\nIf the $R$ 's and $U$ 's stay together, then there are $4 \\cdot 3 = 12$ places to put them.\nIf one of them splits and the other stays together, then there are $4 \\cdot {3\\choose 2}$ places to put them, and $2$ ways to pick which splits, giving $4 \\cdot 3 \\cdot 2 = 24$ ways.\nIf both groups split, then there are ${4\\choose 2}=6$ ways to arrange them. These add up to $12 + 24 + 6 = 42$ ways.\n\nCase $d = 4$ : Now $1$ $R$ , $1$ $U$ , $4$ $D$ 's ( $-D-D-D-D-$ ). There are $5$ places to put $R$ , $4$ places to put $U$ , giving $20$ ways.\nCase $d = 5$ : It is easy to see only $1$ case.\n\nTogether, these add up to $2 + 18 + 42 + 20 + 1 = \\boxed{083}$ .\n\nAnother possibility is to use block-walking and recursion: for each vertex, the number of ways to reach it is $a + b + c$ , where $a$ is the number of ways to reach the vertex from the left (without having come to that vertex (the one on the left) from below), $b$ is the number of ways to reach the vertex from the vertex diagonally down and left, and $c$ is the number of ways to reach the vertex from below (without having come to that vertex (the one below) from the left).\n\nAssign to each point $(i,j)$ the triplet $(a_{i,j}, b_{i,j}, c_{i,j})$ . Let $s(i,j) = a_{i,j}+ b_{i,j}+ c_{i,j}$ . Let all lattice points that contain exactly one negative coordinate be assigned to $(0,0,0)$ . This leaves the lattice points of the first quadrant, the positive parts of the $x$ and $y$ axes, and the origin unassigned. As a seed, assign to $(0,1,0)$ . (We will see how this correlates with the problem.) Then define for each lattice point $(i,j)$ its triplet thus:\n$\\begin{align*} a_{i,j} &= s(i-1,j) - c_{i-1,j}\\\\ b_{i,j} &= s(i-1,j-1) \\\\ c_{i,j} &= s(i,j-1) - a_{i,j-1}. \\end{align*}$\nIt is evident that $s(i,j)$ is the number of ways to reach $(i,j)$ from $(0,0)$ . Therefore we compute vertex by vertex the triplets $(a_{i,j}, b_{i,j}, c_{i,j})$ with $0 \\leq i, j \\leq 5$ .\n[[img:https://latex.artofproblemsolving.com/9/7/0/970ec89b19860e5d1b8e849056a35f91a8ca5751.png]]\nFinally, after simple but tedious calculations, we find that $(a_{5,5}, b_{5,5}, c_{5,5}) = (28,27,28)$ , so $s(i,j)=28+27+28 = \\boxed{083}$ .",
+    "choices": [],
+    "answer": "083",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_13",
+    "topics": [
+      "Area by Coordinates"
+    ]
+  },
+  {
     "id": "aimeii-2008-3",
     "contest": "AIME",
     "year": 2008,
@@ -8933,9 +9287,10 @@
     "answer": "351",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_14",
     "topics": [
-      "Permutations",
-      "Fundamental Counting Principle",
-      "Constructive Counting"
+      "Casework",
+      "Digit Problems",
+      "Recursion",
+      "Permutations"
     ]
   },
   {
@@ -12349,6 +12704,392 @@
       "3D Volumes and Surface Areas",
       "Problem-Solving: 3D Geometry",
       "Variables"
+    ]
+  },
+  {
+    "id": "aimeii-2012-4",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 4,
+    "statementLatex": "Ana, Bob, and Cao bike at constant rates of $8.6$ meters per second, $6.2$ meters per second, and $5$ meters per second, respectively. They all begin biking at the same time from the northeast corner of a rectangular field whose longer side runs due west. Ana starts biking along the edge of the field, initially heading west, Bob starts biking along the edge of the field, initially heading south, and Cao bikes in a straight line across the field to a point $D$ on the south edge of the field. Cao arrives at point $D$ at the same time that Ana and Bob arrive at $D$ for the first time. The ratio of the field's length to the field's width to the distance from point $D$ to the southeast corner of the field can be represented as $p : q : r$ , where $p$ , $q$ , and $r$ are positive integers with $p$ and $q$ relatively prime. Find $p+q+r$ .",
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/e/e/1/ee15991e4f0bea66c4a78ba779cc5d53348236f7.png]]\n\nLet $a,b,c$ be the labeled lengths as shown in the diagram. Also, assume WLOG the time taken is $1$ second.\n\nObserve that $\\dfrac{2a+b+c}{8.6}=1$ or $2a+b+c=8.6$ , and $\\dfrac{b+c}{6.2}=1$ or $b+c=6.2$ . Subtracting the second equation from the first gives $2a=2.4$ , or $a=1.2$ .\n\nNow, let us solve $b$ and $c$ . Note that $\\dfrac{\\sqrt{b^2+c^2}}{5}=1$ , or $b^2+c^2=25$ . We also have $b+c=6.2$ .\n\nWe have a system of equations: \\[\\left\\{\\begin{array}{l}b+c=6.2\\\\ b^2+c^2=25\\end{array}\\right.\\]\n\nSquaring the first equation gives $b^2+2bc+c^2=38.44$ , and subtracting the second from this gives $2bc=13.44$ . Now subtracting this from $b^2+c^2=25$ gives $b^2-2bc+c^2=(b-c)^2=11.56$ , or $b-c=3.4$ . Now we have the following two equations:\n\n\\[\\left\\{\\begin{array}{l}b+c=6.2\\\\ b-c=3.4\\end{array}\\right.\\]\n\nAdding the equations and dividing by two gives $b=4.8$ , and it follows that $c=1.4$ .\n\nThe ratios we desire are therefore $1.4:6:4.8=7:30:24$ , and our answer is $7+30+24=\\boxed{061}$ .\n\nNote that in our diagram, we labeled the part of the bottom $b$ and the side $c$ . However, these labels are interchangeable. We can cancel out the case where the side is $4.8$ and the part of the bottom is $1.4$ by noting a restriction of the problem: \"...a rectangular field whose longer side runs due west.\" If we had the side be $4.8$ , then the entire bottom would be $1.2+1.4=2.6$ , clearly less than $4.8$ and therefore violating our restriction.",
+    "choices": [],
+    "answer": "061",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_4",
+    "topics": [
+      "System of Equations",
+      "Ratios and Rates",
+      "Distance, Rate, Time"
+    ]
+  },
+  {
+    "id": "aimeii-2012-5",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 5,
+    "statementLatex": "In the accompanying figure, the outer square $S$ has side length $40$ . A second square $S'$ of side length $15$ is constructed inside $S$ with the same center as $S$ and with sides parallel to those of $S$ . From each midpoint of a side of $S$ , segments are drawn to the two closest vertices of $S'$ . The result is a four-pointed starlike figure inscribed in $S$ . The star figure is cut out and then folded to form a pyramid with base $S'$ . Find the volume of this pyramid.\n\n[[img:https://latex.artofproblemsolving.com/2/8/6/2862b9fac9f2c88c10b30e3908cf4ac1d5f62115.png]]",
+    "solutionLatex": "The volume of this pyramid can be found by the equation $V=\\frac{1}{3}bh$ , where $b$ is the base and $h$ is the height. The base is easy, since it is a square and has area $15^2=225$ .\n\nTo find the height of the pyramid, the height of the four triangles is needed, which will be called $h^\\prime$ . By drawing a line through the middle of the larger square, we see that its length is equal to the length of the smaller rectangle and two of the triangle's heights. Then $40=2h^\\prime +15$ , which means that $h^\\prime=12.5$ .\n\nWhen the pyramid is made, you see that the height is the one of the legs of a right triangle, with the hypotenuse equal to $h^\\prime$ and the other leg having length equal to half of the side length of the smaller square, or $7.5$ . So, the Pythagorean Theorem can be used to find the height.\n\n$h=\\sqrt{12.5^2-7.5^2}=\\sqrt{100}=10$\n\nFinally, $V=\\frac{1}{3}bh=\\frac{1}{3}(225)(10)=\\boxed{750}$ .",
+    "choices": [],
+    "answer": "750",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_5",
+    "topics": [
+      "Pythagorean theorem",
+      "3D Geometry",
+      "3D Volumes and Surface Areas",
+      "Problem-Solving: Inscribed Circles"
+    ]
+  },
+  {
+    "id": "aimeii-2012-6",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 6,
+    "statementLatex": "Let $z=a+bi$ be the complex number with $\\vert z \\vert = 5$ and $b > 0$ such that the distance between $(1+2i)z^3$ and $z^5$ is maximized, and let $z^4 = c+di$ . Find $c+d$ .",
+    "solutionLatex": "Let's consider the maximization constraint first: we want to maximize the value of $|z^5 - (1+2i)z^3|$\nSimplifying, we have\n\n$|z^3| * |z^2 - (1+2i)|$\n\n$=|z|^3 * |z^2 - (1+2i)|$\n\n$=125|z^2 - (1+2i)|$\n\nThus we only need to maximize the value of $|z^2 - (1+2i)|$ .\n\nTo maximize this value, we must have that $z^2$ is in the opposite direction of $1+2i$ . The unit vector in the complex plane in the desired direction is $\\frac{-1}{\\sqrt{5}} + \\frac{-2}{\\sqrt{5}} i$ . Furthermore, we know that the magnitude of $z^2$ is $25$ , because the magnitude of $z$ is $5$ . From this information, we can find that $z^2 = \\sqrt{5} (-5 - 10i)$\n\nSquaring, we get $z^4 = 5 (25 - 100 + 100i) = -375 + 500i$ . Finally, $c+d = -375 + 500 = \\boxed{125}$",
+    "choices": [],
+    "answer": "125",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_6",
+    "topics": [
+      "Complex Numbers"
+    ]
+  },
+  {
+    "id": "aimeii-2012-9",
+    "contest": "AIME",
+    "year": 2012,
+    "version": "II",
+    "number": 9,
+    "statementLatex": "Let $x$ and $y$ be real numbers such that $\\frac{\\sin x}{\\sin y} = 3$ and $\\frac{\\cos x}{\\cos y} = \\frac12$ . The value of $\\frac{\\sin 2x}{\\sin 2y} + \\frac{\\cos 2x}{\\cos 2y}$ can be expressed in the form $\\frac pq$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+    "solutionLatex": "Examine the first term in the expression we want to evaluate, $\\frac{\\sin 2x}{\\sin 2y}$ , separately from the second term, $\\frac{\\cos 2x}{\\cos 2y}$ .\n\nUsing the identity $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ , we have:\n\n$\\frac{2\\sin x \\cos x}{2\\sin y \\cos y} = \\frac{\\sin x \\cos x}{\\sin y \\cos y} = \\frac{\\sin x}{\\sin y}\\cdot\\frac{\\cos x}{\\cos y}=3\\cdot\\frac{1}{2} = \\frac{3}{2}$\n\nLet the equation $\\frac{\\sin x}{\\sin y} = 3$ be equation 1, and let the equation $\\frac{\\cos x}{\\cos y} = \\frac12$ be equation 2.\nHungry for the widely-used identity $\\sin^2\\theta + \\cos^2\\theta = 1$ , we cross multiply equation 1 by $\\sin y$ and multiply equation 2 by $\\cos y$ .\n\nEquation 1 then becomes:\n\n$\\sin x = 3\\sin y$ .\n\nEquation 2 then becomes:\n\n$\\cos x = \\frac{1}{2} \\cos y$\n\nAha! We can square both of the resulting equations and match up the resulting LHS with the resulting RHS:\n\n$1 = 9\\sin^2 y + \\frac{1}{4} \\cos^2 y$\n\nApplying the identity $\\cos^2 y = 1 - \\sin^2 y$ (which is similar to $\\sin^2\\theta + \\cos^2\\theta = 1$ but a bit different), we can change $1 = 9\\sin^2 y + \\frac{1}{4} \\cos^2 y$ into:\n\n$1 = 9\\sin^2 y + \\frac{1}{4} - \\frac{1}{4} \\sin^2 y$\n\nRearranging, we get $\\frac{3}{4} = \\frac{35}{4} \\sin^2 y$ .\n\nSo, $\\sin^2 y = \\frac{3}{35}$ .\n\nSquaring Equation 1 (leading to $\\sin^2 x = 9\\sin^2 y$ ), we can solve for $\\sin^2 x$ :\n\n$\\sin^2 x = 9\\left(\\frac{3}{35}\\right) = \\frac{27}{35}$\n\nUsing the identity $\\cos 2\\theta = 1 - 2\\sin^2\\theta$ , we can solve for $\\frac{\\cos 2x}{\\cos 2y}$ .\n\n$\\cos 2x = 1 - 2\\sin^2 x = 1 - 2\\cdot\\frac{27}{35} = 1 - \\frac{54}{35} = -\\frac{19}{35}$\n\n$\\cos 2y = 1 - 2\\sin^2 y = 1 - 2\\cdot\\frac{3}{35} = 1 - \\frac{6}{35} = \\frac{29}{35}$\n\nThus, $\\frac{\\cos 2x}{\\cos 2y} = \\frac{-19/35}{29/35} = -\\frac{19}{29}$ .\n\nPlugging in the numbers we got back into the original equation :\n\nWe get $\\frac{\\sin 2x}{\\sin 2y} + \\frac{\\cos 2x}{\\cos 2y} = \\frac32 + \\left(-\\frac{19}{29} \\right) = \\frac{49}{58}$ .\n\nSo, the answer is $49+58=\\boxed{107}$ .",
+    "choices": [],
+    "answer": "107",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_9",
+    "topics": [
+      "Variables",
+      "Pythagorean theorem",
+      "Trigonometric Identities",
+      "Similar Triangles"
+    ]
+  },
+  {
+    "id": "aimeii-2010-11",
+    "contest": "AIME",
+    "year": 2010,
+    "version": "II",
+    "number": 11,
+    "statementLatex": "Define a T-grid to be a $3\\times3$ matrix which satisfies the following two properties:\n\nExactly five of the entries are $1$ 's, and the remaining four entries are $0$ 's.\nAmong the eight rows, columns, and long diagonals (the long diagonals are $\\{a_{13},a_{22},a_{31}\\}$ and $\\{a_{11},a_{22},a_{33}\\}$ , no more than one of the eight has all three entries equal.\n\nFind the number of distinct T-grids.",
+    "solutionLatex": "The T-grid can be considered as a tic-tac-toe board: five $1$ 's (or X's) and four $0$ 's (or O's).\n\nThere are only $\\dbinom{9}{5} = 126$ ways to fill the board with five $1$ 's and four $0$ 's. Now we just need to subtract the number of bad grids. Bad grids are ones with more than one person winning, or where someone has won twice.\n\nLet three-in-a-row/column/diagonal be a \"win\" and let player $0$ be the one that fills in $0$ and player $1$ fills in $1$ .\n\nCase $1$ : Each player wins once.\n\nIf player X takes a diagonal, player Y cannot win. If either takes a row, all the columns are blocked, and visa versa. Therefore, they either both take a row or they both take a column.\n\nBoth take a row:\nThere are $3$ ways for player $1$ to pick a row,\n $2$ ways for player $0$ to pick a row and,\n $3$ ways for player $0$ to take a single box in the remaining row.\nTherefore, there are $3 \\cdot 2 \\cdot 3=18$ cases.\nBoth take a column:\nUsing similar reasoning, there are $18$ cases.\n\nCase $1$ : $36$ cases\n\nCase $2$ : Player $1$ wins twice. (Player $0$ cannot win twice because he only has 4 moves.)\n\nPlayer $1$ picks a row and a column.\nThere are $3$ ways to pick the row\nand $3$ ways to pick the column.\nSo there are $9$ cases.\nPlayer $1$ picks a row/column and a diagonal.\nThere are $6$ ways to pick the row/column\nand $2$ to pick the diagonal,\nso there are $12$ cases\n2 diagonals\nIt is clear that there is only $1$ case. (Make a X).\n\nCase $2$ total: $22$\n\nThus, the answer is $126-22-36=\\boxed{68}$\n\nWe can use generating functions to compute the case that no row or column is completely filled with $1$ 's. Given a row, let $a$ , $b$ , $c$ be the events that the first, second, third respective squares are $1$ 's. Then the generating function representing the possible events that exclude a row of $1,1,1$ or $0,0,0$ from occuring is\n \\[ab+bc+ca+a+b+c.\\]\nTherefore, the generating function representing the possible grids where no row is filled with $0$ 's and $1$ 's is\n \\[P(a,b,c)=((ab+bc+ca)+(a+b+c))^3.\\]\nWe expand this by the Binomial Theorem to find\n \\[P(a,b,c)=(ab+bc+ca)^3+3(ab+bc+ca)^2(a+b+c)+3(ab+bc+ca)(a+b+c)^2+(a+b+c)^3.\\]\nRecall that our grid has five $1$ 's, hence we only want terms where the sum of the exponents is $5$ . This is given by\n \\[3(ab+bc+ca)^2(a+b+c).\\]\nWhen we expand this, we find\n \\[3(2abc(a+b+c)+a^2b^2+b^2c^2+c^2a^2)(a+b+c).\\]\nWe also want to make sure that each of $a$ , $b$ , $c$ appears at least once (so there is no column filled with $0$ 's) and the power of each of $a$ , $b$ , $c$ is not greater than or equal to $3$ (so there is no column filled with $1$ 's). The sum of the coefficients of the above polynomial is clearly $81$ (using $a,b,c=1$ ), and the sum of the coefficients of the terms $a^3bc$ , $ab^3c$ , and $abc^3$ is $6+6+6+3+3+3+3+3+3=36$ , hence the sum of the coefficients of the desired terms is $81-36=45$ . This counts the number of grids where no column or row is filled with $0$ 's or $1$ 's. However, we could potentially have both diagonals filled with $1$ 's, but this is the only exception to our $45$ possibilities, hence the number of $T$ -grids with no row or column filled with the same digit is $44$ .\n\nOn the other hand, if a row (column) is filled with $0$ 's, then by the Pigeonhole Principle, another row (column) must be filled with $1$ 's. Hence this is impossible, so all other possible $T$ -grids have a row (column) filled with $1$ 's. If the top row is filled with $1$ 's, then we have two $1$ 's left to place. Clearly they cannot go in the same row, because then the other row is filled with $0$ 's. They also cannot appear in the same column. This leaves $3\\cdot 2$ arrangements--3 choices for the location of the $1$ in the second row, and 2 choices for the location of the $1$ in the last row. However, two of these arrangements will fill a diagonal with $1$ 's. Hence there are only $4$ $T$ -grids where the top row is filled with $1$ 's. The same argument applies if any other row or column is filled with $1$ 's. Hence there are $4\\cdot 6=24$ such $T$ -grids.\n\nThus the answer is $44+24=\\boxed{68}$ .\n\nWe proceed by complimentary counting.\n\nThere are $\\binom{9}{5} = 126$ ways to fill the board with five $1$ 's and four $0$ 's. We subtract the cases where at least two of the eight rows, columns, and long diagonals have all three entries equal. For the sake of simplicity, let a line denote a row/column/diagonal.\n\nFirstly, observe that there can be at most one line of $0$ 's and at most two lines of $1$ 's. Also, if there is one line of $0$ 's, there can at most be one line of $1$ 's. Therefore, there are only two \"bad\" cases we must consider:\n\nCase $1$ : There is one line of $0$ 's and one line of $1$ 's.\n\nIn this case, note that both lines must be horizontal or vertical. If both are horizontal, there are $3 \\cdot 2 = 6$ ways to select the columns, and $\\binom{3}{1} = 3$ ways to place the remaining $0$ in the remaining $3$ grids, yielding a total of $6 \\cdot 3 = 18$ bad cases. Similarly, there are $18$ bad cases where both lines are vertical, so $18 + 18 = 36$ cases.\n\nCase $2$ : There are two lines of $1$ 's.\n\nIn this case, note that all five $1$ 's are used, and the two lines can be horizontal/vertical, horizontal/diagonal, vertical/diagonal, or diagonal/diagonal, yielding $3 \\cdot 3 = 9$ , $3 \\cdot 2 = 6$ , $3 \\cdot 2 = 6$ , and $1$ case, respectively. $9 + 6 + 6 + 1 = 22$ cases.\n\nHence, the answer is $126 - 36 - 22 = \\boxed{068}$ .\n\n--OZ30",
+    "choices": [],
+    "answer": "068",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_11",
+    "topics": [
+      "Algebraic Manipulation",
+      "Permutations",
+      "Fundamental Counting Principle",
+      "Pigeonhole Principle"
+    ]
+  },
+  {
+    "id": "aimeii-2009-1",
+    "contest": "AIME",
+    "year": 2009,
+    "version": "II",
+    "number": 1,
+    "statementLatex": "Before starting to paint, Bill had $130$ ounces of blue paint, $164$ ounces of red paint, and $188$ ounces of white paint. Bill painted four equally sized stripes on a wall, making a blue stripe, a red stripe, a white stripe, and a pink stripe. Pink is a mixture of red and white, not necessarily in equal amounts. When Bill finished, he had equal amounts of blue, red, and white paint left. Find the total number of ounces of paint Bill had left.",
+    "solutionLatex": "Let $x$ be the amount of paint in a strip. The total amount of paint is $130+164+188=482$ . After painting the wall, the total amount of paint is $482-4x$ . Because the total amount in each color is the same after finishing, we have\n\n\\[\\frac{482-4x}{3} = 130-x\\]\n \\[482-4x=390-3x\\]\n \\[x=92\\]\n\nOur answer is $482-4\\cdot 92 = 482 - 368 = \\boxed{114}$ .\n\n~ carolynlikesmath",
+    "choices": [],
+    "answer": "114",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_1",
+    "topics": [
+      "Fractions and Percents"
+    ]
+  },
+  {
+    "id": "aimeii-2008-1",
+    "contest": "AIME",
+    "year": 2008,
+    "version": "II",
+    "number": 1,
+    "statementLatex": "Let $N = 100^2 + 99^2 - 98^2 - 97^2 + 96^2 + \\cdots + 4^2 + 3^2 - 2^2 - 1^2$ , where the additions and subtractions alternate in pairs. Find the remainder when $N$ is divided by $1000$ .",
+    "solutionLatex": "Rewriting this sequence with more terms, we have\n\n$\\begin{align*} N &= 100^2 + 99^2 - 98^2 - 97^2 + 96^2 + 95^2 - 94^2 - 93^2 + 92^2 + 91^2 + \\ldots - 10^2 - 9^2 + 8^2 + 7^2 - 6^2 - 5^2 + 4^2 + 3^2 - 2^2 - 1^2 \\mbox{, and reordering, we get}\\\\ N &= (100^2 - 98^2) + (99^2 - 97^2) + (96^2 - 94^2) + (95^2 - 93^2) + (92^2 - 90^2) + \\ldots + (8^2 - 6^2) + (7^2 - 5^2) +(4^2 - 2^2) + (3^2 - 1^2) \\mbox{.} \\end{align*}$\n\nFactoring this expression yields\n\n$\\begin{align*} N &= (100 - 98)(100 + 98) + (99 - 97)(99 + 97) + (96 - 94)(96 + 94) + (95 - 93)(95 + 93) + (92 - 90)(90 + 92) + \\ldots + (8 - 6)(8 + 6) + (7 - 5)(7 + 5) + (4 - 2)(4 + 2) + (3 - 1)(3 + 1) \\mbox{, leading to}\\\\ N &= 2(100 + 98) + 2(99 + 97) + 2(96 + 94) + 2(95 + 93) + 2(92 + 90) + \\ldots + 2(8 + 6) + 2(7 + 5) + 2(4 + 2) + 2(3 + 1) \\mbox{.} \\end{align*}$\n\nNext, we get\n\n$\\begin{align*} N &= 2(100 + 98 + 99 + 97 + 96 + 94 + 95 + 93 + 92 + 90 + \\ldots + 8 + 6 + 7 + 5 + 4 + 2 + 3 + 1 \\mbox{, and rearranging terms yields}\\\\ N &= 2(100 + 99 + 98 + 97 + 96 + \\ldots + 5 + 4 + 3 + 2 + 1) \\mbox{.} \\end{align*}$\n\nThen,\n\n$\\begin{align*} N &= 2\\left(\\frac{(100)(101)}{2}\\right) \\mbox{, and simplifying, we get}\\\\ N &= (100)(101) \\mbox{, so}\\\\ N &= 10100 \\mbox{.} \\end{align*}$\n\nDividing $10100$ by $1000$ yields a remainder of $\\boxed{100}$ .",
+    "choices": [],
+    "answer": "100",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_1",
+    "topics": [
+      "Sequences and Series",
+      "Modular Arithmetic",
+      "Arithmetic/Geometric Sequences",
+      "Algebraic Manipulation"
+    ]
+  },
+  {
+    "id": "aimeii-2008-2",
+    "contest": "AIME",
+    "year": 2008,
+    "version": "II",
+    "number": 2,
+    "statementLatex": "Rudolph bikes at a constant rate and stops for a five-minute break at the end of every mile. Jennifer bikes at a constant rate which is three-quarters the rate that Rudolph bikes, but Jennifer takes a five-minute break at the end of every two miles. Jennifer and Rudolph begin biking at the same time and arrive at the $50$ -mile mark at exactly the same time. How many minutes has it taken them?",
+    "solutionLatex": "Let Rudolf bike at a rate $r$ , so Jennifer bikes at the rate $\\dfrac 34r$ . Let the time both take be $t$ .\n\nThen Rudolf stops $49$ times (because the rest after he reaches the finish does not count), losing a total of $49 \\cdot 5 = 245$ minutes, while Jennifer stops $24$ times, losing a total of $24 \\cdot 5 = 120$ minutes. The time Rudolf and Jennifer actually take biking is then $t - 245,\\, t-120$ respectively.\n\nUsing the formula $r = \\frac dt$ , since both Jennifer and Rudolf bike $50$ miles,\n\n$\\begin{align}r &= \\frac{50}{t-245}\\\\ \\frac{3}{4}r &= \\frac{50}{t-120} \\end{align}$\n\nSubstituting equation $(1)$ into equation $(2)$ and simplifying, we find\n\n$\\begin{align*}50 \\cdot \\frac{3}{4(t-245)} &= 50 \\cdot \\frac{1}{t-120}\\\\ \\frac{1}{3}t &= \\frac{245 \\cdot 4}{3} - 120\\\\ t &= \\boxed{620}\\ \\text{minutes} \\end{align*}$",
+    "choices": [],
+    "answer": "620",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_2",
+    "topics": [
+      "Distance, Rate, Time"
+    ]
+  },
+  {
+    "id": "aimeii-2008-4",
+    "contest": "AIME",
+    "year": 2008,
+    "version": "II",
+    "number": 4,
+    "statementLatex": "There exist $r$ unique nonnegative integers $n_1 > n_2 > \\cdots > n_r$ and $r$ unique integers $a_k$ ( $1\\le k\\le r$ ) with each $a_k$ either $1$ or $- 1$ such that\n \\[a_13^{n_1} + a_23^{n_2} + \\cdots + a_r3^{n_r} = 2008.\\]\nFind $n_1 + n_2 + \\cdots + n_r$ .",
+    "solutionLatex": "In base $3$ , we find that $\\overline{2008}_{10} = \\overline{2202101}_{3}$ . In other words,\n\n$2008 = 2 \\cdot 3^{6} + 2 \\cdot 3^{5} + 2 \\cdot 3^3 + 1 \\cdot 3^2 + 1 \\cdot 3^0$\n\nIn order to rewrite as a sum of perfect powers of $3$ , we can use the fact that $2 \\cdot 3^k = 3^{k+1} - 3^k$ :\n\n$2008 = (3^7 - 3^6) + (3^6-3^5) + (3^4 - 3^3) + 3^2 + 3^0 = 3^7 - 3^5 + 3^4 - 3^3 + 3^2 + 3^0$\n\nThe answer is $7+5+4+3+2+0 = \\boxed{021}$ .\n\nNote : Solution by bounding is also possible, namely using the fact that $1+3+3^2 + \\cdots + 3^{n} = \\displaystyle\\frac{3^{n+1}-1}{2}.$",
+    "choices": [],
+    "answer": "021",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_4",
+    "topics": [
+      "Problem-Solving: Linear Diophantine Equations",
+      "Base Conversion",
+      "Exponent Rules",
+      "Bases"
+    ]
+  },
+  {
+    "id": "aimei-2005-1",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 1,
+    "statementLatex": "Six congruent circles form a ring with each circle externally tangent to two circles adjacent to it. All circles are internally tangent to a circle $C$ with radius 30. Let $K$ be the area of the region inside circle $C$ and outside of the six circles in the ring. Find $\\lfloor K \\rfloor$ (the floor function).\n\n$2005 AIME I Problem 1.png$",
+    "solutionLatex": "Define the radii of the six congruent circles as $r$ . If we draw all of the radii to the points of external tangency, we get a regular hexagon. If we connect the vertices of the hexagon to the center of the circle $C$ , we form several equilateral triangles. The length of each side of the triangle is $2r$ . Notice that the radius of circle $C$ is equal to the length of the side of the triangle plus $r$ . Thus, the radius of $C$ has a length of $3r = 30$ , and so $r = 10$ . $K = 30^2\\pi - 6(10^2\\pi) = 300\\pi$ , so $\\lfloor 300\\pi \\rfloor = \\boxed{942}$ .",
+    "choices": [],
+    "answer": "942",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_1",
+    "topics": [
+      "Circle Tangents",
+      "Problem-Solving: Circle Basics",
+      "Floor Functions",
+      "Floor Function Strategies"
+    ]
+  },
+  {
+    "id": "aimei-2005-5",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 5,
+    "statementLatex": "Robert has 4 indistinguishable gold coins and 4 indistinguishable silver coins. Each coin has an engraving of one face on one side, but not on the other. He wants to stack the eight coins on a table into a single stack so that no two adjacent coins are face to face. Find the number of possible distinguishable arrangements of the 8 coins.",
+    "solutionLatex": "There are two separate parts to this problem: one is the color (gold vs silver), and the other is the orientation.\n\nThere are ${8\\choose4} = 70$ ways to position the gold coins in the stack of 8 coins, which determines the positions of the silver coins.\n\nCreate a string of letters H and T to denote the orientation of the top of the coin. To avoid making two faces touch, we cannot have the arrangement HT. Thus, all possible configurations must be a string of tails followed by a string of heads, since after the first H no more tails can appear. The first H can occur in a maximum of eight times different positions, and then there is also the possibility that it doesn’t occur at all, for $9$ total configurations. Thus, the answer is $70 \\cdot 9 = \\boxed{630}$ .",
+    "choices": [],
+    "answer": "630",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_5",
+    "topics": [
+      "Permutations with Repeated Elements",
+      "Permutations",
+      "Problem-Solving: 3D Geometry",
+      "Recurrence Strategies"
+    ]
+  },
+  {
+    "id": "aimei-2005-14",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 14,
+    "statementLatex": "Consider the points $A(0,12), B(10,9), C(8,0),$ and $D(-4,7).$ There is a unique square $S$ such that each of the four points is on a different side of $S.$ Let $K$ be the area of $S.$ Find the remainder when $10K$ is divided by $1000$ .",
+    "solutionLatex": "$2005 I AIME-14.png$\n\nConsider a point $E$ such that $AE$ is perpendicular to $BD$ , $AE$ intersects $BD$ , and $AE = BD$ . E will be on the same side of the square as point $C$ .\n\nLet the coordinates of $E$ be $(x_E,y_E)$ . Since $AE$ is perpendicular to $BD$ , and $AE = BD$ , we have $9 - 7 = x_E - 0$ and $10 - ( - 4) = 12 - y_E$\nThe coordinates of $E$ are thus $(2, - 2)$ .\n\nNow, since $E$ and $C$ are on the same side, we find the slope of the sides going through $E$ and $C$ to be $\\frac { - 2 - 0}{2 - 8} = \\frac {1}{3}$ . Because the other two sides are perpendicular, the slope of the sides going through $B$ and $D$ are now $- 3$ .\n\nLet $A_1,B_1,C_1,D_1$ be the vertices of the square so that $A_1B_1$ contains point $A$ , $B_1C_1$ contains point $B$ , and etc. Since we know the slopes and a point on the line for each side of the square, we use the point slope formula to find the linear equations. Next, we use the equations to find $2$ vertices of the square, then apply the distance formula.\n\nWe find the coordinates of $C_1$ to be $(12.5,1.5)$ and the coordinates of $D_1$ to be $( - 0.7, - 2.9)$ . Applying the distance formula, the side length of our square is $\\sqrt {\\left( \\frac {44}{10} \\right)^2 + \\left( \\frac {132}{10} \\right)^2} = \\frac {44}{\\sqrt {10}}$ .\n\nHence, the area of the square is $K = \\frac {44^2}{10}$ . The remainder when $10K$ is divided by $1000$ is $936$ .\n\nLet $(a,b)$ denote a normal vector of the side containing $A$ . Note that $\\overline{AC}, \\overline{BD}$ intersect and hence must be opposite vertices of the square. The lines containing the sides of the square have the form $ax+by=12b$ , $ax+by=8a$ , $bx-ay=10b-9a$ , and $bx-ay=-4b-7a$ . The lines form a square, so the distance between $C$ and the line through $A$ equals the distance between $D$ and the line through $B$ , hence $8a+0b-12b=-4b-7a-10b+9a$ , or $-3a=b$ . We can take $a=-1$ and $b=3$ . So the side of the square is $\\frac{44}{\\sqrt{10}}$ , the area is $K=\\frac{1936}{10}$ , and the answer to the problem is $\\boxed{936}$ .\n\nLet $\\begin{bmatrix} a \\\\ b \\end{bmatrix}$ be the unit vector parallel to one side of the square. The unit vector parallel to the perpendicular side is then $\\begin{bmatrix} b \\\\ -a \\end{bmatrix}$ . The dot product of a diagonal of quadrilateral $ABCD$ with the corresponding unit vector gives the side length. Since the side lengths of the square are equal, $\\overrightarrow{DB}\\cdot \\begin{bmatrix} a \\\\ b \\end{bmatrix}= \\overrightarrow{AC}\\cdot \\begin{bmatrix} b \\\\ -a \\end{bmatrix}$ . Plugging in $\\overrightarrow{AC}=\\begin{bmatrix} 8 \\\\ -12 \\end{bmatrix}$ and $\\overrightarrow{DB}=\\begin{bmatrix} 14 \\\\ 2 \\end{bmatrix}$ yields $a=3b$ . Since $\\begin{bmatrix} a \\\\ b \\end{bmatrix}$ is a unit vector, it is equal to $\\begin{bmatrix} \\frac{3}{\\sqrt{10}} \\\\ \\frac{1}{\\sqrt{10}} \\end{bmatrix}$ . Taking the dot product with $\\overrightarrow{DB}$ gives the side length, which is $\\frac {44}{\\sqrt {10}}$ , so the area is $\\frac {44^2}{10}$ , and the answer is $\\boxed{936}$ .",
+    "choices": [],
+    "answer": "936",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_14",
+    "topics": [
+      "Linear Equations",
+      "Problem-Solving: Areas",
+      "Modular Arithmetic",
+      "Problem-Solving: Coordinate Bashing"
+    ]
+  },
+  {
+    "id": "aimei-2005-15",
+    "contest": "AIME",
+    "year": 2005,
+    "version": "I",
+    "number": 15,
+    "statementLatex": "Triangle $ABC$ has $BC=20.$ The incircle of the triangle evenly trisects the median $AD.$ If the area of the triangle is $m \\sqrt{n}$ where $m$ and $n$ are integers and $n$ is not divisible by the square of a prime, find $m+n.$",
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/e/b/b/ebb5c6eb90edb59c2c2fc2cf3dfef0dcf818f4f9.png]]\n\nLet $E$ , $F$ and $G$ be the points of tangency of the incircle with $BC$ , $AC$ and $AB$ , respectively. Without loss of generality, let $AC < AB$ , so that $E$ is between $D$ and $C$ . Let the length of the median be $3m$ . Then by two applications of the Power of a Point Theorem, $DE^2 = 2m \\cdot m = AF^2$ , so $DE = AF$ . Now, $CE$ and $CF$ are two tangents to a circle from the same point, so by the Two Tangent Theorem $CE = CF = c$ and thus $AC = AF + CF = DE + CE = CD = 10$ . Then $DE = AF = AG = 10 - c$ so $BG = BE = BD + DE = 20 - c$ and thus $AB = AG + BG = 30 - 2c$ .\n\nNow, by Stewart's Theorem in triangle $\\triangle ABC$ with cevian $\\overline{AD}$ , we have\n\n\\[(3m)^2\\cdot 20 + 20\\cdot10\\cdot10 = 10^2\\cdot10 + (30 - 2c)^2\\cdot 10.\\]\n\nOur earlier result from Power of a Point was that $2m^2 = (10 - c)^2$ , so we combine these two results to solve for $c$ and we get\n\n\\[9(10 - c)^2 + 200 = 100 + (30 - 2c)^2 \\quad \\Longrightarrow \\quad c^2 - 12c + 20 = 0.\\]\n\nThus $c = 2$ or $= 10$ . We discard the value $c = 10$ as extraneous (it gives us a line) and are left with $c = 2$ , so our triangle has area $\\sqrt{28 \\cdot 18 \\cdot 8 \\cdot 2} = 24\\sqrt{14}$ and so the answer is $24 + 14 = \\boxed{038}$ .",
+    "choices": [],
+    "answer": "038",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_15",
+    "topics": [
+      "Stewarts Theorem",
+      "Mean Median Mode",
+      "Problem-Solving: Inscribed Circles",
+      "Incenter"
+    ]
+  },
+  {
+    "id": "aimei-2004-3",
+    "contest": "AIME",
+    "year": 2004,
+    "version": "I",
+    "number": 3,
+    "statementLatex": "A convex polyhedron $P$ has $26$ vertices, $60$ edges, and $36$ faces, $24$ of which are triangular and $12$ of which are quadrilaterals. A space diagonal is a line segment connecting two non-adjacent vertices that do not belong to the same face. How many space diagonals does $P$ have?",
+    "solutionLatex": "Every pair of vertices of the polyhedron determines either an edge, a face diagonal or a space diagonal. We have ${26 \\choose 2} = \\frac{26\\cdot25}2 = 325$ total line segments determined by the vertices. Of these, $60$ are edges. Each triangular face has $0$ face diagonals and each quadrilateral face has $2$ , so there are $2 \\cdot 12 = 24$ face diagonals. This leaves $325 - 60 - 24 = \\boxed{241}$ segments to be the space diagonals.",
+    "choices": [],
+    "answer": "241",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_3",
+    "topics": [
+      "Problem-Solving: 3D Geometry",
+      "Length Chasing",
+      "Handshakes",
+      "Problem-Solving: Quadrilaterals"
+    ]
+  },
+  {
+    "id": "aimei-2001-4",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "I",
+    "number": 4,
+    "statementLatex": "In triangle $ABC$ , angles $A$ and $B$ measure $60$ degrees and $45$ degrees, respectively. The bisector of angle $A$ intersects $\\overline{BC}$ at $T$ , and $AT=24$ . The area of triangle $ABC$ can be written in the form $a+b\\sqrt{c}$ , where $a$ , $b$ , and $c$ are positive integers, and $c$ is not divisible by the square of any prime. Find $a+b+c$ .",
+    "solutionLatex": "After chasing angles, $\\angle ATC=75^{\\circ}$ and $\\angle TCA=75^{\\circ}$ , meaning $\\triangle TAC$ is an isosceles triangle and $AC=24$ .\n\nUsing law of sines on $\\triangle ABC$ , we can create the following equation:\n\n$\\frac{24}{\\sin(\\angle ABC)}$ $=$ $\\frac{BC}{\\sin(\\angle BAC)}$\n\n$\\angle ABC=45^{\\circ}$ and $\\angle BAC=60^{\\circ}$ , so $BC = 12\\sqrt{6}$ .\n\nWe can then use the Law of Sines area formula $\\frac{1}{2} \\cdot BC \\cdot AC \\cdot \\sin(\\angle BCA)$ to find the area of the triangle.\n\n$\\sin(75)$ can be found through the sin addition formula.\n\n$\\sin(75)$ $=$ $\\frac{\\sqrt{6} + \\sqrt{2}}{4}$\n\nTherefore, the area of the triangle is $\\frac{\\sqrt{6} + \\sqrt{2}}{4}$ $\\cdot$ $24$ $\\cdot$ $12\\sqrt{6}$ $\\cdot$ $\\frac{1}{2}$\n\n$72\\sqrt{3} + 216$\n\n$72 + 3 + 216 =$ $\\boxed{291}$",
+    "choices": [],
+    "answer": "291",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_4",
+    "topics": [
+      "Special triangles",
+      "Problem-Solving: Areas",
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Pythagorean theorem"
+    ]
+  },
+  {
+    "id": "aimei-2001-6",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "I",
+    "number": 6,
+    "statementLatex": "A fair die is rolled four times. The probability that each of the final three rolls is at least as large as the roll preceding it may be expressed in the form $\\frac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+    "solutionLatex": "Recast the problem entirely as a block-walking problem. Call the respective dice $a, b, c, d$ . In the diagram below, the lowest $y$ -coordinate at each of $a$ , $b$ , $c$ , and $d$ corresponds to the value of the roll.\n\n$AIME01IN6.png$\n\nThe red path corresponds to the sequence of rolls $2, 3, 5, 5$ . This establishes a bijection between valid dice roll sequences and block walking paths.\n\nThe solution to this problem is therefore $\\dfrac{\\binom{9}{4}}{6^4} = {\\dfrac{7}{72}}$ . So the answer is $\\boxed{079}$ .\n\nLet $a, b, c,$ and $d$ be the results of rolling the four dice respectively. We have the range $1\\leq a\\leq b\\leq c\\leq d\\leq 6$ , and there are $6^4=1296$ total outcomes from rolling the dice. To transfer the inequality into a strictly increasing inequality, we can transform it into $1\\leq a. Now, lets suppose $a'=a, b'=b+1, c'=c+2,$ and $d'=d+3$ . Then, $1\\leq a'. Clearly, there are $\\binom{9}{4}=126$ values that satisfy this equation, so our answer is $\\dfrac{\\binom{9}{4}}{6^4} = {\\dfrac{7}{72}}\\implies \\boxed{079}$ .\n\n~Mathkiddie\n\nIf we take any combination of four numbers, there is only one way to order them in a non-decreasing order. It suffices now to find the number of combinations for four numbers from $\\{1,2,3,4,5,6\\}$ . We can visualize this as taking the four dice and splitting them into 6 slots (each slot representing one of {1,2,3,4,5,6}), or dividing them amongst 5 separators. Thus, there are ${9\\choose4} = 126$ outcomes of four dice. The solution is therefore $\\frac{126}{6^4} = \\frac{7}{72}$ , and $7 + 72 = \\boxed{079}$ .\n\nCall the dice rolls $a, b, c, d$ . The difference between the $a$ and $d$ distinguishes the number of possible rolls there are.\n\nIf $a - d = 0$ , then the values of $b,\\ c$ are set, and so there are $6$ values for $a,\\ d$ .\nIf $a - d = 1$ , then there are ${3\\choose2} = 3$ ways to arrange for values of $b,\\ c$ , but only $5$ values for $a,\\ d$ .\nIf $a - d = 2$ , then there are ${4\\choose2} = 6$ ways to arrange $b, c$ , and there are only $6 - 2 = 4$ values for $a, d$ .\n\nContinuing, we see that the sum is equal to $\\sum_{i = 0}^{5}{i+2\\choose2}(6 - i) = 6 + 15 + 24 + 30 + 30 + 21 = 126$ . The requested probability is $\\frac{126}{6^4} = \\frac{7}{72}$ and our answer is $\\boxed{79}$ .\n\nThe dice rolls can be in the form\n\nABCD\nAABC\nAABB\nAAAB\nAAAA\n\nwhere A, B, C, D are some possible value of the dice rolls. (These forms are not keeping track of whether or not the dice are in ascending order, just the possible outcomes.)\n\nNow, for the first case, there are ${6\\choose4} = 15$ ways for this. We do not have to consider the order because the combination counts only one of the permutations; we can say that it counts the correct (ascending order) permutation.\nSecond case: ${6\\choose3} = 20$ ways to pick 3 numbers, ${3\\choose1}$ ways to pick 1 of those 3 to duplicate. A total of 60 for this case.\nThird case: ${6\\choose2}=15$ ways to pick 2 numbers. We will duplicate both, so nothing else in this case matters.\nFourth case: ${6\\choose2} = 15$ ways to pick 2 numbers. We pick one to duplicate with ${2\\choose1} = 2$ , so there are a total of 30 in this case.\nFifth case: ${6\\choose1} = 6$ ; all get duplicated so nothing else matters.\n\nThere are a total of $6^4$ possible dice rolls.\n\nThus,\n\n$\\frac{m}{n} = \\frac{15 + 60 + 15 + 30 + 6}{6^4} = \\frac{126}{6^4} = \\frac{7}{72}$\n\nTherefore, our answer is $\\boxed{079}$\n\nConsider the number of possible dice roll combinations which work after $1$ roll, after $2$ rolls, and so on. There is 6 possible rolls for the first dice. If the number rolled is a 1, then there are 6 further values that are possible for the second dice; if the number rolled is a 2, then there are 5 further values that are possible for the second dice, and so on.\n\nSuppose we generalize this as a function, say $f(l,r)$ return the number of possible combinations after $l$ rolls and $r$ being the beginning value of the first roll. It becomes clear that from above, $f(1,r) = 1$ ; every value of $l$ after that is equal to the sum of the number of combinations of $l - 1$ rolls that have a starting value of at least $r$ . If we slowly count through and add up all the possible combinations we get $\\frac{7}{72}$ possibilities.\n\nIn a manner similar to the above solution, instead consider breaking it down into two sets of two dice rolls. The first subset must have a maximum value which is $\\le$ the minimum value of the second subset.\n\nIf the first subset ends in a 1, there is $1$ such subset and there are $6 + 5 + 4 + 3 + 2 + 1 = \\frac{6}{2}(6 + 1) = 21$ ways of making the second subset.\nIf the first subset ends in a 2, there is $2$ such subsets and there are $5 + \\ldots + 1 = \\frac{5}{2}(5 + 1) = 15$ ways of making the second subset.\n\nThus, the number of combinations is $\\sum_{i=1}^6 i \\cdot \\left(\\frac{(7 - i)(8 - i)}{2}\\right) = 21 + 30 + 30 + 24 + 15 + 6 = 126$ , and the probability again is $\\frac7{72}$ , giving $m+n=\\boxed{079}$ .\n\nIf you're too tired to think about any of the above smart transformations of the problem, a recursion formula can be a robust way to the correct answer.\n\nWe just need to work out the valid cases for each roll. Denote by $N_{k}(n)$ the number of valid cases in the $k+1$ -th roll when the number $n$ is rolled, for $k=1,2,3$ and $1 <= n <= 6$ . Then we have the following recursion formula:\n \\[N_{1}(n) = n\\]\n \\[N_{2}(n) = N_{1}(1) + N_{1}(2) + ... + N_{1}(n)=N_{2}(n-1)+N_{1}(n)\\]\n \\[N_{3}(n) = N_{2}(1) + N_{2}(2) + ... + N_{2}(n)=N_{3}(n-1)+N_{2}(n)\\]\nThe logic is that, if $n$ is rolled, then the number of valid cases is the subtotal of valid cases in the preceding roll for the outcome of 1 to $n$ . The recursion can be easily calculated by hand when $N_k(n)$ are put in columns side by side, given the fact that te numbers are smaller than 100.\nFinally, the total number of cases is\n \\[N = \\sum_{n=1}^{6} N_{3}(n)\\]\nand\n \\[P = \\frac{N}{6^4}\\]\n\nLets try casework and observe the cases. Notice that if the last roll is a $1$ , then the only dice rolls may be $1-1-1-1$ , which is only $1$ possibility. Observe that if the last roll is $2$ , then there are $4 = 1 + 3$ possibilities. When the last roll is a $3$ , there are $10 = 1 + 3 + 6$ possibilities. Notice when the last roll is $n$ , the number of cases is the sum of the first $n$ positive triangular numbers. This is easily provable when observing the numbers of possibilities after assigning a value to the last and second to last rolls.\nSo there are a total of $1 + 1 + 3 + 1 + 3 + 6 + 1 + 3 + 6 + 10 + 1 + 3 + 6 + 10 + 15 + 1 + 3 + 6 + 10 + 15 + 21 = 126$ possibilities. So the probability is $\\frac{126}{6^4} = \\frac{7}{72}$ and $7 + 72 = \\boxed{079}$ . ~skyscraper\n\nThis is equivalent to picking a four-element sequence of $\\{1, 2, 3, 4, 5, 6\\}$ with repetition. Notice that once the sequence is picked, there is one and only one way to order these so that they form a sequence of rolls satisfying our conditions.\n\nNow count the number of such four-element sequences, let $a$ be the number of $1$ s in the sequence, $b$ be the number of $2$ s, $c$ $3$ s, $d$ $4$ s, $e$ $5$ s, and $f$ $6$ s. Now we see that we must have \\[a + b + c + d + e + f = 4\\] with $a, b, c, d, e, f$ being nonnegative integers since there are a total of $4$ numbers picked. The number of solutions to this is $\\dbinom{9}{4},$ so our total number is equal to $\\dfrac{\\binom{9}{4}}{6^4} = \\dfrac{7}{72},$ making our answer $\\boxed{079}.$\n\n~Ilikeapos\n\nLet the rolls be $a,b,c$ and $d\\newline$ let $z=a-1, e=b-a, f=c-b, g=d-c, h=6-d\\newline$ $z+e+f+g+h=5\\newline$ This equation has $C(5+5-1, 5-1)=126$ integer solutions $\\newline$ $126/1296=7/72\\newline$ $7+72=\\boxed{79}$\n~ryanbear\n\nLet's say the four dice values are all different. These can only be arranged in one way to satisfy our conditions, so there are $\\binom{6}{4}=15$ ways. If there are three different values, there are $\\binom{6}{3}$ to choose the numbers and $\\binom{3}{1}$ to choose which number will have the repeat, so $20\\cdot3=60$ ways. If there are two different values, there are $\\binom{6}{2}$ ways to choose the numbers. If there are two of each, then there is one way. If there are three of one and one of another, then there are $\\binom{2}{1}$ ways. Therefore $15\\cdot(1+2)=45$ . Now if all the numbers are the same, there are $\\binom{6}{1}=6$ ways. Altogether we have $15+60+45+6=126$ ways. $\\frac{126}{6^4}=\\frac{21}{216}=\\frac{7}{72}$ . $7+72=\\boxed{79}$ .\n~MC413551",
+    "choices": [],
+    "answer": "079",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_6",
+    "topics": [
+      "Combinations",
+      "Sequences and Series",
+      "Permutations",
+      "Introduction to Probability"
+    ]
+  },
+  {
+    "id": "aimei-2001-10",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "I",
+    "number": 10,
+    "statementLatex": "Let $S$ be the set of points whose coordinates $x,$ $y,$ and $z$ are integers that satisfy $0\\le x\\le2,$ $0\\le y\\le3,$ and $0\\le z\\le4.$ Two distinct points are randomly chosen from $S.$ The probability that the midpoint of the segment they determine also belongs to $S$ is $m/n,$ where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+    "solutionLatex": "The distance between the $x$ , $y$ , and $z$ coordinates must be even so that the midpoint can have integer coordinates. Therefore,\n\nFor $x$ , we have the possibilities $(0,0)$ , $(1,1)$ , $(2,2)$ , $(0,2)$ , and $(2,0)$ , $5$ possibilities.\nFor $y$ , we have the possibilities $(0,0)$ , $(1,1)$ , $(2,2)$ , $(3,3)$ , $(0,2)$ , $(2,0)$ , $(1,3)$ , and $(3,1)$ , $8$ possibilities.\nFor $z$ , we have the possibilities $(0,0)$ , $(1,1)$ , $(2,2)$ , $(3,3)$ , $(4,4)$ , $(0,2)$ , $(0,4)$ , $(2,0)$ , $(4,0)$ , $(2,4)$ , $(4,2)$ , $(1,3)$ , and $(3,1)$ , $13$ possibilities.\n\nHowever, we have $3\\cdot 4\\cdot 5 = 60$ cases where we have simply taken the same point twice, so we subtract those. Therefore, our answer is $\\frac {5\\cdot 8\\cdot 13 - 60}{60\\cdot 59} = \\frac {23}{177}\\Longrightarrow m+n = \\boxed{200}$ .\n\nThere are $(2 + 1)(3 + 1)(4 + 1) = 60$ points in total. We group the points by parity of each individual coordinate -- that is, if $x$ is even or odd, $y$ is even or odd, and $z$ is even or odd. Note that to have something that works, the two points must have this same type of classification (otherwise, if one doesn't match, the resulting sum for the coordinates will be odd at that particular spot).\n\nThere are $12$ EEEs (the first position denotes the parity of $x,$ the second $y,$ and the third $z.$ ), $8$ EEOs, $12$ EOEs, $6$ OEEs, $8$ EOOs, $4$ OEOs, $6$ OOEs, and $4$ OOOs. Doing a sanity check, $12 + 8 + 12 + 6 + 8 + 4 + 6 + 4 = 60,$ which is the total number of points.\n\nNow, we can see that there are $12 \\cdot 11$ ways to choose two EEEs (respective to order), $8 \\cdot 7$ ways to choose two EEOs, and so on. Therefore, we get \\[12\\cdot11 + 8\\cdot7 + 12\\cdot11 + 6\\cdot5 + 8\\cdot7 + 4\\cdot3 + 6\\cdot5 + 4\\cdot3 = 460\\] ways to choose two points where order matters. There are $60 \\cdot 59$ total ways to do this, so we get a final answer of \\[\\dfrac{460}{60 \\cdot 59} = \\dfrac{23}{3 \\cdot 59} = \\dfrac{23}{177},\\] for our answer of $23 + 177 = \\boxed{200}.$\n\nSolution by Ilikeapos\n\nSimilarly to Solution 2, we note that there are $60$ points and that the parities of the two points' coordinates must be the same in order for the midpoint to be in $S$ .\n\nIgnore the distinct points condition. The probability that the midpoint is in $S$ is then\n \\[\\left(\\left(\\frac 23\\right)^2+\\left(\\frac 13\\right)^2\\right)\\left(\\left(\\frac 24\\right)^2+\\left(\\frac 24\\right)^2\\right)\\left(\\left(\\frac 35\\right)^2+\\left(\\frac 25\\right)^2\\right)=\\frac{13}{90}.\\]\n\nNote that $\\frac{13}{90}=\\frac{520}{3600}$ . Since there are $3600$ total ways to choose $2$ points from $S$ , there must be $520$ pairs of points that have their midpoint in $S$ . Of these pairs, $60$ of them contain identical points (not distinct).\n\nSubtracting these cases, our answer is $\\frac{520-60}{3600-60}=\\frac{23}{177}\\implies\\boxed{200}$ .\n\nThere are $(2 + 1)(3 + 1)(4 + 1) = 60$ points in total. Note that in order for the midpoint of the line segment to be a lattice point, the lengths on the x, y, and z axis must be even numbers. We will define all segments by denoting the amount they extend in each dimension: $(x, y, z)$ . For example, the longest diagonal possible will be $(2,3,4)$ , the space diagonal of the box. Thus, any line segment must have dimensions that are even. For $x$ the segment may have a value of $0$ for $x$ , (in which case the segment would be two dimensional) or a value of $2$ . The same applies for $y$ , because although it is three units long the longest even integer is two. For $z$ the value may be $0$ , $2$ , or $4$ . Notice that if a value is zero, then the segment will pertain to only two dimensions. If two values are zero then the line segment becomes one dimensional.\n\nThen the total number of possibilities will be $2 \\cdot 2 \\cdot 3$ .\n\nListing them out appears as follows:\n\n$2,2,4$\n\n$2,2,2$\n\n$2,2,0$\n\n$2,0,4$\n\n$2,0,2$\n\n$2,0,0$\n\n$0,2,4$\n\n$0,2,2$\n\n$0,2,0$\n\n$0,0,4$\n\n$0,0,2$\n\n$0,0,0$ * this value is a single point\n\nNow, picture every line segment to be the space diagonal of a box. Allow this box to define the space the segment occupies. The question now transforms into \"how many ways can we arrange this smaller box in the two by three by four?\".\n\nNotice that the amount an edge can shift inside the larger box is the length of an edge of the larger box (2, 3, or 4) minus the edge of the smaller box (also known as the edge), plus one. For example, (0, 2, 2) would be $3 \\cdot 2 \\cdot 3$ . Repeat this process.\n\n$2,2,4$ 2\n\n$2,2,2$ 6\n\n$2,2,0$ 10\n\n$2,0,4$ 4\n\n$2,0,2$ 12\n\n$2,0,0$ 20\n\n$0,2,4$ 6\n\n$0,2,2$ 18\n\n$0,2,0$ 30\n\n$0,0,4$ 12\n\n$0,0,2$ 36\n\n$0,0,0$ 60 * this won't be included, but notice that sixty the number of lattice points\n\nFinally, we remember that there are four distinct space diagonals in a box, so we should multiply every value by four, right? Unfortunately we forgot to consider that some values have only one or two dimensions. They should be multiplied by one or two, respectively. This is because segments with two dimensions are the diagonals of a rectangle and thus have two orientations. Then any value on our list without any zeroes will be multiplied by four, and any value on our list with only one zero will be multiplied by two, and finally any value on our list with two zeroes will be multiplied by one:\n\n$2,2,4$ 2 8\n\n$2,2,2$ 6 24\n\n$2,2,0$ 10 20\n\n$2,0,4$ 4 8\n\n$2,0,2$ 12 24\n\n$2,0,0$ 20 20\n\n$0,2,4$ 6 12\n\n$0,2,2$ 18 36\n\n$0,2,0$ 30 30\n\n$0,0,4$ 12 12\n\n$0,0,2$ 36 36\n\n$0,0,0$ 60 * it's nice to point out that this value will be multiplied by zero\n\nadd every value on the rightmost side of each term and we will receive $230$ . Multiply by two because each segment can be flipped, to receive $460$ . There are $60 \\cdot 59$ ways to choose two distinct points, so we get \\[\\dfrac{460}{60 \\cdot 59} = \\dfrac{23}{3 \\cdot 59} = \\dfrac{23}{177},\\] for our answer of $23 + 177 = \\boxed{200}$ .\n\nSolution by jackshi2006",
+    "choices": [],
+    "answer": "200",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_10",
+    "topics": [
+      "Parity Reasoning",
+      "Introduction to Probability",
+      "Length Chasing",
+      "Problem-Solving: Coordinate Bashing"
+    ]
+  },
+  {
+    "id": "aimeii-2001-6",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "II",
+    "number": 6,
+    "statementLatex": "Square $ABCD$ is inscribed in a circle. Square $EFGH$ has vertices $E$ and $F$ on $\\overline{CD}$ and vertices $G$ and $H$ on the circle. If the area of square $ABCD$ is $1$ , then the area of square $EFGH$ can be expressed as $\\frac {m}{n}$ where $m$ and $n$ are relatively prime positive integers and $m < n$ . Find $10n + m$ .",
+    "solutionLatex": "Let $O$ be the center of the circle, $2a$ be the side length of square $ABCD$ , and $2b$ be the side length of square $EFGH$ . By symmetry, the horizontal and vertical displacements of $C$ from $O$ are both $\\frac{2a}{2} = a$ , so by the Pythagorean theorem, the radius of the circle is $OC = \\sqrt{a^2+a^2} = a\\sqrt{2}$ .\n\n[[img:https://latex.artofproblemsolving.com/a/1/4/a14d609f4250e7310e06648a5d575443252da2bb.png]]\n\nNow let $I$ be the midpoint of $\\overline{GH}$ , giving $\\overline{GI} = \\frac{2b}{2} = b$ , and let $J$ be the point where $\\overline{OI}$ intersects $\\overline{CD}$ . We observe that since a diameter bisects a chord perpendicular to it, $\\overline{GH}$ must be perpendicular to the diameter passing through $I$ . This means that triangle $OGI$ has a right angle at $I$ , and that $\\overline{OJ}$ and $\\overline{JI}$ are both parallel to $\\overline{BC}$ and $\\overline{FG}$ . As the horizontal displacement of $C$ from $O$ is $a$ (from above), it follows that $\\overline{OJ} = a$ , and hence \\[\\overline{OI} = \\overline{OJ}+\\overline{JI} = a+\\overline{FG} = a+2b,\\] so by the Pythagorean Theorem again,\n\n$\\begin{align*} \\overline{OG}^2 = \\overline{OI}^2 + \\overline{GI}^2 &\\iff \\left(a\\sqrt{2}\\right)^2 = (a+2b)^2 + b^2 \\\\ &\\iff 2a^2 = a^2+4ab+4b^2+b^2 \\\\ &\\iff a^2-4ab-5b^2 = 0 \\\\ &\\iff (a-5b)(a+b) = 0 \\end{align*}$\n\nSince lengths must be positive, we clearly cannot have $a+b = 0$ , so the solution must instead be $a = 5b$ . Since the ratio of the areas of two similar figures is the square of the ratio of their corresponding side lengths, we deduce that the required ratio is $\\left(\\frac{1}{5}\\right)^2 = \\frac{1}{25}$ , and so the answer is $10 \\cdot 25 + 1 = \\boxed{251}$ .",
+    "choices": [],
+    "answer": "251",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_6",
+    "topics": [
+      "Problem-Solving: Circle Basics",
+      "Pythagorean theorem",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
+    ]
+  },
+  {
+    "id": "aimeii-2001-9",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "II",
+    "number": 9,
+    "statementLatex": "Each unit square of a 3-by-3 unit-square grid is to be colored either blue or red. For each square, either color is equally likely to be used. The probability of obtaining a grid that does not have a 2-by-2 red square is $\\frac {m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+    "solutionLatex": "We can use complementary counting, counting all of the colorings that have at least one red $2\\times 2$ square.\n\nFor at least one red $2 \\times 2$ square:\n\nThere are four $2 \\times 2$ squares to choose which one will be red. Then there are $2^5$ ways to color the rest of the squares. $4 \\cdot 32=128$\n\nFor at least two $2 \\times 2$ squares:\n\nThere are two cases: those with two $2x2$ red squares on one side and those without red squares on one side but at two corners.\nThe first case is easy: 4 ways to choose which the side the squares will be on, and $2^3$ ways to color the rest of the squares, so 32 ways to do that. For the second case, there will be only two ways to pick two squares, and $2^2$ ways to color the other squares. $32+8=40$\n\nFor at least three $2 \\times 2$ squares:\n\nChoosing three such squares leaves only one square left, with four places to place it. This is $2 \\cdot 4 = 8$ ways.\n\nFor at least four $2 \\times 2$ squares, we clearly only have one way.\n\nBy the Principle of Inclusion-Exclusion, there are (alternatively subtracting and adding) $128-40+8-1=95$ ways to have at least one red $2 \\times 2$ square.\n\nThere are $2^9=512$ ways to paint the $3 \\times 3$ square with no restrictions, so there are $512-95=417$ ways to paint the square with the restriction. Therefore, the probability of obtaining a grid that does not have a $2 \\times 2$ red square is $\\frac{417}{512}$ , and $417+512=\\boxed{929}$ .",
+    "choices": [],
+    "answer": "929",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_9",
+    "topics": [
+      "Casework",
+      "Complementary Counting",
+      "Inclusion-Exclusion",
+      "Introduction to Probability"
+    ]
+  },
+  {
+    "id": "aimeii-2001-10",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "II",
+    "number": 10,
+    "statementLatex": "How many positive integer multiples of $1001$ can be expressed in the form $10^{j} - 10^{i}$ , where $i$ and $j$ are integers and $0\\leq i < j \\leq 99$ ?",
+    "solutionLatex": "The prime factorization of $1001 = 7\\times 11\\times 13$ . We have $7\\times 11\\times 13\\times k = 10^j - 10^i = 10^i(10^{j - i} - 1)$ . Since $\\text{gcd}\\,(10^i = 2^i \\times 5^i, 7 \\times 11 \\times 13) = 1$ , we require that $1001 = 10^3 + 1 | 10^{j-i} - 1$ . From the factorization $10^6 - 1 = (10^3 + 1)(10^{3} - 1)$ , we see that $j-i = 6$ works; also, $a-b | a^n - b^n$ implies that $10^{6} - 1 | 10^{6k} - 1$ , and so any $\\boxed{j-i \\equiv 0 \\pmod{6}}$ will work.\n\nTo show that no other possibilities work, suppose $j-i \\equiv a \\pmod{6},\\ 1 \\le a \\le 5$ , and let $j-i-a = 6k$ . Then we can write $10^{j-i} - 1 = 10^{a} \\left(10^{6k} - 1\\right) + \\left(10^{a} - 1\\right)$ , and we observe that $10^{6k}-1 = \\left(10^6\\right)^k-1^k$ , which is divisible by $10^6-1$ , and thus by $10^3+1$ (as $10^6-1 = \\left(10^3\\right)^2-1^2 = \\left(10^3+1\\right)\\left(10^3-1\\right)$ ). It follows that the first term is divisible by $1001$ , whereas we can easily verify that the second term, $10^a-1$ , is not divisible by $1001$ for $1 \\le a \\le 5$ , so $10^{j-i}$ is not divisible by $1001$ for such $a$ .\n\nIf $j - i = 6, j\\leq 99$ , then we can have solutions of $10^6 - 10^0, 10^7 - 10^1, \\dots\\implies 94$ ways. If $j - i = 12$ , we can have the solutions of $10^{12} - 10^{0},\\dots\\implies 94 - 6 = 88$ , and so forth. Therefore, the answer is $94 + 88 + 82 + \\dots + 4\\implies 16\\left(\\dfrac{98}{2}\\right) = \\boxed{784}$ .",
+    "choices": [],
+    "answer": "784",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_10",
+    "topics": [
+      "Divisibility Reasoning",
+      "Modular Arithmetic",
+      "Fundamental Counting Principle",
+      "Repeating Decimal"
+    ]
+  },
+  {
+    "id": "aimeii-2001-11",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "II",
+    "number": 11,
+    "statementLatex": "Club Truncator is in a soccer league with six other teams, each of which it plays once. In any of its 6 matches, the probabilities that Club Truncator will win, lose, or tie are each $\\frac {1}{3}$ . The probability that Club Truncator will finish the season with more wins than losses is $\\frac {m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+    "solutionLatex": "Note that the probability that Club Truncator will have more wins than losses is equal to the probability that it will have more losses than wins; the only other possibility is that they have the same number of wins and losses. Thus, by the complement principle, the desired probability is half the probability that Club Truncator does not have the same number of wins and losses.\n\nThe possible ways to achieve the same number of wins and losses are $0$ ties, $3$ wins and $3$ losses; $2$ ties, $2$ wins, and $2$ losses; $4$ ties, $1$ win, and $1$ loss; or $6$ ties. Since there are $6$ games, there are $\\frac{6!}{3!3!}$ ways for the first, and $\\frac{6!}{2!2!2!}$ , $\\frac{6!}{4!}$ , and $1$ ways for the rest, respectively, out of a total of $3^6$ . This gives a probability of $141/729$ . Then the desired answer is $\\frac{1 - \\frac{141}{729}}{2} = \\frac{98}{243}$ , so the answer is $m+n = \\boxed{341}$ .",
+    "choices": [],
+    "answer": "341",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_11",
+    "topics": [
+      "Introduction to Probability",
+      "Mean Median Mode",
+      "Casework",
+      "Permutations"
+    ]
+  },
+  {
+    "id": "aimeii-2001-13",
+    "contest": "AIME",
+    "year": 2001,
+    "version": "II",
+    "number": 13,
+    "statementLatex": "In quadrilateral $ABCD$ , $\\angle{BAD}\\cong\\angle{ADC}$ and $\\angle{ABD}\\cong\\angle{BCD}$ , $AB = 8$ , $BD = 10$ , and $BC = 6$ . The length $CD$ may be written in the form $\\frac {m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+    "solutionLatex": "Extend $\\overline{AD}$ and $\\overline{BC}$ to meet at $E$ . Then, since $\\angle BAD = \\angle ADC$ and $\\angle ABD = \\angle DCE$ , we know that $\\triangle ABD \\sim \\triangle DCE$ . Hence $\\angle ADB = \\angle DEC$ , and $\\triangle BDE$ is isosceles. Then $BD = BE = 10$ .\n\n[[img:https://latex.artofproblemsolving.com/4/1/7/417316517e7273e0d7f31dbbae8e0b80e30a8d54.png]]\n\nUsing the similarity, we have:\n\n\\[\\frac{AB}{BD} = \\frac 8{10} = \\frac{CD}{CE} = \\frac{CD}{16} \\Longrightarrow CD = \\frac{64}5\\]\n\nThe answer is $m+n = \\boxed{069}$ .\n\nExtension: To Find $AD$ , use Law of Cosines on $\\triangle BCD$ to get $\\cos(\\angle BCD)=\\frac{13}{20}$\nThen since $\\angle BCD=\\angle ABD$ use Law of Cosines on $\\triangle ABD$ to find $AD=2\\sqrt{15}$",
+    "choices": [],
+    "answer": "069",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_13",
+    "topics": [
+      "Similar Triangles",
+      "Problem-Solving: Quadrilaterals",
+      "Angle Bisector Theorem",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   }
 ]
