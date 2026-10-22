@@ -5457,7 +5457,8 @@
       "Palindromes",
       "Ratios and Rates",
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "In order to get the smallest palindrome greater than $15951$ , we need to raise the middle digit. If we were to raise any of the digits after the middle, we would be forced to also raise a digit before the middle to keep it a palindrome, making it unnecessarily larger.\n\nSo we raise $9$ to the next largest value, $10$ , but obviously, that's not how place value works, so we're in the $16000$ s now. To keep this a palindrome, our number is now $16061$ .\n\nSo Megan drove $16061-15951=110$ miles. Since this happened over $2$ hours, she drove at $\\frac{110}{2}=\\boxed{\\textbf{(B) }55}$ mph. ~quacker88"
   },
   {
     "id": "amc10b-2020-7",
@@ -5477,7 +5478,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_7",
     "topics": [
       "Parity Reasoning"
-    ]
+    ],
+    "solutionLatex": "Any even multiple of $3$ is a multiple of $6$ , so we need to find multiples of $6$ that are perfect squares and less than $2020$ . Any solution that we want will be in the form $(6n)^2$ , where $n$ is a positive integer. The smallest possible value is at $n=1$ , and the largest is at $n=7$ (where the expression equals $1764$ ). Therefore, there are a total of $\\boxed{\\textbf{(A)}\\ 7}$ possible numbers.-PCChess"
   },
   {
     "id": "amc10b-2020-8",
@@ -5498,7 +5500,8 @@
     "topics": [
       "Pythagorean theorem",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let the brackets denote areas. We are given that \\[[PQR]=\\frac12\\cdot PQ\\cdot h_R=12.\\] Since $PQ=8,$ it follows that $h_R=3.$\n\nWe construct a circle with diameter $\\overline{PQ}.$ All such locations for $R$ are shown below:\n\n[[img:https://latex.artofproblemsolving.com/9/3/6/9360602235a83955d6d6d55483eaf19da8296ede.png]]\n\nWe apply casework to the right angle of $\\triangle PQR:$\n\nIf $\\angle P=90^\\circ,$ then $R\\in\\{R_1,R_5\\}$ by the tangent.\n If $\\angle Q=90^\\circ,$ then $R\\in\\{R_4,R_8\\}$ by the tangent.\n If $\\angle R=90^\\circ,$ then $R\\in\\{R_2,R_3,R_6,R_7\\}$ by the Inscribed Angle Theorem.\n\nTogether, there are $\\boxed{\\textbf{(D)}\\ 8}$ such locations for $R.$\n\nRemarks\n\nThe reflections of $R_1,R_2,R_3,R_4$ about $\\overleftrightarrow{PQ}$ are $R_5,R_6,R_7,R_8,$ respectively.\n The reflections of $R_1,R_2,R_5,R_6$ about the perpendicular bisector of $\\overline{PQ}$ are $R_4,R_3,R_8,R_7,$ respectively.\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10b-2020-9",
@@ -5518,7 +5521,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_9",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "Rearranging the terms and and completing the square for $y$ yields the result $x^{2020}+(y-1)^2=1$ . Then, notice that $x$ can only be $0$ , $1$ and $-1$ because any value of $x^{2020}$ that is greater than 1 will cause the term $(y-1)^2$ to be less than $0$ , which is impossible as $y$ must be real. Therefore, plugging in the above values for $x$ gives the ordered pairs $(0,0)$ , $(1,1)$ , $(-1,1)$ , and $(0,2)$ gives a total of $\\boxed{\\textbf{(D) }4}$ ordered pairs.\n\nBringing all of the terms to the LHS, we see a quadratic equation \\[y^2 - 2y + x^{2020} = 0\\] in terms of $y$ . Applying the quadratic formula, we get \\[y = \\frac{2\\pm\\sqrt{4-4\\cdot1\\cdot x^{2020}}}{2}=\\frac{2\\pm\\sqrt{4(1-x^{2020})}}{2}.\\] In order for $y$ to be real, which it must be given the stipulation that we are seeking integral answers, we know that the discriminant, $4(1-x^{2020})$ must be nonnegative. Therefore, \\[4(1-x^{2020}) \\geq 0 \\implies x^{2020} \\leq 1.\\] Here, we see that we must split the inequality into a compound, resulting in $-1 \\leq x \\leq 1$ .\n\nThe only integers that satisfy this are $x \\in \\{-1,0,1\\}$ . Plugging these values back into the quadratic equation, we see that $x = \\{-1,1\\}$ both produce a discriminant of $0$ , meaning that there is only 1 solution for $y$ . If $x = \\{0\\}$ , then the discriminant is nonzero, therefore resulting in two solutions for $y$ .\n\nThus, the answer is $2 \\cdot 1 + 1 \\cdot 2 = \\boxed{\\textbf{(D) }4}$ .\n\n~Tiblis\n\nSet it up as a quadratic in terms of y:\n \\[y^2-2y+x^{2020}=0\\]\nThen the discriminant is\n \\[\\Delta = 4-4x^{2020}\\]\nThis will clearly only yield real solutions when $|x^{2020}| \\leq 1$ , because the discriminant must be positive.\nThen $x=-1,0,1$ . Checking each one:\n $-1$ and $1$ are the same when raised to the 2020th power:\n \\[y^2-2y+1=(y-1)^2=0\\]\nThis has only has solutions $1$ , so $(\\pm 1,1)$ are solutions.\nNext, if $x=0$ :\n \\[y^2-2y=0 \\Rightarrow y(y-2)=0\\]\nWhich has 2 solutions, so $(0,2)$ and $(0,0)$ .\n\nThese are the only 4 solutions, so our answer is $\\boxed{\\textbf{(D) } 4}$ .\n\n~edits by BakedPotato66\n\nMove the $y^2$ term to the other side to get $x^{2020}=2y-y^2 = y(2-y)$ .\n\nBecause $x^{2020} \\geq 0$ for all $x$ , then $y(2-y) \\geq 0 \\Rightarrow y = 0,1,2$ .\n\nIf $y=0$ or $y=2$ , the right side is $0$ and therefore $x=0$ .\n\nWhen $y=1$ , the right side become $1$ , therefore $x=1,-1$ .\n\nOur solutions are $(0,2)$ , $(0,0)$ , $(1,1)$ , $(-1,1)$ . These are the only $4$ solutions, so the answer is $\\boxed{\\textbf{(D) } 4}$\n\n- wwt7535\n\n~ edits by BakedPotato66\n\nSince $x^{2020}$ and $y^2$ are perfect squares, they are both nonnegative. That means $y^2$ plus a nonnegative number equals $2y$ , which means $y^2 \\leq 2y.$ The only possible integer values for $y$ are $0, 1, 2$ .\n\nFor $y=0$ , $x$ can only be $0$ .\n\nFor $y=1$ , $x^2=1$ so $x=1, -1$ .\n\nFor $y=2$ , $x$ can only be $0$ as well.\n\nThis gives us the solutions $(0, 0)$ , $(1, 1)$ , $(-1, 1)$ , and $(0, 2)$ . These are the only solutions, so there is a total of $\\boxed{\\textbf{(D) } 4}$ ordered pairs.\n\n- kc1374\n\nWe see that $x$ has to be $1$ , $0$ , or $-1$ , as any other integer would make this value too large. We also know that because $2020$ is even, both $-1$ , and $1$ for $x$ will yield the same $x^{2020}$ value of $1$ .\n\nCase 1: $x=0$ . This gives us that $y^2 = 2y$ . Dividing both sides by $y$ gives us $y = 2$ . Additionally, we know intuitively that $y = 0$ is also a case, which gives us 2 possibilities for this case.\n\nCase 2: $x = 1$ or $-1$ . This gives us that $1 + y^2 = 2y$ . Bringing the $2y$ to the other side, we have a simple quadratic. $y^2-2y + 1 = 0$ . Factor to get $(y-1)^2 = 0$ so $y = 1$ . Because this works for $x$ as $-1$ and $1$ , there are 2 possibilities for this case.\n\nAdding the cases gets us our final answer of $\\boxed{\\textbf{(D) } 4}$ ordered pairs.\n~iluvme\n\nWe can move the $y^2$ term to the other side to obtain $x^{2020} = 2y - y^2$ , which can be easily factored into $x^{2020} = (2-y)y$ . If we raise each side to the power 1/2020, we get $x = ((2-y)(y))^{1/2020}$ . Since we're dealing with integer values, the inside of the square root and thus $(2-y)y$ must be greater than $0$ . For this to happen, $y$ must be between $0$ and $2$ inclusive. Testing each integer value, we get the cases:\n\n$\\textbf{Case 1}$ : When $y=0$ , then $y(2-y)$ is also 0, and since the square root of $0$ is $0$ , $x$ must also be $0$ . So our first pair of solutions is $(0,0)$ .\n\n$\\textbf{Case 2}$ : When $y=1$ , then $y(2-y)$ is also 1. The possible values for $x$ are $1$ and $-1$ , so we get 2 more pairs of solutions: $(1, -1)$ and $(1,1)$ .\n\n$\\textbf{Case 3}$ : When $y=2$ , then $y(2-y)$ is $0$ , and since the square root of $0$ is $0$ , $x$ must also be $0$ - so we get one more pair of solutions, $(2,0)$\n\nIf we count all these pairs( $(0,0),(1,-1),(1,1),(2,0)$ ), we have 4 pairs of solutions, so our answer is $\\boxed{\\textbf{(D) } 4}$ ordered pairs.\n\n- youtube.com/indianmathguy\n\nhttps://youtu.be/FfATkdxncG4\n\n~Education, the Study of Everything\n\nhttps://youtu.be/6ujfjGLzVoE\n\nhttps://youtu.be/7dQ423hhgac\n\n~savannahsolver\n\nhttps://youtu.be/zfChnbMGLVQ?t=4251"
   },
   {
     "id": "amc10b-2020-10",
@@ -5541,7 +5545,8 @@
       "Problem-Solving: Circle Basics",
       "3D Geometry",
       "Polynomials"
-    ]
+    ],
+    "solutionLatex": "Notice that when the cone is created, the 2 shown radii when merged will become the slant height of the cone and the intact circumference of the circle will become the circumference of the base of the cone.\n\nWe can calculate that the intact circumference of the circle is $8\\pi\\cdot\\frac{3}{4}=6\\pi$ . Since that is also equal to the circumference of the cone, the radius of the cone is $3$ . We also have that the slant height of the cone is $4$ . Therefore, we use the Pythagorean Theorem to calculate that the height of the cone is $\\sqrt{4^2-3^2}=\\sqrt7$ . The volume of the cone is $\\frac{1}{3}\\cdot\\pi\\cdot3^2\\cdot\\sqrt7=\\boxed{\\textbf{(C)}\\ 3 \\pi \\sqrt7 }$\n\n-PCChess\n\nUsing a ruler, measure a circle of radius 4 and cut out the circle and then the quarter missing. Then, fold it into a cone and measure the diameter to be 6 cm $\\implies r=3$ . You can form a right triangle with sides 3, 4, and then through the Pythagorean theorem the height $h$ is found to be $h^2 = 4^{2} - 3^{2} \\implies h = \\sqrt{7}$ . The volume of a cone is $\\frac{1}{3}\\pi r^{2}h$ . Plugging in we find $V = 3\\pi \\sqrt{7} \\implies \\boxed{\\textbf{(C)}}$\n\n- DBlack2021\n\nThe radius of the given $\\frac{3}{4}$ - circle will end up being the slant height of the cone. Thus, the radius and height of the cone are legs of a right triangle with hypotenuse $4$ . The volume of a cone is $\\frac{1}{3}\\pi r^{2}h$ . Using this with the options, we can take out the $\\pi$ and multiply the coefficient of the radical by $3$ to get $r^{2}h$ . We can then use the $r$ and $h$ values to see that the only option that satisfies $r^2+h^2=4^2=16$ is $\\boxed{\\textbf{(C)}}$\n\n- ColtsFan10"
   },
   {
     "id": "amc10b-2020-11",
@@ -5561,7 +5566,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_11",
     "topics": [
       "Introduction to Probability"
-    ]
+    ],
+    "solutionLatex": "We don't care about which books Harold selects. We just care that Betty picks $2$ books from Harold's list and $3$ that aren't on Harold's list.\n\nThe total amount of combinations of books that Betty can select is $\\binom{10}{5}=252$ .\n\nThere are $\\binom{5}{2}=10$ ways for Betty to choose $2$ of the books that are on Harold's list.\n\nFrom the remaining $5$ books that aren't on Harold's list, there are $\\binom{5}{3}=10$ ways to choose $3$ of them.\n\n$\\frac{10\\cdot10}{252}=\\boxed{\\textbf{(D) }\\frac{25}{63}}$ ~quacker88"
   },
   {
     "id": "amc10b-2020-12",
