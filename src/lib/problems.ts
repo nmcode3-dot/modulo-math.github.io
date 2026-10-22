@@ -33,7 +33,7 @@ function withTags(p: Problem): Problem {
   const map = topicTags as TagMap;
   // Scraped tags (which also used solution text) + fresh statement tags, so manual keyword edits apply.
   const set = new Set((p.topics ?? []).filter((t) => t in map || FALLBACK_TOPICS.includes(t)));
-  for (const t of tagProblem(map, p.statementLatex)) {
+  for (const t of tagProblem(map, p.statementLatex, p.solutionLatex ?? "")) {
     if (set.size === 0 || !FALLBACK_TOPICS.includes(t)) set.add(t);
   }
   return { ...p, topics: [...set] };

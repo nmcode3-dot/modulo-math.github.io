@@ -3141,7 +3141,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_1",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "We have\n \\[\\frac{(2112-2021)^2}{169}=\\frac{91^2}{169}=\\frac{91^2}{13^2}=\\left(\\frac{91}{13}\\right)^2=7^2=\\boxed{\\textbf{(C) } 49}.\\]\n~MRENTHUSIASM"
   },
   {
     "id": "amc10afall-2021-2",
