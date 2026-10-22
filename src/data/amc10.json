@@ -5033,7 +5033,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_9",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "The least common multiple of $7$ and $11$ is $77$ . Therefore, there must be $77$ adults and $77$ children. The total number of benches is $\\frac{77}{7}+\\frac{77}{11}=11+7=\\boxed{\\textbf{(B) }18}$ .~taarunganesh"
   },
   {
     "id": "amc10a-2020-10",
