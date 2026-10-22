@@ -248,7 +248,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Coordinate Bashing",
       "Problem-Solving: Areas"
     ]
@@ -450,7 +449,6 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "3D Geometry",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: 3D Geometry"
     ]
   },
@@ -929,8 +927,7 @@
     "topics": [
       "3D Geometry",
       "Problem-Solving: 3D Geometry",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -974,8 +971,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1078,9 +1075,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -1589,8 +1586,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_8_Problems/Problem_23",
     "topics": [
       "Casework",
-      "Permutations",
-      "Problem-Solving: Triangle Angles"
+      "Permutations"
     ]
   },
   {
@@ -1612,8 +1608,7 @@
     "topics": [
       "3D Volumes and Surface Areas",
       "3D Geometry",
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Polygons"
     ],
     "solutionLatex": "While imagining the folding, $\\overline{AB}$ goes on $\\overline{BC},$ $\\overline{AH}$ goes on $\\overline{CI},$ and $\\overline{EF}$ goes on $\\overline{FG}.$ So, $BJ=CI=8$ and $FG=BC=8.$ Also, $\\overline{HJ}$ becomes an edge parallel to $\\overline{FG},$ so that means $HJ=8.$\n\nSince $GH=14,$ then $JG=14-8=6.$ So, the area of $\\triangle BJG$ is $\\frac{8\\cdot6}{2}=24.$ If we let $\\triangle BJG$ be the base, then the height is $FG=8.$ So, the volume is $24\\cdot8=\\boxed{\\textbf{(C)} ~192}.$\n\n~aops-g5-gethsemanea2"
   },
@@ -2018,7 +2013,7 @@
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Inscribed Circles"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/5/7/0/5702f644dac21548c80e93c4d527cd0bec4d0ebb.png]]\n\nLet $O$ be the center of the semicircle. The diameter of the semicircle is $9+16+9=34$ , so $OC = 17$ . By symmetry, $O$ is the midpoint of $DA$ , so $OD=OA=\\frac{16}{2}= 8$ . By the Pythagorean theorem in right-angled triangle $ODC$ (or $OBA$ ), we have that $CD$ (or $AB$ ) is $\\sqrt{17^2-8^2}=15$ . Accordingly, the area of $ABCD$ is $16\\cdot 15=\\boxed{\\textbf{(A) }240}$ ."
   },
@@ -2264,9 +2259,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_4",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
       "Problem-Solving: Areas",
-      "Pythagorean theorem"
+      "Pythagorean theorem",
+      "Length Chasing"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/2/3/0/230af487f6bb84b2940aef916f01294a89dfc2cf.png]]\n\nA rhombus has sides of equal length. Because the perimeter of the rhombus is $52$ , each side is $\\frac{52}{4}=13$ . In a rhombus, diagonals are perpendicular and bisect each other, which means $\\overline{AE}$ = $12$ = $\\overline{EC}$ .\n\nConsider one of the\n\n[[img:https://latex.artofproblemsolving.com/1/3/c/13cae96c6d58989310e8a27b3c7afe7ba5fc6c53.png]]\n\n$\\overline{AB}$ = $13$ , and $\\overline{AE}$ = $12$ . Using the Pythagorean theorem, we find that $\\overline{BE}$ = $5$ .\nYou know the Pythagorean triple, (5, 12, 13).\n\nThus the values of the two diagonals are $\\overline{AC}$ = $24$ and $\\overline{BD}$ = $10$ .\nThe area of a rhombus is = $\\frac{d_1\\cdot{d_2}}{2}$ = $\\frac{24\\cdot{10}}{2}$ = $120$\n\n$\\boxed{\\textbf{(D)}\\ 120}$"
   },
@@ -2620,7 +2615,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -2684,10 +2678,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_24",
     "topics": [
-      "Repeating Decimal",
       "Problem-Solving: Areas",
-      "Conditional Probability",
-      "Problem-Solving: Triangle Angles"
+      "Conditional Probability"
     ],
     "solutionLatex": "We use the line-segment ratios to infer area ratios and height ratios.\n\nAreas:\n\n$AD:DC = 1:2 \\implies AD:AC = 1:3 \\implies [ABD] =\\frac{[ABC]}{3} = 120$ .\n\n$BE:BD = 1:2 \\text{ (midpoint)} \\implies [ABE] = \\frac{[ABD]}{2} = \\frac{120}{2} = 60$ .\n\nHeights:\n\nLet $h_A$ = height (of altitude) from $\\overline{BC}$ to $A$ .\n\n$AD:DC = 1:2 \\implies CD:CA = 2:3 \\implies \\text{height } h_D$ from $\\overline{BC}$ to $D$ is $\\frac{2}{3}h_A$ .\n\n$BE:BD = 1:2 \\text{ (midpoint)} \\implies \\text{height } h_E$ from $\\overline{BC}$ to $E$ is $\\frac{1}{2} h_D = \\frac{1}{2}(\\frac{2}{3} h_A) = \\frac{1}{3} h_A$ .\n\nConclusion:\n\n$\\frac{[EBF]} {[ABF]} = \\frac{[EBF]} {[EBF] + [ABE]} = \\frac{[EBF]} {[EBF]+60}$ , and also $\\frac{[EBF]} {[ABF]} = \\frac{h_E}{h_A} = \\frac{1}{3}$ .\n\nSo, $\\frac{[EBF]} {[EBF] + 60} = \\frac{1}{3}$ , and thus, $[EBF] = \\boxed{\\textbf{(B) }30}$"
   },
@@ -3146,9 +3138,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_20",
     "topics": [
       "Problem-Solving: Areas",
-      "Problem-Solving: Triangle Angles",
       "Similar Triangles",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ]
   },
   {
@@ -3193,7 +3185,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_22",
     "topics": [
-      "Repeating Decimal",
       "Problem-Solving: Areas",
       "Problem-Solving: Quadrilaterals"
     ]
@@ -3219,7 +3210,7 @@
       "Introduction to Probability",
       "Complementary Counting",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles"
+      "Stars and Bars"
     ]
   },
   {
@@ -3387,9 +3378,9 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -3607,8 +3598,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_16",
     "topics": [
       "Combinations",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -3744,8 +3733,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -3815,7 +3804,7 @@
       "Problem-Solving: Circle Basics",
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3858,9 +3847,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_2",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas",
-      "Repeating Decimal"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4316,8 +4303,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -4361,7 +4347,6 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Inscribed Circles"
     ]
   },
@@ -4489,8 +4474,7 @@
     "topics": [
       "Problem-Solving: Areas",
       "Pythagorean theorem",
-      "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -4534,7 +4518,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Linear Inequalities"
     ],
     "solutionLatex": "We know from the Triangle Inequality that the last side, $s$ , fulfills $s<5+19=24$ . Adding $5+19$ to both sides of the inequality, we get $s+5+19<48$ , and because $s+5+19$ is the perimeter of our triangle, $\\boxed{\\textbf{(D)}\\ 48}$ is our answer."
@@ -4627,7 +4610,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_12",
     "topics": [
       "3D Geometry",
-      "Repeating Decimal",
       "Problem-Solving: 3D Geometry"
     ]
   },
@@ -4770,10 +4752,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_19",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Fractions and Percents",
       "Simplifying Radicals",
-      "Pythagorean theorem"
+      "Pythagorean theorem",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -4812,10 +4794,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_8_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Simplifying Radicals",
       "Problem-Solving: Areas",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Angle Chasing"
     ]
   },
   {
@@ -5068,9 +5050,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_9",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -5171,8 +5151,7 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas",
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -5907,7 +5886,6 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Pythagorean theorem",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ],
     "solutionLatex": "If the semicircle on $\\overline{AB}$ were a full circle, the area would be $16\\pi$ .\n\n$\\pi r^2=16 \\pi \\Rightarrow r^2=16 \\Rightarrow r=+4$ , therefore the diameter of the first circle is $8$ .\n\nThe arc of the largest semicircle is $8.5 \\pi$ , so if it were a full circle, the circumference would be $17 \\pi$ . So the $\\text{diameter}=17$ .\n\nBy the Pythagorean theorem, the other side has length $15$ , so the radius is $\\boxed{\\textbf{(B)}\\ 7.5}$\n\n~Edited by Theraccoon to correct typos."
@@ -6443,8 +6421,8 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Length Chasing"
     ]
   },
   {
@@ -6831,7 +6809,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_8_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Pythagorean theorem"
     ]
@@ -7304,7 +7281,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_13",
     "topics": [
       "Length Chasing",
-      "Problem-Solving: Triangle Angles",
       "Fractions and Percents"
     ],
     "solutionLatex": "Let $n$ , $n+1$ , and $n+2$ be the lengths of the sides of the triangle. Then the perimeter of the triangle is $n + (n+1) + (n+2) = 3n+3$ . Using the fact that the length of the smallest side is $30\\%$ of the perimeter, it follows that:\n\n$n = 0.3(3n+3) \\Rightarrow n = 0.9n+0.9 \\Rightarrow 0.1n = 0.9 \\Rightarrow n=9$ . The longest side is then $n+2 = 11$ . Thus, answer choice $\\boxed{\\textbf{(E)}\\ 11}$ is correct."
@@ -7392,9 +7368,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_17",
     "topics": [
       "Problem-Solving: Areas",
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Polygons"
     ],
     "solutionLatex": "We see that half the area of the octagon is $5$ . We see that the triangle area is $5-1 = 4$ . That means that $\\frac{5h}{2} = 4 \\rightarrow h=\\frac{8}{5}$ .\n \\[\\text{QY}=\\frac{8}{5} - 1 = \\frac{3}{5}\\]\nMeaning, $\\frac{\\frac{2}{5}}{\\frac{3}{5}} = \\boxed{\\textbf{(D) }\\frac{2}{3}}$"
   },
@@ -7440,8 +7414,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
-      "Circle Tangents",
-      "Repeating Decimal"
+      "Circle Tangents"
     ],
     "solutionLatex": "Since $\\triangle ACD$ is isosceles, $CB$ bisects $AD$ . Thus $AB=BD=8$ . From the Pythagorean Theorem, $CB=6$ . Thus the area between the two circles is\n $100\\pi - 36\\pi=64\\pi$ $\\boxed{\\textbf{(C)}\\ 64\\pi}$\n\nNote: The length $AC$ is necessary information, as this tells us the radius of the larger circle. The area of the annulus is $\\pi(AC^2-BC^2)=\\pi AB^2=64\\pi$ ."
   },
@@ -7757,7 +7730,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_9",
     "topics": [
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "Of the six shapes used to create the polygon, the triangle and octagon are adjacent to the others on one side, and the others are adjacent on two sides. In the triangle and octagon $3+8-2(1)=9$ sides are on the outside of the final polygon. In the other shapes $4+5+6+7-4(2) = 14$ sides are on the outside. The resulting polygon has $9+14 = \\boxed{\\textbf{(B)}\\ 23}$ sides."
@@ -7970,8 +7942,7 @@
     "topics": [
       "Angle Chasing",
       "Casework",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "There are 3 cases: where $x^\\circ$ is a base angle with the $70^\\circ$ as the other angle, where $x^\\circ$ is a base angle with $70^\\circ$ as the vertex angle, and where $x^\\circ$ is the vertex angle with $70^\\circ$ as a base angle.\n\nCase 1: $x^\\circ$ is a base angle with $70^\\circ$ as the other angle:\nHere, $x=70$ , since base angles are congruent.\n\nCase 2: $x^\\circ$ is a base angle with $70^\\circ$ as the vertex angle:\nHere, the 2 base angles are both $x^\\circ$ , so we can use the equation $2x+70=180$ , which simplifies to $x=55$ .\n\nCase 3: $x^\\circ$ is the vertex angle with $70^\\circ$ as a base angle:\nHere, both base angles are $70^\\circ$ , since base angles are congruent. Thus, we can use the equation $x+140=180$ , which simplifies to $x=40$ .\n\nAdding up all the cases, we get $70+55+40=165$ , so the answer is $\\boxed{\\textbf{(D)}\\ 165}$ ."
   },
@@ -7992,8 +7963,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_8_Problems/Problem_20",
     "topics": [
-      "Area by Coordinates",
-      "Problem-Solving: Triangle Angles"
+      "Area by Coordinates"
     ],
     "solutionLatex": "Assume the base of the triangle is on the bottom four points because a congruent triangle can be made by reflecting the base on the top four points. For a triangle with a base of length $1$ , there are $3$ triangles. For a triangle with a base of length $2$ , there are $3$ triangles. For length $3$ , there are $2$ . In total, the number of non-congruent triangles is $3+3+2=\\boxed{\\textbf{(D)}\\ 8}$ ."
   },
@@ -8185,7 +8155,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Problem-Solving: Isosceles Equilateral Triangles"
     ],
@@ -8596,7 +8565,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Ratios and Rates",
       "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
@@ -8811,10 +8779,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
-      "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ],
     "solutionLatex": "Clearly, $ABED$ is a square with side-length $3.$ By segment subtraction, we have $EC = DC - DE = 6 - 3 = 3.$\n\nThe area of $\\triangle BEC$ is \\[\\frac12\\cdot EC\\cdot BE = \\frac12\\cdot3\\cdot3 = \\boxed{\\textbf{(B)}\\ 4.5}.\\]\n~Aplus95 (Solution)\n\n~MRENTHUSIASM (Revision)"
   },
@@ -8938,10 +8904,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_8_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Length Chasing",
       "Problem-Solving: Areas",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Pythagorean theorem"
     ],
     "solutionLatex": "The area of a triangle is shown by $\\frac{1}{2}bh$ . We set the base equal to $24$ , and the area equal to $60$ , and we get the triangle's height, or altitude, to be $5$ . In this isosceles triangle, the height bisects the base, so by using the Pythagorean Theorem, $a^2+b^2=c^2$ , we can solve for one of the legs of the triangle (it will be the hypotenuse, $c$ ).\n $a = 12$ , $b = 5$ ,\n $c = 13$ .\nThe answer is $\\boxed{\\textbf{(C)}\\ 13}$ ."
   },
@@ -9571,8 +9537,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_8_Problems/Problem_19",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Length Chasing",
       "Problem-Solving: Isosceles Equilateral Triangles"
     ],
@@ -9762,8 +9726,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_3",
     "topics": [
       "Symmetry",
-      "Logic",
-      "Repeating Decimal"
+      "Logic"
     ],
     "solutionLatex": "Rotating square $ABCD$ counterclockwise $45^\\circ$ so that the line of symmetry $BD$ is a vertical line makes it easier to see that $\\boxed{\\textbf{(D)}\\ 4}$ squares need to be colored to match its corresponding square."
   },
@@ -9784,7 +9747,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_8_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ],
     "solutionLatex": "The perimeter of the triangle is $6.1+8.2+9.7=24$ cm. A square's perimeter is four times its sidelength, since all its sidelengths are equal. If the square's perimeter is $24$ , the sidelength is $24/4=6$ , and the area is $6^2=\\boxed{\\textbf{(C)}\\ 36}$ ."
@@ -10191,8 +10153,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "We can figure out the radius of the semicircle from the question states that the area of the semicircle is $2\\pi$ and we can multiply it by 2 to complete the circle to get $4\\pi$ which we can find the radius of 2. Draw line segment OD such that it is the midsegment of triangle ABC, using the midsegment theorem we can see that line segment AC = $2*2=4$ . Since triangle ABC is an isosceles right triangle we can calculate the area to be $\\frac{4^2}{2}$ = $\\boxed{8}$"
   },
@@ -10725,8 +10687,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing",
-      "Repeating Decimal"
+      "Length Chasing"
     ]
   },
   {
@@ -10864,7 +10825,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -11243,8 +11203,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_25",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -11576,7 +11534,7 @@
       "Pythagorean Triples",
       "Pythagorean theorem",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11657,9 +11615,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_20",
     "topics": [
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -12225,8 +12183,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -12530,9 +12487,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_13",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -12574,8 +12529,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Repeating Decimal"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -12760,8 +12714,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_24",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -12782,8 +12735,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_8_Problems/Problem_25",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },

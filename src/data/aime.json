@@ -32,7 +32,7 @@
       "Angle Chasing",
       "Trigonometry",
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -97,10 +97,10 @@
     "answer": "254",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Repeating Decimal"
+      "Simplifying Radicals",
+      "Pythagorean theorem"
     ]
   },
   {
@@ -153,8 +153,8 @@
     "topics": [
       "Linear Inequalities",
       "Trigonometry",
-      "Problem-Solving: Triangle Angles",
-      "Graphing Functions"
+      "Graphing Functions",
+      "Angle Chasing"
     ]
   },
   {
@@ -240,7 +240,7 @@
       "Problem-Solving: Circle Basics",
       "Pythagorean theorem",
       "Trigonometry",
-      "Problem-Solving: Triangle Angles"
+      "Circle Tangents"
     ]
   },
   {
@@ -290,9 +290,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_12",
     "topics": [
       "Trigonometry",
-      "Problem-Solving: Triangle Angles",
       "Simplifying Radicals",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Special triangles"
     ]
   },
   {
@@ -512,7 +512,7 @@
       "Angle Chasing",
       "Similar Triangles",
       "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles"
+      "Special triangles"
     ]
   },
   {
@@ -544,7 +544,6 @@
     "answer": "463",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Trigonometry"
@@ -661,10 +660,10 @@
     "answer": "245",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Incenter",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Trigonometry"
     ]
   },
   {
@@ -696,10 +695,10 @@
     "answer": "340",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2026_AIME_II_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Circle Tangents",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -931,10 +930,10 @@
     "answer": "113",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_I_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Length Chasing"
     ]
   },
   {
@@ -1099,10 +1098,10 @@
     "answer": "080",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_5",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Similar Triangles",
       "Problem-Solving: Polygons",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -1135,7 +1134,7 @@
       "Digit Problems",
       "Modular Arithmetic",
       "Casework",
-      "Repeating Decimal"
+      "100x + 10y + z"
     ]
   },
   {
@@ -1182,9 +1181,7 @@
     "answer": "468",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Incenter",
-      "Repeating Decimal",
       "Problem-Solving: Inscribed Circles"
     ]
   },
@@ -1216,8 +1213,8 @@
     "topics": [
       "Length Chasing",
       "Simplifying Radicals",
-      "Repeating Decimal",
-      "Area by Coordinates"
+      "Area by Coordinates",
+      "Polynomials"
     ],
     "solutionLatex": "Begin by finding the equation of the line $\\overline{AB}$ : $y= -\\sqrt{3}x+\\frac{\\sqrt{3}}{2}$ Now, consider the general equation of all lines that belong to $\\mathcal{F}$ . Let $P$ be located at $(a,0)$ and $Q$ be located at $(0,b)$ . With these assumptions, we may arrive at the equation $ay +bx =ab$ . However, a critical condition that must be satisfied by our parameters is that $a^2+b^2=1$ , since the length of $\\overline{PQ}=1$ .\n\nHere's the golden trick that resolves the problem: we wish to find some point $C$ along $\\overline{AB}$ such that $\\overline{PQ}$ passes through $C$ if and only if $a=\\frac{1}{2}$ . It's not hard to convince oneself of this, since the property $a^2+b^2=1$ implies that if $a=\\frac{1}{2}$ , then $\\overline{PQ}=\\overline{AB}$ .\n\nWe should now try to relate the point $C$ to some value of $a$ . This is accomplished by finding the intersection of two lines: \\[ a\\left(-\\sqrt{3}x +\\frac{\\sqrt{3}}{2}\\right) + x\\sqrt{1-a^2} = a\\sqrt{1-a^2} \\]\n\nWhere we have also used the fact that $b=\\sqrt{1-a^2}$ , which follows nicely from $a^2+b^2 =1$ . \\[ a\\left(-\\sqrt{3}x +\\frac{\\sqrt{3}}{2}\\right) = (a-x)\\sqrt{1-a^2} \\]\n\nSquare both sides and go through some algebraic manipulations to arrive at\n \\[ -a^4 +2xa^3+\\left(-4x^2+3x+\\frac{1}{4}\\right)a^2-2xa+x^2=0 \\]\n\nNote how $a=\\frac{1}{2}$ is a solution to this polynomial, and it is logically so. If we found the set of intersections consisting of line segment $\\overline{AB}$ with an identical copy of itself, every single point on the line (all $x$ values) should satisfy the equation. Thus, we can perform polynomial division to eliminate the extraneous solution $a=\\frac{1}{2}$ . \\[ -a^3 + \\left(2x-\\frac{1}{2}\\right)a^2+(-4x^2+4x)a-2x^2=0 \\]\n\nRemember our original goal. It was to find an $x$ value such that $a=\\frac{1}{2}$ is the only valid solution. Therefore, we can actually plug in $a=\\frac{1}{2}$ back into the equation to look for values of $x$ such that the relation is satisfied, then eliminate undesirable answers.\n \\[ 16x^2-10x+1=0 \\]\nThis is easily factored, allowing us to determine that $x=\\frac{1}{8},\\frac{1}{2}$ . The latter root is not our answer, since on line $\\overline{AB}$ , $y\\left(\\frac{1}{2}\\right)=0$ , the horizontal line segment running from $(0,0)$ to $(1,0)$ covers that point. From this, we see that $x=\\frac{1}{8}$ is the only possible candidate.\n\nGoing back to line $\\overline{AB}, y= -\\sqrt{3}x+\\frac{\\sqrt{3}}{2}$ , plugging in $x=\\frac{1}{8}$ yields $y=\\frac{3\\sqrt{3}}{8}$ . The distance from the origin is then given by $\\sqrt{\\frac{1}{8^2}+\\left(\\frac{3\\sqrt{3}}{8}\\right)^2} =\\sqrt{\\frac{7}{16}}$ . That number squared is $\\frac{7}{16}$ , so the answer is $\\boxed{023}$ .\n\n~Installhelp_hex\n\nWhy this works: Assume the quartic equation has exactly two real roots. Then for $a=\\frac{1}{2}$ to be the only solution, it must be a doubled root. Thus, even after dividing the quartic by $a-\\frac{1}{2}$ , $a=\\frac{1}{2}$ is still a root.\n~inaccessibles\n\nOther explanation: Clearly $a=\\frac{1}{2}$ works because then PQ = AB. Thus, we can factor out $a-\\frac{1}{2}$ .\n\nFrom the 3rd degree polynomial, it must either have 3 real roots, or 1 real root and 2 non real roots, because it has real coefficients.\n\nSo it must have atleast 1 real root. If this root wasn't $\\frac{1}{2}$ this would mean their is another line PQ that satisfies the equation. Thus, their must be another root at $a=\\frac{1}{2}$ and plugging in, we can solve for $x$ .\n~Bigbrain_2009"
   },
@@ -1400,9 +1397,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_8",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Quadrilaterals",
+      "Incenter"
     ]
   },
   {
@@ -1451,10 +1448,10 @@
     "answer": "075",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_I_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
       "Angle Chasing",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -1507,8 +1504,8 @@
     "topics": [
       "Complex Numbers",
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
-      "Modular Arithmetic"
+      "Modular Arithmetic",
+      "GCD/LCM"
     ]
   },
   {
@@ -1557,9 +1554,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_3",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Similar Triangles"
     ]
   },
   {
@@ -1609,8 +1606,8 @@
     "topics": [
       "Introduction to Probability",
       "Logic",
-      "Repeating Decimal",
-      "Geometric Probability"
+      "Geometric Probability",
+      "Symmetry"
     ]
   },
   {
@@ -1710,10 +1707,10 @@
     "answer": "247",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AIME_II_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Angles"
     ],
     "solutionLatex": "Because $M$ is the midpoint of $BC$ , following from the Stewart's theorem, $AM = 2 \\sqrt{37}$ .\n\nBecause $A$ , $B$ , $C$ , and $P$ are concyclic, $\\angle BPA = \\angle C$ , $\\angle CPA = \\angle B$ .\n\nDenote $\\theta = \\angle PBQ$ .\n\nIn $\\triangle BPQ$ , following from the law of sines,\n \\[ \\frac{BQ}{\\sin \\angle BPA} = \\frac{PQ}{\\sin \\angle PBQ} \\]\n\nThus,\n \\[ \\frac{BQ}{\\sin C} = \\frac{PQ}{\\sin \\theta} . \\hspace{1cm} (1) \\]\n\nIn $\\triangle CPQ$ , following from the law of sines,\n \\[ \\frac{CQ}{\\sin \\angle CPA} = \\frac{PQ}{\\sin \\angle PCQ} \\]\n\nThus,\n \\[ \\frac{CQ}{\\sin B} = \\frac{PQ}{\\sin \\theta} . \\hspace{1cm} (2) \\]\n\nTaking $\\frac{(1)}{(2)}$ , we get\n \\[ \\frac{BQ}{\\sin C} = \\frac{CQ}{\\sin B} \\]\n\nIn $\\triangle ABC$ , following from the law of sines,\n \\[ \\frac{AB}{\\sin C} = \\frac{AC}{\\sin B} . \\hspace{1cm} (3) \\]\n\nThus, Equations (2) and (3) imply\n$\\begin{align*} \\frac{BQ}{CQ} & = \\frac{AB}{AC} \\\\ & = \\frac{13}{15} . \\hspace{1cm} (4) \\end{align*}$\n\nNext, we compute $BQ$ and $CQ$ .\n\nWe have\n$\\begin{align*} BQ^2 & = AB^2 + AQ^2 - 2 AB\\cdot AQ \\cos \\angle BAQ \\\\ & = AB^2 + AQ^2 - 2 AB\\cdot AQ \\cos \\angle BAM \\\\ & = AB^2 + AQ^2 - 2 AB\\cdot AQ \\cdot \\frac{AB^2 + AM^2 - BM^2}{2 AB \\cdot AM} \\\\ & = AB^2 + AQ^2 - AQ \\cdot \\frac{AB^2 + AM^2 - BM^2}{AM} \\\\ & = 169 + AQ^2 - \\frac{268}{2 \\sqrt{37}} AQ . \\hspace{1cm} (5) \\end{align*}$\n\nWe have\n$\\begin{align*} CQ^2 & = AC^2 + AQ^2 - 2 AC\\cdot AQ \\cos \\angle CAQ \\\\ & = AC^2 + AQ^2 - 2 AC\\cdot AQ \\cos \\angle CAM \\\\ & = AC^2 + AQ^2 - 2 AC\\cdot AQ \\cdot \\frac{AC^2 + AM^2 - CM^2}{2 AC \\cdot AM} \\\\ & = AC^2 + AQ^2 - AQ \\cdot \\frac{AC^2 + AM^2 - CM^2}{AM} \\\\ & = 225 + AQ^2 - \\frac{324}{2 \\sqrt{37}} AQ . \\hspace{1cm} (6) \\end{align*}$\n\nTaking (5) and (6) into (4), we get $AQ = \\frac{99}{\\sqrt{148}}$\n\nTherefore, the answer is $99 + 148 = \\boxed{\\textbf{(247) }}$\n\n~Steven Chen (Professor Chen Education Palace, www.professorchenedu.com)"
   },
@@ -1818,10 +1815,10 @@
     "answer": "242",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -1854,8 +1851,7 @@
     "topics": [
       "Ratios and Rates",
       "System of Equations",
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -1903,9 +1899,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_8",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Inscribed Circles",
-      "Circle Tangents"
+      "Circle Tangents",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -1992,8 +1988,8 @@
     "answer": "392",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_I_Problems/Problem_13",
     "topics": [
-      "Repeating Decimal",
       "Modular Arithmetic",
+      "Repeating Decimal",
       "Complementary Counting",
       "GCD/LCM"
     ]
@@ -2012,8 +2008,8 @@
     "topics": [
       "Modular Arithmetic",
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
-      "Special triangles"
+      "Special triangles",
+      "Trigonometry"
     ]
   },
   {
@@ -2180,7 +2176,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_9",
     "topics": [
       "Functions - f(x) Notation",
-      "Repeating Decimal",
       "Recursion",
       "Logic"
     ]
@@ -2215,9 +2210,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AIME_II_Problems/Problem_11",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -2318,9 +2313,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_2",
     "topics": [
       "Problem-Solving: Weird Areas",
-      "Problem-Solving: Triangle Angles",
       "Similar Triangles",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -2438,10 +2433,10 @@
     "answer": "567",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Areas",
-      "Similar Triangles"
+      "Similar Triangles",
+      "Ratios and Rates"
     ]
   },
   {
@@ -2475,7 +2470,7 @@
       "Angle Chasing",
       "Trigonometry",
       "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles"
+      "Ptolemy's Theorem"
     ],
     "solutionLatex": "This solution refers to the Diagram section.\n\nBy the Converse of the Inscribed Angle Theorem, if distinct points $X$ and $Y$ lie on the same side of $\\overline{PQ}$ (but not on $\\overline{PQ}$ itself) for which $\\angle PXQ=\\angle PYQ,$ then $P,Q,X,$ and $Y$ are cyclic. From the Converse of the Inscribed Angle Theorem, quadrilaterals $ABA_1B_1,BCC_1B_1,CDC_1D_1,$ and $DAA_1D_1$ are all cyclic.\n\nSuppose $\\overline{AC}$ and $\\overline{BD}$ intersect at $E,$ and let $\\angle AEB=\\theta.$ It follows that $\\angle CED=\\theta$ and $\\angle BEC=\\angle DEA=180^\\circ-\\theta.$\n\nWe obtain the following diagram:\n[[img:https://latex.artofproblemsolving.com/1/7/6/176d8f879cf739392be8f3a10297d15ed548db67.png]]\nIn every cyclic quadrilateral, each pair of opposite angles is supplementary. So, we have $\\angle EA_1B_1=\\angle EAB$ (both supplementary to $\\angle B_1A_1B$ ) and $\\angle EB_1A_1=\\angle EBA$ (both supplementary to $\\angle A_1B_1A$ ), from which $\\triangle A_1B_1E \\sim \\triangle ABE$ by AA, with the ratio of similitude \\[\\frac{A_1B_1}{AB}=\\underbrace{\\frac{A_1E}{AE}}_{\\substack{\\text{right} \\\\ \\triangle A_1AE}}=\\underbrace{\\frac{B_1E}{BE}}_{\\substack{\\text{right} \\\\ \\triangle B_1BE}}=\\cos\\theta. \\hspace{15mm}(1)\\]\nSimilarly, we have $\\angle EC_1D_1=\\angle ECD$ (both supplementary to $\\angle D_1C_1D$ ) and $\\angle ED_1C_1=\\angle EDC$ (both supplementary to $\\angle C_1D_1C$ ), from which $\\triangle C_1D_1E \\sim \\triangle CDE$ by AA, with the ratio of similitude \\[\\frac{C_1D_1}{CD}=\\underbrace{\\frac{C_1E}{CE}}_{\\substack{\\text{right} \\\\ \\triangle C_1CE}}=\\underbrace{\\frac{D_1E}{DE}}_{\\substack{\\text{right} \\\\ \\triangle D_1DE}}=\\cos\\theta. \\hspace{14.75mm}(2)\\]\nWe apply the Transitive Property to $(1)$ and $(2):$\n\nWe get $\\frac{B_1E}{BE}=\\frac{C_1E}{CE}=\\cos\\theta,$ so $\\triangle B_1C_1E \\sim \\triangle BCE$ by SAS, with the ratio of similitude \\[\\frac{B_1C_1}{BC}=\\frac{B_1E}{BE}=\\frac{C_1E}{CE}=\\cos\\theta. \\hspace{14.75mm}(3)\\]\n We get $\\frac{D_1E}{DE}=\\frac{A_1E}{AE}=\\cos\\theta,$ so $\\triangle D_1A_1E \\sim \\triangle DAE$ by SAS, with the ratio of similitude \\[\\frac{D_1A_1}{DA}=\\frac{D_1E}{DE}=\\frac{A_1E}{AE}=\\cos\\theta. \\hspace{14mm}(4)\\]\n\nFrom $(1),(2),(3),$ and $(4),$ the perimeter of $A_1B_1C_1D_1$ is\n$\\begin{align*} A_1B_1+B_1C_1+C_1D_1+D_1A_1&=AB\\cos\\theta+BC\\cos\\theta+CD\\cos\\theta+DA\\cos\\theta \\\\ &=(AB+BC+CD+DA)\\cos\\theta \\\\ &=22\\cos\\theta. &&\\hspace{5mm}(\\bigstar) \\end{align*}$\nTwo solutions follow from here:\n\nNote that $\\cos(180^\\circ-\\theta)=-\\cos\\theta$ holds for all $\\theta.$ We apply the Law of Cosines to $\\triangle ABE, \\triangle BCE, \\triangle CDE,$ and $\\triangle DAE,$ respectively:\n$\\begin{alignat*}{12} &&&AE^2+BE^2-2\\cdot AE\\cdot BE\\cdot\\cos\\angle AEB&&=AB^2&&\\quad\\implies\\quad AE^2+BE^2-2\\cdot AE\\cdot BE\\cdot\\cos\\theta&&=4^2, \\hspace{15mm} &(1\\star) \\\\ &&&BE^2+CE^2-2\\cdot BE\\cdot CE\\cdot\\cos\\angle BEC&&=BC^2&&\\quad\\implies\\quad BE^2+CE^2+2\\cdot BE\\cdot CE\\cdot\\cos\\theta&&=5^2, \\hspace{15mm} &(2\\star) \\\\ &&&CE^2+DE^2-2\\cdot CE\\cdot DE\\cdot\\cos\\angle CED&&=CD^2&&\\quad\\implies\\quad CE^2+DE^2-2\\cdot CE\\cdot DE\\cdot\\cos\\theta&&=6^2, \\hspace{15mm} &(3\\star) \\\\ &&&DE^2+AE^2-2\\cdot DE\\cdot AE\\cdot\\cos\\angle DEA&&=DA^2&&\\quad\\implies\\quad DE^2+AE^2+2\\cdot DE\\cdot AE\\cdot\\cos\\theta&&=7^2. \\hspace{15mm} &(4\\star) \\\\ \\end{alignat*}$\nWe subtract $(1\\star)+(3\\star)$ from $(2\\star)+(4\\star):$\n$\\begin{align*} 2\\cdot AE\\cdot BE\\cdot\\cos\\theta+2\\cdot BE\\cdot CE\\cdot\\cos\\theta+2\\cdot CE\\cdot DE\\cdot\\cos\\theta+2\\cdot DE\\cdot AE\\cdot\\cos\\theta&=22 \\\\ 2\\cdot\\cos\\theta\\cdot(\\phantom{ }\\underbrace{AE\\cdot BE+BE\\cdot CE+CE\\cdot DE+DE\\cdot AE}_{\\text{Use the result from }\\textbf{Remark}\\text{.}}\\phantom{ })&=22 \\\\ 2\\cdot\\cos\\theta\\cdot59&=22 \\\\ \\cos\\theta&=\\frac{11}{59}. \\end{align*}$\nFinally, substituting this result into $(\\bigstar)$ gives $22\\cos\\theta=\\frac{242}{59},$ from which the answer is $242+59=\\boxed{301}.$\n\n~MRENTHUSIASM (credit given to Math Jams's 2021 AIME I Discussion)\n\nLet the brackets denote areas.\nWe find $[ABCD]$ in two different ways:\n\nNote that $\\sin(180^\\circ-\\theta)=\\sin\\theta$ holds for all $\\theta.$ By area addition, we get\n$\\begin{align*} [ABCD]&=[ABE]+[BCE]+[CDE]+[DAE] \\\\ &=\\frac12\\cdot AE\\cdot BE\\cdot\\sin\\angle AEB+\\frac12\\cdot BE\\cdot CE\\cdot\\sin\\angle BEC+\\frac12\\cdot CE\\cdot DE\\cdot\\sin\\angle CED+\\frac12\\cdot DE\\cdot AE\\cdot\\sin\\angle DEA \\\\ &=\\frac12\\cdot AE\\cdot BE\\cdot\\sin\\theta+\\frac12\\cdot BE\\cdot CE\\cdot\\sin\\theta+\\frac12\\cdot CE\\cdot DE\\cdot\\sin\\theta+\\frac12\\cdot DE\\cdot AE\\cdot\\sin\\theta \\\\ &=\\frac12\\cdot\\sin\\theta\\cdot(\\phantom{ }\\underbrace{AE\\cdot BE+BE\\cdot CE+CE\\cdot DE+DE\\cdot AE}_{\\text{Use the result from }\\textbf{Remark}\\text{.}}\\phantom{ }) \\\\ &=\\frac12\\cdot\\sin\\theta\\cdot59. \\end{align*}$\n By Brahmagupta's Formula, we get \\[[ABCD]=\\sqrt{(s-AB)(s-BC)(s-CD)(s-DA)}=2\\sqrt{210},\\] where $s=\\frac{AB+BC+CD+DA}{2}=11$ is the semiperimeter of $ABCD.$\n\nEquating the expressions for $[ABCD],$ we have\n \\[\\frac12\\cdot\\sin\\theta\\cdot59=2\\sqrt{210},\\] so $\\sin\\theta=\\frac{4\\sqrt{210}}{59}.$ Since $0^\\circ<\\theta<90^\\circ,$ we have $\\cos\\theta>0.$ It follows that \\[\\cos\\theta=\\sqrt{1-\\sin^2\\theta}=\\frac{11}{59}.\\]\nFinally, substituting this result into $(\\bigstar)$ gives $22\\cos\\theta=\\frac{242}{59},$ from which the answer is $242+59=\\boxed{301}.$\n\n~MRENTHUSIASM (credit given to Leonard my dude)\n\nIn $ABCD,$ we have\n$\\begin{align*} AE\\cdot BE+BE\\cdot CE+CE\\cdot DE+DE\\cdot AE &= (AE+CE)(BE+DE) &&\\hspace{10mm}\\text{Factor by Grouping} \\\\ &=AC\\cdot BD &&\\hspace{10mm}\\text{Segment Addition} \\\\ &=AB\\cdot CD+BC\\cdot DA &&\\hspace{10mm}\\text{Ptolemy's Theorem} \\\\ &=59. &&\\hspace{10mm}\\text{Substitution} \\end{align*}$\n~MRENTHUSIASM"
   },
@@ -2512,7 +2507,7 @@
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
       "Variables",
-      "Repeating Decimal"
+      "Circle Angles"
     ]
   },
   {
@@ -2581,10 +2576,10 @@
     "answer": "336",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_2",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Special triangles"
+      "Special triangles",
+      "Ratios and Rates"
     ]
   },
   {
@@ -2617,7 +2612,7 @@
       "Simplifying Radicals",
       "Complex Numbers",
       "Vieta's Formulas",
-      "Repeating Decimal"
+      "Problem-Solving: Polynomial Root Tricks"
     ]
   },
   {
@@ -2789,10 +2784,10 @@
     "answer": "592",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Angles",
       "Angle Chasing",
-      "Circle Angles"
+      "Circle Angles",
+      "Conditional Probability"
     ]
   },
   {
@@ -2825,7 +2820,6 @@
     "answer": "547",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_1",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Logic"
@@ -3027,10 +3021,10 @@
     "answer": "036",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Simplifying Radicals",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3063,9 +3057,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_I_Problems/Problem_15",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
-      "Circle Tangents"
+      "Circle Tangents",
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -3131,8 +3125,7 @@
     "answer": "108",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_4",
     "topics": [
-      "Area by Coordinates",
-      "Problem-Solving: Triangle Angles"
+      "Area by Coordinates"
     ]
   },
   {
@@ -3284,10 +3277,10 @@
     "answer": "060",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Inscribed Circles",
       "Problem-Solving: Areas",
-      "Problem-Solving: Polygons"
+      "Problem-Solving: Polygons",
+      "Angle Chasing"
     ]
   },
   {
@@ -3320,10 +3313,10 @@
     "answer": "717",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AIME_II_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
       "Angle Chasing",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -3353,10 +3346,10 @@
     "answer": "120",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_3",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Problem-Solving: Polygons",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Trigonometry"
     ]
   },
   {
@@ -3495,9 +3488,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_11",
     "topics": [
       "Circle Tangents",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Excenter"
+      "Problem-Solving: Excenter",
+      "Incenter"
     ]
   },
   {
@@ -3514,8 +3507,7 @@
     "topics": [
       "Simplifying Radicals",
       "Pythagorean theorem",
-      "Complex Numbers",
-      "Problem-Solving: Triangle Angles"
+      "Complex Numbers"
     ]
   },
   {
@@ -3530,10 +3522,10 @@
     "answer": "032",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -3567,9 +3559,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_I_Problems/Problem_15",
     "topics": [
       "Circle Tangents",
-      "Repeating Decimal",
       "Angle Chasing",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -3584,7 +3576,6 @@
     "answer": "059",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_1",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Pythagorean theorem",
       "Problem-Solving: Quadrilaterals"
@@ -3686,9 +3677,7 @@
     "answer": "715",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_7",
     "topics": [
-      "Similar Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Similar Triangles"
     ]
   },
   {
@@ -3757,10 +3746,10 @@
     "answer": "011",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Similar Triangles",
-      "Circle Tangents"
+      "Circle Tangents",
+      "Trigonometry"
     ]
   },
   {
@@ -3826,8 +3815,7 @@
     "topics": [
       "Trigonometry",
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -3891,7 +3879,6 @@
     "answer": "289",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
       "Logic",
       "Problem-Solving: Angles"
@@ -3944,8 +3931,8 @@
     "topics": [
       "Casework",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Area by Coordinates"
+      "Area by Coordinates",
+      "3D Geometry"
     ],
     "solutionLatex": "We can consider two cases: when the three vertices are on one base, and when the vertices are on two bases.\n\nCase 1: vertices are on one base. Then we can call one of the vertices $A$ for distinction. Either the triangle can have sides $1, 1, \\sqrt{3}$ with 6 cases or $\\sqrt{3}, \\sqrt{3}, \\sqrt{3}$ with 2 cases. This can be repeated on the other base for $16$ cases.\n\nCase 2: The vertices span two bases. WLOG call the only vertex on one of the bases $X$ . Call the closest vertex on the other base $B$ , and label clockwise $C, D, E, F, G$ . We will multiply the following scenarios by $12$ , because the top vertex can have $6$ positions and the top vertex can be on the other base. We can have $XCG, XDF$ , but we are not done! Don't forget that the problem statement implies that the longest diagonal in a base is $2$ and the height is $2$ , so $XBE$ is also correct! Those are the only three cases, so there are $12*3=36$ cases for this case.\n\nIn total there's $\\boxed{052}$ cases."
   },
@@ -4031,10 +4018,10 @@
     "answer": "126",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -4187,9 +4174,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_7",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Areas",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -4305,10 +4292,10 @@
     "answer": "227",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_II_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Circle Tangents",
-      "Repeating Decimal",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Trigonometry",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -4342,9 +4329,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_1",
     "topics": [
       "Combinations",
-      "Problem-Solving: Triangle Angles",
       "Area by Coordinates",
-      "Repeating Decimal"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4480,7 +4467,7 @@
       "Pythagorean theorem",
       "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4529,9 +4516,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_3",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Triangle Angles",
       "Linear Equations",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4630,8 +4617,7 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas",
-      "Logic",
-      "Problem-Solving: Triangle Angles"
+      "Logic"
     ]
   },
   {
@@ -4685,7 +4671,7 @@
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Combinations",
       "Modular Arithmetic",
-      "Problem-Solving: Triangle Angles"
+      "Parity Reasoning"
     ]
   },
   {
@@ -4718,7 +4704,7 @@
       "3D Geometry",
       "Simplifying Radicals",
       "Functions - f(x) Notation",
-      "Problem-Solving: Triangle Angles"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -4767,7 +4753,7 @@
       "Paths on a Grid",
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -4784,8 +4770,8 @@
     "topics": [
       "3D Geometry",
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
-      "Special triangles"
+      "Special triangles",
+      "Area by Coordinates"
     ]
   },
   {
@@ -4815,10 +4801,10 @@
     "answer": "013",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Linear Equations"
+      "Linear Equations",
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -4870,8 +4856,8 @@
     "topics": [
       "Trigonometry",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -5019,8 +5005,7 @@
     "topics": [
       "Problem-Solving: Areas",
       "Arithmetic/Geometric Sequences",
-      "Logic",
-      "Repeating Decimal"
+      "Logic"
     ]
   },
   {
@@ -5068,10 +5053,10 @@
     "answer": "043",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -5138,10 +5123,10 @@
     "answer": "450",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -5191,10 +5176,10 @@
     "answer": "507",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Logic",
-      "Repeating Decimal"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5227,7 +5212,7 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Circle Angles"
     ]
   },
   {
@@ -5295,10 +5280,8 @@
     "answer": "108",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
-      "Problem-Solving: Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -5483,8 +5466,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas",
-      "Problem-Solving: Triangle Angles",
-      "Variables"
+      "Variables",
+      "Quadratics - Factoring"
     ]
   },
   {
@@ -5549,10 +5532,10 @@
     "answer": "023",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Circle Basics",
+      "Similar Triangles"
     ]
   },
   {
@@ -5619,9 +5602,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_II_Problems/Problem_15",
     "topics": [
       "Trigonometry",
-      "Problem-Solving: Triangle Angles",
       "Circle Tangents",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Angle Chasing"
     ]
   },
   {
@@ -5707,9 +5690,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_10",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Circle Basics",
-      "Circle Tangents"
+      "Circle Tangents",
+      "Trigonometry"
     ]
   },
   {
@@ -5743,9 +5726,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_13",
     "topics": [
       "Trigonometry",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Angle Chasing",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -5777,10 +5760,10 @@
     "answer": "041",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Simplifying Radicals",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Circle Basics",
+      "Similar Triangles"
     ]
   },
   {
@@ -5862,9 +5845,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_11",
     "topics": [
       "Simplifying Radicals",
-      "Repeating Decimal",
-      "Problem-Solving: Triangle Angles",
-      "Linear Equations"
+      "Linear Equations",
+      "Logic",
+      "Length Chasing"
     ]
   },
   {
@@ -5896,9 +5879,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_14",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Special triangles",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Trigonometry"
     ]
   },
   {
@@ -5964,7 +5947,6 @@
     "topics": [
       "Problem-Solving: Areas",
       "Linear Equations",
-      "Repeating Decimal",
       "Length Chasing"
     ]
   },
@@ -6033,10 +6015,10 @@
     "answer": "021",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Simplifying Radicals",
-      "Repeating Decimal"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -6052,9 +6034,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_13",
     "topics": [
       "Similar Triangles",
-      "Problem-Solving: Areas",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6149,9 +6129,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_4",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Logic"
+      "Logic",
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -6187,7 +6167,7 @@
       "Problem-Solving: Circle Basics",
       "Simplifying Radicals",
       "Problem-Solving: Areas",
-      "Problem-Solving: Triangle Angles"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -6221,9 +6201,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_13",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
       "Stewarts Theorem",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -6256,9 +6236,9 @@
     "answer": "222",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometric Identities",
       "Trigonometry",
+      "Problem-Solving: Triangle Angles",
       "Angle Chasing"
     ]
   },
@@ -6378,10 +6358,10 @@
     "answer": "018",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Simplifying Radicals",
-      "Pythagorean theorem"
+      "Pythagorean theorem",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -6396,10 +6376,10 @@
     "answer": "041",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Simplifying Radicals",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6415,9 +6395,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_I_Problems/Problem_14",
     "topics": [
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
       "Mean Median Mode",
-      "Problem-Solving: Centroid"
+      "Problem-Solving: Centroid",
+      "Vieta's Formulas"
     ]
   },
   {
@@ -6467,9 +6447,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_2",
     "topics": [
       "Simplifying Radicals",
-      "Repeating Decimal",
       "Problem-Solving: Quadrilaterals",
-      "Divisibility Reasoning"
+      "Divisibility Reasoning",
+      "Length Chasing"
     ]
   },
   {
@@ -6501,9 +6481,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_8",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
-      "Floor Functions"
+      "Floor Functions",
+      "Similar Triangles",
+      "Pythagorean theorem"
     ]
   },
   {
@@ -6727,10 +6707,10 @@
     "answer": "096",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Angles",
       "Angle Chasing",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Logic"
     ]
   },
   {
@@ -6904,10 +6884,10 @@
     "answer": "045",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
       "Problem-Solving: Inscribed Circles",
-      "Similar Triangles"
+      "Similar Triangles",
+      "Angle Chasing"
     ]
   },
   {
@@ -6955,8 +6935,8 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Similar Triangles"
     ]
   },
   {
@@ -6974,7 +6954,7 @@
       "Ratios and Rates",
       "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "AIME-level Inequalities"
     ]
   },
   {
@@ -7007,9 +6987,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_14",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Simplifying Radicals",
-      "Pythagorean theorem"
+      "Pythagorean theorem",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -7024,7 +7004,6 @@
     "answer": "218",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Angle Bisector Theorem"
@@ -7143,10 +7122,10 @@
     "answer": "011",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
       "Problem-Solving: Circle Basics",
-      "Similar Triangles"
+      "Similar Triangles",
+      "Angle Chasing"
     ]
   },
   {
@@ -7195,10 +7174,10 @@
     "answer": "150",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Simplifying Radicals",
-      "Repeating Decimal"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -7214,9 +7193,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_3",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
-      "Problem-Solving: Triangle Angles",
-      "Floor"
+      "Floor",
+      "Similar Triangles",
+      "Angle Chasing"
     ]
   },
   {
@@ -7284,8 +7263,8 @@
     "topics": [
       "Simplifying Radicals",
       "Similar Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Divisibility Reasoning"
+      "Divisibility Reasoning",
+      "Angle Bisector Theorem"
     ]
   },
   {
@@ -7335,7 +7314,7 @@
       "Problem-Solving: Circle Basics",
       "Complex Numbers",
       "Trigonometry",
-      "Problem-Solving: Triangle Angles"
+      "Trigonometric Identities"
     ]
   },
   {
@@ -7401,10 +7380,10 @@
     "answer": "025",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_2",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Length Chasing",
       "Problem-Solving: Areas",
-      "Similar Triangles"
+      "Similar Triangles",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -7466,9 +7445,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_I_Problems/Problem_10",
     "topics": [
       "Simplifying Radicals",
-      "Repeating Decimal",
-      "Problem-Solving: Triangle Angles",
-      "Linear Inequalities"
+      "Linear Inequalities",
+      "Quadratics - Factoring",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -7552,7 +7531,7 @@
       "Simplifying Radicals",
       "Problem-Solving: 3D Geometry",
       "Trigonometry",
-      "Problem-Solving: Triangle Angles"
+      "Divisibility Reasoning"
     ]
   },
   {
@@ -7653,8 +7632,8 @@
     "answer": "360",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_I_Problems/Problem_6",
     "topics": [
-      "Repeating Decimal",
       "Digit Problems",
+      "Repeating Decimal",
       "Digit Deduction"
     ]
   },
@@ -7778,7 +7757,7 @@
       "Floor",
       "Floor Functions",
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles"
+      "Floor Function Strategies"
     ]
   },
   {
@@ -7825,10 +7804,10 @@
     "answer": "012",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_6",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Repeating Decimal"
+      "Angle Chasing",
+      "Trigonometry"
     ]
   },
   {
@@ -7843,10 +7822,10 @@
     "answer": "336",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Combinations",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Fundamental Counting Principle"
+      "Fundamental Counting Principle",
+      "Permutations with Repeated Elements"
     ]
   },
   {
@@ -7917,8 +7896,8 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Conditional Probability"
     ]
   },
   {
@@ -7950,7 +7929,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_15",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
       "Divisibility Reasoning"
     ]
   },
@@ -7986,8 +7964,8 @@
     "topics": [
       "Similar Triangles",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -8128,10 +8106,10 @@
     "answer": "484",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_II_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Similar Triangles",
-      "Conditional Probability"
+      "Conditional Probability",
+      "Ratios and Rates"
     ]
   },
   {
@@ -8295,10 +8273,10 @@
     "answer": "777",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Floor",
       "Angle Chasing",
-      "Floor Functions"
+      "Floor Functions",
+      "Trigonometry"
     ]
   },
   {
@@ -8348,8 +8326,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_15",
     "topics": [
       "Angle Bisector Theorem",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Mass Points"
     ]
   },
@@ -8382,8 +8358,8 @@
     "topics": [
       "Ratios and Rates",
       "3D Geometry",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: 3D Geometry"
+      "Problem-Solving: 3D Geometry",
+      "Angle Chasing"
     ]
   },
   {
@@ -8436,7 +8412,7 @@
       "Pythagorean theorem",
       "Simplifying Radicals",
       "Linear Equations",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -8469,9 +8445,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_II_Problems/Problem_13",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Triangle Angles",
       "States",
-      "Recursion"
+      "Recursion",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -8592,7 +8568,7 @@
       "Simplifying Radicals",
       "3D Geometry",
       "Divisibility Reasoning",
-      "Repeating Decimal"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -8622,10 +8598,10 @@
     "answer": "063",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
       "Simplifying Radicals",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Centroid"
     ]
   },
   {
@@ -8657,9 +8633,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_I_Problems/Problem_15",
     "topics": [
       "Simplifying Radicals",
-      "Repeating Decimal",
       "Similar Triangles",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -8757,10 +8733,10 @@
     "answer": "901",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Conditional Probability",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Ratios and Rates",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -8776,9 +8752,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AIME_II_Problems/Problem_14",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
       "Similar Triangles",
-      "Repeating Decimal"
+      "Circle Tangents",
+      "Ratios and Rates"
     ]
   },
   {
@@ -8847,7 +8823,7 @@
       "Quadratics - Factoring",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles"
+      "Length Chasing"
     ]
   },
   {
@@ -9169,10 +9145,10 @@
     "answer": "020",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_5",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
       "Angle Chasing",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -9287,10 +9263,10 @@
     "answer": "051",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_II_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Bisector Theorem",
       "Angle Chasing",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -9342,7 +9318,7 @@
       "Problem-Solving: Circle Basics",
       "Modular Arithmetic",
       "Trigonometry",
-      "Problem-Solving: Triangle Angles"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -9503,8 +9479,7 @@
     "answer": "177",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_I_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -9736,10 +9711,10 @@
     "answer": "989",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AIME_I_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -9824,8 +9799,7 @@
     "topics": [
       "Digit Problems",
       "Divisibility Reasoning",
-      "Recursion",
-      "Repeating Decimal"
+      "Recursion"
     ]
   },
   {
@@ -10093,9 +10067,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AIME_I_Problems/Problem_10",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -10214,10 +10188,10 @@
     "answer": "061",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Angle Chasing",
-      "Ratios and Rates"
+      "Ratios and Rates",
+      "Trigonometry"
     ]
   },
   {
@@ -10281,7 +10255,6 @@
     "answer": "067",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_4",
     "topics": [
-      "Repeating Decimal",
       "Problem-Solving: Coordinate Bashing",
       "Length Chasing"
     ]
@@ -10299,7 +10272,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_5",
     "topics": [
       "Combinations",
-      "Problem-Solving: Triangle Angles",
       "AIME-level Inequalities",
       "Problem-Solving: Areas"
     ]
@@ -10352,9 +10324,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_12",
     "topics": [
       "3D Geometry",
-      "Problem-Solving: Triangle Angles",
       "3D Volumes and Surface Areas",
-      "Recursion"
+      "Recursion",
+      "Sequences and Series"
     ]
   },
   {
@@ -10539,10 +10511,10 @@
     "answer": "571",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AIME_I_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Floor Functions",
-      "Repeating Decimal",
-      "Floor"
+      "Floor",
+      "Floor Function Strategies",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -10622,7 +10594,6 @@
     "topics": [
       "Problem-Solving: Areas",
       "Problem-Solving: Polygons",
-      "Repeating Decimal",
       "Length Chasing"
     ]
   },
@@ -10655,7 +10626,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_10",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Triangle Angles",
       "Area by Coordinates"
     ]
   },
@@ -10686,10 +10656,10 @@
     "answer": "345",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Circle Basics",
-      "Repeating Decimal",
-      "Angle Chasing"
+      "Angle Chasing",
+      "Circle Tangents",
+      "Trigonometry"
     ]
   },
   {
@@ -10705,9 +10675,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_14",
     "topics": [
       "Trigonometry",
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
-      "Quadratics - Factoring"
+      "Quadratics - Factoring",
+      "2nd Degree Symmetric Sums"
     ]
   },
   {
@@ -10723,9 +10693,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1999_AIME_Problems/Problem_15",
     "topics": [
       "3D Geometry",
-      "Problem-Solving: Triangle Angles",
       "3D Volumes and Surface Areas",
-      "Area by Coordinates"
+      "Area by Coordinates",
+      "Linear Equations"
     ]
   },
   {
@@ -11017,10 +10987,10 @@
     "answer": "065",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Simplifying Radicals",
       "Pythagorean theorem",
-      "Repeating Decimal"
+      "Angle Chasing",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -11053,10 +11023,10 @@
     "answer": "777",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1996_AIME_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Floor Functions",
       "Trigonometry",
-      "Floor"
+      "Floor",
+      "Floor Function Strategies"
     ]
   },
   {
@@ -11143,8 +11113,8 @@
     "topics": [
       "Complex Numbers",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Polynomials"
+      "Polynomials",
+      "Vieta's Formulas"
     ]
   },
   {
@@ -11159,10 +11129,8 @@
     "answer": "450",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometry",
-      "Pythagorean theorem",
-      "Repeating Decimal"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -11196,8 +11164,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_13",
     "topics": [
       "Complex Numbers",
-      "Trigonometry",
-      "Repeating Decimal"
+      "Trigonometry"
     ]
   },
   {
@@ -11214,8 +11181,7 @@
     "topics": [
       "Problem-Solving: Reflection Trick",
       "Angle Chasing",
-      "Linear Inequalities",
-      "Repeating Decimal"
+      "Linear Inequalities"
     ]
   },
   {
@@ -11351,7 +11317,6 @@
     "topics": [
       "Problem-Solving: 3D Geometry",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
       "States"
     ]
   },
@@ -11367,9 +11332,7 @@
     "answer": "344",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Linear Inequalities",
-      "Repeating Decimal",
       "Problem-Solving: 3D Geometry"
     ]
   },
@@ -11387,8 +11350,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles",
-      "Variables"
+      "Variables",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -11406,7 +11369,7 @@
       "Simplifying Radicals",
       "Problem-Solving: Quadrilaterals",
       "Area by Coordinates",
-      "Repeating Decimal"
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -11421,10 +11384,9 @@
     "answer": "997",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Circle Tangents",
       "Pythagorean theorem",
-      "Repeating Decimal"
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -11486,10 +11448,10 @@
     "answer": "089",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Angle Bisector Theorem"
     ]
   },
   {
@@ -11668,8 +11630,8 @@
     "topics": [
       "Trigonometry",
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Variables"
+      "Variables",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -11720,10 +11682,10 @@
     "answer": "108",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -11786,10 +11748,10 @@
     "answer": "110",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Trigonometry",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -11856,7 +11818,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_14",
     "topics": [
       "Graphing Functions",
-      "Repeating Decimal",
       "Problem-Solving: Reflection Trick"
     ]
   },
@@ -11943,10 +11904,10 @@
     "answer": "033",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Pythagorean theorem"
+      "Pythagorean theorem",
+      "Quadratics - Factoring"
     ]
   },
   {
@@ -12010,10 +11971,10 @@
     "answer": "462",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Pythagorean theorem",
-      "Simplifying Radicals"
+      "Simplifying Radicals",
+      "Problem-Solving: Inscribed Circles"
     ]
   },
   {
@@ -12076,9 +12037,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_9",
     "topics": [
       "Similar Triangles",
-      "Problem-Solving: Triangle Angles",
       "Ratios and Rates",
-      "Repeating Decimal"
+      "Length Chasing",
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
     ]
   },
   {
@@ -12147,9 +12108,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_6",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Triangle Angles",
       "Geometric Probability",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Circle Basics",
+      "Circle Angles"
     ]
   },
   {
@@ -12180,9 +12141,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_15",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Quadrilaterals",
-      "Modular Arithmetic"
+      "Modular Arithmetic",
+      "Similar Triangles"
     ]
   },
   {
@@ -12198,9 +12159,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_5",
     "topics": [
       "Similar Triangles",
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -12216,9 +12175,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_4",
     "topics": [
       "Digit Problems",
-      "Repeating Decimal",
       "Divisibility Reasoning",
-      "Modular Arithmetic"
+      "Modular Arithmetic",
+      "Repeating Decimal"
     ]
   },
   {
@@ -12302,7 +12261,7 @@
       "Trigonometry",
       "Angle Chasing",
       "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -12317,10 +12276,10 @@
     "answer": "041",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Simplifying Radicals",
-      "Pythagorean theorem"
+      "Pythagorean theorem",
+      "Problem-Solving: 3D Geometry"
     ]
   }
 ]

@@ -518,8 +518,8 @@
     "angles of a triangle",
     "exterior angle",
     "angle sum",
-    "\\angle",
-    "triangle"
+    "angles of triangle",
+    "interior angles of"
   ],
   "Problem-Solving: Triangle Inequality": [
     "triangle inequality",
@@ -546,9 +546,18 @@
   ],
   "Repeating Decimal": [
     "repeating decimal",
-    "\\overline{",
+    "0.\\overline",
     "repeats",
-    "0.\\overline"
+    "\\overline{0",
+    "\\overline{1",
+    "\\overline{2",
+    "\\overline{3",
+    "\\overline{4",
+    "\\overline{5",
+    "\\overline{6",
+    "\\overline{7",
+    "\\overline{8",
+    "\\overline{9"
   ],
   "3rd Degree Symmetric Sums": [
     "a^3+b^3+c^3",

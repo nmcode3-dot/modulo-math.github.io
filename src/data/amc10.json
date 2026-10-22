@@ -474,7 +474,7 @@
       "Pythagorean theorem",
       "Problem-Solving: Polygons",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -683,8 +683,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Ratios and Rates",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -704,10 +704,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10B_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Logic",
-      "Pythagorean theorem"
+      "Pythagorean theorem",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -1187,8 +1187,8 @@
     "topics": [
       "Ratios and Rates",
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Inscribed Circles"
+      "Problem-Solving: Inscribed Circles",
+      "Problem-Solving: Shaded Regions - Circles"
     ]
   },
   {
@@ -1272,9 +1272,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10A_Problems/Problem_17",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -1445,7 +1443,6 @@
     "topics": [
       "Introduction to Probability",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Repeating Decimal",
       "Problem-Solving: 3D Geometry"
     ]
   },
@@ -1594,8 +1591,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_10B_Problems/Problem_7",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -2251,10 +2247,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Linear Equations",
-      "Logic"
+      "Logic",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -2341,8 +2337,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_17",
     "topics": [
-      "Repeating Decimal",
       "Digit Problems",
+      "Repeating Decimal",
       "100x + 10y + z",
       "Digit Deduction"
     ]
@@ -2472,8 +2468,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2022_AMC_10A_Problems/Problem_23",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -2559,8 +2554,8 @@
     "topics": [
       "Logic",
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -2847,8 +2842,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -3039,8 +3033,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Logic",
-      "Problem-Solving: Triangle Angles"
+      "Logic"
     ]
   },
   {
@@ -3170,7 +3163,7 @@
       "Problem-Solving: Circle Basics",
       "Circle Tangents",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -3580,8 +3573,7 @@
     "topics": [
       "Introduction to Probability",
       "Area by Coordinates",
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -3949,8 +3941,8 @@
     "topics": [
       "Simplifying Radicals",
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
-      "Divisibility Reasoning"
+      "Divisibility Reasoning",
+      "Length Chasing"
     ]
   },
   {
@@ -4037,8 +4029,8 @@
     "topics": [
       "Simplifying Radicals",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
-      "Divisibility Reasoning"
+      "Divisibility Reasoning",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -4551,9 +4543,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10B_Problems/Problem_21",
     "topics": [
-      "Simplifying Radicals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -4827,9 +4817,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_12",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Centroid"
     ]
   },
   {
@@ -4955,7 +4944,7 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5021,7 +5010,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_23",
     "topics": [
       "Area by Coordinates",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Reflection Trick"
     ]
   },
@@ -5146,8 +5134,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_4",
     "topics": [
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -5232,7 +5219,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_8",
     "topics": [
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -5502,8 +5488,7 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -5712,7 +5697,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -5838,7 +5822,7 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -5944,8 +5928,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_18",
     "topics": [
-      "Repeating Decimal",
-      "Base Conversion"
+      "Base Conversion",
+      "Repeating Decimal"
     ]
   },
   {
@@ -6009,8 +5993,7 @@
     "topics": [
       "Circle Tangents",
       "3D Geometry",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -6192,7 +6175,6 @@
     "topics": [
       "Linear Equations",
       "Logic",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -6258,8 +6240,8 @@
     "topics": [
       "Problem-Solving: Weird Areas",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -6302,7 +6284,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -6427,9 +6408,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_16",
     "topics": [
       "Logic",
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -6513,7 +6492,7 @@
       "Problem-Solving: Circle Basics",
       "Circle Tangents",
       "Simplifying Radicals",
-      "Repeating Decimal"
+      "Circle Angles"
     ]
   },
   {
@@ -6798,7 +6777,7 @@
       "Similar Triangles",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -6880,7 +6859,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Length Chasing"
     ]
   },
@@ -6943,9 +6921,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_16",
     "topics": [
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -7094,8 +7070,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_23",
     "topics": [
       "Pythagorean theorem",
-      "Fractions and Percents",
-      "Problem-Solving: Triangle Angles"
+      "Fractions and Percents"
     ]
   },
   {
@@ -7115,10 +7090,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals"
+      "Problem-Solving: Quadrilaterals",
+      "Angle Bisector Theorem"
     ]
   },
   {
@@ -7347,7 +7322,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_10",
     "topics": [
       "3D Geometry",
-      "Repeating Decimal",
       "3D Volumes and Surface Areas"
     ]
   },
@@ -7391,7 +7365,7 @@
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Centroid",
       "Logic",
-      "Problem-Solving: Triangle Angles"
+      "Length Chasing"
     ]
   },
   {
@@ -7602,7 +7576,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_22",
     "topics": [
       "Introduction to Probability",
-      "Problem-Solving: Triangle Angles",
       "Geometric Probability"
     ]
   },
@@ -7645,8 +7618,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -7894,7 +7865,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_11",
     "topics": [
       "Length Chasing",
-      "Repeating Decimal",
       "3D Volumes and Surface Areas",
       "Problem-Solving: 3D Geometry"
     ]
@@ -8108,7 +8078,6 @@
     "topics": [
       "Pythagorean theorem",
       "Logic",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Inscribed Circles"
     ]
   },
@@ -8360,7 +8329,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_8",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Coordinate Bashing"
     ]
   },
@@ -8503,8 +8471,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_15",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -8591,8 +8557,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -8633,8 +8599,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Inscribed Circles"
     ]
   },
@@ -8656,9 +8620,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
-      "Length Chasing"
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -8700,7 +8663,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Problem-Solving: Centroid"
     ]
@@ -9043,7 +9005,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Reflection Trick"
     ]
   },
@@ -9111,8 +9072,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_19",
     "topics": [
       "GCD and LCM",
-      "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -9154,8 +9114,8 @@
     "topics": [
       "Circle Tangents",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Connecting the Centers"
+      "Problem-Solving: Connecting the Centers",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -9425,8 +9385,7 @@
     "topics": [
       "Length Chasing",
       "Graphing Functions",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -9447,7 +9406,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_10",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Length Chasing"
     ]
   },
@@ -9635,8 +9593,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_19",
     "topics": [
       "Logic",
-      "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -9721,8 +9678,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Polygons",
-      "Repeating Decimal",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -10115,8 +10072,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_17",
     "topics": [
       "Simplifying Radicals",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -10160,9 +10116,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_19",
     "topics": [
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -10522,7 +10478,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles"
+      "Geometry"
     ]
   },
   {
@@ -10650,10 +10606,10 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_19",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Circle Basics"
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Using Cyclic Quadrilaterals"
     ]
   },
   {
@@ -10963,8 +10919,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_9",
     "topics": [
-      "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles"
+      "Pythagorean theorem"
     ]
   },
   {
@@ -11050,7 +11005,6 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -11071,7 +11025,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -11115,8 +11068,8 @@
     "topics": [
       "Problem-Solving: Weird Areas",
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -11179,8 +11132,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10A_Problems/Problem_19",
     "topics": [
       "Length Chasing",
-      "3D Geometry",
-      "Repeating Decimal"
+      "3D Geometry"
     ]
   },
   {
@@ -11243,8 +11195,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -11569,7 +11520,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10B_Problems/Problem_13",
     "topics": [
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -11613,10 +11563,10 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10B_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Ratios and Rates",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -11740,8 +11690,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_10B_Problems/Problem_21",
     "topics": [
       "Length Chasing",
-      "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -11871,7 +11820,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_3",
     "topics": [
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -12057,9 +12005,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -12123,7 +12069,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_15",
     "topics": [
       "Mean Median Mode",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Triangle Inequality",
       "Length Chasing"
     ]
@@ -12145,7 +12090,6 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -12187,7 +12131,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -12295,9 +12238,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10A_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -12647,7 +12588,6 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -12668,7 +12608,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas",
       "Problem-Solving: Centroid"
     ]
@@ -12813,9 +12752,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_10B_Problems/Problem_23",
     "topics": [
-      "Length Chasing",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Length Chasing"
     ]
   },
   {
@@ -12940,8 +12877,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_4",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -13168,7 +13104,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_15",
     "topics": [
       "Area by Coordinates",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -13291,7 +13226,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10A_Problems/Problem_21",
     "topics": [
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -13625,7 +13559,7 @@
       "Angle Chasing",
       "Simplifying Radicals",
       "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles"
+      "Special triangles"
     ]
   },
   {
@@ -13774,7 +13708,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AMC_10B_Problems/Problem_19",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
       "Length Chasing",
       "Problem-Solving: Areas"
     ]
@@ -14272,7 +14205,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10A_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -14650,10 +14582,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10B_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Pythagorean theorem",
-      "Problem-Solving: Angles"
+      "Problem-Solving: Angles",
+      "Problem-Solving: Triangle Angles"
     ]
   },
   {
@@ -14693,7 +14625,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10B_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Length Chasing",
       "Problem-Solving: Areas"
     ]
@@ -14858,8 +14789,7 @@
     "topics": [
       "Problem-Solving: Angles",
       "Problem-Solving: Circle Basics",
-      "Angle Chasing",
-      "Repeating Decimal"
+      "Angle Chasing"
     ]
   },
   {
@@ -14881,8 +14811,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -14927,7 +14856,7 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -15035,9 +14964,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AMC_10B_Problems/Problem_25",
     "topics": [
       "Linear Inequalities",
-      "Problem-Solving: Triangle Angles",
       "Sequences and Series",
-      "Problem-Solving: Inscribed Circles"
+      "Problem-Solving: Inscribed Circles",
+      "Incenter"
     ]
   },
   {
@@ -15326,7 +15255,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_10A_Problems/Problem_14",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Isosceles Equilateral Triangles"
@@ -15369,8 +15297,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_10A_Problems/Problem_16",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "AIME-level Inequalities",
       "Angle Bisector Theorem"
     ]
@@ -15438,7 +15364,6 @@
     "topics": [
       "Fractions and Percents",
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -15688,8 +15613,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -15710,7 +15634,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_10B_Problems/Problem_7",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -15959,7 +15882,7 @@
       "Simplifying Radicals",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Length Chasing"
     ]
   },
   {
@@ -16298,7 +16221,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_10",
     "topics": [
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -16569,8 +16491,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_10A_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -16800,7 +16721,6 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles",
       "Length Chasing"
     ]
   },
@@ -16861,7 +16781,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_12",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -16945,7 +16864,7 @@
       "Circle Tangents",
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Using Cyclic Quadrilaterals"
     ]
   },
   {
@@ -16987,8 +16906,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -17030,7 +16947,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_20",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Pythagorean theorem",
       "Problem-Solving: Angles"
@@ -17074,7 +16990,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AMC_10B_Problems/Problem_22",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Polynomials",
       "3D Volumes and Surface Areas"
     ]
@@ -17495,7 +17410,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_10A_Problems/Problem_17",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -17518,7 +17432,6 @@
     "topics": [
       "Pythagorean theorem",
       "Length Chasing",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -17563,8 +17476,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_10A_Problems/Problem_20",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -17795,7 +17706,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_10B_Problems/Problem_6",
     "topics": [
       "Fractions and Percents",
-      "Repeating Decimal",
       "Length Chasing"
     ]
   },
@@ -17816,8 +17726,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_10B_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -17963,9 +17872,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_10B_Problems/Problem_14",
     "topics": [
       "Angle Chasing",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Angles",
-      "Special triangles"
+      "Special triangles",
+      "Problem-Solving: Coordinate Bashing"
     ]
   },
   {
@@ -18175,8 +18084,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -18354,8 +18262,7 @@
     "topics": [
       "Problem-Solving: Angles",
       "Angle Chasing",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -18461,9 +18368,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_10A_Problems/Problem_14",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Inscribed Circles",
-      "Problem-Solving: Using Cyclic Quadrilaterals"
+      "Problem-Solving: Using Cyclic Quadrilaterals",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -18549,7 +18456,7 @@
       "Pythagorean theorem",
       "Problem-Solving: Polygons",
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -18784,7 +18691,6 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Circle Basics"
     ]
   },
@@ -18847,8 +18753,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Polygons"
     ]
   },
   {
@@ -18911,7 +18816,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_10B_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -18934,7 +18838,6 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -19018,8 +18921,7 @@
     "topics": [
       "Angle Chasing",
       "Problem-Solving: Angles",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -19060,9 +18962,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_10B_Problems/Problem_17",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -19145,8 +19045,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_10B_Problems/Problem_21",
     "topics": [
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Inscribed Circles",
       "Length Chasing"
     ]
@@ -19556,8 +19454,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Circle Tangents",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -19578,7 +19475,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_17",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -19955,7 +19851,6 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_10B_Problems/Problem_10",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Triangle Inequality",
       "Length Chasing"
     ]
@@ -20230,8 +20125,8 @@
     "topics": [
       "Problem-Solving: Weird Areas",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Shaded Regions - Circles",
+      "Problem-Solving: Slice and Add the Shaded Region"
     ]
   },
   {
@@ -20630,7 +20525,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_10A_Problems/Problem_17",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Repeating Decimal",
       "Sequences and Series"
     ]
   },
@@ -20756,8 +20650,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Ratios and Rates",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -20799,8 +20693,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -21008,8 +20902,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_10B_Problems/Problem_10",
     "topics": [
-      "Logic",
-      "Problem-Solving: Triangle Angles"
+      "Logic"
     ]
   },
   {
@@ -21092,8 +20985,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_10B_Problems/Problem_14",
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -21281,7 +21172,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_10B_Problems/Problem_23",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -21505,10 +21395,8 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_10A_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
-      "Problem-Solving: Angles",
-      "Repeating Decimal"
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -21739,8 +21627,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -21785,8 +21673,7 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Length Chasing",
-      "Circle Tangents",
-      "Repeating Decimal"
+      "Circle Tangents"
     ]
   },
   {
@@ -22222,8 +22109,8 @@
     "topics": [
       "Ratios and Rates",
       "Pythagorean theorem",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
@@ -22263,7 +22150,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_10B_Problems/Problem_20",
     "topics": [
-      "Problem-Solving: Triangle Angles"
+      "Geometry"
     ]
   },
   {
@@ -22304,7 +22191,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_10B_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Connecting the Centers"
     ]
   },
@@ -22348,7 +22234,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_10B_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
       "Angle Bisector Theorem"
     ]
   },
@@ -22721,7 +22606,6 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -22851,8 +22735,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_10A_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -23287,7 +23170,7 @@
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Weird Areas",
       "Logic",
-      "Repeating Decimal"
+      "Problem-Solving: Connecting the Centers"
     ]
   },
   {
@@ -23308,8 +23191,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_10B_Problems/Problem_20",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
-      "Repeating Decimal",
       "Problem-Solving: Areas"
     ]
   },
@@ -23685,7 +23566,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_13",
     "topics": [
-      "Problem-Solving: Triangle Angles"
+      "Geometry"
     ]
   },
   {
@@ -23828,8 +23709,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_20",
     "topics": [
-      "Logic",
-      "Repeating Decimal"
+      "Logic"
     ]
   },
   {
@@ -23889,7 +23769,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_23",
     "topics": [
-      "Problem-Solving: Triangle Angles"
+      "Geometry"
     ]
   },
   {
@@ -24273,7 +24153,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10B_Problems/Problem_17",
     "topics": [
       "Problem-Solving: Polygons",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -24377,7 +24256,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10B_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Angles",
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing"
     ]
   },
@@ -24520,8 +24398,7 @@
     "answer": "E",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Circle Basics"
     ]
   },
   {
@@ -24931,8 +24808,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_24",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Repeating Decimal"
+      "Problem-Solving: Quadrilaterals"
     ]
   },
   {
@@ -25055,7 +24931,6 @@
     "topics": [
       "Length Chasing",
       "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -25097,7 +24972,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Quadrilaterals"
@@ -25156,7 +25030,6 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_10",
     "topics": [
       "Absolute Value Tricks",
-      "Problem-Solving: Triangle Angles",
       "Problem-Solving: Areas"
     ]
   },
@@ -25340,8 +25213,8 @@
     "topics": [
       "Pythagorean theorem",
       "Ratios and Rates",
-      "Problem-Solving: Triangle Angles",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems"
+      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
+      "Problem-Solving: Areas"
     ]
   },
   {
