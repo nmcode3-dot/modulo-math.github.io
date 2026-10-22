@@ -134,7 +134,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
           </select>
         </div>
         <div className="mt-3 flex min-w-0 items-center gap-2">
-          <Button variant="ghost" size="icon" aria-label="Scroll to easier problems" onClick={() => rail.current?.scrollBy({ left: -400, behavior: "smooth" })}><ChevronLeft /></Button>
+          <Button variant="ghost" size="icon" aria-label="Scroll to easier problems" onClick={() => rail.current?.scrollBy({ left: -railStep(), behavior: "smooth" })}><ChevronLeft /></Button>
           <div ref={rail} className="problem-tile-rail" aria-label="Problems ordered easiest to hardest">
             {list.map(p => (
               <Button key={p.id} variant="secondary" disabled={!ready} aria-pressed={active?.problem.id === p.id} onClick={() => select(p)} className={`problem-tile ${active?.problem.id === p.id ? "problem-tile-active" : ""} ${progress[p.id]?.status === "solved" ? "problem-tile-solved" : progress[p.id]?.status === "failed" ? "problem-tile-failed" : ""}`}>
@@ -145,7 +145,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
             ))}
             {list.length === 0 && <p className="py-3 text-sm text-muted-foreground">No problems in this topic for this contest.</p>}
           </div>
-          <Button variant="ghost" size="icon" aria-label="Scroll to harder problems" onClick={() => rail.current?.scrollBy({ left: 400, behavior: "smooth" })}><ChevronRight /></Button>
+          <Button variant="ghost" size="icon" aria-label="Scroll to harder problems" onClick={() => rail.current?.scrollBy({ left: railStep(), behavior: "smooth" })}><ChevronRight /></Button>
         </div>
       </section>
 
