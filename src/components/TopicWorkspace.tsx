@@ -48,10 +48,10 @@ export function TopicWorkspace({ topic }: { topic: string }) {
   }, [conversation.activeId]);
 
   function railStep(): number {
-    const tile = rail.current?.firstElementChild as HTMLElement | null;
-    const style = tile ? getComputedStyle(tile) : null;
-    if (!tile || !style) return 348;
-    return (tile.offsetWidth + parseFloat(style.marginRight) + parseFloat(style.columnGap || style.gap)) * 3;
+    const railElement = rail.current;
+    const tile = railElement?.firstElementChild as HTMLElement | null;
+    if (!railElement || !tile) return 348;
+    return (tile.offsetWidth + parseFloat(getComputedStyle(railElement).columnGap)) * 3;
   }
 
   function scrollQuestion(id: string, bottom = false) {

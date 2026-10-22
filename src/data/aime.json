@@ -10780,5 +10780,159 @@
       "Pythagorean theorem",
       "Floor"
     ]
+  },
+  {
+    "id": "aime-1994-1",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 1,
+    "statementLatex": "The increasing sequence $3, 15, 24, 48, \\ldots\\,$ consists of those positive multiples of 3 that are one less than a perfect square. What is the remainder when the 1994th term of the sequence is divided by 1000?",
+    "solutionLatex": "One less than a perfect square can be represented by $n^2 - 1 = (n+1)(n-1)$ . Either $n+1$ or $n-1$ must be divisible by 3. This is true when $n \\equiv -1,\\ 1 \\equiv 2,\\ 1 \\pmod{3}$ . Since 1994 is even, $n$ must be congruent to $1 \\pmod{3}$ . It will be the $\\frac{1994}{2} = 997$ th such term, so $n = 4 + (997-1) \\cdot 3 = 2992$ . The value of $n^2 - 1 = 2992^2 - 1 \\pmod{1000}$ is $\\boxed{063}$ .\n\n~minor edit by Yiyj1",
+    "choices": [],
+    "answer": "063",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_1",
+    "topics": [
+      "Modular Arithmetic",
+      "Problem-Solving: Divisibility and Digits"
+    ]
+  },
+  {
+    "id": "aime-1994-4",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Find the positive integer $n\\,$ for which\n \\[\\lfloor\\log_2{1}\\rfloor+\\lfloor\\log_2{2}\\rfloor+\\lfloor\\log_2{3}\\rfloor+\\cdots+\\lfloor\\log_2{n}\\rfloor=1994\\]\n(For real $x\\,$ , $\\lfloor x\\rfloor\\,$ is the greatest integer $\\le x.\\,$ )",
+    "solutionLatex": "Note that if $2^x \\le a<2^{x+1}$ for some $x\\in\\mathbb{Z}$ , then $\\lfloor\\log_2{a}\\rfloor=\\log_2{2^{x}}=x$ .\n\nThus, there are $2^{x+1}-2^{x}=2^{x}$ integers $a$ such that $\\lfloor\\log_2{a}\\rfloor=x$ . So the sum of $\\lfloor\\log_2{a}\\rfloor$ for all such $a$ is $x\\cdot2^x$ .\n\nLet $k$ be the integer such that $2^k \\le n<2^{k+1}$ . So for each integer $j, there are $2^j$ integers $a\\le n$ such that $\\lfloor\\log_2{a}\\rfloor=j$ , and there are $n-2^k+1$ such integers such that $\\lfloor\\log_2{a}\\rfloor=k$ .\n\nTherefore, $\\lfloor\\log_2{1}\\rfloor+\\lfloor\\log_2{2}\\rfloor+\\lfloor\\log_2{3}\\rfloor+\\cdots+\\lfloor\\log_2{n}\\rfloor= \\sum_{j=0}^{k-1}(j\\cdot2^j) + k(n-2^k+1) = 1994$ .\n\nThrough computation: $\\sum_{j=0}^{7}(j\\cdot2^j)=1538<1994$ and $\\sum_{j=0}^{8}(j\\cdot2^j)=3586>1994$ . Thus, $k=8$ .\n\nSo, $\\sum_{j=0}^{k-1}(j\\cdot2^j) + k(n-2^k+1) = 1538+8(n-2^8+1)=1994 \\Rightarrow n = \\boxed{312}$ .\n\nAlternatively, one could notice this is an arithmetico-geometric series and avoid a lot of computation.",
+    "choices": [],
+    "answer": "312",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_4",
+    "topics": [
+      "Floor",
+      "Arithmetic/Geometric Sequences",
+      "Floor Functions",
+      "Sequences and Series"
+    ]
+  },
+  {
+    "id": "aime-1994-6",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 6,
+    "statementLatex": "The graphs of the equations\n\n$y=k, \\qquad y=\\sqrt{3}x+2k, \\qquad y=-\\sqrt{3}x+2k,$\n\nare drawn in the coordinate plane for $k=-10,-9,-8,\\ldots,9,10.\\,$ These 63 lines cut part of the plane into equilateral triangles of side length $\\tfrac{2}{\\sqrt{3}}.\\,$ How many such triangles are formed?",
+    "solutionLatex": "We note that the lines partition the hexagon of the six extremal lines into disjoint unit regular triangles, and forms a series of unit regular triangles along the edge of the hexagon.\n\n[[img:https://latex.artofproblemsolving.com/f/9/3/f93aa9a41e77a836e8c10cc309749178ef6c5868.png]]\n\nSolving the above equations for $k=\\pm 10$ , we see that the hexagon in question is regular, with side length $\\frac{20}{\\sqrt{3}}$ . Then, the number of triangles within the hexagon is simply the ratio of the area of the hexagon to the area of a regular triangle. Since the ratio of the area of two similar figures is the square of the ratio of their side lengths, we see that the ratio of the area of one of the six equilateral triangles composing the regular hexagon to the area of a unit regular triangle is just $\\left(\\frac{20/\\sqrt{3}}{2/\\sqrt{3}}\\right)^2 = 100$ . Thus, the total number of unit triangles is $6 \\times 100 = 600$ .\n\nThere are $6 \\cdot 10$ equilateral triangles formed by lines on the edges of the hexagon. Thus, our answer is $600+60 = \\boxed{660}$ .\n\nThere are three types of lines: horizontal, upward-slanting diagonal, and downward-slanting diagonal. There are $21$ of each type of line, and a unit equilateral triangle is determined by exactly one of each type of line. Given an upward-slanting diagonal and a downward-slanting diagonal, they determine exactly two unit equilateral triangles as shown below.\n[[img:https://latex.artofproblemsolving.com/2/4/b/24bc8e24293ee90f2294deb2e879f0164feed207.png]]\nTherefore, if all horizontal lines are drawn, there will be a total of $2\\cdot 21^2=882$ unit equilateral triangles. Of course, we only draw $21$ horizontal lines, so we are overcounting the triangles that are caused by the undrawn horizontal lines. In the below diagram, we draw the diagonal lines and the highest and lowest horizontal lines.\n[[img:https://latex.artofproblemsolving.com/4/e/c/4ece10ed6c17f2fff90d2fbdd0cf682aa8bfc000.png]]\n\nWe see that the lines $y=-21,-20,\\dots, -11$ and $y=11,12,\\dots,21$ would complete several of the $882$ unit equilateral triangles. In fact, we can see that the lines $y=-21,-20,\\dots,-11$ complete $1,2,(1+3),(2+4),(3+5),(4+6),\\dots,(9+11)$ triangles, or $111$ triangles. The positive horizontal lines complete the same number of triangles, hence the answer is $882-2\\cdot 111=\\boxed{660}$ .\n\nPicturing the diagram in your head should give you an illustration similar to the one above. The distance from parallel sides of the center hexagon is 20 units, and by extending horizontal lines to the sides of the hexagon. This shows that for every side of the hexagon there are 10 spaces. Therefore the side length of the biggest triangle (imagine one of the overlapping triangles in the Star of David) is 30. The total number of triangles in the hexagon can be found by finding the number of triangles in the extended triangle and subtracting the 3 corner triangles. This gives us $30^2 - 10^2 - 10^2- 10^2 = 600$ . That is the number of triangles in the hexagon. The remaining triangles form in groups of 10 on the exterior of each side. $600 + 6 * 10 = \\boxed{660}$ .\n\n-jackshi2006",
+    "choices": [],
+    "answer": "660",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_6",
+    "topics": [
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Length Chasing",
+      "Area by Coordinates",
+      "Graphing Functions"
+    ]
+  },
+  {
+    "id": "aime-1994-7",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 7,
+    "statementLatex": "For certain ordered pairs $(a,b)\\,$ of real numbers, the system of equations\n\n$ax+by=1\\,$\n\n$x^2+y^2=50\\,$\n\nhas at least one solution, and each solution is an ordered pair $(x,y)\\,$ of integers. How many such ordered pairs $(a,b)\\,$ are there?",
+    "solutionLatex": "The equation $x^2+y^2=50$ is that of a circle of radius $\\sqrt{50}$ , centered at the origin. By testing integers until the left side becomes too big, we see that the lattice points on this circle are $(\\pm1,\\pm7)$ , $(\\pm5,\\pm5)$ , and $(\\pm7,\\pm1)$ where the signs are all independent of each other, for a total of $3\\cdot 2\\cdot 2=12$ lattice points. They are indicated by the blue dots below.\n\n[[img:https://latex.artofproblemsolving.com/d/9/c/d9caa9b19e9237090cb4dc7341af417743e2bdd5.png]]\n\nSince $(x,y)=(0,0)$ yields $a\\cdot 0+b\\cdot 0=0 \\neq 1$ , we know that $ax+by=1$ is the equation of a line that does not pass through the origin. So, we are looking for the number of lines which pass through at least one of the $12$ lattice points on the circle, but do not pass through the origin or through any non-lattice point on the circle. An example is the green line above. It is straightforward to show that a line passes through the origin precisely when there exist two opposite points $(p,q)$ and $(-p,-q)$ through which it passes. And example is the red line above.\n\nThere are $\\binom{12}{2}=66$ ways to pick two distinct lattice points, and subsequently $66$ distinct lines which pass through two distinct lattice points on the circle. Then we subtract the lines which pass through the origin by noting that the lattice points on the circle can be grouped into opposite pairs $(p,q)$ and $(-p,-q)$ , for a total of $\\frac{12}{2}=6$ lines. Finally, we add the $12$ unique tangent lines to the circle at each of the lattice points.\n\nTherefore, our final count of distinct lines which pass through one or two of the lattice points on the circle, but do not pass through the origin, is \\[66-6+12=\\boxed{72}.\\]",
+    "choices": [],
+    "answer": "072",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_7",
+    "topics": [
+      "Complementary Counting",
+      "Linear Inequalities",
+      "System of Equations",
+      "Problem-Solving: Circle Basics"
+    ]
+  },
+  {
+    "id": "aime-1994-8",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 8,
+    "statementLatex": "The points $(0,0)\\,$ , $(a,11)\\,$ , and $(b,37)\\,$ are the vertices of an equilateral triangle. Find the value of $ab\\,$ .",
+    "solutionLatex": "Consider the points on the complex plane. The point $b+37i$ is then a rotation of $60$ degrees of $a+11i$ about the origin, so:\n\n\\[(a+11i)\\left(\\mathrm{cis}\\,60^{\\circ}\\right) = (a+11i)\\left(\\frac 12+\\frac{\\sqrt{3}i}2\\right)=b+37i.\\]\n\nEquating the real and imaginary parts, we have:\n\n$\\begin{align*}b&=\\frac{a}{2}-\\frac{11\\sqrt{3}}{2}\\\\37&=\\frac{11}{2}+\\frac{a\\sqrt{3}}{2} \\end{align*}$\n\nSolving this system, we find that $a=21\\sqrt{3}, b=5\\sqrt{3}$ . Thus, the answer is $\\boxed{315}$ .\n\nNote: There is another solution where the point $b+37i$ is a rotation of $-60$ degrees of $a+11i$ . However, this triangle is just a reflection of the first triangle by the $y$ -axis, and the signs of $a$ and $b$ are flipped. The product $ab$ is unchanged.\n\nUsing the Pythagorean theorem with these beastly numbers doesn't seem promising. How about properties of equilateral triangles? $\\sqrt{3}$ and perpendiculars inspires this solution:\n\nFirst, drop a perpendicular from $O$ to $AB$ . Call this midpoint of $AB M$ . Thus, $M=\\left(\\frac{a+b}{2}, 24\\right)$ . The vector from $O$ to $M$ is $\\left[\\frac{a+b}{2}, 24\\right]$ . Meanwhile from point $M$ we can use a vector with $\\frac{\\sqrt{3}}{3}$ the distance; we have to switch the $x$ and $y$ and our displacement is $\\left[8\\sqrt{3}, \\frac{(a+b)\\sqrt{3}}{6}\\right]$ . (Do you see why we switched $x$ and $y$ due to the rotation of 90 degrees?)\n\nWe see this displacement from $M$ to $A$ is $\\left[\\frac{a-b}{2}, 13\\right]$ as well. Equating the two vectors, we get $a+b=26\\sqrt{3}$ and $a-b=16\\sqrt{3}$ . Therefore, $a=21\\sqrt{3}$ and $b=5\\sqrt{3}$ . And the answer is $\\boxed{315}$ .\n\nNote: This solution was also present in Titu Andreescu and Zuming Feng's \"103 Trigonometry Problems\".\n\nPlot this equilateral triangle on the complex plane.\nTranslate the equilateral triangle so that its centroid is located at the origin. (The centroid can be found by taking the average of the three vertices of the triangle, which gives $\\left(\\frac{a+b}{3}, 16i\\right)$ . The new coordinates of the equilateral triangle are $\\left(-\\frac{a+b}{3}-16i\\right), \\left(a-\\frac{a+b}{3}-5i\\right), \\left(b-\\frac{a+b}{3}+21i\\right)$ . These three vertices are solutions of a cubic polynomial of form $x^3 + C$ . By Vieta's Formulas, the sum of the paired roots of the cubic polynomial are zero. (Or for the three roots $r_1, r_2,$ and $r_3,$ $\\, r_1r_2 + r_2r_3 + r_3r_1 = 0$ .) The vertices of the equilateral triangle represent the roots of a polynomial, so the vertices can be plugged into the above equation. Because both the real and complex components of the equation have to sum to zero, you really have two equations. Multiply out the equation given by Vieta's Formulas and isolate the ones with imaginary components. Simplify that equation, and that gives the equation $5a = 21b.$\nNow use the equation with only real parts. This should give you a quadratic $a^2 - ab + b^2 = 1083$ . Use your previously obtained equation to plug in for $a$ and solve for $b$ , which should yield $5\\sqrt{3}$ . $a$ is then $\\frac{21}{5}\\sqrt{3}$ . Multiplying $a$ and $b$ yields $\\boxed{315}$ .\n\nJust using the Pythagorean Theorem, we get that $a^2 + 11^2 = (b-a)^2 + 26^2 = b^2 + 37^2$ .\n\n$a^2 + 121 = b^2 + 1369 \\longrightarrow a^2 = b^2 + 1248$ . Expanding the second and subtracting the first equation from it we get $b^2 = 2ab - 555$ .\n\n$b^2 = 2ab - 555 \\longrightarrow a^2 = 2ab + 693$ .\n\nWe have $b^2 + 1248 = 2b\\sqrt{b^2+1248} + 693$ .\n\nMoving the square root to one side and non square roots to the other we eventually get $b^4 + 1110b^2 + 308025 = 4b^4 + 4992b^2$ .\n\n$3b^4 + 3882b^2 - 308025 = 0$ .\n\nThis factors to $(3b^2-225)(b^2+1369)$ , so $3b^2 = 225, b = 5\\sqrt 3$ .\n\nPlugging it back in, we find that a = $\\sqrt{1323}$ which is $21\\sqrt3$ , so the product $ab$ is $\\boxed {315}$ .\n\n~Arcticturn",
+    "choices": [],
+    "answer": "315",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_8",
+    "topics": [
+      "Complex Numbers",
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Problem-Solving: Triangle Angles",
+      "Polynomials"
+    ]
+  },
+  {
+    "id": "aime-1994-10",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 10,
+    "statementLatex": "In triangle $ABC,\\,$ angle $C$ is a right angle and the altitude from $C\\,$ meets $\\overline{AB}\\,$ at $D.\\,$ The lengths of the sides of $\\triangle ABC\\,$ are integers, $BD=29^3,\\,$ and $\\cos B=m/n\\,$ , where $m\\,$ and $n\\,$ are relatively prime positive integers. Find $m+n.\\,$",
+    "solutionLatex": "Since $\\triangle ABC \\sim \\triangle CBD$ , we have $\\frac{BC}{AB} = \\frac{29^3}{BC} \\Longrightarrow BC^2 = 29^3 AB$ . It follows that $29^2 | BC$ and $29 | AB$ , so $BC$ and $AB$ are in the form $29^2 x$ and $29 x^2$ , respectively, where $x$ is an integer.\n\nBy the Pythagorean Theorem, we find that $AC^2 + BC^2 = AB^2 \\Longrightarrow (29^2x)^2 + AC^2 = (29 x^2)^2$ , so $29x | AC$ . Letting $y = AC / 29x$ , we obtain after dividing through by $(29x)^2$ , $29^2 = x^2 - y^2 = (x-y)(x+y)$ . As $x,y \\in \\mathbb{Z}$ , the pairs of factors of $29^2$ are $(1,29^2)(29,29)$ ; clearly $y = \\frac{AC}{29x} \\neq 0$ , so $x-y = 1, x+y= 29^2$ . Then, $x = \\frac{1+29^2}{2} = 421$ .\n\nThus, $\\cos B = \\frac{BC}{AB} = \\frac{29^2 x}{29x^2} = \\frac{29}{421}$ , and $m+n = \\boxed{450}$ .",
+    "choices": [],
+    "answer": "450",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_10",
+    "topics": [
+      "Problem-Solving: Triangle Angles",
+      "Trigonometry",
+      "Pythagorean theorem",
+      "3rd Degree Symmetric Sums"
+    ]
+  },
+  {
+    "id": "aime-1994-11",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 11,
+    "statementLatex": "Ninety-four bricks, each measuring $4''\\times10''\\times19'',$ are to be stacked one on top of another to form a tower 94 bricks tall. Each brick can be oriented so it contributes $4''\\,$ or $10''\\,$ or $19''\\,$ to the total height of the tower. How many different tower heights can be achieved using all of the ninety-four bricks?",
+    "solutionLatex": "We have the smallest stack, which has a height of $94 \\times 4$ inches. Now when we change the height of one of the bricks, we either add $0$ inches, $6$ inches, or $15$ inches to the height. Now all we need to do is to find the different change values we can get from $94$ $0$ 's, $6$ 's, and $15$ 's. Because $0$ , $6$ , and $15$ are all multiples of $3$ , the change will always be a multiple of $3$ , so we just need to find the number of changes we can get from $0$ 's, $2$ 's, and $5$ 's.\n\nFrom here, we count what we can get:\n\n\\[0, 2 = 2, 4 = 2+2, 5 = 5, 6 = 2+2+2, 7 = 5+2, 8 = 2+2+2+2, 9 = 5+2+2, \\ldots\\]\n\nIt seems we can get every integer greater or equal to four; we can easily deduce this by considering parity or using the Chicken McNugget Theorem, which says that the greatest number that cannot be expressed in the form of $2m + 5n$ for $m,n$ being positive integers is $5 \\times 2 - 5 - 2=3$ .\n\nBut we also have a maximum change ( $94 \\times 5$ ), so that will have to stop somewhere. To find the gaps, we can work backwards as well. From the maximum change, we can subtract either $0$ 's, $3$ 's, or $5$ 's. The maximum we can't get is $5 \\times 3-5-3=7$ , so the numbers $94 \\times 5-8$ and below, except $3$ and $1$ , work. Now there might be ones that we haven't counted yet, so we check all numbers between $94 \\times 5-8$ and $94 \\times 5$ . $94 \\times 5-7$ obviously doesn't work, $94 \\times 5-6$ does since 6 is a multiple of 3, $94 \\times 5-5$ does because it is a multiple of $5$ (and $3$ ), $94 \\times 5-4$ doesn't since $4$ is not divisible by $5$ or $3$ , $94 \\times 5-3$ does since $3=3$ , and $94 \\times 5-2$ and $94 \\times 5-1$ don't, and $94 \\times 5$ does.\n\nThus the numbers $0$ , $2$ , $4$ all the way to $94 \\times 5-8$ , $94 \\times 5-6$ , $94 \\times 5-5$ , $94 \\times 5-3$ , and $94\\times 5$ work. That's $2+(94 \\times 5 - 8 - 4 +1)+4=\\boxed{465}$ numbers. That's the number of changes you can make to a stack of bricks with dimensions $4 \\times 10 \\times 19$ , including not changing it at all.\n\nUsing bricks of dimensions $4''\\times10''\\times19''$ is comparable to using bricks of dimensions $0''\\times6''\\times15''$ which is comparable to using bricks of dimensions $0''\\times2''\\times5''$ . Using 5 bricks of height $2''$ can be replaced by using 2 bricks of height $5''$ and 3 bricks of height $0''$ .\n\nIt follows that all tower heights can be made by using 4 or fewer bricks of height $2''$ . There are $95+94+93+92+91=465$ ways to build a tower using 4 or fewer bricks of height $2''$ . Taking the heights $\\mod 5$ , we see that towers using a different number of bricks of height $2''$ have unequal heights. Thus, all of the $\\boxed{465}$ tower heights are different.",
+    "choices": [],
+    "answer": "465",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_11",
+    "topics": [
+      "Chicken McNugget"
+    ]
+  },
+  {
+    "id": "aime-1994-13",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 13,
+    "statementLatex": "The equation\n\n$x^{10}+(13x-1)^{10}=0\\,$\n\nhas 10 complex roots $r_1, \\overline{r_1}, r_2, \\overline{r_2}, r_3, \\overline{r_3}, r_4, \\overline{r_4}, r_5, \\overline{r_5},\\,$ where the bar denotes complex conjugation. Find the value of\n\n$\\frac 1{r_1\\overline{r_1}}+\\frac 1{r_2\\overline{r_2}}+\\frac 1{r_3\\overline{r_3}}+\\frac 1{r_4\\overline{r_4}}+\\frac 1{r_5\\overline{r_5}}.$",
+    "solutionLatex": "Let $t = 1/x$ . After multiplying the equation by $t^{10}$ , $1 + (13 - t)^{10} = 0\\Rightarrow (13 - t)^{10} = - 1$ .\n\nUsing DeMoivre, $13 - t = \\text{cis}\\left(\\frac {(2k + 1)\\pi}{10}\\right)$ where $k$ is an integer between $0$ and $9$ .\n\n$t = 13 - \\text{cis}\\left(\\frac {(2k + 1)\\pi}{10}\\right) \\Rightarrow \\bar{t} = 13 - \\text{cis}\\left(-\\frac {(2k + 1)\\pi}{10}\\right)$ .\n\nSince $\\text{cis}(\\theta) + \\text{cis}(-\\theta) = 2\\cos(\\theta)$ , $t\\bar{t} = 170 - 26\\cos \\left(\\frac {(2k + 1)\\pi}{10}\\right)$ after expanding. Here $k$ ranges from 0 to 4 because two angles which sum to $2\\pi$ are involved in the product.\n\nThe expression to find is $\\sum t\\bar{t} = 850 - 26\\sum_{k = 0}^4 \\cos \\frac {(2k + 1)\\pi}{10}$ .\n\nBut $\\cos \\frac {\\pi}{10} + \\cos \\frac {9\\pi}{10} = \\cos \\frac {3\\pi}{10} + \\cos \\frac {7\\pi}{10} = \\cos \\frac {\\pi}{2} = 0$ so the sum is $\\boxed{850}$ .",
+    "choices": [],
+    "answer": "850",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_13",
+    "topics": [
+      "Complex Numbers",
+      "Polynomials",
+      "Problem-Solving: Polynomial Root Tricks"
+    ]
+  },
+  {
+    "id": "aime-1994-14",
+    "contest": "AIME",
+    "year": 1994,
+    "version": "",
+    "number": 14,
+    "statementLatex": "A beam of light strikes $\\overline{BC}\\,$ at point $C\\,$ with angle of incidence $\\alpha=19.94^\\circ\\,$ and reflects with an equal angle of reflection as shown. The light beam continues its path, reflecting off line segments $\\overline{AB}\\,$ and $\\overline{BC}\\,$ according to the rule: angle of incidence equals angle of reflection. Given that $\\beta=\\alpha/10=1.994^\\circ\\,$ and $AB=BC,\\,$ determine the number of times the light beam will bounce off the two line segments. Include the first reflection at $C\\,$ in your count.\n\n$AIME 1994 Problem 14.png$",
+    "solutionLatex": "At each point of reflection, we pretend instead that the light continues to travel straight.\n[[img:https://latex.artofproblemsolving.com/e/7/1/e718cb1b4bf8cc233b6061a4715b60c62a4b55ff.png]]\nNote that after $k$ reflections (excluding the first one at $C$ ) the extended line will form an angle $k \\beta$ at point $B$ . For the $k$ th reflection to be just inside or at point $B$ , we must have $k\\beta \\le 180 - 2\\alpha \\Longrightarrow k \\le \\frac{180 - 2\\alpha}{\\beta} = 70.27$ . Thus, our answer is, including the first intersection, $\\left\\lfloor \\frac{180 - 2\\alpha}{\\beta} \\right\\rfloor + 1 = \\boxed{071}$ .",
+    "choices": [],
+    "answer": "071",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1994_AIME_Problems/Problem_14",
+    "topics": [
+      "Symmetry",
+      "Problem-Solving: Reflection Trick"
+    ]
   }
 ]
