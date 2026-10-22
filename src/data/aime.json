@@ -5303,7 +5303,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_12",
     "topics": [
       "Combinations",
-      "Mean Median Mode"
+      "Mean Median Mode",
+      "Expected Value"
     ]
   },
   {
@@ -12330,6 +12331,24 @@
       "Simplifying Radicals",
       "Pythagorean theorem",
       "Problem-Solving: Areas"
+    ]
+  },
+  {
+    "id": "aimeii-2016-4",
+    "contest": "AIME",
+    "year": 2016,
+    "version": "II",
+    "number": 4,
+    "statementLatex": "An $a \\times b \\times c$ rectangular box is built from $a \\cdot b \\cdot c$ unit cubes. Each unit cube is colored red, green, or yellow. Each of the $a$ layers of size $1 \\times b \\times c$ parallel to the $(b \\times c)$ faces of the box contains exactly $9$ red cubes, exactly $12$ green cubes, and some yellow cubes. Each of the $b$ layers of size $a \\times 1 \\times c$ parallel to the $(a \\times c)$ faces of the box contains exactly $20$ green cubes, exactly $25$ yellow cubes, and some red cubes. Find the smallest possible volume of the box.",
+    "solutionLatex": "By counting the number of green cubes $2$ different ways, we have $12a=20b$ , or $a=\\dfrac{5}{3} b$ . Notice that there are only $3$ possible colors for unit cubes, so for each of the $1 \\times b \\times c$ layers, there are $bc-21$ yellow cubes, and similarly there are $ac-45$ red cubes in each of the $1 \\times a \\times c$ layers. Therefore, we have $a(bc-21)=25b$ and $b(ac-45)=9a$ . We check a few small values of $a,b$ and solve for $c$ , checking $(a,b)=(5,3)$ gives $c=12$ with a volume of $180$ , $(a,b)=(10,6)$ gives $c=6$ with a volume of $360$ , and $(a,b)=(15,9)$ gives $c=4$ , with a volume of $540$ . Any higher $(a,b)$ will $ab>180$ , so therefore, the minimum volume is $\\boxed{180}$ .",
+    "choices": [],
+    "answer": "180",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_4",
+    "topics": [
+      "3D Geometry",
+      "3D Volumes and Surface Areas",
+      "Problem-Solving: 3D Geometry",
+      "Variables"
     ]
   }
 ]
