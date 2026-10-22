@@ -10934,5 +10934,935 @@
       "Symmetry",
       "Problem-Solving: Reflection Trick"
     ]
+  },
+  {
+    "id": "aime-1993-1",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 1,
+    "statementLatex": "How many even integers between 4000 and 7000 have four different digits?",
+    "solutionLatex": "The thousands digit is $\\in \\{4,5,6\\}$ .\n\nCase $1$ : Thousands digit is even\n\n$4, 6$ , two possibilities, then there are only $\\frac{10}{2} - 1 = 4$ possibilities for the units digit. This leaves $8$ possible digits for the hundreds and $7$ for the tens places, yielding a total of $2 \\cdot 8 \\cdot 7 \\cdot 4 = 448$ .\n\nCase $2$ : Thousands digit is odd\n\n$5$ , one possibility, then there are $5$ choices for the units digit, with $8$ digits for the hundreds and $7$ for the tens place. This gives $1 \\cdot 8 \\cdot 7 \\cdot 5= 280$ possibilities.\n\nTogether, the solution is $448 + 280 = \\boxed{728}$ .",
+    "choices": [],
+    "answer": "728",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_1",
+    "topics": [
+      "Digit Problems",
+      "Finding the Last Digit",
+      "100x + 10y + z",
+      "Casework"
+    ]
+  },
+  {
+    "id": "aime-1993-4",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 4,
+    "statementLatex": "How many ordered four-tuples of integers $(a,b,c,d)\\,$ with $0 < a < b < c < d < 500\\,$ satisfy $a + d = b + c\\,$ and $bc - ad = 93\\,$ ?",
+    "solutionLatex": "Let $k = a + d = b + c$ so $d = k-a, b=k-c$ . It follows that $(k-c)c - a(k-a) = (a-c)(a+c-k) = (c-a)(d-c) = 93$ . Hence $(c - a,d - c) = (1,93),(3,31),(31,3),(93,1)$ .\n\nSolve them in terms of $c$ to get\n $(a,b,c,d) = (c - 93,c - 92,c,c + 1),$ $(c - 31,c - 28,c,c + 3),$ $(c - 1,c + 92,c,c + 93),$ $(c - 3,c + 28,c,c + 31)$ . The last two solutions don't follow $a < b < c < d$ , so we only need to consider the first two solutions.\n\nThe first solution gives us $c - 93\\geq 1$ and $c + 1\\leq 499$ $\\implies 94\\leq c\\leq 498$ , and the second one gives us $32\\leq c\\leq 496$ .\n\nSo the total number of such quadruples is $405 + 465 = \\boxed{870}$ .\n\nLet $b = a + m$ and $c = a + m + n$ . From $a + d = b + c$ , $d = b + c - a = a + 2m + n$ .\n\nSubstituting $b = a + m$ , $c = a + m + n$ , and $d = b + c - a = a + 2m + n$ into $bc - ad = 93$ ,\n \\[bc - ad = (a + m)(a + m + n) - a(a + 2m + n) = m(m + n). = 93 = 3(31)\\]\nHence, $(m,n) = (1,92)$ or $(3,28)$ .\n\nFor $(m,n) = (1,92)$ , we know that $0 < a < a + 1 < a + 93 < a + 94 < 500$ , so there are $405$ four-tuples. For $(m,n) = (3,28)$ , $0 < a < a + 3 < a + 31 < a + 34 < 500$ , and there are $465$ four-tuples. In total, we have $405 + 465 = \\boxed{870}$ four-tuples.\n\nSquare both sides of the first equation in order to get $bc$ and $ad$ terms, which we can plug $93$ in for.\n$\\begin{align*} (a+d)^2 = (b+c)^2 &\\implies a^2 + 2ad + d^2 = b^2 + 2bc + c^2 \\\\ &\\implies 2bc-2ad = a^2-b^2 + d^2-c^2 \\\\ &\\implies 2(bc-ad) = (a-b)(a+b)+(d-c)(d+c) \\end{align*}$\nWe can plug $93$ in for $bc - ad$ to get $186$ on the left side, and also observe that $a-b = c-d$ after rearranging the first equation. Plug in $c-d$ for $a-b$ .\n\n$186 = (c-d)(a+b) + (d-c)(d+c) \\implies 186 = -(d-c)(a+b) + (d-c)(d+c) \\implies 186 = (d-c)(d+c-a-b)$\n\nNow observe the possible factors of $186$ , which are $1 \\cdot 186, 2\\cdot 93, 3 \\cdot 62, 6\\cdot 31$ . $(d-c)$ and $(d+c-a-b)$ must be factors of $186$ , and $(d+c-a-b)$ must be greater than $(d-c)$ .\n\n$1 \\cdot 186$ work, and yields $405$ possible solutions.\n $2 \\cdot 93$ does not work, because if $c-d = 2$ , then $a+b$ must differ by 2 as well, but an odd number $93$ can only result from two numbers of different parity. $c-d$ will be even, and $a+b$ will be even, so $c+d - (a+b)$ must be even.\n $3 \\cdot 62$ works, and yields $465$ possible solutions, while $6 \\cdot 31$ fails for the same reasoning above.\n\nThus, the answer is $405 + 465 = \\boxed{870}$\n\nAdd the two conditions together to get $a+d+ad+93=b+c+bc$ . Rearranging and factorising with SFFT, $(a+1)(d+1)+93=(b+1)(c+1)$ . This implies that for every quadruple $(a,b,c,d)$ , we can replace $a\\longrightarrow a+1$ , $b\\longrightarrow b+1$ , etc. and this will still produce a valid quadruple. This means, that we can fix $a=1$ , and then just repeatedly add $1$ to get the other quadruples.\n\nNow, our conditions are $b+c=d+1$ and $bc=d+93$ . Replacing $d$ in the first equation, we get $bc-b-c=92$ . Factorising again with SFFT gives $(b-1)(c-1)=93$ . Since $b, we have two possible cases to consider.\n\nCase 1: $b=2$ , $c=94$ . This produces the quadruple $(1,2,94,95)$ , which indeed works.\n\nCase 2: $b=4$ , $c=32$ . This produces the quadruple $(1,4,32,35)$ , which indeed works.\n\nNow, for case 1, we can add $1$ to each term exactly $404$ times (until we get the quadruple $(405,406,498,499)$ ), until we violate $d<500$ . This gives $405$ quadruples for case 1.\n\nFor case 2, we can add $1$ to each term exactly $464$ times (until we get the quadruple $(465,468,496,499)$ ). this gives $465$ quadruples for case 2.\n\nIn conclusion, having exhausted all cases, we can finish. There are hence $405+465=\\boxed{870}$ possible quadruples.\n\nLet $r = d-c$ . From the equation $a+d = b+c$ , we have \\[r = d-c = b-a ,\\] so $b = a+r$ and $c = d-r$ . We then have \\[93 = (a+r)(d-r) - ad = rd - ra - r^2 = r(d-a-r) .\\] Since $c > b$ , $d-r > a+r$ , or $d-a-r > r$ . Since the prime factorization of 93 is $3 \\cdot 31$ , we must either have $r=1$ and $d-a-r = 93$ , or $r=3$ and $d-a-r = 31$ . We consider these cases separately.\n\nIf $r=1$ , then $d-a = 94$ , $b= a+1$ , and $c = d-1$ . Thus $d$ can be any integer between 95 and 499, inclusive, and our choice of $d$ determines the four-tuple $(a,b,c,d)$ . We therefore have $499-95+1 = 405$ possibilities in this case.\n\nIf $r=3$ , then $d-a = 34$ , $b = a+3$ , and $c=d-3$ . Thus $d$ can be any integer between 35 and 499, inclusive, and our choice of $d$ determines the four-tuple $(a,b,c,d)$ , as before. We therefore have $499-35+1 = 465$ possibilities in this case.\n\nSince there are 405 possibilities in the first case and 465 possibilities in the second case, in total there are $405 + 465 = \\boxed{870}$ four-tuples.",
+    "choices": [],
+    "answer": "870",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_4",
+    "topics": [
+      "Casework",
+      "Counting Divisors",
+      "Simons Favorite Factoring Trick"
+    ]
+  },
+  {
+    "id": "aime-1993-5",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 5,
+    "statementLatex": "Let $P_0(x) = x^3 + 313x^2 - 77x - 8\\,$ . For integers $n \\ge 1\\,$ , define $P_n(x) = P_{n - 1}(x - n)\\,$ . What is the coefficient of $x\\,$ in $P_{20}(x)\\,$ ?",
+    "solutionLatex": "Notice that\n$\\begin{align*}P_{20}(x) &= P_{19}(x - 20)\\\\ &= P_{18}((x - 20) - 19)\\\\ &= P_{17}(((x - 20) - 19) - 18)\\\\ &= \\cdots\\\\ &= P_0(x - (20 + 19 + 18 + \\ldots + 2 + 1)).\\end{align*}$\n\nUsing the formula for the sum of the first $n$ numbers, $1 + 2 + \\cdots + 20 = \\frac{20(20+1)}{2} = 210$ . Therefore, \\[P_{20}(x) = P_0(x - 210).\\]\n\nSubstituting $x - 210$ into the function definition, we get $P_0(x-210) = (x - 210)^3 + 313(x - 210)^2 - 77(x - 210) - 8$ . We only need the coefficients of the linear terms, which we can find by the binomial theorem.\n\n$(x-210)^3$ will have a linear term of ${3\\choose1}210^2x = 630 \\cdot 210x$ .\n $313(x-210)^2$ will have a linear term of $-313 \\cdot {2\\choose1}210x = -626 \\cdot 210x$ .\n $-77(x-210)$ will have a linear term of $-77x$ .\n\nAdding up the coefficients, we get $630 \\cdot 210 - 626 \\cdot 210 - 77 = \\boxed{763}$ .",
+    "choices": [],
+    "answer": "763",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_5",
+    "topics": [
+      "Binomial Theorem",
+      "Polynomials",
+      "Sequences and Series",
+      "Recurrence Strategies"
+    ]
+  },
+  {
+    "id": "aime-1993-6",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 6,
+    "statementLatex": "What is the smallest positive integer that can be expressed as the sum of nine consecutive integers, the sum of ten consecutive integers, and the sum of eleven consecutive integers?",
+    "solutionLatex": "Denote the first of each of the series of consecutive integers as $a,\\ b,\\ c$ . Therefore, $n = a + (a + 1) \\ldots (a + 8) = 9a + 36 = 10b + 45 = 11c + 55$ . Simplifying, $9a = 10b + 9 = 11c + 19$ . The relationship between $a,\\ b$ suggests that $b$ is divisible by $9$ . Also, $10b -10 = 10(b-1) = 11c$ , so $b-1$ is divisible by $11$ . We find that the least possible value of $b = 45$ , so the answer is $10(45) + 45 = 495$ .\n\nLet the desired integer be $n$ . From the information given, it can be determined that, for positive integers $a, \\ b, \\ c$ :\n\n$n = 9a + 36 = 10b + 45 = 11c + 55$\n\nThis can be rewritten as the following congruences:\n\n$n \\equiv 0 \\pmod{9}$\n\n$n \\equiv 5 \\pmod{10}$\n\n$n \\equiv 0 \\pmod{11}$\n\nSince 9 and 11 are relatively prime, n is a multiple of 99. It can then easily be determined that the smallest multiple of 99 with a units digit 5 (this can be interpreted from the 2nd congruence) is $\\boxed{495}$\n\nLet $n$ be the desired integer. From the given information, we have\n$\\begin{align*}9x &= a \\\\ 11y &= a \\\\ 10z + 5 &= a, \\end{align*}$ here, $x,$ and $y$ are the middle terms of the sequence of 9 and 11 numbers, respectively. Similarly, we have $z$ as the 4th term of the sequence. Since, $a$ is a multiple of $9$ and $11,$ it is also a multiple of $\\text{lcm}[9,11]=99.$ Hence, $a=99m,$ for some $m.$ So, we have $10z + 5 = 99m.$ It follows that $99(5) = \\boxed{495}$ is the smallest integer that can be represented in such a way.\n\nBy the method in Solution 1, we find that the number $n$ can be written as $9a+36=10b+45=11c+55$ for some integers $a,b,c$ . From this, we can see that $n$ must be divisible by 9, 5, and 11. This means $n$ must be divisible by 495. The only multiples of 495 that are small enough to be AIME answers are 495 and 990. From the second of the three expressions above, we can see that $n$ cannot be divisible by 10, so $n$ must equal $\\boxed{495}$ . Solution by Zeroman.\n\nFirst note that the integer clearly must be divisible by $9$ and $11$ since we can use the \"let the middle number be x\" trick. Let the number be $99k$ for some integer $k.$ Now let the $10$ numbers be $x,x+1, \\cdots x+9.$ We have $10x+45 = 99k.$ Taking mod $5$ yields $k \\equiv 0 \\pmod{5}.$ Since $k$ is positive, we take $k=5$ thus obtaining $99 \\cdot 5 = \\boxed{495}$ as our answer.\n\nFrom the first equation solution 1, we get the three part equation 9x=10y+9=11z+19 after subtracting 36 from each of the equations 9x+36=10y+45=11z+55 knowing that the integer we are looking for has a last digit of 9 from the second part of our first equation, and also knowing that our mystery number must be 19 more the a multiple of 11 that ends in 0, the only way this could happen is if the number is able to be deduced in the form 110a+19, where a is between the range 1-9, inclusive.\nso, also knowing our mystery number is divisible by 9, our only answer being 129,239,349,459 ... etc. until 899. Brushing through our act of casework for this problem shows that the answer is 459... but we are not done yet! We have to add the 36 we subtracted at the beggining of our solution to get the equation 459+36, which is equal to our final answer... 495!!!",
+    "choices": [],
+    "answer": "495",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_6",
+    "topics": [
+      "Problem-Solving: Divisibility and Digits",
+      "Digit Problems",
+      "Finding the Last Digit",
+      "Digit Deduction"
+    ]
+  },
+  {
+    "id": "aime-1993-7",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 7,
+    "statementLatex": "Three numbers, $a_1, a_2, a_3$ , are drawn randomly and without replacement from the set $\\{1, 2, 3,\\ldots, 1000\\}$ . Three other numbers, $b_1, b_2, b_3$ , are then drawn randomly and without replacement from the remaining set of $997$ numbers. Let $p$ be the probability that, after suitable rotation, a brick of dimensions $a_1 \\times a_2 \\times a_3$ can be enclosed in a box of dimension $b_1 \\times b_2 \\times b_3$ , with the sides of the brick parallel to the sides of the box. If $p$ is written as a fraction in lowest terms, what is the sum of the numerator and denominator?",
+    "solutionLatex": "There is a total of $P(1000,6)$ possible ordered $6$ -tuples $(a_1,a_2,a_3,b_1,b_2,b_3).$\n\nThere are $C(1000,6)$ possible sets $\\{a_1,a_2,a_3,b_1,b_2,b_3\\}.$ We have five valid cases for the increasing order of these six elements:\n\n$aaabbb$\n $aababb$\n $aabbab$\n $abaabb$\n $ababab$\n\nNote that the $a$ 's are different from each other, as there are $3!=6$ ways to permute them as $a_1,a_2,$ and $a_3.$ Similarly, the $b$ 's are different from each other, as there are $3!=6$ ways to permute them as $b_1,b_2,$ and $b_3.$\n\nSo, there is a total of $C(1000,6)\\cdot5\\cdot6^2$ valid ordered $6$ -tuples. The requested probability is \\[p=\\frac{C(1000,6)\\cdot5\\cdot6^2}{P(1000,6)}=\\frac{C(1000,6)\\cdot5\\cdot6^2}{C(1000,6)\\cdot6!}=\\frac14,\\] from which the answer is $1+4=\\boxed{005}.$\n\n~MRENTHUSIASM",
+    "choices": [],
+    "answer": "005",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_7",
+    "topics": [
+      "Introduction to Probability",
+      "Combinations",
+      "Permutations",
+      "Length Chasing"
+    ]
+  },
+  {
+    "id": "aime-1993-8",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 8,
+    "statementLatex": "Let $S\\,$ be a set with six elements. In how many different ways can one select two not necessarily distinct subsets of $S\\,$ so that the union of the two subsets is $S\\,$ ? The order of selection does not matter; for example, the pair of subsets $\\{a, c\\},\\{b, c, d, e, f\\}$ represents the same selection as the pair $\\{b, c, d, e, f\\},\\{a, c\\}.$",
+    "solutionLatex": "Call the two subsets $m$ and $n.$ For each of the elements in $S,$ we can assign it to either $m,n,$ or both. This gives us $3^6$ possible methods of selection. However, because the order of the subsets does not matter, each possible selection is double counted, except the case where both $m$ and $n$ contain all $6$ elements of $S.$ So our final answer is then $\\frac {3^6 - 1}{2} + 1 = \\boxed{365}.$\n\nNote: because we can order selections $A$ and $B$ in two ways, but since order does not matter in the problem, we should only count them once, ie we need to divide by two. We first need to subtract one for the count $3^6-1$ because there is one case in which $A$ and $B$ are identical and so while the rest of the “different” cases are counted twice, this one was only counted once so we should subtract one from the total count, divide by two, and add back that distinct one case. Or we could just add one, making all of the problem’s different cases counted twice, and divide it all by two, which is $\\frac{3^6+1}{2}=365.$",
+    "choices": [],
+    "answer": "365",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_8",
+    "topics": [
+      "Recursion",
+      "Casework",
+      "Overcounting",
+      "Combinations"
+    ]
+  },
+  {
+    "id": "aime-1993-9",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 9,
+    "statementLatex": "Two thousand points are given on a circle. Label one of the points $1$ . From this point, count $2$ points in the clockwise direction and label this point $2$ . From the point labeled $2$ , count $3$ points in the clockwise direction and label this point $3$ . (See figure.) Continue this process until the labels $1,2,3\\dots,1993\\,$ are all used. Some of the points on the circle will have more than one label and some points will not have a label. What is the smallest integer that labels the same point as $1993$ ?\n\n$AIME 1993 Problem 9.png$",
+    "solutionLatex": "The label $1993$ will occur on the $\\frac12(1993)(1994) \\pmod{2000}$ th point around the circle. (Starting from 1) A number $n$ will only occupy the same point on the circle if $\\frac12(n)(n + 1)\\equiv \\frac12(1993)(1994) \\pmod{2000}$ .\n\nSimplifying this expression, we see that $(1993)(1994) - (n)(n + 1) = (1993 - n)(1994 + n)\\equiv 0\\pmod{2000}$ . Therefore, one of $1993 - n$ or $1994 + n$ is odd, and each of them must be a multiple of $125$ or $16$ .\n\nFor $1993 - n$ to be a multiple of $125$ and $1994 + n$ to be a multiple of $16$ , $n \\equiv 118 \\pmod {125}$ and $n\\equiv 6 \\pmod {16}$ . The smallest $n$ for this case is $118$ .\n\nIn order for $1993 - n$ to be a multiple of $16$ and $1994 + n$ to be a multiple of $125$ , $n\\equiv 9\\pmod{16}$ and $n\\equiv 6\\pmod{125}$ . The smallest $n$ for this case is larger than $118$ , so $\\boxed{118}$ is our answer.\n\nNote: One can just substitute $1993\\equiv-7\\pmod{2000}$ and $1994\\equiv-6\\pmod{2000}$ to simplify calculations.",
+    "choices": [],
+    "answer": "118",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_9",
+    "topics": [
+      "Problem-Solving: Circle Basics",
+      "Algebraic Manipulation",
+      "Problem-Solving: Divisibility and Digits"
+    ]
+  },
+  {
+    "id": "aime-1993-10",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Euler's formula states that for a convex polyhedron with $V$ vertices, $E$ edges, and $F$ faces, $V-E+F=2$ . A particular convex polyhedron has 32 faces, each of which is either a triangle or a pentagon. At each of its $V$ vertices, $T$ triangular faces and $P$ pentagonal faces meet. What is the value of $100P+10T+V$ ?",
+    "solutionLatex": "We know that $V-E = -30 \\implies V = E-30$ based off the problem condition. Furthermore, if we draw out a few pentagons as well as triangles on each of side of the pentagons, it's clear that each vertex has 4 edges connected to it, with two triangles and two pentagons for each vertex. However, each edge is used for two vertices and thus counted twice. Therefore, we have that $E = \\frac{4V}{2} = 2V$ . Plugging this in, we have that $V=30$ and so our answer is $200+20+30 = \\boxed{250}$ .",
+    "choices": [],
+    "answer": "250",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_10",
+    "topics": [
+      "Problem-Solving: Polygons",
+      "Problem-Solving: Triangle Angles",
+      "Casework",
+      "States"
+    ]
+  },
+  {
+    "id": "aime-1993-12",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 12,
+    "statementLatex": "The vertices of $\\triangle ABC$ are $A = (0,0)\\,$ , $B = (0,420)\\,$ , and $C = (560,0)\\,$ . The six faces of a die are labeled with two $A\\,$ 's, two $B\\,$ 's, and two $C\\,$ 's. Point $P_1 = (k,m)\\,$ is chosen in the interior of $\\triangle ABC$ , and points $P_2\\,$ , $P_3\\,$ , $P_4, \\dots$ are generated by rolling the die repeatedly and applying the rule: If the die shows label $L\\,$ , where $L \\in \\{A, B, C\\}$ , and $P_n\\,$ is the most recently obtained point, then $P_{n + 1}^{}$ is the midpoint of $\\overline{P_n L}$ . Given that $P_7 = (14,92)\\,$ , what is $k + m\\,$ ?",
+    "solutionLatex": "If we have points $(p,q)$ and $(r,s)$ and we want to find $(u,v)$ so $(r,s)$ is the midpoint of $(u,v)$ and $(p,q)$ , then $u=2r-p$ and $v=2s-q$ . So we start with the point they gave us and work backwards. We make sure all the coordinates stay within the triangle. We have \\[P_{n-1}=(x_{n-1},y_{n-1}) = (2x_n\\bmod{560},\\ 2y_n\\bmod{420})\\]\nThen $P_7=(14,92)$ , so $x_7=14$ and $y_7=92$ , and we get \\[\\begin{array}{c||ccccccc} n & 7 & 6 & 5 & 4 & 3 & 2 & 1 \\\\ \\hline\\hline x_n & 14 & 28 & 56 & 112 & 224 & 448 & 336 \\\\ \\hline y_n & 92 & 184 & 368 & 316 & 212 & 4 & 8 \\end{array}\\]\n\nSo the answer is $\\boxed{344}$ .\n\nLet $L_1$ be the $n^{th}$ roll that directly influences $P_{n + 1}$ .\n\nNote that $P_7 = \\cfrac{\\cfrac{\\cfrac{P_1 + L_1}2 + L_2}2 + \\cdots}{2\\ldots} = \\frac {(k,m)}{64} + \\frac {L_1}{64} + \\frac {L_2}{32} + \\frac {L_3}{16} + \\frac {L_4}8 + \\frac {L_5}4 + \\frac {L_6}2 = (14,92)$ .\n\nThen quickly checking each addend from the right to the left, we have the following information (remembering that if a point must be $(0,0)$ , we can just ignore it!):\n\nfor $\\frac {L_6}2,\\frac {L_5}4$ , since all addends are nonnegative, a non- $(0,0)$ value will result in a $x$ or $y$ value greater than $14$ or $92$ , respectively, and we can ignore them,\n\nfor $\\frac {L_4}8,\\frac {L_3}{16},\\frac {L_2}{32}$ in a similar way, $(0,0)$ and $(0,420)$ are the only possibilities,\n\nand for $\\frac {L_1}{64}$ , all three work.\n\nAlso, to be in the triangle, $0\\le k\\le560$ and $0\\le m\\le420$ .\n\nSince $L_1$ is the only point that can possibly influence the $x$ coordinate other than $P_1$ , we look at that first.\n\nIf $L_1 = (0,0)$ , then $k = 2^6\\cdot14 = 64\\cdot14 > 40\\cdot14 = 560$ ,\n\nso it can only be that $L_1 = (560,0)$ , and $k + 560 = 2^6\\cdot14$\n\n$\\implies k = 64\\cdot14 - 40\\cdot14 = 24\\cdot14 = 6\\cdot56 = 336$ .\n\nNow, considering the $y$ coordinate, note that if any of $L_2,L_3,L_4$ are $(0,0)$ ( $L_2$ would influence the least, so we test that),\n\nthen $\\frac {L_2}{32} + \\frac {L_3}{16} + \\frac {L_4}8 < \\frac {420}{16} + \\frac {420}8 = 79\\pm\\epsilon < 80$ ,\n\nwhich would mean that $P_1 > 2^6\\cdot(92 - 80) = 64\\cdot12 > 42\\cdot10 = 420\\ge m$ , so $L_2,L_3,L_4 = (0,420)$ ,\n\nand now $\\frac {P_1}{64} + \\frac {420}{2^5} + \\frac {420}{2^4} + \\frac {420}{2^3} = 92$\n\n$\\implies P_1$\n\n$= 64\\cdot92 - 420(2 + 4 + 8)$\n\n$= 64\\cdot92 - 420\\cdot14= 64(100 - 8) - 14^2\\cdot30$\n\n$= 6400 - 512 - (200 - 4)\\cdot30$\n\n$= 6400 - 512 - 6000 + 120$\n\n$= - 112 + 120$\n\n$= 8$ ,\n\nand finally, $k + m = 336 + 8 = \\boxed{344}$ .",
+    "choices": [],
+    "answer": "344",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_12",
+    "topics": [
+      "Problem-Solving: Triangle Angles",
+      "Area by Coordinates",
+      "3rd Degree Symmetric Sums"
+    ]
+  },
+  {
+    "id": "aime-1993-13",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 13,
+    "statementLatex": "Jenny and Kenny are walking in the same direction, Kenny at 3 feet per second and Jenny at 1 foot per second, on parallel paths that are 200 feet apart. A tall circular building 100 feet in diameter is centered midway between the paths. At the instant when the building first blocks the line of sight between Jenny and Kenny, they are 200 feet apart. Let $t\\,$ be the amount of time, in seconds, before Jenny and Kenny can see each other again. If $t\\,$ is written as a fraction in lowest terms, what is the sum of the numerator and denominator?",
+    "solutionLatex": "Consider the unit cicle of radius 50. Assume that they start at points $(-50,100)$ and $(-50,-100).$ Then at time $t$ , they end up at points $(-50+t,100)$ and $(-50+3t,-100).$\nThe equation of the line connecting these points and the equation of the circle are $\\begin{align}y&=-\\frac{100}{t}x+200-\\frac{5000}{t}\\\\50^2&=x^2+y^2\\end{align}.$ When they see each other again, the line connecting the two points will be tangent to the circle at the point $(x,y).$ Since the radius is perpendicular to the tangent we get \\[-\\frac{x}{y}=-\\frac{100}{t}\\] or $xt=100y.$ Now substitute \\[y= \\frac{xt}{100}\\] into $(2)$ and get \\[x=\\frac{5000}{\\sqrt{100^2+t^2}}.\\] Now substitute this and \\[y=\\frac{xt}{100}\\] into $(1)$ and solve for $t$ to get \\[t=\\frac{160}{3}.\\] Finally, the sum of the numerator and denominator is $160+3=\\boxed{163}.$\n\nLet $A$ and $B$ be Kenny's initial and final points respectively and define $C$ and $D$ similarly for Jenny. Let $O$ be the center of the building. Also, let $X$ be the intersection of $AC$ and $BD$ . Finaly, let $P$ and $Q$ be the points of tangency of circle $O$ to $AC$ and $BD$ respectively.\n\n[[img:https://latex.artofproblemsolving.com/e/8/5/e854091993a5c5a12a513b87e411d392cda1b333.png]]\n\nFrom the problem statement, $AB=3t$ , and $CD=t$ . Since $\\Delta ABX \\sim \\Delta CDX$ , $CX=AC\\cdot\\left(\\frac{CD}{AB-CD}\\right)=200\\cdot\\left(\\frac{t}{3t-t}\\right)=100$ .\n\nSince $PC=100$ , $PX=200$ . So, $\\tan(\\angle OXP)=\\frac{OP}{PX}=\\frac{50}{200}=\\frac{1}{4}$ .\n\nSince circle $O$ is tangent to $BX$ and $AX$ , $OX$ is the angle bisector of $\\angle BXA$ .\n\nThus, $\\tan(\\angle BXA)=\\tan(2\\angle OXP)=\\frac{2\\tan(\\angle OXP)}{1- \\tan^2(\\angle OXP)} = \\frac{2\\cdot \\left(\\frac{1}{4}\\right)}{1-\\left(\\frac{1}{4}\\right)^2}=\\frac{8}{15}$ .\n\nTherefore, $t = CD = CX\\cdot\\tan(\\angle BXA) = 100 \\cdot \\frac{8}{15} = \\frac{160}{3}$ , and the answer is $\\boxed{163}$ .\n\n[[img:https://latex.artofproblemsolving.com/1/3/9/1396253d476ae56d6e8b576eb729cc3f15a15f43.png]]\n\nLet $t$ be the time they walk. Then $CD=t$ and $AB=3t$ .\n\nDraw a line from point $O$ to $Q$ such that $OQ$ is perpendicular to $BD$ . Further, draw a line passing through points $O$ and $P$ , so $OP$ is parallel to $AB$ and $CD$ and is midway between those two lines. Then $PR=\\dfrac{AB+CD}{2}=\\dfrac{3t+t}{2}=2t$ . Draw another line passing through point $D$ and parallel to $AC$ , and call the point of intersection of this line with $AB$ as $S$ . Then $SB=AB-AS=3t-t=2t$ .\n\nWe see that $m\\angle SBD=m\\angle ORQ$ since they are corresponding angles, and thus by angle-angle similarity, $\\triangle QOR\\sim\\triangle SDB$ .\n\nThen\n$\\begin{align*} \\dfrac{OQ}{DS}=\\dfrac{RO}{BD}&\\implies\\dfrac{50}{200}=\\dfrac{RO}{\\sqrt{200^2+4t^2}}\\\\ &\\implies RO=\\dfrac{1}{4}\\left(\\sqrt{200^2+4t^2}\\right)\\\\ &\\implies RO=\\dfrac{1}{2}\\left(\\sqrt{100^2+t^2}\\right) \\end{align*}$\n\nAnd we obtain\n$\\begin{align*} PR-OP&=RO\\\\ 2t-50&=\\dfrac{1}{2}\\left(\\sqrt{100^2+t^2}\\right)\\\\ 4t-100&=\\sqrt{100^2+t^2}\\\\ (4t-100)^2&=\\left(\\sqrt{100^2+t^2}\\right)^2\\\\ 16t^2-800t+100^2&=t^2+100^2\\\\ 15t^2&=800t\\\\ t&=\\dfrac{800}{15} \\end{align*}$\n\nso we have $t=\\frac{160}{3}$ , and our answer is thus $160+3=\\boxed{163}$ .\n\nWe can use areas to find the answer. Since Jenny and Kenny are 200 feet apart, we know that they are side by side, and that the line connecting the two of them is tangent to the circular building.\n\nWe know that the radius of the circle is 50, and that $\\overline{AJ} = x$ , $\\overline{BK} = 3x$ .\n\nIllustration:\n\n[[img:https://latex.artofproblemsolving.com/c/c/d/ccda9c0fdf014dedf5b44671998580fff4760292.png]]\n\nBy areas, $[OJK] + [AJOF] + [OFBK] = [ABKJ]$ . Having right trapezoids, $[AFOJ] = \\frac{x+50}{2} \\cdot 100$ . The other areas of right trapezoids can be calculated in the same way. We just need to find $[OJK]$ in terms of $x$ .\n\nIf we bring $\\overline{AB}$ up to where the point J is, we have by the Pythagorean Theorem, $\\overline{JK} = 2\\sqrt{x^2+10000} \\Rightarrow [OJK] = \\frac{1}{2} \\overline{JK} \\cdot \\overline{OD}$ .\n\nNow we have everything to solve for $x$ .\n\n\\[[OJK] + [AJOF] + [OFBK] = [ABKJ]\\]\n\n\\[50 \\sqrt{x^2 + 10000} + \\frac{x+50}{2} \\cdot 100 + \\frac{3x+50}{2} \\cdot 100 = \\frac{x+3x}{2} \\cdot 200\\]\n\nAfter isolating the radical, dividing by 50, and squaring, we obtain: $15x^2 - 800x = 0 \\Rightarrow x = \\frac{160}{3}$ .\n\nSince Jenny walks $\\frac{160}{3}$ feet at 1 foot/s, our answer is $160+3 = \\fbox{163}$ .",
+    "choices": [],
+    "answer": "163",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_13",
+    "topics": [
+      "Problem-Solving: Circle Basics",
+      "Variables",
+      "Algebraic Manipulation",
+      "Absolute Value Tricks"
+    ]
+  },
+  {
+    "id": "aime-1993-14",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 14,
+    "statementLatex": "A rectangle that is inscribed in a larger rectangle (with one vertex on each side) is called unstuck if it is possible to rotate (however slightly) the smaller rectangle about its center within the confines of the larger. Of all the rectangles that can be inscribed unstuck in a 6 by 8 rectangle, the smallest perimeter has the form $\\sqrt{N}\\,$ , for a positive integer $N\\,$ . Find $N\\,$ .",
+    "solutionLatex": "Put the rectangle on the coordinate plane so its vertices are at $(\\pm4,\\pm3)$ , for all four combinations of positive and negative. Then by symmetry, the other rectangle is also centered at the origin, $O$ .\n\nNote that such a rectangle is unstuck if its four vertices are in or on the edge of all four quadrants, and it is not the same rectangle as the big one. Let the four vertices of this rectangle be $A(4,y)$ , $B(-x,3)$ , $C(-4,-y)$ and $D(x,-3)$ for nonnegative $x,y$ . Then this is a rectangle, so $OA=OB$ , or $16+y^2=9+x^2$ , so $x^2=y^2+7$ .\n\n$1993 AIME 14 Diagram.png$\n\nReflect $D$ across the side of the rectangle containing $C$ to $D'(-8-x,-3)$ . Then $BD'=\\sqrt{(-8-x-(-x))^2+(3-(-3))^2}=10$ is constant, and the perimeter of the rectangle is equal to $2(BC+CD')$ . The midpoint of $\\overline{BD'}$ is $(-4-x,0)$ , and since $-4>-4-x$ and $-y\\le0$ , $C$ always lies below $\\overline{BD'}$ .\n\nIf $y$ is positive, it can be decreased to $y'. This causes $x$ to decrease as well, to $x'$ , where $x'^2=y'^2+7$ and $x'$ is still positive. If $B$ and $D'$ are held in place as everything else moves, then $C$ moves $(y-y')$ units up and $(x-x')$ units left to $C'$ , which must lie within $\\triangle BCD'$ . Then we must have $BC'+C'D', and the perimeter of the rectangle is decreased. Therefore, the minimum perimeter must occur with $y=0$ , so $x=\\sqrt7$ .\n\nBy the distance formula, this minimum perimeter is \\[2\\left(\\sqrt{(4-\\sqrt7)^2+3^2}+\\sqrt{(4+\\sqrt7)^2+3^2}\\right)=4\\left(\\sqrt{8-2\\sqrt7}+\\sqrt{8+2\\sqrt7}\\right)\\] \\[=4(\\sqrt7-1+\\sqrt7+1)=8\\sqrt7=\\sqrt{448}.\\] Therefore $N$ would equal $\\boxed{448}.$\n\n~minor edit by Yiyj1 and Root three over two",
+    "choices": [],
+    "answer": "448",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_14",
+    "topics": [
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Inscribed Circles",
+      "Length Chasing",
+      "Simplifying Radicals"
+    ]
+  },
+  {
+    "id": "aime-1993-15",
+    "contest": "AIME",
+    "year": 1993,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Let $\\overline{CH}$ be an altitude of $\\triangle ABC$ . Let $R\\,$ and $S\\,$ be the points where the circles inscribed in the triangles $ACH\\,$ and $BCH^{}_{}$ are tangent to $\\overline{CH}$ . If $AB = 1995\\,$ , $AC = 1994\\,$ , and $BC = 1993\\,$ , then $RS\\,$ can be expressed as $m/n\\,$ , where $m\\,$ and $n\\,$ are relatively prime integers. Find $m + n\\,$ .",
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/b/8/b/b8b732c641481c3b1635527f52f3125316ac3f3d.png]]\n\nFrom the Pythagorean Theorem, $AH^2+CH^2=1994^2$ , and $(1995-AH)^2+CH^2=1993^2$ .\n\nSubtracting those two equations yields $AH^2-(1995-AH)^2=3987$ .\n\nAfter simplification, we see that $2*1995AH-1995^2=3987$ , or $AH=\\frac{1995}{2}+\\frac{3987}{2*1995}$ .\n\nNote that $AH+BH=1995$ .\n\nTherefore we have that $BH=\\frac{1995}{2}-\\frac{3987}{2*1995}$ .\n\nTherefore $AH-BH=\\frac{3987}{1995}$ .\n\n$\\textbf{Note: }$ An easier method is to use both facts together:\n\nFirst, by the Pythagorean Theorem, we find that $1993^2-BH^2=1994^2-AH^2$ , so $AH^2-BH^2=1994^2-1993^2=3987$ . We know that $AH+BH=1995$ , so by difference of squares and dividing we find that $AH-BH=\\frac{3987}{1995}=\\frac{1329}{665}$ . ~eevee9406\n\nNow note that $RS=|HR-HS|$ , $RH=\\frac{AH+CH-AC}{2}$ , and $HS=\\frac{CH+BH-BC}{2}$ .\n\nTherefore we have $RS=\\left| \\frac{AH+CH-AC-CH-BH+BC}{2} \\right|=\\frac{|AH-BH-1994+1993|}{2}$ .\n\nPlugging in $AH-BH$ and simplifying, we have $RS=\\frac{1992}{1995*2}=\\frac{332}{665} \\rightarrow 332+665=\\boxed{997}$ .\n\nEdit by GameMaster402:\n\nIt can be shown that in any triangle with side lengths $n-1, n, n+1$ , if you draw an altitude from the vertex to the side of $n+1$ , and draw the incircles of the two right triangles, the distance between the two tangency points is simply $\\frac{n-2}{2n+2}=\\frac{n-2}{2(n+1)}$ .\n\nPlugging in $n=1994$ yields that the answer is $\\frac{1992}{2(1995)}$ , which simplifies to $\\frac{332}{665}$\n\n~minor edit by Yiyj1\n\nEdit by phoenixfire:\n\nIt can further be shown for any triangle with sides $a=BC, b=CA, c=AB$ that\n \\[RS=\\dfrac{|b-a|}{2c}|a+b-c|\\]\nOver here $a=1993, b=1994, c=1995$ , so using the formula gives \\[RS = \\dfrac{|1994 - 1993|}{2 \\cdot 1995}|1993 + 1994 - 1995| = \\dfrac{1 \\cdot 1992}{2(1995)} = \\frac{332}{665}.\\]\n\n~minor edit by Yiyj1\n\nNote: We can also just right it as $RS=\\frac{|b-a|(a+b-c)}{2c}$ since $a+b-c \\geq 0$ by the triangle inequality. ~Yiyj1",
+    "choices": [],
+    "answer": "997",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_15",
+    "topics": [
+      "Problem-Solving: Triangle Angles",
+      "Circle Tangents",
+      "Problem-Solving: Inscribed Circles",
+      "Pythagorean theorem"
+    ]
+  },
+  {
+    "id": "aime-1990-2",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 2,
+    "statementLatex": "Find the value of $(52+6\\sqrt{43})^{3/2}-(52-6\\sqrt{43})^{3/2}$ .",
+    "solutionLatex": "Suppose that $52+6\\sqrt{43}$ is in the form of $(a + b\\sqrt{43})^2$ . FOILing yields that $52 + 6\\sqrt{43} = a^2 + 43b^2 + 2ab\\sqrt{43}$ . This implies that $a$ and $b$ equal one of $\\pm3, \\pm1$ . The possible sets are $(3,1)$ and $(-3,-1)$ ; the latter can be discarded since the square root must be positive. This means that $52 + 6\\sqrt{43} = (\\sqrt{43} + 3)^2$ . Repeating this for $52-6\\sqrt{43}$ , the only feasible possibility is $(\\sqrt{43} - 3)^2$ .\n\nRewriting, we get $(\\sqrt{43} + 3)^3 - (\\sqrt{43} - 3)^3$ . Using the difference of cubes, we get that $[\\sqrt{43} + 3\\ - \\sqrt{43} + 3]\\ [(43 + 6\\sqrt{43} + 9) + (43 - 9) + (43 - 6\\sqrt{43} + 9)]$ $= (6)(3 \\cdot 43 + 9) = \\boxed{828}$ .\nNote: You can also just use the formula $(a + b)^2 = a^2 + 2ab + b^2$ instead of foiling.",
+    "choices": [],
+    "answer": "828",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_2",
+    "topics": [
+      "Simplifying Radicals",
+      "Algebraic Manipulation",
+      "Telescoping - Forcing It"
+    ]
+  },
+  {
+    "id": "aime-1990-3",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 3,
+    "statementLatex": "Let $P_1^{}$ be a regular $r~\\mbox{gon}$ and $P_2^{}$ be a regular $s~\\mbox{gon}$ $(r\\geq s\\geq 3)$ such that each interior angle of $P_1^{}$ is $\\frac{59}{58}$ as large as each interior angle of $P_2^{}$ . What's the largest possible value of $s_{}^{}$ ?",
+    "solutionLatex": "The formula for the interior angle of a regular sided polygon is $\\frac{(n-2)180}{n}$ .\n\nThus, $\\frac{\\frac{(r-2)180}{r}}{\\frac{(s-2)180}{s}} = \\frac{59}{58}$ . Cross multiplying and simplifying, we get $\\frac{58(r-2)}{r} = \\frac{59(s-2)}{s}$ . Cross multiply and combine like terms again to yield $58rs - 58 \\cdot 2s = 59rs - 59 \\cdot 2r \\Longrightarrow 118r - 116s = rs$ . Solving for $r$ , we get $r = \\frac{116s}{118 - s}$ .\n\n$r \\ge 0$ and $s \\ge 0$ , making the numerator of the fraction positive. To make the denominator positive, $s < 118$ ; the largest possible value of $s$ is $117$ .\n\nThis is achievable because the denominator is $1$ , making $r$ a positive number $116 \\cdot 117$ and $s = \\boxed{117}$ .",
+    "choices": [],
+    "answer": "117",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_3",
+    "topics": [
+      "Problem-Solving: Polygons",
+      "Algebraic Manipulation"
+    ]
+  },
+  {
+    "id": "aime-1990-4",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Find the positive solution to\n\n$\\frac 1{x^2-10x-29}+\\frac1{x^2-10x-45}-\\frac 2{x^2-10x-69}=0$",
+    "solutionLatex": "We could clear out the denominators by multiplying, though that would be unnecessarily tedious.\n\nTo simplify the equation, substitute $a = x^2 - 10x - 29$ (the denominator of the first fraction). We can rewrite the equation as $\\frac{1}{a} + \\frac{1}{a - 16} - \\frac{2}{a - 40} = 0$ . Multiplying out the denominators now, we get:\n\n\\[(a - 16)(a - 40) + a(a - 40) - 2(a)(a - 16) = 0\\]\n\nSimplifying, $-64a + 40 \\times 16 = 0$ , so $a = 10$ . Re-substituting, $10 = x^2 - 10x - 29 \\Longleftrightarrow 0 = (x - 13)(x + 3)$ . The positive root is $\\boxed{013}$ .",
+    "choices": [],
+    "answer": "013",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_4",
+    "topics": [
+      "Algebraic Manipulation"
+    ]
+  },
+  {
+    "id": "aime-1990-7",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 7,
+    "statementLatex": "A triangle has vertices $P_{}^{}=(-8,5)$ , $Q_{}^{}=(-15,-19)$ , and $R_{}^{}=(1,-7)$ . The equation of the bisector of $\\angle P$ can be written in the form $ax+2y+c=0_{}^{}$ . Find $a+c_{}^{}$ .\n\n[[img:https://latex.artofproblemsolving.com/b/7/6/b7650dc9ace1a94c8dc1634c4bfa218183f6602c.png]]",
+    "solutionLatex": "Use the distance formula to determine the lengths of each of the sides of the triangle. We find that it has lengths of side $15,\\ 20,\\ 25$ , indicating that it is a $3-4-5$ right triangle. At this point, we just need to find another point that lies on the bisector of $\\angle P$ .\n\n[[img:https://latex.artofproblemsolving.com/e/5/1/e51a70bc1f21cb48775b66de3054d6f7622a3627.png]]\n\nUse the angle bisector theorem to find that the angle bisector of $\\angle P$ divides $QR$ into segments of length $\\frac{25}{x} = \\frac{15}{20 -x} \\Longrightarrow x = \\frac{25}{2},\\ \\frac{15}{2}$ . It follows that $\\frac{QP'}{RP'} = \\frac{5}{3}$ , and so $P' = \\left(\\frac{5x_R + 3x_Q}{8},\\frac{5y_R + 3y_Q}{8}\\right) = (-5,-23/2)$ .\n\nThe desired answer is the equation of the line $PP'$ . $PP'$ has slope $\\frac{-11}{2}$ , from which we find the equation to be $11x + 2y + 78 = 0$ . Therefore, $a+c = \\boxed{089}$ .\n\n[[img:https://latex.artofproblemsolving.com/7/8/6/786d51d5c72e94f0b159e6406b8cc29bbc70f311.png]]\n\nExtend $PR$ to a point $S$ such that $PS = 25$ . This forms an isosceles triangle $PQS$ . The coordinates of $S$ , using the slope of $PR$ (which is $-4/3$ ), can be determined to be $(7,-15)$ . Since the angle bisector of $\\angle P$ must touch the midpoint of $QS \\Rightarrow (-4,-17)$ , we have found our two points. We reach the same answer of $11x + 2y + 78 = 0$ .\n\n[[img:https://latex.artofproblemsolving.com/3/b/e/3be1357e127e0b9b6aeea9267697d70227e84c44.png]]\n\nBy the angle bisector theorem as in solution 1, we find that $QP' = 25/2$ . If we draw the right triangle formed by $Q, P',$ and the point directly to the right of $Q$ and below $P'$ , we get another $3-4-5 \\triangle$ (since the slope of $QR$ is $3/4$ ). Using this, we find that the horizontal projection of $QP'$ is $10$ and the vertical projection of $QP'$ is $15/2$ .\n\nThus, the angle bisector touches $QR$ at the point $\\left(-15 + 10, -19 + \\frac{15}{2}\\right) = \\left(-5,-\\frac{23}{2}\\right)$ , from where we continue with the first solution.\n\nThis solution uses terminology from the other solutions. The incenter is a much easier point to find on the line $PP'$ . Note that the inradius of $\\triangle PQR$ is $5$ . If you do not understand this, substitute values into the $[\\triangle ABC] = rs$ equation. If lines are drawn from the incenter perpendicular to $PR$ and $QR$ , then a square with side length $5$ will be created. Call the point opposite $R$ in this square $R'$ . Since $R$ has coordinates $(1, -7)$ , and the sides of the squares are on a $3-4-5$ ratio, the coordinates of $R'$ are $(-6, -6)$ . This is because the x-coordinate is moving to the left $4+3=7$ units and the y-coordinate is moving up $-3+4=1$ units. The line through $(-8,5)$ and $(-6,-6)$ is $11x+2y+78=0$ .\n\n[[img:https://latex.artofproblemsolving.com/1/3/6/136dfe54d6ee2bdcf29170acb317378155d4b2d3.png]]\n\nTransform triangle $PQR$ so that $P$ is at the origin. Note that the slopes do not change when we transform the triangle.\n\nWe know that the slope of $PQ$ is $\\frac{24}{7}$ and the slope of $PR$ is $-\\frac{4}{3}$ . Thus, in the complex plane, they are equivalent to $\\tan(\\alpha)=\\frac{24}{7}$ and $\\tan(\\beta)=-\\frac{4}{3}$ , respectively. Here $\\alpha$ is the angle formed by the $x$ -axis and $PQ$ , and $\\beta$ is the angle formed by the $x$ -axis and $PR$ . The equation of the angle bisector is $\\tan\\left(\\frac{\\alpha+\\beta}{2}\\right)$ .\n\nAs the tangents are in very neat Pythagorean triples, we can easily calculate $\\cos(\\alpha)$ and $\\cos(\\beta)$ .\n\nAngle $\\alpha$ is in the third quadrant, so $\\cos(\\alpha)$ is negative. Thus $\\cos(\\alpha)=-\\frac{7}{25}$ .\n\nAngle $\\beta$ is in the fourth quadrant, so $\\cos(\\beta)$ is positive. Thus $\\cos(\\beta)=\\frac{3}{5}$ .\n\nBy the Half-Angle Identities, $\\tan\\left(\\frac{\\alpha}{2}\\right)=\\pm\\sqrt{\\frac{1-\\cos(\\alpha)}{1+\\cos(\\alpha)}}=\\pm\\sqrt{\\frac{\\frac{32}{25}}{\\frac{18}{25}}}=\\pm\\sqrt{\\frac{16}{9}}=\\pm\\frac{4}{3}$ and $\\tan\\left(\\frac{\\beta}{2}\\right)=\\pm\\sqrt{\\frac{1-\\cos(\\beta)}{1+\\cos(\\beta)}}=\\pm\\sqrt{\\frac{\\frac{2}{5}}{\\frac{8}{5}}}=\\pm\\sqrt{\\frac{1}{4}}=\\pm\\frac{1}{2}$ .\n\nSince $\\frac{\\alpha}{2}$ and $\\frac{\\beta}{2}$ must be in the second quadrant, their tangent values are both negative. Thus $\\tan\\left(\\frac{\\alpha}{2}\\right)=-\\frac{4}{3}$ and $\\tan\\left(\\frac{\\beta}{2}\\right)=-\\frac{1}{2}$ .\n\nBy the sum of tangents formula, $\\tan\\left(\\frac{\\alpha}{2}+\\frac{\\beta}{2}\\right)=\\frac{\\tan\\left(\\frac{\\alpha}{2}\\right)+\\tan\\left(\\frac{\\beta}{2}\\right)}{1-\\tan\\left(\\frac{\\alpha}{2}\\right)\\tan\\left(\\frac{\\beta}{2}\\right)}=\\frac{-\\frac{11}{6}}{\\frac{1}{3}}=-\\frac{11}{2}$ , which is the slope of the angle bisector.\n\nFinally, the equation of the angle bisector is $y-5=-\\frac{11}{2}(x+8)$ or $y=-\\frac{11}{2}x-39$ . Rearranging, we get $11x+2y+78=0$ , so our sum is $a+c=11+78=\\boxed{089}$ . ~eevee9406",
+    "choices": [],
+    "answer": "089",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_7",
+    "topics": [
+      "Problem-Solving: Triangle Angles",
+      "Angle Bisector Theorem",
+      "Linear Equations",
+      "Pythagorean theorem"
+    ]
+  },
+  {
+    "id": "aime-1990-9",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 9,
+    "statementLatex": "A fair coin is to be tossed $10_{}^{}$ times. Let $\\frac{i}{j}^{}_{}$ , in lowest terms, be the probability that heads never occur on consecutive tosses. Find $i+j_{}^{}$ .",
+    "solutionLatex": "Clearly, at least $5$ tails must be flipped; any less, then by the Pigeonhole Principle there will be heads that appear on consecutive tosses.\n\nConsider the case when $5$ tails occur. The heads must fall between the tails such that no two heads fall between the same tails, and must fall in the positions labeled $(H)$ :\n\n$(H)\\ T\\ (H)\\ T\\ (H)\\ T\\ (H)\\ T\\ (H)\\ T\\ (H)$\n\nThere are six slots for the heads to be placed, but only $5$ heads remaining. Thus, using stars-and-bars there are ${6\\choose5}$ possible combinations of $5$ heads. Continuing this pattern, we find that there are $\\sum_{i=6}^{11} {i\\choose{11-i}} = {6\\choose5} + {7\\choose4} + {8\\choose3} + {9\\choose2} + {{10}\\choose1} + {{11}\\choose0} = 144$ . There are a total of $2^{10}$ possible flips of $10$ coins, making the probability $\\frac{144}{1024} = \\frac{9}{64}$ . Thus, our solution is $9 + 64 = \\boxed{073}$ .\n\nCall the number of ways of flipping $n$ coins and not receiving any consecutive heads $S_n$ . Notice that tails must be received in at least one of the first two flips.\n\nIf the first coin flipped is a T, then the remaining $n-1$ flips must fall under one of the configurations of $S_{n-1}$ .\n\nIf the first coin flipped is a H, then the second coin must be a T. There are then $S_{n-2}$ configurations.\n\nThus, $S_n = S_{n-1} + S_{n-2}$ . By counting, we can establish that $S_1 = 2$ and $S_2 = 3$ . Therefore, $S_3 = 5,\\ S_4 = 8$ , forming the Fibonacci sequence. Listing them out, we get $2,3,5,8,13,21,34,55,89,144$ , and the 10th number is $144$ . Putting this over $2^{10}$ to find the probability, we get $\\frac{9}{64}$ . Our solution is $9+64=\\boxed{073}$ .\n\nWe can also split the problem into casework.\n\nCase 1: 0 Heads\n\nThere is only one possibility.\n\nCase 2: 1 Head\n\nThere are 10 possibilities.\n\nCase 3: 2 Heads\n\nThere are 36 possibilities.\n\nCase 4: 3 Heads\n\nThere are 56 possibilities.\n\nCase 5: 4 Heads\n\nThere are 35 possibilities.\n\nCase 6: 5 Heads\n\nThere are 6 possibilities.\n\nWe have $1+10+36+56+35+6=144$ , and there are $1024$ possible outcomes, so the probability is $\\frac{144}{1024}=\\frac{9}{64}$ , and the answer is $\\boxed{073}$ .\n\n$\\textbf{-RootThreeOverTwo}$",
+    "choices": [],
+    "answer": "073",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_9",
+    "topics": [
+      "Introduction to Probability",
+      "Casework",
+      "Recursion",
+      "Linear Inequalities"
+    ]
+  },
+  {
+    "id": "aime-1990-10",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 10,
+    "statementLatex": "The sets $A = \\{z : z^{18} = 1\\}$ and $B = \\{w : w^{48} = 1\\}$ are both sets of complex roots of unity. The set $C = \\{zw : z \\in A ~ \\mbox{and} ~ w \\in B\\}$ is also a set of complex roots of unity. How many distinct elements are in $C_{}^{}$ ?",
+    "solutionLatex": "The least common multiple of $18$ and $48$ is $144$ , so define $n = e^{2\\pi i/144}$ . We can write the numbers of set $A$ as $\\{n^8, n^{16}, \\ldots n^{144}\\}$ and of set $B$ as $\\{n^3, n^6, \\ldots n^{144}\\}$ . $n^x$ can yield at most $144$ different values. All solutions for $zw$ will be in the form of $n^{8k_1 + 3k_2}$ .\n\n$8$ and $3$ are relatively prime, and by the Chicken McNugget Theorem, for two relatively prime integers $a,b$ , the largest number that cannot be expressed as the sum of multiples of $a,b$ is $a \\cdot b - a - b$ . For $3,8$ , this is $13$ ; however, we can easily see that the numbers $145$ to $157$ can be written in terms of $3,8$ . Since the exponents are of roots of unities, they reduce $\\mod{144}$ , so all numbers in the range are covered. Thus the answer is $\\boxed{144}$ .\n\nUsing Chicken McNugget Theorem and the property of complex numbers for reasoning is sharp, but note that the Frobenius Number is only constrained to positive integer pairs. Please check on \"Comment of S2\" below to see how to use Diophantine equation to make a simple deduction. ~ Will_Dai\n\nThe 18 and 48th roots of $1$ can be found by De Moivre's Theorem. They are $\\text{cis}\\,\\left(\\frac{2\\pi k_1}{18}\\right)$ and $\\text{cis}\\,\\left(\\frac{2\\pi k_2}{48}\\right)$ respectively, where $\\text{cis}\\,\\theta = \\cos \\theta + i \\sin \\theta$ and $k_1$ and $k_2$ are integers from $0$ to $17$ and $0$ to $47$ , respectively.\n\n$zw = \\text{cis}\\,\\left(\\frac{\\pi k_1}{9} + \\frac{\\pi k_2}{24}\\right) = \\text{cis}\\,\\left(\\frac{8\\pi k_1 + 3 \\pi k_2}{72}\\right)$ . Since the trigonometric functions are periodic every $2\\pi$ , there are at most $72 \\cdot 2 = \\boxed{144}$ distinct elements in $C$ . As above, all of these will work.\n\nBy the property of Diophantine equation, given a problem to find integers x and y so that ax + by = c for some integer constants a, b, c: if gcd(a, b) = 1, then any arbitrary integer c could by formed with some combination of integers (x, y). Double checking the constraints of k_1 and k_2, we realize that all integers of [0, 143] can be formed by 8 * k1 + 3 * k2, yielding the answer of 144.\n~Will_Dai\n\nThe values in polar form will be $(1, 20x)$ and $(1, 7.5x)$ . Multiplying these gives $(1, 27.5x)$ . Then, we get $27.5$ , $55$ , $82.5$ , $110$ , $...$ up to $3960$ $(\\text{lcm}(55,360)) \\implies \\frac{3960 \\cdot 2}{55}=\\boxed{144}$ .",
+    "choices": [],
+    "answer": "144",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_10",
+    "topics": [
+      "Complex Numbers",
+      "Polynomials",
+      "Chicken McNugget",
+      "Problem-Solving: Polynomial Root Tricks"
+    ]
+  },
+  {
+    "id": "aime-1990-11",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 11,
+    "statementLatex": "Someone observed that $6! = 8 \\cdot 9 \\cdot 10$ . Find the largest positive integer $n^{}_{}$ for which $n^{}_{}!$ can be expressed as the product of $n - 3_{}^{}$ consecutive positive integers.",
+    "solutionLatex": "The product of $n - 3$ consecutive integers can be written as $\\frac{(n - 3 + a)!}{a!}$ for some integer $a$ . Thus, $n! = \\frac{(n - 3 + a)!}{a!}$ , from which it becomes evident that $a \\ge 3$ . Since $(n - 3 + a)! > n!$ , we can rewrite this as $\\frac{n!(n+1)(n+2) \\ldots (n-3+a)}{a!} = n! \\Longrightarrow (n+1)(n+2) \\ldots (n-3+a) = a!$ . For $a = 4$ , we get $n + 1 = 4!$ so $n = 23$ . For greater values of $a$ , we need to find the product of $a-3$ consecutive integers that equals $a!$ . $n$ can be approximated as $^{a-3}\\sqrt{a!}$ , which decreases as $a$ increases. Thus, $n = 23$ is the greatest possible value to satisfy the given conditions.",
+    "choices": [],
+    "answer": "023",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_11",
+    "topics": [
+      "Linear Inequalities"
+    ]
+  },
+  {
+    "id": "aime-1990-13",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 13,
+    "statementLatex": "Let $T = \\{9^k : k ~ \\mbox{is an integer}, 0 \\le k \\le 4000\\}$ . Given that $9^{4000}_{}$ has 3817 digits and that its first (leftmost) digit is 9, how many elements of $T_{}^{}$ have 9 as their leftmost digit?",
+    "solutionLatex": "Lemma: For all positive integers n, there's exactly one n-digit power of 9 that does not have a left-most digit 9\n\n(Not-so-rigorous) Proof: One can prove by contradiction that there must be at least either one or two n-digit power of 9 for all n.\nIf there is exactly 1 n-digit power of 9, then such a number $m$ cannot begin with 9 since that would result in $\\frac{m}{9}$ also being an n-digits, hence a contradiction. Therefore, this single n-digit power of 9 must not begin with 9. In the case that there are 2 n-digit powers of 9, we have already discovered that one of them must begin with 9, let it be $9^k = m$ . The integer $9^{k - 1} = \\frac{m}{9}$ must then be an n-digit number that begins with $1$ .\n\nUsing this lemma, out of the 4001 powers of 9 in T, exactly 3816 must not begin with 9 (one for each digit). Therefore, the answer is $4000 - 3816 = \\boxed{184}$ numbers have 9 as their leftmost digits.\n\n~Edited by Mathandski (with help from a math god)",
+    "choices": [],
+    "answer": "184",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_13",
+    "topics": [
+      "Digit Problems",
+      "Digit Deduction",
+      "Problem-Solving: Divisibility and Digits",
+      "Exponent Rules"
+    ]
+  },
+  {
+    "id": "aime-1990-15",
+    "contest": "AIME",
+    "year": 1990,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Find $ax^5 + by^5$ if the real numbers $a,b,x,$ and $y$ satisfy the equations\n$\\begin{align*} ax + by &= 3, \\\\ ax^2 + by^2 &= 7, \\\\ ax^3 + by^3 &= 16, \\\\ ax^4 + by^4 &= 42. \\end{align*}$",
+    "solutionLatex": "Set $S = (x + y)$ and $P = xy$ . Then the relationship\n\n\\[(ax^n + by^n)(x + y) = (ax^{n + 1} + by^{n + 1}) + (xy)(ax^{n - 1} + by^{n - 1})\\]\n\ncan be exploited:\n\n$\\begin{eqnarray*}(ax^2 + by^2)(x + y) & = & (ax^3 + by^3) + (xy)(ax + by) \\\\ (ax^3 + by^3)(x + y) & = & (ax^4 + by^4) + (xy)(ax^2 + by^2)\\end{eqnarray*}$\n\nTherefore:\n\n$\\begin{eqnarray*}7S & = & 16 + 3P \\\\ 16S & = & 42 + 7P\\end{eqnarray*}$\n\nConsequently, $S = - 14$ and $P = - 38$ . Finally:\n\n$\\begin{eqnarray*}(ax^4 + by^4)(x + y) & = & (ax^5 + by^5) + (xy)(ax^3 + by^3) \\\\ (42)(S) & = & (ax^5 + by^5) + (P)(16) \\\\ (42)( - 14) & = & (ax^5 + by^5) + ( - 38)(16) \\\\ ax^5 + by^5 & = & \\boxed{020}\\end{eqnarray*}$",
+    "choices": [],
+    "answer": "020",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_15",
+    "topics": [
+      "Recurrence Strategies"
+    ]
+  },
+  {
+    "id": "aime-1989-2",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 2,
+    "statementLatex": "Ten points are marked on a circle. How many distinct convex polygons of three or more sides can be drawn using some (or all) of the ten points as vertices?",
+    "solutionLatex": "Any subset of the ten points with three or more members can be made into exactly one such polygon. Thus, we need to count the number of such subsets. There are $2^{10} = 1024$ total subsets of a ten-member set, but of these ${10 \\choose 0} = 1$ have 0 members, ${10 \\choose 1} = 10$ have 1 member and ${10 \\choose 2} = 45$ have 2 members. Thus the answer is $1024 - 1 - 10 - 45 = \\boxed{968}$ .\n\nNote ${n \\choose 0}+{n \\choose 1} + {n \\choose 2} + \\dots + {n \\choose n}$ is equivalent to $2^n$",
+    "choices": [],
+    "answer": "968",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_2",
+    "topics": [
+      "Problem-Solving: Circle Basics"
+    ]
+  },
+  {
+    "id": "aime-1989-3",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 3,
+    "statementLatex": "Suppose $n$ is a positive integer and $d$ is a single digit in base 10. Find $n$ if\n\n$\\frac{n}{810}=0.d25d25d25\\ldots$",
+    "solutionLatex": "We can express $0.\\overline{d25}$ as $\\frac{100d+25}{999}$ . We set up the given equation and isolate $n:$ \\begin{align*} \\frac{100d+25}{999} &= \\frac{n}{810}, \\\\ \\frac{100d+25}{111} &= \\frac{n}{90}, \\\\ 9000d + 2250 &= 111n. \\end{align*} We then set up the following modular congruence to solve for $d:$ \\begin{align*}9000d + 2250 &\\equiv 0 \\pmod {111}, \\\\ 9d + 30 &\\equiv 0 \\pmod {111}, \\\\ 3d + 10 &\\equiv 0 \\pmod {37}, \\\\ 36d + 120 &\\equiv 0 \\pmod {37}, \\\\ -d &\\equiv -9 \\pmod {37}, \\\\ d &\\equiv 9 \\pmod {37}.\\end{align*} Since $d$ is a digit, it must be equal to $9$ based on our above constraint. When $d=9, n = \\boxed{750}.$\n\n~vaisri",
+    "choices": [],
+    "answer": "750",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_3",
+    "topics": [
+      "Base Conversion",
+      "Bases",
+      "Problem-Solving: Divisibility and Digits",
+      "Digit Problems"
+    ]
+  },
+  {
+    "id": "aime-1989-4",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 4,
+    "statementLatex": "If $a are consecutive positive integers such that $b+c+d$ is a perfect square and $a+b+c+d+e$ is a perfect cube, what is the smallest possible value of $c$ ?",
+    "solutionLatex": "Since the middle term of an arithmetic progression with an odd number of terms is the average of the series, we know $b + c + d = 3c$ and $a + b + c + d + e = 5c$ . Thus, $c$ must be in the form of $3 \\cdot x^2$ based upon the first part and in the form of $5^2 \\cdot y^3$ based upon the second part, with $x$ and $y$ denoting an integers. $c$ is minimized if it’s prime factorization contains only $3,5$ , and since there is a cubed term in $5^2 \\cdot y^3$ , $3^3$ must be a factor of $c$ . $3^35^2 = \\boxed{675}$ , which works as the solution.",
+    "choices": [],
+    "answer": "675",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_4",
+    "topics": [
+      "3D Geometry",
+      "2nd Degree Symmetric Sums",
+      "Counting Divisors"
+    ]
+  },
+  {
+    "id": "aime-1989-7",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 7,
+    "statementLatex": "If the integer $k$ is added to each of the numbers $36$ , $300$ , and $596$ , one obtains the squares of three consecutive terms of an arithmetic series. Find $k$ .",
+    "solutionLatex": "Call the terms of the arithmetic progression $a,\\ a + d,\\ a + 2d$ , making their squares $a^2,\\ a^2 + 2ad + d^2,\\ a^2 + 4ad + 4d^2$ .\n\nWe know that $a^2 = 36 + k$ and $(a + d)^2 = 300 + k$ , and subtracting these two we get $264 = 2ad + d^2$ (1). Similarly, using $(a + d)^2 = 300 + k$ and $(a + 2d)^2 = 596 + k$ , subtraction yields $296 = 2ad + 3d^2$ (2).\n\nSubtracting the first equation from the second, we get $2d^2 = 32$ , so $d = 4$ . Substituting backwards yields that $a = 31$ and $k = \\boxed{925}$ .",
+    "choices": [],
+    "answer": "925",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_7",
+    "topics": [
+      "Arithmetic/Geometric Sequences",
+      "Sequences and Series",
+      "Telescoping - Forcing It"
+    ]
+  },
+  {
+    "id": "aime-1989-9",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 9,
+    "statementLatex": "One of Euler's conjectures was disproved in the 1960s by three American mathematicians when they showed there was a positive integer such that \\[133^5+110^5+84^5+27^5=n^{5}.\\] Find the value of $n$ .",
+    "solutionLatex": "Taking the given equation modulo $2,3,$ and $5,$ respectively, we have\n$\\begin{align*} n^5&\\equiv0\\pmod{2}, \\\\ n^5&\\equiv0\\pmod{3}, \\\\ n^5&\\equiv4\\pmod{5}. \\end{align*}$\nBy either Fermat's Little Theorem (FLT) or inspection, we get\n$\\begin{align*} n&\\equiv0\\pmod{2}, \\\\ n&\\equiv0\\pmod{3}, \\\\ n&\\equiv4\\pmod{5}. \\end{align*}$\nBy either the Chinese Remainder Theorem (CRT) or inspection, we get $n\\equiv24\\pmod{30}.$\n\nIt is clear that $n>133,$ so the possible values for $n$ are $144,174,204,\\ldots.$ Note that\n$\\begin{align*} n^5&=133^5+110^5+84^5+27^5 \\\\ &<133^5+110^5+(84+27)^5 \\\\ &=133^5+110^5+111^5 \\\\ &<3\\cdot133^5, \\end{align*}$\nfrom which $\\left(\\frac{n}{133}\\right)^5<3.$\n\nIf $n\\geq174,$ then\n$\\begin{align*} \\left(\\frac{n}{133}\\right)^5&>1.3^5 \\\\ &=1.3^2\\cdot1.3^2\\cdot1.3 \\\\ &>1.6\\cdot1.6\\cdot1.3 \\\\ &=2.56\\cdot1.3 \\\\ &>2.5\\cdot1.2 \\\\ &=3, \\end{align*}$\nwhich arrives at a contradiction. Therefore, we conclude that $n=\\boxed{144}.$\n\n~MRENTHUSIASM",
+    "choices": [],
+    "answer": "144",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_9",
+    "topics": [
+      "Modular Arithmetic",
+      "Problem-Solving: Divisibility and Digits",
+      "Digit Problems",
+      "Finding the Last Digit"
+    ]
+  },
+  {
+    "id": "aime-1989-10",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Let $a$ , $b$ , $c$ be the three sides of a triangle, and let $\\alpha$ , $\\beta$ , $\\gamma$ , be the angles opposite them. If $a^2+b^2=1989c^2$ , find\n\n$\\frac{\\cot \\gamma}{\\cot \\alpha+\\cot \\beta}$",
+    "solutionLatex": "We draw the altitude $h$ to $c$ , to get two right triangles.\n\n[[img:https://latex.artofproblemsolving.com/c/a/7/ca7f7ca9366088b0274daace75e09ea38876ae3f.png]]\n\nThen $\\cot{\\alpha}+\\cot{\\beta}=\\frac{c}{h}$ , from the definition of the cotangent.\n\nLet $K$ be the area of $\\triangle ABC.$ Then $h=\\frac{2K}{c}$ , so $\\cot{\\alpha}+\\cot{\\beta}=\\frac{c^2}{2K}$ .\n\nBy identical logic, we can find similar expressions for the sums of the other two cotangents:\n$\\begin{align*} \\cot \\alpha + \\cot \\beta &= \\frac{c^2}{2K} \\\\ \\cot \\beta + \\cot \\gamma &= \\frac{a^2}{2K} \\\\ \\cot \\gamma + \\cot \\alpha &= \\frac{b^2}{2K}. \\end{align*}$\nAdding the last two equations, subtracting the first, and dividing by 2, we get\n \\[\\cot \\gamma = \\frac{a^2 + b^2 - c^2}{4K}.\\]\nTherefore\n$\\begin{align*} \\frac{\\cot \\gamma}{\\cot \\alpha + \\cot \\beta} &= \\frac{(a^2 + b^2 - c^2)/(4K)}{c^2/(2K)} \\\\ &= \\frac{a^2 + b^2 - c^2}{2c^2} \\\\ &= \\frac{1989 c^2 - c^2}{2c^2} \\\\ &= \\frac{1988}{2} = \\boxed{994}. \\end{align*}$\n\nBy the law of cosines,\n \\[\\cos \\gamma = \\frac{a^2 + b^2 - c^2}{2ab}.\\] So, by the extended law of sines,\n \\[\\cot \\gamma = \\frac{\\cos \\gamma}{\\sin \\gamma} = \\frac{a^2 + b^2 - c^2}{2ab} \\cdot \\frac{2R}{c} = \\frac{R}{abc} (a^2 + b^2 - c^2).\\]\nIdentical logic works for the other two angles in the triangle. So, the cotangent of any angle in the triangle is directly proportional to the sum of the squares of the two adjacent sides, minus the square of the opposite side. Therefore\n \\[\\frac{\\cot \\gamma}{\\cot \\alpha + \\cot \\beta} = \\frac{a^2 + b^2 - c^2}{(-a^2 + b^2 + c^2) + (a^2 - b^2 + c^2)} = \\frac{a^2 + b^2 - c^2}{2c^2}.\\]\nWe can then finish as in solution 1.\n\nWe start as in solution 1, though we'll write $A$ instead of $K$ for the area. Now we evaluate the numerator:\n\n\\[\\cot{\\gamma}=\\frac{\\cos{\\gamma}}{\\sin{\\gamma}}\\]\n\nFrom the Law of Cosines and the sine area formula,\n\n$\\begin{align*}\\cos{\\gamma}&=\\frac{1988c^2}{2ab}\\\\ \\sin{\\gamma}&= \\frac{2A}{ab}\\\\ \\cot{\\gamma}&= \\frac{\\cos \\gamma}{\\sin \\gamma} = \\frac{1988c^2}{4A} \\end{align*}$\n\nThen $\\frac{\\cot \\gamma}{\\cot \\alpha+\\cot \\beta}=\\frac{\\frac{1988c^2}{4A}}{\\frac{c^2}{2A}}=\\frac{1988}{2}=\\boxed{994}$ .\n\n$\\begin{align*} \\cot{\\alpha} + \\cot{\\beta} &= \\frac {\\cos{\\alpha}}{\\sin{\\alpha}} + \\frac {\\cos{\\beta}}{\\sin{\\beta}} = \\frac {\\sin{\\alpha}\\cos{\\beta} + \\cos{\\alpha}\\sin{\\beta}}{\\sin{\\alpha}\\sin{\\beta}}\\\\ &= \\frac {\\sin{(\\alpha + \\beta)}}{\\sin{\\alpha}\\sin{\\beta}} = \\frac {\\sin{\\gamma}}{\\sin{\\alpha}\\sin{\\beta}} \\end{align*}$\n\nBy the Law of Cosines,\n\n\\[a^2 + b^2 - 2ab\\cos{\\gamma} = c^2 = 1989c^2 - 2ab\\cos{\\gamma} \\implies ab\\cos{\\gamma} = 994c^2\\]\n\nNow\n\n$\\begin{align*}\\frac {\\cot{\\gamma}}{\\cot{\\alpha} + \\cot{\\beta}} &= \\frac {\\cot{\\gamma}\\sin{\\alpha}\\sin{\\beta}}{\\sin{\\gamma}} = \\frac {\\cos{\\gamma}\\sin{\\alpha}\\sin{\\beta}}{\\sin^2{\\gamma}} = \\frac {ab}{c^2}\\cos{\\gamma} = \\frac {ab}{c^2} \\cdot \\frac {994c^2}{ab}\\\\ &= \\boxed{994}\\end{align*}$\n\nUse Law of cosines to give us $c^2=a^2+b^2-2ab\\cos(\\gamma)$ or therefore $\\cos(\\gamma)=\\frac{994c^2}{ab}$ . Next, we are going to put all the sin's in term of $\\sin(a)$ . We get $\\sin(\\gamma)=\\frac{c\\sin(a)}{a}$ . Therefore, we get $\\cot(\\gamma)=\\frac{994c}{b\\sin a}$ .\n\nNext, use Law of Cosines to give us $b^2=a^2+c^2-2ac\\cos(\\beta)$ . Therefore, $\\cos(\\beta)=\\frac{a^2-994c^2}{ac}$ . Also, $\\sin(\\beta)=\\frac{b\\sin(a)}{a}$ . Hence, $\\cot(\\beta)=\\frac{a^2-994c^2}{bc\\sin(a)}$ .\n\nLastly, $\\cos(\\alpha)=\\frac{b^2-994c^2}{bc}$ . Therefore, we get $\\cot(\\alpha)=\\frac{b^2-994c^2}{bc\\sin(a)}$ .\n\nNow, $\\frac{\\cot(\\gamma)}{\\cot(\\beta)+\\cot(\\alpha)}=\\frac{\\frac{994c}{b\\sin a}}{\\frac{a^2-994c^2+b^2-994c^2}{bc\\sin(a)}}$ . After using $a^2+b^2=1989c^2$ , we get $\\frac{994c*bc\\sin a}{c^2b\\sin a}=\\boxed{994}$ .\n\nLet $\\gamma$ be $(180-\\alpha-\\beta)$\n\n$\\frac{\\cot \\gamma}{\\cot \\alpha+\\cot \\beta} = \\frac{\\frac{-\\tan \\alpha \\tan \\beta}{\\tan(\\alpha+\\beta)}}{\\tan \\alpha + \\tan \\beta} = \\frac{(\\tan \\alpha \\tan \\beta)^2-\\tan \\alpha \\tan \\beta}{\\tan^2 \\alpha + 2\\tan \\alpha \\tan \\beta +\\tan^2 \\beta}$\n\nWLOG, assume that $a$ and $c$ are legs of right triangle $abc$ with $\\beta = 90^o$ and $c=1$\n\nBy the Pythagorean theorem, we have $b^2=a^2+1$ , and the given $a^2+b^2=1989$ . Solving the equations gives us $a=\\sqrt{994}$ and $b=\\sqrt{995}$ . We see that $\\tan \\beta = \\infty$ , and $\\tan \\alpha = \\sqrt{994}$ .\n\nOur derived equation equals $\\tan^2 \\alpha$ as $\\tan \\beta$ approaches infinity.\nEvaluating $\\tan^2 \\alpha$ , we get $\\boxed{994}$ .\n\nAs in Solution 1, drop an altitude $h$ to $c$ . Let $h$ meet $c$ at $P$ , and let $AP = x, BP = y$ .\n\n[[img:https://latex.artofproblemsolving.com/c/d/6/cd61091c8c8e5ee3e9ff7a2580f8c81786391de1.png]]\n\nThen, $\\cot{\\alpha} = \\frac{1}{\\tan{\\alpha}} = \\frac{x}{h}$ , $\\cot{\\beta} = \\frac{1}{\\tan{\\beta}} = \\frac{y}{h}$ . We can calculate $\\cot{\\gamma}$ using the tangent addition formula, after noticing that $\\cot{\\gamma} = \\frac{1}{\\tan{\\gamma}}$ . So, we find that\n\\begin{align*}\n\\cot{\\gamma} &= \\frac{1}{\\tan{\\gamma}} \\\\\n&= \\frac{1}{\\frac{\\frac{x}{h} + \\frac{y}{h}}{1 - \\frac{xy}{h^2}}} \\\\\n&= \\frac{1}{\\frac{(x+y)h}{h^2 - xy}} \\\\\n&= \\frac{h^2 - xy}{(x+y)h}.\n\\end{align*}\n\nSo now we can simplify our original expression:\n\\begin{align*}\n\\frac{\\cot{\\gamma}}{\\cot{\\alpha} + \\cot{\\beta}} &= \\frac{\\frac{h^2 - xy}{(x+y)h}}{\\frac{x + y}{h}} \\\\\n&= \\frac{h^2 - xy}{(x+y)^2}.\n\\end{align*}\n\nBut notice that $x+y = c$ , so this becomes \\[\\frac{h^2 - xy}{c^2}.\\]\nNow note that we can use the Pythagorean theorem to calculate $h^2$ , we get that \\[h^2 = \\frac{a^2 - y^2 + b^2 - x^2}{2}.\\]\nSo our expression simplifies to \\[\\frac{1989c^2 - (x+y)^2}{2c^2}\\]\nsince $a^2 + b^2 = 1989c^2$ from the problem and that there is another $-\\frac{2xy}{2}$ after the $h^2$ in our expression. Again note that $x+y = c$ , so it again simplifies to $\\frac{1988c^2}{2c^2}$ , or $\\boxed{994}$ .\n\n~Yiyj1\n\nSince no additional information is given, we can assume that triangle ABC is right with the right angle at B.\nWe can use the Pythagorean theorem to say \\[c^2+a^2=b^2\\]\nWe can now solve for $a$ in terms of $c$\n\n\\[c^2+a^2=1989c^2-a^2\\]\n \\[a^2=994c^2\\]\n \\[a=\\sqrt{994}c\\]\n\nUsing the definition of cotangent\n\n\\[cot(A)=\\frac{c}{a}=\\frac{1}{\\sqrt{994}}\\]\n \\[cot(B)=cot(90)=0\\]\n \\[cot(C)=\\frac{a}{c}=\\sqrt{994}\\]\nPlugging into our desired expression, we get $\\boxed{994}$\n\n~ms0001\n\nAssume the triangle is isosceles and $c=1$ .\nSince $a=b$ , $2a^2=1989$ , $\\rightarrow a=b=\\sqrt{\\frac{1989}{2}}$\n\nSince this is an isosceles triangle, we can find $\\cot(\\alpha)$ , $\\cot(\\beta)$ , by just drawing the height.\nVia Pythagorean Theorem, the height is $\\frac{\\sqrt{3977}}{2}$ .\n\nTherefore we find that $\\tan(\\alpha) = \\tan(\\beta) = \\sqrt{3977}$ .\n $\\tan(\\gamma) = \\tan(180-(\\alpha+\\beta)) = -\\tan(\\alpha+\\beta)$ .\nVia tangent sum formula, $\\tan(\\alpha+\\beta) = -\\frac{\\sqrt{3977}}{1988}$ , so $\\tan(\\gamma) = \\frac{\\sqrt{3977}}{1988}$ .\n\nSince $\\cot(\\theta) = \\frac{1}{\\tan(\\theta)}$ ,\n $\\cot(\\alpha) = \\frac{1}{\\sqrt{3977}}$ , $\\cot(\\beta) = \\frac{1}{\\sqrt{3977}}$ , $\\cot(\\gamma) = \\frac{1988}{\\sqrt{3977}}$ .\n\nPlugging this in, almost everything cancels and we get $\\frac{1988}{2} = \\boxed{994}$ .",
+    "choices": [],
+    "answer": "994",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_10",
+    "topics": [
+      "Pythagorean theorem",
+      "Problem-Solving: Triangle Angles",
+      "Variables",
+      "Algebraic Manipulation"
+    ]
+  },
+  {
+    "id": "aime-1989-11",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 11,
+    "statementLatex": "A sample of 121 integers is given, each between 1 and 1000 inclusive, with repetitions allowed. The sample has a unique mode (most frequent value). Let $D$ be the difference between the mode and the arithmetic mean of the sample. What is the largest possible value of $\\lfloor D\\rfloor$ ? (For real $x$ , $\\lfloor x\\rfloor$ is the greatest integer less than or equal to $x$ .)",
+    "solutionLatex": "Let the mode be $x$ , which we let appear $n > 1$ times. We let the arithmetic mean be $M$ , and the sum of the numbers $\\neq x$ be $S$ . Then\n$\\begin{align*} D &= \\left|M-x\\right| = \\left|\\frac{S+xn}{121}-x\\right| = \\left|\\frac{S}{121}-\\left(\\frac{121-n}{121}\\right)x\\right| \\end{align*}$\nAs $S$ is essentially independent of $x$ , it follows that we wish to minimize or maximize $x$ (in other words, $x \\in \\{1,1000\\}$ ). Indeed, $D(x)$ is symmetric about $x = 500.5$ ; consider replacing all of numbers $x_i$ in the sample with $1001-x_i$ , and the value of $D$ remains the same. So, without loss of generality, let $x=1$ . Now, we would like to maximize the quantity\n\n$\\frac{S}{121}-\\left(\\frac{121-n}{121}\\right)(1) = \\frac{S+n}{121}-1$\n\n$S$ contains $121-n$ numbers that may appear at most $n-1$ times. Therefore, to maximize $S$ , we would have $1000$ appear $n-1$ times, $999$ appear $n-1$ times, and so forth. We can thereby represent $S$ as the sum of $n-1$ arithmetic series of $1000, 999, \\ldots, 1001 - \\left\\lfloor \\frac{121-n}{n-1} \\right\\rfloor$ . We let $k = \\left\\lfloor \\frac{121-n}{n-1} \\right\\rfloor$ , so\n\n$S = (n-1)\\left[\\frac{k(1000 + 1001 - k)}{2}\\right] + R(n)$\n\nwhere $R(n)$ denotes the sum of the remaining $121-(n-1)k$ numbers, namely $R(n) = (121-(n-1)k)(1000-k)$ .\n\nAt this point, we introduce the crude estimate[1] that $k=\\frac{121-n}{n-1}$ , so $R(n) = 0$ and\n$\\begin{align*}2S+2n &= (121-n)\\left(2001-\\frac{121-n}{n-1}\\right)+2n = (120-(n-1))\\left(2002-\\frac{120}{n-1}\\right)\\end{align*}$\nExpanding (ignoring the constants, as these do not affect which $n$ yields a maximum) and scaling, we wish to minimize the expression $5(n-1) + \\frac{36}{n-1}$ . By AM-GM, we have $5(n-1) + \\frac{36}{n-1} \\ge 2\\sqrt{5(n-1) \\cdot \\frac{36}{n-1}}$ , with equality coming when $5(n-1) = \\frac{36}{n-1}$ , so $n-1 \\approx 3$ . Substituting this result and some arithmetic gives an answer of $\\boxed{947}$ .\n\nIn less formal language, it quickly becomes clear after some trial and error that in our sample, there will be $n$ values equal to one and $n-1$ values each of $1000, 999, 998 \\ldots$ . It is fairly easy to find the maximum. Try $n=2$ , which yields $924$ , $n=3$ , which yields $942$ , $n=4$ , which yields $947$ , and $n=5$ , which yields $944$ . The maximum difference occurred at $n=4$ , so the answer is $947$ .",
+    "choices": [],
+    "answer": "947",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_11",
+    "topics": [
+      "Mean Median Mode",
+      "Inequalities (AM-GM)",
+      "Floor",
+      "Linear Inequalities"
+    ]
+  },
+  {
+    "id": "aime-1989-14",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 14,
+    "statementLatex": "Given a positive integer $n$ , it can be shown that every complex number of the form $r+si$ , where $r$ and $s$ are integers, can be uniquely expressed in the base $-n+i$ using the integers $0,1,2,\\ldots,n^2$ as digits. That is, the equation\n\n$r+si=a_m(-n+i)^m+a_{m-1}(-n+i)^{m-1}+\\cdots +a_1(-n+i)+a_0$\n\nis true for a unique choice of non-negative integer $m$ and digits $a_0,a_1,\\ldots,a_m$ chosen from the set $\\{0,1,2,\\ldots,n^2\\}$ , with $a_m\\ne 0$ . We write\n\n$r+si=(a_ma_{m-1}\\ldots a_1a_0)_{-n+i}$\n\nto denote the base $-n+i$ expansion of $r+si$ . There are only finitely many integers $k+0i$ that have four-digit expansions\n\n$k=(a_3a_2a_1a_0)_{-3+i}~~$\n\n$~~a_3\\ne 0.$\n\nFind the sum of all such $k$ ,",
+    "solutionLatex": "First, we find the first three powers of $-3+i$ :\n\n$(-3+i)^1=-3+i ; (-3+i)^2=8-6i ; (-3+i)^3=-18+26i$\n\nSo we solve the diophantine equation $a_1-6a_2+26a_3=0 \\Longrightarrow a_1-6a_2=-26a_3$ .\n\nThe minimum the left-hand side can go is -54, so $1\\leq a_3 \\leq 2$ since $a_3$ can't equal 0, so we try cases:\n\nCase 1: $a_3=2$\n\nThe only solution to that is $(a_1, a_2, a_3)=(2,9,2)$ .\n\nCase 2: $a_3=1$\n\nThe only solution to that is $(a_1, a_2, a_3)=(4,5,1)$ .\n\nSo we have four-digit integers $(292a_0)_{-3+i}$ and $(154a_0)_{-3+i}$ , and we need to find the sum of all integers $k$ that can be expressed by one of those.\n\n$(292a_0)_{-3+i}$ :\n\nWe plug the first three digits into base 10 to get $30+a_0$ . The sum of the integers $k$ in that form is $345$ .\n\n$(154a_0)_{-3+i}$ :\n\nWe plug the first three digits into base 10 to get $10+a_0$ . The sum of the integers $k$ in that form is $145$ . The answer is $345+145=\\boxed{490}$ .\n~minor edit by Yiyj1",
+    "choices": [],
+    "answer": "490",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_14",
+    "topics": [
+      "Digit Problems",
+      "Complex Numbers",
+      "Digit Deduction",
+      "Bases"
+    ]
+  },
+  {
+    "id": "aime-1989-15",
+    "contest": "AIME",
+    "year": 1989,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Point $P$ is inside $\\triangle ABC$ . Line segments $APD$ , $BPE$ , and $CPF$ are drawn with $D$ on $BC$ , $E$ on $AC$ , and $F$ on $AB$ (see the figure below). Given that $AP=6$ , $BP=9$ , $PD=6$ , $PE=3$ , and $CF=20$ , find the area of $\\triangle ABC$ .\n\n$AIME 1989 Problem 15.png$",
+    "solutionLatex": "Let $[RST]$ be the area of polygon $RST$ . We'll make use of the following fact: if $P$ is a point in the interior of triangle $XYZ$ , and line $XP$ intersects line $YZ$ at point $L$ , then $\\dfrac{XP}{PL} = \\frac{[XPY] + [ZPX]}{[YPZ]}.$\n\n[[img:https://latex.artofproblemsolving.com/3/c/9/3c978a1fdb0a6c3a79b9ee477956a440b734f13b.png]]\n\nThis is true because triangles $XPY$ and $YPL$ have their areas in ratio $XP:PL$ (as they share a common height from $Y$ ), and the same is true of triangles $ZPY$ and $LPZ$ .\n\nWe'll also use the related fact that $\\dfrac{[XPY]}{[ZPX]} = \\dfrac{YL}{LZ}$ . This is slightly more well known, as it is used in the standard proof of Ceva's theorem.\n\nNow we'll apply these results to the problem at hand.\n\n[[img:https://latex.artofproblemsolving.com/7/c/9/7c9e14d181ecf013675ff1bfbe1aee4cc51d0c7e.png]]\n\nSince $AP = PD = 6$ , this means that $[APB] + [APC] = [BPC]$ ; thus $\\triangle BPC$ has half the area of $\\triangle ABC$ . And since $PE = 3 = \\dfrac{1}{3}BP$ , we can conclude that $\\triangle APC$ has one third of the combined areas of triangle $BPC$ and $APB$ , and thus $\\dfrac{1}{4}$ of the area of $\\triangle ABC$ . This means that $\\triangle APB$ is left with $\\dfrac{1}{4}$ of the area of triangle $ABC$ :\n \\[[BPC]: [APC]: [APB] = 2:1:1.\\]\nSince $[APC] = [APB]$ , and since $\\dfrac{[APC]}{[APB]} = \\dfrac{CD}{DB}$ , this means that $D$ is the midpoint of $BC$ .\n\nFurthermore, we know that $\\dfrac{CP}{PF} = \\dfrac{[APC] + [BPC]}{[APB]} = 3$ , so $CP = \\dfrac{3}{4} \\cdot CF = 15$ .\n\nWe now apply Stewart's theorem to segment $PD$ in $\\triangle BPC$ —or rather, the simplified version for a median. This tells us that\n \\[2 BD^2 + 2 PD^2 = BP^2+ CP^2.\\] Plugging in we know, we learn that\n$\\begin{align*} 2 BD^2 + 2 \\cdot 36 &= 81 + 225 = 306, \\\\ BD^2 &= 117. \\end{align*}$\nHappily, $BP^2 + PD^2 = 81 + 36$ is also equal to 117. Therefore $\\triangle BPD$ is a right triangle with a right angle at $B$ ; its area is thus $\\dfrac{1}{2} \\cdot 9 \\cdot 6 = 27$ . As $PD$ is a median of $\\triangle BPC$ , the area of $BPC$ is twice this, or 54. And we already know that $\\triangle BPC$ has half the area of $\\triangle ABC$ , which must therefore be $\\boxed{108}$ .\n\nWe first assign masses:\nLet $M(B) = 1$ .\nThen: $M(E) = 3$ , $M(P) = 4$ , $M(A) = M(D) = 2$ , $M(C) = 1$ , $M(F) = 3$ .\n\nThe masses on cevian $CF$ tell us that $CP = 15$ .\n\nAlso, $CD = DB$ . Let $CD = DB = y$ .\n\nLet angle $\\angle PDB = \\theta$ .\nThen, using Law of Cosines on triangle $PDB$ , we find:\n \\[36 + y^2 - 12y\\cos(\\theta) = 81\\]\n\nUsing Law of Cosines on triangle $CDP$ , we find:\n \\[36 + y^2 - 12\\cos(180^\\circ - \\theta) = 225 \\Rightarrow 36 + y^2 + 12\\cos(\\theta) = 225\\]\n\nTherefore,\n \\[36 + y^2 = \\frac{225 + 81}{2} = 153 \\Rightarrow y = \\sqrt{117} = 3\\sqrt{13}\\]\n\nNext,\n \\[12y\\cos(\\theta) = \\frac{225 - 81}{2} = 72 \\Rightarrow y\\cos(\\theta) = 6 \\Rightarrow \\cos(\\theta) = \\frac{2}{\\sqrt{13}}\\]\n\nThen,\n \\[\\cos(\\theta) = \\frac{2}{\\sqrt{13}} \\Rightarrow \\sin(\\theta) = \\frac{3}{\\sqrt{13}}\\]\n\nVia the sine area formula:\n \\[[PDB] = [PDC] = \\frac{6y\\sin(\\theta)}{2} \\Rightarrow [PDB] + [PDC] = [CDB] = 6y\\sin(\\theta)\\]\n\nThen,\n \\[[CAB] = 2 \\cdot [CDB] = 12y\\sin(\\theta)\\]\n\nPlugging in our values for $y$ and $\\sin(\\theta)$ :\n \\[12 \\cdot 3\\sqrt{13} \\cdot \\frac{3}{\\sqrt{13}} = \\boxed{108}\\]\n\nBecause we're given three concurrent cevians and their lengths, it seems very tempting to apply Mass points. We immediately see that $w_E = 3$ , $w_B = 1$ , and $w_A = w_D = 2$ . Now, we recall that the masses on the three sides of the triangle must be balanced out, so $w_C = 1$ and $w_F = 3$ . Thus, $CP = 15$ and $PF = 5$ .\n\nRecalling that $w_C = w_B = 1$ , we see that $DC = DB$ and $DP$ is a median to $BC$ in $\\triangle BCP$ . Applying Stewart's Theorem, we have the following:\n \\[\\frac{BC}{2}(9^2+15^2)=BC(6^2+ \\left(\\frac{BC}{2} \\right)^2).\\]\nEliminating $BC$ on both sides, we have:\n \\[\\frac 12(9^2+15^2)=6^2+ \\left(\\frac{BC}{2} \\right)^2.\\]\nCombining terms and simplifying numbers, we have:\n \\[153=36+\\left(\\frac{BC}{2} \\right)^2.\\]\nSubtracting 36 to the other side yields:\n \\[117= \\left(\\frac{BC}{2} \\right)^2.\\]\nFinishing it off from there, we find that $BC=2 \\sqrt{117}.$ Now, notice that $2[BCP] = [ABC]$ , because both triangles share the same base, $BC$ and $h_{\\triangle ABC} = 2h_{\\triangle BCP}$ . Applying Heron's formula on triangle $BCP$ with sides $15$ , $9$ , and $2\\sqrt{117}$ , we have:\n \\[\\sqrt{(\\sqrt{117}+12)(\\sqrt{117}+12-9)(\\sqrt{117}+12-15)(\\sqrt{117}+12-2\\sqrt{117})}.\\]\nCombining terms results in:\n \\[\\sqrt{(\\sqrt{117}+12)(\\sqrt{117}+3)(\\sqrt{117}-3)(-\\sqrt{117}+12)}.\\]\nNotice that these factors can be grouped into a difference of squares:\n \\[\\sqrt{(144-\\sqrt{117}^2)(\\sqrt{117}^2-9)}.\\]\nSince $\\sqrt{117}^2=117$ , we have:\n \\[\\sqrt{(27)(108)}.\\]\nAfter simplifying this radical, we find that it equals $54.$ Therefore, $[BCP] = 54$ , and hence $[ABC]=2 \\cdot 54= \\boxed{108}$ .\n\n(The original author made a mistake in their solution. Corrected and further explained by dbnl.)\n\nUsing a different form of Ceva's Theorem, we have $\\frac {y}{x + y} + \\frac {6}{6 + 6} + \\frac {3}{3 + 9} = 1\\Longleftrightarrow\\frac {y}{x + y} = \\frac {1}{4}$\n\nSolving $4y = x + y$ and $x + y = 20$ , we obtain $x = CP = 15$ and $y = FP = 5$ .\n\nLet $Q$ be the point on $AB$ such that $FC \\parallel QD$ .\nSince $AP = PD$ and $FP\\parallel QD$ , $QD = 2FP = 10$ . (Stewart's Theorem)\n\nAlso, since $FC\\parallel QD$ and $QD = \\frac{FC}{2}$ , we see that $FQ = QB$ , $BD = DC$ , etc. (Stewart's Theorem)\nSimilarly, we have $PR = RB$ ( $= \\frac12PB = 7.5$ ) and thus $RD = \\frac12PC = 4.5$ .\n\n$PDR$ is a $3-4-5$ right triangle, so $\\angle PDR$ ( $\\angle ADQ$ ) is $90^\\circ$ .\nTherefore, the area of $\\triangle ADQ = \\frac12\\cdot 12\\cdot 6 = 36$ .\nUsing area ratio, $\\triangle ABC = \\triangle ADB\\times 2 = \\left(\\triangle ADQ\\times \\frac32\\right)\\times 2 = 36\\cdot 3 = \\boxed{108}$ .\n\nFirst, let $[AEP]=a, [AFP]=b,$ and $[ECP]=c.$ Thus, we can easily find that $\\frac{[AEP]}{[BPD]}=\\frac{3}{9}=\\frac{1}{3} \\Leftrightarrow [BPD]=3[AEP]=3a.$ Now, $\\frac{[ABP]}{[BPD]}=\\frac{6}{6}=1\\Leftrightarrow [ABP]=3a.$ In the same manner, we find that $[CPD]=a+c.$ Now, we can find that $\\frac{[BPC]}{[PEC]}=\\frac{9}{3}=3 \\Leftrightarrow \\frac{(3a)+(a+c)}{c}=3 \\Leftrightarrow c=2a.$ We can now use this to find that $\\frac{[APC]}{[AFP]}=\\frac{[BPC]}{[BFP]}=\\frac{PC}{FP} \\Leftrightarrow \\frac{3a}{b}=\\frac{6a}{3a-b} \\Leftrightarrow a=b.$ Plugging this value in, we find that $\\frac{FC}{FP}=3 \\Leftrightarrow PC=15, FP=5.$ Now, since $\\frac{[AEP]}{[PEC]}=\\frac{a}{2a}=\\frac{1}{2},$ we can find that $2AE=EC.$ Setting $AC=b,$ we can apply Stewart's Theorem on triangle $APC$ to find that $(15)(15)(\\frac{b}{3})+(6)(6)(\\frac{2b}{3})=(\\frac{2b}{3})(\\frac{b}{3})(b)+(b)(3)(3).$ Solving, we find that $b=\\sqrt{405} \\Leftrightarrow AE=\\frac{b}{3}=\\sqrt{45}.$ But, $3^2+6^2=45,$ meaning that $\\angle{APE}=90 \\Leftrightarrow [APE]=\\frac{(6)(3)}{2}=9=a.$ Since $[ABC]=a+a+2a+2a+3a+3a=12a=(12)(9)=108,$ we conclude that the answer is $\\boxed{108}$ .\n\nFirstly, since they all meet at one single point, denoting the mass of them separately. Assuming $M(A)=6;M(D)=6;M(B)=3;M(E)=9$ ; we can get that $M(P)=12;M(F)=9;M(C)=3$ ; which leads to the ratio between segments,\n \\[\\frac{CE}{AE}=2;\\frac{BF}{AF}=2;\\frac{BD}{CD}=1.\\] Denoting that $CE=2x;AE=x; AF=y; BF=2y; CD=z; DB=z.$\n\nNow we know three cevians' length, Applying Stewart theorem to them, getting three different equations:\n$\\begin{align} (3x)^2 \\cdot 2y+(2z)^2 \\cdot y&=(3y)(2y^2+400), \\\\ (3y)^2 \\cdot z+(3x)^2 \\cdot z&=(2z)(z^2+144), \\\\ (2z)^2 \\cdot x+(3y)^2 \\cdot x&=(3x)(2x^2+144). \\end{align}$\nAfter solving the system of equation, we get that $x=3\\sqrt{5};y=\\sqrt{13};z=3\\sqrt{13}$ ;\n\npulling $x,y,z$ back to get the length of $AC=9\\sqrt{5};AB=3\\sqrt{13};BC=6\\sqrt{13}$ ; now we can apply Heron's formula here, which is \\[\\sqrt\\frac{(9\\sqrt{5}+9\\sqrt{13})(9\\sqrt{13}-9\\sqrt{5})(9\\sqrt{5}+3\\sqrt{13})(9\\sqrt{5}-3\\sqrt{13})}{16}=108.\\]\n\nOur answer is $\\boxed{108}$ .\n\n~bluesoul\n\nTo ease computation, we can apply Stewart's Theorem to find $x$ , $y$ , and $z$ directly. Since $M(C)=3$ and $M(F)=9$ , $\\overline{PC}=15$ and $\\overline{PF}=5$ . We can apply Stewart's Theorem on $\\triangle CPE$ to get $(2x+x)(2x \\cdot x) + 3^2 \\cdot 3x = 15^2 \\cdot x + 6^2\\cdot 2x$ . Solving, we find that $x=3\\sqrt{5}$ . We can do the same on $\\triangle APB$ and $\\triangle BPC$ to obtain $y$ and $z$ . We proceed with Heron's Formula as the solution states.\n\n~kn07\n\nIn Solution 5, instead of finding all of $x, y, z$ , we only need $y, z$ . This is because after we solve for $y, z$ , we can notice that $\\triangle BAD$ is isosceles with $AB = BD$ . Because $P$ is the midpoint of the base, $BP$ is an altitude of $\\triangle BAD$ . Therefore, $[BAD] = \\frac{(AD)(BP)}{2} = \\frac{12 \\cdot 9}{2} = 54$ . Using the same altitude property, we can find that $[ABC] = 2[BAD] = 2 \\cdot 54 = \\boxed{108}$ .\n\n-NL008\n\nSet $AF=x,$ and use mass points to find that $PF=5$ and $BF=2x.$ Using Stewart's Theorem on $APB,$ we find that $AB=3\\sqrt{13}.$ Then we notice that $APB$ is right, which means the area of $APB$ is $27.$ Because $CF=4\\cdot PF,$ the area of $ABC$ is $4$ times the area of $APB,$ which means the area of $ABC=4\\cdot 27=\\boxed{108}.$\n\nWe try to solve this using only elementary concepts. Let the areas of triangles $BCP$ , $ACP$ and $ABP$ be $X$ , $Y$ and $Z$ respectively. Then $\\frac{X}{Y+Z}=\\frac{6}{6}=1$ and $\\frac{Y}{X+Z}=\\frac{3}{9}=\\frac{1}{3}$ . Hence $\\frac{X}{2}=Y=Z$ . Similarly $\\frac{FP}{PC}=\\frac{Z}{X+Y}=\\frac{1}{3}$ and since $CF=20$ we then have $FP=5$ . Additionally we now see that triangles $FPE$ and $CPB$ are similar, so $FE \\parallel BC$ and $\\frac{FE}{BC} = \\frac{1}{3}$ . Hence $\\frac{AF}{FB}=\\frac{1}{2}$ . Now construct a point $K$ on segment $BP$ such that $BK=6$ and $KP=3$ , we will have $FK \\parallel AP$ , and hence $\\frac{FK}{AP} = \\frac{FK}{6} = \\frac{2}{3}$ , giving $FK=4$ . Triangle $FKP$ is therefore a 3-4-5 triangle! So $FK \\perp BE$ and so $AP \\perp BE$ . Then it is easy to calculate that $Z = \\frac{1}{2} \\times 6 \\times 9 = 27$ and the area of triangle $ABC = X+Y+Z = 4Z = 4 \\times 27 = \\boxed{108}$ .\n~Leole\n\nWe start with mass points as in Solution 2, and receive $BF:AF = 2$ , $BD:CD = 1$ , $CE:AE = 2$ . Law of Cosines on triangles $ADB$ and $ADC$ with $\\theta = \\angle ADB$ and $BD=DC=x$ gives\n \\[36+x^2-12x\\cos \\theta = 81\\]\n \\[36+x^2-12x\\cos (180-\\theta) = 36+x^2+12x\\cos \\theta = 225\\]\nAdding them: $72+2x^2=306 \\implies x=3\\sqrt{13}$ , so $BC = 6\\sqrt{13}$ . Similarly, $AB = 3\\sqrt{13}$ and $AC = 9\\sqrt{5}$ . Using Heron's,\n \\[[ \\triangle ABC ]= \\sqrt{\\left(\\dfrac{9\\sqrt{13}+9\\sqrt{5}}{2}\\right)\\left(\\dfrac{9\\sqrt{13}+9\\sqrt{5}}{2}\\right)\\left(\\dfrac{3\\sqrt{13}+9\\sqrt{5}}{2}\\right)\\left(\\dfrac{-3\\sqrt{13}+9\\sqrt{5}}{2}\\right)} = \\boxed{108}.\\]\n\n~sml1809",
+    "choices": [],
+    "answer": "108",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1989_AIME_Problems/Problem_15",
+    "topics": [
+      "Mass Points",
+      "Problem-Solving: Triangle Angles",
+      "Ceva Menelaus",
+      "Length Chasing"
+    ]
+  },
+  {
+    "id": "aime-1988-2",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 2,
+    "statementLatex": "For any positive integer $k$ , let $f_1(k)$ denote the square of the sum of the digits of $k$ . For $n \\ge 2$ , let $f_n(k) = f_1(f_{n - 1}(k))$ . Find $f_{1988}(11)$ .",
+    "solutionLatex": "We see that $f_{1}(11)=4$\n\n$f_2(11) = f_1(4)=16$\n\n$f_3(11) = f_1(16)=49$\n\n$f_4(11) = f_1(49)=169$\n\n$f_5(11) = f_1(169)=256$\n\n$f_6(11) = f_1(256)=169$\n\nNote that this revolves between the two numbers. Since $1988$ is even, we thus have $f_{1988}(11) = f_{4}(11) = \\boxed{169}$ .",
+    "choices": [],
+    "answer": "169",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_2",
+    "topics": [
+      "Digit Problems",
+      "Digit Deduction"
+    ]
+  },
+  {
+    "id": "aime-1988-3",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 3,
+    "statementLatex": "Find $(\\log_2 x)^2$ if $\\log_2 (\\log_8 x) = \\log_8 (\\log_2 x)$ .",
+    "solutionLatex": "Raise both as exponents with base 8:\n\n$\\begin{align*} 8^{\\log_2 (\\log_8 x)} &= 8^{\\log_8 (\\log_2 x)}\\\\ 2^{3 \\log_2(\\log_8x)} &= \\log_2x\\\\ (\\log_8x)^3 &= \\log_2x\\\\ \\left(\\frac{\\log_2x}{\\log_28}\\right)^3 &= \\log_2x\\\\ (\\log_2x)^2 &= (\\log_28)^3 = \\boxed{027}\\\\ \\end{align*}$\n\nA quick explanation of the steps: On the 1st step, we use the property of logarithms that $a^{\\log_a x} = x$ . On the 2nd step, we use the fact that $k \\log_a x = \\log_a x^k$ . On the 3rd step, we use the change of base formula, which states $\\log_a b = \\frac{\\log_k b}{\\log_k a}$ for arbitrary $k$ .",
+    "choices": [],
+    "answer": "027",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_3",
+    "topics": [
+      "Clever Substitutions",
+      "Bases"
+    ]
+  },
+  {
+    "id": "aime-1988-4",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Suppose that $|x_i| < 1$ for $i = 1, 2, \\dots, n$ . Suppose further that\n $|x_1| + |x_2| + \\dots + |x_n| = 19 + |x_1 + x_2 + \\dots + x_n|.$\nWhat is the smallest possible value of $n$ ?",
+    "solutionLatex": "Since $|x_i| < 1$ then\n\n\\[|x_1| + |x_2| + \\dots + |x_n| = 19 + |x_1 + x_2 + \\dots + x_n| < n.\\]\n\nSo $n \\ge 20$ . We now just need to find an example where $n = 20$ : suppose $x_{2k-1} = \\frac{19}{20}$ and $x_{2k} = -\\frac{19}{20}$ ; then on the left hand side we have $\\left|\\frac{19}{20}\\right| + \\left|-\\frac{19}{20}\\right| + \\dots + \\left|-\\frac{19}{20}\\right| = 20\\left(\\frac{19}{20}\\right) = 19$ . On the right hand side, we have $19 + \\left|\\frac{19}{20} - \\frac{19}{20} + \\dots - \\frac{19}{20}\\right| = 19 + 0 = 19$ , and so the equation can hold for $n = \\boxed{020}$ .",
+    "choices": [],
+    "answer": "020",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_4",
+    "topics": [
+      "Linear Inequalities",
+      "AIME-level Inequalities"
+    ]
+  },
+  {
+    "id": "aime-1988-7",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 7,
+    "statementLatex": "In triangle $ABC$ , $\\tan \\angle CAB = 22/7$ , and the altitude from $A$ divides $BC$ into segments of length 3 and 17. What is the area of triangle $ABC$ ?",
+    "solutionLatex": "$AIME 1988 Solution 07.png$\n\nCall $\\angle BAD$ $\\alpha$ and $\\angle CAD$ $\\beta$ . So, $\\tan \\alpha = \\frac {17}{h}$ and $\\tan \\beta = \\frac {3}{h}$ . Using the tangent addition formula $\\tan (\\alpha + \\beta) = \\dfrac {\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta}$ , we get $\\tan (\\alpha + \\beta) = \\dfrac {\\frac {20}{h}}{\\frac {h^2 - 51}{h^2}} = \\frac {22}{7}$ .\n\nSimplifying, we get $\\frac {20h}{h^2 - 51} = \\frac {22}{7}$ . Cross-multiplying and simplifying, we get $11h^2-70h-561 = 0$ . Factoring, we get $(11h+51)(h-11) = 0$ , so we take the positive positive solution, which is $h = 11$ . Therefore, the answer is $\\frac {20 \\cdot 11}{2} = 110$ , so the answer is $\\boxed {110}$ .\n\n~Arcticturn",
+    "choices": [],
+    "answer": "110",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_7",
+    "topics": [
+      "Problem-Solving: Triangle Angles",
+      "Length Chasing",
+      "Problem-Solving: Areas",
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "aime-1988-9",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 9,
+    "statementLatex": "Find the smallest positive integer whose cube ends in $888$ .",
+    "solutionLatex": "A little bit of checking tells us that the units digit must be 2. Now our cube must be in the form of $(10k + 2)^3$ ; using the binomial theorem gives us $1000k^3 + 600k^2 + 120k + 8$ . Since we are looking for the tens digit, $\\mod{100}$ we get $20k + 8 \\equiv 88 \\pmod{100}$ . This is true if the tens digit is either $4$ or $9$ . Casework:\n\n$4$ : Then our cube must be in the form of $(100k + 42)^3 \\equiv 3(100k)(42)^2 + 42^3 \\equiv 200k + 88 \\pmod{1000}$ . Hence the lowest possible value for the hundreds digit is $4$ , and so $442$ is a valid solution.\n $9$ : Then our cube is $(100k + 92)^3 \\equiv 3(100k)(92)^2 + 92^3 \\equiv 200k + 688 \\pmod{1000}$ . The lowest possible value for the hundreds digit is $1$ , and we get $192$ . Hence, since $192 < 442$ , the answer is $\\fbox{192}$",
+    "choices": [],
+    "answer": "192",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_9",
+    "topics": [
+      "3D Geometry",
+      "100x + 10y + z",
+      "Finding the Last Digit",
+      "Modular Arithmetic"
+    ]
+  },
+  {
+    "id": "aime-1988-10",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 10,
+    "statementLatex": "A convex polyhedron has for its faces 12 squares, 8 regular hexagons, and 6 regular octagons. At each vertex of the polyhedron one square, one hexagon, and one octagon meet. How many segments joining vertices of the polyhedron lie in the interior of the polyhedron rather than along an edge or a face?",
+    "solutionLatex": "The polyhedron described looks like this, a truncated cuboctahedron.\n\n[[img:https://wiki-images.artofproblemsolving.com//thumb/0/04/Truncatedcuboctahedron.jpg/200px-Truncatedcuboctahedron.jpg]]\n\nThe number of segments joining the vertices of the polyhedron is ${48\\choose2} = 1128$ . We must now subtract out those segments that lie along an edge or a face.\n\nSince every vertex of the polyhedron lies on exactly one vertex of a square/hexagon/octagon, we have that $V = 12 \\cdot 4 = 8 \\cdot 6 = 6 \\cdot 8 = 48$ .\n\nEach vertex is formed by the intersection of 3 edges. Since every edge is counted twice, once at each of its endpoints, the number of edges $E$ is $\\frac{3}{2}V = 72$ .\n\nEach of the segments lying on a face of the polyhedron must be a diagonal of that face. Each square contributes $\\frac{n(n-3)}{2} = 2$ diagonals, each hexagon $9$ , and each octagon $20$ . The number of diagonals is thus $2 \\cdot 12 + 9 \\cdot 8 + 20 \\cdot 6 = 216$ .\n\nSubtracting, we get that the number of space diagonals is $1128 - 72 - 216 = \\boxed{840}$ .",
+    "choices": [],
+    "answer": "840",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_10",
+    "topics": [
+      "Problem-Solving: Polygons",
+      "Overcounting",
+      "Combinations",
+      "Length Chasing"
+    ]
+  },
+  {
+    "id": "aime-1988-11",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 11,
+    "statementLatex": "Let $w_1, w_2, \\dots, w_n$ be complex numbers. A line $L$ in the complex plane is called a mean line for the points $w_1, w_2, \\dots, w_n$ if $L$ contains points (complex numbers) $z_1, z_2, \\dots, z_n$ such that\n \\[\\sum_{k = 1}^n (z_k - w_k) = 0.\\]\nFor the numbers $w_1 = 32 + 170i$ , $w_2 = - 7 + 64i$ , $w_3 = - 9 + 200i$ , $w_4 = 1 + 27i$ , and $w_5 = - 14 + 43i$ , there is a unique mean line with $y$ -intercept 3. Find the slope of this mean line.",
+    "solutionLatex": "$\\sum_{k=1}^5 z_k - \\sum_{k=1}^5 w_k = 0$\n\n$\\sum_{k=1}^5 z_k = 3 + 504i$\n\nEach $z_k = x_k + y_ki$ lies on the complex line $y = mx + 3$ , so we can rewrite this as\n\n$\\sum_{k=1}^5 z_k = \\sum_{k=1}^5 x_k + \\sum_{k=1}^5 y_ki$\n\n$3 + 504i = \\sum_{k=1}^5 x_k + i \\sum_{k=1}^5 (mx_k + 3)$\n\nMatching the real parts and the imaginary parts, we get that $\\sum_{k=1}^5 x_k = 3$ and $\\sum_{k=1}^5 (mx_k + 3) = 504$ . Simplifying the second summation, we find that $m\\sum_{k=1}^5 x_k = 504 - 3 \\cdot 5 = 489$ , and substituting, the answer is $m \\cdot 3 = 489 \\Longrightarrow m = 163$ .\n\nWe know that\n\n$\\sum_{k=1}^5 w_k = 3 + 504i$\n\nAnd because the sum of the 5 $z$ 's must cancel this out,\n\n$\\sum_{k=1}^5 z_k = 3 + 504i$\n\nWe write the numbers in the form $a + bi$ and we know that\n\n$\\sum_{k=1}^5 a_k = 3$ and $\\sum_{k=1}^5 b_k = 504$\n\nThe line is of equation $y=mx+3$ . Substituting in the polar coordinates, we have $b_k = ma_k + 3$ .\n\nSumming all 5 of the equations given for each $k$ , we get\n\n$504 = 3m + 15$\n\nSolving for $m$ , the slope, we get $\\boxed{163}$\n\nThe mean line for $w_1, . . ., w_5$ must pass through the mean (the center of mass) of these points, which, if we graph them on the complex plane, is $(\\frac{3}{5}, \\frac{504i}{5})$ . Since we now have two points, namely that one and $(0, 3i)$ , we can simply find the slope between them, which is $\\boxed{163}$ by the good ol' slope formula.",
+    "choices": [],
+    "answer": "163",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_11",
+    "topics": [
+      "Complex Numbers",
+      "Mean Median Mode",
+      "Linear Equations"
+    ]
+  },
+  {
+    "id": "aime-1988-14",
+    "contest": "AIME",
+    "year": 1988,
+    "version": "",
+    "number": 14,
+    "statementLatex": "Let $C$ be the graph of $xy = 1$ , and denote by $C^*$ the reflection of $C$ in the line $y = 2x$ . Let the equation of $C^*$ be written in the form\n\n\\[12x^2 + bxy + cy^2 + d = 0.\\]\n\nFind the product $bc$ .",
+    "solutionLatex": "Given a point $P (x,y)$ on $C$ , we look to find a formula for $P' (x', y')$ on $C^*$ . Both points lie on a line that is perpendicular to $y=2x$ , so the slope of $\\overline{PP'}$ is $\\frac{-1}{2}$ . Thus $\\frac{y' - y}{x' - x} = \\frac{-1}{2} \\Longrightarrow x' + 2y' = x + 2y$ . Also, the midpoint of $\\overline{PP'}$ , $\\left(\\frac{x + x'}{2}, \\frac{y + y'}{2}\\right)$ , lies on the line $y = 2x$ . Therefore $\\frac{y + y'}{2} = x + x' \\Longrightarrow 2x' - y' = y - 2x$ .\n\nSolving these two equations, we find $x = \\frac{-3x' + 4y'}{5}$ and $y = \\frac{4x' + 3y'}{5}$ . Substituting these points into the equation of $C$ , we get $\\frac{(-3x'+4y')(4x'+3y')}{25}=1$ , which when expanded becomes $12x'^2-7x'y'-12y'^2+25=0$ .\n\nThus, $bc=(-7)(-12)=\\boxed{084}$ .",
+    "choices": [],
+    "answer": "084",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_14",
+    "topics": [
+      "Problem-Solving: Reflection Trick",
+      "Graphing Functions",
+      "Symmetry",
+      "Complex Numbers"
+    ]
+  },
+  {
+    "id": "aime-1987-1",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 1,
+    "statementLatex": "An ordered pair $(m,n)$ of non-negative integers is called \"simple\" if the addition $m+n$ in base $10$ requires no carrying. Find the number of simple ordered pairs of non-negative integers that sum to $1492$ .",
+    "solutionLatex": "Since no carrying over is allowed, the range of possible values of any digit of $m$ is from $0$ to the respective digit in $1492$ (the values of $n$ are then fixed). Thus, the number of ordered pairs will be $(1 + 1)(4 + 1)(9 + 1)(2 + 1) = 2\\cdot 5\\cdot 10\\cdot 3 = \\boxed{300}$ .\n\nIf you do not understand the above solution, consider this. For every positive integer $m$ , there is only one whole number $n$ that you can add to it to obtain the required sum. Also, the total number of non-negative integers that are smaller than or equal to an integer $a$ is $(a + 1)$ because there are $(a - 1)$ positive integers that are less than it, in addition to $0$ and itself.",
+    "choices": [],
+    "answer": "300",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_1",
+    "topics": [
+      "Bases",
+      "Base Conversion",
+      "Digit Problems",
+      "Digit Deduction"
+    ]
+  },
+  {
+    "id": "aime-1987-2",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 2,
+    "statementLatex": "What is the largest possible distance between two points, one on the sphere of radius 19 with center $(-2,-10,5)$ and the other on the sphere of radius 87 with center $(12,8,-16)$ ?",
+    "solutionLatex": "The distance between the two centers of the spheres can be determined via the distance formula in three dimensions: $\\sqrt{(12 - (-2))^2 + (8 - (-10))^2 + (-16 - 5)^2} = \\sqrt{14^2 + 18^2 + 21^2} = 31$ . The largest possible distance would be the sum of the two radii and the distance between the two centers, making it $19 + 87 + 31 = \\boxed{137}$ .",
+    "choices": [],
+    "answer": "137",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_2",
+    "topics": [
+      "3D Geometry",
+      "Problem-Solving: Circle Basics",
+      "Problem-Solving: Connecting the Centers"
+    ]
+  },
+  {
+    "id": "aime-1987-4",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Find the area of the region enclosed by the graph of $|x-60|+|y|=\\left|\\frac{x}{4}\\right|.$",
+    "solutionLatex": "$1987 AIME-4.png$\n\nSince $|y|$ is nonnegative, $\\left|\\frac{x}{4}\\right| \\ge |x - 60|$ . Solving this gives us two equations: $\\frac{x}{4} \\ge x - 60\\ \\mathrm{and} \\ -\\frac{x}{4} \\le x - 60$ . Thus, $48 \\le x \\le 80$ . The maximum and minimum y value is when $|x - 60| = 0$ , which is when $x = 60$ and $y = \\pm 15$ . Since the graph is symmetric about the y-axis, we just need casework upon $x$ . $\\frac{x}{4} > 0$ , so we break up the condition $|x-60|$ :\n\n$x - 60 > 0$ . Then $y = -\\frac{3}{4}x+60$ .\n $x - 60 < 0$ . Then $y = \\frac{5}{4}x-60$ .\n\nThe area of the region enclosed by the graph is that of the quadrilateral defined by the points $(48,0),\\ (60,15),\\ (80,0), \\ (60,-15)$ . Breaking it up into triangles and solving or using the Shoelace Theorem, we get $2 \\cdot \\frac{1}{2}(80 - 48)(15) = \\boxed{480}$ .",
+    "choices": [],
+    "answer": "480",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_4",
+    "topics": [
+      "Problem-Solving: Areas",
+      "Graphing Functions",
+      "Problem-Solving: Triangle Angles"
+    ]
+  },
+  {
+    "id": "aime-1987-7",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 7,
+    "statementLatex": "Let $[r,s]$ denote the least common multiple of positive integers $r$ and $s$ . Find the number of ordered triples $(a,b,c)$ of positive integers for which $[a,b] = 1000$ , $[b,c] = 2000$ , and $[c,a] = 2000$ .",
+    "solutionLatex": "It's clear that we must have $a = 2^j5^k$ , $b = 2^m 5^n$ and $c = 2^p5^q$ for some nonnegative integers $j, k, m, n, p, q$ . Dealing first with the powers of 2: from the given conditions, $\\max(j, m) = 3$ , $\\max(m, p) = \\max(p, j) = 4$ . Thus we must have $p = 4$ and at least one of $m, j$ equal to 3. This gives 7 possible triples $(j, m, p)$ : $(0, 3, 4), (1, 3, 4), (2, 3, 4), (3, 3, 4), (3, 2, 4), (3, 1, 4)$ and $(3, 0, 4)$ .\n\nNow, for the powers of 5: we have $\\max(k, n) = \\max(n, q) = \\max(q, k) = 3$ . Thus, at least two of $k, n, q$ must be equal to 3, and the other can take any value between 0 and 3. This gives us a total of 10 possible triples: $(3, 3, 3)$ and three possibilities of each of the forms $(3, 3, n)$ , $(3, n, 3)$ and $(n, 3, 3)$ .\n\nSince the exponents of 2 and 5 must satisfy these conditions independently, we have a total of $7 \\cdot 10 = 70$ possible valid triples.",
+    "choices": [],
+    "answer": "070",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_7",
+    "topics": [
+      "Casework",
+      "GCD/LCM",
+      "GCD and LCM",
+      "Complementary Counting"
+    ]
+  },
+  {
+    "id": "aime-1987-9",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 9,
+    "statementLatex": "Triangle $ABC$ has right angle at $B$ , and contains a point $P$ for which $PA = 10$ , $PB = 6$ , and $\\angle APB = \\angle BPC = \\angle CPA$ . Find $PC$ .\n\n[[img:https://latex.artofproblemsolving.com/8/7/b/87b171f8fbb8055a3f8d854d493f599eec30c1fc.png]]",
+    "solutionLatex": "Let $PC = x$ . Since $\\angle APB = \\angle BPC = \\angle CPA$ , each of them is equal to $120^\\circ$ . By the Law of Cosines applied to triangles $\\triangle APB$ , $\\triangle BPC$ and $\\triangle CPA$ at their respective angles $P$ , remembering that $\\cos 120^\\circ = -\\frac12$ , we have\n\n\\[AB^2 = 36 + 100 + 60 = 196, BC^2 = 36 + x^2 + 6x, CA^2 = 100 + x^2 + 10x\\]\n\nThen by the Pythagorean Theorem, $AB^2 + BC^2 = CA^2$ , so\n\n\\[x^2 + 10x + 100 = x^2 + 6x + 36 + 196\\]\n\nand\n\n\\[4x = 132 \\Longrightarrow x = \\boxed{033}.\\]\n\nThis is the Fermat point of the triangle.",
+    "choices": [],
+    "answer": "033",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_9",
+    "topics": [
+      "Problem-Solving: Triangle Angles",
+      "Angle Chasing",
+      "3rd Degree Symmetric Sums"
+    ]
+  },
+  {
+    "id": "aime-1987-10",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 10,
+    "statementLatex": "Al walks down to the bottom of an escalator that is moving up and he counts 150 steps. His friend, Bob, walks up to the top of the escalator and counts 75 steps. If Al's speed of walking (in steps per unit time) is three times Bob's walking speed, how many steps are visible on the escalator at a given time? (Assume that this value is constant.)",
+    "solutionLatex": "Let the total number of steps be $x$ , the speed of the escalator be $e$ and the speed of Bob be $b$ .\n\nIn the time it took Bob to climb up the escalator he saw 75 steps and also climbed the entire escalator. Thus the contribution of the escalator must have been an additional $x - 75$ steps. Since Bob and the escalator were both moving at a constant speed over the time it took Bob to climb, the ratio of their distances covered is the same as the ratio of their speeds, so $\\frac{e}{b} = \\frac{x - 75}{75}$ .\n\nSimilarly, in the time it took Al to walk down the escalator he saw 150 steps, so the escalator must have moved $150 - x$ steps in that time. Thus $\\frac{e}{3b} = \\frac{150 - x}{150}$ or $\\frac{e}{b} = \\frac{150 - x}{50}$ .\n\nEquating the two values of $\\frac{e}{b}$ we have $\\frac{x - 75}{75} = \\frac{150 - x}{50}$ and so $2x - 150 = 450 - 3x$ and $5x = 600$ and $x = \\boxed{120}$ , the answer.",
+    "choices": [],
+    "answer": "120",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_10",
+    "topics": [
+      "Ratios and Rates",
+      "Distance, Rate, Time"
+    ]
+  },
+  {
+    "id": "aime-1987-11",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 11,
+    "statementLatex": "Find the largest possible value of $k$ for which $3^{11}$ is expressible as the sum of $k$ consecutive positive integers.",
+    "solutionLatex": "Let us write down one such sum, with $m$ terms and first term $n + 1$ :\n\n$3^{11} = (n + 1) + (n + 2) + \\ldots + (n + m) = \\frac{1}{2} m(2n + m + 1)$ .\n\nThus $m(2n + m + 1) = 2 \\cdot 3^{11}$ so $m$ is a divisor of $2\\cdot 3^{11}$ . However, because $n \\geq 0$ we have $m^2 < m(m + 1) \\leq 2\\cdot 3^{11}$ so $m < \\sqrt{2\\cdot 3^{11}} < 3^6$ . Thus, we are looking for large factors of $2\\cdot 3^{11}$ which are less than $3^6$ . The largest such factor is clearly $2\\cdot 3^5 = 486$ ; for this value of $m$ we do indeed have the valid expression $3^{11} = 122 + 123 + \\ldots + 607$ , for which $k=\\boxed{486}$ .\n\nFirst note that if $k$ is odd, and $n$ is the middle term, the sum equals $kn$ . If $k$ is even, then we have the sum equal to $kn+k/2$ , which will be even. Since $3^{11}$ is odd, we see that $k$ is odd.\n\nThus, we have $nk=3^{11} \\implies n=3^{11}/k$ . Also, note $n-(k+1)/2=0 \\implies n=(k+1)/2.$ Subsituting $n=3^{11}/k$ , we have $k^2+k=2*3^{11}$ . Proceed as in solution 1.\n\nProceed as in Solution 1 until it is noted that $m$ is a divisor of $2\\cdot 3^{11}$ . The divisors of $2\\cdot 3^{11}$ are $3^{1} , 2\\cdot 3^{1} , 3^{2} , 2\\cdot 3^{2} , \\ldots , 2\\cdot 3^{10} , 3^{11}$ . Note that the factors of $m(2n + m + 1)$ are of opposite parity (if $m$ is odd, then $(2n + m + 1)$ is even and vice versa). Thus, one of the two factors will be a power of three, and the other will be twice a power of three. $(2n + m + 1)$ will represent the greater factor while $m$ will represent the lesser factor. Given this information, we need to find the factor pair that maximizes the lesser of the two factors, as this will maximize the value of $m$ . The factor pair which maximizes the lesser factor is $2\\cdot 3^{5}$ and $3^{6}$ . It follows that $m$ = $2\\cdot 3^{5}$ = $\\boxed{486}$ .\n\n~ cxsmi",
+    "choices": [],
+    "answer": "486",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_11",
+    "topics": [
+      "Parity Reasoning"
+    ]
+  },
+  {
+    "id": "aime-1987-13",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 13,
+    "statementLatex": "A given sequence $r_1, r_2, \\dots, r_n$ of distinct real numbers can be put in ascending order by means of one or more \"bubble passes\". A bubble pass through a given sequence consists of comparing the second term with the first term, and exchanging them if and only if the second term is smaller, then comparing the third term with the second term and exchanging them if and only if the third term is smaller, and so on in order, through comparing the last term, $r_n$ , with its current predecessor and exchanging them if and only if the last term is smaller.\n\nThe example below shows how the sequence 1, 9, 8, 7 is transformed into the sequence 1, 8, 7, 9 by one bubble pass. The numbers compared at each step are underlined.\n\n$\\underline{1 \\quad 9} \\quad 8 \\quad 7$\n\n$1 \\quad {}\\underline{9 \\quad 8} \\quad 7$\n\n$1 \\quad 8 \\quad \\underline{9 \\quad 7}$\n\n$1 \\quad 8 \\quad 7 \\quad 9$\n\nSuppose that $n = 40$ , and that the terms of the initial sequence $r_1, r_2, \\dots, r_{40}$ are distinct from one another and are in random order. Let $p/q$ , in lowest terms, be the probability that the number that begins as $r_{20}$ will end up, after one bubble pass, in the $30^{\\mbox{th}}$ place. Find $p + q$ .",
+    "solutionLatex": "If any of $r_1, \\ldots, r_{19}$ is larger than $r_{20}$ , one of these numbers will be compared with $r_{20}$ on the 19th step of the first bubble pass and $r_{20}$ will be moved back to the 19th position. Thus, $r_{20}$ must be the largest of the first 20 terms. In addition, $r_{20}$ must be larger than $r_{21}, r_{22}, \\ldots, r_{30}$ but smaller than $r_{31}$ in order that it move right to the 30th position but then not continue moving right to the 31st.\n\nThus, our problem can be restated: What is the probability that in a sequence of 31 distinct real numbers, the largest is in position 31 and the second-largest is in position 20 (the other 29 numbers are irrelevant)?\n\nThis is much easier to solve: there are $31!$ ways to order the first thirty-one numbers and $29!$ ways to arrange them so that the largest number is in the 31st position and the second-largest is in the 20th. This gives us a desired probability of $\\frac{29!}{31!} = \\frac{1}{31\\cdot 30} = \\frac{1}{930}$ , so the answer is $\\boxed{931}$ .\n\nNote that you can solve the restated problem differently:\n\nWe see that the numerator is $1$ because there is only $1$ way to make the $31^{\\text{st}}$ term the largest and the $20^{\\text{th}}$ the second-largest. To calculate the denominator, we note that there are $31\\times30$ ways to pick the largest term and the second-largest term. Therefore, our answer is $\\boxed{931}$ .\n~Yiyj1",
+    "choices": [],
+    "answer": "931",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_13",
+    "topics": [
+      "Introduction to Probability",
+      "Logic",
+      "Linear Inequalities",
+      "Permutations"
+    ]
+  },
+  {
+    "id": "aime-1987-15",
+    "contest": "AIME",
+    "year": 1987,
+    "version": "",
+    "number": 15,
+    "statementLatex": "Squares $S_1$ and $S_2$ are inscribed in right triangle $ABC$ , as shown in the figures below. Find $AC + CB$ if area $(S_1) = 441$ and area $(S_2) = 440$ .\n\n$AIME 1987 Problem 15.png$",
+    "solutionLatex": "$1987 AIME-15a.png$\n\nBecause all the triangles in the figure are similar to triangle $ABC$ , it's a good idea to use area ratios. In the diagram above, $\\frac {T_1}{T_3} = \\frac {T_2}{T_4} = \\frac {441}{440}.$ Hence, $T_3 = \\frac {440}{441}T_1$ and $T_4 = \\frac {440}{441}T_2$ . Additionally, the area of triangle $ABC$ is equal to both $T_1 + T_2 + 441$ and $T_3 + T_4 + T_5 + 440.$\n\nSetting the equations equal and solving for $T_5$ , $T_5 = 1 + T_1 - T_3 + T_2 - T_4 = 1 + \\frac {T_1}{441} + \\frac {T_2}{441}$ . Therefore, $441T_5 = 441 + T_1 + T_2$ . However, $441 + T_1 + T_2$ is equal to the area of triangle $ABC$ ! This means that the ratio between the areas $T_5$ and $ABC$ is $441$ , and the ratio between the sides is $\\sqrt {441} = 21$ . As a result, $AB = 21\\sqrt {440} = \\sqrt {AC^2 + BC^2}$ . We now need $(AC)(BC)$ to find the value of $AC + BC$ , because $AC^2 + BC^2 + 2(AC)(BC) = (AC + BC)^2$ .\n\nLet $h$ denote the height to the hypotenuse of triangle $ABC$ . Notice that $h - \\frac {1}{21}h = \\sqrt {440}$ . (The height of $ABC$ decreased by the corresponding height of $T_5$ ) Thus, $(AB)(h) = (AC)(BC) = 22\\cdot 21^2$ . Because $AC^2 + BC^2 + 2(AC)(BC) = (AC + BC)^2 = 21^2\\cdot22^2$ , $AC + BC = (21)(22) = \\boxed{462}$ .",
+    "choices": [],
+    "answer": "462",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1987_AIME_Problems/Problem_15",
+    "topics": [
+      "Pythagorean theorem",
+      "Problem-Solving: Triangle Angles",
+      "Problem-Solving: Areas",
+      "Problem-Solving: Inscribed Circles"
+    ]
+  },
+  {
+    "id": "aime-1986-2",
+    "contest": "AIME",
+    "year": 1986,
+    "version": "",
+    "number": 2,
+    "statementLatex": "Evaluate the product \\[\\left(\\sqrt{5}+\\sqrt{6}+\\sqrt{7}\\right)\\left(\\sqrt{5}+\\sqrt{6}-\\sqrt{7}\\right)\\left(\\sqrt{5}-\\sqrt{6}+\\sqrt{7}\\right)\\left(-\\sqrt{5}+\\sqrt{6}+\\sqrt{7}\\right).\\]",
+    "solutionLatex": "More generally, let $(x,y,z)=\\left(\\sqrt5,\\sqrt6,\\sqrt7\\right)$ so that $\\left(x^2,y^2,z^2\\right)=(5,6,7).$\n\nWe rewrite the original expression in terms of $x,y,$ and $z,$ then apply the difference of squares repeatedly:\n$\\begin{align*} (x+y+z)(x+y-z)(x-y+z)(-x+y+z) &= \\left[((x+y)+z)((x+y)-z)\\right]\\left[((z+(x-y))(z-(x-y))\\right] \\\\ &= \\left[(x+y)^2-z^2\\right]\\left[z^2 - (x-y)^2\\right] \\\\ &= \\left[x^2+2xy+y^2-z^2\\right]\\left[z^2-x^2+2xy-y^2\\right] \\\\ &= \\left[2xy + \\left(x^2+y^2-z^2\\right)\\right]\\left[2xy - \\left(x^2+y^2-z^2\\right)\\right] \\\\ &= \\left(2xy\\right)^2 - \\left(x^2+y^2-z^2\\right)^2 \\\\ &= \\left(2\\cdot\\sqrt5\\cdot\\sqrt6\\right)^2 - \\left(5+6-7\\right)^2 \\\\ &= \\boxed{104}. \\end{align*}$\nRemark\n\nFrom this solution, note that the original expression has cyclic symmetry with respect to $x,y,$ and $z:$\n$\\begin{align*} (x+y+z)(x+y-z)(x-y+z)(-x+y+z) &= \\cdots \\\\ &= \\left(2xy\\right)^2 - \\left(x^2+y^2-z^2\\right)^2 \\\\ &= 4x^2y^2 - x^4 - y^4 - z^4 - 2x^2y^2 + 2y^2z^2 + 2z^2x^2 \\\\ &= 2x^2y^2 + 2y^2z^2 + 2z^2x^2 - x^4 - y^4 - z^4. \\end{align*}$\n~MRENTHUSIASM",
+    "choices": [],
+    "answer": "104",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_2",
+    "topics": [
+      "Simplifying Radicals",
+      "Algebraic Manipulation",
+      "Problem-Solving: Triangle Angles",
+      "Telescoping - Forcing It"
+    ]
+  },
+  {
+    "id": "aime-1986-3",
+    "contest": "AIME",
+    "year": 1986,
+    "version": "",
+    "number": 3,
+    "statementLatex": "If $\\tan x+\\tan y=25$ and $\\cot x + \\cot y=30$ , what is $\\tan(x+y)$ ?",
+    "solutionLatex": "Since $\\cot$ is the reciprocal function of $\\tan$ :\n\n$\\cot x + \\cot y = \\frac{1}{\\tan x} + \\frac{1}{\\tan y} = \\frac{\\tan x + \\tan y}{\\tan x \\cdot \\tan y} = 30$\n\nThus, $\\tan x \\cdot \\tan y = \\frac{\\tan x + \\tan y}{30} = \\frac{25}{30} = \\frac{5}{6}$\n\nUsing the tangent addition formula:\n\n$\\tan(x+y) = \\frac{\\tan x + \\tan y}{1-\\tan x \\cdot \\tan y} = \\frac{25}{1-\\frac{5}{6}} = \\boxed{150}$ .",
+    "choices": [],
+    "answer": "150",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_3",
+    "topics": [
+      "Trigonometry",
+      "System of Equations"
+    ]
+  },
+  {
+    "id": "aime-1986-4",
+    "contest": "AIME",
+    "year": 1986,
+    "version": "",
+    "number": 4,
+    "statementLatex": "Determine $3x_4+2x_5$ if $x_1$ , $x_2$ , $x_3$ , $x_4$ , and $x_5$ satisfy the system of equations below.\n\n$2x_1+x_2+x_3+x_4+x_5=6$\n\n$x_1+2x_2+x_3+x_4+x_5=12$\n\n$x_1+x_2+2x_3+x_4+x_5=24$\n\n$x_1+x_2+x_3+2x_4+x_5=48$\n\n$x_1+x_2+x_3+x_4+2x_5=96$",
+    "solutionLatex": "Adding all five equations gives us $6(x_1 + x_2 + x_3 + x_4 + x_5) = 6(1 + 2 + 4 + 8 + 16)$ so $x_1 + x_2 + x_3 + x_4 + x_5 = 31$ . Subtracting this from the fourth given equation gives $x_4 = 17$ and subtracting it from the fifth given equation gives $x_5 = 65$ , so our answer is $3\\cdot17 + 2\\cdot65 = \\boxed{181}$ .",
+    "choices": [],
+    "answer": "181",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_4",
+    "topics": [
+      "System of Equations"
+    ]
+  },
+  {
+    "id": "aime-1986-9",
+    "contest": "AIME",
+    "year": 1986,
+    "version": "",
+    "number": 9,
+    "statementLatex": "In $\\triangle ABC$ , $AB= 425$ , $BC=450$ , and $AC=510$ . An interior point $P$ is then drawn, and segments are drawn through $P$ parallel to the sides of the triangle. If these three segments are of an equal length $d$ , find $d$ .",
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/8/e/1/8e19916c4ed37209e832673ba0274846bb4c4246.png]]\n\nLet the points at which the segments hit the triangle be called $D, D', E, E', F, F'$ as shown above. As a result of the lines being parallel, all three smaller triangles and the larger triangle are similar ( $\\triangle ABC \\sim \\triangle DPD' \\sim \\triangle PEE' \\sim \\triangle F'PF$ ). The remaining three sections are parallelograms.\n\nBy similar triangles, $BE'=\\frac{d}{510}\\cdot450=\\frac{15}{17}d$ and $EC=\\frac{d}{425}\\cdot450=\\frac{18}{17}d$ . Since $FD'=BC-EE'$ , we have $900-\\frac{33}{17}d=d$ , so $d=\\boxed{306}$ .\n\n[[img:https://latex.artofproblemsolving.com/5/f/c/5fc526dbe18819a296d19917baff0c4a03830eb0.png]]\n\nConstruct cevians $AX$ , $BY$ and $CZ$ through $P$ . Place masses of $x,y,z$ on $A$ , $B$ and $C$ respectively; then $P$ has mass $x+y+z$ .\n\nNotice that $Z$ has mass $x+y$ . On the other hand, by similar triangles, $\\frac{CP}{CZ} = \\frac{d}{AB}$ . Hence by mass points we find that \\[\\frac{x+y}{x+y+z} = \\frac{d}{AB}\\] Similarly, we obtain \\[\\frac{y+z}{x+y+z} = \\frac{d}{BC} \\qquad \\text{and} \\qquad \\frac{z+x}{x+y+z} = \\frac{d}{CA}\\] Summing these three equations yields \\[\\frac{d}{AB} + \\frac{d}{BC} + \\frac{d}{CA} = \\frac{x+y}{x+y+z} + \\frac{y+z}{x+y+z} + \\frac{z+x}{x+y+z} = \\frac{2x+2y+2z}{x+y+z} = 2\\]\n\nHence,\n\n$d = \\frac{2}{\\frac{1}{AB} + \\frac{1}{BC} + \\frac{1}{CA}} = \\frac{2}{\\frac{1}{510} + \\frac{1}{450} + \\frac{1}{425}} = \\frac{10}{\\frac{1}{85}+\\frac{1}{90}+\\frac{1}{102}}$ $= \\frac{10}{\\frac{1}{5}\\left(\\frac{1}{17}+\\frac{1}{18}\\right)+\\frac{1}{102}}=\\frac{10}{\\frac{1}{5}\\cdot\\frac{35}{306}+\\frac{3}{306}}=\\frac{10}{\\frac{10}{306}} = \\boxed{306}$\n\n[[img:https://latex.artofproblemsolving.com/0/8/a/08ae6b7affdbd9f7a37f66ddf918895508ad791c.png]]\n\nLet the points at which the segments hit the triangle be called $D, D', E, E', F, F'$ as shown above. As a result of the lines being parallel, all three smaller triangles and the larger triangle are similar ( $\\triangle ABC \\sim \\triangle DD'P \\sim \\triangle PEE' \\sim \\triangle F'PF$ ). The remaining three sections are parallelograms.\n\nSince $PDAF'$ is a parallelogram, we find $PF' = AD$ , and similarly $PE = BD'$ . So $d = PF' + PE = AD + BD' = 425 - DD'$ . Thus $DD' = 425 - d$ . By the same logic, $EE' = 450 - d$ .\n\nSince $\\triangle DPD' \\sim \\triangle ABC$ , we have the proportion:\n\n$\\frac{425-d}{425} = \\frac{PD}{510} \\Longrightarrow PD = 510 - \\frac{510}{425}d = 510 - \\frac{6}{5}d$\n\nDoing the same with $\\triangle PEE'$ , we find that $PE' =510 - \\frac{17}{15}d$ . Now, $d = PD + PE' = 510 - \\frac{6}{5}d + 510 - \\frac{17}{15}d \\Longrightarrow d\\left(\\frac{50}{15}\\right) = 1020 \\Longrightarrow d = \\boxed{306}$ .\n\nDefine the points the same as above.\n\nLet $[CE'PF] = a$ , $[E'EP] = b$ , $[BEPD'] = c$ , $[D'PD] = d$ , $[DAF'P] = e$ and $[F'D'P] = f$\n\nThe key theorem we apply here is that the ratio of the areas of 2 similar triangles is the ratio of a pair of corresponding sides squared.\n\nLet the length of the segment be $x$ and the area of the triangle be $A$ , using the theorem, we get:\n\n$\\frac {d + e + f}{A} = \\left(\\frac {x}{BC}\\right)^2$ , $\\frac {b + c + d}{A}= \\left(\\frac {x}{AC}\\right)^2$ , $\\frac {a + b + f}{A} = \\left(\\frac {x}{AB}\\right)^2$ .\nAdding all these together and using $a + b + c + d + e + f = A$ we get\n $\\frac {f + d + b}{A} + 1 = x^2 \\cdot \\left(\\frac {1}{BC^2} + \\frac {1}{AC^2} + \\frac {1}{AB^2}\\right)$\n\nUsing corresponding angles from parallel lines, it is easy to show that $\\triangle ABC \\sim \\triangle F'PF$ ; since $ADPF'$ and $CFPE'$ are parallelograms, it is easy to show that $FF' = AC - x$\n\nNow we have the side length ratio, so we have the area ratio\n $\\frac {f}{A} = \\left(\\frac {AC - x}{AC}\\right)^2 = \\left(1 - \\frac {x}{AC}\\right)^2$ . By symmetry, we have\n $\\frac {d}{A} = \\left(1 - \\frac {x}{AB}\\right)^2$ and $\\frac {b}{A} = \\left(1 - \\frac {x}{BC}\\right)^2$\n\nSubstituting these into our initial equation, we have\n $1 + \\sum_{cyc}\\left(1 - \\frac {x}{AB}\\right) - \\frac {x^2}{AB^2} = 0$\n $\\implies 1 + \\sum_{cyc}1 - 2 \\cdot \\frac {x}{AB} = 0$\n $\\implies \\frac {2}{\\frac {1}{AB} + \\frac {1}{BC} + \\frac {1}{CA}} = x$\nand the answer follows after some hideous computation.\n\nRefer to the diagram in solution 2; let $a^2=[E'EP]$ , $b^2=[D'DP]$ , and $c^2=[F'FP]$ . Now, note that $[E'BD]$ , $[D'DP]$ , and $[E'EP]$ are similar, so through some similarities we find that $\\frac{E'P}{PD}=\\frac{a}{b}\\implies\\frac{E'D}{PD}=\\frac{a+b}{b}\\implies[E'BD]=b^2\\left(\\frac{a+b}{b}\\right)^2=(a+b)^2$ . Similarly, we find that $[D'AF]=(b+c)^2$ and $[F'CE]=(c+a)^2$ , so $[ABC]=(a+b+c)^2$ . Now, again from similarity, it follows that $\\frac{d}{510}=\\frac{a+b}{a+b+c}$ , $\\frac{d}{450}=\\frac{b+c}{a+b+c}$ , and $\\frac{d}{425}=\\frac{c+a}{a+b+c}$ , so adding these together, simplifying, and solving gives $d=\\frac{2}{\\frac{1}{425}+\\frac{1}{450}+\\frac{1}{510}}=\\frac{10}{\\frac{1}{85}+\\frac{1}{90}+\\frac{1}{102}}=\\frac{10}{\\frac{1}{5}\\left(\\frac{1}{17}+\\frac{1}{18}\\right)+\\frac{1}{102}}=\\frac{10}{\\frac{1}{5}\\cdot\\frac{35}{306}+\\frac{3}{306}}$\n $=\\frac{10}{\\frac{10}{306}}=\\boxed{306}$ .\n\n[[img:https://latex.artofproblemsolving.com/8/e/1/8e19916c4ed37209e832673ba0274846bb4c4246.png]]\n\nRefer to the diagram above. Notice that because $CE'PF$ , $AF'PD$ , and $BD'PE$ are parallelograms, $\\overline{DD'} = 425-d$ , $\\overline{EE'} = 450-d$ , and $\\overline{FF'} = 510-d$ .\n\nLet $F'P = x$ . Then, because $\\triangle ABC \\sim \\triangle F'PF$ , $\\frac{AB}{AC}=\\frac{F'P}{F'F}$ , so $\\frac{425}{510}=\\frac{x}{510-d}$ . Simplifying the LHS and cross-multiplying, we have $6x=2550-5d$ . From the same triangles, we can find that $FP=\\frac{18}{17}x$ .\n\n$\\triangle PEE'$ is also similar to $\\triangle F'PF$ . Since $EF'=d$ , $EP=d-x$ . We now have $\\frac{PE}{EE'}=\\frac{F'P}{FP}$ , and $\\frac{d-x}{450-d}=\\frac{17}{18}$ . Cross multiplying, we have $18d-18x=450 \\cdot 17-17d$ . Using the previous equation to substitute for $x$ , we have: \\[18d-3\\cdot2550+15d=450\\cdot17-17d\\] This is a linear equation in one variable, and we can solve to get $d=\\boxed{306}$\n\nI did not show the multiplication in the last equation because most of it cancels out when solving.\n\n(Note: I chose $F'P$ to be $x$ only because that is what I had written when originally solving. The solution would work with other choices for $x$ .)",
+    "choices": [],
+    "answer": "306",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_9",
+    "topics": [
+      "Length Chasing",
+      "Problem-Solving: Triangle Angles",
+      "Similar Triangles",
+      "Ratios and Rates"
+    ]
+  },
+  {
+    "id": "aime-1986-10",
+    "contest": "AIME",
+    "year": 1986,
+    "version": "",
+    "number": 10,
+    "statementLatex": "In a parlor game, the magician asks one of the participants to think of a three digit number $(abc)$ where $a$ , $b$ , and $c$ represent digits in base $10$ in the order indicated. The magician then asks this person to form the numbers $(acb)$ , $(bca)$ , $(bac)$ , $(cab)$ , and $(cba)$ , to add these five numbers, and to reveal their sum, $N$ . If told the value of $N$ , the magician can identify the original number, $(abc)$ . Play the role of the magician and determine $(abc)$ if $N= 3194$ .",
+    "solutionLatex": "Let $m$ be the number $100a+10b+c$ . Observe that $3194+m=222(a+b+c)$ so\n\n\\[m\\equiv -3194\\equiv -86\\equiv 136\\pmod{222}\\]\n\nThis reduces $m$ to one of $136, 358, 580, 802$ . But also $a+b+c=\\frac{3194+m}{222}>\\frac{3194}{222}>14$ so $a+b+c\\geq 15$ .\nRecall that $a, b, c$ refer to the digits the three digit number $(abc)$ , so of the four options, only $m = \\boxed{358}$ satisfies this inequality.\n\nAs in Solution 1, $3194 + m \\equiv 222(a+b+c) \\pmod{222}$ , and so as above we get $m \\equiv 136 \\pmod{222}$ .\nWe can also take this equation modulo $9$ ; note that $m \\equiv a+b+c \\pmod{9}$ , so\n\n\\[3194 + m \\equiv 222m \\implies 5m \\equiv 8 \\implies m \\equiv 7 \\pmod{9}.\\]\n\nTherefore $m$ is $7$ mod $9$ and $136$ mod $222$ . There is a shared factor in $3$ in both, but the Chinese Remainder Theorem still tells us the value of $m$ mod $666$ , namely $m \\equiv 358$ mod $666$ . We see that there are no other 3-digit integers that are $358$ mod $666$ , so $m = \\boxed{358}$ .\n\nLet $n=abc$ then\n \\[N=222(a+b+c)-n\\]\n \\[N=222(a+b+c)-100a-10b-c=3194\\]\nSince $0<100a+10b+c<1000$ , we get the inequality\n \\[N<222(a+b+c)\n \\[3194<222(a+b+c)<4194\\]\n \\[14\nChecking each of the multiples of $222$ from $15\\cdot222$ to $18\\cdot222$ by subtracting $N$ from each $222(a+b+c)$ , we quickly find $n=\\boxed{358}$\n\n~ Nafer",
+    "choices": [],
+    "answer": "358",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_10",
+    "topics": [
+      "Digit Problems",
+      "Bases",
+      "Problem-Solving: Divisibility and Digits",
+      "Modular Arithmetic"
+    ]
+  },
+  {
+    "id": "aime-1986-11",
+    "contest": "AIME",
+    "year": 1986,
+    "version": "",
+    "number": 11,
+    "statementLatex": "The polynomial $1-x+x^2-x^3+\\cdots+x^{16}-x^{17}$ may be written in the form $a_0+a_1y+a_2y^2+\\cdots +a_{16}y^{16}+a_{17}y^{17}$ , where $y=x+1$ and the $a_i$ 's are constants. Find the value of $a_2$ .",
+    "solutionLatex": "Using the geometric series formula, $1 - x + x^2 + \\cdots - x^{17} = \\frac {1 - x^{18}}{1 + x} = \\frac {1-x^{18}}{y}$ . Since $x = y - 1$ , this becomes $\\frac {1-(y - 1)^{18}}{y}$ . We want $a_2$ , which is the coefficient of the $y^3$ term in $-(y - 1)^{18}$ (because the $y$ in the denominator reduces the degrees in the numerator by $1$ ). By the Binomial Theorem, this is $(-1) \\cdot (-1)^{15}{18 \\choose 3} = \\boxed{816}$ .\n\nAgain, notice $x = y - 1$ . So\n\n$\\begin{align*}1 - x + x^2 + \\cdots - x^{17} & = 1 - (y - 1) + (y - 1)^2 - (y - 1)^3 + \\cdots - (y - 1)^{17} \\\\ & = 1 + (1 - y) + (1 - y)^2 + (1 - y)^3 \\cdots + (1 - y)^{17}\\end{align*}.$\n\nWe want the coefficient of the $y^2$ term of each power of each binomial, which by the binomial theorem is ${2\\choose 2} + {3\\choose 2} + \\cdots + {17\\choose 2}$ . The Hockey Stick Identity tells us that this quantity is equal to ${18\\choose 3} = \\boxed{816}$ .\n\nAgain, notice $x=y-1$ . Substituting $y-1$ for $x$ in $f(x)$ gives:\n$\\begin{align*}1 - x + x^2 + \\cdots - x^{17} & = 1 - (y - 1) + (y - 1)^2 - (y - 1)^3 + \\cdots - (y - 1)^{17} \\\\ & = 1 + (1 - y) + (1 - y)^2 + (1 - y)^3 \\cdots + (1 - y)^{17}\\end{align*}.$\nFrom binomial theorem, the coefficient of the $y^2$ term is ${2\\choose 0} + {3\\choose 1} + \\cdots + {17\\choose 15}$ . This is actually the sum of the first 16 triangular numbers, which evaluates to $\\frac{(16)(17)(18)}{6} = \\boxed{816}$ .\n\nLet $f(x)=1-x+x^2-x^3+\\cdots+x^{16}-x^{17}$ and $g(y)=a_0+a_1y+a_2y^2+\\cdots +a_{16}y^{16}+a_{17}y^{17}$ .\n\nThen, since $f(x)=g(y)$ ,\n \\[\\frac{d^2f}{dx^2}=\\frac{d^2g}{dy^2}\\]\n $\\frac{d^2f}{dx^2} = 2\\cdot 1 - 3\\cdot 2x+\\cdots-17\\cdot 16x^{15}$ by the power rule.\n\nSimilarly, $\\frac{d^2g}{dy^2} = a_2(2\\cdot 1) + a_3(3\\cdot 2y)+\\cdots+a_{17}(17\\cdot 16y^{15})$\n\nNow, notice that if $x = -1$ , then $y = 0$ , so $f^{''}(-1) = g^{''}(0)$\n\n$g^{''}(0)= 2a_2$ , and $f^{''}(-1) = 2\\cdot 1 + 3\\cdot 2 +\\cdots + 16\\cdot 17$ .\n\nNow, we can use the hockey stick theorem to see that $2\\cdot 1 + 3\\cdot 2 +\\cdots + 16\\cdot 17 = 2\\binom{18}{3}$\n\nThus, $2a_2 = 2\\binom{18}{3}\\rightarrow a_2 = \\binom{18}{3}=\\boxed{816}$\n\n-AOPS81619\n\nLet $V$ be the vector space of polynomials of degree $\\leq 17,$ and let $B = \\{1, x, x^2, ..., x^{17} \\}$ and $C = \\{1, (x+1), (x+1)^2, ..., (x+1)^{17} \\}$ be two bases for $V$ .\nLet $\\vec{v} \\in V$ be the polynomial given in the problem, and it is easy to see that $[ \\vec{v} ]_B = \\langle 1, -1, 1, -1, ... , 1, -1 \\rangle.$\n\nNote that the transformation matrix from $C$ to $B$ can be easily found to be $P_{C \\to B} = [ [\\vec{c_1}]_B [\\vec{c_2}]_B ... [\\vec{c_3}]_B ] = \\begin{bmatrix} \\tbinom{0}{0} & \\tbinom{1}{0} & \\tbinom{2}{0} & \\cdots & \\tbinom{17}{0} \\\\ 0 & \\tbinom{1}{1} & \\tbinom{2}{1} & \\cdots & \\tbinom{17}{1} \\\\ 0 & 0 & \\tbinom{2}{2} & \\cdots & \\tbinom{17}{2} \\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & \\tbinom{17}{17} \\end{bmatrix} .$\n\nI claim that $P_{B \\to C} = \\begin{bmatrix} \\tbinom{0}{0} & -\\tbinom{1}{0} & \\tbinom{2}{0} & \\cdots & -\\tbinom{17}{0} \\\\ 0 & \\tbinom{1}{1} & -\\tbinom{2}{1} & \\cdots & \\tbinom{17}{1} \\\\ 0 & 0 & \\tbinom{2}{2} & \\cdots & -\\tbinom{17}{2} \\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & \\tbinom{17}{17} \\end{bmatrix} ,$ where the term $\\dbinom{n}{k}$ is negated if $n+k$ is odd.\n\nOne can prove that the $i$ th row of $P_{C \\to B}$ dotted with the $j$ th column of $P_{B \\to C}$ is $\\delta_{i, j}$ by using combinatorial identities, which is left as an exercise for the reader. Thus, since the two matrices multiply to form $\\mathbb{I}_{18},$ we have proved that $P_{B \\to C} = \\begin{bmatrix} \\tbinom{0}{0} & -\\tbinom{1}{0} & \\tbinom{2}{0} & \\cdots & -\\tbinom{17}{0} \\\\ 0 & \\tbinom{1}{1} & -\\tbinom{2}{1} & \\cdots & \\tbinom{17}{1} \\\\ 0 & 0 & \\tbinom{2}{2} & \\cdots & -\\tbinom{17}{2} \\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & \\tbinom{17}{17} \\end{bmatrix} .$\n\nTo find the coordinates of $\\vec{v}$ under basis $C,$ we compute the product $[ \\vec{v} ]_C = P_{B \\to C} [\\vec{v} ]_B = \\begin{bmatrix} \\tbinom{0}{0} & -\\tbinom{1}{0} & \\tbinom{2}{0} & \\cdots & -\\tbinom{17}{0} \\\\ 0 & \\tbinom{1}{1} & -\\tbinom{2}{1} & \\cdots & \\tbinom{17}{1} \\\\ 0 & 0 & \\tbinom{2}{2} & \\cdots & -\\tbinom{17}{2} \\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & \\tbinom{17}{17} \\end{bmatrix} \\begin{bmatrix} 1 \\\\ -1 \\\\ 1 \\\\ \\vdots \\\\ -1 \\end{bmatrix} = \\begin{bmatrix} \\sum_{n=0}^{17} \\tbinom{n}{0} \\\\ -\\sum_{n=1}^{17} \\tbinom{n}{1} \\\\ \\sum_{n=2}^{17} \\tbinom{n}{2} \\\\ \\vdots \\\\ -\\sum_{n=17}^{17} \\tbinom{n}{17} \\end{bmatrix} = \\begin{bmatrix} \\tbinom{18}{1} \\\\ - \\tbinom{18}{2} \\\\ \\tbinom{18}{3} \\\\ \\vdots \\\\ -\\tbinom{18}{18} \\end{bmatrix},$ where the last equality was obtained via Hockey Stick Identity.\n\nThus, our answer is $a_2 = [ [ \\vec{v} ]_C ]_3 = \\dbinom{18}{3} = \\boxed{816}.$\n\n-fidgetboss_4000",
+    "choices": [],
+    "answer": "816",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_11",
+    "topics": [
+      "Polynomials",
+      "Binomial Theorem",
+      "Sequences and Series",
+      "Arithmetic/Geometric Sequences"
+    ]
+  },
+  {
+    "id": "aime-1986-14",
+    "contest": "AIME",
+    "year": 1986,
+    "version": "",
+    "number": 14,
+    "statementLatex": "The shortest distances between an interior diagonal of a rectangular parallelepiped, $P$ , and the edges it does not meet are $2\\sqrt{5}$ , $\\frac{30}{\\sqrt{13}}$ , and $\\frac{15}{\\sqrt{10}}$ . Determine the volume of $P$ .",
+    "solutionLatex": "$AIME 1986 Problem 14 sol.png$\n\nIn the above diagram, we focus on the line that appears closest and is parallel to $BC$ . All the blue lines are perpendicular lines to $BC$ and their other points are on $AB$ , the main diagonal. The green lines are projections of the blue lines onto the bottom face; all of the green lines originate in the corner and reach out to $AC$ , and have the same lengths as their corresponding blue lines. So we want to find the shortest distance between $AC$ and that corner, which is $\\frac {wl}{\\sqrt {w^2 + l^2}}$ .\n\nSo we have:\n \\[\\frac {lw}{\\sqrt {l^2 + w^2}} = \\frac {10}{\\sqrt {5}}\\]\n \\[\\frac {hw}{\\sqrt {h^2 + w^2}} = \\frac {30}{\\sqrt {13}}\\]\n \\[\\frac {hl}{\\sqrt {h^2 + l^2}} = \\frac {15}{\\sqrt {10}}\\]\n\nNotice the familiar roots: $\\sqrt {5}$ , $\\sqrt {13}$ , $\\sqrt {10}$ , which are $\\sqrt {1^2 + 2^2}$ , $\\sqrt {2^2 + 3^2}$ , $\\sqrt {1^2 + 3^2}$ , respectively. (This would give us the guess that the sides are of the ratio 1:2:3, but let's provide the complete solution.)\n\n\\[\\frac {l^2w^2}{l^2 + w^2} = \\frac {1}{\\frac {1}{l^2} + \\frac {1}{w^2}} = 20\\]\n \\[\\frac {h^2w^2}{h^2 + w^2} = \\frac {1}{\\frac {1}{h^2} + \\frac {1}{w^2}} = \\frac {900}{13}\\]\n \\[\\frac {h^2l^2}{h^2 + l^2} = \\frac {1}{\\frac {1}{h^2} + \\frac {1}{l^2}} = \\frac {45}{2}\\]\n\nWe invert the above equations to get a system of linear equations in $\\frac {1}{h^2}$ , $\\frac {1}{l^2}$ , and $\\frac {1}{w^2}$ :\n \\[\\frac {1}{l^2} + \\frac {1}{w^2} = \\frac {45}{900}\\]\n \\[\\frac {1}{h^2} + \\frac {1}{w^2} = \\frac {13}{900}\\]\n \\[\\frac {1}{h^2} + \\frac {1}{l^2} = \\frac {40}{900}\\]\n\nWe see that $h = 15$ , $l = 5$ , $w = 10$ . Therefore $V = 5 \\cdot 10 \\cdot 15 = \\boxed{750}$",
+    "choices": [],
+    "answer": "750",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/1986_AIME_Problems/Problem_14",
+    "topics": [
+      "3D Volumes and Surface Areas",
+      "Simplifying Radicals"
+    ]
   }
 ]
