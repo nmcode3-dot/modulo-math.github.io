@@ -45,7 +45,7 @@ describe("Saved topic practice", () => {
     expect(restored.questions[0]?.replies).toEqual([]);
   });
   it("refreshes solutions in saved questions so finished ones show them", () => {
-    const conversation = addQuestion(emptyConversation(), { ...problem, id: "amc8-2017-8", solutionLatex: undefined });
+    const conversation = addQuestion(emptyConversation(), { ...problem, id: "amc8-2017-8" });
     saveConversation("Algebra", conversation);
     const restored = loadConversation("Algebra");
     expect(restored.questions[0]?.problem.solutionLatex).toBeTruthy();
