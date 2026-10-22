@@ -15,11 +15,18 @@ export function loadConversation(topic: string): TopicConversation {
       typeof q.problem.statementLatex === "string" && Array.isArray(q.replies),
     ).map(q => {
       const current = getProblem(q.problem.id);
-      return current ? { ...q, problem: { ...q.problem, answer: current.answer } } : q;
+      return current ? { ...q, problem: refreshProblem(q.problem, current) } : q;
     });
     const activeId = "activeId" in data && typeof data.activeId === "string" && questions.some(q => q.id === data.activeId) ? data.activeId : null;
     return { questions, activeId };
   } catch { return emptyConversation(); }
+}
+
+function refreshProblem(saved: Problem, current: Problem): Problem {
+  const problem: Problem = { ...saved, answer: current.answer, solutionUrl: current.solutionUrl };
+  if (current.solutionLatex === undefined) delete problem.solutionLatex;
+  else problem.solutionLatex = current.solutionLatex;
+  return problem;
 }
 
 export function saveConversation(topic: string, conversation: TopicConversation) {

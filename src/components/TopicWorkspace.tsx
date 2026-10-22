@@ -189,5 +189,5 @@ function BotHeading({ time }: { time?: string }) {
 }
 
 function Solution({ problem }: { problem: Problem }) {
-  return <div className="space-y-2 text-sm"><p>Correct answer: <strong>{isAime(problem) ? problem.answer.padStart(3, "0") : problem.answer}</strong></p><Button asChild size="sm"><a href={problem.solutionUrl} target="_blank" rel="noopener noreferrer">View Solution on AoPS <ExternalLink /></a></Button></div>;
+  return <div className="space-y-2 text-sm"><p>Correct answer: <strong>{isAime(problem) ? problem.answer.padStart(3, "0") : problem.answer}</strong></p>{problem.solutionLatex && <div className="practice-math mt-2 rounded-md border bg-muted/30 p-3"><Latex>{problem.solutionLatex}</Latex></div>}<Button asChild size="sm"><a href={problem.solutionUrl} target="_blank" rel="noopener noreferrer">View Solution on AoPS <ExternalLink /></a></Button></div>;
 }
