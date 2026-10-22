@@ -38,7 +38,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AMC_10A_Problems/Problem_1",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "$(4-2)-(9-3)+(16-4)=2-6+12=8.$ This corresponds to $\\boxed{\\textbf{(D) } 8}.$\n\n-happykeeper"
   },
   {
     "id": "amc10a-2024-1",
@@ -600,7 +601,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10B_Problems/Problem_1",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "If the person is the 1013th from the left, that means there is 1012 people to their left.\nIf the person is the 1010th from the right, that means there is 1009 people to their right.\nTherefore, there are $1012 + 1 + 1009 = \\boxed{\\textbf{(B) } 2022}$ people in line."
   },
   {
     "id": "amc10b-2024-2",
@@ -620,7 +622,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_10B_Problems/Problem_2",
     "topics": [
       "Factorial"
-    ]
+    ],
+    "solutionLatex": "$10! = 10 \\cdot 9 \\cdot 8 \\cdot 7! = 720 \\cdot 7!$\n\n$6! \\cdot 7! = 720 \\cdot 7!$\n\nTherefore, the equation is equal to $720 \\cdot 7! - 720 \\cdot 7! = \\boxed{\\textbf{(B) }0}$\n\n[ONLY FOR CERTAIN CHINESE TESTPAPERS]\n\n$0 - 5! = \\boxed{\\textbf{(A) }-120}$\n\n~Aray10 (Main Solution) and RULE101 (Modifications for certain China test papers)"
   },
   {
     "id": "amc10b-2024-3",
