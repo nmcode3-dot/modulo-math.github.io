@@ -5587,7 +5587,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10B_Problems/Problem_12",
     "topics": [
       "Digit Problems"
-    ]
+    ],
+    "solutionLatex": "We have\n\n\\[\\dfrac{1}{20^{20}} = \\dfrac{1}{(10\\cdot2)^{20}}=\\dfrac{1}{10^{20}\\cdot2^{20}}\\]\n\nNow we do some estimation. Notice that $2^{20} = 1024^2$ , which means that $2^{20}$ is a little more than $1000^2=1,000,000$ . Multiplying it with $10^{20}$ , we get that the denominator is about $1\\underbrace{00\\dots0}_{26 \\text{ zeros}}$ . Notice that when we divide $1$ by an $n$ digit number as long as n is not a power of 10, there are $n-1$ zeros before the first nonzero digit. This means that when we divide $1$ by the $27$ digit integer $1\\underbrace{00\\dots0}_{26 \\text{ zeros}}$ , there are $\\boxed{\\textbf{(D) } \\text{26}}$ zeros in the initial string after the decimal point. -PCChess"
   },
   {
     "id": "amc10b-2020-13",

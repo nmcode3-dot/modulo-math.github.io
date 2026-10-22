@@ -28,7 +28,6 @@ function refreshProblem(saved: Problem, current: Problem): Problem {
   else problem.solutionLatex = current.solutionLatex;
   return problem;
 }
-}
 
 export function saveConversation(topic: string, conversation: TopicConversation) {
   localStorage.setItem(key(topic), JSON.stringify(conversation));
