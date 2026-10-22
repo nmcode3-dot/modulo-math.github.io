@@ -3163,7 +3163,8 @@
     "topics": [
       "Length Chasing",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "We construct the following table:\n \\[\\begin{array}{c||c|c||c} & & & \\\\ [-2.5ex] \\textbf{Scenario} & \\textbf{Length} & \\textbf{Width} & \\textbf{Area} \\\\ [0.5ex] \\hline & & & \\\\ [-2ex] \\text{Initial} & 4 & 6 & 24 \\\\ \\text{Menkara shortens one side.} & 3 & 6 & 18 \\\\ \\text{Menkara shortens other side instead.} & 4 & 5 & 20 \\end{array}\\]\nTherefore, the answer is $\\boxed{\\textbf{(E) } 20}.$\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10afall-2021-6",
