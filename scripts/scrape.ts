@@ -15,6 +15,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync, appendFileSync, ren
 import { join } from "node:path";
 import { tagProblem, type TagMap } from "../src/lib/tagger";
 import { parseAnswerKey, preservedAnswer, partitionGradedProblems } from "./answer-keys";
+import { missingSolutions, addSolution } from "./solution-only";
 
 const BASE = "https://artofproblemsolving.com";
 const CACHE = ".scrape-cache";
@@ -23,6 +24,7 @@ const only = args.includes("--only") ? args[args.indexOf("--only") + 1] : null;
 const onlyContest = args.includes("--contest") ? args[args.indexOf("--contest") + 1] : null;
 const ERR = onlyContest ? `scrape-errors-${onlyContest}.log` : "scrape-errors.log";
 const resume = args.includes("--resume");
+const solutionsOnly = args.includes("--solutions-only");
 const skips = args.includes("--skip") ? args[args.indexOf("--skip") + 1].split(",") : [];
 mkdirSync(CACHE, { recursive: true });
 writeFileSync(ERR, "");
@@ -149,6 +151,35 @@ function parseProblem(html: string) {
 }
 
 const topicTags: TagMap = JSON.parse(readFileSync("src/data/topic-tags.json", "utf8"));
+
+// Strict backfill: visit only existing rows missing solutions. No index or answer-key
+// requests, new problems, grading changes, or topic rewrites in this mode.
+if (solutionsOnly) {
+  let failures = 0;
+  for (const idx of INDEXES) {
+    if (onlyContest && idx.key !== onlyContest) continue;
+    const path = `src/data/${idx.key}.json`;
+    const rows = JSON.parse(readFileSync(path, "utf8"));
+    const targets = missingSolutions(rows as { id: string; answer: string; solutionUrl: string; solutionLatex?: string }[]);
+    console.log(`${idx.contest}: ${targets.length} missing solutions; existing problems only`);
+    for (const target of targets) {
+      const page = await get(target.solutionUrl);
+      const solution = page ? parseProblem(page)?.solution : "";
+      if (!solution?.trim()) {
+        failures++;
+        logErr(target.id, "solution unavailable; saved problem unchanged");
+        continue;
+      }
+      const n = rows.findIndex((row: { id: string }) => row.id === target.id);
+      if (n < 0) continue;
+      rows[n] = addSolution(rows[n], solution);
+      writeFileSync(path + ".tmp", JSON.stringify(rows, null, 2));
+      renameSync(path + ".tmp", path);
+      console.log(`${target.id}: solution saved`);
+    }
+  }
+  process.exit(failures ? 1 : 0);
+}
 
 type Row = { contest: string; year: number; version: string; found: number; expected: number; answers: number };
 const coverage: Row[] = [];
