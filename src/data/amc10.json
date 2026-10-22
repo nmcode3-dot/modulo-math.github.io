@@ -5012,7 +5012,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_10A_Problems/Problem_8",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Looking at the numbers, you see that every set of $4$ has $3$ positive numbers and 1 negative number. Calculating the sum of the first couple sets gives us $2+10+18...+394$ . Clearly, this pattern is an arithmetic sequence. By using the formula we get $\\frac{2+394}{2}\\cdot 50=\\boxed{\\textbf{(B) }9900}$ .\n\n-ViratKohli2018"
   },
   {
     "id": "amc10a-2020-9",
