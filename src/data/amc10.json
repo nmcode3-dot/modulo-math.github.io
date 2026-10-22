@@ -5057,7 +5057,8 @@
       "3D Geometry",
       "Logic",
       "Polynomials"
-    ]
+    ],
+    "solutionLatex": "The volume of each cube follows the pattern of $n^3$ , for $n$ is between $1$ and $7$ .\n\nWe see that the total surface area can be comprised of three parts: the sides of the cubes, the tops of the cubes, and the bottom of the $7\\times 7\\times 7$ cube (which is just $7 \\times 7 = 49$ ). The sides areas can be measured as the sum $4\\sum_{n=1}^{7} n^2$ , giving us $560$ . Structurally, if we examine the tower from the top, we see that it really just forms a $7\\times 7$ square of area $49$ . Therefore, we can say that the total surface area is $560 + 49 + 49 = \\boxed{\\textbf{(B) }658}$ .\nAlternatively, for the area of the tops, we could have found the sum $\\sum_{n=2}^{7}((n)^{2}-(n-1)^{2})$ , giving us $49$ as well.\n\n~ciceronii\n\nNote: The area on top and bottom are 49 because the largest area is 49, and the other cubes are \"inscribed\" in it."
   },
   {
     "id": "amc10a-2020-12",
@@ -5079,7 +5080,8 @@
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Areas",
       "Problem-Solving: Centroid"
-    ]
+    ],
+    "solutionLatex": "Since quadrilateral $UVCM$ has perpendicular diagonals, its area can be found as half of the product of the length of the diagonals. Also note that $\\triangle AUV$ has $\\frac 14$ the area of triangle $AMC$ by similarity, so $[UVCM]=\\frac 34\\cdot [AMC].$ Thus,\n \\[\\frac 12 \\cdot 12\\cdot 12=\\frac 34 \\cdot [AMC]\\]\n \\[72=\\frac 34\\cdot [AMC]\\]\n \\[[AMC]=96\\rightarrow \\boxed{\\textbf{(C)}}.\\]\n\nNote: We know that since $AU$ is the median $AU$ divided by $AM$ is $1/2$ . Since triangle $AUV$ is similar to triangle $AMC$ , and by a factor of $1/2$ , then every sidelength of $AMC$ must also be scaled by a factor of $1/2$ to get $AUV$ . The base and height are all scaled by $1/2$ , so then the ratio is $1/2 \\cdot 1/2$ .\n\n~<B+ converted \"Note\" into proper LaTeX as it was in plain text previously when it was required to convert into LaTeX by writer of the \"Note\""
   },
   {
     "id": "amc10a-2020-13",
