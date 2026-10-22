@@ -3184,7 +3184,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_Fall_AMC_10A_Problems/Problem_6",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "There are $41-1=40$ gaps between the $41$ telephone poles, so the distance of each gap is $5280\\div40=132$ feet.\n\nEach of Oscar's leaps covers $132\\div12=11$ feet, and each of Elmer's strides covers $132\\div44=3$ feet.\n\nTherefore, Oscar's leap is $11-3=\\boxed{\\textbf{(B) }8}$ feet longer than Elmer's stride.\n\n~MRENTHUSIASM"
   },
   {
     "id": "amc10afall-2021-7",
@@ -3206,7 +3207,8 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Logic"
-    ]
+    ],
+    "solutionLatex": "By angle subtraction, we have $\\angle ADE = 360^\\circ - \\angle ADC - \\angle CDE = 160^\\circ.$ Note that $\\triangle DEF$ is isosceles, so $\\angle DFE = \\frac{180^\\circ - \\angle ADE}{2}=10^\\circ.$ Finally, we get $\\angle AFE = 180^\\circ - \\angle DFE = \\boxed{\\textbf{(D) }170}$ degrees.\n\n~MRENTHUSIASM ~Aops-g5-gethsemanea2"
   },
   {
     "id": "amc10afall-2021-8",
@@ -3228,7 +3230,8 @@
       "100x + 10y + z",
       "Digit Problems",
       "Finding the Last Digit"
-    ]
+    ],
+    "solutionLatex": "Note that the number $\\underline{xy} = 10x + y.$ By the problem statement, \\[10x + y = x + y^2 \\implies 9x = y^2 - y \\implies 9x = y(y-1).\\] From this we see that $y(y-1)$ must be divisible by $9.$ This only happens when $y=9.$ Then, $x=8.$ Thus, there is only $\\boxed{\\textbf{(B) }1}$ cuddly number, which is $89.$\n\n~NH14"
   },
   {
     "id": "amc10afall-2021-9",
@@ -3249,7 +3252,8 @@
     "topics": [
       "Parity Reasoning",
       "Introduction to Probability"
-    ]
+    ],
+    "solutionLatex": "Since an even number is $3$ times more likely to appear than an odd number, the probability of an even number appearing is $\\frac{3}{4}$ . Since the problem states that the sum of the two die must be even, the numbers must both be even or both be odd. We either have EE or OO, so we have \\[\\frac{3}{4}\\cdot \\frac{3}{4} + \\frac{1}{4} \\cdot \\frac{1}{4} = \\frac {1}{16} + \\frac {9}{16} = \\frac{10}{16} = \\boxed{\\textbf{(E)}\\ \\frac{5}{8}}.\\]\n\n~Arcticturn ~Aidensharp"
   },
   {
     "id": "amc10afall-2021-10",
