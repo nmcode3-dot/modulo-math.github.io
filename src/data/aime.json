@@ -1169,8 +1169,12 @@
     "answer": "601",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_11",
     "topics": [
-      "Number Theory"
-    ]
+      "Casework",
+      "Polynomials",
+      "Algebraic Manipulation",
+      "Combinations"
+    ],
+    "solutionLatex": "$ab(a+b)+bc(b+c)+ac(a+c)=300(ab+bc+ac)-3abc=6000000$\n $\\implies 100(ab+bc+ac)-abc=2000000$\n\nNote that\n $(100-a)(100-b)(100-c)=1000000-10000(a+b+c)+100(ab+bc+ac)-abc=0$ .\nThus, $a/b/c=100$ . There are $201$ cases for each but we need to subtract $2$ for $(100,100,100)$ . The answer is $\\boxed{601}$\n\n~Bluesoul,Shen Kislay Kai"
   },
   {
     "id": "aimeii-2024-12",
@@ -1183,11 +1187,12 @@
     "answer": "023",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AIME_II_Problems/Problem_12",
     "topics": [
-      "Area by Coordinates",
       "Length Chasing",
-      "Simplifying Radicals",
-      "Graphing Functions"
-    ]
+      "Area by Coordinates",
+      "Algebraic Manipulation",
+      "Polynomials"
+    ],
+    "solutionLatex": "Begin by finding the equation of the line $\\overline{AB}$ : $y= -\\sqrt{3}x+\\frac{\\sqrt{3}}{2}$ Now, consider the general equation of all lines that belong to $\\mathcal{F}$ . Let $P$ be located at $(a,0)$ and $Q$ be located at $(0,b)$ . With these assumptions, we may arrive at the equation $ay +bx =ab$ . However, a critical condition that must be satisfied by our parameters is that $a^2+b^2=1$ , since the length of $\\overline{PQ}=1$ .\n\nHere's the golden trick that resolves the problem: we wish to find some point $C$ along $\\overline{AB}$ such that $\\overline{PQ}$ passes through $C$ if and only if $a=\\frac{1}{2}$ . It's not hard to convince oneself of this, since the property $a^2+b^2=1$ implies that if $a=\\frac{1}{2}$ , then $\\overline{PQ}=\\overline{AB}$ .\n\nWe should now try to relate the point $C$ to some value of $a$ . This is accomplished by finding the intersection of two lines: \\[ a\\left(-\\sqrt{3}x +\\frac{\\sqrt{3}}{2}\\right) + x\\sqrt{1-a^2} = a\\sqrt{1-a^2} \\]\n\nWhere we have also used the fact that $b=\\sqrt{1-a^2}$ , which follows nicely from $a^2+b^2 =1$ . \\[ a\\left(-\\sqrt{3}x +\\frac{\\sqrt{3}}{2}\\right) = (a-x)\\sqrt{1-a^2} \\]\n\nSquare both sides and go through some algebraic manipulations to arrive at\n \\[ -a^4 +2xa^3+\\left(-4x^2+3x+\\frac{1}{4}\\right)a^2-2xa+x^2=0 \\]\n\nNote how $a=\\frac{1}{2}$ is a solution to this polynomial, and it is logically so. If we found the set of intersections consisting of line segment $\\overline{AB}$ with an identical copy of itself, every single point on the line (all $x$ values) should satisfy the equation. Thus, we can perform polynomial division to eliminate the extraneous solution $a=\\frac{1}{2}$ . \\[ -a^3 + \\left(2x-\\frac{1}{2}\\right)a^2+(-4x^2+4x)a-2x^2=0 \\]\n\nRemember our original goal. It was to find an $x$ value such that $a=\\frac{1}{2}$ is the only valid solution. Therefore, we can actually plug in $a=\\frac{1}{2}$ back into the equation to look for values of $x$ such that the relation is satisfied, then eliminate undesirable answers.\n \\[ 16x^2-10x+1=0 \\]\nThis is easily factored, allowing us to determine that $x=\\frac{1}{8},\\frac{1}{2}$ . The latter root is not our answer, since on line $\\overline{AB}$ , $y\\left(\\frac{1}{2}\\right)=0$ , the horizontal line segment running from $(0,0)$ to $(1,0)$ covers that point. From this, we see that $x=\\frac{1}{8}$ is the only possible candidate.\n\nGoing back to line $\\overline{AB}, y= -\\sqrt{3}x+\\frac{\\sqrt{3}}{2}$ , plugging in $x=\\frac{1}{8}$ yields $y=\\frac{3\\sqrt{3}}{8}$ . The distance from the origin is then given by $\\sqrt{\\frac{1}{8^2}+\\left(\\frac{3\\sqrt{3}}{8}\\right)^2} =\\sqrt{\\frac{7}{16}}$ . That number squared is $\\frac{7}{16}$ , so the answer is $\\boxed{023}$ .\n\n~Installhelp_hex\n\nWhy this works: Assume the quartic equation has exactly two real roots. Then for $a=\\frac{1}{2}$ to be the only solution, it must be a doubled root. Thus, even after dividing the quartic by $a-\\frac{1}{2}$ , $a=\\frac{1}{2}$ is still a root.\n~inaccessibles\n\nOther explanation: Clearly $a=\\frac{1}{2}$ works because then PQ = AB. Thus, we can factor out $a-\\frac{1}{2}$ .\n\nFrom the 3rd degree polynomial, it must either have 3 real roots, or 1 real root and 2 non real roots, because it has real coefficients.\n\nSo it must have atleast 1 real root. If this root wasn't $\\frac{1}{2}$ this would mean their is another line PQ that satisfies the equation. Thus, their must be another root at $a=\\frac{1}{2}$ and plugging in, we can solve for $x$ .\n~Bigbrain_2009"
   },
   {
     "id": "aimeii-2024-13",
@@ -2386,10 +2391,12 @@
     "answer": "301",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_I_Problems/Problem_11",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Ptolemy's Theorem",
-      "Problem-Solving: Using Cyclic Quadrilaterals"
-    ]
+      "Problem-Solving: Using Cyclic Quadrilaterals",
+      "Similar Triangles",
+      "Problem-Solving: Quadrilaterals"
+    ],
+    "solutionLatex": "This solution refers to the Diagram section.\n\nBy the Converse of the Inscribed Angle Theorem, if distinct points $X$ and $Y$ lie on the same side of $\\overline{PQ}$ (but not on $\\overline{PQ}$ itself) for which $\\angle PXQ=\\angle PYQ,$ then $P,Q,X,$ and $Y$ are cyclic. From the Converse of the Inscribed Angle Theorem, quadrilaterals $ABA_1B_1,BCC_1B_1,CDC_1D_1,$ and $DAA_1D_1$ are all cyclic.\n\nSuppose $\\overline{AC}$ and $\\overline{BD}$ intersect at $E,$ and let $\\angle AEB=\\theta.$ It follows that $\\angle CED=\\theta$ and $\\angle BEC=\\angle DEA=180^\\circ-\\theta.$\n\nWe obtain the following diagram:\n[[img:https://latex.artofproblemsolving.com/1/7/6/176d8f879cf739392be8f3a10297d15ed548db67.png]]\nIn every cyclic quadrilateral, each pair of opposite angles is supplementary. So, we have $\\angle EA_1B_1=\\angle EAB$ (both supplementary to $\\angle B_1A_1B$ ) and $\\angle EB_1A_1=\\angle EBA$ (both supplementary to $\\angle A_1B_1A$ ), from which $\\triangle A_1B_1E \\sim \\triangle ABE$ by AA, with the ratio of similitude \\[\\frac{A_1B_1}{AB}=\\underbrace{\\frac{A_1E}{AE}}_{\\substack{\\text{right} \\\\ \\triangle A_1AE}}=\\underbrace{\\frac{B_1E}{BE}}_{\\substack{\\text{right} \\\\ \\triangle B_1BE}}=\\cos\\theta. \\hspace{15mm}(1)\\]\nSimilarly, we have $\\angle EC_1D_1=\\angle ECD$ (both supplementary to $\\angle D_1C_1D$ ) and $\\angle ED_1C_1=\\angle EDC$ (both supplementary to $\\angle C_1D_1C$ ), from which $\\triangle C_1D_1E \\sim \\triangle CDE$ by AA, with the ratio of similitude \\[\\frac{C_1D_1}{CD}=\\underbrace{\\frac{C_1E}{CE}}_{\\substack{\\text{right} \\\\ \\triangle C_1CE}}=\\underbrace{\\frac{D_1E}{DE}}_{\\substack{\\text{right} \\\\ \\triangle D_1DE}}=\\cos\\theta. \\hspace{14.75mm}(2)\\]\nWe apply the Transitive Property to $(1)$ and $(2):$\n\nWe get $\\frac{B_1E}{BE}=\\frac{C_1E}{CE}=\\cos\\theta,$ so $\\triangle B_1C_1E \\sim \\triangle BCE$ by SAS, with the ratio of similitude \\[\\frac{B_1C_1}{BC}=\\frac{B_1E}{BE}=\\frac{C_1E}{CE}=\\cos\\theta. \\hspace{14.75mm}(3)\\]\n We get $\\frac{D_1E}{DE}=\\frac{A_1E}{AE}=\\cos\\theta,$ so $\\triangle D_1A_1E \\sim \\triangle DAE$ by SAS, with the ratio of similitude \\[\\frac{D_1A_1}{DA}=\\frac{D_1E}{DE}=\\frac{A_1E}{AE}=\\cos\\theta. \\hspace{14mm}(4)\\]\n\nFrom $(1),(2),(3),$ and $(4),$ the perimeter of $A_1B_1C_1D_1$ is\n$\\begin{align*} A_1B_1+B_1C_1+C_1D_1+D_1A_1&=AB\\cos\\theta+BC\\cos\\theta+CD\\cos\\theta+DA\\cos\\theta \\\\ &=(AB+BC+CD+DA)\\cos\\theta \\\\ &=22\\cos\\theta. &&\\hspace{5mm}(\\bigstar) \\end{align*}$\nTwo solutions follow from here:\n\nNote that $\\cos(180^\\circ-\\theta)=-\\cos\\theta$ holds for all $\\theta.$ We apply the Law of Cosines to $\\triangle ABE, \\triangle BCE, \\triangle CDE,$ and $\\triangle DAE,$ respectively:\n$\\begin{alignat*}{12} &&&AE^2+BE^2-2\\cdot AE\\cdot BE\\cdot\\cos\\angle AEB&&=AB^2&&\\quad\\implies\\quad AE^2+BE^2-2\\cdot AE\\cdot BE\\cdot\\cos\\theta&&=4^2, \\hspace{15mm} &(1\\star) \\\\ &&&BE^2+CE^2-2\\cdot BE\\cdot CE\\cdot\\cos\\angle BEC&&=BC^2&&\\quad\\implies\\quad BE^2+CE^2+2\\cdot BE\\cdot CE\\cdot\\cos\\theta&&=5^2, \\hspace{15mm} &(2\\star) \\\\ &&&CE^2+DE^2-2\\cdot CE\\cdot DE\\cdot\\cos\\angle CED&&=CD^2&&\\quad\\implies\\quad CE^2+DE^2-2\\cdot CE\\cdot DE\\cdot\\cos\\theta&&=6^2, \\hspace{15mm} &(3\\star) \\\\ &&&DE^2+AE^2-2\\cdot DE\\cdot AE\\cdot\\cos\\angle DEA&&=DA^2&&\\quad\\implies\\quad DE^2+AE^2+2\\cdot DE\\cdot AE\\cdot\\cos\\theta&&=7^2. \\hspace{15mm} &(4\\star) \\\\ \\end{alignat*}$\nWe subtract $(1\\star)+(3\\star)$ from $(2\\star)+(4\\star):$\n$\\begin{align*} 2\\cdot AE\\cdot BE\\cdot\\cos\\theta+2\\cdot BE\\cdot CE\\cdot\\cos\\theta+2\\cdot CE\\cdot DE\\cdot\\cos\\theta+2\\cdot DE\\cdot AE\\cdot\\cos\\theta&=22 \\\\ 2\\cdot\\cos\\theta\\cdot(\\phantom{ }\\underbrace{AE\\cdot BE+BE\\cdot CE+CE\\cdot DE+DE\\cdot AE}_{\\text{Use the result from }\\textbf{Remark}\\text{.}}\\phantom{ })&=22 \\\\ 2\\cdot\\cos\\theta\\cdot59&=22 \\\\ \\cos\\theta&=\\frac{11}{59}. \\end{align*}$\nFinally, substituting this result into $(\\bigstar)$ gives $22\\cos\\theta=\\frac{242}{59},$ from which the answer is $242+59=\\boxed{301}.$\n\n~MRENTHUSIASM (credit given to Math Jams's 2021 AIME I Discussion)\n\nLet the brackets denote areas.\nWe find $[ABCD]$ in two different ways:\n\nNote that $\\sin(180^\\circ-\\theta)=\\sin\\theta$ holds for all $\\theta.$ By area addition, we get\n$\\begin{align*} [ABCD]&=[ABE]+[BCE]+[CDE]+[DAE] \\\\ &=\\frac12\\cdot AE\\cdot BE\\cdot\\sin\\angle AEB+\\frac12\\cdot BE\\cdot CE\\cdot\\sin\\angle BEC+\\frac12\\cdot CE\\cdot DE\\cdot\\sin\\angle CED+\\frac12\\cdot DE\\cdot AE\\cdot\\sin\\angle DEA \\\\ &=\\frac12\\cdot AE\\cdot BE\\cdot\\sin\\theta+\\frac12\\cdot BE\\cdot CE\\cdot\\sin\\theta+\\frac12\\cdot CE\\cdot DE\\cdot\\sin\\theta+\\frac12\\cdot DE\\cdot AE\\cdot\\sin\\theta \\\\ &=\\frac12\\cdot\\sin\\theta\\cdot(\\phantom{ }\\underbrace{AE\\cdot BE+BE\\cdot CE+CE\\cdot DE+DE\\cdot AE}_{\\text{Use the result from }\\textbf{Remark}\\text{.}}\\phantom{ }) \\\\ &=\\frac12\\cdot\\sin\\theta\\cdot59. \\end{align*}$\n By Brahmagupta's Formula, we get \\[[ABCD]=\\sqrt{(s-AB)(s-BC)(s-CD)(s-DA)}=2\\sqrt{210},\\] where $s=\\frac{AB+BC+CD+DA}{2}=11$ is the semiperimeter of $ABCD.$\n\nEquating the expressions for $[ABCD],$ we have\n \\[\\frac12\\cdot\\sin\\theta\\cdot59=2\\sqrt{210},\\] so $\\sin\\theta=\\frac{4\\sqrt{210}}{59}.$ Since $0^\\circ<\\theta<90^\\circ,$ we have $\\cos\\theta>0.$ It follows that \\[\\cos\\theta=\\sqrt{1-\\sin^2\\theta}=\\frac{11}{59}.\\]\nFinally, substituting this result into $(\\bigstar)$ gives $22\\cos\\theta=\\frac{242}{59},$ from which the answer is $242+59=\\boxed{301}.$\n\n~MRENTHUSIASM (credit given to Leonard my dude)\n\nIn $ABCD,$ we have\n$\\begin{align*} AE\\cdot BE+BE\\cdot CE+CE\\cdot DE+DE\\cdot AE &= (AE+CE)(BE+DE) &&\\hspace{10mm}\\text{Factor by Grouping} \\\\ &=AC\\cdot BD &&\\hspace{10mm}\\text{Segment Addition} \\\\ &=AB\\cdot CD+BC\\cdot DA &&\\hspace{10mm}\\text{Ptolemy's Theorem} \\\\ &=59. &&\\hspace{10mm}\\text{Substitution} \\end{align*}$\n~MRENTHUSIASM"
   },
   {
     "id": "aimei-2021-12",
@@ -2570,9 +2577,12 @@
     "answer": "145",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2021_AIME_II_Problems/Problem_7",
     "topics": [
+      "Algebraic Manipulation",
+      "Casework",
       "System of Equations",
-      "3rd Degree Symmetric Sums"
-    ]
+      "Variables"
+    ],
+    "solutionLatex": "From the fourth equation we get $d=\\frac{30}{abc}.$ Substitute this into the third equation and you get $abc + \\frac{30(ab + bc + ca)}{abc} = abc - \\frac{120}{abc} = 14$ . Hence $(abc)^2 - 14(abc)-120 = 0$ . Solving, we get $abc = -6$ or $abc = 20$ . From the first and second equation, we get $ab + bc + ca = ab-3c = -4 \\Longrightarrow ab = 3c-4$ . If $abc=-6$ , substituting we get $c(3c-4)=-6$ . If you try solving this you see that this does not have real solutions in $c$ , so $abc$ must be $20$ . So $d=\\frac{3}{2}$ . Since $c(3c-4)=20$ , $c=-2$ or $c=\\frac{10}{3}$ . If $c=\\frac{10}{3}$ , then the system $a+b=-3$ and $ab = 6$ does not give you real solutions. So $c=-2$ . Since you already know $d=\\frac{3}{2}$ and $c=-2$ , so you can solve for $a$ and $b$ pretty easily and see that $a^{2}+b^{2}+c^{2}+d^{2}=\\frac{141}{4}$ . So the answer is $\\boxed{145}$ .\n\n~math31415926535 ~minor edit by Mathkiddie"
   },
   {
     "id": "aimeii-2021-8",
@@ -3757,8 +3767,11 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_4",
     "topics": [
       "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums"
-    ]
+      "Variables",
+      "Pythagorean theorem",
+      "Law of Sines"
+    ],
+    "solutionLatex": "We apply Law of Cosines on $\\angle A$ twice (one from $\\triangle ADE$ and one from $\\triangle ABC$ ),\n\n\\begin{align*}\n12^2 &= 10^2 + 10^2 - 2(10)(10) \\cdot \\cos{A} \\\\[5pt]\nx^2&=x^2+(10-x)^2-2(x)(10-x)\\cdot \\cos{A}\n\\end{align*}\n\nSolving for $\\cos{A}$ in both equations, we get\n\\begin{align*}\n\\cos{A} &= \\frac{7}{25} \\\\\n\\cos{A} &= \\frac{(10-x)^2}{(2)(10-x)(x)} = \\frac{10-x}{2x}\n\\end{align*}\nSetting the two equal,\n\\begin{align*}\n\\frac{10-x}{2x} &= \\frac{7}{25} \\\\[5pt]\n250-25x &= 14x \\\\[5pt]\nx &= \\frac{250}{39}.\n\\end{align*}\nTherefore, our answer is $\\boxed{289}$\n\nNote that this strategy of applying LOC on congruent or supplementary angles is very common. It's also how Stewart's Theorem is derived.\n\n-RootThreeOverTwo, edits by epiconan"
   },
   {
     "id": "aimei-2018-5",
@@ -3772,7 +3785,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AIME_I_Problems/Problem_5",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Using the logarithmic property $\\log_{a^n}b^n = \\log_{a}b$ , we note that \\[(2x+y)^2 = x^2+xy+7y^2\\]\nThat gives \\[x^2+xy-2y^2=0\\] upon simplification and division by $3$ . Factoring $x^2+xy-2y^2=0$ gives \\[(x+2y)(x-y)=0\\] Then, \\[x=y \\text{ or }x=-2y\\]\nFrom the second equation, \\[9x^2+6xy+y^2=3x^2+4xy+Ky^2\\] If we take $x=y$ , we see that $K=9$ . If we take $x=-2y$ , we see that $K=21$ . The product is $\\boxed{189}$ .\n\n-expiLnCalc"
   },
   {
     "id": "aimei-2018-6",
@@ -11863,6 +11877,198 @@
     "topics": [
       "3D Volumes and Surface Areas",
       "Simplifying Radicals"
+    ]
+  },
+  {
+    "id": "aimei-2017-6",
+    "contest": "AIME",
+    "year": 2017,
+    "version": "I",
+    "number": 6,
+    "statementLatex": "A circle is circumscribed around an isosceles triangle whose two congruent angles have degree measure $x$ . Two points are chosen independently and uniformly at random on the circle, and a chord is drawn between them. The probability that the chord intersects the triangle is $\\frac{14}{25}$ . Find the difference between the largest and smallest possible values of $x$ .",
+    "solutionLatex": "The probability that the chord doesn't intersect the triangle is $\\frac{11}{25}$ . The only way this can happen is if the two points are chosen on the same arc between two of the triangle vertices. The probability that a point is chosen on one of the arcs opposite one of the base angles is $\\frac{2x}{360}=\\frac{x}{180}$ (this comes from the Central Angle Theorem, which states that the central angle from two points on a circle is always twice the inscribed angle from those two points), and the probability that a point is chosen on the arc between the two base angles is $\\frac{180-2x}{180}$ . Therefore, we can write \\[2\\left(\\frac{x}{180}\\right)^2+\\left(\\frac{180-2x}{180}\\right)^2=\\frac{11}{25}\\]\nThis simplifies to \\[x^2-120x+3024=0\\]\n\n(Note that the simplification is quite tedious)\n\nWhich factors as \\[(x-84)(x-36)=0\\]\nSo $x=84, 36$ . The difference between these is $\\boxed{048}$ .\n\nNote:\n\nWe actually do not need to spend time factoring $x^2 - 120x + 3024$ . Since the problem asks for $|x_1 - x_2|$ , where $x_1$ and $x_2$ are the roots of the quadratic, we can utilize Vieta's by noting that $(x_1 - x_2) ^ 2 = (x_1 + x_2) ^ 2 - 4x_1x_2$ . Vieta's gives us $x_1 + x_2 = 120,$ and $x_1x_2 = 3024.$ Plugging this into the above equation and simplifying gives us $(x_1 - x_2) ^ 2 = 2304,$ or $|x_1 - x_2| = 48$ .\n\nOur answer is then $\\boxed{048}$ .\n\nAnother note:\n\nLetting $y = x/180$ , the first equation turns into $2y^2 + (1-2y)^2 = 11/25$ , heavily simplifying the otherwise messy simplification, and you can use the aforementioned note to find $|y_1 - y_2| = 4/15$ . Using $x = 180y$ , $|x_1 - x_2| = 180|y_1 - y_2|$ , so the answer is $180(4/15) = \\boxed{048}$",
+    "choices": [],
+    "answer": "048",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_I_Problems/Problem_6",
+    "topics": [
+      "Problem-Solving: Circle Basics",
+      "Introduction to Probability",
+      "Problem-Solving: Triangle Angles",
+      "Problem-Solving: Isosceles Equilateral Triangles"
+    ]
+  },
+  {
+    "id": "aimeii-2017-5",
+    "contest": "AIME",
+    "year": 2017,
+    "version": "II",
+    "number": 5,
+    "statementLatex": "A set contains four numbers. The six pairwise sums of distinct elements of the set, in no particular order, are $189$ , $320$ , $287$ , $234$ , $x$ , and $y$ . Find the greatest possible value of $x+y$ .",
+    "solutionLatex": "Let these four numbers be $a$ , $b$ , $c$ , and $d$ , where $a>b>c>d$ . $x+y$ needs to be maximized, so let $x=a+b$ and $y=a+c$ because these are the two largest pairwise sums. Now $x+y=2a+b+c$ needs to be maximized. Notice that $2a+b+c=3(a+b+c+d)-(a+2b+2c+3d)=3((a+c)+(b+d))-((a+d)+(b+c)+(b+d)+(c+d))$ . No matter how the numbers $189$ , $320$ , $287$ , and $234$ are assigned to the values $a+d$ , $b+c$ , $b+d$ , and $c+d$ , the sum $(a+d)+(b+c)+(b+d)+(c+d)$ will always be $189+320+287+234$ . Therefore we need to maximize $3((a+c)+(b+d))-(189+320+287+234)$ . The maximum value of $(a+c)+(b+d)$ is achieved when we let $a+c$ and $b+d$ be $320$ and $287$ because these are the two largest pairwise sums besides $x$ and $y$ . Therefore, the maximum possible value of $x+y=3(320+287)-(189+320+287+234)=\\boxed{791}$ .",
+    "choices": [],
+    "answer": "791",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AIME_II_Problems/Problem_5",
+    "topics": [
+      "Casework"
+    ]
+  },
+  {
+    "id": "aimei-2016-15",
+    "contest": "AIME",
+    "year": 2016,
+    "version": "I",
+    "number": 15,
+    "statementLatex": "Circles $\\omega_1$ and $\\omega_2$ intersect at points $X$ and $Y$ . Line $\\ell$ is tangent to $\\omega_1$ and $\\omega_2$ at $A$ and $B$ , respectively, with line $AB$ closer to point $X$ than to $Y$ . Circle $\\omega$ passes through $A$ and $B$ intersecting $\\omega_1$ again at $D \\neq A$ and intersecting $\\omega_2$ again at $C \\neq B$ . The three points $C$ , $Y$ , $D$ are collinear, $XC = 67$ , $XY = 47$ , and $XD = 37$ . Find $AB^2$ .",
+    "solutionLatex": "Using the radical axis theorem, the lines $\\overline{AD}, \\overline{BC}, \\overline{XY}$ are all concurrent at one point, call it $F$ . Now recall by Miquel's theorem in $\\triangle FDC$ the fact that quadrilaterals $DAXY$ and $CBXY$ are cyclic implies $FAXB$ is cyclic as well. Denote $\\omega_{3}\\equiv(FAXB)$ and $Z\\equiv\\ell\\cap\\overline{FXY}$ .\n\nSince point $Z$ lies on the radical axis of $\\omega_{1},\\omega_{2}$ , it has equal power with respect to both circles, thus \\[AZ^{2}=\\text{Pow}_{\\omega_{1}}(Z)=ZX\\cdot ZY=\\text{Pow}_{\\omega_{2}}(Z)=ZB^{2}\\implies AZ=ZB.\\] Also, notice that \\[AZ\\cdot ZB=\\text{Pow}_{\\omega_{3}}(Z)=ZX\\cdot ZF\\implies ZY=ZF.\\] The diagonals of quadrilateral $FAYB$ bisect each other at $Z$ , so we conclude that $FAYB$ is a parallelogram. Let $u:=ZX$ , so that $ZY=ZF=u+47$ .\n\nBecause $FAYB$ is a parallelogram and quadrilaterals $DAXY, CBXY$ are cyclic, \\[\\angle DFX=\\angle AFX=\\angle BYX=\\angle BCX=\\angle FCX~~\\text{and}~~\\angle XDF=\\angle XDA=\\angle XYA=\\angle XFB=\\angle XFC\\] so we have the pair of similar triangles $\\triangle DFX~\\sim~\\triangle FCX$ . Thus \\[\\dfrac{37}{2u+47}=\\dfrac{2u+47}{67}\\implies 2u+47=\\sqrt{37\\cdot 67}\\implies u=\\dfrac{1}{2}\\left(\\sqrt{37\\cdot 67}-47\\right).\\] Now compute \\[AB^{2}=4AZ^{2}=4\\cdot ZX\\cdot ZY=4u(u+47)=37\\cdot 67-47^{2}=\\textbf{270}.\\]\n\n$AIME 2016-I15 Geogebra Diagram.png$",
+    "choices": [],
+    "answer": "270",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_I_Problems/Problem_15",
+    "topics": [
+      "Problem-Solving: Circle Basics",
+      "Similar Triangles",
+      "Power of a Point",
+      "Circle Tangents"
+    ]
+  },
+  {
+    "id": "aimeii-2016-5",
+    "contest": "AIME",
+    "year": 2016,
+    "version": "II",
+    "number": 5,
+    "statementLatex": "Triangle $ABC_0$ has a right angle at $C_0$ . Its side lengths are pairwise relatively prime positive integers, and its perimeter is $p$ . Let $C_1$ be the foot of the altitude to $\\overline{AB}$ , and for $n \\geq 2$ , let $C_n$ be the foot of the altitude to $\\overline{C_{n-2}B}$ in $\\triangle C_{n-2}C_{n-1}B$ . The sum $\\sum_{n=2}^\\infty C_{n-2}C_{n-1} = 6p$ . Find $p$ .",
+    "solutionLatex": "Do note that by counting the area in 2 ways, the first altitude is $x = \\frac{ab}{c}$ . By similar triangles, the common ratio is $\\rho = \\frac{a}{c}$ for each height, so by the geometric series formula, we have\n$\\begin{align} 6p=\\frac{x}{1-\\rho} = \\frac{ab}{c-a}. \\end{align}$\nWriting $p=a+b+c$ and clearing denominators, we get \\[13a=6p .\\] Thus $p=13q$ , $a=6q$ , and $b+c=7q$ , i.e. $c=7q-b$ . Plugging these into $(1)$ , we get $78q(q-b)=6bq$ , i.e., $14b=13q$ . Thus $q=14r$ and $p=182r$ , $b=13r$ , $a=84r$ , $c=85r$ . Taking $r=1$ (since $a,b,c$ are relatively prime) we get $p=\\boxed{182}$ .\n\nNote this solution seems to have some serious errors",
+    "choices": [],
+    "answer": "182",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_5",
+    "topics": [
+      "Sequences and Series",
+      "Length Chasing",
+      "Pythagorean theorem",
+      "Problem-Solving: Triangle Angles"
+    ]
+  },
+  {
+    "id": "aimeii-2014-4",
+    "contest": "AIME",
+    "year": 2014,
+    "version": "II",
+    "number": 4,
+    "statementLatex": "The repeating decimals $0.abab\\overline{ab}$ and $0.abcabc\\overline{abc}$ satisfy\n\n\\[0.abab\\overline{ab}+0.abcabc\\overline{abc}=\\frac{33}{37},\\]\n\nwhere $a$ , $b$ , and $c$ are (not necessarily distinct) digits. Find the three digit number $abc$ .",
+    "solutionLatex": "Notice repeating decimals can be written as the following:\n\n$0.\\overline{ab}=\\frac{10a+b}{99}$\n\n$0.\\overline{abc}=\\frac{100a+10b+c}{999}$\n\nwhere a,b,c are the digits. Now we plug this back into the original fraction:\n\n$\\frac{10a+b}{99}+\\frac{100a+10b+c}{999}=\\frac{33}{37}$\n\nMultiply both sides by $999*99.$ This helps simplify the right side as well because $999=111*9=37*3*9$ :\n\n$9990a+999b+9900a+990b+99c=33/37*37*3*9*99=33*3*9*99$\n\nDividing both sides by $9$ and simplifying gives:\n\n$2210a+221b+11c=99^2=9801$\n\nAt this point, seeing the $221$ factor common to both a and b is crucial to simplify. This is because taking $mod 221$ to both sides results in:\n\n$2210a+221b+11c \\equiv 9801 \\mod 221 \\iff 11c \\equiv 77 \\mod 221$\n\nNotice that we arrived to the result $9801 \\equiv 77 \\mod 221$ by simply dividing $9801$ by $221$ and seeing $9801=44*221+77.$ Okay, now it's pretty clear to divide both sides by $11$ in the modular equation but we have to worry about $221$ being multiple of $11.$ Well, $220$ is a multiple of $11$ so clearly, $221$ couldn't be. Also, $221=13*17.$ Now finally we simplify and get:\n\n$c \\equiv 7 \\mod 221$\n\nBut we know $c$ is between $0$ and $9$ because it is a digit, so $c$ must be $7.$ Now it is straightforward from here to find $a$ and $b$ :\n\n$2210a+221b+11(7)=9801 \\iff 221(10a+b)=9724 \\iff 10a+b=44$\n\nand since a and b are both between $0$ and $9$ , we have $a=b=4$ . Finally we have the $3$ digit integer $\\boxed{447}$",
+    "choices": [],
+    "answer": "447",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_4",
+    "topics": [
+      "Digit Problems",
+      "Digit Deduction",
+      "Problem-Solving: Divisibility and Digits",
+      "Algebraic Manipulation"
+    ]
+  },
+  {
+    "id": "aimeii-2014-5",
+    "contest": "AIME",
+    "year": 2014,
+    "version": "II",
+    "number": 5,
+    "statementLatex": "Real numbers $r$ and $s$ are roots of $p(x)=x^3+ax+b$ , and $r+4$ and $s-3$ are roots of $q(x)=x^3+ax+b+240$ . Find the sum of all possible values of $|b|$ .",
+    "solutionLatex": "Because the coefficient of $x^2$ in both $p(x)$ and $q(x)$ is 0, the remaining root of $p(x)$ is $-(r+s)$ , and the remaining root of $q(x)$ is $-(r+s+1)$ . The coefficients of $x$ in $p(x)$ and $q(x)$ are both equal to $a$ , and equating the two coefficients gives\n \\[rs-(r+s)^2 = (r+4)(s-3)-(r+s+1)^2\\] from which $s = \\tfrac 12 (5r+13)$ . Substitution should give $r = -5$ and $r = 1$ , corresponding to $s = -6$ and $s = 9$ , and $|b| = 330, 90$ , for an answer of $\\boxed{420}$ .",
+    "choices": [],
+    "answer": "420",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_5",
+    "topics": [
+      "Polynomials",
+      "Vieta's Formulas",
+      "Problem-Solving: Polynomial Root Tricks",
+      "Clever Substitutions"
+    ]
+  },
+  {
+    "id": "aimeii-2014-6",
+    "contest": "AIME",
+    "year": 2014,
+    "version": "II",
+    "number": 6,
+    "statementLatex": "Charles has two six-sided die. One of the die is fair, and the other die is biased so that it comes up six with probability $\\frac{2}{3}$ and each of the other five sides has probability $\\frac{1}{15}$ . Charles chooses one of the two dice at random and rolls it three times. Given that the first two rolls are both sixes, the probability that the third roll will also be a six is $\\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+    "solutionLatex": "The probability that he rolls a six twice when using the fair die is $\\frac{1}{6}\\times \\frac{1}{6}=\\frac{1}{36}$ . The probability that he rolls a six twice using the biased die is $\\frac{2}{3}\\times \\frac{2}{3}=\\frac{4}{9}=\\frac{16}{36}$ . Given that Charles rolled two sixes, we can see that it is $16$ times more likely that he chose the second die. Therefore the probability that he is using the fair die is $\\frac{1}{17}$ , and the probability that he is using the biased die is $\\frac{16}{17}$ . The probability of rolling a third six is\n\n\\[\\frac{1}{17}\\times \\frac{1}{6} + \\frac{16}{17} \\times \\frac{2}{3} = \\frac{1}{102}+\\frac{32}{51}=\\frac{65}{102}\\]\nTherefore, our desired $p+q$ is $65+102= \\boxed{167}$",
+    "choices": [],
+    "answer": "167",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_6",
+    "topics": [
+      "Introduction to Probability",
+      "Conditional Probability"
+    ]
+  },
+  {
+    "id": "aimeii-2014-7",
+    "contest": "AIME",
+    "year": 2014,
+    "version": "II",
+    "number": 7,
+    "statementLatex": "Let $f(x)=(x^2+3x+2)^{\\cos(\\pi x)}$ . Find the sum of all positive integers $n$ for which\n \\[\\left |\\sum_{k=1}^n\\log_{10}f(k)\\right|=1.\\]",
+    "solutionLatex": "First, let's split it into two cases to get rid of the absolute value sign\n\n$\\left |\\sum_{k=1}^n\\log_{10}f(k)\\right|=1 \\iff \\sum_{k=1}^n\\log_{10}f(k)=1,-1$\n\nNow we simplify using product-sum logarithmic identites:\n\n$\\log_{10}{f(1)}+\\log_{10}{f(2)}+...+\\log_{10}{f(n)}=\\log_{10}{f(1)\\cdot f(2) \\cdot ... \\cdot f(n)}=1,-1$\n\nNote that the exponent $\\cos{\\pi(x)}$ is either $-1$ if $x$ is odd or $1$ if $x$ is even.\n\nWriting out the first terms we have\n\n$\\frac{1}{(2)(3)}(3)(4)\\frac{1}{(4)(5)} \\ldots$\n\nThis product clearly telescopes (i.e. most terms cancel) and equals either $10$ or $\\frac{1}{10}$ . But the resulting term after telescoping depends on parity (odd/evenness), so we split it two cases, one where $n$ is odd and another where $n$ is even.\n\n$\\textbf{Case 1: Odd n}$\n\nFor odd $n$ , it telescopes to $\\frac{1}{2(n+2)}$ where $n$ is clearly $3$ .\n\n$\\textbf{Case 2: Even n}$\n\nFor even $n$ , it telescopes to $\\frac{n+2}{2}$ where $18$ is the only possible $n$ value. Thus the answer is $\\boxed{021}$",
+    "choices": [],
+    "answer": "021",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_7",
+    "topics": [
+      "Casework",
+      "Trigonometry",
+      "Functions - f(x) Notation"
+    ]
+  },
+  {
+    "id": "aimeii-2014-9",
+    "contest": "AIME",
+    "year": 2014,
+    "version": "II",
+    "number": 9,
+    "statementLatex": "Ten chairs are arranged in a circle. Find the number of subsets of this set of chairs that contain at least three adjacent chairs.",
+    "solutionLatex": "We know that a subset with less than $3$ chairs cannot contain $3$ adjacent chairs. There are only $10$ sets of $3$ chairs so that they are all $3$ adjacent. There are $10$ subsets of $4$ chairs where all $4$ are adjacent, and $10 \\cdot 5$ or $50$ where there are only $3.$ If there are $5$ chairs, $10$ have all $5$ adjacent, $10 \\cdot 4$ or $40$ have $4$ adjacent, and $10 \\cdot {5\\choose 2}$ or $100$ have $3$ adjacent. With $6$ chairs in the subset, $10$ have all $6$ adjacent, $10(3)$ or $30$ have $5$ adjacent, $10 \\cdot {4\\choose2}$ or $60$ have $4$ adjacent, $\\frac{10 \\cdot 3}{2}$ or $15$ have $2$ groups of $3$ adjacent chairs, and $10 \\cdot \\left({5\\choose2} - 3\\right)$ or $70$ have $1$ group of $3$ adjacent chairs. All possible subsets with more than $6$ chairs have at least $1$ group of $3$ adjacent chairs, so we add ${10\\choose7}$ or $120$ , ${10\\choose8}$ or $45$ , ${10\\choose9}$ or $10$ , and ${10\\choose10}$ or $1.$ Adding, we get $10 + 10 + 50 + 10 + 40 + 100 + 10 + 30 + 60 + 15 + 70 + 120 + 45 + 10 + 1 = \\boxed{581}.$",
+    "choices": [],
+    "answer": "581",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_9",
+    "topics": [
+      "Complementary Counting",
+      "Linear Inequalities",
+      "Casework",
+      "Problem-Solving: Circle Basics"
+    ]
+  },
+  {
+    "id": "aimeii-2014-12",
+    "contest": "AIME",
+    "year": 2014,
+    "version": "II",
+    "number": 12,
+    "statementLatex": "Suppose that the angles of $\\triangle ABC$ satisfy $\\cos(3A)+\\cos(3B)+\\cos(3C)=1.$ Two sides of the triangle have lengths 10 and 13. There is a positive integer $m$ so that the maximum possible length for the remaining side of $\\triangle ABC$ is $\\sqrt{m}.$ Find $m.$",
+    "solutionLatex": "Note that $\\cos{3C}=-\\cos{(3A+3B)}$ . Thus, our expression is of the form $\\cos{3A}+\\cos{3B}-\\cos{(3A+3B)}=1$ . Let $\\cos{3A}=x$ and $\\cos{3B}=y$ .\n\nUsing the fact that $\\cos(3A+3B)=\\cos 3A\\cos 3B-\\sin 3A\\sin 3B=xy-\\sqrt{1-x^2}\\sqrt{1-y^2}$ , we get $x+y-xy+\\sqrt{1-x^2}\\sqrt{1-y^2}=1$ , or $\\sqrt{1-x^2}\\sqrt{1-y^2}=xy-x-y+1=(x-1)(y-1)$ .\n\nSquaring both sides, we get $(1-x^2)(1-y^2) = [(x-1)(y-1)]^2$ . Cancelling factors, $(1+x)(1+y) = (1-x)(1-y)$ .\n\nNotice here that we cancelled out one factor of (x-1) and (y-1), which implies that (x-1) and (y-1) were not 0. If indeed they were 0 though, we would have\n\n$cos(3A)-1=0, cos(3A)=1$\n\nFor this we could say that A must be 120 degrees for this to work. This is one case. The B case follows in the same way, where B must be equal to 120 degrees. This doesn't change the overall solution though, as then the other angles are irrelevant (this is the largest angle, implying that this will have the longest side and so we would want to have the 120 degreee angle opposite of the unknown side).\n\nExpanding, $1+x+y+xy=1-x-y+xy\\rightarrow x+y=-x-y$ .\n\nSimplification leads to $x+y=0$ .\n\nTherefore, $\\cos(3C)=1$ . So $\\angle C$ could be $0^\\circ$ or $120^\\circ$ . We eliminate $0^\\circ$ and use law of cosines to get our answer:\n\n\\[m=10^2+13^2-2\\cdot 10\\cdot 13\\cos\\angle C\\]\n \\[\\rightarrow m=269-260\\cos 120^\\circ=269-260\\left(\\text{-}\\frac{1}{2}\\right)\\]\n \\[\\rightarrow m=269+130=399\\]\n\n$\\framebox{399}$",
+    "choices": [],
+    "answer": "399",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AIME_II_Problems/Problem_12",
+    "topics": [
+      "Problem-Solving: Triangle Angles",
+      "Casework",
+      "Length Chasing",
+      "Angle Chasing"
+    ]
+  },
+  {
+    "id": "aimei-2013-7",
+    "contest": "AIME",
+    "year": 2013,
+    "version": "I",
+    "number": 7,
+    "statementLatex": "A rectangular box has width $12$ inches, length $16$ inches, and height $\\frac{m}{n}$ inches, where $m$ and $n$ are relatively prime positive integers. Three faces of the box meet at a corner of the box. The center points of those three faces are the vertices of a triangle with an area of $30$ square inches. Find $m+n$ .",
+    "solutionLatex": "Let the height of the box be $x$ .\n\nAfter using the Pythagorean Theorem three times, we can quickly see that the sides of the triangle are 10, $\\sqrt{\\left(\\frac{x}{2}\\right)^2 + 64}$ , and $\\sqrt{\\left(\\frac{x}{2}\\right)^2 + 36}$ . Since the area of the triangle is $30$ , the altitude of the triangle from the base with length $10$ is $6$ .\n\nConsidering the two triangles created by the altitude, we use the Pythagorean theorem twice to find the lengths of the two line segments that make up the base of $10$ .\n\nWe find:\n \\[10 = \\sqrt{\\left(28+x^2/4\\right)}+x/2\\]\n\nSolving for $x$ gives us $x=\\frac{36}{5}$ . Since this fraction is simplified:\n \\[m+n=\\boxed{041}\\]\n\nThe 3D version of the Pythagorean theorem can also be applied here. ~MC",
+    "choices": [],
+    "answer": "041",
+    "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_I_Problems/Problem_7",
+    "topics": [
+      "3D Geometry",
+      "Problem-Solving: Triangle Angles",
+      "Length Chasing",
+      "Problem-Solving: Areas"
     ]
   }
 ]
