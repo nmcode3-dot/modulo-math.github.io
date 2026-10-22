@@ -324,8 +324,7 @@
     "n!",
     "5!",
     "10!",
-    "0!",
-    "!"
+    "0!"
   ],
   "Quadratics Completing the Square": [
     "completing the square",
@@ -353,10 +352,12 @@
   ],
   "Venn Diagrams": [
     "venn diagram",
-    "both",
     "in neither",
     "students who take",
-    "play both"
+    "play both",
+    "take both",
+    "like both",
+    "neither"
   ],
   "Casework": [
     "casework",
@@ -372,8 +373,7 @@
     "arrange",
     "arrangements",
     "in a row",
-    "line up",
-    "order"
+    "line up"
   ],
   "Handshakes": [
     "handshake",
@@ -444,8 +444,7 @@
     "pythagorean",
     "hypotenuse",
     "right triangle",
-    "right angle",
-    "leg"
+    "right angle"
   ],
   "Graphing Functions": [
     "graph of",
@@ -488,8 +487,7 @@
     "hexagon",
     "pentagon",
     "octagon",
-    "interior angle",
-    "regular"
+    "interior angle"
   ],
   "Problem-Solving: Angles on a Clock": [
     "hour hand",
