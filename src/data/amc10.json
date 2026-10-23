@@ -18187,7 +18187,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_10A_Problems/Problem_13",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Doug can paint $\\frac{1}{5}$ of a room per hour, Dave can paint $\\frac{1}{7}$ of a room per hour, and the time they spend working together is $t-1$ .\n\nSince rate multiplied by time gives output, $\\left(\\frac{1}{5}+\\frac{1}{7}\\right)\\left(t-1\\right)=1 \\Rightarrow \\mathrm{(D)}$\n\nIf one person does a job in $a$ hours and another person does a job in $b$ hours, the time it takes to do the job together is $\\frac{ab}{a+b}$ hours.\n\nSince Doug paints a room in 5 hours and Dave paints a room in 7 hours, they both paint in $\\frac{5\\times7}{5+7} = \\frac{35}{12}$ hours. They also take 1 hour for lunch, so the total time $t = \\frac{35}{12} + 1$ hours.\n\nLooking at the answer choices, $(D)$ is the only one satisfied by $t = \\frac{35}{12} + 1$ ."
   },
   {
     "id": "amc10a-2008-14",
