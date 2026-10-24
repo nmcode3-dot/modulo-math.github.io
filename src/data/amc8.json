@@ -738,7 +738,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Puzzles"
+      "Counting"
     ],
     "solutionLatex": "We mark the time intervals in which Malaika's elevation is between $4$ and $7$ meters in red, as shown below:\n[[img:https://latex.artofproblemsolving.com/f/5/a/f5ae8e603011e1f4f4d1d817cd75d6f5de507911.png]]\nThe requested time intervals are:\n\nfrom the $2$ nd to the $4$ th seconds\n\nfrom the $6$ th to the $10$ th seconds\n\nfrom the $12$ th to the $14$ th seconds\n\nIn total, Malaika spends $(4-2) + (10-6) + (14-12) = \\boxed{\\textbf{(B)}\\ 8}$ seconds at such elevation.\n\n~apex304, MRENTHUSIASM"
   },
@@ -1001,10 +1001,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_21",
     "topics": [
-      "Parity Reasoning",
-      "Casework",
-      "Fundamental Counting Principle",
-      "Problem-Solving: Puzzles"
+      "Counting"
     ],
     "solutionLatex": "First, we need to find the sum of each group when split. This is the total sum of all the elements divided by the # of groups. $1 + 2 \\cdots + 9 = \\frac{9(10)}{2} = 45$ . Then, dividing by $3$ , we have $\\frac{45}{3} = 15$ , so each group of $3$ must have a sum of 15. To make the counting easier, we will just see the possible groups 9 can be with. The possible groups 9 can be with 2 distinct numbers are $(9, 2, 4)$ and $(9, 1, 5)$ . Going down both of these avenues, we will repeat the same process for $8$ using the remaining elements in the list. Where there is only 1 set of elements getting the sum of $7$ , $8$ needs in both cases. After $8$ is decided, the remaining 3 elements are forced in a group, yielding us an answer of $\\boxed{\\textbf{(C)}\\ 2}$ as our sets are $(9, 1, 5) (8, 3, 4) (7, 2, 6)$ and $(9, 2, 4) (8, 1, 6) (7, 3 ,5)$ .\n\n~CHECKMATE2021, apex304, SohumUttamchandani, wuwang2002, TaeKim, Cxrupptedpat"
   },
@@ -1025,9 +1022,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_22",
     "topics": [
-      "Problem-Solving: Puzzles",
-      "Sequences and Series",
-      "Problem-Solving: Linear Diophantine Equations"
+      "Number Theory"
     ],
     "solutionLatex": "In this solution, we will use trial and error to solve.\n $4000$ can be expressed as $200 \\times 20$ . We divide $200$ by $20$ and get $10$ , divide $20$ by $10$ and get $2$ , and divide $10$ by $2$ to get $\\boxed{\\textbf{(D)}\\ 5}$ . No one said that they have to be in ascending order!\n\nSolution by ILoveMath31415926535 and clarification edits by apex304"
   },
@@ -1048,10 +1043,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_23",
     "topics": [
-      "Introduction to Probability",
-      "Expected Value",
-      "Permutations",
-      "Linearity of Expectation"
+      "Introduction to Probability"
     ],
     "solutionLatex": "There are $4$ cases that the tiling will contain a large gray diamond in one of the smaller $2 \\times 2$ grids, as shown below:\n[[img:https://latex.artofproblemsolving.com/7/4/4/74446ea97a934723e3120b4ce500a623faa87d9c.png]]\nThere are $4^5$ ways to decide the $5$ white squares for each case, and the cases do not have any overlap.\n\nSo, the requested probability is \\[\\frac{4\\cdot4^5}{4^9} = \\frac{4^6}{4^9} = \\frac{1}{4^3} = \\boxed{\\textbf{(C) } \\frac{1}{64}}.\\]\n~apex304, TaeKim, MRENTHUSIASM"
   },
@@ -1072,10 +1064,9 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_24",
     "topics": [
-      "Similar Triangles",
-      "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Areas",
-      "Problem-Solving: Shaded Regions - Circles"
+      "Problem-Solving: Isosceles Equilateral Triangles",
+      "Similar Triangles"
     ],
     "solutionLatex": "First, we notice that the smaller isosceles triangles are similar to the larger isosceles triangles. We can find that the area of the gray area in the first triangle is $[ABC]\\cdot\\left(1-\\left(\\tfrac{11}{h}\\right)^2\\right)$ . Similarly, we can find that the area of the gray part in the second triangle is $[ABC]\\cdot\\left(\\tfrac{h-5}{h}\\right)^2$ . These areas are equal, so $1-\\left(\\frac{11}{h}\\right)^2=\\left(\\frac{h-5}{h}\\right)^2$ . Simplifying yields $10h=146$ so $h=\\boxed{\\textbf{(A) }14.6}$ .\n\n~MathFun1000 (~edits apex304)"
   },
@@ -2357,8 +2348,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_9",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Ratios and Rates",
       "3D Volumes and Surface Areas",
       "3D Geometry"
     ],
@@ -2396,7 +2385,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_11",
     "topics": [
-      "Venn Diagrams"
+      "Counting"
     ],
     "solutionLatex": "Let $x$ be the number of students taking both a math and a foreign language class.\n\nBy P-I-E, we get $70 + 54 - x$ = $93$ .\n\nSolving gives us $x = 31$ .\n\nBut we want the number of students taking only a math class,\n\nwhich is $70 - 31 = 39$ .\n\n$\\boxed{\\textbf{(D)}\\ 39}$\n\n~phoenixfire\n\n):):):):):)"
   },
@@ -2417,8 +2406,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_12",
     "topics": [
-      "3D Geometry",
-      "Problem-Solving: 3D Geometry"
+      "Algebra"
     ],
     "solutionLatex": "$B$ is on the top, and $R$ is on the side, and $G$ is on the right side. That means that (image $2$ ) $W$ is on the left side. From the third image, you know that $P$ must be on the bottom since $G$ is sideways. That leaves us with the back, so the back must be $A$ . The front is opposite of the back, so the answer is $\\boxed{\\textbf{(A)}\\ R}$ ."
   },
@@ -2571,9 +2559,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_19",
     "topics": [
-      "Casework",
-      "Handshakes",
-      "Parity Reasoning"
+      "Casework"
     ],
     "solutionLatex": "This isn't finished\nto another. This gives equality, as each team wins once and loses once as well. For a win, we have $3$ points, so a team gets $3\\times2=6$ points if they each win a game and lose a game. This case brings a total of $18+6=24$ points.\n\nTherefore, we use Case 2 since it brings the greater amount of points, or $\\boxed {\\textbf {(C) }24}$ .\n\nNote that case 2 can be easily seen to be better as follows. Let $x_A$ be the number of points $A$ gets, $x_B$ be the number of points $B$ gets, and $x_C$ be the number of points $C$ gets. Since $x_A = x_B = x_C$ , to maximize $x_A$ , we can just maximize $x_A + x_B + x_C$ . But in each match, if one team wins then the total sum increases by $3$ points, whereas if they tie, the total sum increases by $2$ points. So, it is best if there are the fewest ties possible."
   },
@@ -3633,10 +3619,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_18",
     "topics": [
-      "Pythagorean theorem",
       "Pythagorean Triples",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
+      "Pythagorean theorem",
+      "Problem-Solving: Areas",
+      "Problem-Solving: Quadrilaterals"
     ],
     "solutionLatex": "We first connect point $B$ with point $D$ .\n\n[[img:https://latex.artofproblemsolving.com/d/6/6/d66f241a2e30d6733c30bc1e3c4236af99f628ce.png]]\n\nWe can see that $\\triangle BCD$ is a 3-4-5 right triangle. We can also see that $\\triangle BDA$ is a right triangle, by the 5-12-13 Pythagorean triple. With these lengths, we can solve the problem. The area of $\\triangle BDA$ is $\\frac{5\\cdot 12}{2}$ , and the area of $\\triangle BCD$ is $\\frac{3\\cdot 4}{2}$ . Thus, the area of quadrilateral $ABCD$ is $30-6 = \\boxed{\\textbf{(B)}\\ 24}.$\n\n~CHECKMATE2021"
   },
@@ -4324,9 +4310,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_24",
     "topics": [
       "Divisibility Reasoning",
-      "Digit Problems",
-      "100x + 10y + z",
-      "Parity Reasoning"
+      "Modular Arithmetic",
+      "Parity Reasoning",
+      "Problem-Solving: Divisibility and Digits"
     ],
     "solutionLatex": "We see that since $QRS$ is divisible by $5$ , $S$ must equal either $0$ or $5$ , but it cannot equal $0$ , so $S=5$ . We notice that since $PQR$ must be even, $R$ must be either $2$ or $4$ . However, when $R=2$ , we see that $T \\equiv 2 \\pmod{3}$ , which cannot happen because $2$ and $5$ are already used up; so $R=4$ . This gives $T \\equiv 3 \\pmod{4}$ , meaning $T=3$ . Now, we see that $Q$ could be either $1$ or $2$ , but $14$ is not divisible by $4$ , but $24$ is. This means that $Q=2$ and $P=\\boxed{\\textbf{(A)}\\ 1}$ .\n\n~CHECKMATE2021\n\nWe know that out of $PQRST,$ $QRS$ is divisible by $5$ . Therefore $S$ is obviously 5 because $QRS$ is divisible by 5. So we now have $PQR5T$ as our number. Next, let's move on to the second piece of information that was given to us. $RST$ is divisible by 3. So, according to the divisibility by 3 rule, the sum of $RST$ has to be a multiple of 3. The only 2 big enough are 9 and 12 and since 5 is already given. The possible sums of $RT$ are 4 and 7. So, the possible values for $R$ are 1,3,4,3 and the possible values of $T$ are 3,1,3,4. So, using this we can move on to the fact that $PQR$ is divisible by 4. So, using that we know that $R$ has to be even so 4 is the only possible value for $R$ . Using that we also know that 3 is the only possible value for 3. So, we have $PQRST$ = $PQ453$ so the possible values are 1 and 2 for $P$ and $Q$ . Using the divisibility rule of 4 we know that $QR$ has to be divisible by 4. So, either 14 or 24 are the possibilities, and 24 is divisible by 4. So the only value left for $P$ is 1. $P=\\boxed{\\textbf{(A)}\\ 1}$ .\n\n~CHECKMATE2021\n\nWe can simply try each of the answer choices, and we will see which one works. Trying $P=\\boxed{\\textbf{(A) }1}$ , if $PQR$ is divisible by $4$ , $QR$ must be divisible by four. Therefore, $QR$ can only be $24$ , $52$ , or $32$ . However, since $QRS$ is divisible by $5$ , $S = 5$ , so $QR$ cannot be $52$ . When $QR = 32$ , $R = 2$ , the last requirement cannot be satisfied because $R + S + T = 2 + 4 + 5 = 11$ , and $11$ is not divisible by $3$ . However, when $QR = 24$ , $R = 4$ , the last requirement can be satisfied. Hence, we can see that when $P=\\boxed{\\textbf{(A) }1}$ , there is one way to satisfy all three requirements, leading to a conclusion that $P$ is $\\boxed{\\textbf{(A) }1}$ .\n\n~Bloggish\n\n~Minor Edits by Wrenmath"
   },
@@ -4347,10 +4333,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_8_Problems/Problem_25",
     "topics": [
-      "Problem-Solving: Circle Basics",
       "Pythagorean theorem",
-      "Similar Triangles",
-      "Problem-Solving: Inscribed Circles"
+      "Problem-Solving: Circle Basics",
+      "Length Chasing",
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/e/6/b/e6b4f5943e0db2c3486a03b4322d42d491bd660f.png]]\n\nFirst, we drop a perpendicular, shown above, to the base of the triangle, cutting the triangle into two congruent right triangles. This triangle is isosceles, which means perpendiculars are medians and vice versa. The base of the resulting right triangle is $8$ for both sides, and the height is $15,$ as given. Using the Pythagorean theorem, we can find the length of the hypotenuse, or $17.$ Using the two legs of the right triangle, we find the area of the right triangle, $60$ . $\\frac{60}{17}$ times $2$ results in the radius, which is the height of the right triangle when using the hypotenuse as the base. Hence, the answer is $\\boxed{\\textbf{(B) }\\frac{120}{17}}$ .\n\nNote — There are several other following solutions below that use similar methods of finding the area two different ways shown in this solution. Try to eliminate any words (such as 'can' or 'would be') that make your solution less concise. Try to write 'sure of yourself.'"
   },
@@ -5570,8 +5556,7 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AMC_8_Problems/Problem_8",
     "topics": [
-      "Introduction to Probability",
-      "Complementary Counting"
+      "Introduction to Probability"
     ],
     "solutionLatex": "There are $2^3 = 8$ ways to flip the coins, in order.\nThere are two ways to get exactly two consecutive heads: HHT and THH.\nThere is only one way to get three consecutive heads: HHH.\nTherefore, the probability of flipping at least two consecutive heads is $\\boxed{\\textbf{(C)}\\frac{3}{8}}$ ."
   },
@@ -7194,9 +7179,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_8",
     "topics": [
-      "Distance, Rate, Time",
-      "Ratios and Rates",
-      "Problem-Solving: Reflection Trick"
+      "Distance, Rate, Time"
     ],
     "solutionLatex": "Because they are both moving in the same direction, Emily is riding relative to Emerson $12-8=4$ mph. Now we can look at it as if Emerson is not moving at all [on his skateboard] and Emily is riding at $4$ mph. It takes her\n\n\\[\\frac12 \\ \\text{mile} \\cdot \\frac{1\\ \\text{hour}}{4\\ \\text{miles}} = \\frac18\\ \\text{hour}\\]\n\nto ride the $1/2$ mile to reach him, and then the same amount of time to be $1/2$ mile ahead of him. This totals to\n\n\\[2 \\cdot \\frac18 \\ \\text{hour} \\cdot \\frac{60\\ \\text{minutes}}{1\\ \\text{hour}} = \\boxed{\\textbf{(D)}\\ 15}\\ \\text{minutes}\\]"
   },
@@ -7411,9 +7394,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_8_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Circle Basics",
+      "Problem-Solving: Areas",
       "Ratios and Rates",
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Quadrilaterals"
     ],
     "solutionLatex": "We can set a proportion:\n\n\\[\\dfrac{AD}{AB}=\\dfrac{3}{2}\\]\n\nWe substitute $AB$ with 30 and solve for $AD$ .\n\n\\[\\dfrac{AD}{30}=\\dfrac{3}{2}\\]\n\n\\[AD=45\\]\n\nWe calculate the combined area of semicircle by putting together semicircle $AB$ and $CD$ to get a circle with radius $15$ . Thus, the area is $225\\pi$ . The area of the rectangle is $30\\cdot 45=1350$ . We calculate the ratio:\n\n\\[\\dfrac{1350}{225\\pi}=\\dfrac{6}{\\pi}\\Rightarrow\\boxed{\\textbf{(C)}\\ 6:\\pi}\\]"
   },
@@ -7527,8 +7510,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Problem-Solving: Areas",
-      "Ratios and Rates",
-      "Area by Coordinates"
+      "Simplifying Radicals",
+      "Ratios and Rates"
     ],
     "solutionLatex": "By the Pythagorean Theorem, the radius of the larger circle turns out to be $\\sqrt{1^2 + 1^2} = \\sqrt{2}$ . Therefore, the area of the larger circle is $(\\sqrt{2})^2\\pi = 2\\pi$ . Using the coordinate plane given, we find that the radius of each of the two semicircles to be 1. So, the area of the two semicircles is $1^2\\pi=\\pi$ . Finally, the ratio of the combined areas of the two semicircles to the area of circle $O$ is $\\boxed{\\textbf{(B)}\\ \\frac{1}{2}}$ ."
   },
@@ -8411,7 +8394,6 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_15",
     "topics": [
-      "Mean Median Mode",
       "Divisibility Reasoning"
     ],
     "solutionLatex": "The total number of points from the first $8$ games is $7+4+3+6+8+3+1+5=37$ . We have to make this a multiple of $9$ by scoring less than $10$ points. The smallest multiple of $9$ that is greater than $37$ is $45$ . $45-37=8$ . Now we have to add a number to get a multiple of 10. The next multiple of $10$ is $50$ , which means that we add $5$ . Multiplying these together, you get $8\\cdot5 =$ $\\boxed{\\textbf{(B)}\\ 40}$ ."
@@ -8456,8 +8438,8 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_8_Problems/Problem_17",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Problem-Solving: Quadrilaterals"
     ],
     "solutionLatex": "A rectangle's area is maximized when its length and width are equivalent, or the two side lengths are closest together in this case with integer lengths. This occurs with the sides $12 \\times 13 = 156$ . Likewise, the area is smallest when the side lengths have the greatest difference, which is $1 \\times 24 = 24$ . The difference in area is $156-24=\\boxed{\\textbf{(D)}\\ 132}$ ."
   },
@@ -8567,7 +8549,7 @@
       "Digit Problems",
       "100x + 10y + z",
       "AIME-level Inequalities",
-      "Linear Inequalities"
+      "Divisibility Reasoning"
     ],
     "solutionLatex": "Instead of finding n, we find $x=\\frac{n}{3}$ . We want $x$ and $9x$ to be three-digit whole numbers. The smallest three-digit whole number is $100$ , so that is our minimum value for $x$ , since if $x \\in \\mathbb{Z^+}$ , then $9x \\in \\mathbb{Z^+}$ . The largest three-digit whole number divisible by $9$ is $999$ , so our maximum value for $x$ is $\\frac{999}{9}=111$ . There are $12$ whole numbers in the closed set $\\left[100,111\\right]$ , so the answer is $\\boxed{\\textbf{(A)}\\ 12}$ .\n\n- ColtsFan10"
   },
@@ -10569,9 +10551,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_17",
     "topics": [
       "Complementary Counting",
-      "Fundamental Counting Principle",
-      "Permutations with Repeated Elements",
-      "Constructive Counting"
+      "Combinations"
     ],
     "solutionLatex": "For each person to have at least one pencil, assign one pencil to each of the three friends so that you have $3$ left. In partitioning the remaining $3$ pencils into $3$ distinct groups, use Ball-and-urn to find the number of possibilities is $\\binom{3+3-1}{3-1} = \\binom{5}{2} = \\boxed{\\textbf{(D)}\\ 10}$ .\n\nSolution by phoenixfire\nMinor Edit by Yuvag"
   },
@@ -10612,10 +10592,10 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_19",
     "topics": [
-      "Chinese Remainder Theorem",
       "Divisibility Reasoning",
-      "Logic",
-      "Modular Arithmetic"
+      "Modular Arithmetic",
+      "GCD/LCM",
+      "GCD and LCM"
     ],
     "solutionLatex": "The smallest number divisible by $3,4,5,$ and $6$ , or their least common multiple, can be found to be $60$ . When $2$ is added to a multiple of number, its remainder when divided by that number is $2$ . The number we are looking for is therefore $62$ , and between $\\boxed{\\textbf{(B)}\\ 60\\ \\text{and}\\ 79}$ ."
   },
@@ -10657,9 +10637,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_21",
     "topics": [
       "Parity Reasoning",
-      "Introduction to Probability",
-      "Complementary Counting",
-      "Casework"
+      "Introduction to Probability"
     ],
     "solutionLatex": "An even number comes from multiplying an even and even, even and odd, or odd and even. Since an odd number only comes from multiplying an odd and odd, there are less cases and it would be easier to find the probability of spinning two odd numbers from $1$ . Multiply the independent probabilities of each spinner getting an odd number together and subtract it from $1$ .\n\n\\[1-\\frac24 \\cdot \\frac23 = 1- \\frac13 = \\boxed{\\textbf{(D)}\\ \\frac23}\\]"
   },
@@ -10716,8 +10694,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_8_Problems/Problem_24",
     "topics": [
       "Problem-Solving: Quadrilaterals",
-      "Length Chasing",
-      "Problem-Solving: Areas"
+      "Problem-Solving: Areas",
+      "Pythagorean Triples"
     ],
     "solutionLatex": "The area of the parallelogram can be found in two ways. The first is by taking rectangle $ABCD$ and subtracting the areas of the triangles cut out to create parallelogram $EFGH$ . This is \\[(4+6)(5+3) - 2 \\cdot \\frac12 \\cdot 6 \\cdot 5 - 2 \\cdot \\frac12 \\cdot 3 \\cdot 4 = 80 - 30 - 12 = 38\\]\nThe second way is by multiplying the base of the parallelogram such as $\\overline{FG}$ with its altitude $d$ , which is perpendicular to both bases. $\\triangle FGC$ is a $3-4-5$ triangle so $\\overline{FG} = 5$ . Set these two representations of the area together.\n \\[5d = 38 \\rightarrow d = \\boxed{\\textbf{(C)}\\ 7.6}\\]  :)\n\n~Ak\n~Smiley face by Shreyansh Medatati"
   },
@@ -10916,7 +10894,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_9",
     "topics": [
-      "Arithmetic Word Problems",
       "Problem-Solving: Areas"
     ],
     "solutionLatex": "The area of one of Art's cookies is $3 \\cdot 3 + \\frac{2 \\cdot 3}{2}=9+3=12$ . As he has $12$ cookies in a batch, the amount of dough each person used is $12 \\cdot 12=144$ . Roger's cookies have an area of $\\frac{144}{2 \\cdot 4}=\\frac{144}{8}= 18$ cookies in a batch. In total, the amount of money Art will earn is $12 \\cdot 60=720$ . Thus, the amount Roger would need to charge per cookie is $\\frac{720}{18}=\\boxed{\\textbf{(C)}\\ 40}$ ."
@@ -10959,8 +10936,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_11",
     "topics": [
-      "Arithmetic Word Problems",
-      "Fractions and Percents"
+      "Arithmetic Word Problems"
     ],
     "solutionLatex": "On Friday, the shoes would cost $40 \\cdot 1.1= 44$ dollars. Then on Monday, the shoes would cost $44- \\frac{44}{10}=44-4.4=\\boxed{\\textbf{(B)}\\ 39.60}$ ."
   },
@@ -11023,8 +10999,7 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_8_Problems/Problem_14",
     "topics": [
-      "Digit Problems",
-      "Parity Reasoning"
+      "Algebra"
     ],
     "solutionLatex": "Since both T's are 7, then O has to equal 4, because 7 + 7 = 14. Then, F has to equal 1. To get R, we do 4 + 4 (since O = 4) to get R = 8. The value for W then has to be a number less than 5, otherwise it will change the value of O, and can't be a number that has already been used, like 4 or 1. The only other possibilities are 2 and 3. 2 doesn't work because it makes U = 4, which is what O already equals. So, the only possible value of W is 3 $\\boxed{\\text{D}}$"
   },
@@ -11282,9 +11257,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_2",
     "topics": [
       "Fundamental Counting Principle",
-      "Combinations",
-      "Constructive Counting",
-      "Arithmetic Word Problems"
+      "Constructive Counting"
     ],
     "solutionLatex": "https://youtu.be/Zhsb5lv6jCI?t=701"
   },
@@ -11350,7 +11323,6 @@
     "answer": "C",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_5",
     "topics": [
-      "Similar Triangles",
       "Repeating Decimal"
     ],
     "solutionLatex": "Days of the week have a cycle that repeats every $7$ days. Thus, after $100$ cycles, or $700$ days, it will be Saturday again. Six more days will make it $\\text{Friday} \\rightarrow \\boxed{C}$"
@@ -11659,10 +11631,10 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_20",
     "topics": [
-      "Problem-Solving: Weird Areas",
       "Problem-Solving: Areas",
-      "Problem-Solving: Shaded Regions - Circles",
-      "Problem-Solving: Slice and Add the Shaded Region"
+      "Problem-Solving: Weird Areas",
+      "Problem-Solving: Quadrilaterals",
+      "Problem-Solving: Shaded Regions - Circles"
     ],
     "solutionLatex": "We know the area of triangle $XYZ$ is $8$ square inches. The area of a triangle can also be represented as $\\frac{bh}{2}$ or in this problem $\\frac{XC\\cdot YZ}{2}$ . By solving, we have \\[\\frac{XC\\cdot YZ}{2} = 8,\\] \\[XC\\cdot YZ = 16.\\]\n\nWith SAS congruence, triangles $XCY$ and $XCZ$ are congruent. Hence, triangle $XCY = \\frac{8}{2} = 4$ . (Let's say point $D$ is the intersection between line segments $XC$ and $AB$ .) We can find the area of the trapezoid $ADCY$ by subtracting the area of triangle $XAD$ from $4$ .\n\nWe find the area of triangle $XAD$ by the $\\frac{bh}{2}$ formula- $\\frac{XD\\cdot AD}{2} = \\frac{\\frac{XC}{2}\\cdot AD}{2}$ . $AD$ is $\\frac{1}{4}$ of $YZ$ from solution 1. The area of $XAD$ is \\[\\frac{\\frac{XC}{2}\\cdot \\frac{YZ}{4}}{2} = \\frac{16}{16} = 1\\] .\n\nTherefore, the area of the shaded area- trapezoid $ADCY$ has area $4-1 = \\boxed{\\text{(D)}\\ 3}$ .\n\n- sarah07"
   },
@@ -11704,8 +11676,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_22",
     "topics": [
       "3D Volumes and Surface Areas",
-      "Problem-Solving: Areas",
       "Problem-Solving: 3D Geometry",
+      "Problem-Solving: Areas",
       "3D Geometry"
     ],
     "solutionLatex": "Count the number of sides that are not exposed, where a cube is connected to another cube and subtract it from the total number of faces. There are $5$ places with two adjacent cubes, covering $10$ sides, and $(6)(6)=36$ faces. The exposed surface area is $36-10 = \\boxed{\\text{(C)}\\ 26}$ ."
@@ -11748,9 +11720,7 @@
     "answer": "B",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_8_Problems/Problem_24",
     "topics": [
-      "Fractions and Percents",
-      "GCD/LCM",
-      "GCD and LCM"
+      "Algebra"
     ],
     "solutionLatex": "A pear gives $8/3$ ounces of juice per pear. An orange gives $8/2=4$ ounces of juice per orange. If the pear-orange juice blend used one pear and one orange each, the percentage of pear juice would be\n\n\\[\\frac{8/3}{8/3+4} \\times 100 = \\frac{8}{8+12} \\times 100 = \\boxed{\\text{(B)}\\ 40}\\]"
   },
@@ -11912,10 +11882,8 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_7",
     "topics": [
-      "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas",
-      "Pythagorean theorem",
-      "States"
+      "Problem-Solving: Quadrilaterals"
     ],
     "solutionLatex": "The area of a kite is half the product of its diagonals. The diagonals have lengths of $6$ and $7$ , so the area is $\\frac{(6)(7)}{2}=21, \\boxed{\\text{A}}$ ."
   },
@@ -11999,7 +11967,7 @@
       "Problem-Solving: Quadrilaterals",
       "Mean Median Mode",
       "Problem-Solving: Areas",
-      "Problem-Solving: Coordinate Bashing"
+      "Length Chasing"
     ],
     "solutionLatex": "[[img:https://latex.artofproblemsolving.com/6/8/a/68a846a491c21df762c81a07d028f7d93dcd98a0.png]]\n\nThis quadrilateral is a trapezoid, because $AB\\parallel CD$ but $BC$ is not parallel to $AD$ . The area of a trapezoid is the product of its height and its median, where the median is the average of the side lengths of the bases. The two bases are $AB$ and $CD$ , which have lengths $2$ and $4$ , respectively, so the length of the median is $\\frac{2+4}{2}=3$ . $CB$ is perpendicular to the bases, so it is the height, and has length $6$ . Therefore, the area of the trapezoid is $(3)(6)=18, \\boxed{\\text{C}}$"
   },
@@ -12020,7 +11988,7 @@
     "answer": "A",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_12",
     "topics": [
-      "Algebraic Manipulation"
+      "Algebra"
     ],
     "solutionLatex": "$6\\otimes4=\\frac{6+4}{6-4}=\\frac{10}{2}=5$ .\n $5\\otimes3=\\frac{5+3}{5-3}=\\frac{8}{2}=\\boxed{\\textbf{(A)}\\ 4}$"
   },
@@ -12282,9 +12250,6 @@
     "answer": "D",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_8_Problems/Problem_25",
     "topics": [
-      "Digit Problems",
-      "Divisibility Reasoning",
-      "100x + 10y + z",
       "Parity Reasoning"
     ],
     "solutionLatex": "There are only 5 options for the problem so we can just try them. It is easy since that we only need try to use $2$ , $3$ to divide them. Even $5$ will leads to a solution start with $1$ which we don't need.\n\n$5724/2=2862$ , $5724/3=1908$ . $7245/3=2415$ . $7254/2=3627$ , $7254/3=2418$ . $7425/3=2475$ . The answer is $\\boxed{\\textbf{(D)}}$ . You can obtain the answer in only 6 calculations.\n~ M4ST3R0FM4TH"
