@@ -11,10 +11,7 @@
     "answer": "034",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_1",
     "topics": [
-      "Divisibility Reasoning",
-      "Linear Equations",
-      "Digit Problems",
-      "Parity Reasoning"
+      "Problem-Solving: Linear Diophantine Equations"
     ]
   },
   {
@@ -30,7 +27,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_2",
     "topics": [
       "Arithmetic/Geometric Sequences",
-      "Ratios and Rates"
+      "Sequences and Series"
     ]
   },
   {
@@ -45,6 +42,7 @@
     "answer": "088",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_3",
     "topics": [
+      "Casework",
       "Combinations"
     ]
   },
@@ -60,9 +58,10 @@
     "answer": "032",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_7",
     "topics": [
+      "Digit Problems",
+      "Combinations",
       "Modular Arithmetic",
-      "Bases",
-      "Problem-Solving: Divisibility and Digits"
+      "Base Conversion"
     ]
   },
   {
@@ -77,7 +76,10 @@
     "answer": "040",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_8",
     "topics": [
-      "Complex Numbers"
+      "Complex Numbers",
+      "Simplifying Radicals",
+      "Quadratics - Factoring",
+      "AIME-level Inequalities"
     ]
   },
   {
@@ -92,9 +94,9 @@
     "answer": "496",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_10",
     "topics": [
+      "Linear Inequalities",
       "Floor",
       "Floor Functions",
-      "Linear Inequalities",
       "Floor Function Strategies"
     ]
   },
@@ -110,9 +112,10 @@
     "answer": "958",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_12",
     "topics": [
-      "System of Equations",
-      "Linear Inequalities",
-      "Absolute Value Tricks"
+      "Modular Arithmetic",
+      "GCD/LCM",
+      "Polynomial Remainder",
+      "System of Equations"
     ]
   },
   {
@@ -127,10 +130,10 @@
     "answer": "677",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_13",
     "topics": [
-      "Modular Arithmetic",
+      "Trigonometry",
+      "Problem-Solving: Circle Basics",
       "Simplifying Radicals",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Problem-Solving: Triangle Angles"
+      "Problem-Solving: Isosceles Equilateral Triangles"
     ]
   },
   {
@@ -145,10 +148,10 @@
     "answer": "016",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_14",
     "topics": [
-      "Modular Arithmetic",
-      "Linear Inequalities",
+      "Casework",
+      "Permutations",
       "Handshakes",
-      "Logic"
+      "Symmetry"
     ]
   },
   {
@@ -163,10 +166,10 @@
     "answer": "919",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Circle Basics",
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums",
-      "Problem-Solving: Inscribed Circles"
+      "Angle Bisector Theorem",
+      "Angle Chasing",
+      "Trigonometry",
+      "Problem-Solving: Angles"
     ]
   },
   {
@@ -181,7 +184,9 @@
     "answer": "012",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_2",
     "topics": [
-      "Arithmetic/Geometric Sequences"
+      "Divisor Counting",
+      "Sequences and Series",
+      "States"
     ]
   },
   {
@@ -196,7 +201,8 @@
     "answer": "109",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_3",
     "topics": [
-      "Counting Divisors"
+      "Divisor Counting",
+      "Combinations"
     ]
   },
   {
@@ -211,7 +217,10 @@
     "answer": "294",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_4",
     "topics": [
-      "Geometry"
+      "Quadratics Completing the Square",
+      "Simplifying Radicals",
+      "Problem-Solving: Quadrilaterals",
+      "Quadratics - Factoring"
     ]
   },
   {
@@ -227,7 +236,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_6",
     "topics": [
       "Floor Functions",
-      "Polynomials",
+      "Simplifying Radicals",
       "Floor",
       "Floor Function Strategies"
     ]
@@ -244,8 +253,8 @@
     "answer": "150",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_7",
     "topics": [
+      "Problem-Solving: Isosceles Equilateral Triangles",
       "Angle Chasing",
-      "Simplifying Radicals",
       "Problem-Solving: Angles",
       "Problem-Solving: Quadrilaterals"
     ]
@@ -262,8 +271,9 @@
     "answer": "113",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_8",
     "topics": [
-      "Polynomials",
-      "Problem-Solving: Polynomial Root Tricks"
+      "Exponent Rules",
+      "Vieta's Formulas",
+      "Logarithms"
     ]
   },
   {
@@ -278,10 +288,10 @@
     "answer": "074",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_9",
     "topics": [
-      "3D Geometry",
-      "2nd Degree Symmetric Sums",
+      "Exponent Rules",
+      "Problem-Solving: 3D Geometry",
       "Introduction to Probability",
-      "3D Volumes and Surface Areas"
+      "3D Geometry"
     ]
   },
   {
@@ -297,9 +307,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_10",
     "topics": [
       "Mean Median Mode",
-      "Linear Equations",
-      "Problem-Solving: Triangle Angles",
-      "3rd Degree Symmetric Sums"
+      "Problem-Solving: Areas",
+      "Area by Coordinates",
+      "Absolute Value Tricks"
     ]
   },
   {
@@ -314,10 +324,10 @@
     "answer": "544",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_11",
     "topics": [
-      "Inequalities (AM-GM)",
-      "Simplifying Radicals",
       "Problem-Solving: Circle Basics",
-      "Length Chasing"
+      "Pythagorean theorem",
+      "Simplifying Radicals",
+      "Circle Tangents"
     ]
   },
   {
@@ -332,10 +342,8 @@
     "answer": "025",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_12",
     "topics": [
-      "Arithmetic/Geometric Sequences",
-      "Divisor Counting",
-      "Absolute Value Tricks",
-      "Counting Divisors"
+      "Parity Reasoning",
+      "Combinations"
     ]
   },
   {
@@ -350,7 +358,10 @@
     "answer": "083",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_13",
     "topics": [
-      "Area by Coordinates"
+      "Permutations",
+      "Combinations",
+      "Complementary Counting",
+      "Pigeonhole Principle"
     ]
   },
   {
@@ -4153,10 +4164,10 @@
     "answer": "071",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AIME_II_Problems/Problem_14",
     "topics": [
+      "Modular Arithmetic",
       "Casework",
-      "Chicken McNugget",
       "Divisibility Reasoning",
-      "Arithmetic Word Problems"
+      "Chicken McNugget"
     ],
     "solutionLatex": "We will do casework on $n \\pmod{5}$ and see which values work.\n\nCase 1: $n \\equiv 1 \\pmod{5}$\n\n$n$ would have to be greater than $91$ because if it wasn't then we could just add denominations of $5$ until we got to $91.$ However, if $n$ is more than $91,$ then all the numbers from $91$ to $n$ which are not multiples of $5$ are also unrepresentable, which violates the problem's condition of $91$ being the largest unrepresentable number. So there are no values for this case.\n\nCase 2: $n \\equiv 2 \\pmod{5}$\n\n$n + 1 \\equiv 3 \\pmod{5}$ is the smallest formable number 3 mod 5, so $n + 1 - 5 = n - 4$ is the largest unformable number 3 mod 5. $2n + 2 \\equiv 1 \\pmod{5}$ is the smallest formable number 1 mod 5, so $2n + 2 - 5 = 2n - 3$ is the largest unformable number 1 mod 5. Finally, $2n \\equiv 4 \\pmod{5}$ is the smallest formable number 4 mod 5, so $2n - 5$ is the largest unformable number 4 mod 5.\n\nTherefore, the largest unformable number overall is $2n - 3 \\equiv 1 \\pmod{5}.$ This satisfies the problem's condition! $2n - 3 = 91 \\implies n = 47.$\n\nCase 3: $n \\equiv 3 \\pmod{5}$\n\n$n + 1 \\equiv 4 \\pmod{5},$ which is the smallest representable number 4 mod 5, so the largest unrepresentable number 4 mod 5 is $n + 1 - 5 = n -4.$\n\nSimilarly, $2n \\equiv 1 \\pmod{5}$ is the smallest formable number 1 mod 5 and $3n + 3 \\equiv 2 \\pmod{5}$ is the smallest formable number 2 mod 5, so the largest number 2 mod 5 that is unrepresentable is $3n + 3 - 5 = 3n - 2,$ but the largest number 1 mod 5 that is unrepresentable is $2n -5.$ $3n - 2 > 2n - 5,$ so there would be a larger unrepresentable number than $91$ if we were to set $2n - 5$ equal to it, which violates the problem's condition. And we can't set $3n - 2$ equal to $91$ because $91 \\not\\equiv 2 \\pmod{5},$ so there are no valid values for this case.\n\nCase 4: $n \\equiv 4 \\pmod{5}$\n\n$n + 1$ would be a multiple of $5,$ so we would be left with denominations of $5$ and $n.$ Then it would just be a straightforward application of the Chicken Mcnugget Theorem: $5n - n - 5 = 91 \\implies n = 24,$ which is indeed $4 \\pmod{5}.$ So this value works.\n\nCase 5: $n$ is a multiple of 5\n\nIn this case we’re left with denominations of $5$ and $n + 1,$ so by the Chicken Mcnugget Theorem we get $5(n + 1) - n - 6 = 91 \\implies n = 23,$ which is not a multiple of $5.$ So there are no valid values here.\n\nThe two valid values we found were $47$ and $24,$ so the answer is $47 + 24 = \\boxed{71}.$\n\n~grogg007"
   },
@@ -5658,8 +5669,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2015_AIME_I_Problems/Problem_12",
     "topics": [
       "Combinations",
-      "Mean Median Mode",
-      "Expected Value"
+      "Mean Median Mode"
     ]
   },
   {
@@ -6607,10 +6617,10 @@
     "answer": "222",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2013_AIME_II_Problems/Problem_15",
     "topics": [
-      "Problem-Solving: Triangle Angles",
       "Trigonometric Identities",
-      "Pythagorean theorem",
-      "Clever Substitutions"
+      "Trigonometry",
+      "Problem-Solving: Triangle Angles",
+      "Angle Chasing"
     ]
   },
   {
@@ -9288,10 +9298,9 @@
     "answer": "351",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_14",
     "topics": [
-      "Casework",
-      "Digit Problems",
-      "Recursion",
-      "Permutations"
+      "Permutations",
+      "Fundamental Counting Principle",
+      "Constructive Counting"
     ]
   },
   {
@@ -12701,9 +12710,7 @@
     "answer": "180",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2016_AIME_II_Problems/Problem_4",
     "topics": [
-      "3D Geometry",
       "3D Volumes and Surface Areas",
-      "Problem-Solving: 3D Geometry",
       "Variables"
     ]
   },
@@ -12720,8 +12727,7 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_4",
     "topics": [
       "System of Equations",
-      "Ratios and Rates",
-      "Distance, Rate, Time"
+      "Simplifying Radicals"
     ]
   },
   {
@@ -12738,8 +12744,8 @@
     "topics": [
       "Pythagorean theorem",
       "3D Geometry",
-      "3D Volumes and Surface Areas",
-      "Problem-Solving: Inscribed Circles"
+      "Simplifying Radicals",
+      "3D Volumes and Surface Areas"
     ]
   },
   {
@@ -12754,7 +12760,8 @@
     "answer": "125",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_6",
     "topics": [
-      "Complex Numbers"
+      "Complex Numbers",
+      "Simplifying Radicals"
     ]
   },
   {
@@ -12769,9 +12776,9 @@
     "answer": "107",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2012_AIME_II_Problems/Problem_9",
     "topics": [
-      "Variables",
-      "Pythagorean theorem",
+      "Trigonometry",
       "Trigonometric Identities",
+      "Variables",
       "Similar Triangles"
     ]
   },
@@ -12787,10 +12794,10 @@
     "answer": "068",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AIME_II_Problems/Problem_11",
     "topics": [
+      "2nd Degree Symmetric Sums",
       "Algebraic Manipulation",
       "Permutations",
-      "Fundamental Counting Principle",
-      "Pigeonhole Principle"
+      "Fundamental Counting Principle"
     ]
   },
   {
@@ -12805,7 +12812,7 @@
     "answer": "114",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2009_AIME_II_Problems/Problem_1",
     "topics": [
-      "Fractions and Percents"
+      "Algebra"
     ]
   },
   {
@@ -12820,10 +12827,8 @@
     "answer": "100",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_1",
     "topics": [
-      "Sequences and Series",
-      "Modular Arithmetic",
-      "Arithmetic/Geometric Sequences",
-      "Algebraic Manipulation"
+      "Chinese Remainder Theorem",
+      "Sequences and Series"
     ]
   },
   {
@@ -12853,9 +12858,8 @@
     "answer": "021",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AIME_II_Problems/Problem_4",
     "topics": [
-      "Problem-Solving: Linear Diophantine Equations",
-      "Base Conversion",
       "Exponent Rules",
+      "Base Conversion",
       "Bases"
     ]
   },
@@ -12871,10 +12875,10 @@
     "answer": "942",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_1",
     "topics": [
-      "Circle Tangents",
       "Problem-Solving: Circle Basics",
       "Floor Functions",
-      "Floor Function Strategies"
+      "Floor Function Strategies",
+      "Length Chasing"
     ]
   },
   {
@@ -12889,10 +12893,7 @@
     "answer": "630",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_5",
     "topics": [
-      "Permutations with Repeated Elements",
-      "Permutations",
-      "Problem-Solving: 3D Geometry",
-      "Recurrence Strategies"
+      "Problem-Solving: 3D Geometry"
     ]
   },
   {
@@ -12909,7 +12910,7 @@
     "topics": [
       "Linear Equations",
       "Problem-Solving: Areas",
-      "Modular Arithmetic",
+      "Simplifying Radicals",
       "Problem-Solving: Coordinate Bashing"
     ]
   },
@@ -12926,9 +12927,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AIME_I_Problems/Problem_15",
     "topics": [
       "Stewarts Theorem",
-      "Mean Median Mode",
-      "Problem-Solving: Inscribed Circles",
-      "Incenter"
+      "Simplifying Radicals",
+      "Power of a Point",
+      "Mean Median Mode"
     ]
   },
   {
@@ -12944,8 +12945,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AIME_I_Problems/Problem_3",
     "topics": [
       "Problem-Solving: 3D Geometry",
-      "Length Chasing",
       "Handshakes",
+      "Combinations",
       "Problem-Solving: Quadrilaterals"
     ]
   },
@@ -12961,10 +12962,10 @@
     "answer": "291",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_4",
     "topics": [
-      "Special triangles",
+      "Simplifying Radicals",
       "Problem-Solving: Areas",
-      "Problem-Solving: Isosceles Equilateral Triangles",
-      "Pythagorean theorem"
+      "Angle Chasing",
+      "Trigonometry"
     ]
   },
   {
@@ -12981,8 +12982,8 @@
     "topics": [
       "Combinations",
       "Sequences and Series",
-      "Permutations",
-      "Introduction to Probability"
+      "Linear Inequalities",
+      "Permutations"
     ]
   },
   {
@@ -12998,9 +12999,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_I_Problems/Problem_10",
     "topics": [
       "Parity Reasoning",
-      "Introduction to Probability",
       "Length Chasing",
-      "Problem-Solving: Coordinate Bashing"
+      "Problem-Solving: Coordinate Bashing",
+      "Introduction to Probability"
     ]
   },
   {
@@ -13017,8 +13018,8 @@
     "topics": [
       "Problem-Solving: Circle Basics",
       "Pythagorean theorem",
-      "Problem-Solving: Using Area Ratios to Solve Geometry Problems",
-      "Problem-Solving: Areas"
+      "Simplifying Radicals",
+      "Ratios and Rates"
     ]
   },
   {
@@ -13033,10 +13034,10 @@
     "answer": "929",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_9",
     "topics": [
-      "Casework",
       "Complementary Counting",
       "Inclusion-Exclusion",
-      "Introduction to Probability"
+      "Introduction to Probability",
+      "Combinations"
     ]
   },
   {
@@ -13051,10 +13052,10 @@
     "answer": "784",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_10",
     "topics": [
-      "Divisibility Reasoning",
       "Modular Arithmetic",
-      "Fundamental Counting Principle",
-      "Repeating Decimal"
+      "Linear Inequalities",
+      "Divisibility Reasoning",
+      "GCD/LCM"
     ]
   },
   {
@@ -13069,10 +13070,7 @@
     "answer": "341",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_11",
     "topics": [
-      "Introduction to Probability",
-      "Mean Median Mode",
-      "Casework",
-      "Permutations"
+      "Introduction to Probability"
     ]
   },
   {
@@ -13088,9 +13086,9 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AIME_II_Problems/Problem_13",
     "topics": [
       "Similar Triangles",
-      "Problem-Solving: Quadrilaterals",
-      "Angle Bisector Theorem",
-      "Problem-Solving: Isosceles Equilateral Triangles"
+      "Angle Chasing",
+      "Problem-Solving: Angles",
+      "Law of Cosines"
     ]
   },
   {
@@ -13105,9 +13103,9 @@
     "answer": "144",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_5",
     "topics": [
-      "Divisibility Reasoning",
       "Digit Problems",
-      "Permutations with Repeated Elements",
+      "Divisibility Reasoning",
+      "Modular Arithmetic",
       "Permutations"
     ]
   },
@@ -13123,10 +13121,9 @@
     "answer": "011",
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2011_AIME_I_Problems/Problem_6",
     "topics": [
+      "Modular Arithmetic",
       "Graphing Functions",
-      "AIME-level Inequalities",
-      "Mean Median Mode",
-      "Quadratics - Factoring"
+      "Divisibility Reasoning"
     ]
   }
 ]
