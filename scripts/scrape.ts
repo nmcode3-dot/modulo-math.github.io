@@ -63,7 +63,7 @@ async function get(path: string): Promise<string | null> {
   const url = path.startsWith("http") ? path : BASE + path;
   const file = join(CACHE, createHash("sha1").update(url).digest("hex") + ".html");
   if (existsSync(file)) return readFileSync(file, "utf8");
-  const wait = 1000 - (Date.now() - last);
+  const wait = (useBrowser ? 300 : 1000) - (Date.now() - last);
   if (wait > 0) await new Promise((r) => setTimeout(r, wait));
   last = Date.now();
   // Fetch via curl: both AoPS and the Wayback Machine fingerprint/bot-block bun's fetch.

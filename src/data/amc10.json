@@ -18531,7 +18531,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2008_AMC_10A_Problems/Problem_14",
     "topics": [
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "Let the width and height of the screen be $4x$ and $3x$ respectively, and let the width and height of the movie be $2y$ and $y$ respectively.\n\nBy the Pythagorean Theorem, the diagonal is $\\sqrt{(3x)^2+(4x)^2}=5x = 27$ . So $x=\\frac{27}{5}$ .\n\nSince the movie and the screen have the same width, $2y=4x\\Rightarrow y=2x$ .\n\nThus, the height of each strip is $\\frac{3x-y}{2}=\\frac{3x-2x}{2}=\\frac{x}{2}=\\frac{27}{10}=2.7\\Longrightarrow\\mathrm{(D)}$ ."
   },
   {
     "id": "amc10a-2008-15",
@@ -18553,7 +18554,8 @@
       "Distance, Rate, Time",
       "Ratios and Rates",
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "Set the time Ian traveled as $I$ , and set Han's speed as $H$ . Therefore, Jan's speed is $H+5.$\n\nWe get the following equation for how much Han is ahead of Ian:\n $H+5I = 70.$\n\nThe expression for how much Jan is ahead of Ian is:\n $2(H+5)+10I.$\n\nThis simplifies to: $2H+10+10I.$\n\nHowever, this is just $2(H+5I)+10.$\n\nSubstitute, from the first equation, $H+5I$ as $70.$\n\nTherefore, the answer is $140 + 10$ , which is $150$ , or $\\boxed{\\mathrm{(D)}}$"
   },
   {
     "id": "amc10a-2008-16",
@@ -18576,7 +18578,8 @@
       "Circle Tangents",
       "Ratios and Rates",
       "Problem-Solving: Angles"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/5/a/2/5a2ab064db0b848b4eb7704a6b729afbca25398f.png]]\nLet $P$ be the center of the small circle with radius $r$ , and let $Q$ be the point where the small circle is tangent to $OA$ . Also, let $C$ be the point where the small circle is tangent to the big circle with radius $R$ .\n\nThen $PQO$ is a right triangle. Angle $POQ$ is $30$ degrees because line $OP$ bisects angle $AOB$ (this can be proved by dropping a perpendicular line from $P$ to line $OB$ , letting their intersection be point $S$ , and proving triangles $PQO$ and $PSO$ congruent), meaning that $PQO$ is a $30-60-90$ triangle. Therefore, $OP=2PQ$ .\n\nSince $OP=OC-PC=OC-r=R-r$ , we have $R-r=2PQ$ , or $R-r=2r$ , or $\\frac{1}{3}=\\frac{r}{R}$ .\n\nRatio of areas of circles is ratio of radii squared, so the answer is $\\left(\\frac{1}{3}\\right)^2 = \\frac{1}{9} \\Rightarrow \\boxed{B}$"
   },
   {
     "id": "amc10a-2008-17",
@@ -18597,7 +18600,8 @@
     "topics": [
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/e/9/a/e9aa15f65931b4eee7d795103170e3680b8a36f3.png]]\n\nThe region described contains three rectangles of dimensions $3 \\times 6$ , and three $120^{\\circ}$ degree arcs of circles of radius $3$ . Thus the answer is \\[3(3 \\times 6) + 3 \\left( \\frac{120^{\\circ}}{360^{\\circ}} \\times 3^2 \\pi\\right) = 54 + 9\\pi \\Longrightarrow \\mathrm{(B)}.\\]"
   },
   {
     "id": "amc10a-2008-18",
@@ -18619,7 +18623,8 @@
       "Pythagorean theorem",
       "Length Chasing",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let the legs of the triangle have lengths $a,b$ . Then, by the Pythagorean Theorem, the length of the hypotenuse is $\\sqrt{a^2+b^2}$ , and the area of the triangle is $\\frac 12 ab$ . So we have the two equations\n\n$a+b+\\sqrt{a^2+b^2} = 32 \\\\\\\\ \\frac{1}{2}ab = 20$\n\nRe-arranging the first equation and squaring,\n\n$\\sqrt{a^2+b^2} = 32-(a+b)\\\\\\\\ a^2 + b^2 = 32^2 - 64(a+b) + (a+b)^2\\\\\\\\ a^2 + b^2 + 64(a+b) = a^2 + b^2 + 2ab + 32^2\\\\\\\\ a+b = \\frac{2ab+32^2}{64}$\n\nFrom $(2)$ we have $2ab = 80$ , so\n\n$a+b = \\frac{80 + 32^2}{64} = \\frac{69}{4}.$\n\nThe length of the hypotenuse is $p - a - b = 32 - \\frac{69}{4} = \\frac{59}{4}\\boxed{\\ \\mathrm{(B)}}$ .\n\nFrom the formula $A = rs$ , where $A$ is the area of a triangle, $r$ is its inradius, and $s$ is the semiperimeter, we can find that $r = \\frac{20}{32/2} = \\frac{5}{4}$ . In a right triangle, $r = s - h$ , where $h$ is the hypotenuse, so $h = 16 - \\frac{5}{4} = \\frac{59}{4}$ $\\mathrm{(B)}$ .\n\nNote: If the reader is unfamiliar with the inradius being equal to the semiperimeter minus the hypotenuse for a right triangle, it should not be too difficult to prove the relationship for themselves.~mobius247\n\nWhy $r=s-h$ . Draw a right triangle and inscribe a circle. Connect the center of the circle with tangency points; there are 3, one from each side of the triangle. Now, connect the center with each vertice and you will see 3 pairs of congruent triangles by HL (Hypotenuse-Leg Congruence). From these congruent triangles, mark equal lengths and you will find that $r=s-h$ .\n\n~BakedPotato66\n\nFrom the problem, we know that\n\n$\\begin{align*} a+b+c &= 32 \\\\ 2ab &= 80. \\\\ \\end{align*}$\n\nSubtracting $c$ from both sides of the first equation and squaring both sides, we get\n\n$\\begin{align*} (a+b)^2 &= (32 - c)^2\\\\ a^2 + b^2 + 2ab &= 32^2 + c^2 - 64c.\\\\ \\end{align*}$\n\nNow we substitute in $a^2 + b^2 = c^2$ as well as $2ab = 80$ into the equation to get\n\n$\\begin{align*} 80 &= 1024 - 64c\\\\ c &= \\frac{944}{64}. \\end{align*}$\n\nFurther simplification yields the result of $\\frac{59}{4} \\rightarrow \\mathrm{(B)}$ .\n\nLet $a$ and $b$ be the legs of the triangle and $c$ the hypotenuse.\n\nSince the area is 20, we have $\\frac{1}{2}ab = 20 => ab=40$ .\n\nSince the perimeter is 32, we have $a + b + c = 32$ .\n\nThe Pythagorean Theorem gives $c^2 = a^2 + b^2$ .\n\nThis gives us three equations with three variables:\n\n$ab = 40 \\\\ a + b + c = 32 \\\\ c^2 = a^2 + b^2$\n\nRewrite equation 3 as $c^2 = (a+b)^2 - 2ab$ .\nSubstitute in equations 1 and 2 to get $c^2 = (32-c)^2 - 80$ .\n\n$c^2 = (32-c)^2 - 80 \\\\\\\\ c^2 = 1024 - 64c + c^2 - 80 \\\\\\\\ 64c = 944 \\\\\\\\ c = \\frac{944}{64} = \\frac{236}{16} = \\frac{59}{4}$ .\n\nThe answer is choice $(B)$ .\n\nLet $a$ , $b$ , and $c$ be the sides of the triangle with $c$ as the hypotenuse.\n\nWe know that $a + b + c =32$ .\n\nAccording to the Pythagorean Theorem, we have $a^2 + b^2 = c^2$ .\n\nWe also know that $ab = 40$ , since the area of the triangle is $20$ .\n\nWe substitute $2ab$ into $a^2 + b^2 = c^2$ to get $(a+b)^2 = c^2 + 80$ .\n\nMoving the $c^2$ to the left, we again rewrite to get $(a+b+c)(a+b-c) = 80$ .\n\nWe substitute our value of $32$ for $a+b+c$ twice into our equation and subtract to get $a + b = \\frac{69}{4}$ .\n\nFinally, subtracting this from our original value of $32$ , we get $\\frac{59}{4}$ , or $B$ .\n\nLet the legs be $a, b$ . Then the hypotenuse is $\\sqrt{a^2 + b^2}.$\n\nWe know that $ab = 40$ and $a + b + \\sqrt{a^2 + b^2} = 32$ .\n\nThe first equation gives \\[b = \\frac{40}{a}\\] and we can plug this into the second equation, yielding: \\[a + \\frac{40}{a} + \\sqrt{ a^2 + \\frac{1600}{a^2}} = 32.\\]\n\nLetting $X = a + \\frac{40}{a}$ , the equation becomes: \\[X + \\sqrt{X^2 - 80} = 32.\\]\n\nWe can bring the $X$ to the right side and square which yields: \\[X^2 - 80 = (X - 32)^2 = X^2 - 64X + 1024.\\]\n\nSo, \\[-80 = -64X + 1024 \\rightarrow X = \\frac{69}{4}.\\]\n\nNow, we know that $a + \\frac{40}{a} = \\frac{69}{4}.$\n\nMultiplying both sides by $4a$ gives: \\[4a^2 - 69a + 160.\\]\n\nIt can be observed that the roots of this equation are $a$ and $b$ . We want the hypotenuse which is $\\sqrt{a^2 + b^2} = \\sqrt{ (a+b)^2 - 2ab}.$\n\nWe can now apply Vieta's Formula which gives: \\[c = \\sqrt{ \\left( \\frac{69}{4} \\right)^2 - 80} = \\boxed{ \\frac{59}{4}}.\\]\n\n~conantwiz2023\n\nLet the sides be $a, b, c$ where $a$ and $b$ are the legs and $c$ is the hypotenuse.\n\nSince the perimeter is 32, we have\n\n$(1) \\phantom{a} a+b+c=32$ .\n\nSince the area is 20 and the legs are $a$ and $b$ , we have that\n\n$(2) \\phantom{a} \\frac{a \\cdot b}{2}=20$ .\n\nBy the Pythagorean Theorem, we have that\n\n$(3) \\phantom{a} a^2+b^2=c^2$ .\n\nSince we want $c$ , we will equations $1, 2, 3$ be in the form of $c.$\n\nEquation 1 can be turned into\n\n$(4) \\phantom{a} a+b=32-c$ .\n\nEquation 2 can be simplified into\n\n$(5) \\phantom{a} ab=40.$\n\nEquation 3 is already simplified.\n\nOnto the calculating process.\n\nSquaring the 1st equation we have\n\n$(a+b+c)^2=32^2.$\n\nExpanding and grouping, we have\n\n$(a^2+b^2+c^2)+2(ab+ac+bc)=32^2.$\n\nBy equation 3 and substituting we get\n\n$2(c^2+ab+ac+bc)=32^2.$\n\nBy equation 5 and substituting we get\n\n$2(c^2+40+ac+bc)=32^2.$\n\nNote that we can factor $c$ out in the inner expression, and we get\n\n$2(c^2+40+c(a+b))=32^2.$\n\nBy equation 4 and substituting, we have\n\n$2(c^2+40+c(32-c))=32^2.$\n\nExpanding, we have\n\n$2(c^2+40+32c-c^2)=32^2.$\n\nSimplifying, we have\n\n$2(40+32c)=32^2.$\n\nExpanding again, we get\n\n$80+64c=32^2.$\n\nDividing both sides by $16$ gets us\n\n$4c+5=64$\n\nCalculating gets us\n\n$c=\\boxed{\\mathrm{(B) \\frac{59}{4}}}$ .\n\n~mathboy282\n\nThis solution is very similar to Solution 1, except instead of subtracting $a+b$ from both sides in the first part, we subtract $\\sqrt{a^2+b^2}$ from both sides, which gets us:\n\n$\\begin{align*} a+b&=32-\\sqrt{a^2+b^2}\\\\ (a+b)^2&=(32-\\sqrt{a^2+b^2})^2\\\\ a^2+2ab+b^2&=32^2-2\\cdot32\\cdot\\sqrt{a^2+b^2}+a^2+b^2\\\\ 2ab&=32^2-2\\cdot32\\cdot\\sqrt{a^2+b^2}.\\\\ \\end{align*}$\n\nWe know that\n \\[\\frac{1}{2}ab=20\\]\nso\n \\[ab=40.\\]\n\nWe can then substitute $40$ for $ab$ to get us:\n\n$\\begin{align*} 80&=32^2-2\\cdot32\\cdot\\sqrt{a^2+b^2}\\\\ 2\\cdot32\\cdot\\sqrt{a^2+b^2}&=32^2-80\\\\ 64\\cdot\\sqrt{a^2+b^2}&=32^2-80\\\\ \\sqrt{a^2+b^2}&=\\frac{32^2-80}{64}\\\\ \\end{align*}$\n\nWe know that $\\sqrt{a^2+b^2}$ is the hypotenuse, so we only have to solve the right-hand side now.\n\n$\\begin{align*} \\sqrt{a^2+b^2}&=\\frac{32^2-80}{64}\\\\ &=\\frac{32^2}{64}-\\frac{80}{64}\\\\ &=\\frac{32\\cdot32}{32\\cdot2}-\\frac{32\\cdot\\frac{5}{2}}{32\\cdot2}\\\\ &=\\frac{32}{2}-\\frac{\\frac{5}{2}}{2}\\\\ &=16-\\frac{5}{4}\\\\ &=\\frac{64}{4}-\\frac{5}{4}\\\\ &=\\boxed{\\mathrm{(B)} \\frac{59}{4}}\\\\ \\end{align*}$\n\n~zlrara01"
   },
   {
     "id": "amc10a-2008-19",
@@ -18642,7 +18647,8 @@
       "Angle Chasing",
       "Logic",
       "Problem-Solving: Quadrilaterals"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/5/b/d/5bd4d160e94d32f55888e6872d9a4748c44bab08.png]]\n\nWe let $P'Q'R'S'$ be the rectangle after the first rotation, and $P''Q''R''S''$ be the rectangle after the second rotation. Point $P$ pivots about $R$ in an arc of a circle of radius $\\sqrt{2^2+6^2} = 2\\sqrt{10}$ , and since $\\angle PRS,\\, \\angle P'RQ'$ are complementary, it follows that the arc has a degree measure of $90^{\\circ}$ and length $\\frac14$ of the circumference. Thus, $P$ travels $\\frac 14 \\left(4\\sqrt{10}\\right)\\pi = \\sqrt{10}\\pi$ in the first rotation.\n\nSimilarly, in the second rotation, $P$ travels in a $90^{\\circ}$ arc about $S'$ , with the radius being $6$ . It travels $\\frac 14(12)\\pi = 3\\pi$ . Therefore, the total distance it travels is $\\left(3+\\sqrt{10}\\right)\\pi\\ \\mathrm{(C)}$ ."
   },
   {
     "id": "amc10a-2008-20",
@@ -18663,7 +18669,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/a/e/9/ae9e6780ac0e2f899814f783c0dadde9dfd16a40.png]]\n\nSince $\\overline{AB} \\parallel \\overline{DC}$ it follows that $\\triangle ABK \\sim \\triangle CDK$ . Thus $\\frac{KA}{KC} = \\frac{KB}{KD} = \\frac{AB}{DC} = \\frac{3}{4}$ .\n\nWe now introduce the concept of area ratios: given two triangles that share the same height, the ratio of the areas is equal to the ratio of their bases. Since $\\triangle AKB, \\triangle AKD$ share a common altitude to $\\overline{BD}$ , it follows that (we let $[\\triangle \\ldots]$ denote the area of the triangle) $\\frac{[\\triangle AKB]}{[\\triangle AKD]} = \\frac{KB}{KD} = \\frac{3}{4}$ , so $[\\triangle AKB] = \\frac{3}{4}(24) = 18$ . Similarly, we find $[\\triangle DKC] = \\frac{4}{3}(24) = 32$ and $[\\triangle BKC] = 24$ .\n\nTherefore, the area of $ABCD = [AKD] + [AKB] + [BKC] + [CKD] = 24 + 18 + 24 + 32 = 98\\ \\mathrm{(D)}$ ."
   },
   {
     "id": "amc10a-2008-21",
@@ -18686,7 +18693,8 @@
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: 3D Geometry",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "[[img:https://latex.artofproblemsolving.com/f/3/4/f34f547fc1686f55e873a8878bf4656915e53829.png]]\n\nSince $AB = AD = CB = CD = \\sqrt{\\left(\\frac{1}{2}\\right)^2+1^2}$ , it follows that $ABCD$ is a rhombus. The area of the rhombus can be computed by the formula $A = \\frac 12 d_1d_2$ , where $d_1,\\,d_2$ are the diagonals of the rhombus (or of a kite in general). $BD$ has the same length as a face diagonal, or $\\sqrt{1^2 + 1^2} = \\sqrt{2}$ . $AC$ is a space diagonal, with length $\\sqrt{1^2+1^2+1^2} = \\sqrt{3}$ . Thus $A = \\frac 12 \\times \\sqrt{2} \\times \\sqrt{3} = \\frac{\\sqrt{6}}{2}\\ \\mathrm{(A)}$ ."
   },
   {
     "id": "amc10a-2008-22",
@@ -18707,7 +18715,8 @@
     "topics": [
       "Introduction to Probability",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "We construct a tree showing all possible outcomes that Jacob may get after $3$ flips; we can do this because there are only $8$ possibilities:\n \\[6\\quad\\begin{cases} \\ \\text{H}: 11 &\\quad \\begin{cases} \\ \\text{H}: 21 &\\quad \\begin{cases} \\ \\text{H}: \\boxed{41}\\\\ \\ \\text{T}: 9.5 \\end{cases}\\\\ \\ \\text{T}: 4.5 &\\quad \\begin{cases} \\ \\text{H}: \\boxed{8}\\\\ \\ \\text{T}: 1.25 \\end{cases} \\end{cases}\\\\ \\ \\text{T}: 2 &\\quad \\begin{cases} \\ \\text{H}: 3 &\\qquad\\! \\begin{cases} \\ \\text{H}: \\boxed{5}\\\\ \\ \\text{T}: 0.5 \\end{cases}\\\\ \\ \\text{T}: 0 &\\qquad\\! \\begin{cases} \\ \\text{H}: \\boxed{-1}\\\\ \\ \\text{T}: \\boxed{-1} \\end{cases} \\end{cases} \\end{cases}\\]\nThere is a $\\frac{5}{8}$ chance that the fourth term in Jacob's sequence is an integer, so the answer is $\\mathrm{(D)}$ ."
   },
   {
     "id": "amc10a-2008-23",
