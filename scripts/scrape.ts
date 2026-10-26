@@ -36,7 +36,29 @@ const INDEXES = [
   { key: "aime", contest: "AIME", url: "/wiki/index.php?title=AIME_Problems_and_Solutions", expected: 15, re: /^(\d{4}) AIME( I{1,2})?$/ },
 ] as const;
 
-let last = 0;
+// --browser: fetch AoPS with a real headless Chrome (passes Cloudflare, ~0.5s/page, no Wayback).
+const useBrowser = args.includes("--browser");
+let browserPage: any = null;
+async function browserGet(url: string): Promise<string | null> {
+  try {
+    if (!browserPage) {
+      const { chromium } = await import("playwright");
+      const browser = await chromium.launch({ headless: true });
+      const ctx = await browser.newContext({ locale: "en-US" });
+      browserPage = await ctx.newPage();
+      process.on("exit", () => { browser.close().catch(() => {}); });
+    }
+    const res = await browserPage.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+    const status = res?.status() ?? 0;
+    if (status !== 200) return null;
+    return await browserPage.content();
+  } catch (e) {
+    logErr(url, `browser fetch failed (${e})`);
+    return null;
+  }
+}
+
+let last = useBrowser ? Date.now() : 0;
 async function get(path: string): Promise<string | null> {
   const url = path.startsWith("http") ? path : BASE + path;
   const file = join(CACHE, createHash("sha1").update(url).digest("hex") + ".html");
@@ -57,6 +79,11 @@ async function get(path: string): Promise<string | null> {
     const status = Number(out.trimEnd().split("\n").pop());
     return { status, body: out.slice(0, out.lastIndexOf("\n")) };
   };
+  if (useBrowser) {
+    const body = await browserGet(url);
+    if (body) { writeFileSync(file, body); return body; }
+    // fall through to curl/wayback if the real browser also failed
+  }
   for (let tries = 0; tries < 3; tries++) {
     try {
       const { status, body } = curl(url);
