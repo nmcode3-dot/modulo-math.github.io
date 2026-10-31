@@ -35,7 +35,7 @@ try {
   const robotsResponse = await page.goto("https://wiki.randommath.com/robots.txt", { waitUntil: "domcontentloaded", timeout: 20000 });
   if (robotsResponse?.status() !== 200) throw new Error("cannot verify robots.txt; stopped");
   const robots = await page.locator("body").innerText();
-  if (/Disallow:\s*\S/i.test(robots)) throw new Error("robots.txt has restrictions; review them before running");
+  if (/^Disallow:[ \t]*\S/im.test(robots)) throw new Error("robots.txt has restrictions; review them before running");
   for (const target of targets) {
     const t = Date.now();
     const source = randomMathTarget(target);

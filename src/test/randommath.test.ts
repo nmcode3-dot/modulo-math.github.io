@@ -26,7 +26,7 @@ describe("Random Math solutions", () => {
     expect(() => parseRandomMathSolution(html, "2013 AMC 10B Problem 8")).toThrow("identity");
   });
   it("refuses missing equations and diagram-dependent partial solutions", () => {
-    expect(() => parseRandomMathSolution(html.replace('3}</math>', '3}</math>').replace('\\sqrt{3}</math>', '</math>'), "2013 AMC 10B Problem 7")).toThrow("original TeX");
+    expect(() => parseRandomMathSolution(html.replace('\\sqrt{3}</math>', '</math>'), "2013 AMC 10B Problem 7")).toThrow("original TeX");
     expect(() => parseRandomMathSolution(html.replace("</p><hr>", '<img src="/diagram.png"></p><hr>'), "2013 AMC 10B Problem 7")).toThrow("asset import");
   });
   it("adds only the solution and never changes answers, statements, choices, or topics", () => {

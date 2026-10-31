@@ -88,6 +88,28 @@ Continue developing this project in the [Lovable editor](https://lovable.dev/pro
 
 ## Development
 
+## Random Math solution downloads
+
+An alternative local scraper fills only missing AMC 10 solutions from [Random Math Wiki](https://wiki.randommath.com/). It uses direct Chromium browsing, never Wayback, and preserves questions, answers, topic tags, existing solutions, and AoPS links. Original math is extracted from the page's TeX rather than duplicated rendered text.
+
+In a terminal inside the project folder:
+
+```sh
+bun install
+bunx playwright install chromium
+bun run scripts/scrape-randommath.ts --limit 5 --dry-run
+```
+
+The last command checks five missing solutions without changing your problem file. To download all missing AMC 10 solutions:
+
+```sh
+bun run scripts/scrape-randommath.ts
+```
+
+Solutions save after each successful page to `src/data/amc10.json`. The terminal reports seconds and whether each page came directly from the browser or cache. Details and source URLs are recorded in `scripts/randommath-report.json`. Restart the same command after interruption; completed rows are skipped. Use `--refresh` to re-fetch cached pages.
+
+Pages with mismatched identity, inaccessible content, unsupported equations, or diagrams requiring separate asset imports are skipped rather than saving incomplete work. Download speed and coverage vary; this source is not guaranteed to fill every gap. Keep the computer awake and terminal open. Upload the updated `src/data/amc10.json` to your linked GitHub repository to update your website.
+
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
