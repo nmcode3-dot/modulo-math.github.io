@@ -158,7 +158,7 @@ export function TopicWorkspace({ topic }: { topic: string }) {
               <BotHeading time={q.startedAt} />
               <h3 className="mt-2 font-semibold">{tileLabel(q.problem)}</h3>
               <div className="practice-math mt-3"><Latex>{q.problem.statementLatex}</Latex></div>
-              {!isAime(q.problem) && q.problem.choices.some(Boolean) && <div className="mt-4 grid gap-2 sm:grid-cols-2">{q.problem.choices.map((choice, i) => <div key={i} className="practice-math flex gap-2 text-sm"><strong>({LETTERS[i]})</strong><Latex>{choice}</Latex></div>)}</div>}
+              {!isAime(q.problem) && q.problem.choices.some(Boolean) && <div className="mt-4 grid gap-2 sm:grid-cols-2">{q.problem.choices.map((choice, i) => <div key={i} className="practice-math flex gap-2 text-sm"><strong>({LETTERS[i]})</strong><Latex wrap>{choice}</Latex></div>)}</div>}
               {q.replies.map((reply, i) => (
                 <div key={i} className="mt-5 space-y-3">
                   <div className="flex justify-end"><div className="practice-answer"><span className="mr-3 text-xs opacity-80">You</span>{reply.answer}</div></div>
