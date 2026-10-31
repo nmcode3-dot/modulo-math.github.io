@@ -13283,7 +13283,8 @@
       "Problem-Solving: Circle Basics",
       "Inclusion-Exclusion",
       "Venn Diagrams"
-    ]
+    ],
+    "solutionLatex": "The six points divide the circle into six arcs each measuring $60^{\\circ}$. By the Inscribed Angle Theorem, the angles of the triangle can only be $30^{\\circ}, 60^{\\circ}, 90^{\\circ}$, and $120^{\\circ}$. Because the angles of the triangle are pairwise distinct the triangle must be a $30-60-90^{\\circ}$ triangle. Therefore the hypotenuse of the triangle is the diameter of the circle, and the legs have lengths $1$ and $\\sqrt{3}$. The area of the triangle is $\\dfrac{1}{2} \\cdot 1 \\cdot \\sqrt{3}=(\\text{B})\\boxed{\\dfrac{\\sqrt{3}}{2}}$."
   },
   {
     "id": "amc10b-2013-8",
@@ -19356,7 +19357,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_10A_Problems/Problem_1",
     "topics": [
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "Susan pays $(4)(0.75)(20)=60$ dollars. Pam pays $(5)(0.70)(20)= 70$ dollars, so she pays $70-60=(\\text{C})\\boxed{10}$ more dollars than Susan."
   },
   {
     "id": "amc10a-2007-2",
@@ -20547,7 +20549,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_6",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Take the seventh root of both sides to get $(7 x)^{2}=14 x$. Then $49 x^{2}=14 x$, and because $x \\neq 0$ we have $49 x=14$. Thus $x= (\\text{B})\\boxed{\\dfrac{2}{7}}$."
   },
   {
     "id": "amc10a-2006-7",
@@ -20808,7 +20811,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2006_AMC_10A_Problems/Problem_18",
     "topics": [
       "Digit Problems"
-    ]
+    ],
+    "solutionLatex": "Since the two letters have to be next to each other, think of them as forming a two-letter word $w$. So each license plate consists of $4$ digits and $w$. For each digit there are $10$ choices. There are $26 \\cdot 26$ choices for the letters of $w$, and there are $5$ choices for the position of $w$. So the total number of distinct license plates is $(\\text{C})\\boxed{5 \\cdot 10^{4} \\cdot 26^{2}}$."
   },
   {
     "id": "amc10a-2006-19",
@@ -21416,7 +21420,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "The slope of line $A B$ is $(178-(-22)) /(2006-6)=1 / 10$. Since the line $A D$ is perpendicular to the line $A B$, its slope is $-10$. This implies that\n\n$$-10=\\dfrac{y-(-22)}{8-6}, \\quad \\text { so } \\quad y=-10(2)-22=-42, \\quad \\text { and } \\quad D=(8,-42) \\text {. }$$\n\nAs a consequence,\n\n$$A B=\\sqrt{2000^{2}+200^{2}}=200 \\sqrt{101} \\quad \\text { and } \\quad A D=\\sqrt{2^{2}+20^{2}}=2 \\sqrt{101}$$\n\nThus\n\n$$\\operatorname{Area}(A B C D)=A B \\cdot A D=400 \\cdot 101=(\\text{E})\\boxed{40,400}$$"
   },
   {
     "id": "amc10b-2006-21",
@@ -21551,7 +21556,8 @@
     "topics": [
       "Fractions and Percents",
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "Since Mike tipped $\\$ 2$, which was $10 \\%=1 / 10$ of his bill, his bill must have been $2 \\cdot 10=20$ dollars. Similarly, Joe tipped $\\$ 2$, which was $20 \\%=1 / 5$ of his bill, so his bill must have been $2 \\cdot 5=10$ dollars. The difference between their bills is therefore $\\$ 10$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10a-2005-2",
@@ -22470,7 +22476,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2005_AMC_10B_Problems/Problem_17",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Because\n\n$$4^{a \\cdot b \\cdot c \\cdot d}=\\left(\\left(\\left(4^{a}\\right)^{b}\\right)^{c}\\right)^{d}=\\left(\\left(5^{b}\\right)^{c}\\right)^{d}=\\left(6^{c}\\right)^{d}=7^{d}=8=4^{3 / 2}$$\n\nwe have $a \\cdot b \\cdot c \\cdot d= \\dfrac{3}{2}$.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10b-2005-18",
@@ -23378,7 +23385,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_10B_Problems/Problem_8",
     "topics": [
       "Distance, Rate, Time"
-    ]
+    ],
+    "solutionLatex": "Let downtown St. Paul, downtown Minneapolis, and the airport be located at $S, M$, and $A$, respectively. Then $\\triangle M A S$ has a right angle at $A$, so by the Pythagorean Theorem,\n\n$$M S=\\sqrt{10^{2}+8^{2}}=\\sqrt{164} \\approx \\sqrt{169}=13$$\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc10b-2004-9",
@@ -23530,7 +23538,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2004_AMC_10B_Problems/Problem_15",
     "topics": [
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "Because the value of Patty's money would increase if the dimes and nickels were interchanged, she must have more nickels than dimes. Interchanging one nickel for a dime increases the amount by $5$ cents, so she has $70 / 5=14$ more nickels than dimes. Therefore she has\n\n$$\\dfrac{1}{2}(20 -14)=3 \\quad \\text { dimes } \\quad \\text { and } \\quad 20 - 3=17 \\text { nickels }$$\n\nand her coins are worth $3 \\cdot10+17 \\cdot 5=115$ cents $=\\$ 1.15$.\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc10b-2004-16",
@@ -24314,7 +24323,8 @@
     "topics": [
       "Digit Problems",
       "Divisibility Reasoning"
-    ]
+    ],
+    "solutionLatex": "Note that $n=100 q+r=q+r+99 q$. Hence $q+r$ is divisible by $11$ if and only if $n$ is divisible by $11$. Since $10,000 \\leq n \\leq 99,999$, there are\n\n$$\\left\\lfloor\\dfrac{99999}{11}\\right\\rfloor-\\left\\lfloor\\dfrac{9999}{11}\\right\\rfloor=9090-909=8181$$\n\nsuch numbers.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10b-2003-1",
@@ -24334,7 +24344,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_10B_Problems/Problem_1",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "We have\n\n$$\\dfrac{2-4+6-8+10-12+14}{3-6+9-12+15-18+21}=\\dfrac{2(1-2+3-4+5-6+7)}{3(1-2+3-4+5-6+7)}=\\dfrac{2}{3}.$$\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10b-2003-2",
@@ -24376,7 +24387,8 @@
     "topics": [
       "Parity Reasoning",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "Let $n$ be the smallest of the even integers. Since\n\n$$1+3+5+7+9+11+13+15=64,$$\n\nwe have\n\n$$60=n+(n+2)+(n+4)+(n+6)+(n+8)=5 n+20, \\quad \\text { so } \\quad n=8.$$\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10b-2003-4",
@@ -24416,7 +24428,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_10B_Problems/Problem_5",
     "topics": [
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "The area of the lawn is\n\n$$90 \\cdot 150=13,500 \\mathrm{ft}^{2}$$\n\nMoe cuts about two square feet for each foot he pushes the mower forward, so he cuts $2(5000)=10,000 \\mathrm{ft}^{2}$ per hour. Therefore, it takes about $\\dfrac{13,500}{10,000}=1.35$ hours.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10b-2003-6",
@@ -24782,7 +24795,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_10B_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Angles on a Clock"
-    ]
+    ],
+    "solutionLatex": "In any twelve-hour period, there are $12$ half-hour chimes and $1+2+3+\\ldots+$ $12=78$ on-the-hour chimes. Hence, a twelve-hour period results in $90$ chimes. Dividing $2003$ by $90$ yields a quotient of $22.2 \\overline{5}$. Therefore the $2003^{\\text {rd }}$ chime will occur a little more than $11$ days later, on $\\text{March } 9$.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10b-2003-23",
@@ -24826,7 +24840,8 @@
     "topics": [
       "Arithmetic/Geometric Sequences",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "Since the difference of the first two terms is $-2 y$, the third and fourth terms of the sequence must be $x-3 y$ and $x-5 y$. Thus\n\n$$x-3 y=x y \\quad \\text { and } \\quad x-5 y=\\dfrac{x}{y}$$\n\nso $x y-5 y^{2}=x$. Combining these equations we obtain\n\n$$(x-3 y)-5 y^{2}=x \\quad \\text { and, therefore, } \\quad-3 y-5 y^{2}=0$$\n\nSince $y$ cannot be $0$, we have $y=-3 / 5$, and it follows that $x=-9 / 8$. The fifth term in the sequence is $x-7 y= 123 / 40$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10b-2003-25",
@@ -24870,7 +24885,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_1",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "We have\n\n$$\\dfrac{10^{2000}+10^{2002}}{10^{2001}+10^{2001}}=\\dfrac{10^{2000}(1+100)}{10^{2000}(10+10)}=\\dfrac{101}{20} \\approx 5.$$\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10a-2002-2",
@@ -24890,7 +24906,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_2",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "We have\n\n$$(2,12,9)=\\dfrac{2}{12}+\\dfrac{12}{9}+\\dfrac{9}{2}=\\dfrac{1}{6}+\\dfrac{4}{3}+\\dfrac{9}{2}=\\dfrac{1+8+27}{6}=\\dfrac{36}{6}=6.$$\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10a-2002-3",
@@ -24974,7 +24991,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_6",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Let $x$ be the number she was given. Her calculations produce\n\n$$\\dfrac{x-9}{3}=43$$\n\nso\n\n$$x-9=129 \\quad \\text { and } \\quad x=138$$\n\nThe correct answer is\n\n$$\\dfrac{138-3}{9}=\\dfrac{135}{9}=15.$$\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc10a-2002-7",
@@ -24997,7 +25015,8 @@
       "Angle Chasing",
       "Ratios and Rates",
       "Problem-Solving: Circle Basics"
-    ]
+    ],
+    "solutionLatex": "Let $C_{A}=2 \\pi R_{A}$ be the circumference of circle $A$, let $C_{B}=2 \\pi R_{B}$ be the circumference of circle $B$, and let $L$ the common length of the two arcs. Then\n\n$$\\dfrac{45}{360} C_{A}=L=\\dfrac{30}{360} C_{B}$$\n\nTherefore\n\n$$\\dfrac{C_{A}}{C_{B}}=\\dfrac{2}{3} \\quad \\text { so } \\quad \\dfrac{2}{3}=\\dfrac{2 \\pi R_{A}}{2 \\pi R_{B}}=\\dfrac{R_{A}}{R_{B}}$$\n\nThus, the ratio of the areas is\n\n$$\\dfrac{\\text { Area of Circle }(A)}{\\text { Area of Circle }(B)}=\\dfrac{\\pi R_{A}^{2}}{\\pi R_{B}^{2}}=\\left(\\dfrac{R_{A}}{R_{B}}\\right)^{2}=\\dfrac{4}{9}.$$\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc10a-2002-8",
@@ -25083,7 +25102,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_11",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "First note that the amount of memory needed to store the $30$ files is\n\n$$3(0.8)+12(0.7)+15(0.4)=16.8 \\mathrm{mb},$$\n\nso the number of disks is at least\n\n$$\\dfrac{16.8}{1.44}=11+\\dfrac{2}{3}.$$\n\nHowever, a disk that contains a $0.8$-mb file can, in addition, hold only one $0.4$-mb file, so on each of these disks at least $0.24$-mb must remain unused. Hence, there is at least $3(0.24)=0.72 \\mathrm{mb}$ of unused memory, which is equivalent to half a disk. Since\n\n$$\\left(11+\\dfrac{2}{3}\\right)+\\dfrac{1}{2}>12,$$\n\nat least $13$ disks are needed.\n\nTo see that $13$ disks suffice, note that:\n\nSix disks could be used to store the $12$ files containing $0.7 \\mathrm{mb}$;\n\nThree disks could be used to store the three $0.8$-mb files together with three of the $0.4$-mb files;\n\nFour disks could be used to store the remaining twelve $0.4$-mb files.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10a-2002-12",
@@ -25197,7 +25217,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_16",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "From the given information,\n\n$$(a+1)+(b+2)+(c+3)+(d+4)=4(a+b+c+d+5),$$\n\nso\n\n$$(a+b+c+d)+10=4(a+b+c+d)+20$$\n\nand $a+b+c+d=-\\dfrac{10}{3}$.\n\nNote that $a=d+3, b=d+2$, and $c=d+1$. So,\n\n$$a+b+c+d=(d+3)+(d+2)+(d+1)+d=4 d+6.$$\n\nThus, $d+4=(4 d+6)+5$, so $d=-7 / 3$, and\n\n$$a+b+c+d=4 d+6=4\\left(-\\dfrac{7}{3}\\right)+6=-\\dfrac{10}{3}.$$\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10a-2002-17",
@@ -25217,7 +25238,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_17",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "After the first transfer, the first cup contains two ounces of coffee, and the second cup contains two ounces of coffee and four ounces of cream. After the second transfer, the first cup contains $2+(1 / 2)(2)=3$ ounces of coffee and $(1 / 2)(4)=2$ ounces of cream. Therefore, the fraction of the liquid in the first cup that is cream is $2 /(2+3)= 2 / 5$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10a-2002-18",
@@ -25299,7 +25321,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_21",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "The values $6,6,6,8,8,8,8,14$ satisfy the requirements of the problem, so the answer is at least $14$. If the largest number were $15$, the collection would have the ordered form $7,\\_\\_,\\_\\_, 8,8 ,\\_\\_,\\_\\_, 15$. But $7+8+8+15=38$, and a mean of $8$ implies that the sum of all values is $64$. In this case, the four missing values would sum to $64-38=26$, and their average value would be $6.5$. This implies that at least one would be less than $7$, which is a contradiction. Therefore, the largest integer that can be in the set is $14$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10a-2002-22",
@@ -25446,7 +25469,8 @@
     "topics": [
       "Digit Problems",
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "The number $M$ is equal to\n\n$$\\dfrac{1}{9}(9+99+999+\\ldots+999,999,999)=1+11+111+\\ldots+111,111,111=123,456,789.$$\n\nThe number $M$ does not contain the digit $0$.\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc10b-2002-4",
@@ -25490,7 +25514,8 @@
       "Problem-Solving: Circle Basics",
       "Circle Tangents",
       "Problem-Solving: Shaded Regions - Circles"
-    ]
+    ],
+    "solutionLatex": "The diameter of the large circle is $6+4=10$, so its radius is $5$. Hence, the area of the shaded region is\n\n$$\\pi\\left(5^{2}\\right)-\\pi\\left(3^{2}\\right)-\\pi\\left(2^{2}\\right)=\\pi(25-9-4)= 12 \\pi.$$\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10b-2002-6",
@@ -25531,7 +25556,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10B_Problems/Problem_7",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "The number $\\dfrac{1}{2}+\\dfrac{1}{3}+\\dfrac{1}{7}+\\dfrac{1}{n}$ is greater than $0$ and less than $\\dfrac{1}{2}+\\dfrac{1}{3}+\\dfrac{1}{7}+\\dfrac{1}{1}<2$. Hence,\n\n$$\\dfrac{1}{2}+\\dfrac{1}{3}+\\dfrac{1}{7}+\\dfrac{1}{n}=\\dfrac{41}{42}+\\dfrac{1}{n}$$\n\nis an integer precisely when it is equal to $1$. This implies that $n=42$, so the answer is $(E)$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10b-2002-8",
@@ -25833,7 +25859,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let $A$ be the number of square feet in Andy's lawn. Then $A / 2$ and $A / 3$ are the areas of Beth's lawn and Carlos' lawn, respectively, in square feet. Let $R$ be the rate, in square feet per minute, that Carlos' lawn mower cuts. Then Beth's mower and Andy's mower cut at rates of $2 R$ and $3 R$ square feet per minute, respectively. Thus,\n\nAndy takes $\\dfrac{A}{3 R}$ minutes to mow his lawn, Beth takes $\\dfrac{A / 2}{2 R}=\\dfrac{A}{4 R}$ minutes to mow hers,\n\nand\n\nCarlos takes $\\dfrac{A / 3}{R}=\\dfrac{A}{3 R}$ minutes to mow his.\n\nSince $\\dfrac{A}{4 R}<\\dfrac{A}{3 R}$, Beth will finish first.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10b-2002-22",
@@ -25941,7 +25968,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_1",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "The middle number in the $9$-number list is $n+6$, which is given as $10$. Thus $n=4$. Add the terms together to get $9 n+63=9 \\cdot 4+63=99$. Thus the mean is $99 / 9=11$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10-2001-2",
@@ -26157,7 +26185,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_11",
     "topics": [
       "Geometry"
-    ]
+    ],
+    "solutionLatex": "The $n^{\\text {th }}$ ring can be partitioned into four rectangles: two containing $2 n+1$ unit squares and two containing $2 n-1$ unit squares. So there are\n\n$$2(2 n+1)+2(2 n-1)=8 n$$\n\nunit squares in the $n^{\\text {th }}$ ring. Thus, the $100^{\\text {th }}$ ring has $8 \\cdot 100=800$ unit squares.\n\n$$\\textbf{OR}$$\n\nThe $n^{t h}$ ring can be obtained by removing a square of side $2 n-1$ from a square of side $2 n+1$. So it contains\n\n$$(2 n+1)^{2}-(2 n-1)^{2}=\\left(4 n^{2}+4 n+1\\right)-\\left(4 n^{2}-4 n+1\\right)=8 n$$\n\nunit squares.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10-2001-12",
@@ -26203,7 +26232,8 @@
       "Digit Problems",
       "Parity Reasoning",
       "Digit Deduction"
-    ]
+    ],
+    "solutionLatex": "The last four digits ($GHIJ$) are either $9753$ or $7531$, and the remaining odd digit (either $1$ or $9$) is $A$, $B$, or $C$. Since $A + B + C = 9$, the odd digit among $A$, $B$, and $C$ must be $1$. Thus the sum of the two even digits in $ABC$ is $8$. The three digits in $DEF$ are $864$, $642$, or $420$, leaving the pairs $2$ and $0$, $8$ and $0$, or $8$ and $6$, respectively, as the two even digits in $ABC$. Of those, only the pair $8$ and $0$ has sum $8$, so $ABC$ is $810$, and the required first digit is $8$. The only such telephone number is $810$-$642$-$9753$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10-2001-14",
@@ -26220,7 +26250,8 @@
       "Variables",
       "Counting Divisors",
       "Divisibility Reasoning"
-    ]
+    ],
+    "solutionLatex": "Let $n$ be the number of full-price tickets and $p$ be the price of each in dollars. Then\n\n$$n p+(140-n) \\cdot \\dfrac{p}{2}=2001, \\text { so } p(n+140)=4002$$\n\nThus $n+140$ must be a factor of $4002=2 \\cdot 3 \\cdot 23 \\cdot 29$. Since $0 \\leq n \\leq 140$, we have $140 \\leq n+140 \\leq 280$, and the only factor of $4002$ that is in the required range for $n+140$ is $174=2 \\cdot 3 \\cdot 29$. Therefore, $n+140=174$, so $n=34$ and $p=23$. The money raised by the full-price tickets is $34 \\cdot 23=782$ dollars.\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc10-2001-15",
@@ -26395,7 +26426,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_22",
     "topics": [
       "Problem-Solving: Puzzles"
-    ]
+    ],
+    "solutionLatex": "Since $v$ appears in the first row, first column, and on diagonal, the sum of the remaining two numbers in each of these lines must be the same. Thus,\n\n$$25+18=24+w=21+x,$$\n\nso $w=19$ and $x=22$. now $25,22$, and $19$ form a diagonal with a sum of $66$, so we can find $v=23, y=26$, and $z=20$. Hence $y+z=46$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10-2001-23",
@@ -26457,7 +26489,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_25",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "For integers not exceeding $2001$, there are $\\lfloor 2001 / 3\\rfloor=667$ multiples of $3$ and $\\lfloor 2001 / 4\\rfloor=500$ multiples of $4$. The total, $1167$, counts the $\\lfloor 2001 / 12\\rfloor=166$ multiples of $12$ twice, so there are $1167-166=1001$ multiples of $3$ or $4$. From these we exclude the $\\lfloor 2001 / 15\\rfloor=133$ multiples of $15$ and the $\\lfloor 2001 / 20\\rfloor=100$ multiples of $20$, since these are multiples of $5$. However, this excludes the $\\lfloor 2001 / 60\\rfloor=33$ multiples of $60$ twice, so we must re-include these. The number of integers satisfying the conditions is $1001-133-100+33=801$.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10-2000-1",
@@ -26498,7 +26531,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_2",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "$2000\\left(2000^{2000}\\right)=\\left(2000^{1}\\right)\\left(2000^{2000}\\right)=2000^{1+2000}=2000^{2001}$. All the other options are greater than $2000^{2001}$.\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc10-2000-3",
@@ -26667,7 +26701,8 @@
     "topics": [
       "Absolute Value Tricks",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "By the Triangle Inequality, each of $x$ and $y$ can be any number strictly between $2$ and $10$, so $0 \\leq|x-y|<8$. Therefore, the smallest positive number that is not a possible value of $|x-y|$ is $10-2=8$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10-2000-11",
@@ -26687,7 +26722,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_11",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "There are five prime numbers between $4$ and $18: 5,7,11,13$, and $17$. Hence the product of any two of these is odd and the sum is even. Because $x y-(x+y)=(x-1)(y-1)-1$ increases as either $x$ or $y$ increases (since both $x$ and $y$ are bigger than $1$), the answer must be an odd number that is no smaller than $23=5 \\cdot 7-(5+7)$ and no larger than $191=13 \\cdot 17-(13+17)$. The only possibility among the options is $119$, and indeed $119=11 \\cdot 13-(11+13)$.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10-2000-12",
@@ -26773,7 +26809,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_15",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "Find the common denominator and replace the $a b$ in the numerator with $a-b$ to get\n\n$$\\begin{aligned}\n\\dfrac{a}{b}+\\dfrac{b}{a}-a b &=\\dfrac{a^{2}+b^{2}-(a b)^{2}}{a b} \\\\\n&=\\dfrac{a^{2}+b^{2}-(a-b)^{2}}{a b} \\\\\n&=\\dfrac{a^{2}+b^{2}-\\left(a^{2}-2 a b+b^{2}\\right)}{a b} \\\\\n&=\\dfrac{2 a b}{a b}= 2.\n\\end{aligned}$$\n\n$$\\textbf{OR}$$\n\nNote that $a=a / b-1$ and $b=1-b / a$. It follows that $\\dfrac{a}{b}+\\dfrac{b}{a}-a b=(a+1)+$ $(1-b)-(a-b)=2$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10-2000-16",
@@ -26963,7 +27000,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_24",
     "topics": [
       "Quadratics - Factoring"
-    ]
+    ],
+    "solutionLatex": "Let $x=9 z$. Then $f(3 z)=f(9 z / 3)=f(3 z)=(9 z)^{2}+9 z+1=7$. Simplifying and solving the equation for $z$ yields $81 z^{2}+9 z-6=0$, so $3(3 z+1)(9 z-2)=0$. Thus $z=-1 / 3$ or $z=2 / 9$. The sum of these values is $-1 / 9$.\n\nNote. The answer can also be obtained by using the sum-of-roots formula on $81 z^{2}+9 z-6=0$. The sum of the roots is $-9 / 81=-1 / 9$.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10-2000-25",
