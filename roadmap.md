@@ -15,3 +15,8 @@
 # Safe scraping
 - [x] Resume both tracks with validation that keeps unverified answers out of practice and preserves them for repair.
 - [x] Verify answer protection and confirm both processes are running (16 tests passed; both fetch processes confirmed).
+
+# Random Math solution source
+- [ ] Inspect Random Math pages and compare retrieval with the existing source.
+- [ ] Build a local solutions-only scraper with answer-preserving validation and tests.
+- [ ] Run a bounded live trial and report coverage, speed, and limitations.
