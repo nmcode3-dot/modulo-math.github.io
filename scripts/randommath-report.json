@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 1132.865,
+  "elapsedSeconds": 1137.893,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -8101,6 +8101,76 @@
     {
       "id": "amc12-2000-2",
       "url": "https://wiki.randommath.com/amc12/2000/problem-2",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-3",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-3",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-4",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-4",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-5",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-5",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-6",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-6",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-7",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-7",
+      "status": "skipped",
+      "seconds": 0.504,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-8",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-8",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-9",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-9",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-10",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-10",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-11",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-11",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-12",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-12",
       "status": "skipped",
       "seconds": 0.501,
       "error": "goto: Target page, context or browser has been closed"
