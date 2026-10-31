@@ -1,0 +1,37 @@
+{
+  "dryRun": true,
+  "elapsedSeconds": 8.425,
+  "results": [
+    {
+      "id": "amc10b-2013-7",
+      "url": "https://wiki.randommath.com/amc10/2013/part-b/problem-7",
+      "status": "validated",
+      "seconds": 3.782
+    },
+    {
+      "id": "amc10a-2007-1",
+      "url": "https://wiki.randommath.com/amc10/2007/part-a/problem-1",
+      "status": "validated",
+      "seconds": 1.048
+    },
+    {
+      "id": "amc10b-2007-18",
+      "url": "https://wiki.randommath.com/amc10/2007/part-b/problem-18",
+      "status": "skipped",
+      "seconds": 1.012,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc10a-2006-6",
+      "url": "https://wiki.randommath.com/amc10/2006/part-a/problem-6",
+      "status": "validated",
+      "seconds": 1.048
+    },
+    {
+      "id": "amc10a-2006-18",
+      "url": "https://wiki.randommath.com/amc10/2006/part-a/problem-18",
+      "status": "validated",
+      "seconds": 1.004
+    }
+  ]
+}
