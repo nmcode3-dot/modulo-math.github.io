@@ -7627,7 +7627,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_11",
     "topics": [
       "Length Chasing"
-    ]
+    ],
+    "solutionLatex": "A. $1+\\dfrac{1}{2} \\sqrt{2}$\n\nB. $\\sqrt{3}$\n\nC. $\\dfrac{7}{4}$\n\nD. $\\dfrac{15}{8}$\n\nE. $2$\n\nThe paper's long edge $\\overline{A B}$ is the hypotenuse of right triangle $A C B$, and the crease lies along the perpendicular bisector of $\\overline{A B}$. Because $A C>B C$, the crease hits $\\overline{A C}$ rather than $\\overline{B C}$. Let $D$ be the midpoint of $\\overline{A B}$, and let $E$ be the intersection of $\\overline{A C}$ and the line through $D$ perpendicular to $\\overline{A B}$. Then the crease in the paper\n\nis $\\overline{D E}$. Because $\\triangle A D E \\sim \\triangle A C B$, it follows that $\\dfrac{D E}{A D}=\\dfrac{C B}{A C}=\\dfrac{3}{4}$. Thus\n\n$$D E=A D \\cdot \\dfrac{C B}{A C}=\\dfrac{5}{2} \\cdot \\dfrac{3}{4}=\\boxed{\\dfrac{15}{8}} .$$\n\n[[img:/__l5e/assets-v1/b147fcdc-a8f8-4f31-a7f3-d7a18ab4c9be/963fc14911e39ed3374f6117bd9d12d1e3e4de86606d5ce5004362607d4842d7.png]]"
   },
   {
     "id": "amc12a-2018-12",
@@ -7670,7 +7671,8 @@
     "topics": [
       "Linear Inequalities",
       "Problem-Solving: Linear Diophantine Equations"
-    ]
+    ],
+    "solutionLatex": "A. $512$\n\nB. $729$\n\nC. $1094$\n\nD. $3281$\n\nE. $59,048$\n\nLet $S$ be the set of integers, both negative and nonnegative, having the given form. Increasing the value of $a_{i}$ by 1 for $0 \\leq i \\leq 7$ creates a one-to-one correspondence between $S$ and the ternary (base 3 ) representation of the integers from 0 through $3^{8}-1$, so $S$ contains $3^{8}=6561$ elements. One of those is 0 , and by symmetry, half of the others are positive, so $S$ contains $1+\\dfrac{1}{2} \\cdot(6561-1)=3281$ elements.\n\nOR\n\nFirst note that if an integer $N$ can be written in this form, then $N-1$ can also be written in this form as long as not all the $a_{i}$ in the representation of $N$ are equal to -1 . A procedure to alter the representation of $N$ so that it will represent $N-1$ instead is to find the least value of $i$ such that $a_{i} \\neq-1$, reduce the value of that $a_{i}$ by 1 , and set $a_{i}=1$ for all lower values of $i$. By the formula for the sum of a finite geometric series, the greatest integer that can be written in the given form is\n\n$$\\dfrac{3^{8}-1}{3-1}= 3280$$\n\nTherefore, $\\boxed{3281}$ nonnegative integers can be written in this form, namely all the integers from 0 through 3280 , inclusive. (The negative integers from -3280 through -1 can also be written in this way.)\n\nOR\n\nThink of the indicated sum as an expansion in base 3 using \"digits\" $-1,0$, and 1 . Note that the leftmost digit $a_{k}$ of any positive integer that can be written in this form cannot be negative and therefore must be 1 . Then there are 3 choices for each of the remaining $k$ digits to the right of $a_{k}$, resulting in $3^{k}$ positive integers that can be written in the indicated form. Thus there are\n\n$$\\sum_{k=0}^{7} 3^{k}=\\dfrac{3^{8}-1}{3-1}= 3280$$\n\npositive numbers of the indicated form. Because 0 can also be written in this form, the number of nonnegative integers that can be written in the indicated form is $\\boxed{3281}$."
   },
   {
     "id": "amc12a-2018-14",
@@ -7690,7 +7692,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_14",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "A. $5$\n\nB. $13$\n\nC. $17$\n\nD. $31$\n\nE. $35$\n\nBy the change-of-base formula, the given equation is equivalent to\n\n$$\\begin{aligned}\n\\dfrac{\\log 4}{\\log 3 x} =\\dfrac{\\log 8}{\\log 2 x} \\\\\n\\dfrac{2 \\log 2}{\\log 3+\\log x} =\\dfrac{3 \\log 2}{\\log 2+\\log x} \\\\\n2 \\log 2+2 \\log x =3 \\log 3+3 \\log x \\\\\n\\log x =2 \\log 2-3 \\log 3 \\\\\n\\log x =\\log \\dfrac{4}{27} .\n\\end{aligned}$$\n\nTherefore $x=\\dfrac{4}{27}$, and the requested sum is $4+27= \\boxed{31}$.\n\nOR\n\nChanging to base-2 logarithms transforms the given equation into\n\n$$\\begin{aligned}\n\\dfrac{2}{\\log _{2} 3 x} =\\dfrac{3}{\\log _{2} 2 x} \\\\\n2 \\log _{2} 2 x =3 \\log _{2} 3 x \\\\\n\\log _{2}(2 x)^{2} =\\log _{2}(3 x)^{3} \\\\\n(2 x)^{2} =(3 x)^{3},\n\\end{aligned}$$\n\nso $x=\\dfrac{4}{27}$, and the requested sum is $4+27= \\boxed{31}$."
   },
   {
     "id": "amc12a-2018-15",
