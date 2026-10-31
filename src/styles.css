@@ -175,6 +175,7 @@
   white-space: normal;
   width: auto;
   max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .problem-figure {

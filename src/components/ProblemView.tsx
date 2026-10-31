@@ -87,7 +87,8 @@ export function ProblemView({ problem }: { problem: Problem }) {
                 onClick={() => submit(L)}
                 className={`choice-btn ${isAns ? "choice-correct" : tried ? "choice-wrong" : ""}`}
               >
-                <span className="font-semibold">({L})</span> {c && <Latex>{c}</Latex>}
+                <span className="font-semibold shrink-0">({L})</span>{" "}
+                {c && <Latex className="min-w-0">{c}</Latex>}
               </button>
             );
           })}
