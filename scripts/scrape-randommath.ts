@@ -1,4 +1,4 @@
-/** Local-only AMC 10 solution backfill. No archive, AI, answer keys, or topic changes.
+/** Local-only solution backfill. No archive, AI, answer keys, or topic changes.
  * bun run scripts/scrape-randommath.ts --limit 5 --dry-run
  * bun run scripts/scrape-randommath.ts
  */
@@ -11,32 +11,39 @@ import { missingSolutions } from "./solution-only";
 
 const args = process.argv.slice(2);
 if (args.includes("--help")) {
-  console.log("AMC 10 solutions only: --limit N --dry-run --refresh. Installs: bun install; bunx playwright install chromium.");
+  console.log("Solutions only: --contest amc8|amc10|amc12|aime|all (default amc10), --limit N --dry-run --refresh. Installs: bun install; bunx playwright install chromium.");
   process.exit(0);
 }
 const limitIndex = args.indexOf("--limit");
 const limit = limitIndex < 0 ? Infinity : Number(args[limitIndex + 1]);
 if (!(limit > 0) || (limit !== Infinity && !Number.isInteger(limit))) throw new Error("--limit must be a positive integer");
 const dryRun = args.includes("--dry-run");
-const file = "src/data/amc10.json";
+const contestIndex = args.indexOf("--contest");
+const contest = contestIndex < 0 ? "amc10" : args[contestIndex + 1];
+const supported = ["amc8", "amc10", "amc12", "aime"];
+if (!contest || (contest !== "all" && !supported.includes(contest))) throw new Error("unsupported --contest");
+const contests = contest === "all" ? supported : [contest];
 const cache = ".scrape-cache/randommath";
 const reportFile = "scripts/randommath-report.json";
 mkdirSync(cache, { recursive: true });
-const baseline = JSON.parse(readFileSync(file, "utf8")) as RandomMathProblem[];
-const targets = missingSolutions(baseline).slice(0, limit);
+const targets = contests.flatMap(key => {
+  const file = `src/data/${key}.json`;
+  const baseline = JSON.parse(readFileSync(file, "utf8")) as RandomMathProblem[];
+  return missingSolutions(baseline).map(target => ({ file, target }));
+}).slice(0, limit);
 const reports: { id: string; url?: string; status: string; seconds: number; error?: string }[] = [];
 const browser = await chromium.launch({ headless: true });
 const context = await browser.newContext({ locale: "en-US" });
 const page = await context.newPage();
 const started = Date.now();
-console.log(`Random Math: ${targets.length} missing AMC 10 solutions to check; ${dryRun ? "dry run (no data changes)" : "save after every accepted solution"}`);
+console.log(`Random Math (${contest}): ${targets.length} missing solutions to check; ${dryRun ? "dry run (no data changes)" : "save after every accepted solution"}`);
 try {
   // Honor the site's published crawler policy before accessing problem pages.
   const robotsResponse = await page.goto("https://wiki.randommath.com/robots.txt", { waitUntil: "domcontentloaded", timeout: 20000 });
   if (robotsResponse?.status() !== 200) throw new Error("cannot verify robots.txt; stopped");
   const robots = await page.locator("body").innerText();
   if (/^Disallow:[ \t]*\S/im.test(robots)) throw new Error("robots.txt has restrictions; review them before running");
-  for (const target of targets) {
+  for (const { file, target } of targets) {
     const t = Date.now();
     const source = randomMathTarget(target);
     if (!source) {
@@ -54,7 +61,9 @@ try {
         const status = response?.status() ?? 0;
         if (status === 429 || status === 403) throw new Error(`HTTP ${status}; stop rather than bypass access restrictions`);
         if (status !== 200) throw new Error(`HTTP ${status}`);
-        await page.getByRole("heading", { name: source.title, exact: true }).waitFor({ timeout: 10000 });
+        await page.locator("h1").filter({ hasText: "Problem" }).first().waitFor({ state: "visible", timeout: 10000 });
+        // React hydrates the heading after navigation; exact identity is validated below.
+        await page.waitForFunction(() => Array.from(document.querySelectorAll("h1")).some(h => h.textContent?.includes("Problem")), { timeout: 10000 });
         html = await page.content();
       }
       const solution = parseRandomMathSolution(html, source.title);

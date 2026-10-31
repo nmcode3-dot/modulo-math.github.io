@@ -9,18 +9,24 @@ export type RandomMathProblem = {
 
 // Derive identity from the original source URL: older saved version fields can be incomplete.
 export function randomMathTarget(row: RandomMathProblem): { url: string; title: string } | null {
-  const match = row.solutionUrl.match(/\/(\d{4})_AMC_10([AB])?_Problems\/Problem_(\d+)$/);
-  if (row.contest !== "AMC 10" || !match) return null;
-  const [, year, version, number] = match;
+  const match = row.solutionUrl.match(/\/(\d{4})_(AMC_(8|10|12)([AB])?|AIME(?:_(I|II))?)_Problems\/Problem_(\d+)$/);
+  if (!match) return null;
+  const [, year, identity, amc, amcVersion, aimeVersion, number] = match;
+  const contest = amc ? `AMC ${amc}` : "AIME";
+  if (row.contest !== contest) return null;
+  const version = amcVersion ?? aimeVersion;
+  const path = amc ? `amc${amc}` : "aime";
+  const titleContest = amc === "8" ? "AMC8" : amc ? `AMC ${amc}${version ?? ""}` : `AIME${version ? ` ${version}` : ""}`;
+  if (!identity) return null;
   return {
-    url: `https://wiki.randommath.com/amc10/${year}${version ? `/part-${version.toLowerCase()}` : ""}/problem-${number}`,
-    title: `${year} AMC 10${version ?? ""} Problem ${number}`,
+    url: `https://wiki.randommath.com/${path}/${year}${version ? `/part-${version.toLowerCase()}` : ""}/problem-${number}`,
+    title: `${year} ${titleContest} Problem ${number}`,
   };
 }
 
 export function parseRandomMathSolution(html: string, expectedTitle: string): string {
   const $ = cheerio.load(html);
-  const heading = $("h1").filter((_, el) => $(el).text().replace(/¶/g, "").trim() === expectedTitle).first();
+  const heading = $("h1").filter((_, el) => $(el).text().replace(/¶/g, "").replace(/\s+/g, " ").trim() === expectedTitle).first();
   if (!heading.length) throw new Error("problem identity not confirmed");
   const container = heading.parent();
   const marker = container.find("strong, h2, h3").filter((_, el) => /^Solution(?:\s+\d+)?\s*:?$/i.test($(el).text().trim())).first();

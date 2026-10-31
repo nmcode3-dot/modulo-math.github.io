@@ -16,6 +16,15 @@ describe("Random Math solutions", () => {
     expect(randomMathTarget(row)).toEqual({ url: "https://wiki.randommath.com/amc10/2013/part-b/problem-7", title: "2013 AMC 10B Problem 7" });
     expect(randomMathTarget({ ...row, contest: "AIME" })).toBeNull();
   });
+  it.each([
+    ["AMC 8", "2024_AMC_8", "amc8/2024/problem-1", "2024 AMC8 Problem 1"],
+    ["AMC 12", "2024_AMC_12A", "amc12/2024/part-a/problem-1", "2024 AMC 12A Problem 1"],
+    ["AIME", "2012_AIME_II", "aime/2012/part-ii/problem-1", "2012 AIME II Problem 1"],
+    ["AIME", "2015_AIME_I", "aime/2015/part-i/problem-1", "2015 AIME I Problem 1"],
+    ["AIME", "1999_AIME", "aime/1999/problem-1", "1999 AIME Problem 1"],
+  ])("maps %s identity %s without changing saved grading data", (contest, identity, path, title) => {
+    expect(randomMathTarget({ ...row, contest, solutionUrl: `https://artofproblemsolving.com/wiki/index.php/${identity}_Problems/Problem_1` })).toEqual({ url: `https://wiki.randommath.com/${path}`, title });
+  });
   it("preserves the original TeX without duplicate math renderings", () => {
     const solution = parseRandomMathSolution(html, "2013 AMC 10B Problem 7");
     expect(solution).toContain("$\\sqrt{3}$");

@@ -15,4 +15,4 @@
 - Scraper answer keys are validated through scripts/answer-keys.ts and merged without overwriting a valid saved answer with a missing key; solution backfills must preserve grading data.
 - Scraper writes only validated, gradable rows to app data atomically; incomplete rows stay in per-contest pending files for repair, and parallel tracks use separate error and coverage reports.
 - Strict solution backfills use --solutions-only to visit saved problem URLs without index or answer-key requests and change only solutionLatex; this isolates solution work from grading and topic changes.
-- Random Math backfills run locally in a separate AMC 10 browser script, validate exact problem identity and original TeX, and change only missing solutionLatex; this prevents alternate-source downloads from changing grading or topic data.
+- Random Math backfills run locally in a separate contest-selectable browser script, validate exact problem identity and original TeX, and change only missing solutionLatex; this prevents alternate-source downloads from changing grading or topic data.
