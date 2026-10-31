@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 21.888,
+  "elapsedSeconds": 25.106,
   "results": [
     {
       "id": "amc10a-2004-21",
@@ -67,6 +67,18 @@
       "url": "https://wiki.randommath.com/amc10/2000/problem-13",
       "status": "saved",
       "seconds": 1.47
+    },
+    {
+      "id": "amc10-2000-18",
+      "url": "https://wiki.randommath.com/amc10/2000/problem-18",
+      "status": "saved",
+      "seconds": 1.746
+    },
+    {
+      "id": "amc10-2000-21",
+      "url": "https://wiki.randommath.com/amc10/2000/problem-21",
+      "status": "saved",
+      "seconds": 1.471
     }
   ]
 }

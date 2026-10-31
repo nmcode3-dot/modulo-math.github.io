@@ -26888,7 +26888,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "At any point on Charlyn's walk, she can see all the points inside a circle of radius $1 \\mathrm{~km}$. The portion of the viewable region inside the square consists of the interior of the square except for a smaller square with side length $3 \\mathrm{~km}$. This portion of the viewable region has area $(25-9) \\mathrm{km}^{2}$. The portion of the viewable region outside the square consists of four rectangles, each $5 \\mathrm{~km}$ by $1 \\mathrm{~km}$, and four quarter-circles, each with a radius of $1 \\mathrm{~km}$. This portion of the viewable region has area $4\\left(5+\\dfrac{\\pi}{4}\\right)=(20+\\pi) \\mathrm{km}^{2}$. The area of the entire viewable region is $36+\\pi \\approx 39 \\mathrm{~km}^{2}$.\n\n[[img:/__l5e/assets-v1/c1ecb347-22b3-4af4-b3b1-3928d7afba2a/3a03c41d3311098eb16b562f5a8b4d2ff080128bc52a67ed7f22f609ffe0a393.png]]\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10-2000-19",
@@ -26953,7 +26954,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_21",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "From the conditions we can conclude that some creepy crawlers are ferocious (since some are alligators). Hence, there are some ferocious creatures that are creepy crawlers, and thus II must be true. The diagram below shows that the only conclusion that can be drawn is existence of an animal in the region with the dot. Thus, neither I nor III follows from the given conditions.\n\n[[img:/__l5e/assets-v1/a25e1378-34f5-4d4f-86f6-e2bdc65a23d3/f8dd62cd8be1848fc703046395c266cfb967808cf7a9a122844e12564cc86cc2.png]]\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10-2000-22",
