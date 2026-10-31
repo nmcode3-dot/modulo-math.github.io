@@ -108,6 +108,8 @@ bun run scripts/scrape-randommath.ts
 
 Solutions save after each successful page to `src/data/amc10.json`. The terminal reports seconds and whether each page came directly from the browser or cache. Details and source URLs are recorded in `scripts/randommath-report.json`. Restart the same command after interruption; completed rows are skipped. Use `--refresh` to re-fetch cached pages.
 
+To check every missing solution across AMC 8, AMC 10, AMC 12, and AIME, run `bun run scripts/scrape-randommath.ts --contest all`. Each solution saves to its own contest file. To run just one contest, replace `all` with `amc8`, `amc10`, `amc12`, or `aime`. Unavailable or diagram-dependent solutions are left missing and recorded in the report, never replaced with incomplete text.
+
 Pages with mismatched identity, inaccessible content, unsupported equations, or diagrams requiring separate asset imports are skipped rather than saving incomplete work. Download speed and coverage vary; this source is not guaranteed to fill every gap. Keep the computer awake and terminal open. Upload the updated `src/data/amc10.json` to your linked GitHub repository to update your website.
 
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).

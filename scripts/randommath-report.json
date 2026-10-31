@@ -1,332 +1,175 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 53.543,
+  "elapsedSeconds": 27.78,
   "results": [
     {
-      "id": "amc10b-2013-7",
-      "url": "https://wiki.randommath.com/amc10/2013/part-b/problem-7",
-      "status": "saved",
-      "seconds": 0.079
-    },
-    {
-      "id": "amc10a-2007-1",
-      "url": "https://wiki.randommath.com/amc10/2007/part-a/problem-1",
-      "status": "saved",
-      "seconds": 0.043
-    },
-    {
-      "id": "amc10b-2007-18",
-      "url": "https://wiki.randommath.com/amc10/2007/part-b/problem-18",
+      "id": "amc8-2025-17",
+      "url": "https://wiki.randommath.com/amc8/2025/problem-17",
       "status": "skipped",
-      "seconds": 3.626,
+      "seconds": 2.017,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "amc8-2024-1",
+      "url": "https://wiki.randommath.com/amc8/2024/problem-1",
+      "status": "saved",
+      "seconds": 0.061
+    },
+    {
+      "id": "amc8-2024-2",
+      "url": "https://wiki.randommath.com/amc8/2024/problem-2",
+      "status": "saved",
+      "seconds": 0.038
+    },
+    {
+      "id": "amc8-2024-3",
+      "url": "https://wiki.randommath.com/amc8/2024/problem-3",
+      "status": "skipped",
+      "seconds": 1.686,
       "error": "solution contains an image needing a separate asset import"
     },
     {
-      "id": "amc10a-2006-6",
-      "url": "https://wiki.randommath.com/amc10/2006/part-a/problem-6",
+      "id": "amc8-2024-4",
+      "url": "https://wiki.randommath.com/amc8/2024/problem-4",
       "status": "saved",
-      "seconds": 0.049
+      "seconds": 1.058
     },
     {
-      "id": "amc10a-2006-18",
-      "url": "https://wiki.randommath.com/amc10/2006/part-a/problem-18",
+      "id": "amc8-2023-8",
+      "url": "https://wiki.randommath.com/amc8/2023/problem-8",
       "status": "saved",
-      "seconds": 0.043
+      "seconds": 0.96
     },
     {
-      "id": "amc10b-2006-20",
-      "url": "https://wiki.randommath.com/amc10/2006/part-b/problem-20",
-      "status": "saved",
-      "seconds": 1.116
-    },
-    {
-      "id": "amc10a-2005-1",
-      "url": "https://wiki.randommath.com/amc10/2005/part-a/problem-1",
-      "status": "saved",
-      "seconds": 0.996
-    },
-    {
-      "id": "amc10b-2005-17",
-      "url": "https://wiki.randommath.com/amc10/2005/part-b/problem-17",
-      "status": "saved",
-      "seconds": 1.053
-    },
-    {
-      "id": "amc10a-2004-21",
-      "url": "https://wiki.randommath.com/amc10/2004/part-a/problem-21",
+      "id": "amc8-2022-13",
+      "url": "https://wiki.randommath.com/amc8/2022/problem-13",
       "status": "skipped",
-      "seconds": 1.05,
+      "seconds": 0.987,
       "error": "solution contains an image needing a separate asset import"
     },
     {
-      "id": "amc10b-2004-8",
-      "url": "https://wiki.randommath.com/amc10/2004/part-b/problem-8",
+      "id": "amc8-2020-1",
+      "url": "https://wiki.randommath.com/amc8/2020/problem-1",
       "status": "saved",
-      "seconds": 0.999
+      "seconds": 0.966
     },
     {
-      "id": "amc10b-2004-15",
-      "url": "https://wiki.randommath.com/amc10/2004/part-b/problem-15",
+      "id": "amc8-2020-3",
+      "url": "https://wiki.randommath.com/amc8/2020/problem-3",
       "status": "saved",
-      "seconds": 0.989
+      "seconds": 0.938
     },
     {
-      "id": "amc10a-2003-25",
-      "url": "https://wiki.randommath.com/amc10/2003/part-a/problem-25",
-      "status": "saved",
-      "seconds": 0.976
-    },
-    {
-      "id": "amc10b-2003-1",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-1",
-      "status": "saved",
-      "seconds": 0.978
-    },
-    {
-      "id": "amc10b-2003-3",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-3",
-      "status": "saved",
-      "seconds": 0.946
-    },
-    {
-      "id": "amc10b-2003-4",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-4",
-      "status": "skipped",
-      "seconds": 0.966,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10b-2003-5",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-5",
-      "status": "saved",
-      "seconds": 1.025
-    },
-    {
-      "id": "amc10b-2003-19",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-19",
-      "status": "skipped",
-      "seconds": 1.001,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10b-2003-20",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-20",
-      "status": "skipped",
-      "seconds": 1.01,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10b-2003-22",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-22",
-      "status": "saved",
-      "seconds": 1.001
-    },
-    {
-      "id": "amc10b-2003-24",
-      "url": "https://wiki.randommath.com/amc10/2003/part-b/problem-24",
-      "status": "saved",
-      "seconds": 1.024
-    },
-    {
-      "id": "amc10a-2002-1",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-1",
-      "status": "saved",
-      "seconds": 1.086
-    },
-    {
-      "id": "amc10a-2002-2",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-2",
-      "status": "saved",
-      "seconds": 1.074
-    },
-    {
-      "id": "amc10a-2002-6",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-6",
-      "status": "saved",
-      "seconds": 1.094
-    },
-    {
-      "id": "amc10a-2002-7",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-7",
-      "status": "saved",
-      "seconds": 1.113
-    },
-    {
-      "id": "amc10a-2002-11",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-11",
-      "status": "saved",
-      "seconds": 1.056
-    },
-    {
-      "id": "amc10a-2002-16",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-16",
-      "status": "saved",
-      "seconds": 1.096
-    },
-    {
-      "id": "amc10a-2002-17",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-17",
-      "status": "saved",
-      "seconds": 1.005
-    },
-    {
-      "id": "amc10a-2002-19",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-19",
+      "id": "amc8-2020-6",
+      "url": "https://wiki.randommath.com/amc8/2020/problem-6",
       "status": "skipped",
       "seconds": 0.965,
       "error": "solution contains an image needing a separate asset import"
     },
     {
-      "id": "amc10a-2002-21",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-21",
+      "id": "amc8-2020-15",
+      "url": "https://wiki.randommath.com/amc8/2020/problem-15",
       "status": "saved",
-      "seconds": 0.992
+      "seconds": 1.05
     },
     {
-      "id": "amc10a-2002-25",
-      "url": "https://wiki.randommath.com/amc10/2002/part-a/problem-25",
-      "status": "skipped",
-      "seconds": 1.05,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10b-2002-3",
-      "url": "https://wiki.randommath.com/amc10/2002/part-b/problem-3",
-      "status": "saved",
-      "seconds": 0.991
-    },
-    {
-      "id": "amc10b-2002-5",
-      "url": "https://wiki.randommath.com/amc10/2002/part-b/problem-5",
-      "status": "saved",
-      "seconds": 1.021
-    },
-    {
-      "id": "amc10b-2002-7",
-      "url": "https://wiki.randommath.com/amc10/2002/part-b/problem-7",
-      "status": "saved",
-      "seconds": 1.043
-    },
-    {
-      "id": "amc10b-2002-17",
-      "url": "https://wiki.randommath.com/amc10/2002/part-b/problem-17",
-      "status": "skipped",
-      "seconds": 1.072,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10b-2002-21",
-      "url": "https://wiki.randommath.com/amc10/2002/part-b/problem-21",
+      "id": "amc8-2020-16",
+      "url": "https://wiki.randommath.com/amc8/2020/problem-16",
       "status": "saved",
       "seconds": 1.025
     },
     {
-      "id": "amc10b-2002-24",
-      "url": "https://wiki.randommath.com/amc10/2002/part-b/problem-24",
+      "id": "amc8-2020-17",
+      "url": "https://wiki.randommath.com/amc8/2020/problem-17",
+      "status": "saved",
+      "seconds": 1.063
+    },
+    {
+      "id": "amc8-2019-5",
+      "url": "https://wiki.randommath.com/amc8/2019/problem-5",
+      "status": "saved",
+      "seconds": 0.986
+    },
+    {
+      "id": "amc8-2019-21",
+      "url": "https://wiki.randommath.com/amc8/2019/problem-21",
       "status": "skipped",
-      "seconds": 1.041,
+      "seconds": 0.951,
       "error": "solution contains an image needing a separate asset import"
     },
     {
-      "id": "amc10-2001-1",
-      "url": "https://wiki.randommath.com/amc10/2001/problem-1",
+      "id": "amc8-2019-22",
+      "url": "https://wiki.randommath.com/amc8/2019/problem-22",
       "status": "saved",
-      "seconds": 1.059
+      "seconds": 1.001
     },
     {
-      "id": "amc10-2001-11",
-      "url": "https://wiki.randommath.com/amc10/2001/problem-11",
+      "id": "amc8-2018-11",
+      "url": "https://wiki.randommath.com/amc8/2018/problem-11",
       "status": "saved",
-      "seconds": 1.091
+      "seconds": 1.065
     },
     {
-      "id": "amc10-2001-13",
-      "url": "https://wiki.randommath.com/amc10/2001/problem-13",
+      "id": "amc8-2017-2",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-2",
       "status": "saved",
-      "seconds": 1.06
+      "seconds": 0.964
     },
     {
-      "id": "amc10-2001-14",
-      "url": "https://wiki.randommath.com/amc10/2001/problem-14",
+      "id": "amc8-2017-3",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-3",
       "status": "saved",
-      "seconds": 1.049
+      "seconds": 1
     },
     {
-      "id": "amc10-2001-18",
-      "url": "https://wiki.randommath.com/amc10/2001/problem-18",
+      "id": "amc8-2017-4",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-4",
+      "status": "saved",
+      "seconds": 0.984
+    },
+    {
+      "id": "amc8-2017-6",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-6",
+      "status": "saved",
+      "seconds": 0.975
+    },
+    {
+      "id": "amc8-2017-16",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-16",
       "status": "skipped",
-      "seconds": 1.019,
+      "seconds": 1.081,
       "error": "solution contains an image needing a separate asset import"
     },
     {
-      "id": "amc10-2001-22",
-      "url": "https://wiki.randommath.com/amc10/2001/problem-22",
-      "status": "saved",
-      "seconds": 1.079
-    },
-    {
-      "id": "amc10-2001-25",
-      "url": "https://wiki.randommath.com/amc10/2001/problem-25",
-      "status": "saved",
-      "seconds": 1.066
-    },
-    {
-      "id": "amc10-2000-2",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-2",
-      "status": "saved",
-      "seconds": 1.166
-    },
-    {
-      "id": "amc10-2000-5",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-5",
+      "id": "amc8-2016-23",
+      "url": "https://wiki.randommath.com/amc8/2016/problem-23",
       "status": "skipped",
-      "seconds": 1.085,
+      "seconds": 1.094,
       "error": "solution contains an image needing a separate asset import"
     },
     {
-      "id": "amc10-2000-10",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-10",
+      "id": "amc8-2014-4",
+      "url": "https://wiki.randommath.com/amc8/2014/problem-4",
       "status": "saved",
-      "seconds": 1.089
+      "seconds": 1.078
     },
     {
-      "id": "amc10-2000-11",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-11",
+      "id": "amc8-2014-13",
+      "url": "https://wiki.randommath.com/amc8/2014/problem-13",
       "status": "saved",
-      "seconds": 1.132
+      "seconds": 1.042
     },
     {
-      "id": "amc10-2000-13",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-13",
-      "status": "skipped",
-      "seconds": 1.053,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10-2000-15",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-15",
+      "id": "amc8-2014-17",
+      "url": "https://wiki.randommath.com/amc8/2014/problem-17",
       "status": "saved",
-      "seconds": 1.108
+      "seconds": 1.071
     },
     {
-      "id": "amc10-2000-18",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-18",
-      "status": "skipped",
-      "seconds": 1.123,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10-2000-21",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-21",
-      "status": "skipped",
-      "seconds": 1.064,
-      "error": "solution contains an image needing a separate asset import"
-    },
-    {
-      "id": "amc10-2000-24",
-      "url": "https://wiki.randommath.com/amc10/2000/problem-24",
+      "id": "amc8-2014-18",
+      "url": "https://wiki.randommath.com/amc8/2014/problem-18",
       "status": "saved",
-      "seconds": 1.058
+      "seconds": 1.095
     }
   ]
 }

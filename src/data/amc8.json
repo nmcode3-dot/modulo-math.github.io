@@ -38,7 +38,8 @@
     "topics": [
       "Digit Problems",
       "Finding the Last Digit"
-    ]
+    ],
+    "solutionLatex": "We only need to consider the ones digits of each number (except for the first one so we avoid getting a negative answer):\n\n$$22 - 2 - 2 - 2 - 2 - 2 = 12$$\n\nwhich has a ones digit of $2$.\n\nThus, $B$ is the correct answer.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc8-2024-2",
@@ -58,7 +59,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_2",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "We can simplify the fractions by taking out the common factor $11$: $\\dfrac{44}{11}$ simplifies to $4$, $\\dfrac{110}{44}$ simplifies to $\\dfrac{10}{4} = \\dfrac{5}{2} = 2.5$, and $\\dfrac{44}{1100}$ simplifies to $\\dfrac{4}{100} = 0.04$.\n\nTherefore, we have $4 + 2.5 + 0.04 = 6.54$.\n\nThus, $C$ is the correct answer.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc8-2024-3",
@@ -99,7 +101,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_4",
     "topics": [
       "Geometry"
-    ]
+    ],
+    "solutionLatex": "To find the number that Yunji left out, we need to find the sum of the integers from $1$ to $9$ and find its difference with the largest perfect square below the sum. We can calculate the sum of the integers from $1$ to $9$ as follows:\n\n$$1 + \\ldots + 9 = \\dfrac{9(9 + 1)}{2} = 45$$\n\nThe largest perfect square less than $45$ would be $36$ and $45 - 36 = 9$.\n\nThus, $E$ is the correct answer.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2024-5",
@@ -719,7 +722,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_8",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "There are exactly $2$ wins and $2$ losses in each round. Summing the scores for each round for Lola, Lolo, and Tiya gives $222121$. Therefore Tiyo must have won the fourth and sixth games for a record of $000101$.\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc8-2023-9",
@@ -1643,7 +1647,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_1",
     "topics": [
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "The recipe requires twice as much sugar as lemon juice, so Luka needs $2\\cdot3 = 6$ cups of sugar. The recipe requires $4$ times as much water as sugar, so Luka needs $4\\cdot6 = 24$ cups of water.\n\n$$OR$$\n\nThe recipe requires $4$ times as much water as sugar and twice as much sugar as lemon juice. This means that Luka needs $4\\cdot2 = 8$ times as much water as lemon juice. The amount of water he needs is $8\\cdot3 = 24$ cups.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2020-2",
@@ -1684,7 +1689,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_3",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "The area of Carrie's garden is $6\\cdot8 = 48$ square feet. She can plant $4$ plants per square foot, so Carrie is able to plant $4\\cdot48 = 192$ strawberry plants. She can expect to harvest $10$ strawberries per plant for a total of $192\\cdot10=1920$ strawberries.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2020-4",
@@ -1938,7 +1944,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_15",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "First note that $15\\% = 0.15$, and $20\\% = 0.2$ It is given that $15\\%$ of $x$ equals $20\\%$ of $y$, so\n\n$$0.15x = 0.20y$$\n\nSolving for $y$ yields\n\n$$y = \\dfrac{0.15}{0.20}x = \\dfrac{15}{20}x = \\dfrac{75}{100}x.$$\n\nTherefore $y$ is $75\\%$ of $x$.\n\n$$OR$$\n\nLet $x = 100$ Then $15\\%$ of $x$ is $15$. This equals $20\\%$ of $y$, which is the same as $\\dfrac{1}{5}y$ Solving the equation $15 = \\dfrac{1}{5}y$ yields $y = 5 \\cdot 15 = 75$. Therefore y is $75\\%$ of $x$.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc8-2020-16",
@@ -1958,7 +1965,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_16",
     "topics": [
       "Digit Problems"
-    ]
+    ],
+    "solutionLatex": "The total of the five sum is\n\n$$(A+B+C) + (A + F + E) + (B + D) + (B + F) + (C + D + E) = 2A + 3B + 2C + 2D + 2E + 2F$$\n\n$$= 2(A + B + C + D + E + F) + B,$$\n\nwhich equals $47$. The expression $A+B+C+D+E+F$ equals $21$, the sum of the digits from $1$ to $6$, so $2\\cdot21 + B = 47$. Therefore $B = 47-42 = 5$.\n\n$$OR$$\n\nNote that every point lies on exactly two lines except for $B$, which lies on three lines. Because the sum of the digits from $1$ to $6$ is $21$, this gives a total sum of $2\\cdot21 + B = 47$. Therefore $B = 47-42 = 5$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2020-17",
@@ -1978,7 +1986,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_17",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "The number 2020 has 12 factors.\n\n$$2020 = 1\\cdot2020$$\n\n$$= 2\\cdot1010$$\n\n$$= 4\\cdot505$$\n\n$$= 5\\cdot404$$\n\n$$= 10\\cdot202$$\n\n$$= 20\\cdot101$$\n\nThese factors may be classified as follows:\n\n$\\bullet$ The number $1$ has exactly $1$ factor.\n $\\bullet$ The numbers $2, 5$, and $101$ are primes, so each has exactly $2$ factors.\n $\\bullet$ The number $4$ has exactly $3$ factors, namely $1, 2$, and $4$.\n $\\bullet$ The remaining $7$ numbers, $10, 20, 202, 404, 505, 1010$, and $2020$, each have more than $3$ factors.\n\nThus $7$ of the factors of $2020$ have more than $3$ factors.\n\n$$OR$$\n\nIn order to determine the number of factors of $2020$, note that the prime factorization of $2020$ is\n\n$$2020 = 2^2 \\cdot5^1\\cdot101^1.$$\n\nThis means that each factor of $2020$ has the form $2^a\\cdot5^b \\cdot101^c$, where $a = 0,1$, or $2$; $b = 0$ or $1$; and $c=0$ or $1$. Thus the number of factors of $2020$ is $3\\cdot2\\cdot2 = 12$\n\nBy similar reasoning, any positive integer with at least $2$ distinct prime factors, say $p$ and $q$, has at least $4$ factors, namely $1, p, q,$ and $pq$.\n\nThe factors of $2020$ that have no more than $1$ distinct prime factor are $1, 2, 4, 5,$ and $101$. Each of these has at most $3$ factors. The remaining $7$ factors, $10, 20, 202, 404, 505, 1010,$ and $2020$, each have at least $2$ distinct prime factors. Therefore $7$ of the factors of $2020$ have more than $3$ factors.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc8-2020-18",
@@ -2265,7 +2274,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_5",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "The tortoise moves at a slow and steady speed. The graph of the tortoise's journey corresponds to a straight line. $Graph(D)$ is eliminated because there is no straight line. The hare's journey consists of running, then napping, then running again. The graph of the hare's journey corresponds to a line with steeper slope than the tortoise's, a horizontal line during his nap when his distance does not change, and another steep line. $Graphs (C)$ and $(E)$ are eliminated because there is no horizontal line corresponding to the hare's nap. The tortoise reaches the finish line before the hare. $Graph (A)$ is eliminated because it shows the hare catching up to the tortoise and finishing first. Only $Graph (B)$ matches the description of the problem.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc8-2019-6",
@@ -2624,7 +2634,8 @@
       "Fractions and Percents",
       "Conditional Probability",
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "Suppose the original price of the shirt was $100$ dollars and the price was increased by $x$ percent, producing a new price of $100 + x$ dollars. Then decreasing the new price by $x$ percent is equivalent to multiplying $100 + x$ by $(100 - x)$ percent. The resulting price was $84$ dollars. Thus\n\n$$(100+x).\\dfrac{100-x}{100}= 84$$\n\n$$100^2-x^2 = 8400$$\n\n$$x^2=1600$$\n\n$$x=40$$\n\nTherefore the perecent of increase and decrease was $40\\%$\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2019-23",
@@ -2926,7 +2937,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_11",
     "topics": [
       "Introduction to Probability"
-    ]
+    ],
+    "solutionLatex": "There are $6$ possible positions for Abby, and this leaves $5$ possible positions for Bridget. Because their order doesn't matter, the two girls can be placed in any of $\\dfrac{6\\cdot5}{2}=15$ pairs of positions. There are $2$ pairs of positions that are adjacent in the top row, $2$ pairs that are adjacent in the bottom row, and $3$ pairs that are adjacent in the same column. So the probability that they occupy adjacent positions is $\\dfrac{2+2+3}{15}$ = $\\dfrac{7}{15}$.\n\n$$OR$$\n\nThere is a $\\dfrac{2}{3}$ chance Abby is assigned to a corner position and a $\\dfrac{1}{3}$ chance that Abby is assigned to a middle position. If Abby is assigned to a corner position, there is a $\\dfrac{2}{5}$ chance that Bridget is adjacent to Abby. If Abby is assigned to a middle position, there is a $\\dfrac{3}{5}$ chance that Bridget is adjacent to Abby. Thus, the probability that Abby and Bridget are adjacent to each other in the same row or column is $\\dfrac{2}{3}\\cdot\\dfrac{2}{5}$ + $\\dfrac{1}{3}\\cdot\\dfrac{3}{5}$ = $\\dfrac{7}{15}$.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc8-2018-12",
@@ -3278,7 +3290,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_2",
     "topics": [
       "Inclusion-Exclusion"
-    ]
+    ],
+    "solutionLatex": "Observe that $36$ votes made up $30 \\%$ of the total number of votes. Thus $12$ votes made up $10 \\%$ of the total number of votes and therefore there were $120$ total votes.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2017-3",
@@ -3298,7 +3311,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_3",
     "topics": [
       "Simplifying Radicals"
-    ]
+    ],
+    "solutionLatex": "Simplifying yields\n\n$\\sqrt{16 \\sqrt{8 \\sqrt{4}}}=\\sqrt{16 \\sqrt{16}}=\\sqrt{64}=8$\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc8-2017-4",
@@ -3318,7 +3332,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_4",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "The product may be estimated as\n\n$$\\left(3 \\cdot 10^{-4}\\right)\\left(8 \\cdot 10^{6}\\right)=24 \\cdot 10^{2}=2400.$$\n\nThe exact value of the product is $2497.498$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2017-5",
@@ -3361,7 +3376,8 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Triangle Angles"
-    ]
+    ],
+    "solutionLatex": "Let the degree measures of the angles of the triangle be $3 x, 3 x$, and $4 x$. Then $3 x+3 x+4 x=10 x=180$, and $x=18$. So the largest angle has degree measure $4 x=4 \\cdot 18=72$.\n\n$$\\textbf{OR}$$\n\nThe degree measure of the largest angle is $\\dfrac{4}{3+3+4}=\\dfrac{2}{5}$ of the sum of the degree measures of the angles in the triangle, so it is $\\dfrac{2}{5} \\cdot 180=72$ degrees.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2017-7",
@@ -4943,7 +4959,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_4",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "The sum of two odd primes is an even number. Since the sum $85$ is odd, one of the primes must be $2$, which is the only even prime. The two primes are $2$ and $83$, so the product is $2 \\cdot 83=166$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2014-5",
@@ -5127,7 +5144,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_13",
     "topics": [
       "Parity Reasoning"
-    ]
+    ],
+    "solutionLatex": "If $n^{2}+m^{2}$ is even, then $n^{2}$ and $m^{2}$ are either both even or both odd, which means $n$ and $m$ are either both even or both odd. If $n$ and $m$ are both even, their sum is even. If $n$ and $m$ are both odd, their sum is even. Because $n+m$ is never odd, $(D)$ is the impossible choice.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2014-14",
@@ -5216,7 +5234,8 @@
     "topics": [
       "Distance, Rate, Time",
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "To walk $1$ mile at $3$ miles per hour requires $\\dfrac{1}{3}$ of an hour, or $20$ minutes. This is the amount of time George allows himself to get to school. To walk $\\dfrac{1}{2}$ mile at $2$ miles per hour requires $\\dfrac{1}{2}=\\dfrac{1}{4}$ of an hour, or $15$ minutes, so George has only $5$ minutes to cover the remaining $\\dfrac{1}{2}$ mile. Because $5$ minutes is $\\dfrac{5}{60}=\\dfrac{1}{12}$ of an hour, George needs to run at a speed of $\\dfrac{1 / 2}{1 / 12}=6$ miles per hour.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc8-2014-18",
@@ -5230,7 +5249,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_18",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "The $16$ equally likely outcomes may be grouped as follows:\n\n$4$ boys: $BBBB$\n\n$3$ boys, $1$ girl: $BBBG, BBGB, BGBB, GBBB$\n\n$2$ boys, $2$ girls: $BBGG, BGBG, BGGB, GBBG, GBGB, GGBB$\n\n$1$ boy, $3$ girls: $BGGG, GBGG, GGBG, GGGB$\n\n$4$ girls: $GGGG$\n\nThere are $8$ equally likely outcomes that produce $3$ of one gender and $1$ of the other gender, so that result is most likely.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2014-19",
