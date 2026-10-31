@@ -46,14 +46,27 @@ export function parseRandomMathSolution(html: string, expectedTitle: string): st
       if (!tex) throw new Error("equation lacks original TeX");
       katex.renderToString(tex, { throwOnError: true, strict: "ignore" });
       const display = math.parent().hasClass("katex-display");
-      math.replaceWith($.text([$.parseHTML(`<span></span>`)[0] ?? mathNode]) ? "" : "");
       // Insert as a text node, never interpret source TeX as HTML.
       const replacement = $("<span></span>").text(display ? `\n$$${tex}$$\n` : `$${tex}$`);
-      // mathNode is now detached; replacement belongs at the same position via retained node.
+      math.replaceWith(replacement);
     });
-    parts.push(copy.text());
+    if (copy.find("math, svg, mjx-container").length) throw new Error("unconverted math or vector diagram");
+    copy.find("img").each((_, img) => {
+      const alt = $(img).attr("alt") ?? "";
+      if (/^\$[\s\S]+\$$/.test(alt)) { $(img).replaceWith($("<span></span>").text(alt)); return; }
+      // Do not save a solution with missing diagrams or hotlinked media.
+      throw new Error("solution contains an image needing a separate asset import");
+    });
+    copy.find("strong").filter((_, el) => /^Solution(?:\s+\d+)?\s*:?$/i.test($(el).text().trim())).remove();
+    copy.find("br").replaceWith("\n");
+    copy.find("li").prepend("\n• ");
+    parts.push(copy.text().replace(/[ \t]+/g, " ").trim());
   }
-  return parts.join("\n\n");
+  const solution = parts.filter(Boolean).join("\n\n").trim();
+  if (solution.length < 80 || /^(?:view solution|coming soon|solution unavailable)/i.test(solution)) {
+    throw new Error("worked solution is missing or too short for automatic acceptance");
+  }
+  return solution;
 }
 
 export function mergeRandomMathSolution<T extends RandomMathProblem>(row: T, solution: string): T {
