@@ -101,7 +101,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2024_AMC_8_Problems/Problem_4",
     "topics": [
       "Geometry"
-    ]
+    ],
+    "solutionLatex": "To find the number that Yunji left out, we need to find the sum of the integers from $1$ to $9$ and find its difference with the largest perfect square below the sum. We can calculate the sum of the integers from $1$ to $9$ as follows:\n\n$$1 + \\ldots + 9 = \\dfrac{9(9 + 1)}{2} = 45$$\n\nThe largest perfect square less than $45$ would be $36$ and $45 - 36 = 9$.\n\nThus, $E$ is the correct answer.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2024-5",
@@ -721,7 +722,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2023_AMC_8_Problems/Problem_8",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "There are exactly $2$ wins and $2$ losses in each round. Summing the scores for each round for Lola, Lolo, and Tiya gives $222121$. Therefore Tiyo must have won the fourth and sixth games for a record of $000101$.\n\nAnswer: $\\boxed{A}$."
   },
   {
     "id": "amc8-2023-9",
@@ -1645,7 +1647,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_1",
     "topics": [
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "The recipe requires twice as much sugar as lemon juice, so Luka needs $2\\cdot3 = 6$ cups of sugar. The recipe requires $4$ times as much water as sugar, so Luka needs $4\\cdot6 = 24$ cups of water.\n\n$$OR$$\n\nThe recipe requires $4$ times as much water as sugar and twice as much sugar as lemon juice. This means that Luka needs $4\\cdot2 = 8$ times as much water as lemon juice. The amount of water he needs is $8\\cdot3 = 24$ cups.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2020-2",
@@ -1686,7 +1689,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_3",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "The area of Carrie's garden is $6\\cdot8 = 48$ square feet. She can plant $4$ plants per square foot, so Carrie is able to plant $4\\cdot48 = 192$ strawberry plants. She can expect to harvest $10$ strawberries per plant for a total of $192\\cdot10=1920$ strawberries.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2020-4",
@@ -1940,7 +1944,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_15",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "First note that $15\\% = 0.15$, and $20\\% = 0.2$ It is given that $15\\%$ of $x$ equals $20\\%$ of $y$, so\n\n$$0.15x = 0.20y$$\n\nSolving for $y$ yields\n\n$$y = \\dfrac{0.15}{0.20}x = \\dfrac{15}{20}x = \\dfrac{75}{100}x.$$\n\nTherefore $y$ is $75\\%$ of $x$.\n\n$$OR$$\n\nLet $x = 100$ Then $15\\%$ of $x$ is $15$. This equals $20\\%$ of $y$, which is the same as $\\dfrac{1}{5}y$ Solving the equation $15 = \\dfrac{1}{5}y$ yields $y = 5 \\cdot 15 = 75$. Therefore y is $75\\%$ of $x$.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc8-2020-16",
@@ -1960,7 +1965,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_16",
     "topics": [
       "Digit Problems"
-    ]
+    ],
+    "solutionLatex": "The total of the five sum is\n\n$$(A+B+C) + (A + F + E) + (B + D) + (B + F) + (C + D + E) = 2A + 3B + 2C + 2D + 2E + 2F$$\n\n$$= 2(A + B + C + D + E + F) + B,$$\n\nwhich equals $47$. The expression $A+B+C+D+E+F$ equals $21$, the sum of the digits from $1$ to $6$, so $2\\cdot21 + B = 47$. Therefore $B = 47-42 = 5$.\n\n$$OR$$\n\nNote that every point lies on exactly two lines except for $B$, which lies on three lines. Because the sum of the digits from $1$ to $6$ is $21$, this gives a total sum of $2\\cdot21 + B = 47$. Therefore $B = 47-42 = 5$.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2020-17",
