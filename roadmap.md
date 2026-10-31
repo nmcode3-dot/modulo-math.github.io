@@ -20,3 +20,7 @@
 - [x] Inspect Random Math pages and compare retrieval with the existing source: direct browser access, no archive.
 - [x] Build a local solutions-only AMC 10 scraper with identity/TeX validation and 19 passing safeguard tests.
 - [x] Run a bounded live trial: 38 of 52 solutions saved in 54 seconds; 14 diagram-containing solutions skipped safely. Verified all non-solution fields unchanged. Preview completion controls did not respond in automated browser checks, so on-page display remains unverified.
+
+# All-contest Random Math backfill
+- [ ] Extend the safe downloader to all supported contest identities.
+- [ ] Download missing solutions across AMC 8, AMC 10, AMC 12, and AIME and verify saved questions and answers remain unchanged.
