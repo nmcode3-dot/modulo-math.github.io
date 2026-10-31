@@ -16632,7 +16632,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_12",
     "topics": [
       "Simplifying Radicals"
-    ]
+    ],
+    "solutionLatex": "A. $8$\n\nB. $16$\n\nC. $32$\n\nD. $256$\n\nE. $1024$\n\nRewriting each logarithm in base 2 gives\n\n$$\\dfrac{\\dfrac{1}{2} \\log _{2} x}{\\dfrac{1}{2}}+\\log _{2} x+\\dfrac{2 \\log _{2} x}{2}+\\dfrac{3 \\log _{2} x}{3}+\\dfrac{4 \\log _{2} x}{4}=40$$\n\nTherefore $5 \\log _{2} x=40$, so $\\log _{2} x=8$, and $x=n\\boxed{256}$.\n\nOR\n\nFor $a \\neq 0$ the expression $\\log _{2^{a}}\\left(x^{a}\\right)=y$ if and only if $2^{a y}=x^{a}$. Thus $2^{y}=x$ and $y=\\log _{2} x$. Therefore the given equation is equivalent to $5 \\log _{2} x=40$, so $\\log _{2} x=8$ and $x= \\boxed{256}$."
   },
   {
     "id": "amc12b-2010-13",
@@ -16652,7 +16653,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_13",
     "topics": [
       "Trigonometry"
-    ]
+    ],
+    "solutionLatex": "A. $\\sqrt{2}$\n\nB. $\\sqrt{3}$\n\nC. $2$\n\nD. $2 \\sqrt{2}$\n\nE. $2 \\sqrt{3}$\n\nThe maximum value for $\\cos x$ and $\\sin x$ is 1 ; hence $\\cos (2 A-B)=$ 1 and $\\sin (A+B)=1$. Therefore $2 A-B=0^{\\circ}$ and $A+B=90^{\\circ}$, and solving gives $A=30^{\\circ}$ and $B=60^{\\circ}$. Hence $\\triangle A B C$ is a $30-60-90^{\\circ}$ right triangle and $B C= \\boxed{2}$."
   },
   {
     "id": "amc12b-2010-14",
@@ -16672,7 +16674,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_14",
     "topics": [
       "AIME-level Inequalities"
-    ]
+    ],
+    "solutionLatex": "A. $670$\n\nB. $671$\n\nC. $802$\n\nD. $803$\n\nE. $804$\n\nNote that $3 M>(a+b)+c+(d+e)=2010$, so $M>670$. Because $M$ is an integer $M \\geq 671$. The value of $\\boxed{671}$ is achieved if $(a, b, c, d, e)=$ $(669,1,670,1,669)$."
   },
   {
     "id": "amc12b-2010-15",
@@ -16693,7 +16696,8 @@
     "topics": [
       "Simplifying Radicals",
       "Problem-Solving: Linear Diophantine Equations"
-    ]
+    ],
+    "solutionLatex": "A. $149$\n\nB. $205$\n\nC. $215$\n\nD. $225$\n\nE. $235$\n\nThere are three cases to consider.\n\nFirst, suppose that $i^{x}=(1+i)^{y} \\neq z$. Note that $\\left|i^{x}\\right|=1$ for all $x$, and $\\left|(1+i)^{y}\\right| \\geq$ $|1+i|=\\sqrt{2}>1$ for $y \\geq 1$. If $y=0$, then $(1+i)^{y}=1=i^{x}$ if $x$ is a multiple of 4. The ordered triples that satisfy this condition are $(4 k, 0, z)$ for $0 \\leq k \\leq 4$ and $0 \\leq z \\leq 19, z \\neq 1$. There are $5 \\cdot 19=95$ such triples.\n\nNext, suppose that $i^{x}=z \\neq(1+i)^{y}$. The only nonnegative integer value of $i^{x}$ is 1 , which is assumed when $x=4 k$ for $0 \\leq k \\leq 4$. In this case $i^{x}=1$ and $y \\neq 0$. The ordered triples that satisfy this condition are $(4 k, y, 1)$ for $0 \\leq k \\leq 4$ and $1 \\leq y \\leq 19$. There are $5 \\cdot 19=95$ such triples.\n\nFinally, suppose that $(1+i)^{y}=z \\neq i^{x}$. Note that $(1+i)^{2}=2 i$, so $(1+i)^{y}$ is a positive integer only when $y$ is a multiple of 8 . Because $(1+i)^{0}=1$, $(1+i)^{8}=(2 i)^{4}=16$, and $(1+i)^{16}=16^{2}=256$, the only possible ordered\\\n\ntriples are $(x, 0,1)$ with $x \\neq 4 k$ for $0 \\leq k \\leq 4$ and $(x, 8,16)$ for any $x$. There are $15+20=35$ such triples.\n\nThe total number of ordered triples that satisfy the given conditions is $95+95+$ $35= \\boxed{225}$."
   },
   {
     "id": "amc12b-2010-16",
@@ -16714,7 +16718,8 @@
     "topics": [
       "Introduction to Probability",
       "Divisibility Reasoning"
-    ]
+    ],
+    "solutionLatex": "A. $\\dfrac{1}{3}$\n\nB. $\\dfrac{29}{81}$\n\nC. $\\dfrac{31}{81}$\n\nD. $\\dfrac{11}{27}$\n\nE. $\\dfrac{13}{27}$\n\nLet $N=a b c+a b+a=a(b c+b+1)$. If $a$ is divisible by 3 , then $N$ is divisible by 3 . Note that 2010 is divisible by 3 , so the probability that $a$ is divisible by 3 is $\\dfrac{1}{3}$.\n\nIf $a$ is not divisible by 3 then $N$ is divisible by 3 if $b c+b+1$ is divisible by 3 . Define $b_{0}$ and $b_{1}$ so that $b=3 b_{0}+b_{1}$ is an integer and $b_{1}$ is equal to 0,1 , or 2 . Note that each possible value of $b_{1}$ is equally likely. Similarly define $c_{0}$ and $c_{1}$. Then\n\n$$\\begin{aligned}\nb c+b+1 =\\left(3 b_{0}+b_{1}\\right)\\left(3 c_{0}+c_{1}\\right)+3 b_{0}+b_{1}+1 \\\\\n=3\\left(3 b_{0} c_{0}+c_{0} b_{1}+c_{1} b_{0}+b_{0}\\right)+b_{1} c_{1}+b_{1}+1\n\\end{aligned}$$\n\nHence $b c+b+1$ is divisible by 3 if and only if $b_{1}=1$ and $c_{1}=1$, or $b_{1}=2$ and $c_{1}=0$. The probability of this occurrence is $\\dfrac{1}{3} \\cdot \\dfrac{1}{3}+\\dfrac{1}{3} \\cdot \\dfrac{1}{3}=\\dfrac{2}{9}$.\n\nTherefore the requested probability is $\\dfrac{1}{3}+\\dfrac{2}{3} \\cdot \\dfrac{2}{9}= \\boxed{\\dfrac{13}{27}}$."
   },
   {
     "id": "amc12b-2010-17",
@@ -16734,7 +16739,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_17",
     "topics": [
       "Digit Problems"
-    ]
+    ],
+    "solutionLatex": "A. $18$\n\nB. $24$\n\nC. $36$\n\nD. $42$\n\nE. $60$\n\nLet $a_{i j}$ denote the entry in row $i$ and column $j$. he given conditions imply that $a_{11}=1, a_{33}=9$, and $a_{22}=4,5$, or 6 . If $a_{22}=4$, then $\\left\\{a_{12}, a_{21}\\right\\}=\\{2,3\\}$, and the sets $\\left\\{a_{31}, a_{32}\\right\\}$ and $\\left\\{a_{13}, a_{23}\\right\\}$ are complementary subsets of $\\{5,6,7,8\\}$. There are $\\binom{4}{2}=6$ ways to choose $\\left\\{a_{31}, a_{32}\\right\\}$ and $\\left\\{a_{13}, a_{23}\\right\\}$, and only one way to order the entries. There are 2 ways to order $\\left\\{a_{12}, a_{21}\\right\\}$, so 12 arrays with $a_{22}=4$ meet the given conditions. Similarly, the conditions are met by 12 arrays with $a_{22}=6$. If $a_{22}=5$, then $\\left\\{a_{12}, a_{13}, a_{23}\\right\\}$ and $\\left\\{a_{21}, a_{31}, a_{32}\\right\\}$ are complementary subsets of $\\{2,3,4,6,7,8\\}$ subject to the conditions $a_{12}<5$, $a_{21}<5, a_{32}>5$, and $a_{23}>5$. Thus $\\left\\{a_{12}, a_{13}, a_{23}\\right\\} \\neq\\{2,3,4\\}$ or $\\{6,7,8\\}$, so its elements can be chosen in $\\binom{6}{3}-2=18$ ways. Both the remaining entries and the ordering of all entries are then determined, so 18 arrays with $a_{22}=5$ meet the given conditions.\n\nAltogether, the conditions are met by $12+12+18= \\boxed{42}$ arrays."
   },
   {
     "id": "amc12b-2010-18",
@@ -16754,7 +16760,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_18",
     "topics": [
       "Introduction to Probability"
-    ]
+    ],
+    "solutionLatex": "A. $\\dfrac{1}{6}$\n\nB. $\\dfrac{1}{5}$\n\nC. $\\dfrac{1}{4}$\n\nD. $\\dfrac{1}{3}$\n\nE. $\\dfrac{1}{2}$\n\nLet $A$ denote the frog's starting point, and let $P, Q$, and $B$ denote its positions after the first, second, and third jumps, respectively. Introduce a coordinate system with $P$ at $(0,0), Q$ at $(1,0), A$ at $(\\cos \\alpha, \\sin \\alpha)$, and $B$ at $(1+\\cos \\beta, \\sin \\beta)$. It may be assumed that $0 \\leq \\alpha \\leq \\pi$ and $0 \\leq \\beta \\leq 2 \\pi$. For $\\alpha=0$, the required condition is met for all values of $\\beta$. For $\\alpha=\\pi$, the required condition is met only if $\\beta=\\pi$. For $0<\\alpha<\\pi, A B=1$ if and only if $\\beta=\\alpha$ or $\\beta=\\pi$, and the required condition is met if and only if $\\alpha \\leq \\beta \\leq \\pi$. In\\\n\nthe $\\alpha \\beta$-plane, the rectangle $0 \\leq \\alpha \\leq \\pi, 0 \\leq \\beta \\leq 2 \\pi$ has area $2 \\pi^{2}$. The triangle $0 \\leq \\alpha \\leq \\pi, \\alpha \\leq \\beta \\leq \\pi$ has area $\\dfrac{\\pi^{2}}{2}$, so the requested probability is $\\boxed{\\dfrac{1}{4}}$."
   },
   {
     "id": "amc12b-2010-19",
@@ -16777,7 +16784,8 @@
       "Inclusion-Exclusion",
       "Venn Diagrams",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "A. $30$\n\nB. $31$\n\nC. $32$\n\nD. $33$\n\nE. $34$\n\nThe Raiders' score was $a\\left(1+r+r^{2}+r^{3}\\right)$, where $a$ is a positive integer and $r>1$. Because $a r$ is also an integer, $r=m / n$ for relatively prime positive integers $m$ and $n$ with $m>n$. Moreover $a r^{3}=a \\cdot \\dfrac{m^{3}}{n^{3}}$ is an integer, so $n^{3}$ divides $a$. Let $a=n^{3} A$. Then the Raiders' score was $R=A\\left(n^{3}+m n^{2}+m^{2} n+\\right.$ $m^{3}$ ), and the Wildcats' score was $R-1=a+(a+d)+(a+2 d)+(a+3 d)=4 a+6 d$ for some positive integer $d$. Because $A \\geq 1$, the condition $R \\leq 100$ implies that $n \\leq 2$ and $m \\leq 4$. The only possibilities are $(m, n)=(4,1),(3,2),(3,1)$, or $(2,1)$. The corresponding values of $R$ are, respectively, $85 A, 65 A, 40 A$, and $15 A$. In the first two cases $A=1$, and the corresponding values of $R-1$ are, respectively, $64=32+6 d$ and $84=4+6 d$. In neither case is $d$ an integer. In the third case $40 A=40 a=4 a+6 d+1$ which is impossible in integers. In the last case $15 a=4 a+6 d+1$, from which $11 a=6 d+1$. The only solution in positive integers for which $4 a+6 d \\leq 100$ is $(a, d)=(5,9)$. Thus $R=5+10+20+40=75$, $R-1=5+14+23+32=74$, and the number of points scored in the first half was $5+10+5+14= \\boxed{34}$."
   },
   {
     "id": "amc12b-2010-20",
@@ -16799,7 +16807,8 @@
       "Trigonometry",
       "Arithmetic/Geometric Sequences",
       "Sequences and Series"
-    ]
+    ],
+    "solutionLatex": "A. $4$\n\nB. $5$\n\nC. $6$\n\nD. $7$\n\nE. $8$\n\nThe ratio between consecutive terms of the sequence is\n\n$$r=\\dfrac{a_{2}}{a_{1}}=\\cot x$$\n\nso $a_{4}=(\\tan x)(\\cot x)=1$, and $r$ is also equal to\n\n$$\\sqrt{\\dfrac{a_{4}}{a_{2}}}=\\dfrac{1}{\\sqrt{\\cos x}}$$\n\nTherefore $x$ satisfies the equation $\\cos ^{3} x=\\sin ^{2} x=1-\\cos ^{2} x$, which can be written as $\\left(\\cos ^{2} x\\right)(1+\\cos x)=1$. The given conditions imply that $\\cos x \\neq 0$, so this equation is equivalent to\n\n$$1+\\cos x=\\dfrac{1}{\\cos ^{2} x}=r^{4}$$\n\nThus $1+\\cos x=1 \\cdot r^{4}=a_{4} \\cdot r^{4}= \\boxed{a_{8}}$."
   },
   {
     "id": "amc12b-2010-21",
@@ -16820,7 +16829,8 @@
     "topics": [
       "Polynomials",
       "AIME-level Inequalities"
-    ]
+    ],
+    "solutionLatex": "A. $105$\n\nB. $315$\n\nC. $945$\n\nD. $7 !$\n\nE. $8 !$\n\nBecause $1,3,5$, and 7 are roots of the polynomial $P(x)-a$, it follows that\n\n$$P(x)-a=(x-1)(x-3)(x-5)(x-7) Q(x)$$\n\nwhere $Q(x)$ is a polynomial with integer coefficients. The previous identity must hold for $x=2,4,6$, and 8 , thus\n\n$$-2 a=-15 Q(2)=9 Q(4)=-15 Q(6)=105 Q(8)$$\n\nTherefore $315=\\operatorname{lcm}(15,9,105)$ divides $a$, that is $a$ is an integer multiple of 315. Let $a=315 A$. Because $Q(2)=Q(6)=42 A$, it follows that $Q(x)-$ $42 A=(x-2)(x-6) R(x)$ where $R(x)$ is a polynomial with integer coefficients. Because $Q(4)=-70 A$ and $Q(8)=-6 A$ it follows that $-112 A=-4 R(4)$ and $-48 A=12 R(8)$, that is $R(4)=28 A$ and $R(8)=-4 A$. Thus $R(x)=28 A+$ $(x-4)(-6 A+(x-8) T(x))$ where $T(x)$ is a polynomial with integer coefficients. Moreover, for any polynomial $T(x)$ and any integer $A$, the polynomial $P(x)$ constructed this way satisfies the required conditions. The required minimum is obtained when $A=1$ and so $a= \\boxed{315}$."
   },
   {
     "id": "amc12b-2010-22",

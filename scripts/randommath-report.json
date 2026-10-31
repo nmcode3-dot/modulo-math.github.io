@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 905.145,
+  "elapsedSeconds": 917.136,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -5034,6 +5034,73 @@
       "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-11",
       "status": "saved",
       "seconds": 1.121
+    },
+    {
+      "id": "amc12b-2010-12",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-12",
+      "status": "saved",
+      "seconds": 1.118
+    },
+    {
+      "id": "amc12b-2010-13",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-13",
+      "status": "saved",
+      "seconds": 1.051
+    },
+    {
+      "id": "amc12b-2010-14",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-14",
+      "status": "saved",
+      "seconds": 1.091
+    },
+    {
+      "id": "amc12b-2010-15",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-15",
+      "status": "saved",
+      "seconds": 1.173
+    },
+    {
+      "id": "amc12b-2010-16",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-16",
+      "status": "saved",
+      "seconds": 1.346
+    },
+    {
+      "id": "amc12b-2010-17",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-17",
+      "status": "saved",
+      "seconds": 1.207
+    },
+    {
+      "id": "amc12b-2010-18",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-18",
+      "status": "saved",
+      "seconds": 1.046
+    },
+    {
+      "id": "amc12b-2010-19",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-19",
+      "status": "saved",
+      "seconds": 1.128
+    },
+    {
+      "id": "amc12b-2010-20",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-20",
+      "status": "saved",
+      "seconds": 1.102
+    },
+    {
+      "id": "amc12b-2010-21",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-21",
+      "status": "saved",
+      "seconds": 1.135
+    },
+    {
+      "id": "amc12b-2010-22",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-22",
+      "status": "skipped",
+      "seconds": 0.581,
+      "error": "goto: net::ERR_ABORTED at https://wiki.randommath.com/amc12/2010/part-b/problem-22\nCall log:\n  - navigating to \"https://wiki.randommath.com/amc12/2010/part-b/problem-22\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
