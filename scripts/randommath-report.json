@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 900.659,
+  "elapsedSeconds": 905.145,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -5010,6 +5010,30 @@
       "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-7",
       "status": "saved",
       "seconds": 1.131
+    },
+    {
+      "id": "amc12b-2010-8",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-8",
+      "status": "saved",
+      "seconds": 1.158
+    },
+    {
+      "id": "amc12b-2010-9",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-9",
+      "status": "saved",
+      "seconds": 1.1
+    },
+    {
+      "id": "amc12b-2010-10",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-10",
+      "status": "saved",
+      "seconds": 1.102
+    },
+    {
+      "id": "amc12b-2010-11",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-11",
+      "status": "saved",
+      "seconds": 1.121
     }
   ]
 }

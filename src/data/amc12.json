@@ -16545,7 +16545,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_8",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "A. $22$\n\nB. $23$\n\nC. $24$\n\nD. $25$\n\nE. $26$\n\nIf there are $n$ schools in the city, then there are $3 n$ contestants, so $3 n \\geq 64$, and $n \\geq 22$. Because Andrea received the median score and each student received a different score, $n$ is odd, so $n \\geq 23$. Andrea's position is $\\dfrac{3 n+1}{2}$, and Andrea finished ahead of Beth, so $\\dfrac{3 n+1}{2}<37$, and $3 n<73$. Because $n$ is an odd integer, $n \\leq 23$. Therefore $n= \\boxed{23}$."
   },
   {
     "id": "amc12b-2010-9",
@@ -16566,7 +16567,8 @@
     "topics": [
       "Digit Problems",
       "Divisibility Reasoning"
-    ]
+    ],
+    "solutionLatex": "A. $3$\n\nB. $4$\n\nC. $5$\n\nD. $6$\n\nE. $7$\n\nBecause $n$ is divisible by $20, n=2^{2+a} \\cdot 5^{1+b} \\cdot k$, where $a$ and $b$ are nonnegative integers and $k$ is a positive integer not divisible by 2 or 5 . Because $n^{2}=2^{2(2+a)} \\cdot 5^{2(1+b)} \\cdot k^{2}$ is a perfect cube, 3 divides $2(2+a)$ and 3 divides $2(1+b)$. Because $n^{3}=2^{3(2+a)} \\cdot 5^{3(1+b)} \\cdot k^{3}$ is a perfect square, 2 divides $3(2+a)$ and 2 divides $3(1+b)$. Therefore 6 divides $2+a$ and 6 divides $1+b$. The smallest possible choices for $a, b$, and $k$, are $a=4, b=5$, and $k=1$. In this case $n=2^{6} \\cdot 5^{6}=1,000,000$, and $n$ has $\\boxed{7}$ digits.\n\nOR\n\nThe only prime factors of 20 are 2 and 5 , so $n$ has the form $2^{a} \\cdot 5^{b}$ for integers $a \\geq 2$ and $b \\geq 1$. Because $n^{2}$ is a perfect cube, $2 a$ and $2 b$ are both multiples of 3 , so $a$ and $b$ are also both multiples of 3 . Similarly, because $n^{3}$ is a perfect square, $a$ and $b$ are both multiples of 2 . Therefore both $a$ and $b$ are multiples of 6. Note that $n=2^{6} \\cdot 5^{6}=1,000,000$ satisfies the given conditions, and $n$ has $\\boxed{7}$ digits."
   },
   {
     "id": "amc12b-2010-10",
@@ -16586,7 +16588,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_10",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "A. $\\dfrac{49}{101}$\n\nB. $\\dfrac{50}{101}$\n\nC. $\\dfrac{1}{2}$\n\nD. $\\dfrac{51}{101}$\n\nE. $\\dfrac{50}{99}$\n\nThe average of the numbers is\n\n\"No\"\n\n$$\\dfrac{1+2+\\cdots+99+x}{100}=\\dfrac{\\dfrac{99 \\cdot 100}{2}+x}{100}=\\dfrac{99 \\cdot 50+x}{100}=100 x$$\n\nThis equation is equivalent to $9999 x=(99 \\cdot 101) x=99 \\cdot 50$, so $x= \\boxed{\\dfrac{50}{101}}$."
   },
   {
     "id": "amc12b-2010-11",
@@ -16608,7 +16611,8 @@
       "Introduction to Probability",
       "Palindromes",
       "Divisibility Reasoning"
-    ]
+    ],
+    "solutionLatex": "A. $\\dfrac{1}{10}$\n\nB. $\\dfrac{1}{9}$\n\nC. $\\dfrac{1}{7}$\n\nD. $\\dfrac{1}{6}$\n\nE. $\\dfrac{1}{5}$\n\nEach four-digit palindrome has digit representation $a b b a$ with $1 \\leq a \\leq 9$ and $0 \\leq b \\leq 9$. The value of the palindrome is $1001 a+110 b$. Because 1001 is divisible by 7 and 110 is not, the palindrome is divisible by 7 if and only if $b=0$ or $b=7$. Thus the requested probability is $\\dfrac{2}{10}= \\boxed{\\dfrac{1}{5}}$."
   },
   {
     "id": "amc12b-2010-12",
