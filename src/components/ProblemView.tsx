@@ -87,7 +87,8 @@ export function ProblemView({ problem }: { problem: Problem }) {
                 onClick={() => submit(L)}
                 className={`choice-btn ${isAns ? "choice-correct" : tried ? "choice-wrong" : ""}`}
               >
-                <span className="font-semibold">({L})</span> {c && <Latex>{c}</Latex>}
+                <span className="font-semibold shrink-0">({L})</span>{" "}
+                {c && <Latex wrap className="min-w-0">{c}</Latex>}
               </button>
             );
           })}
@@ -106,7 +107,7 @@ export function ProblemView({ problem }: { problem: Problem }) {
           <p className="mt-1">
             Correct answer:{" "}
             <strong>
-              {isAime(problem) ? correctDisplay : <>{correctDisplay}<Latex>{problem.choices[LETTERS.indexOf(problem.answer)] ?? ""}</Latex></>}
+              {isAime(problem) ? correctDisplay : <>{correctDisplay}<Latex wrap>{problem.choices[LETTERS.indexOf(problem.answer)] ?? ""}</Latex></>}
             </strong>
           </p>
           <a href={problem.solutionUrl} target="_blank" rel="noopener noreferrer" className="solution-link">
