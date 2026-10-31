@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 1020.262,
+  "elapsedSeconds": 1031.31,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -6535,6 +6535,160 @@
       "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-3",
       "status": "skipped",
       "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-4",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-4",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-5",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-5",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-6",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-6",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-7",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-7",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-8",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-8",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-9",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-9",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-10",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-10",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-11",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-11",
+      "status": "skipped",
+      "seconds": 0.5,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-12",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-12",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-13",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-13",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-14",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-14",
+      "status": "skipped",
+      "seconds": 0.5,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-15",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-15",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-16",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-16",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-17",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-17",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-18",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-18",
+      "status": "skipped",
+      "seconds": 0.503,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-19",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-19",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-20",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-20",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-21",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-21",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-22",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-22",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-23",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-23",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-24",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-24",
+      "status": "skipped",
+      "seconds": 0.5,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12a-2005-25",
+      "url": "https://wiki.randommath.com/amc12/2005/part-a/problem-25",
+      "status": "skipped",
+      "seconds": 0.5,
       "error": "goto: Target page, context or browser has been closed"
     }
   ]
