@@ -16460,7 +16460,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_4",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "A. $2$\n\nB. $3$\n\nC. $4$\n\nD. $5$\n\nE. $6$\n\nA month with 31 days has 3 successive days of the week appearing five times and 4 successive days of the week appearing four times. If Monday and Wednesday appear five times then Monday must be the first day of the month. If Monday and Wednesday appear only four times then either Thursday or Friday must be the first day of the month. Hence there are $\\boxed{3}$ days of the week that could be the first day of the month."
   },
   {
     "id": "amc12b-2010-5",
@@ -16480,7 +16481,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_5",
     "topics": [
       "Probability"
-    ]
+    ],
+    "solutionLatex": "A. $-5$\n\nB. $-3$\n\nC. $0$\n\nD. $3$\n\nE. $5$\n\nThe correct answer was $1-(2-(3-(4+e)))=1-2+3-4-e=$ $-2-e$. Larry's answer was $1-2-3-4+e=-8+e$. Therefore $-2-e=-8+e$, so $\\boxed{e=3}$."
   },
   {
     "id": "amc12b-2010-6",
@@ -16500,7 +16502,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_6",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "A. $0$\n\nB. $20$\n\nC. $40$\n\nD. $60$\n\nE. $80$\n\nAssume there are 100 students in Mr. Wells' class. Then at least $70-50=20$ students answered \"No\" at the beginning of the school year and \"Yes\" at the end, so $x \\geq 20$. Because only 30 students answered \"No\" at the end of the school year, at least $50-30=20$ students who answered \"Yes\"' at the\\\n\nbeginning of the year gave the same answer at the end, so $x \\leq 80$. The difference between the maximum and minimum possible values of $x$ is $80-20=\\boxed{60}$. The minimum $x=20$ is achieved if exactly 20 students answered \"No\" at the beginning and \"Yes\" at the end of the school year. The maximum $x=80$ is achieved if exactly 20 students answered \"Yes\" at the beginning and the end."
   },
   {
     "id": "amc12b-2010-7",
@@ -16521,7 +16524,8 @@
     "topics": [
       "Distance, Rate, Time",
       "Ratios and Rates"
-    ]
+    ],
+    "solutionLatex": "A. $18$\n\nB. $21$\n\nC. $24$\n\nD. $27$\n\nE. $30$\n\nLet $t$ be the number of minutes Shelby spent driving in the rain. Then she traveled $20 \\dfrac{t}{60}$ miles in the rain, and $30 \\dfrac{40-t}{60}$ miles in the sun. Solving $20 \\dfrac{t}{60}+30 \\dfrac{40-t}{60}=16$ results in $t= \\boxed{24}$ minutes."
   },
   {
     "id": "amc12b-2010-8",
