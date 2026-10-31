@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 1137.893,
+  "elapsedSeconds": 1145.938,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -8173,6 +8173,118 @@
       "url": "https://wiki.randommath.com/amc12/2000/problem-12",
       "status": "skipped",
       "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-14",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-14",
+      "status": "skipped",
+      "seconds": 0.5,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-15",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-15",
+      "status": "skipped",
+      "seconds": 0.5,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-16",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-16",
+      "status": "skipped",
+      "seconds": 0.504,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-17",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-17",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-18",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-18",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-19",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-19",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-20",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-20",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-21",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-21",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-22",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-22",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-23",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-23",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-24",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-24",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "amc12-2000-25",
+      "url": "https://wiki.randommath.com/amc12/2000/problem-25",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "aimeii-2012-1",
+      "url": "https://wiki.randommath.com/aime/2012/part-ii/problem-1",
+      "status": "skipped",
+      "seconds": 0.501,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "aimei-2015-12",
+      "url": "https://wiki.randommath.com/aime/2015/part-i/problem-12",
+      "status": "skipped",
+      "seconds": 0.502,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "aimeii-2013-15",
+      "url": "https://wiki.randommath.com/aime/2013/part-ii/problem-15",
+      "status": "skipped",
+      "seconds": 0.5,
+      "error": "goto: Target page, context or browser has been closed"
+    },
+    {
+      "id": "aimei-2001-14",
+      "url": "https://wiki.randommath.com/aime/2001/part-i/problem-14",
+      "status": "skipped",
+      "seconds": 0.502,
       "error": "goto: Target page, context or browser has been closed"
     }
   ]
