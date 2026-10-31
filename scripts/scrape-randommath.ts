@@ -8,6 +8,7 @@ import { mkdirSync, readFileSync, writeFileSync, renameSync, existsSync } from "
 import { join } from "node:path";
 import { randomMathTarget, parseRandomMathSolution, mergeRandomMathSolution, type RandomMathProblem } from "./randommath";
 import { missingSolutions } from "./solution-only";
+import { importRandomMathDiagram } from "./randommath-assets";
 
 const args = process.argv.slice(2);
 if (args.includes("--help")) {
@@ -66,7 +67,27 @@ try {
         await page.waitForFunction(() => Array.from(document.querySelectorAll("h1")).some(h => h.textContent?.includes("Problem")), { timeout: 10000 });
         html = await page.content();
       }
-      const solution = parseRandomMathSolution(html, source.title);
+      const diagrams = new Map<string, string>();
+      // Validate the whole solution before uploading any media; placeholders never reach app data.
+      parseRandomMathSolution(html, source.title, source => {
+        diagrams.set(source, "");
+        return "/__l5e/assets-v1/pending/diagram.png";
+      });
+      if (diagrams.size) {
+        if (cached) {
+          const response = await page.goto(source.url, { waitUntil: "domcontentloaded", timeout: 20000 });
+          if (response?.status() !== 200) throw new Error(`HTTP ${response?.status() ?? 0}`);
+          await page.locator("h1").filter({ hasText: source.title }).first().waitFor({ timeout: 10000 });
+        }
+        for (const image of diagrams.keys()) {
+          diagrams.set(image, dryRun ? "/__l5e/assets-v1/dry-run/diagram.png" : await importRandomMathDiagram(page, image));
+        }
+      }
+      const solution = parseRandomMathSolution(html, source.title, image => {
+        const asset = diagrams.get(image);
+        if (!asset) throw new Error("diagram was not imported");
+        return asset;
+      });
       if (!cached) writeFileSync(cacheFile, html);
       if (!dryRun) {
         // Re-read before each write to preserve solutions added since this process started.

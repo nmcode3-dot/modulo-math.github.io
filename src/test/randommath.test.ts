@@ -41,6 +41,24 @@ describe("Random Math solutions", () => {
   it("adds only the solution and never changes answers, statements, choices, or topics", () => {
     expect(mergeRandomMathSolution(row, "Worked solution")).toEqual({ ...row, solutionLatex: "Worked solution" });
   });
+  it("preserves diagram position using imported assets, not source hotlinks", () => {
+    const diagramHtml = html.replace("</p><hr>", '<img src="/diagram.png"></p><hr>');
+    const sources: string[] = [];
+    const solution = parseRandomMathSolution(diagramHtml, "2013 AMC 10B Problem 7", source => {
+      sources.push(source);
+      return "/__l5e/assets-v1/test/diagram.png";
+    });
+    expect(sources).toEqual(["https://wiki.randommath.com/diagram.png"]);
+    expect(solution).toContain("[[img:/__l5e/assets-v1/test/diagram.png]]");
+    expect(solution.indexOf("[[img:")).toBeGreaterThan(solution.indexOf("half the product"));
+    expect(solution).not.toContain("https://wiki.randommath.com/diagram.png");
+    expect(mergeRandomMathSolution(row, solution)).toEqual({ ...row, solutionLatex: solution });
+  });
+  it("does not save incomplete or unsafe diagrams", () => {
+    const diagramHtml = html.replace("</p><hr>", '<img src="/diagram.png"></p><hr>');
+    expect(() => parseRandomMathSolution(diagramHtml, "2013 AMC 10B Problem 7", () => "https://other.example/image.png")).toThrow("incomplete");
+    expect(() => parseRandomMathSolution(diagramHtml.replace('/diagram.png', 'javascript:alert(1)'), "2013 AMC 10B Problem 7", () => "/__l5e/assets-v1/test/diagram.png")).toThrow("unsafe");
+  });
   it("never overwrites an existing solution or saves a blank one", () => {
     const complete = { ...row, solutionLatex: "Original solution" };
     expect(mergeRandomMathSolution(complete, "Replacement")).toBe(complete);
