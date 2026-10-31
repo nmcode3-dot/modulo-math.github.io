@@ -170,12 +170,13 @@
 }
 
 /* KaTeX css is unlayered, so this override must be unlayered too: let prose
-   choices wrap inside their buttons instead of spilling across neighbors. */
+   choices wrap inside their buttons instead of spilling across neighbors.
+   (The Latex component restores normal spaces for wrapped contexts.) */
 .choice-btn .katex .katex-base {
   white-space: normal;
   width: auto;
   max-width: 100%;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .problem-figure {
