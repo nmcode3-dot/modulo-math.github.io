@@ -179,6 +179,19 @@
   overflow-wrap: break-word;
 }
 
+.katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.25rem;
+}
+.math-source-fallback {
+  color: var(--foreground);
+  font-size: 0.95em;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 .problem-figure {
   display: block;
   max-width: min(100%, 420px);
