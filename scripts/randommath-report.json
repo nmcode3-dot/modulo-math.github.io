@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 18.359,
+  "elapsedSeconds": 22.4,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -114,6 +114,31 @@
       "url": "https://wiki.randommath.com/amc8/2017/problem-2",
       "status": "saved",
       "seconds": 0.964
+    },
+    {
+      "id": "amc8-2017-3",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-3",
+      "status": "saved",
+      "seconds": 1
+    },
+    {
+      "id": "amc8-2017-4",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-4",
+      "status": "saved",
+      "seconds": 0.984
+    },
+    {
+      "id": "amc8-2017-6",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-6",
+      "status": "saved",
+      "seconds": 0.975
+    },
+    {
+      "id": "amc8-2017-16",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-16",
+      "status": "skipped",
+      "seconds": 1.081,
+      "error": "solution contains an image needing a separate asset import"
     }
   ]
 }

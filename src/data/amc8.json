@@ -3311,7 +3311,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_3",
     "topics": [
       "Simplifying Radicals"
-    ]
+    ],
+    "solutionLatex": "Simplifying yields\n\n$\\sqrt{16 \\sqrt{8 \\sqrt{4}}}=\\sqrt{16 \\sqrt{16}}=\\sqrt{64}=8$\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc8-2017-4",
@@ -3331,7 +3332,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_4",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "The product may be estimated as\n\n$$\\left(3 \\cdot 10^{-4}\\right)\\left(8 \\cdot 10^{6}\\right)=24 \\cdot 10^{2}=2400.$$\n\nThe exact value of the product is $2497.498$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2017-5",
@@ -3374,7 +3376,8 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "Problem-Solving: Triangle Angles"
-    ]
+    ],
+    "solutionLatex": "Let the degree measures of the angles of the triangle be $3 x, 3 x$, and $4 x$. Then $3 x+3 x+4 x=10 x=180$, and $x=18$. So the largest angle has degree measure $4 x=4 \\cdot 18=72$.\n\n$$\\textbf{OR}$$\n\nThe degree measure of the largest angle is $\\dfrac{4}{3+3+4}=\\dfrac{2}{5}$ of the sum of the degree measures of the angles in the triangle, so it is $\\dfrac{2}{5} \\cdot 180=72$ degrees.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2017-7",
