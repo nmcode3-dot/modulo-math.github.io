@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 657.347,
+  "elapsedSeconds": 658.523,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -3749,6 +3749,12 @@
       "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-4",
       "status": "saved",
       "seconds": 1.168
+    },
+    {
+      "id": "amc12b-2014-5",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-5",
+      "status": "saved",
+      "seconds": 1.176
     }
   ]
 }

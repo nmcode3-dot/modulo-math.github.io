@@ -12296,7 +12296,8 @@
     "topics": [
       "Ratios and Rates",
       "Length Chasing"
-    ]
+    ],
+    "solutionLatex": "A. $26$\n\nB. $28$\n\nC. $30$\n\nD. $32$\n\nE. $34$\n\nDenote the height of a pane by $5 x$ and the width by $2 x$. Then the square window has height $2 \\cdot 5 x+6$ inches and width $4 \\cdot 2 x+10$ inches. Solving $2 \\cdot 5 x+6=4 \\cdot 2 x+10$ gives $x=2$. The side length of the square window is $\\boxed{26}$ inches."
   },
   {
     "id": "amc12b-2014-6",
