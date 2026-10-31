@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 603.615,
+  "elapsedSeconds": 608.897,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -2394,6 +2394,24 @@
       "url": "https://wiki.randommath.com/amc12/2018/part-a/problem-14",
       "status": "saved",
       "seconds": 0.063
+    },
+    {
+      "id": "amc12a-2018-15",
+      "url": "https://wiki.randommath.com/amc12/2018/part-a/problem-15",
+      "status": "saved",
+      "seconds": 5.118
+    },
+    {
+      "id": "amc12a-2018-16",
+      "url": "https://wiki.randommath.com/amc12/2018/part-a/problem-16",
+      "status": "saved",
+      "seconds": 0.092
+    },
+    {
+      "id": "amc12a-2018-17",
+      "url": "https://wiki.randommath.com/amc12/2018/part-a/problem-17",
+      "status": "saved",
+      "seconds": 0.069
     }
   ]
 }

@@ -7715,7 +7715,8 @@
       "Complementary Counting",
       "Divisibility Reasoning",
       "Symmetry"
-    ]
+    ],
+    "solutionLatex": "A. $510$\n\nB. $1022$\n\nC. $8190$\n\nD. $8192$\n\nE. $65,534$\n\nNone of the squares that are marked with dots in the sample scanning code shown below can be mapped to any other marked square by reflections or non-identity rotations. Therefore these 10 squares can be arbitrarily colored black or white in a symmetric scanning code, with the exception of \"all black\" and \"all white\". On the other hand, reflections or rotations will map these squares to all the other squares in the scanning code, so once these 10 colors are specified, the symmetric scanning code is completely determined. Thus there are $2^{10}-2= \\boxed{1022}$ symmetric scanning codes.\n\n[[img:/__l5e/assets-v1/30fca61e-5886-418c-9446-24658467d84c/f3bbc2660362baf7adc6ec51e23db59aac764d1c6cd0e71830c34fa66a243237.png]]\n\nOR\n\nThe diagram below shows the orbits of each square under rotations and reflections. Because the scanning code must look the same under these transformations, all squares in the same orbit must get the same color, but one is free to choose the color for each orbit, except for the choice of \"all black\" and \"all white\". Because there are 10 orbits, there are $2^{10}-2=\\boxed{1022}$ symmetric scanning codes.\n\n$$\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\nA & B & C & D & C & B & A \\\\\n\\hline\nB & E & F & G & F & E & B \\\\\n\\hline\nC & F & H & I & H & F & C \\\\\n\\hline\nD & G & I & J & I & G & D \\\\\n\\hline\nC & F & H & I & H & F & C \\\\\n\\hline\nB & E & F & G & F & E & B \\\\\n\\hline\nA & B & C & D & C & B & A \\\\\n\\hline\n\\end{array}$$"
   },
   {
     "id": "amc12a-2018-16",
@@ -7736,7 +7737,8 @@
     "topics": [
       "2nd Degree Symmetric Sums",
       "Quadratics - Factoring"
-    ]
+    ],
+    "solutionLatex": "A. $a=\\dfrac{1}{4}$\n\nB. $\\dfrac{1}{4}<a<\\dfrac{1}{2}$\n\nC. $a>\\dfrac{1}{4}$\n\nD. $a=\\dfrac{1}{2}$\n\nE. $a>\\dfrac{1}{2}$\n\nSolving the second equation for $x^{2}$ gives $x^{2}=y+a$, and substituting into the first equation gives $y^{2}+y+\\left(a-a^{2}\\right)=0$. The polynomial in $y$ can be factored as $(y+(1-a))(y+a)$, so the solutions are $y=a-1$ and $y=-a$. (Alternatively, the solutions can be obtained using the quadratic formula.) The corresponding equations for $x$ are $x^{2}=2 a-1$ and $x^{2}=0$. The second equation always has the solution $x=0$, corresponding to the point of tangency at the vertex of the parabola $y=x^{2}-a$. The first equation has 2 solutions if and only if $a>\\dfrac{1}{2}$, corresponding to the 2 symmetric intersection points of the parabola with the circle. Thus the two curves intersect at 3 points if and only if $\\boxed{a>\\dfrac{1}{2}}$.\n\nOR\n\nSubstituting the value for $y$ from the second equation into the first equation yields\n\n$$x^{2}+\\left(x^{2}-a\\right)^{2}=a^{2}$$\n\nwhich is equivalent to\n\n$$x^{2}\\left(x^{2}-(2 a-1)\\right)=0$$\n\nThe first factor gives the solution $x=0$, and the second factor gives 2 other solutions if $a>\\dfrac{1}{2}$ and no other solutions if $a \\leq \\dfrac{1}{2}$. Thus there are 3 solutions if and only if $\\boxed{a>\\dfrac{1}{2}}$."
   },
   {
     "id": "amc12a-2018-17",
@@ -7757,7 +7759,8 @@
     "topics": [
       "Pythagorean theorem",
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "A. $\\dfrac{25}{27}$\n\nB. $\\dfrac{26}{27}$\n\nC. $\\dfrac{73}{75}$\n\nD. $\\dfrac{145}{147}$\n\nE. $\\dfrac{74}{75}$\n\nLet the triangle's vertices in the coordinate plane be $(4,0),(0,3)$, and $(0,0)$, with $[0, s] \\times[0, s]$ representing the unplanted portion of the field. The equation of the hypotenuse is $3 x+4 y-12=0$, so the distance from $(s, s)$, the corner of $S$ closest to the hypotenuse, to this line is given by\n\n$$\\dfrac{|3 s+4 s-12|}{\\sqrt{3^{2}+4^{2}}}$$\n\nSetting this equal to 2 and solving for $s$ gives $s=\\dfrac{22}{7}$ and $s=\\dfrac{2}{7}$, and the former is rejected because the square must lie within the triangle. The unplanted area is thus $\\left(\\dfrac{2}{7}\\right)^{2}=\\dfrac{4}{49}$, and the requested fraction is\n\n$$1-\\dfrac{\\dfrac{4}{49}}{\\dfrac{1}{2} \\cdot 4 \\cdot 3}= \\boxed{\\dfrac{145}{147}}$$\n\nOR\n\nLet the given triangle be described as $\\triangle A B C$ with the right angle at $B$ and $A B=3$. Let $D$ be the vertex of the square that is in the interior of the triangle, and let $s$ be the edge length of the square. Then two sides of the square along with line segments $\\overline{A D}$ and $\\overline{C D}$ decompose $\\triangle A B C$ into four regions. These regions are a triangle with base 5 and height 2 , the unplanted square with side $s$, a right triangle with legs $s$ and $3-s$, and a right triangle with legs $s$ and $4-s$. The sum of the areas of these four regions is\n\n$$\\dfrac{1}{2} \\cdot 5 \\cdot 2+s^{2}+\\dfrac{1}{2} s(3-s)+\\dfrac{1}{2} s(4-s)=5+\\dfrac{7}{2} s$$\n\nand the area of $\\triangle A B C$ is $6$. Solving $5+\\dfrac{7}{2} s=6$ for $s$ gives $s=\\dfrac{2}{7}$, and the solution concludes as above."
   },
   {
     "id": "amc12a-2018-18",
