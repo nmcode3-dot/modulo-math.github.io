@@ -10,7 +10,7 @@ function render(src: string) {
     .map((part) => {
       if (part.startsWith("[[img:")) {
         const url = part.slice(6, -2);
-        if (!/^https:\/\//.test(url)) return "";
+        if (!/^https:\/\//.test(url) && !/^\/__l5e\/assets-v1\/[\w/-]+\.png$/.test(url)) return "";
         return `<img src="${url.replace(/"/g, "%22")}" alt="Problem figure" loading="lazy" class="problem-figure" />`;
       }
       let display = false;

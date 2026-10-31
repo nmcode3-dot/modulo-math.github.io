@@ -24,7 +24,7 @@ export function randomMathTarget(row: RandomMathProblem): { url: string; title: 
   };
 }
 
-export function parseRandomMathSolution(html: string, expectedTitle: string): string {
+export function parseRandomMathSolution(html: string, expectedTitle: string, importDiagram?: (source: string) => string): string {
   const $ = cheerio.load(html);
   const heading = $("h1").filter((_, el) => $(el).text().replace(/¶/g, "").replace(/\s+/g, " ").trim() === expectedTitle).first();
   if (!heading.length) throw new Error("problem identity not confirmed");
@@ -60,8 +60,13 @@ export function parseRandomMathSolution(html: string, expectedTitle: string): st
     copy.find("img").each((_, img) => {
       const alt = $(img).attr("alt") ?? "";
       if (/^\$[\s\S]+\$$/.test(alt)) { $(img).replaceWith($("<span></span>").text(alt)); return; }
-      // Do not save a solution with missing diagrams or hotlinked media.
-      throw new Error("solution contains an image needing a separate asset import");
+      const src = $(img).attr("src");
+      if (!src || !importDiagram) throw new Error("solution contains an image needing a separate asset import");
+      const url = new URL(src, "https://wiki.randommath.com");
+      if (url.protocol !== "https:" || url.username || url.password) throw new Error("unsafe diagram URL");
+      const asset = importDiagram(url.href);
+      if (!/^\/__l5e\/assets-v1\/[\w/-]+\.png$/.test(asset)) throw new Error("diagram asset import incomplete");
+      $(img).replaceWith($("<span></span>").text(`\n[[img:${asset}]]\n`));
     });
     copy.find("strong").filter((_, el) => /^Solution(?:\s+\d+)?\s*:?$/i.test($(el).text().trim())).remove();
     copy.find("br").replaceWith("\n");
