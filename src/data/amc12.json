@@ -7429,7 +7429,8 @@
     "topics": [
       "Arithmetic Word Problems",
       "AIME-level Inequalities"
-    ]
+    ],
+    "solutionLatex": "A. $48$\n\nB. $49$\n\nC. $50$\n\nD. $51$\n\nE. $52$\n\nThe 5 -pound rocks have a value of $\\$ 14 \\div 5=\\$ 2.80$ per pound; the 4 -pound rocks have a value of $\\$ 11 \\div 4=\\$ 2.75$ per pound; the 1-pound rocks have a value of $\\$ 2$ per pound. It is not to Carl's advantage to take 1-pound rocks when he can take the larger rocks. Therefore the only issue is how many of the more valuable 5 -pound rocks to take, including as many 4-pound rocks as possible in each case. The viable choices are displayed in the following table.\n\n$$\\begin{array}{|c|c|c|c|}\n\\hline\n\\textbf{5-pound rocks} & \\textbf{4-pound rocks} & \\textbf{1-pound rocks} & \\textbf{Total value} \\\\\n\\text{(\\$14 each)} & \\text{(\\$11 each)} & \\text{(\\$2 each)} & \\text{(\\$)} \\\\\n\\hline\n3 & 0 & 3 & \\$48 \\\\\n2 & 2 & 0 & \\$50 \\\\\n1 & 3 & 1 & \\$49 \\\\\n0 & 4 & 2 & \\$48 \\\\\n\\hline\n\\end{array}$$\n\nThe maximum possible value is $\\boxed{\\$ 50}$.\n\nNote: Although the 5-pound rocks are the most valuable per pound, it was not to Carl's advantage to take as many of them as possible. This situation is an example of the classic knapsack problem for which the so-called \"greedy algorithm\" is not optimal."
   },
   {
     "id": "amc12a-2018-3",
@@ -7472,7 +7473,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_4",
     "topics": [
       "Distance, Rate, Time"
-    ]
+    ],
+    "solutionLatex": "A. $(0,4)$\n\nB. $(4,5)$\n\nC. $(4,6)$\n\nD. $(5,6)$\n\nE. $(5, \\infty)$\n\nBecause the statements of Alice, Bob, and Charlie are all incorrect, the actual distance $d$ satisfies $d<6, d\\rangle 5$, and $d>4$. Hence the actual distance lies in the interval $\\boxed{(5,6)}$."
   },
   {
     "id": "amc12a-2018-5",
@@ -7513,7 +7515,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_6",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "A. $20$\n\nB. $21$\n\nC. $22$\n\nD. $23$\n\nE. $24$\n\nNote that the given conditions imply that the 6 values are listed in increasing order. Because the median of the these 6 values is $n$, the mean of the middle two values must be $n$, so\n\n$$\\dfrac{(m+10)+(n+1)}{2}=n$$\n\nwhich implies $m=n-11$. Because the mean of the set is also $n$,\n\n$$\\dfrac{(n-11)+(n-7)+(n-1)+(n+1)+(n+2)+2 n}{6}=n$$\n\nso $7 n-16=6 n$ and $n=16$. Then $m=16-11=5$, and the requested sum is $5+16= \\boxed{21}$."
   },
   {
     "id": "amc12a-2018-7",
@@ -7557,7 +7560,8 @@
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "A. $16$\n\nB. $18$\n\nC. $20$\n\nD. $22$\n\nE. $24$\n\nThe length of the base $\\overline{D E}$ of $\\triangle A D E$ is 4 times the length of the base of a small triangle, so the area of $\\triangle A D E$ is $4^{2} \\cdot 1=16$. Therefore the area of $D B C E$ is the area of $\\triangle A B C$ minus the area of $\\triangle A D E$, which is $40-16= \\boxed{24}$."
   },
   {
     "id": "amc12a-2018-9",
@@ -7623,7 +7627,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_11",
     "topics": [
       "Length Chasing"
-    ]
+    ],
+    "solutionLatex": "A. $1+\\dfrac{1}{2} \\sqrt{2}$\n\nB. $\\sqrt{3}$\n\nC. $\\dfrac{7}{4}$\n\nD. $\\dfrac{15}{8}$\n\nE. $2$\n\nThe paper's long edge $\\overline{A B}$ is the hypotenuse of right triangle $A C B$, and the crease lies along the perpendicular bisector of $\\overline{A B}$. Because $A C>B C$, the crease hits $\\overline{A C}$ rather than $\\overline{B C}$. Let $D$ be the midpoint of $\\overline{A B}$, and let $E$ be the intersection of $\\overline{A C}$ and the line through $D$ perpendicular to $\\overline{A B}$. Then the crease in the paper\n\nis $\\overline{D E}$. Because $\\triangle A D E \\sim \\triangle A C B$, it follows that $\\dfrac{D E}{A D}=\\dfrac{C B}{A C}=\\dfrac{3}{4}$. Thus\n\n$$D E=A D \\cdot \\dfrac{C B}{A C}=\\dfrac{5}{2} \\cdot \\dfrac{3}{4}=\\boxed{\\dfrac{15}{8}} .$$\n\n[[img:/__l5e/assets-v1/b147fcdc-a8f8-4f31-a7f3-d7a18ab4c9be/963fc14911e39ed3374f6117bd9d12d1e3e4de86606d5ce5004362607d4842d7.png]]"
   },
   {
     "id": "amc12a-2018-12",
@@ -7666,7 +7671,8 @@
     "topics": [
       "Linear Inequalities",
       "Problem-Solving: Linear Diophantine Equations"
-    ]
+    ],
+    "solutionLatex": "A. $512$\n\nB. $729$\n\nC. $1094$\n\nD. $3281$\n\nE. $59,048$\n\nLet $S$ be the set of integers, both negative and nonnegative, having the given form. Increasing the value of $a_{i}$ by 1 for $0 \\leq i \\leq 7$ creates a one-to-one correspondence between $S$ and the ternary (base 3 ) representation of the integers from 0 through $3^{8}-1$, so $S$ contains $3^{8}=6561$ elements. One of those is 0 , and by symmetry, half of the others are positive, so $S$ contains $1+\\dfrac{1}{2} \\cdot(6561-1)=3281$ elements.\n\nOR\n\nFirst note that if an integer $N$ can be written in this form, then $N-1$ can also be written in this form as long as not all the $a_{i}$ in the representation of $N$ are equal to -1 . A procedure to alter the representation of $N$ so that it will represent $N-1$ instead is to find the least value of $i$ such that $a_{i} \\neq-1$, reduce the value of that $a_{i}$ by 1 , and set $a_{i}=1$ for all lower values of $i$. By the formula for the sum of a finite geometric series, the greatest integer that can be written in the given form is\n\n$$\\dfrac{3^{8}-1}{3-1}= 3280$$\n\nTherefore, $\\boxed{3281}$ nonnegative integers can be written in this form, namely all the integers from 0 through 3280 , inclusive. (The negative integers from -3280 through -1 can also be written in this way.)\n\nOR\n\nThink of the indicated sum as an expansion in base 3 using \"digits\" $-1,0$, and 1 . Note that the leftmost digit $a_{k}$ of any positive integer that can be written in this form cannot be negative and therefore must be 1 . Then there are 3 choices for each of the remaining $k$ digits to the right of $a_{k}$, resulting in $3^{k}$ positive integers that can be written in the indicated form. Thus there are\n\n$$\\sum_{k=0}^{7} 3^{k}=\\dfrac{3^{8}-1}{3-1}= 3280$$\n\npositive numbers of the indicated form. Because 0 can also be written in this form, the number of nonnegative integers that can be written in the indicated form is $\\boxed{3281}$."
   },
   {
     "id": "amc12a-2018-14",
@@ -7686,7 +7692,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_14",
     "topics": [
       "Number Theory"
-    ]
+    ],
+    "solutionLatex": "A. $5$\n\nB. $13$\n\nC. $17$\n\nD. $31$\n\nE. $35$\n\nBy the change-of-base formula, the given equation is equivalent to\n\n$$\\begin{aligned}\n\\dfrac{\\log 4}{\\log 3 x} =\\dfrac{\\log 8}{\\log 2 x} \\\\\n\\dfrac{2 \\log 2}{\\log 3+\\log x} =\\dfrac{3 \\log 2}{\\log 2+\\log x} \\\\\n2 \\log 2+2 \\log x =3 \\log 3+3 \\log x \\\\\n\\log x =2 \\log 2-3 \\log 3 \\\\\n\\log x =\\log \\dfrac{4}{27} .\n\\end{aligned}$$\n\nTherefore $x=\\dfrac{4}{27}$, and the requested sum is $4+27= \\boxed{31}$.\n\nOR\n\nChanging to base-2 logarithms transforms the given equation into\n\n$$\\begin{aligned}\n\\dfrac{2}{\\log _{2} 3 x} =\\dfrac{3}{\\log _{2} 2 x} \\\\\n2 \\log _{2} 2 x =3 \\log _{2} 3 x \\\\\n\\log _{2}(2 x)^{2} =\\log _{2}(3 x)^{3} \\\\\n(2 x)^{2} =(3 x)^{3},\n\\end{aligned}$$\n\nso $x=\\dfrac{4}{27}$, and the requested sum is $4+27= \\boxed{31}$."
   },
   {
     "id": "amc12a-2018-15",
@@ -7708,7 +7715,8 @@
       "Complementary Counting",
       "Divisibility Reasoning",
       "Symmetry"
-    ]
+    ],
+    "solutionLatex": "A. $510$\n\nB. $1022$\n\nC. $8190$\n\nD. $8192$\n\nE. $65,534$\n\nNone of the squares that are marked with dots in the sample scanning code shown below can be mapped to any other marked square by reflections or non-identity rotations. Therefore these 10 squares can be arbitrarily colored black or white in a symmetric scanning code, with the exception of \"all black\" and \"all white\". On the other hand, reflections or rotations will map these squares to all the other squares in the scanning code, so once these 10 colors are specified, the symmetric scanning code is completely determined. Thus there are $2^{10}-2= \\boxed{1022}$ symmetric scanning codes.\n\n[[img:/__l5e/assets-v1/30fca61e-5886-418c-9446-24658467d84c/f3bbc2660362baf7adc6ec51e23db59aac764d1c6cd0e71830c34fa66a243237.png]]\n\nOR\n\nThe diagram below shows the orbits of each square under rotations and reflections. Because the scanning code must look the same under these transformations, all squares in the same orbit must get the same color, but one is free to choose the color for each orbit, except for the choice of \"all black\" and \"all white\". Because there are 10 orbits, there are $2^{10}-2=\\boxed{1022}$ symmetric scanning codes.\n\n$$\\begin{array}{|c|c|c|c|c|c|c|}\n\\hline\nA & B & C & D & C & B & A \\\\\n\\hline\nB & E & F & G & F & E & B \\\\\n\\hline\nC & F & H & I & H & F & C \\\\\n\\hline\nD & G & I & J & I & G & D \\\\\n\\hline\nC & F & H & I & H & F & C \\\\\n\\hline\nB & E & F & G & F & E & B \\\\\n\\hline\nA & B & C & D & C & B & A \\\\\n\\hline\n\\end{array}$$"
   },
   {
     "id": "amc12a-2018-16",
@@ -7729,7 +7737,8 @@
     "topics": [
       "2nd Degree Symmetric Sums",
       "Quadratics - Factoring"
-    ]
+    ],
+    "solutionLatex": "A. $a=\\dfrac{1}{4}$\n\nB. $\\dfrac{1}{4}<a<\\dfrac{1}{2}$\n\nC. $a>\\dfrac{1}{4}$\n\nD. $a=\\dfrac{1}{2}$\n\nE. $a>\\dfrac{1}{2}$\n\nSolving the second equation for $x^{2}$ gives $x^{2}=y+a$, and substituting into the first equation gives $y^{2}+y+\\left(a-a^{2}\\right)=0$. The polynomial in $y$ can be factored as $(y+(1-a))(y+a)$, so the solutions are $y=a-1$ and $y=-a$. (Alternatively, the solutions can be obtained using the quadratic formula.) The corresponding equations for $x$ are $x^{2}=2 a-1$ and $x^{2}=0$. The second equation always has the solution $x=0$, corresponding to the point of tangency at the vertex of the parabola $y=x^{2}-a$. The first equation has 2 solutions if and only if $a>\\dfrac{1}{2}$, corresponding to the 2 symmetric intersection points of the parabola with the circle. Thus the two curves intersect at 3 points if and only if $\\boxed{a>\\dfrac{1}{2}}$.\n\nOR\n\nSubstituting the value for $y$ from the second equation into the first equation yields\n\n$$x^{2}+\\left(x^{2}-a\\right)^{2}=a^{2}$$\n\nwhich is equivalent to\n\n$$x^{2}\\left(x^{2}-(2 a-1)\\right)=0$$\n\nThe first factor gives the solution $x=0$, and the second factor gives 2 other solutions if $a>\\dfrac{1}{2}$ and no other solutions if $a \\leq \\dfrac{1}{2}$. Thus there are 3 solutions if and only if $\\boxed{a>\\dfrac{1}{2}}$."
   },
   {
     "id": "amc12a-2018-17",
@@ -7750,7 +7759,8 @@
     "topics": [
       "Pythagorean theorem",
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "A. $\\dfrac{25}{27}$\n\nB. $\\dfrac{26}{27}$\n\nC. $\\dfrac{73}{75}$\n\nD. $\\dfrac{145}{147}$\n\nE. $\\dfrac{74}{75}$\n\nLet the triangle's vertices in the coordinate plane be $(4,0),(0,3)$, and $(0,0)$, with $[0, s] \\times[0, s]$ representing the unplanted portion of the field. The equation of the hypotenuse is $3 x+4 y-12=0$, so the distance from $(s, s)$, the corner of $S$ closest to the hypotenuse, to this line is given by\n\n$$\\dfrac{|3 s+4 s-12|}{\\sqrt{3^{2}+4^{2}}}$$\n\nSetting this equal to 2 and solving for $s$ gives $s=\\dfrac{22}{7}$ and $s=\\dfrac{2}{7}$, and the former is rejected because the square must lie within the triangle. The unplanted area is thus $\\left(\\dfrac{2}{7}\\right)^{2}=\\dfrac{4}{49}$, and the requested fraction is\n\n$$1-\\dfrac{\\dfrac{4}{49}}{\\dfrac{1}{2} \\cdot 4 \\cdot 3}= \\boxed{\\dfrac{145}{147}}$$\n\nOR\n\nLet the given triangle be described as $\\triangle A B C$ with the right angle at $B$ and $A B=3$. Let $D$ be the vertex of the square that is in the interior of the triangle, and let $s$ be the edge length of the square. Then two sides of the square along with line segments $\\overline{A D}$ and $\\overline{C D}$ decompose $\\triangle A B C$ into four regions. These regions are a triangle with base 5 and height 2 , the unplanted square with side $s$, a right triangle with legs $s$ and $3-s$, and a right triangle with legs $s$ and $4-s$. The sum of the areas of these four regions is\n\n$$\\dfrac{1}{2} \\cdot 5 \\cdot 2+s^{2}+\\dfrac{1}{2} s(3-s)+\\dfrac{1}{2} s(4-s)=5+\\dfrac{7}{2} s$$\n\nand the area of $\\triangle A B C$ is $6$. Solving $5+\\dfrac{7}{2} s=6$ for $s$ gives $s=\\dfrac{2}{7}$, and the solution concludes as above."
   },
   {
     "id": "amc12a-2018-18",
