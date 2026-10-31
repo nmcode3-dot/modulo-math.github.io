@@ -24,3 +24,7 @@
 # All-contest Random Math backfill
 - [x] Extend the safe downloader to all supported contest identities (14 safeguard tests passed).
 - [x] Start the full missing-solution pass across AMC 8, AMC 10, AMC 12, and AIME; verify initial saves preserve questions, answers, and existing solutions. The temporary workspace download is not guaranteed to survive a workspace restart; completion is not yet confirmed.
+
+# Solution diagrams
+- [ ] Save Random Math solution diagrams as project assets and preserve their position in worked solutions.
+- [ ] Verify diagrams render after completion and restart all-contest missing-solution downloads.
