@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 658.523,
+  "elapsedSeconds": 896.377,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -3755,6 +3755,1237 @@
       "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-5",
       "status": "saved",
       "seconds": 1.176
+    },
+    {
+      "id": "amc12b-2014-6",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-6",
+      "status": "saved",
+      "seconds": 1.269
+    },
+    {
+      "id": "amc12b-2014-7",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-7",
+      "status": "saved",
+      "seconds": 1.206
+    },
+    {
+      "id": "amc12b-2014-8",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-8",
+      "status": "saved",
+      "seconds": 1.221
+    },
+    {
+      "id": "amc12b-2014-9",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-9",
+      "status": "saved",
+      "seconds": 1.187
+    },
+    {
+      "id": "amc12b-2014-10",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-10",
+      "status": "saved",
+      "seconds": 1.225
+    },
+    {
+      "id": "amc12b-2014-11",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-11",
+      "status": "saved",
+      "seconds": 1.224
+    },
+    {
+      "id": "amc12b-2014-12",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-12",
+      "status": "saved",
+      "seconds": 1.159
+    },
+    {
+      "id": "amc12b-2014-13",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-13",
+      "status": "saved",
+      "seconds": 1.234
+    },
+    {
+      "id": "amc12b-2014-14",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-14",
+      "status": "saved",
+      "seconds": 1.249
+    },
+    {
+      "id": "amc12b-2014-15",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-15",
+      "status": "saved",
+      "seconds": 1.284
+    },
+    {
+      "id": "amc12b-2014-16",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-16",
+      "status": "saved",
+      "seconds": 1.377
+    },
+    {
+      "id": "amc12b-2014-17",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-17",
+      "status": "saved",
+      "seconds": 1.202
+    },
+    {
+      "id": "amc12b-2014-18",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-18",
+      "status": "saved",
+      "seconds": 1.091
+    },
+    {
+      "id": "amc12b-2014-19",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-19",
+      "status": "skipped",
+      "seconds": 1.105,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2014-20",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-20",
+      "status": "saved",
+      "seconds": 1.282
+    },
+    {
+      "id": "amc12b-2014-21",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-21",
+      "status": "saved",
+      "seconds": 1.593
+    },
+    {
+      "id": "amc12b-2014-22",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-22",
+      "status": "saved",
+      "seconds": 1.625
+    },
+    {
+      "id": "amc12b-2014-23",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-23",
+      "status": "saved",
+      "seconds": 1.347
+    },
+    {
+      "id": "amc12b-2014-24",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-24",
+      "status": "skipped",
+      "seconds": 1.251,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2014-25",
+      "url": "https://wiki.randommath.com/amc12/2014/part-b/problem-25",
+      "status": "saved",
+      "seconds": 1.482
+    },
+    {
+      "id": "amc12a-2013-1",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-1",
+      "status": "saved",
+      "seconds": 1.274
+    },
+    {
+      "id": "amc12a-2013-2",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-2",
+      "status": "saved",
+      "seconds": 1.153
+    },
+    {
+      "id": "amc12a-2013-3",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-3",
+      "status": "saved",
+      "seconds": 1.306
+    },
+    {
+      "id": "amc12a-2013-4",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-4",
+      "status": "saved",
+      "seconds": 1.333
+    },
+    {
+      "id": "amc12a-2013-5",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-5",
+      "status": "saved",
+      "seconds": 1.317
+    },
+    {
+      "id": "amc12a-2013-6",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-6",
+      "status": "saved",
+      "seconds": 1.32
+    },
+    {
+      "id": "amc12a-2013-7",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-7",
+      "status": "saved",
+      "seconds": 1.414
+    },
+    {
+      "id": "amc12a-2013-8",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-8",
+      "status": "saved",
+      "seconds": 1.275
+    },
+    {
+      "id": "amc12a-2013-9",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-9",
+      "status": "saved",
+      "seconds": 1.238
+    },
+    {
+      "id": "amc12a-2013-10",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-10",
+      "status": "saved",
+      "seconds": 1.246
+    },
+    {
+      "id": "amc12a-2013-11",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-11",
+      "status": "saved",
+      "seconds": 1.327
+    },
+    {
+      "id": "amc12a-2013-12",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-12",
+      "status": "saved",
+      "seconds": 1.546
+    },
+    {
+      "id": "amc12a-2013-13",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-13",
+      "status": "skipped",
+      "seconds": 1.327,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2013-14",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-14",
+      "status": "saved",
+      "seconds": 1.379
+    },
+    {
+      "id": "amc12a-2013-15",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-15",
+      "status": "saved",
+      "seconds": 1.241
+    },
+    {
+      "id": "amc12a-2013-16",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-16",
+      "status": "saved",
+      "seconds": 1.322
+    },
+    {
+      "id": "amc12a-2013-17",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-17",
+      "status": "saved",
+      "seconds": 1.293
+    },
+    {
+      "id": "amc12a-2013-18",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-18",
+      "status": "skipped",
+      "seconds": 1.208,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2013-19",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-19",
+      "status": "skipped",
+      "seconds": 1.248,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2013-20",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-20",
+      "status": "saved",
+      "seconds": 1.255
+    },
+    {
+      "id": "amc12a-2013-21",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-21",
+      "status": "saved",
+      "seconds": 1.609
+    },
+    {
+      "id": "amc12a-2013-22",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-22",
+      "status": "saved",
+      "seconds": 1.489
+    },
+    {
+      "id": "amc12a-2013-23",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-23",
+      "status": "skipped",
+      "seconds": 1.723,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2013-24",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-24",
+      "status": "saved",
+      "seconds": 1.856
+    },
+    {
+      "id": "amc12a-2013-25",
+      "url": "https://wiki.randommath.com/amc12/2013/part-a/problem-25",
+      "status": "saved",
+      "seconds": 1.579
+    },
+    {
+      "id": "amc12b-2013-1",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-1",
+      "status": "saved",
+      "seconds": 1.405
+    },
+    {
+      "id": "amc12b-2013-2",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-2",
+      "status": "saved",
+      "seconds": 1.204
+    },
+    {
+      "id": "amc12b-2013-3",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-3",
+      "status": "saved",
+      "seconds": 1.42
+    },
+    {
+      "id": "amc12b-2013-4",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-4",
+      "status": "saved",
+      "seconds": 1.222
+    },
+    {
+      "id": "amc12b-2013-5",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-5",
+      "status": "saved",
+      "seconds": 1.161
+    },
+    {
+      "id": "amc12b-2013-6",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-6",
+      "status": "saved",
+      "seconds": 1.206
+    },
+    {
+      "id": "amc12b-2013-7",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-7",
+      "status": "saved",
+      "seconds": 1.152
+    },
+    {
+      "id": "amc12b-2013-8",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-8",
+      "status": "saved",
+      "seconds": 1.266
+    },
+    {
+      "id": "amc12b-2013-9",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-9",
+      "status": "saved",
+      "seconds": 1.194
+    },
+    {
+      "id": "amc12b-2013-10",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-10",
+      "status": "saved",
+      "seconds": 1.23
+    },
+    {
+      "id": "amc12b-2013-11",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-11",
+      "status": "saved",
+      "seconds": 1.231
+    },
+    {
+      "id": "amc12b-2013-12",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-12",
+      "status": "saved",
+      "seconds": 1.222
+    },
+    {
+      "id": "amc12b-2013-13",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-13",
+      "status": "skipped",
+      "seconds": 1.351,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2013-14",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-14",
+      "status": "saved",
+      "seconds": 1.416
+    },
+    {
+      "id": "amc12b-2013-15",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-15",
+      "status": "saved",
+      "seconds": 1.357
+    },
+    {
+      "id": "amc12b-2013-16",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-16",
+      "status": "skipped",
+      "seconds": 1.5,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2013-17",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-17",
+      "status": "saved",
+      "seconds": 1.278
+    },
+    {
+      "id": "amc12b-2013-18",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-18",
+      "status": "saved",
+      "seconds": 1.27
+    },
+    {
+      "id": "amc12b-2013-19",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-19",
+      "status": "skipped",
+      "seconds": 1.291,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2013-20",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-20",
+      "status": "saved",
+      "seconds": 1.367
+    },
+    {
+      "id": "amc12b-2013-21",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-21",
+      "status": "skipped",
+      "seconds": 1.336,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2013-22",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-22",
+      "status": "saved",
+      "seconds": 1.504
+    },
+    {
+      "id": "amc12b-2013-23",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-23",
+      "status": "saved",
+      "seconds": 1.573
+    },
+    {
+      "id": "amc12b-2013-24",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-24",
+      "status": "skipped",
+      "seconds": 1.26,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2013-25",
+      "url": "https://wiki.randommath.com/amc12/2013/part-b/problem-25",
+      "status": "saved",
+      "seconds": 1.287
+    },
+    {
+      "id": "amc12a-2012-1",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-1",
+      "status": "saved",
+      "seconds": 1.179
+    },
+    {
+      "id": "amc12a-2012-2",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-2",
+      "status": "saved",
+      "seconds": 1.079
+    },
+    {
+      "id": "amc12a-2012-3",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-3",
+      "status": "saved",
+      "seconds": 1.089
+    },
+    {
+      "id": "amc12a-2012-4",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-4",
+      "status": "saved",
+      "seconds": 1.096
+    },
+    {
+      "id": "amc12a-2012-5",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-5",
+      "status": "saved",
+      "seconds": 1.074
+    },
+    {
+      "id": "amc12a-2012-6",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-6",
+      "status": "saved",
+      "seconds": 1.042
+    },
+    {
+      "id": "amc12a-2012-7",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-7",
+      "status": "saved",
+      "seconds": 1.115
+    },
+    {
+      "id": "amc12a-2012-8",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-8",
+      "status": "skipped",
+      "seconds": 1.101,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2012-9",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-9",
+      "status": "saved",
+      "seconds": 1.124
+    },
+    {
+      "id": "amc12a-2012-10",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-10",
+      "status": "skipped",
+      "seconds": 1.156,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2012-11",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-11",
+      "status": "saved",
+      "seconds": 1.147
+    },
+    {
+      "id": "amc12a-2012-12",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-12",
+      "status": "skipped",
+      "seconds": 1.127,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2012-13",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-13",
+      "status": "saved",
+      "seconds": 1.092
+    },
+    {
+      "id": "amc12a-2012-14",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-14",
+      "status": "skipped",
+      "seconds": 1.124,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2012-15",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-15",
+      "status": "saved",
+      "seconds": 1.086
+    },
+    {
+      "id": "amc12a-2012-16",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-16",
+      "status": "skipped",
+      "seconds": 1.156,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2012-17",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-17",
+      "status": "saved",
+      "seconds": 1.228
+    },
+    {
+      "id": "amc12a-2012-18",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-18",
+      "status": "saved",
+      "seconds": 1.308
+    },
+    {
+      "id": "amc12a-2012-19",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-19",
+      "status": "saved",
+      "seconds": 1.218
+    },
+    {
+      "id": "amc12a-2012-20",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-20",
+      "status": "saved",
+      "seconds": 1.231
+    },
+    {
+      "id": "amc12a-2012-21",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-21",
+      "status": "saved",
+      "seconds": 1.177
+    },
+    {
+      "id": "amc12a-2012-22",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-22",
+      "status": "skipped",
+      "seconds": 1.275,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2012-23",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-23",
+      "status": "skipped",
+      "seconds": 1.251,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2012-24",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-24",
+      "status": "saved",
+      "seconds": 1.261
+    },
+    {
+      "id": "amc12a-2012-25",
+      "url": "https://wiki.randommath.com/amc12/2012/part-a/problem-25",
+      "status": "skipped",
+      "seconds": 1.308,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2012-1",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-1",
+      "status": "saved",
+      "seconds": 1.084
+    },
+    {
+      "id": "amc12b-2012-2",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-2",
+      "status": "saved",
+      "seconds": 1.149
+    },
+    {
+      "id": "amc12b-2012-3",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-3",
+      "status": "saved",
+      "seconds": 1.098
+    },
+    {
+      "id": "amc12b-2012-4",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-4",
+      "status": "saved",
+      "seconds": 1.059
+    },
+    {
+      "id": "amc12b-2012-5",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-5",
+      "status": "saved",
+      "seconds": 1.033
+    },
+    {
+      "id": "amc12b-2012-6",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-6",
+      "status": "saved",
+      "seconds": 1.032
+    },
+    {
+      "id": "amc12b-2012-7",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-7",
+      "status": "saved",
+      "seconds": 1.018
+    },
+    {
+      "id": "amc12b-2012-8",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-8",
+      "status": "saved",
+      "seconds": 1.078
+    },
+    {
+      "id": "amc12b-2012-9",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-9",
+      "status": "saved",
+      "seconds": 1.067
+    },
+    {
+      "id": "amc12b-2012-10",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-10",
+      "status": "saved",
+      "seconds": 1.018
+    },
+    {
+      "id": "amc12b-2012-11",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-11",
+      "status": "saved",
+      "seconds": 1.05
+    },
+    {
+      "id": "amc12b-2012-12",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-12",
+      "status": "saved",
+      "seconds": 1.066
+    },
+    {
+      "id": "amc12b-2012-13",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-13",
+      "status": "saved",
+      "seconds": 1.074
+    },
+    {
+      "id": "amc12b-2012-14",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-14",
+      "status": "saved",
+      "seconds": 0.995
+    },
+    {
+      "id": "amc12b-2012-15",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-15",
+      "status": "skipped",
+      "seconds": 1.125,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2012-16",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-16",
+      "status": "saved",
+      "seconds": 1.098
+    },
+    {
+      "id": "amc12b-2012-17",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-17",
+      "status": "skipped",
+      "seconds": 1.157,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2012-18",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-18",
+      "status": "saved",
+      "seconds": 1.092
+    },
+    {
+      "id": "amc12b-2012-19",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-19",
+      "status": "skipped",
+      "seconds": 1.349,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2012-20",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-20",
+      "status": "saved",
+      "seconds": 1.262
+    },
+    {
+      "id": "amc12b-2012-21",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-21",
+      "status": "skipped",
+      "seconds": 1.39,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2012-22",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-22",
+      "status": "skipped",
+      "seconds": 1.294,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2012-23",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-23",
+      "status": "saved",
+      "seconds": 1.26
+    },
+    {
+      "id": "amc12b-2012-24",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-24",
+      "status": "saved",
+      "seconds": 1.422
+    },
+    {
+      "id": "amc12b-2012-25",
+      "url": "https://wiki.randommath.com/amc12/2012/part-b/problem-25",
+      "status": "skipped",
+      "seconds": 1.388,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2011-1",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-1",
+      "status": "saved",
+      "seconds": 1.072
+    },
+    {
+      "id": "amc12a-2011-2",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-2",
+      "status": "skipped",
+      "seconds": 1.138,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2011-3",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-3",
+      "status": "saved",
+      "seconds": 1.199
+    },
+    {
+      "id": "amc12a-2011-4",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-4",
+      "status": "saved",
+      "seconds": 1.098
+    },
+    {
+      "id": "amc12a-2011-5",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-5",
+      "status": "saved",
+      "seconds": 1.048
+    },
+    {
+      "id": "amc12a-2011-6",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-6",
+      "status": "saved",
+      "seconds": 1.02
+    },
+    {
+      "id": "amc12a-2011-7",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-7",
+      "status": "saved",
+      "seconds": 1.043
+    },
+    {
+      "id": "amc12a-2011-8",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-8",
+      "status": "saved",
+      "seconds": 1.061
+    },
+    {
+      "id": "amc12a-2011-9",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-9",
+      "status": "saved",
+      "seconds": 1.055
+    },
+    {
+      "id": "amc12a-2011-10",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-10",
+      "status": "saved",
+      "seconds": 1.039
+    },
+    {
+      "id": "amc12a-2011-11",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-11",
+      "status": "skipped",
+      "seconds": 1.026,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2011-12",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-12",
+      "status": "saved",
+      "seconds": 1.067
+    },
+    {
+      "id": "amc12a-2011-13",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-13",
+      "status": "skipped",
+      "seconds": 1.178,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2011-14",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-14",
+      "status": "saved",
+      "seconds": 1.15
+    },
+    {
+      "id": "amc12a-2011-15",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-15",
+      "status": "skipped",
+      "seconds": 1.061,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2011-16",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-16",
+      "status": "saved",
+      "seconds": 1.12
+    },
+    {
+      "id": "amc12a-2011-17",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-17",
+      "status": "skipped",
+      "seconds": 1.128,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2011-18",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-18",
+      "status": "saved",
+      "seconds": 1.14
+    },
+    {
+      "id": "amc12a-2011-19",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-19",
+      "status": "saved",
+      "seconds": 1.138
+    },
+    {
+      "id": "amc12a-2011-20",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-20",
+      "status": "saved",
+      "seconds": 1.198
+    },
+    {
+      "id": "amc12a-2011-21",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-21",
+      "status": "saved",
+      "seconds": 1.254
+    },
+    {
+      "id": "amc12a-2011-22",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-22",
+      "status": "saved",
+      "seconds": 1.341
+    },
+    {
+      "id": "amc12a-2011-23",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-23",
+      "status": "saved",
+      "seconds": 1.269
+    },
+    {
+      "id": "amc12a-2011-24",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-24",
+      "status": "saved",
+      "seconds": 1.201
+    },
+    {
+      "id": "amc12a-2011-25",
+      "url": "https://wiki.randommath.com/amc12/2011/part-a/problem-25",
+      "status": "skipped",
+      "seconds": 1.15,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-1",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-1",
+      "status": "saved",
+      "seconds": 1.037
+    },
+    {
+      "id": "amc12b-2011-2",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-2",
+      "status": "saved",
+      "seconds": 1.032
+    },
+    {
+      "id": "amc12b-2011-3",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-3",
+      "status": "saved",
+      "seconds": 0.994
+    },
+    {
+      "id": "amc12b-2011-4",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-4",
+      "status": "saved",
+      "seconds": 0.989
+    },
+    {
+      "id": "amc12b-2011-5",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-5",
+      "status": "saved",
+      "seconds": 1.069
+    },
+    {
+      "id": "amc12b-2011-6",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-6",
+      "status": "saved",
+      "seconds": 1.089
+    },
+    {
+      "id": "amc12b-2011-7",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-7",
+      "status": "saved",
+      "seconds": 1.063
+    },
+    {
+      "id": "amc12b-2011-8",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-8",
+      "status": "saved",
+      "seconds": 1.066
+    },
+    {
+      "id": "amc12b-2011-9",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-9",
+      "status": "saved",
+      "seconds": 1.146
+    },
+    {
+      "id": "amc12b-2011-10",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-10",
+      "status": "skipped",
+      "seconds": 1.079,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-11",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-11",
+      "status": "saved",
+      "seconds": 1.043
+    },
+    {
+      "id": "amc12b-2011-12",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-12",
+      "status": "skipped",
+      "seconds": 1.065,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-13",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-13",
+      "status": "saved",
+      "seconds": 1.055
+    },
+    {
+      "id": "amc12b-2011-14",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-14",
+      "status": "skipped",
+      "seconds": 1.084,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-15",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-15",
+      "status": "saved",
+      "seconds": 1.039
+    },
+    {
+      "id": "amc12b-2011-16",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-16",
+      "status": "skipped",
+      "seconds": 1.058,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-17",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-17",
+      "status": "saved",
+      "seconds": 1.051
+    },
+    {
+      "id": "amc12b-2011-18",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-18",
+      "status": "skipped",
+      "seconds": 1.086,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-19",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-19",
+      "status": "saved",
+      "seconds": 1.058
+    },
+    {
+      "id": "amc12b-2011-20",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-20",
+      "status": "skipped",
+      "seconds": 1.075,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-21",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-21",
+      "status": "saved",
+      "seconds": 1.075
+    },
+    {
+      "id": "amc12b-2011-22",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-22",
+      "status": "saved",
+      "seconds": 1.202
+    },
+    {
+      "id": "amc12b-2011-23",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-23",
+      "status": "skipped",
+      "seconds": 1.077,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-24",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-24",
+      "status": "skipped",
+      "seconds": 1.129,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2011-25",
+      "url": "https://wiki.randommath.com/amc12/2011/part-b/problem-25",
+      "status": "saved",
+      "seconds": 1.262
+    },
+    {
+      "id": "amc12a-2010-1",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-1",
+      "status": "saved",
+      "seconds": 1.075
+    },
+    {
+      "id": "amc12a-2010-2",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-2",
+      "status": "saved",
+      "seconds": 1.115
+    },
+    {
+      "id": "amc12a-2010-3",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-3",
+      "status": "saved",
+      "seconds": 1.1
+    },
+    {
+      "id": "amc12a-2010-4",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-4",
+      "status": "saved",
+      "seconds": 1.15
+    },
+    {
+      "id": "amc12a-2010-5",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-5",
+      "status": "saved",
+      "seconds": 1.079
+    },
+    {
+      "id": "amc12a-2010-6",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-6",
+      "status": "saved",
+      "seconds": 1.096
+    },
+    {
+      "id": "amc12a-2010-7",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-7",
+      "status": "saved",
+      "seconds": 1.066
+    },
+    {
+      "id": "amc12a-2010-8",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-8",
+      "status": "skipped",
+      "seconds": 1.117,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2010-9",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-9",
+      "status": "saved",
+      "seconds": 1.143
+    },
+    {
+      "id": "amc12a-2010-10",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-10",
+      "status": "saved",
+      "seconds": 1.13
+    },
+    {
+      "id": "amc12a-2010-11",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-11",
+      "status": "saved",
+      "seconds": 1.153
+    },
+    {
+      "id": "amc12a-2010-12",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-12",
+      "status": "saved",
+      "seconds": 1.126
+    },
+    {
+      "id": "amc12a-2010-13",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-13",
+      "status": "saved",
+      "seconds": 1.227
+    },
+    {
+      "id": "amc12a-2010-14",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-14",
+      "status": "saved",
+      "seconds": 1.26
+    },
+    {
+      "id": "amc12a-2010-15",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-15",
+      "status": "saved",
+      "seconds": 1.249
+    },
+    {
+      "id": "amc12a-2010-16",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-16",
+      "status": "saved",
+      "seconds": 1.253
+    },
+    {
+      "id": "amc12a-2010-17",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-17",
+      "status": "skipped",
+      "seconds": 1.249,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12a-2010-18",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-18",
+      "status": "saved",
+      "seconds": 1.155
+    },
+    {
+      "id": "amc12a-2010-19",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-19",
+      "status": "saved",
+      "seconds": 1.178
+    },
+    {
+      "id": "amc12a-2010-20",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-20",
+      "status": "saved",
+      "seconds": 1.152
+    },
+    {
+      "id": "amc12a-2010-21",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-21",
+      "status": "saved",
+      "seconds": 1.233
+    },
+    {
+      "id": "amc12a-2010-22",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-22",
+      "status": "saved",
+      "seconds": 1.186
+    },
+    {
+      "id": "amc12a-2010-23",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-23",
+      "status": "saved",
+      "seconds": 1.23
+    },
+    {
+      "id": "amc12a-2010-24",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-24",
+      "status": "saved",
+      "seconds": 1.171
+    },
+    {
+      "id": "amc12a-2010-25",
+      "url": "https://wiki.randommath.com/amc12/2010/part-a/problem-25",
+      "status": "skipped",
+      "seconds": 1.174,
+      "error": "KaTeX parse error: \\tag works only in display equations"
+    },
+    {
+      "id": "amc12b-2010-1",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-1",
+      "status": "saved",
+      "seconds": 1.1
+    },
+    {
+      "id": "amc12b-2010-2",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-2",
+      "status": "skipped",
+      "seconds": 0.989,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc12b-2010-3",
+      "url": "https://wiki.randommath.com/amc12/2010/part-b/problem-3",
+      "status": "saved",
+      "seconds": 1.047
     }
   ]
 }

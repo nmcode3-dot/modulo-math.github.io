@@ -16398,7 +16398,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_1",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "A. $15$\n\nB. $20$\n\nC. $25$\n\nD. $30$\n\nE. $35$\n\nMakayla spent $45+2 \\cdot 45=135$ minutes, or $\\dfrac{135}{60}=\\dfrac{9}{4}$ hours in meetings. Hence she spent $100 \\cdot \\dfrac{9 / 4}{9}= \\boxed{25}$ percent of her time in meetings."
   },
   {
     "id": "amc12b-2010-2",
@@ -16438,7 +16439,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2010_AMC_12B_Problems/Problem_3",
     "topics": [
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "A. $1$\n\nB. $2$\n\nC. $3$\n\nD. $4$\n\nE. $5$\n\nThe cost of an individual ticket must divide 48 and 64. The common factors of 48 and 64 are $1,2,4,8$, and 16. Each of these may be the cost of one ticket, so there are $\\boxed{5}$ possible values for $x$."
   },
   {
     "id": "amc12b-2010-4",
