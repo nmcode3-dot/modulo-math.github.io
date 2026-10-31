@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 12.328,
+  "elapsedSeconds": 18.359,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -77,6 +77,43 @@
       "url": "https://wiki.randommath.com/amc8/2020/problem-16",
       "status": "saved",
       "seconds": 1.025
+    },
+    {
+      "id": "amc8-2020-17",
+      "url": "https://wiki.randommath.com/amc8/2020/problem-17",
+      "status": "saved",
+      "seconds": 1.063
+    },
+    {
+      "id": "amc8-2019-5",
+      "url": "https://wiki.randommath.com/amc8/2019/problem-5",
+      "status": "saved",
+      "seconds": 0.986
+    },
+    {
+      "id": "amc8-2019-21",
+      "url": "https://wiki.randommath.com/amc8/2019/problem-21",
+      "status": "skipped",
+      "seconds": 0.951,
+      "error": "solution contains an image needing a separate asset import"
+    },
+    {
+      "id": "amc8-2019-22",
+      "url": "https://wiki.randommath.com/amc8/2019/problem-22",
+      "status": "saved",
+      "seconds": 1.001
+    },
+    {
+      "id": "amc8-2018-11",
+      "url": "https://wiki.randommath.com/amc8/2018/problem-11",
+      "status": "saved",
+      "seconds": 1.065
+    },
+    {
+      "id": "amc8-2017-2",
+      "url": "https://wiki.randommath.com/amc8/2017/problem-2",
+      "status": "saved",
+      "seconds": 0.964
     }
   ]
 }

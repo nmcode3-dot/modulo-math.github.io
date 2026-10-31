@@ -1986,7 +1986,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2020_AMC_8_Problems/Problem_17",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "The number 2020 has 12 factors.\n\n$$2020 = 1\\cdot2020$$\n\n$$= 2\\cdot1010$$\n\n$$= 4\\cdot505$$\n\n$$= 5\\cdot404$$\n\n$$= 10\\cdot202$$\n\n$$= 20\\cdot101$$\n\nThese factors may be classified as follows:\n\n$\\bullet$ The number $1$ has exactly $1$ factor.\n $\\bullet$ The numbers $2, 5$, and $101$ are primes, so each has exactly $2$ factors.\n $\\bullet$ The number $4$ has exactly $3$ factors, namely $1, 2$, and $4$.\n $\\bullet$ The remaining $7$ numbers, $10, 20, 202, 404, 505, 1010$, and $2020$, each have more than $3$ factors.\n\nThus $7$ of the factors of $2020$ have more than $3$ factors.\n\n$$OR$$\n\nIn order to determine the number of factors of $2020$, note that the prime factorization of $2020$ is\n\n$$2020 = 2^2 \\cdot5^1\\cdot101^1.$$\n\nThis means that each factor of $2020$ has the form $2^a\\cdot5^b \\cdot101^c$, where $a = 0,1$, or $2$; $b = 0$ or $1$; and $c=0$ or $1$. Thus the number of factors of $2020$ is $3\\cdot2\\cdot2 = 12$\n\nBy similar reasoning, any positive integer with at least $2$ distinct prime factors, say $p$ and $q$, has at least $4$ factors, namely $1, p, q,$ and $pq$.\n\nThe factors of $2020$ that have no more than $1$ distinct prime factor are $1, 2, 4, 5,$ and $101$. Each of these has at most $3$ factors. The remaining $7$ factors, $10, 20, 202, 404, 505, 1010,$ and $2020$, each have at least $2$ distinct prime factors. Therefore $7$ of the factors of $2020$ have more than $3$ factors.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc8-2020-18",
@@ -2273,7 +2274,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_8_Problems/Problem_5",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "The tortoise moves at a slow and steady speed. The graph of the tortoise's journey corresponds to a straight line. $Graph(D)$ is eliminated because there is no straight line. The hare's journey consists of running, then napping, then running again. The graph of the hare's journey corresponds to a line with steeper slope than the tortoise's, a horizontal line during his nap when his distance does not change, and another steep line. $Graphs (C)$ and $(E)$ are eliminated because there is no horizontal line corresponding to the hare's nap. The tortoise reaches the finish line before the hare. $Graph (A)$ is eliminated because it shows the hare catching up to the tortoise and finishing first. Only $Graph (B)$ matches the description of the problem.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc8-2019-6",
@@ -2632,7 +2634,8 @@
       "Fractions and Percents",
       "Conditional Probability",
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "Suppose the original price of the shirt was $100$ dollars and the price was increased by $x$ percent, producing a new price of $100 + x$ dollars. Then decreasing the new price by $x$ percent is equivalent to multiplying $100 + x$ by $(100 - x)$ percent. The resulting price was $84$ dollars. Thus\n\n$$(100+x).\\dfrac{100-x}{100}= 84$$\n\n$$100^2-x^2 = 8400$$\n\n$$x^2=1600$$\n\n$$x=40$$\n\nTherefore the perecent of increase and decrease was $40\\%$\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2019-23",
@@ -2934,7 +2937,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_8_Problems/Problem_11",
     "topics": [
       "Introduction to Probability"
-    ]
+    ],
+    "solutionLatex": "There are $6$ possible positions for Abby, and this leaves $5$ possible positions for Bridget. Because their order doesn't matter, the two girls can be placed in any of $\\dfrac{6\\cdot5}{2}=15$ pairs of positions. There are $2$ pairs of positions that are adjacent in the top row, $2$ pairs that are adjacent in the bottom row, and $3$ pairs that are adjacent in the same column. So the probability that they occupy adjacent positions is $\\dfrac{2+2+3}{15}$ = $\\dfrac{7}{15}$.\n\n$$OR$$\n\nThere is a $\\dfrac{2}{3}$ chance Abby is assigned to a corner position and a $\\dfrac{1}{3}$ chance that Abby is assigned to a middle position. If Abby is assigned to a corner position, there is a $\\dfrac{2}{5}$ chance that Bridget is adjacent to Abby. If Abby is assigned to a middle position, there is a $\\dfrac{3}{5}$ chance that Bridget is adjacent to Abby. Thus, the probability that Abby and Bridget are adjacent to each other in the same row or column is $\\dfrac{2}{3}\\cdot\\dfrac{2}{5}$ + $\\dfrac{1}{3}\\cdot\\dfrac{3}{5}$ = $\\dfrac{7}{15}$.\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc8-2018-12",
@@ -3286,7 +3290,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_8_Problems/Problem_2",
     "topics": [
       "Inclusion-Exclusion"
-    ]
+    ],
+    "solutionLatex": "Observe that $36$ votes made up $30 \\%$ of the total number of votes. Thus $12$ votes made up $10 \\%$ of the total number of votes and therefore there were $120$ total votes.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2017-3",
