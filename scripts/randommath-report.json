@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 26.685,
+  "elapsedSeconds": 27.78,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -164,6 +164,12 @@
       "url": "https://wiki.randommath.com/amc8/2014/problem-17",
       "status": "saved",
       "seconds": 1.071
+    },
+    {
+      "id": "amc8-2014-18",
+      "url": "https://wiki.randommath.com/amc8/2014/problem-18",
+      "status": "saved",
+      "seconds": 1.095
     }
   ]
 }

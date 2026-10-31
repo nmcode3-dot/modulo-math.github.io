@@ -5249,7 +5249,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_8_Problems/Problem_18",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "The $16$ equally likely outcomes may be grouped as follows:\n\n$4$ boys: $BBBB$\n\n$3$ boys, $1$ girl: $BBBG, BBGB, BGBB, GBBB$\n\n$2$ boys, $2$ girls: $BBGG, BGBG, BGGB, GBBG, GBGB, GGBB$\n\n$1$ boy, $3$ girls: $BGGG, GBGG, GGBG, GGGB$\n\n$4$ girls: $GGGG$\n\nThere are $8$ equally likely outcomes that produce $3$ of one gender and $1$ of the other gender, so that result is most likely.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc8-2014-19",
