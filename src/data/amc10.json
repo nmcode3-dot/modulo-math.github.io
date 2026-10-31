@@ -23120,7 +23120,8 @@
       "Problem-Solving: Shaded Regions - Circles",
       "Problem-Solving: Slice and Add the Shaded Region",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let $\\theta$ be the acute angle between the two lines. The area of shaded Region $1$ in the diagram is\n\n$$2 \\left(\\dfrac{1}{2} \\theta(1)^{2}\\right)=\\theta$$\n\n[[img:/__l5e/assets-v1/5a966996-a31f-4860-ac8b-a08c8d16e5a6/6a3c488d3bcdab96f71b22f2862c1d0a2d1d835006c41421135c2ba94387fe9f.png]]\n\nThe area of shaded Region $2$ is\n\n$$2 \\left(\\dfrac{1}{2}(\\pi- \\theta)\\left(2^{2} - 1^{2}\\right)\\right)=3\\pi - 3 \\theta$$\n\nThe area of shaded Region $3$ is\n\n$$2 \\left(\\dfrac{1}{2} \\theta\\left(3^{2} - 2^{2}\\right)\\right)=5 \\theta$$\n\nHence the total area of the shaded regions is $3\\pi+3 \\theta$. The area bounded by the largest circle is $9\\pi$, so\n\n$$\\dfrac{3\\pi+3 \\theta}{9\\pi}=\\dfrac{8}{8+13}$$\n\nSolving for $\\theta$ gives $\\theta= \\dfrac{\\pi}{7}$.\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10a-2004-22",
@@ -24409,7 +24410,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2003_AMC_10B_Problems/Problem_4",
     "topics": [
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "To minimize the cost, Rose should place the most expensive flowers in the smallest region, the next most expensive in the second smallest, etc. The areas of the regions are shown in the figure, so the minimal total cost, in dollars, is\n\n$$(3)(4)+(2.5)(6)+(2)(15)+(1.5)(20)+(1)(21)= 108.$$\n\n[[img:/__l5e/assets-v1/3343f5ee-8ede-4da0-9f8a-3563e329b025/20490a139252b701a9da59a49abe370dfae75e4203fa30a854f6b98234f7f73a.png]]\n\nAnswer: $\\boxed{108}$."
   },
   {
     "id": "amc10b-2003-5",
@@ -24733,7 +24735,8 @@
       "Problem-Solving: Weird Areas",
       "Logic",
       "Problem-Solving: Connecting the Centers"
-    ]
+    ],
+    "solutionLatex": "The area of the larger semicircle is\n\n$$\\dfrac{1}{2} \\pi(2)^{2}=2 \\pi$$\n\nThe region deleted from the larger semicircle consists of five congruent sectors and two equilateral triangles. The area of each of the sectors is\n\n$$\\dfrac{1}{6} \\pi(1)^{2}=\\dfrac{\\pi}{6}$$\n\nand the area of each triangle is\n\n$$\\dfrac{1}{2} \\cdot 1 \\cdot \\dfrac{\\sqrt{3}}{2}=\\dfrac{\\sqrt{3}}{4}$$\n\nso the area of the shaded region is\n\n$$2 \\pi-5 \\cdot \\dfrac{\\pi}{6}-2 \\cdot \\dfrac{\\sqrt{3}}{4}= \\dfrac{7}{6} \\pi-\\dfrac{\\sqrt{3}}{2}$$\n\n[[img:/__l5e/assets-v1/da101017-da3d-49ad-90f1-fd12e730517a/473dda9df71b59cbeb24659fd4edc040a9dbe35ea3291db1d59aa7f36a26e68b.png]]\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10b-2003-20",
@@ -24754,7 +24757,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Let $H$ be the foot of the perpendicular from $E$ to $\\overline{D C}$. Since $C D=A B=5$, $F G=2$, and $\\triangle F E G$ is similar to $\\triangle A E B$, we have\n\n$$\\dfrac{E H}{E H+3}=\\dfrac{2}{5}, \\quad \\text { so } \\quad 5 E H=2 E H+6$$\n\nand $E H=2$. Hence\n\n$$\\operatorname{Area}(\\triangle A E B)=\\dfrac{1}{2}(2+3) \\cdot 5=(\\text{D})\\boxed{\\dfrac{25}{2}}$$\n\n[[img:/__l5e/assets-v1/1a1158f8-6930-4179-9e5f-0ca1ccfb6bd8/5b218ba266253d7561eb68b613148ffe9f9a12f4668c40c10effa9e9b8291d20.png]]\n\n$$\\textbf{OR}$$\n\nLet $I$ be the foot of the perpendicular from $E$ to $\\overline{A B}$. Since\n\n$\\triangle E I A$ is similar to $\\triangle A D F$ and $\\triangle E I B$ is similar to $\\triangle B C G$, we have\n\n$$\\dfrac{A I}{E I}=\\dfrac{1}{3} \\quad \\text { and } \\quad \\dfrac{5-A I}{E I}=\\dfrac{2}{3}$$\n\n[[img:/__l5e/assets-v1/340e1d3b-e4d1-4182-915a-3bf4347b28ff/3c0f63a681bed612a046435ce995b6a4d7dbcc898d55457d4fd89acc025ca169.png]]\n\nAdding gives $5 / E I=1$, so $E I=5$. The area of the triangle is $\\dfrac{1}{2} \\cdot 5 \\cdot 5=\\dfrac{25}{2}$.\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10b-2003-21",
@@ -25281,7 +25285,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2002_AMC_10A_Problems/Problem_19",
     "topics": [
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Spot can go anywhere in a $240^{\\circ}$ sector of radius two yards and can cover a $60^{\\circ}$ sector of radius one yard around each of the adjoining corners. The total area is\n\n$$\\pi(2)^{2} \\cdot \\dfrac{240}{360}+2\\left(\\pi(1)^{2} \\cdot \\dfrac{60}{360}\\right)=3 \\pi.$$\n\n[[img:/__l5e/assets-v1/30af1fad-16ee-430b-b0e9-f9aa598b0323/f8ddda15851bd7bf9746d1a21c3973ede92d63539450f733b1ae670986a6240b.png]]\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc10a-2002-20",
@@ -25407,7 +25412,8 @@
     "topics": [
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "First drop perpendiculars from $D$ and $C$ to $\\overline{A B}$. Let $E$ and $F$ be the feet of the perpendiculars to $\\overline{A B}$ from $D$ and $C$, respectively, and let\n\n$$h=D E=C F, \\quad x=A E, \\quad \\text { and } \\quad y=F B$$\n\n[[img:/__l5e/assets-v1/973a0d27-a974-45da-ae2f-f3c9f9f0dd65/4e35ea778a27b063d8981748c6d540f438a32f0dbe25f2ecc15056486fa0a239.png]]\n\nThen\n\n$$25=h^{2}+x^{2}, \\quad 144=h^{2}+y^{2}, \\quad \\text { and } \\quad 13=x+y$$\n\nSo\n\n$$144=h^{2}+y^{2}=h^{2}+(13-x)^{2}=h^{2}+x^{2}+169-26 x=25+169-26 x$$\n\nwhich gives $x=50 / 26=25 / 13$, and\n\n$$h=\\sqrt{5^{2}-\\left(\\dfrac{25}{13}\\right)^{2}}=5 \\sqrt{1-\\dfrac{25}{169}}=5 \\sqrt{\\dfrac{144}{169}}=\\dfrac{60}{13}$$\n\nHence\n\n$$\\text { Area }(A B C D)=\\dfrac{1}{2}(39+52) \\cdot \\dfrac{60}{13}=210.$$\n\n$$\\textbf{OR}$$\n\nExtend $\\overline{A D}$ and $\\overline{B C}$ to intersect at $P$. Since $\\triangle P D C$ and $\\triangle P A B$ are similar, we have\n\n$$\\dfrac{P D}{P D+5}=\\dfrac{39}{52}=\\dfrac{P C}{P C+12}$$\n\nSo $P D=15$ and $P C=36$. Note that $15,36$, and $39$ are three times $5,12$, and $13$, respectively, so $\\angle A P B$ is a right angle. The area of the trapezoid is the difference of the areas of $\\triangle P A B$ and $\\triangle P D C$, so\n\n$$\\operatorname{Area}(A B C D)=\\dfrac{1}{2}(20)(48)-\\dfrac{1}{2}(15)(36)=210.$$\n\n[[img:/__l5e/assets-v1/094c21cd-36f3-4ef2-8da0-1ac0f546fe6a/5adee44cf7cbc0caf038c0342dc997bd895da31a4b3f271d481bf567ec45e443.png]]\n\n$$\\textbf{OR}$$\n\nDraw the line through $D$ parallel to $\\overline{B C}$, intersecting $\\overline{A B}$ at $E$. Then $B C D E$ is a parallelogram, so $D E=12, E B=39$, and $A E=52-39=13$. Thus $D E^{2}+A D^{2}=A E^{2}$, and $\\triangle A D E$ is a right triangle. Let $h$ be the altitude from $D$ to $\\overline{A E}$, and note that\n\n$$\\operatorname{Area}(A D E)=\\dfrac{1}{2}(5)(12)=\\dfrac{1}{2}(13)(h)$$\n\nso $h=60 / 13$. Thus\n\n$$\\operatorname{Area}(A B C D)=\\dfrac{60}{13} \\cdot \\dfrac{1}{2}(39+52)=210.$$\n\n[[img:/__l5e/assets-v1/f6397c19-32b4-4522-bded-ad21d0ed5dd7/58dece28e242fc4a446a73e6223888cc02c5e4b9c43d874de25c8b0156ea0561.png]]\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10b-2002-1",
@@ -25775,7 +25781,8 @@
     "topics": [
       "Problem-Solving: Polygons",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Construct the right triangle $\\triangle A O B$ as shown in the figure. Since $A B=2$, we have $A O=\\sqrt{2}$ and $A D=2+2 \\sqrt{2}$. Similarly, we have $O G=2+\\sqrt{2}$, so\n\n$$\\operatorname{Area}(\\triangle A D G)=\\dfrac{1}{2}(2+2 \\sqrt{2})(2+\\sqrt{2})=(1+\\sqrt{2})(2+\\sqrt{2})= 4+3 \\sqrt{2}.$$\n\n[[img:/__l5e/assets-v1/f979fc18-c062-45bf-a8f9-f2fa7cab94ed/76eaa5a6187960c51089e59f7902751ebe9196fdddf1ad8d08cd631db482c334.png]]\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10b-2002-18",
@@ -25928,7 +25935,8 @@
     "topics": [
       "Ratios and Rates",
       "Problem-Solving: Circle Basics"
-    ]
+    ],
+    "solutionLatex": "In the figure, the center of the wheel is at $O$, and the rider travels from $A$ to $B$. Since $A C=10$ and $O B=O A=20$, the point $C$ is the midpoint of $\\overline{O A}$. In the right $\\triangle O C B$, we have $O C$ half of the length of the hypotenuse $O B$, so $m \\angle C O B=60^{\\circ}$. Since the wheel turns through an angle of $360^{\\circ}$ in $60$ seconds, the time required to turn through an angle of $60^{\\circ}$ is\n\n$$60\\left(\\dfrac{60}{360}\\right)=10 \\text { seconds. }$$\n\n[[img:/__l5e/assets-v1/d63519b6-c000-4771-b071-aa63b065a24c/eaf0217dd6a493c3a7db8ee512f66cf505e4b1c66530d04a9471098a9d8e1243.png]]\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10b-2002-25",
@@ -26338,7 +26346,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2001_AMC_10_Problems/Problem_18",
     "topics": [
       "Fractions and Percents"
-    ]
+    ],
+    "solutionLatex": "The pattern shown at left is repeated in the plane. In fact, nine repetitions of it are shown in the statement of the problem. Note that four of the nine squres in the three-by-three square are not in the four pentagons that make up the three-by-three square. Therefore, the percentage of the plane that is enclosed by pentagons is\n\n$$1-\\dfrac{4}{9}=\\dfrac{5}{9}=55 \\dfrac{5}{9} \\%$$\n\n[[img:/__l5e/assets-v1/22222599-67ab-40a1-b3b4-5f4df8811045/120a17e0eaee4087d6ab58a7e5da0b9e5773ce9a68506b93e1bc69273ead18b6.png]]\n\nAnswer: $\\boxed{D}$."
   },
   {
     "id": "amc10-2001-19",
@@ -26597,7 +26606,8 @@
       "Length Chasing",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "Since $\\triangle A B P$ is similar to $\\triangle M N P$ and $P M=\\dfrac{1}{2} \\cdot A P$, it follows that $M N=\\dfrac{1}{2} \\cdot A B$. Since the base $A B$ and the altitude to $A B$ of $\\triangle A B P$ do not change, the area does not change. The altitude of the trapezoid is half that of the triangle, and the bases do not change as $P$ changes, so the area of the trapezoid does not change. Only the perimeter changes (reaching a minimum when $\\triangle A B P$ is isosceles).\n\n[[img:/__l5e/assets-v1/409ac724-ec72-489f-aadf-dc5e1c7b46b3/5a89a7043ff694810264ae72eeb7b6d19cc3e266915d95a52ca74268026ca131.png]]\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10-2000-6",
@@ -26766,7 +26776,8 @@
     "topics": [
       "Fundamental Counting Principle",
       "Constructive Counting"
-    ]
+    ],
+    "solutionLatex": "To avoid having two yellow pegs in the same row or column, there must be exactly one yellow peg in each row and in each column. Hence, starting at the top of the array, the peg in the first row must be yellow, the second peg of the second row must be yellow, the third peg of the third row must be yellow, etc. To avoid having two red pegs in some row, there must be a red peg in each of rows $2,3,4$ and $5$. The red pegs must be in the first position of the second row, the second position of the third row, etc. Continuation yields exactly $1$ ordering that meets the requirements, as shown.\n\n[[img:/__l5e/assets-v1/e46a1fb1-b9ba-4869-8bf9-d9082cff8df5/fc3f2cb0a27dc20ed92a6790ee04de22e13f45c0d42530efeca068129e662ab3.png]]\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10-2000-14",
@@ -26877,7 +26888,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "At any point on Charlyn's walk, she can see all the points inside a circle of radius $1 \\mathrm{~km}$. The portion of the viewable region inside the square consists of the interior of the square except for a smaller square with side length $3 \\mathrm{~km}$. This portion of the viewable region has area $(25-9) \\mathrm{km}^{2}$. The portion of the viewable region outside the square consists of four rectangles, each $5 \\mathrm{~km}$ by $1 \\mathrm{~km}$, and four quarter-circles, each with a radius of $1 \\mathrm{~km}$. This portion of the viewable region has area $4\\left(5+\\dfrac{\\pi}{4}\\right)=(20+\\pi) \\mathrm{km}^{2}$. The area of the entire viewable region is $36+\\pi \\approx 39 \\mathrm{~km}^{2}$.\n\n[[img:/__l5e/assets-v1/c1ecb347-22b3-4af4-b3b1-3928d7afba2a/3a03c41d3311098eb16b562f5a8b4d2ff080128bc52a67ed7f22f609ffe0a393.png]]\n\nAnswer: $\\boxed{C}$."
   },
   {
     "id": "amc10-2000-19",
@@ -26942,7 +26954,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2000_AMC_10_Problems/Problem_21",
     "topics": [
       "Algebra"
-    ]
+    ],
+    "solutionLatex": "From the conditions we can conclude that some creepy crawlers are ferocious (since some are alligators). Hence, there are some ferocious creatures that are creepy crawlers, and thus II must be true. The diagram below shows that the only conclusion that can be drawn is existence of an animal in the region with the dot. Thus, neither I nor III follows from the given conditions.\n\n[[img:/__l5e/assets-v1/a25e1378-34f5-4d4f-86f6-e2bdc65a23d3/f8dd62cd8be1848fc703046395c266cfb967808cf7a9a122844e12564cc86cc2.png]]\n\nAnswer: $\\boxed{B}$."
   },
   {
     "id": "amc10-2000-22",

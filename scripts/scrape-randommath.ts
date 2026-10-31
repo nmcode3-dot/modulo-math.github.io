@@ -33,7 +33,7 @@ const targets = contests.flatMap(key => {
   return missingSolutions(baseline).map(target => ({ file, target }));
 }).slice(0, limit);
 const reports: { id: string; url?: string; status: string; seconds: number; error?: string }[] = [];
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ headless: true, ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}) });
 const context = await browser.newContext({ locale: "en-US" });
 const page = await context.newPage();
 const started = Date.now();

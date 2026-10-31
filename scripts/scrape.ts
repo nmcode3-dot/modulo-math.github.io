@@ -43,7 +43,7 @@ async function browserGet(url: string): Promise<string | null> {
   try {
     if (!browserPage) {
       const { chromium } = await import("playwright");
-      const browser = await chromium.launch({ headless: true });
+      const browser = await chromium.launch({ headless: true, ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}) });
       const ctx = await browser.newContext({ locale: "en-US" });
       browserPage = await ctx.newPage();
       process.on("exit", () => { browser.close().catch(() => {}); });
