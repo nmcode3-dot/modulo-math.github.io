@@ -12104,7 +12104,8 @@
       "Floor Functions",
       "Functions - f(x) Notation",
       "Floor Function Strategies"
-    ]
+    ],
+    "solutionLatex": "A. $1$\n\nB. $\\dfrac{\\log 2015}{\\log 2014}$\n\nC. $\\dfrac{\\log 2014}{\\log 2013}$\n\nD. $\\dfrac{2014}{2013}$\n\nE. $2014^{\\dfrac{1}{2014}}$\n\nIf $x=n+r$, where $n$ is an integer, $1 \\leq n \\leq 2013$, and $0 \\leq r<1$, then $f(x)=n\\left(2014^{r}-1\\right)$. The condition $f(x) \\leq 1$ is equivalent to $2014^{r} \\leq 1+\\dfrac{1}{n}$, or $0 \\leq r \\leq \\log _{2014}\\left(\\dfrac{n+1}{n}\\right)$. Thus the required sum is\n\n$$\\begin{gathered}\n\\log _{2014} \\dfrac{2}{1}+\\log _{2014} \\dfrac{3}{2}+\\log _{2014} \\dfrac{4}{3}+\\cdots+\\log _{2014} \\dfrac{2014}{2013} \\\\\n\\quad=\\log _{2014}\\left(\\dfrac{2}{1} \\cdot \\dfrac{3}{2} \\cdot \\dfrac{4}{3} \\cdots \\dfrac{2014}{2013}\\right)=\\log _{2014}(2014)= \\boxed{1}\n\\end{gathered}$$"
   },
   {
     "id": "amc12a-2014-22",
@@ -12124,7 +12125,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_22",
     "topics": [
       "Exponent Rules"
-    ]
+    ],
+    "solutionLatex": "A. $278$\n\nB. $279$\n\nC. $280$\n\nD. $281$\n\nE. $282$\n\nBecause $2^{2}<5$ and $2^{3}>5$, there are either two or three integer powers of 2 strictly between any two consecutive integer powers of 5 . Thus for each $n$ there is at most one $m$ satisfying the given inequalities, and the question asks for the number of cases in which there are three powers rather than two. Let $d$ (respectively, $t$ ) be the number of nonnegative integers $n$ less than 867 such that there are exactly two (respectively, three) powers of 2 strictly between\n $5^{n}$ and $5^{n+1}$. Because $2^{2013}<5^{867}<2^{2014}$, it follows that $d+t=867$ and $2 d+3 t=2013$. Solving the system yields $t= \\boxed{279}$."
   },
   {
     "id": "amc12a-2014-23",
@@ -12145,7 +12147,8 @@
     "topics": [
       "Repeating Decimal",
       "Length Chasing"
-    ]
+    ],
+    "solutionLatex": "A. $874$\n\nB. $883$\n\nC. $887$\n\nD. $891$\n\nE. $892$\n\nNote that\n\n$$\\dfrac{10^{n}}{99^{2}}=\\dfrac{10^{n}}{9801}=b_{n-1} b_{n-2} \\ldots b_{2} b_{1} b_{0} \\cdot \\overline{b_{n-1} b_{n-2} \\ldots b_{2} b_{1} b_{0}}$$\n\nSubtracting the original equation gives\n\n$$\\dfrac{10^{n}-1}{99^{2}}=b_{n-1} b_{n-2} \\ldots b_{2} b_{1} b_{0}$$\n\nThus $10^{n}-1=99^{2} \\cdot b_{n-1} b_{n-2} \\ldots b_{2} b_{1} b_{0}$. It follows that $10^{n}-1$ is divisible by 11 and thus $n$ is even, say $n=2 N$. For $0 \\leq j \\leq N-1$, let $a_{j}=10 b_{2 j+1}+b_{2 j}$. Note that $0 \\leq a_{j} \\leq 99$, and because\n\n$$\\dfrac{10^{2 N}-1}{10^{2}-1}=1+10^{2}+10^{4}+\\cdots+10^{2(N-1)}$$\n\nit follows that\n\n$$\\sum_{k=0}^{N-1} 10^{2 k}=\\left(10^{2}-1\\right) \\sum_{k=0}^{N-1} a_{k} 10^{2 k}$$\n\nand so\n\n$$\\sum_{k=0}^{N-1} 10^{2 k}+\\sum_{k=0}^{N-1} a_{k} 10^{2 k}=\\sum_{k=1}^{N} a_{k-1} 10^{2 k}$$\n\nConsidering each side of the equation as numbers written in base 100 , it follows that $1+a_{0} \\equiv 0(\\bmod 100)$, so $a_{0}=99$ and there is a carry for the $10^{2}$ digit in the sum on the left side. Thus $1+\\left(1+a_{1}\\right) \\equiv a_{0}=99(\\bmod 100)$ and so $a_{1}=97$, and there is no carry for the $10^{4}$ digit. Next, $1+a_{2} \\equiv a_{1}=97$ $(\\bmod 100)$, and so $a_{2}=96$ with no carry for the $10^{6}$ digit. In the same way $a_{j}=98-j$ for $1 \\leq j \\leq 98$. Then $1+a_{99} \\equiv a_{98}=0(\\bmod 100)$ would yield $a_{99}=99$, and then the period would start again. Therefore $N=99$ and $b_{n-1} b_{n-2} \\ldots b_{2} b_{1} b_{0}=0001020304 \\ldots 969799$. By momentarily including 9 and 8 as two extra digits, the sum would be $(0+1+2+\\cdots+9) \\cdot 20=900$, so the required sum is $900-9-8= \\boxed{883}$."
   },
   {
     "id": "amc12a-2014-24",
@@ -12165,7 +12168,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_24",
     "topics": [
       "Absolute Value Tricks"
-    ]
+    ],
+    "solutionLatex": "A. $299$\n\nB. $300$\n\nC. $301$\n\nD. $302$\n\nE. $303$\n\nFor integers $n \\geq 1$ and $k \\geq 0$, if $f_{n-1}(x)= \\pm k$, then $f_{n}(x)=$ $k-1$. Thus if $f_{0}(x)= \\pm k$, then $f_{k}(x)=0$. Furthermore, if $f_{n}(x)=0$, then $f_{n+1}(x)=-1$ and $f_{n+2}(x)=0$. It follows that the zeros of $f_{100}$ are the solutions of $f_{0}(x)=2 k$ for $-50 \\leq k \\leq 50$. To count these solutions, note that\n\n$$f_{0}(x)= \\begin{cases}x+200 \\text { if } x<-100 \\\\ -x \\text { if }-100 \\leq x<100, \\text { and } \\\\ x-200 \\text { if } x \\geq 100\\end{cases}$$\n\nThe graph of $f_{0}(x)$ is piecewise linear with turning points at $(-100,100)$ and $(100,-100)$. The line $y=2 k$ crosses the graph three times for $-49 \\leq k \\leq 49$ and twice for $k= \\pm 50$. Therefore the number of zeros of $f_{100}(x)$ is $99 \\cdot 3+2 \\cdot 2= \\boxed{301}$."
   },
   {
     "id": "amc12a-2014-25",

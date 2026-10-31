@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 646.408,
+  "elapsedSeconds": 651.237,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -3695,6 +3695,30 @@
       "url": "https://wiki.randommath.com/amc12/2014/part-a/problem-20",
       "status": "saved",
       "seconds": 1.2
+    },
+    {
+      "id": "amc12a-2014-21",
+      "url": "https://wiki.randommath.com/amc12/2014/part-a/problem-21",
+      "status": "saved",
+      "seconds": 1.204
+    },
+    {
+      "id": "amc12a-2014-22",
+      "url": "https://wiki.randommath.com/amc12/2014/part-a/problem-22",
+      "status": "saved",
+      "seconds": 1.145
+    },
+    {
+      "id": "amc12a-2014-23",
+      "url": "https://wiki.randommath.com/amc12/2014/part-a/problem-23",
+      "status": "saved",
+      "seconds": 1.281
+    },
+    {
+      "id": "amc12a-2014-24",
+      "url": "https://wiki.randommath.com/amc12/2014/part-a/problem-24",
+      "status": "saved",
+      "seconds": 1.196
     }
   ]
 }
