@@ -7429,7 +7429,8 @@
     "topics": [
       "Arithmetic Word Problems",
       "AIME-level Inequalities"
-    ]
+    ],
+    "solutionLatex": "A. $48$\n\nB. $49$\n\nC. $50$\n\nD. $51$\n\nE. $52$\n\nThe 5 -pound rocks have a value of $\\$ 14 \\div 5=\\$ 2.80$ per pound; the 4 -pound rocks have a value of $\\$ 11 \\div 4=\\$ 2.75$ per pound; the 1-pound rocks have a value of $\\$ 2$ per pound. It is not to Carl's advantage to take 1-pound rocks when he can take the larger rocks. Therefore the only issue is how many of the more valuable 5 -pound rocks to take, including as many 4-pound rocks as possible in each case. The viable choices are displayed in the following table.\n\n$$\\begin{array}{|c|c|c|c|}\n\\hline\n\\textbf{5-pound rocks} & \\textbf{4-pound rocks} & \\textbf{1-pound rocks} & \\textbf{Total value} \\\\\n\\text{(\\$14 each)} & \\text{(\\$11 each)} & \\text{(\\$2 each)} & \\text{(\\$)} \\\\\n\\hline\n3 & 0 & 3 & \\$48 \\\\\n2 & 2 & 0 & \\$50 \\\\\n1 & 3 & 1 & \\$49 \\\\\n0 & 4 & 2 & \\$48 \\\\\n\\hline\n\\end{array}$$\n\nThe maximum possible value is $\\boxed{\\$ 50}$.\n\nNote: Although the 5-pound rocks are the most valuable per pound, it was not to Carl's advantage to take as many of them as possible. This situation is an example of the classic knapsack problem for which the so-called \"greedy algorithm\" is not optimal."
   },
   {
     "id": "amc12a-2018-3",
@@ -7472,7 +7473,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_4",
     "topics": [
       "Distance, Rate, Time"
-    ]
+    ],
+    "solutionLatex": "A. $(0,4)$\n\nB. $(4,5)$\n\nC. $(4,6)$\n\nD. $(5,6)$\n\nE. $(5, \\infty)$\n\nBecause the statements of Alice, Bob, and Charlie are all incorrect, the actual distance $d$ satisfies $d<6, d\\rangle 5$, and $d>4$. Hence the actual distance lies in the interval $\\boxed{(5,6)}$."
   },
   {
     "id": "amc12a-2018-5",
@@ -7513,7 +7515,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_12A_Problems/Problem_6",
     "topics": [
       "Mean Median Mode"
-    ]
+    ],
+    "solutionLatex": "A. $20$\n\nB. $21$\n\nC. $22$\n\nD. $23$\n\nE. $24$\n\nNote that the given conditions imply that the 6 values are listed in increasing order. Because the median of the these 6 values is $n$, the mean of the middle two values must be $n$, so\n\n$$\\dfrac{(m+10)+(n+1)}{2}=n$$\n\nwhich implies $m=n-11$. Because the mean of the set is also $n$,\n\n$$\\dfrac{(n-11)+(n-7)+(n-1)+(n+1)+(n+2)+2 n}{6}=n$$\n\nso $7 n-16=6 n$ and $n=16$. Then $m=16-11=5$, and the requested sum is $5+16= \\boxed{21}$."
   },
   {
     "id": "amc12a-2018-7",
@@ -7557,7 +7560,8 @@
       "Problem-Solving: Isosceles Equilateral Triangles",
       "Problem-Solving: Quadrilaterals",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "A. $16$\n\nB. $18$\n\nC. $20$\n\nD. $22$\n\nE. $24$\n\nThe length of the base $\\overline{D E}$ of $\\triangle A D E$ is 4 times the length of the base of a small triangle, so the area of $\\triangle A D E$ is $4^{2} \\cdot 1=16$. Therefore the area of $D B C E$ is the area of $\\triangle A B C$ minus the area of $\\triangle A D E$, which is $40-16= \\boxed{24}$."
   },
   {
     "id": "amc12a-2018-9",
