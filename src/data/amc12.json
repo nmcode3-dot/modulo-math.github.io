@@ -12057,7 +12057,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12A_Problems/Problem_19",
     "topics": [
       "Complementary Counting"
-    ]
+    ],
+    "solutionLatex": "A. $6$\n\nB. $12$\n\nC. $24$\n\nD. $48$\n\nE. $78$\n\nSolve the equation for $k$ to obtain $k=-\\dfrac{12}{x}-5 x$. For each integer value of $x$ except $x=0$, there is a corresponding rational value for $k$. As a function of $x,|k|=\\dfrac{12}{x}+5 x$ is increasing for $x \\geq 2$. Thus by inspection, the integer values of $x$ that ensure $|k|<200$ satisfy the inequality $-39 \\leq x \\leq 39$. There are 78 such values. Assume that $a$ and $b$ are two different integer values of $x$ that produce the same $k$. Then $k=-\\dfrac{12}{a}-5 a=-\\dfrac{12}{b}-5 b$, which simplifies to $(5 a b-12)(a-b)=0$. Because $a \\neq b$, it follows that $5 a b=12$, but there are no integers satisfying this equation. Thus the values of $k$ corresponding to the 78 values of $x$ are all distinct, and the answer is therefore $\\boxed{78}$ ."
   },
   {
     "id": "amc12a-2014-20",
@@ -12079,7 +12080,8 @@
       "Angle Chasing",
       "Problem-Solving: Angles",
       "AIME-level Inequalities"
-    ]
+    ],
+    "solutionLatex": "A. $6 \\sqrt{3}+3$\n\nB. $\\dfrac{27}{2}$\n\nC. $8 \\sqrt{3}$\n\nD. $14$\n\nE. $3 \\sqrt{3}+9$\n\nLet $B^{\\prime}$ be the reflection of point $B$ across $\\overline{A C}$, and let $C^{\\prime}$ be the reflection of point $C$ across $\\overline{A B}$. Then $A B^{\\prime}=A B=10, A C^{\\prime}=A C=$ 6, $B E=B^{\\prime} E, C D=C^{\\prime} D$, and $\\angle B^{\\prime} A C^{\\prime}=120^{\\circ}$. By the Law of Cosines, $B^{\\prime} C^{2}=10^{2}+6^{2}-2 \\cdot 10 \\cdot 6 \\cos 120^{\\circ}=196$; thus $B^{\\prime} C^{\\prime}=14$. Furthermore, $B^{\\prime} C^{\\prime} \\leq B^{\\prime} E+D E+C^{\\prime} D=B E+D E+C D$. Therefore the answer is $\\boxed{14}$ ."
   },
   {
     "id": "amc12a-2014-21",
