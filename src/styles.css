@@ -156,7 +156,6 @@
   .chip-active { @apply border-primary bg-primary text-primary-foreground hover:bg-primary; }
   .problem-card { @apply overflow-x-auto rounded-lg border bg-card p-6 shadow-sm; }
   .choice-btn { @apply flex items-start justify-start gap-1.5 rounded-md border bg-card px-3 py-3 text-left transition-colors hover:border-primary hover:bg-accent disabled:cursor-not-allowed disabled:hover:bg-card; }
-  .choice-btn .katex .katex-base { white-space: normal; width: auto; }
   .choice-wrong { @apply border-destructive bg-danger-soft text-destructive line-through opacity-80; }
   .choice-correct { @apply border-success bg-success-soft text-success; }
   .feedback-wrong { @apply font-medium text-destructive; }
@@ -168,6 +167,14 @@
   .status-solved { @apply bg-success-soft text-success; }
   .status-failed { @apply bg-danger-soft text-destructive; }
   .status-progress { @apply bg-accent text-accent-foreground; }
+}
+
+/* KaTeX css is unlayered, so this override must be unlayered too: let prose
+   choices wrap inside their buttons instead of spilling across neighbors. */
+.choice-btn .katex .katex-base {
+  white-space: normal;
+  width: auto;
+  max-width: 100%;
 }
 
 .problem-figure {
