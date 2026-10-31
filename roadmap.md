@@ -26,5 +26,5 @@
 - [x] Start the full missing-solution pass across AMC 8, AMC 10, AMC 12, and AIME; verify initial saves preserve questions, answers, and existing solutions. The temporary workspace download is not guaranteed to survive a workspace restart; completion is not yet confirmed.
 
 # Solution diagrams
-- [ ] Save Random Math solution diagrams as project assets and preserve their position in worked solutions.
-- [ ] Verify diagrams render after completion and restart all-contest missing-solution downloads.
+- [x] Save Random Math solution diagrams as project assets and preserve their position in worked solutions.
+- [x] Verify diagrams render after completion and restart all-contest missing-solution downloads. Verified AMC 10B 2007 #18 with a loaded 500×489 diagram; 13 safeguard tests passed. Full download completion remains subject to source availability and workspace lifetime.
