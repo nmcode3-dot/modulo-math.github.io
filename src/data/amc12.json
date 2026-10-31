@@ -12190,7 +12190,8 @@
     "topics": [
       "Graphing Functions",
       "Problem-Solving: Coordinate Bashing"
-    ]
+    ],
+    "solutionLatex": "A. $38$\n\nB. $40$\n\nC. $42$\n\nD. $44$\n\nE. $46$\n\nLet $O=(0,0), A=(4,3)$, and $B=(-4,-3)$. Because $A, B \\in P$ and $O$ is the midpoint of $\\overline{A B}$, it follows that $\\overline{A B}$ is the latus rectum of the parabola $P$. Thus the directrix is parallel to $\\overline{A B}$. Let $T$ be the foot of the perpendicular from $O$ to the directrix of $P$. Because $O T=O A=O B=5$ and $\\overline{O T}$ is perpendicular to $\\overline{A B}$, it follows that $T=(3,-4)$. Thus the equation of the directrix is $y+4=\\dfrac{3}{4}(x-3)$, and in general form the equation is $4 y-3 x+25=0$.\n\nUsing the formula for the distance from a point to a line, as well as the definition of $P$ as the locus of points equidistant from $O$ and the directrix, the equation of $P$ is\n\n$$\\sqrt{x^{2}+y^{2}}=\\dfrac{|4 y-3 x+25|}{\\sqrt{4^{2}+3^{2}}}$$\n\nAfter squaring and rearranging, this is equivalent to\n\n$$\\begin{aligned}\n25 x^{2}+25 y^{2} =25\\left(x^{2}+y^{2}\\right)=(4 y-3 x+25)^{2} \\\\\n=16 y^{2}+9 x^{2}-24 x y+25^{2}+50(4 y-3 x),\n\\end{aligned}$$\n\nand\n\n$$(4 x+3 y)^{2}=25(25+2(4 y-3 x)) .$$\n\nAssume $x$ and $y$ are integers. Then $4 x+3 y$ is divisible by 5 . If $4 x+3 y=5 s$ for $s \\in \\mathbb{Z}$, then $2 s^{2}=50+16 y-12 x=50+16 y-3(5 s-3 y)=50+25 y-15 s$. Thus $s$ is divisible by 5 . If $s=5 t$ for $t \\in \\mathbb{Z}$, then $2 t^{2}=2+y-3 t$, and so $y=2 t^{2}+3 t-2$. In addition $4 x=5 s-3 y=25 t-3 y=25 t-3\\left(2 t^{2}+3 t-2\\right)=-6 t^{2}+16 t+6$, and thus $t$ is odd. If $t=2 u+1$ for $u \\in \\mathbb{Z}$, then\n\n$$x=-6 u^{2}+2 u+4 \\text { and } y=8 u^{2}+14 u+3 \\text {. }$$\n\nConversely, if $x$ and $y$ are defined as in (2) for $u \\in \\mathbb{Z}$, then $x$ and $y$ are integers and they satisfy (1), which is the equation of $P$. Lastly, with $u \\in \\mathbb{Z}$,\n\n$$\\begin{aligned}\n|4 x+3 y| =\\left|-24 u^{2}+8 u+16+24 u^{2}+42 u+9\\right| \\\\\n=|50 u+25| \\leq 1000\n\\end{aligned}$$\n\nif and only if $u$ is an integer such that $|2 u+1| \\leq 39$. That is, $-20 \\leq u \\leq 19$, and so the required answer is $19-(-21)= \\boxed{40}$."
   },
   {
     "id": "amc12b-2014-1",
@@ -12210,7 +12211,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_1",
     "topics": [
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "A. $33$\n\nB. $35$\n\nC. $37$\n\nD. $39$\n\nE. $41$\n\nLeah has 7 pennies and 6 nickels, which are worth $\\boxed{37}$ cents."
   },
   {
     "id": "amc12b-2014-2",
@@ -12230,7 +12232,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_2",
     "topics": [
       "Arithmetic Word Problems"
-    ]
+    ],
+    "solutionLatex": "A. $33$\n\nB. $34$\n\nC. $36$\n\nD. $38$\n\nE. $39$\n\nThe special allows Orvin to purchase balloons at $\\dfrac{1+\\dfrac{2}{3}}{2}=\\dfrac{5}{6}$ times the regular price. Because Orvin had just enough money to purchase 30 balloons at the regular price, he may now purchase $30 \\cdot \\dfrac{6}{5}= \\boxed{36}$ balloons."
   },
   {
     "id": "amc12b-2014-3",
@@ -12250,7 +12253,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_3",
     "topics": [
       "Distance, Rate, Time"
-    ]
+    ],
+    "solutionLatex": "A. $30$\n\nB. $\\dfrac{400}{11}$\n\nC. $\\dfrac{75}{2}$\n\nD. $40$\n\nE. $\\dfrac{300}{7}$\n\nThe fraction of Randy's trip driven on pavement was $1-\\dfrac{1}{3}-\\dfrac{1}{5}=$ $\\dfrac{7}{15}$. Therefore the entire trip was $20 \\div \\dfrac{7}{15}= \\boxed{\\dfrac{300}{7}}$ miles."
   },
   {
     "id": "amc12b-2014-4",
@@ -12270,7 +12274,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2014_AMC_12B_Problems/Problem_4",
     "topics": [
       "Counting"
-    ]
+    ],
+    "solutionLatex": "A. $\\dfrac{3}{2}$\n\nB. $\\dfrac{5}{3}$\n\nC. $\\dfrac{7}{4}$\n\nD. $2$\n\nE. $\\dfrac{13}{4}$\n\nLet a muffin cost $m$ dollars and a banana cost $b$ dollars. Then $2(4 m+3 b)=2 m+16 b$, and simplifying gives $m= \\boxed{\\dfrac{5}{3} b}$."
   },
   {
     "id": "amc12b-2014-5",
