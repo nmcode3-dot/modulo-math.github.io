@@ -1,6 +1,6 @@
 {
   "dryRun": false,
-  "elapsedSeconds": 2.726,
+  "elapsedSeconds": 12.191,
   "results": [
     {
       "id": "amc8-2025-17",
@@ -8,6 +8,12 @@
       "status": "skipped",
       "seconds": 2.018,
       "error": "HTTP 404"
+    },
+    {
+      "id": "amc8-2024-3",
+      "url": "https://wiki.randommath.com/amc8/2024/problem-3",
+      "status": "saved",
+      "seconds": 9.464
     }
   ]
 }

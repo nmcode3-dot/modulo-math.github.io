@@ -81,7 +81,8 @@
     "topics": [
       "Problem-Solving: 3D Geometry",
       "Problem-Solving: Areas"
-    ]
+    ],
+    "solutionLatex": "[[img:/__l5e/assets-v1/1209a858-df87-4b1f-8894-14e035497486/609e62d27132c0f3270003b9f67a1e40e54ab8f63175726bc652a83abfbe4aa9.png]]\n\nThe visible colored region includes the area of the square with side length $10$ subtracted by the area of the square with side length $9$ plus the area of the square with side length $7$ minus the area of the square with side length $4$. Hence, we get\n\n$$100 - 81 + 49 - 16 = 52.$$\n\nThus, $E$ is the correct answer.\n\nAnswer: $\\boxed{E}$."
   },
   {
     "id": "amc8-2024-4",
