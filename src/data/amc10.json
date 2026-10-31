@@ -20263,7 +20263,8 @@
     "solutionUrl": "https://artofproblemsolving.com/wiki/index.php/2007_AMC_10B_Problems/Problem_18",
     "topics": [
       "Problem-Solving: Circle Basics"
-    ]
+    ],
+    "solutionLatex": "Construct the square $A B C D$ by connecting the centers of the large circles, as shown, and consider the isosceles right $\\triangle B A D$.\n\n[[img:/__l5e/assets-v1/6a2b546b-6c69-49a9-9575-c307725d1bc6/7d11fdec08390064bda384dff3694661dbfa12212a08b2ca257e88572193afdd.png]]\n\nSince $A B=A D=2 r$ and $B D=2+2 r$, we have $2(2 r)^{2}=(2+2 r)^{2}$. So\n\n$$1+2 r+r^{2}=2 r^{2}, \\quad \\text { and } \\quad r^{2}-2 r-1=0$$\n\nApplying the quadratic formula gives $r=(\\text{B})\\boxed{1+\\sqrt{2}}$."
   },
   {
     "id": "amc10b-2007-19",
