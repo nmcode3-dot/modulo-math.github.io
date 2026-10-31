@@ -15,3 +15,8 @@
 # Safe scraping
 - [x] Resume both tracks with validation that keeps unverified answers out of practice and preserves them for repair.
 - [x] Verify answer protection and confirm both processes are running (16 tests passed; both fetch processes confirmed).
+
+# Random Math solution source
+- [x] Inspect Random Math pages and compare retrieval with the existing source: direct browser access, no archive.
+- [x] Build a local solutions-only AMC 10 scraper with identity/TeX validation and 19 passing safeguard tests.
+- [x] Run a bounded live trial: 38 of 52 solutions saved in 54 seconds; 14 diagram-containing solutions skipped safely. Verified all non-solution fields unchanged. Preview completion controls did not respond in automated browser checks, so on-page display remains unverified.
